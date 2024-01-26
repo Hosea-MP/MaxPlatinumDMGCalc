@@ -1414,7 +1414,7 @@ var GSC_PATCH = {
     },
     Stantler: {
         types: ['Normal'],
-        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 35 },
+        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 65 },
         weightkg: 71.2
     },
     Steelix: {
