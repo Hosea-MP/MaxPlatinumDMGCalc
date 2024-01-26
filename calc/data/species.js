@@ -1122,7 +1122,7 @@ var GSC_PATCH = {
     Furret: { types: ['Normal'], bs: { hp: 85, at: 76, df: 64, sa: 45, sd: 55, sp: 90 }, weightkg: 32.5 },
     Girafarig: {
         types: ['Normal', 'Psychic'],
-        bs: { hp: 70, at: 80, df: 65, sa: 90, sd: 65, sp: 85 },
+        bs: { hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 85 },
         weightkg: 41.5
     },
     Gligar: {
@@ -1414,7 +1414,7 @@ var GSC_PATCH = {
     },
     Stantler: {
         types: ['Normal'],
-        bs: { hp: 73, at: 95, df: 62, sa: 85, sd: 65, sp: 85 },
+        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 35 },
         weightkg: 71.2
     },
     Steelix: {
@@ -1701,7 +1701,7 @@ var ADV_PATCH = {
     Flaaffy: { abilities: { 0: 'Static' } },
     Forretress: { abilities: { 0: 'Sturdy' } },
     Furret: { abilities: { 0: 'Run Away' } },
-    Girafarig: { abilities: { 0: 'Inner Focus' } },
+    Girafarig: { abilities: { 0: 'Speed Boost' } },
     Gligar: { abilities: { 0: 'Hyper Cutter' } },
     Granbull: { abilities: { 0: 'Intimidate' } },
     Heracross: { abilities: { 0: 'Swarm' } },
