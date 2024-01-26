@@ -1,1 +1,1 @@
-# VanillaNuzlockeCalc
+# Maximum Platinum Calc
