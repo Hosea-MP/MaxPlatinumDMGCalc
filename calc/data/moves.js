@@ -150,7 +150,7 @@ var RBY = {
     Toxic: { bp: 0, category: 'Status', type: 'Poison' },
     Flash: { bp: 0, category: 'Status', type: 'Normal' },
     Hypnosis: { bp: 0, category: 'Status', type: 'Psychic' },
-    'Leech Life': { bp: 20, type: 'Bug', drain: [1, 2] },
+    'Leech Life': { bp: 80, type: 'Bug', drain: [1, 2] },
     'Mega Drain': { bp: 40, type: 'Grass', drain: [1, 2] },
     'Vine Whip': { bp: 35, type: 'Grass' },
     Waterfall: { bp: 80, type: 'Water' },
