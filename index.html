@@ -152,7 +152,7 @@
                 <div>
                     <label>Type</label>
                     <select aria-label="type1" class="type1 terrain-trigger calc-trigger"></select>
-                    <select aria-label="type2" class="type2 terrain-trigger calc-trigger"></select>
+                    <select aria-label="type2" class="type2 terrain-trigger calc-trigger player"></select>
                     <small class="right">(<a class="analysis links-lighten" target="_blank" href="">Smogon&nbsp;analysis</a>)</small>
                 </div>
                 <div class="gen-specific g9">
@@ -661,6 +661,10 @@
                     <option value="5">5 times</option>
                 </select>
             </div>
+            <div class="trainer-poks ">
+                <div class="trainer-pok-list player-poks">
+                </div>
+            </div>
         </fieldset>
     </div>
 
@@ -1074,7 +1078,7 @@
     <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
         <fieldset class="poke-info" id="p2">
             <legend align="center">Pok&eacute;mon 2</legend>
-            <input type="text" class="set-selector calc-trigger" />
+            <input type="text" class="set-selector calc-trigger opposing" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
@@ -1589,6 +1593,18 @@
                     <option value="4">4 times</option>
                     <option value="5">5 times</option>
                 </select>
+            </div>
+            <div class="trainer-poks">
+
+                <div class="trainer-pok-list-opposing">
+                    <div class="trainer-pok-container">
+
+
+                    </div>
+
+
+                </div>
+
             </div>
         </fieldset>
     </div>
