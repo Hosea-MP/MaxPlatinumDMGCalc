@@ -422,7 +422,7 @@ var RBY = {
     },
     Lickitung: {
         types: ['Normal'],
-        bs: { hp: 110, at: 85, df: 95, sp: 50, sl: 60 },
+        bs: { hp: 90, at: 55, df: 75, sp: 30, sl: 60 },
         weightkg: 65.5
     },
     Machamp: {
@@ -739,7 +739,7 @@ var RBY = {
     },
     Tangela: {
         types: ['Grass'],
-        bs: { hp: 100, at: 100, df: 125, sp: 50, sl: 100 },
+        bs: { hp: 65, at: 55, df: 115, sp: 60, sl: 100 },
         weightkg: 35
     },
     Tauros: {
@@ -911,7 +911,7 @@ var GSC_PATCH = {
     Koffing: { bs: { sa: 60, sd: 45 } },
     Krabby: { bs: { sa: 25, sd: 25 } },
     Lapras: { bs: { sa: 85, sd: 95 } },
-    Lickitung: { bs: { sa: 80, sd: 95 } },
+    Lickitung: { bs: { sa: 60, sd: 75 } },
     Machamp: { bs: { sa: 65, sd: 85 } },
     Machoke: { bs: { sa: 50, sd: 60 } },
     Machop: { bs: { sa: 35, sd: 35 } },
@@ -974,7 +974,7 @@ var GSC_PATCH = {
     Squirtle: { bs: { sa: 50, sd: 64 } },
     Starmie: { bs: { sa: 100, sd: 85 }, gender: 'N' },
     Staryu: { bs: { sa: 70, sd: 55 }, gender: 'N' },
-    Tangela: { bs: { sa: 110, sd: 50 } },
+    Tangela: { bs: { sa: 100, sd: 40 } },
     Tauros: { bs: { sa: 40, sd: 70 } },
     Tentacool: { bs: { sa: 50, sd: 100 } },
     Tentacruel: { bs: { sa: 80, sd: 120 } },
@@ -993,7 +993,7 @@ var GSC_PATCH = {
     Wigglytuff: { bs: { sa: 75, sd: 50 } },
     Zapdos: { bs: { sa: 125, sd: 90 }, gender: 'N' },
     Zubat: { bs: { sa: 30, sd: 40 } },
-    Aipom: { types: ['Normal'], bs: { hp: 75, at: 100, df: 66, sa: 60, sd: 55, sp: 115 }, weightkg: 11.5 },
+    Aipom: { types: ['Normal'], bs: { hp: 55, at: 70, df: 55, sa: 40, sd: 55, sp: 85 }, weightkg: 11.5 },
     Ampharos: {
         types: ['Electric'],
         bs: { hp: 90, at: 75, df: 75, sa: 115, sd: 90, sp: 55 },
@@ -1127,7 +1127,7 @@ var GSC_PATCH = {
     },
     Gligar: {
         types: ['Ground', 'Flying'],
-        bs: { hp: 75, at: 95, df: 125, sa: 45, sd: 75, sp: 95 },
+        bs: { hp: 65, at: 75, df: 105, sa: 35, sd: 65, sp: 85 },
         weightkg: 64.8
     },
     Granbull: {
@@ -1258,12 +1258,12 @@ var GSC_PATCH = {
     },
     Misdreavus: {
         types: ['Ghost'],
-        bs: { hp: 60, at: 60, df: 60, sa: 105, sd: 105, sp: 105 },
+        bs: { hp: 60, at: 60, df: 60, sa: 85, sd: 85, sp: 85 },
         weightkg: 1
     },
     Murkrow: {
         types: ['Dark', 'Flying'],
-        bs: { hp: 100, at: 125, df: 52, sa: 105, sd: 52, sp: 71 },
+        bs: { hp: 60, at: 85, df: 42, sa: 85, sd: 42, sp: 91 },
         weightkg: 2.1
     },
     Natu: {
@@ -1296,7 +1296,7 @@ var GSC_PATCH = {
     },
     Piloswine: {
         types: ['Ice', 'Ground'],
-        bs: { hp: 110, at: 130, df: 80, sa: 70, sd: 60, sp: 80 },
+        bs: { hp: 100, at: 100, df: 80, sa: 60, sd: 60, sp: 50 },
         weightkg: 55.8
     },
     Pineco: {
@@ -1397,7 +1397,7 @@ var GSC_PATCH = {
     },
     Sneasel: {
         types: ['Dark', 'Ice'],
-        bs: { hp: 70, at: 120, df: 65, sa: 45, sd: 85, sp: 125 },
+        bs: { hp: 55, at: 95, df: 55, sa: 35, sd: 75, sp: 115 },
         weightkg: 28
     },
     Snubbull: {
@@ -1464,7 +1464,7 @@ var GSC_PATCH = {
     },
     Togetic: {
         types: ['Normal', 'Flying'],
-        bs: { hp: 85, at: 50, df: 95, sa: 120, sd: 115, sp: 80 },
+        bs: { hp: 55, at: 40, df: 85, sa: 80, sd: 105, sp: 40 },
         weightkg: 3.2
     },
     Totodile: {
@@ -1519,7 +1519,7 @@ var GSC_PATCH = {
     },
     Yanma: {
         types: ['Bug', 'Flying'],
-        bs: { hp: 86, at: 76, df: 86, sa: 116, sd: 56, sp: 95 },
+        bs: { hp: 65, at: 65, df: 45, sa: 75, sd: 45, sp: 95 },
         weightkg: 38
     }
 };
@@ -1577,7 +1577,7 @@ var ADV_PATCH = {
     Growlithe: { abilities: { 0: 'Intimidate' } },
     Gyarados: { abilities: { 0: 'Intimidate' } },
     Haunter: { abilities: { 0: 'Levitate' } },
-    Hitmonchan: { abilities: { 0: 'Guts' } },
+    Hitmonchan: { abilities: { 0: 'Keen Eye' } },
     Hitmonlee: { abilities: { 0: 'Limber' } },
     Horsea: { abilities: { 0: 'Swift Swim' } },
     Hypno: { abilities: { 0: 'Insomnia' } },
@@ -1617,7 +1617,7 @@ var ADV_PATCH = {
     'Nidoran-M': { abilities: { 0: 'Poison Point' } },
     Nidorina: { abilities: { 0: 'Poison Point' } },
     Nidorino: { abilities: { 0: 'Poison Point' } },
-    Ninetales: { abilities: { 0: 'Drought' } },
+    Ninetales: { abilities: { 0: 'Flash Fire' } },
     Oddish: { abilities: { 0: 'Chlorophyll' } },
     Omanyte: { abilities: { 0: 'Swift Swim' } },
     Omastar: { abilities: { 0: 'Swift Swim' } },
@@ -1650,8 +1650,8 @@ var ADV_PATCH = {
     Seaking: { abilities: { 0: 'Swift Swim' } },
     Seel: { abilities: { 0: 'Thick Fat' } },
     Shellder: { abilities: { 0: 'Shell Armor' } },
-    Slowbro: { abilities: { 0: 'Shell Armor' } },
-    Slowpoke: { abilities: { 0: 'Shell Armor' } },
+    Slowbro: { abilities: { 0: 'Oblivious' } },
+    Slowpoke: { abilities: { 0: 'Oblivious' } },
     Snorlax: { abilities: { 0: 'Immunity' } },
     Spearow: { abilities: { 0: 'Keen Eye' } },
     Squirtle: { abilities: { 0: 'Torrent' } },
@@ -1664,11 +1664,11 @@ var ADV_PATCH = {
     Vaporeon: { abilities: { 0: 'Water Absorb' } },
     Venomoth: { abilities: { 0: 'Shield Dust' } },
     Venonat: { abilities: { 0: 'Compound Eyes' } },
-    Venusaur: { abilities: { 0: 'Chlorophyll' } },
+    Venusaur: { abilities: { 0: 'Overgrow' } },
     Victreebel: { abilities: { 0: 'Chlorophyll' } },
     Vileplume: { abilities: { 0: 'Chlorophyll' } },
     Voltorb: { abilities: { 0: 'Soundproof' } },
-    Vulpix: { abilities: { 0: 'Drought' } },
+    Vulpix: { abilities: { 0: 'Flash Fire' } },
     Wartortle: { abilities: { 0: 'Torrent' } },
     Weedle: { abilities: { 0: 'Shield Dust' } },
     Weepinbell: { abilities: { 0: 'Chlorophyll' } },
@@ -1689,19 +1689,19 @@ var ADV_PATCH = {
     Cleffa: { abilities: { 0: 'Cute Charm' } },
     Corsola: { abilities: { 0: 'Hustle' } },
     Crobat: { abilities: { 0: 'Inner Focus' } },
-    Croconaw: { abilities: { 0: 'Intimidate' } },
+    Croconaw: { abilities: { 0: 'Torrent' } },
     Cyndaquil: { abilities: { 0: 'Blaze' } },
     Delibird: { abilities: { 0: 'Vital Spirit' } },
-    Donphan: { abilities: { 0: 'Shell Armor' } },
+    Donphan: { abilities: { 0: 'Sturdy' } },
     Dunsparce: { abilities: { 0: 'Serene Grace' } },
     Elekid: { abilities: { 0: 'Static' } },
     Entei: { abilities: { 0: 'Pressure' } },
     Espeon: { abilities: { 0: 'Synchronize' } },
-    Feraligatr: { abilities: { 0: 'Intimidate' } },
+    Feraligatr: { abilities: { 0: 'Torrent' } },
     Flaaffy: { abilities: { 0: 'Static' } },
     Forretress: { abilities: { 0: 'Sturdy' } },
     Furret: { abilities: { 0: 'Run Away' } },
-    Girafarig: { abilities: { 0: 'Speed Boost' } },
+    Girafarig: { abilities: { 0: 'Inner Focus' } },
     Gligar: { abilities: { 0: 'Hyper Cutter' } },
     Granbull: { abilities: { 0: 'Intimidate' } },
     Heracross: { abilities: { 0: 'Swarm' } },
@@ -1731,7 +1731,7 @@ var ADV_PATCH = {
     Natu: { abilities: { 0: 'Synchronize' } },
     Noctowl: { abilities: { 0: 'Insomnia' } },
     Octillery: { abilities: { 0: 'Suction Cups' } },
-    Phanpy: { abilities: { 0: 'Shell Armor' } },
+    Phanpy: { abilities: { 0: 'Pickup' } },
     Pichu: { abilities: { 0: 'Static' } },
     Piloswine: { abilities: { 0: 'Oblivious' } },
     Pineco: { abilities: { 0: 'Sturdy' } },
@@ -1750,7 +1750,7 @@ var ADV_PATCH = {
     Skiploom: { abilities: { 0: 'Chlorophyll' } },
     Slowking: { abilities: { 0: 'Oblivious' } },
     Slugma: { abilities: { 0: 'Magma Armor' } },
-    Smeargle: { abilities: { 0: 'Speed Boost' } },
+    Smeargle: { abilities: { 0: 'Own Tempo' } },
     Smoochum: { abilities: { 0: 'Oblivious' } },
     Sneasel: { abilities: { 0: 'Inner Focus' } },
     Snubbull: { abilities: { 0: 'Intimidate' } },
@@ -1765,7 +1765,7 @@ var ADV_PATCH = {
     Teddiursa: { abilities: { 0: 'Pickup' } },
     Togepi: { abilities: { 0: 'Hustle' } },
     Togetic: { abilities: { 0: 'Hustle' } },
-    Totodile: { abilities: { 0: 'Intimidate' } },
+    Totodile: { abilities: { 0: 'Torrent' } },
     Typhlosion: { abilities: { 0: 'Blaze' } },
     Tyranitar: { abilities: { 0: 'Sand Stream' } },
     Tyrogue: { abilities: { 0: 'Guts' } },
@@ -2257,7 +2257,7 @@ var ADV_PATCH = {
         types: ['Steel'],
         bs: { hp: 50, at: 85, df: 85, sa: 55, sd: 55, sp: 50 },
         weightkg: 11.5,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Hyper Cutter' }
     },
     Medicham: {
         types: ['Fighting', 'Psychic'],
@@ -2327,7 +2327,7 @@ var ADV_PATCH = {
     },
     Nosepass: {
         types: ['Rock'],
-        bs: { hp: 60, at: 55, df: 145, sa: 75, sd: 150, sp: 40 },
+        bs: { hp: 30, at: 45, df: 135, sa: 45, sd: 90, sp: 30 },
         weightkg: 97,
         abilities: { 0: 'Sturdy' }
     },
@@ -2415,7 +2415,7 @@ var ADV_PATCH = {
         types: ['Dark', 'Ghost'],
         bs: { hp: 50, at: 75, df: 75, sa: 65, sd: 65, sp: 50 },
         weightkg: 11,
-        abilities: { 0: 'Pressure' }
+        abilities: { 0: 'Keen Eye' }
     },
     Salamence: {
         types: ['Dragon', 'Flying'],
@@ -2594,13 +2594,13 @@ var ADV_PATCH = {
         bs: { hp: 45, at: 60, df: 40, sa: 70, sd: 50, sp: 45 },
         weightkg: 2.5,
         nfe: true,
-        abilities: { 0: 'Speed Boost' }
+        abilities: { 0: 'Blaze' }
     },
     Torkoal: {
         types: ['Fire'],
         bs: { hp: 70, at: 85, df: 140, sa: 85, sd: 70, sp: 20 },
         weightkg: 80.4,
-        abilities: { 0: 'Drought' }
+        abilities: { 0: 'White Smoke' }
     },
     Trapinch: {
         types: ['Ground'],
@@ -2647,13 +2647,13 @@ var ADV_PATCH = {
         bs: { hp: 130, at: 70, df: 35, sa: 70, sd: 35, sp: 60 },
         weightkg: 130,
         nfe: true,
-        abilities: { 0: 'Drizzle' }
+        abilities: { 0: 'Water Veil' }
     },
     Wailord: {
         types: ['Water'],
         bs: { hp: 170, at: 90, df: 45, sa: 90, sd: 45, sp: 60 },
         weightkg: 398,
-        abilities: { 0: 'Drizzle' }
+        abilities: { 0: 'Water Veil' }
     },
     Walrein: {
         types: ['Ice', 'Water'],
@@ -3576,7 +3576,7 @@ var DPP_PATCH = {
         otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash']
     },
     'Rotom-Mow': {
-        types: ['Electric', 'Grass'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3584,7 +3584,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Frost': {
-        types: ['Electric', 'Ice'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3592,7 +3592,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Heat': {
-        types: ['Electric', 'Fire'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3600,7 +3600,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Fan': {
-        types: ['Electric', 'Flying'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
@@ -3608,7 +3608,7 @@ var DPP_PATCH = {
         baseSpecies: 'Rotom'
     },
     'Rotom-Wash': {
-        types: ['Electric', 'Water'],
+        types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
