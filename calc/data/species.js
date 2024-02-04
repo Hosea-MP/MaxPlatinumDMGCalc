@@ -3576,40 +3576,40 @@ var DPP_PATCH = {
         otherFormes: ['Rotom-Fan', 'Rotom-Frost', 'Rotom-Heat', 'Rotom-Mow', 'Rotom-Wash']
     },
     'Rotom-Mow': {
-        types: ['Electric', 'Ghost'],
-        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
+        types: ['Electric', 'Grass'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
         baseSpecies: 'Rotom'
     },
     'Rotom-Frost': {
-        types: ['Electric', 'Ghost'],
-        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
+        types: ['Electric', 'Ice'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
         baseSpecies: 'Rotom'
     },
     'Rotom-Heat': {
-        types: ['Electric', 'Ghost'],
-        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
+        types: ['Electric', 'Fire'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
         baseSpecies: 'Rotom'
     },
     'Rotom-Fan': {
-        types: ['Electric', 'Ghost'],
-        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
+        types: ['Electric', 'Flying'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
         baseSpecies: 'Rotom'
     },
     'Rotom-Wash': {
-        types: ['Electric', 'Ghost'],
-        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
+        types: ['Electric', 'Water'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
@@ -3625,7 +3625,7 @@ var DPP_PATCH = {
     },
     'Shaymin-Sky': {
         types: ['Grass', 'Flying'],
-        bs: { hp: 100, at: 103, df: 75, sa: 120, sd: 75, sp: 127 },
+        bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 },
         weightkg: 5.2,
         abilities: { 0: 'Serene Grace' },
         gender: 'N',
