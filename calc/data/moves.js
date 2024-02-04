@@ -520,7 +520,7 @@ var ADV_PATCH = {
     'Metal Sound': { bp: 0, category: 'Status', type: 'Steel', isSound: true },
     'Meteor Mash': { bp: 100, type: 'Steel', makesContact: true },
     'Muddy Water': { bp: 90, type: 'Water', target: 'allAdjacentFoes' },
-    'Poison Fang': { bp: 50, type: 'Poison', makesContact: true },
+    'Poison Fang': { bp: 65, type: 'Poison', makesContact: true },
     'Rock Tomb': { bp: 50, type: 'Rock' },
     'Will-O-Wisp': { bp: 0, category: 'Status', type: 'Fire' },
     'Ice Ball': { bp: 30, type: 'Ice', makesContact: true },
