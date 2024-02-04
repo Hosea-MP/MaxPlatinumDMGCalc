@@ -475,7 +475,7 @@ $(".set-selector").change(function () {
 			continue
 		}
 		var pok_name = next_poks[i].split(" ")[0]
-		var pok = `<img class="trainer-pok right-side" src="./img/regular/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
+		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
 		trpok_html += pok
 	}
 }
@@ -1436,7 +1436,7 @@ function get_box() {
             box.push(names[i].split("[")[0])
 
             var pok_name = names[i].split(" (")[0]
-            var pok = `<img class="trainer-pok left-side" src="./img/regular/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
+            var pok = `<img class="trainer-pok left-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
 
             box_html += pok
         }   
