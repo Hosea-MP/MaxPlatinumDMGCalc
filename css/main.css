@@ -153,8 +153,9 @@ html, body {
 
 .trainer-pok{
     height:  100%;
-    width:  auto;
-    margin-right:  10px;
+    width:  15%;
+    margin-right:  0px;
+    margin-top:  -15px; 
     cursor: pointer;
     box-sizing: border-box;
 }
