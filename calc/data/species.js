@@ -3577,7 +3577,7 @@ var DPP_PATCH = {
     },
     'Rotom-Mow': {
         types: ['Electric', 'Grass'],
-        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
@@ -3585,7 +3585,7 @@ var DPP_PATCH = {
     },
     'Rotom-Frost': {
         types: ['Electric', 'Ice'],
-        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
@@ -3593,7 +3593,7 @@ var DPP_PATCH = {
     },
     'Rotom-Heat': {
         types: ['Electric', 'Fire'],
-        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
@@ -3601,7 +3601,7 @@ var DPP_PATCH = {
     },
     'Rotom-Fan': {
         types: ['Electric', 'Flying'],
-        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
@@ -3609,11 +3609,59 @@ var DPP_PATCH = {
     },
     'Rotom-Wash': {
         types: ['Electric', 'Water'],
-        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        bs: { hp: 50, at: 65, df: 107, sa: 105, sd: 107, sp: 86 },
         weightkg: 0.3,
         abilities: { 0: 'Levitate' },
         gender: 'N',
         baseSpecies: 'Rotom'
+    },
+     Rotom-AI: {
+        types: ['Electric', 'Ghost'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        otherFormes: ['Rotom-Fan-AI', 'Rotom-Frost-AI', 'Rotom-Heat-AI', 'Rotom-Mow-AI', 'Rotom-Wash-AI']
+    },
+    'Rotom-Mow-AI': {
+        types: ['Electric', 'Grass'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        baseSpecies: 'Rotom-AI'
+    },
+    'Rotom-Frost-AI': {
+        types: ['Electric', 'Ice'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        baseSpecies: 'Rotom-AI'
+    },
+    'Rotom-Heat-AI': {
+        types: ['Electric', 'Fire'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        baseSpecies: 'Rotom-AI'
+    },
+    'Rotom-Fan-AI': {
+        types: ['Electric', 'Flying'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        baseSpecies: 'Rotom-AI'
+    },
+    'Rotom-Wash-AI': {
+        types: ['Electric', 'Water'],
+        bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        gender: 'N',
+        baseSpecies: 'Rotom-AI'
     },
     Shaymin: {
         types: ['Grass'],
