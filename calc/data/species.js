@@ -3615,7 +3615,7 @@ var DPP_PATCH = {
         gender: 'N',
         baseSpecies: 'Rotom'
     },
-     Rotom-AI: {
+     'Rotom-AI': {
         types: ['Electric', 'Ghost'],
         bs: { hp: 50, at: 50, df: 77, sa: 95, sd: 77, sp: 91 },
         weightkg: 0.3,
