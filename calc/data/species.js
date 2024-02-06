@@ -1988,6 +1988,38 @@ var ADV_PATCH = {
         weightkg: 32.6,
         abilities: { 0: 'Cute Charm' }
     },
+    'Deoxys-AI': {
+        types: ['Psychic'],
+        bs: { hp: 50, at: 150, df: 50, sa: 150, sd: 50, sp: 150 },
+        weightkg: 60.8,
+        abilities: { 0: 'Pressure' },
+        gender: 'N',
+        otherFormes: ['Deoxys-Attack-AI', 'Deoxys-Defense-AI', 'Deoxys-Speed-AI']
+    },
+    'Deoxys-Attack-AI': {
+        types: ['Psychic'],
+        bs: { hp: 50, at: 150, df: 50, sa: 150, sd: 50, sp: 150 },
+        weightkg: 60.8,
+        abilities: { 0: 'Pressure' },
+        gender: 'N',
+        baseSpecies: 'Deoxys'
+    },
+    'Deoxys-Defense-AI': {
+        types: ['Psychic'],
+        bs: { hp: 50, at: 150, df: 50, sa: 150, sd: 50, sp: 150 },
+        weightkg: 60.8,
+        abilities: { 0: 'Pressure' },
+        gender: 'N',
+        baseSpecies: 'Deoxys'
+    },
+    'Deoxys-Speed-AI': {
+        types: ['Psychic'],
+        bs: { hp: 50, at: 150, df: 50, sa: 150, sd: 50, sp: 150 },
+        weightkg: 60.8,
+        abilities: { 0: 'Pressure' },
+        gender: 'N',
+        baseSpecies: 'Deoxys'
+    },
     Deoxys: {
         types: ['Psychic'],
         bs: { hp: 50, at: 150, df: 50, sa: 150, sd: 50, sp: 150 },
