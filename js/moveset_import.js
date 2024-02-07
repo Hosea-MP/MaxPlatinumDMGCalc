@@ -7,6 +7,7 @@ function placeBsBtn() {
 		var name = "Custom Set";
 		addSets(pokes, name);
 	});
+}
 
 function ExportPokemon(pokeInfo) {
 	var pokemon = createPokemon(pokeInfo);
