@@ -1436,7 +1436,7 @@ function get_box() {
             box.push(names[i].split("[")[0])
 
             var pok_name = names[i].split(" (")[0]
-            var pok = `<img class="trainer-pok left-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
+            var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
 
             box_html += pok
         }   

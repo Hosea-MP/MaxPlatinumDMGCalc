@@ -284,9 +284,9 @@ function addSets(pokes, name) {
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
 				if (j === 1 && currentRow[0].trim()) {
-					currentPoke.nameProp = currentRow[0].trim();
+					currentPoke.nameProp = "Custom Set";
 				} else {
-					currentPoke.nameProp = name;
+					currentPoke.nameProp = "Custom Set";
 				}
 				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));

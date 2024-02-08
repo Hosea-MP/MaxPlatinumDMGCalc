@@ -159,6 +159,9 @@ html, body {
     cursor: pointer;
     box-sizing: border-box;
 }
+.flipped-image {
+    transform: scaleX(-1);
+}
 
 .trainer-pok:hover {
     border:  1px solid #1abc9c;
