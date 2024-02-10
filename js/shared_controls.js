@@ -1330,7 +1330,6 @@ function getTerrainEffects() {
 		break;
 	}
 }
-
 function loadCustomList(id) {
 	$("#" + id + " .set-selector").select2({
 		formatResult: function (set) {
