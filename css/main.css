@@ -154,10 +154,11 @@ html, body {
 .trainer-pok{
     height:  100%;
     width:  15%;
-    margin-right:  6.6px;
-    margin-top:  1px; 
+    margin-right:  0px;
+    margin-top:  -15px; 
     cursor: pointer;
     box-sizing: border-box;
+    clip: rect(10px,0px,0px,0px);
 }
 .flipped-image {
     transform: scaleX(-1);
@@ -476,7 +477,7 @@ table.field {
 
 .import-team-text {
     min-width: 27em;
-    min-height: 10em;
+    min-height: 14em;
     resize: vertical;
 }
 
