@@ -457,9 +457,15 @@ function smogonAnalysis(pokemonName) {
 	var generation = ["rb", "gs", "rs", "dp", "bw", "xy", "sm", "ss", "sv"][gen - 1];
 	return "https://smogon.com/dex/" + generation + "/pokemon/" + pokemonName.toLowerCase() + "/";
 }
-function sortmons(a,b){
-	return parseInt(a.split("[")[1].split("]")[0]) - parseInt(b.split("[")[1].split("]")[0])
+function sortmons(a, b) {
+    // Extract the numeric value from the string within square brackets and convert it to an integer
+    var aValue = parseInt(a.split("[")[1].split("]")[0]);
+    var bValue = parseInt(b.split("[")[1].split("]")[0]);
+    
+    // Compare the numeric values and return the result
+    return aValue - bValue;
 }
+
 // auto-update set details on select
 $(".set-selector").change(function () {
     var fullSetName = $(this).val();
@@ -1465,10 +1471,10 @@ function get_box() {
 
 
 function get_trainer_poks(trainer_name) {
-    var true_name = trainer_name.split("(")[1].split("\n")[0];
+    var true_name = trainer_name.split("(")[1]
 
     // Remove any numeric characters from the true_name
-    true_name = true_name.replace(/\d/g, '');
+    true_name = true_name
 
     var matches = [];
     for (var i in TR_NAMES) {
@@ -1508,30 +1514,32 @@ previousTrainerButton.innerText = 'Previous Trainer';
 previousTrainerButton.addEventListener('click', previousTrainer);
 
 function nextTrainer() {
-	string = ($(".trainer-pok-list-opposing")).html()
-	initialSplit = string.split("[")
-	value = parseInt(initialSplit[initialSplit.length -2].split("]")[0]) + 1
+    string = $(".trainer-pok-list-opposing").html();
+    initialSplit = string.split("[");
+    value = parseInt(initialSplit[initialSplit.length - 2].split("]")[0]) + 1;
 
-	all_poks = SETDEX_DPP
-	for (const [pok_name, poks] of Object.entries(all_poks)) {
-        var pok_tr_names = Object.keys(poks)
+    console.log("Value:", value); // Add this console log statement
+
+    all_poks = SETDEX_DPP;
+    for (const [pok_name, poks] of Object.entries(all_poks)) {
+        var pok_tr_names = Object.keys(poks);
         for (i in pok_tr_names) {
-		   var index = (poks[pok_tr_names[i]]["index"])
-			if (index == value){
-				var set = `${pok_name} (${pok_tr_names[i]})`
-				$('.opposing').val(set)
+            var index = poks[pok_tr_names[i]]["index"];
+            if (index == value) {
+                var set = `${pok_name} (${pok_tr_names[i]})`;
+                $('.opposing').val(set);
 
-				$('.opposing').change()
-				$('.opposing .select2-chosen').text(set)
-			}
-
-        }      
+                $('.opposing').change();
+                $('.opposing .select2-chosen').text(set);
+            }
+        }
     }
 }
 
 var nextTrainerButton = document.getElementById('next-trainer');
 nextTrainerButton.innerText = 'Next Trainer';
 nextTrainerButton.addEventListener('click', nextTrainer);
+
 
 $(document).on('click', '.right-side', function() {
 	var set = $(this).attr('data-id')
