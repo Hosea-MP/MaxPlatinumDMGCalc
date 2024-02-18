@@ -462,29 +462,31 @@ function sortmons(a,b){
 }
 // auto-update set details on select
 $(".set-selector").change(function () {
-	var fullSetName = $(this).val();
+    var fullSetName = $(this).val();
 
-	if ($(this).hasClass('opposing')) {
-		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
+    if ($(this).hasClass('opposing')) {
+        CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName);
+        var next_poks = CURRENT_TRAINER_POKS.sort();
+        var trpok_html = "";
+
+        for (var i in next_poks) {
+            if (next_poks[i][0].includes($('input.opposing').val())) {
+                continue;
+            }
+            var pok_name = next_poks[i].split("]")[1].split(" (")[0];
+            if (pok_name == "Zygarde-10%") {
+                pok_name = "Zygarde-10%25";
+            }
+            var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("]")[1]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
+            trpok_html += pok;
+        }
+
+        console.log("Trainer Pokémon HTML:", trpok_html); // Log trpok_html
+
+        $('.trainer-pok-list-opposing').html(trpok_html);
+    }
 
 
-		var next_poks = CURRENT_TRAINER_POKS.sort()
-
-	var trpok_html = ""
-	for (i in next_poks ) {
-		if (next_poks[i][0].includes($('input.opposing').val())){
-			continue
-		}
-		var pok_name = next_poks[i].split("]")[1].split(" (")[0]
-			if (pok_name == "Zygarde-10%"){
-				pok_name = "Zygarde-10%25"
-			}
-		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
-		trpok_html += pok
-	}
-}
-
-	$('.trainer-pok-list-opposing').html(trpok_html)
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var pokemon = pokedex[pokemonName];
@@ -1462,18 +1464,22 @@ function get_box() {
 }
 
 
-function get_trainer_poks(trainer_name)
-{
+function get_trainer_poks(trainer_name) {
+    var true_name = trainer_name.split("(")[1].split("\n")[0];
 
-	var true_name = trainer_name.split("(")[1].split("\n")[0]
-    var matches = []
-    for (i in TR_NAMES) {
+    // Remove any numeric characters from the true_name
+    true_name = true_name.replace(/\d/g, '');
+
+    var matches = [];
+    for (var i in TR_NAMES) {
         if (TR_NAMES[i].includes(true_name)) {
-            matches.push(TR_NAMES[i])
+            matches.push(TR_NAMES[i]);
         }
     }
-    return matches
+    return matches;
 }
+
+
 
 function previousTrainer() {
 	string = ($(".trainer-pok-list-opposing")).html()
