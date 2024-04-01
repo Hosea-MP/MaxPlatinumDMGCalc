@@ -258,7 +258,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
             attacker.named('Palkia') &&
             move.hasType('Water', 'Dragon')) ||
         (attacker.hasItem('Griseous Orb') &&
-            attacker.named('Giratina-Origin') &&
+            attacker.named('Giratina-Origin', 'Giratina') &&
             move.hasType('Ghost', 'Dragon'))) {
         basePower = Math.floor(basePower * 1.2);
         desc.attackerItem = attacker.item;
