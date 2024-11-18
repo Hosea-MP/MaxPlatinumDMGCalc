@@ -127,15 +127,16 @@ a img {
     border-color: hsl(100,30%,41%);
 }
 
-/* general page styling */
 html, body {
     font: 10pt Verdana, sans-serif;
     background-color: white;
     color: black;
     margin: 0;
     padding: 0;
-    min-width: 100em;
+    /* Remove or reduce the min-width */
+    /* min-width: 100em; */ /* Removed */
 }
+
 
 .trainer-poks-label {
     margin:  10px 0px;
@@ -183,7 +184,7 @@ div.wrapper > div > span {
     padding-right: 5px;
 }
 fieldset {
-    float: left;
+    /* Remove float: left; */
     background-color: #F1F4F9;
     border: 1px solid #AAAAAA;
 }
@@ -232,8 +233,8 @@ th {
     font-size: 0.8em;
 }
 .panel {
-    float: left;
-    display: inline-block; /* required for honkaculate to work */
+    /* Remove float: left; */
+    /* Remove display: inline-block; */
 }
 .poke-info {
     width: 30em;
@@ -243,9 +244,16 @@ th {
     width: 27.5em;
 }
 .holder-0 {
-    position: absolute;
-    top: 151px;
+    position: static; /* Ensure it follows normal flow */
+    top: auto; /* Reset top property */
+    margin: 2em auto; /* Center horizontally and add vertical spacing */
+    width: 80%; /* Set a responsive width */
+    max-width: 800px; /* Optional: Limit the maximum width */
+    /* Add padding if needed */
+    padding: 1em;
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
+
 #holder-2 tr {
     white-space: nowrap;
 }
@@ -330,14 +338,20 @@ th {
     color: #999999;
 }
 .btn-group {
-    display: inline-block;
+    display: flex; /* Changed from inline-block to flex */
+    justify-content: center; /* Center contents */
     width: 100%;
+    gap: 10px; /* Add space between button groups */
 }
-.left {
-    float: left;
+.btn-group .left,
+.btn-group .right {
+    flex: 1; /* Allow left and right to take equal space */
+    display: flex;
+    justify-content: center;
 }
-.right {
-    float: right;
+.btn-group .left .btn,
+.btn-group .right .btn {
+    flex: 1;
 }
 .locked-move:checked + .btn {
     background: #ffff99;
@@ -431,10 +445,10 @@ select.toxic-counter {
     padding: 3px 3px;
 }
 .poke-info .max-btn {
-	font-size: 0.8em;
-	width: 2.5em;
-	height: 1em;
-	padding: 3px 3px;
+    font-size: 0.8em;
+    width: 2.5em;
+    height: 1em;
+    padding: 3px 3px;
 }
 
 /* field info */
@@ -466,8 +480,16 @@ table.field {
 }
 
 /* Bootstrap */
+.panel-group {
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to the top */
+    gap: 1em; /* Space between panels */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
 .panel-group > .panel {
-    clear: left;
+    clear: none; /* Remove clearing */
+    /* Remove float and display inline-block */
 }
 
 /* ColVis */
@@ -482,7 +504,7 @@ table.field {
 }
 
 .import-name-text {
-	min-width: 26.3em;
+    min-width: 26.3em;
     min-height: 1em;
     overflow: auto;
     display: inline;
@@ -529,4 +551,11 @@ table.field {
 .extraSetItems,
 .extraSetMoves {
     width: 100%;
+}
+
+/* Clearfix utility class */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
