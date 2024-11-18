@@ -39,7 +39,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Pressure",
-            "level": 74,
+            "level": 100,
             "moves": [
                 "Future Sight",
                 "Perish Song",
@@ -96,7 +96,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Unnerve",
-            "level": 46,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Dual Wingbeat",
@@ -120,7 +120,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Camron": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 66,
+            "level": 100,
             "item": "Rock Gem",
             "moves": [
                 "Brave Bird",
@@ -175,7 +175,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer May": {
             "nature": "Adamant",
             "ability": "Sturdy",
-            "level": 73,
+            "level": 100,
             "item": "Custap Berry",
             "moves": [
                 "Endeavor",
@@ -187,7 +187,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Rash",
             "ability": "Rock Head",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Autotomize",
                 "Double-Edge",
@@ -288,7 +288,7 @@ var SETDEX_SV = {
         "OU *Gentleman Tucker": {
             "nature": "Timid",
             "ability": "Magic Guard",
-            "level": 34,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Energy Ball",
@@ -344,7 +344,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Mitch": {
             "nature": "Sassy",
             "ability": "Natural Cure",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Dragon Dance",
                 "Moonblast",
@@ -412,7 +412,7 @@ var SETDEX_SV = {
         "OU Hiker Lenny": {
             "nature": "Sassy",
             "ability": "Battle Armor",
-            "level": 32,
+            "level": 100,
             "moves": [
                 "Crush Claw",
                 "Detect",
@@ -446,7 +446,7 @@ var SETDEX_SV = {
         "OU Tamer Edgar": {
             "nature": "Modest",
             "ability": "Intimidate",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Gunk Shot",
@@ -457,7 +457,7 @@ var SETDEX_SV = {
         "OU Youngster Johnson": {
             "nature": "Gentle",
             "ability": "Intimidate",
-            "level": 71,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Gunk Shot",
@@ -468,7 +468,7 @@ var SETDEX_SV = {
         "OU Youngster Eddie": {
             "nature": "Quiet",
             "ability": "Intimidate",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Gunk Shot",
@@ -479,7 +479,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Intimidate",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Gunk Shot",
@@ -490,7 +490,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 28,
+            "level": 100,
             "item": "Poison Barb",
             "moves": [
                 "Crunch",
@@ -558,7 +558,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 26,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Bulldoze",
@@ -570,7 +570,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Colby": {
             "nature": "Adamant",
             "ability": "Intimidate",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Extreme Speed",
@@ -582,7 +582,7 @@ var SETDEX_SV = {
         "OU Scientist Beau": {
             "nature": "Mild",
             "ability": "Intimidate",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Extreme Speed",
                 "Flamethrower",
@@ -593,7 +593,7 @@ var SETDEX_SV = {
         "OU *Burglar Lewis": {
             "nature": "Adamant",
             "ability": "Intimidate",
-            "level": 74,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Extreme Speed",
@@ -605,7 +605,7 @@ var SETDEX_SV = {
         "OU Super Nerd Erik": {
             "nature": "Mild",
             "ability": "Intimidate",
-            "level": 72,
+            "level": 100,
             "moves": [
                 "Fire Fang",
                 "Flare Blitz",
@@ -628,7 +628,7 @@ var SETDEX_SV = {
         "OU Juggler Kirk": {
             "nature": "Quiet",
             "ability": "Swarm",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Gunk Shot",
                 "Megahorn",
@@ -639,7 +639,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Quirky",
             "ability": "Swarm",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Fury Swipes",
                 "Leech Life",
@@ -706,7 +706,7 @@ var SETDEX_SV = {
         "OU Biker Hideo": {
             "nature": "Bashful",
             "ability": "Sturdy",
-            "level": 1,
+            "level": 100,
             "item": "Shell Bell",
             "moves": [
                 "Endeavor"
@@ -715,7 +715,7 @@ var SETDEX_SV = {
         "OU Friendly PkMnManiac": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 5,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Bulldoze",
@@ -829,7 +829,7 @@ var SETDEX_SV = {
         "OU SwimmerM Douglas": {
             "nature": "Lax",
             "ability": "Thick Fat",
-            "level": 61,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Hydro Pump",
@@ -879,7 +879,7 @@ var SETDEX_SV = {
         "OU Hiker Oliver": {
             "nature": "Relaxed",
             "ability": "Levitate",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Earth Power",
                 "Explosion",
@@ -913,7 +913,7 @@ var SETDEX_SV = {
         "OU Channeler Hope": {
             "nature": "Calm",
             "ability": "Insomnia",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Grudge",
@@ -1023,7 +1023,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Fiery Dance",
@@ -1048,7 +1048,7 @@ var SETDEX_SV = {
         "OU Beauty Bridget": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Poison Jab",
                 "Razor Leaf",
@@ -1103,7 +1103,7 @@ var SETDEX_SV = {
         "OU SwimmerM Jerome": {
             "nature": "Naive",
             "ability": "Torrent",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Iron Defense",
@@ -1158,7 +1158,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Sebastian": {
             "nature": "Adamant",
             "ability": "Speed Boost",
-            "level": 66,
+            "level": 100,
             "item": "Fighting Gem",
             "moves": [
                 "Close Combat",
@@ -1170,7 +1170,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Mitch": {
             "nature": "Serious",
             "ability": "Striker",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Flare Blitz",
@@ -1227,7 +1227,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Bold",
             "ability": "Natural Cure",
-            "level": 79,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Seismic Toss",
@@ -1306,7 +1306,7 @@ var SETDEX_SV = {
         "OU Black Belt Hideki": {
             "nature": "Modest",
             "ability": "Technician",
-            "level": 45,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Dynamic Punch",
@@ -1318,7 +1318,7 @@ var SETDEX_SV = {
         "OU Biker Gerald": {
             "nature": "Serious",
             "ability": "Effect Spore",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Drain Punch",
                 "Mach Punch",
@@ -1329,7 +1329,7 @@ var SETDEX_SV = {
         "OU Picnicker Tina": {
             "nature": "Careful",
             "ability": "Effect Spore",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Dynamic Punch",
                 "Seed Bomb",
@@ -1353,7 +1353,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Overgrow",
-            "level": 16,
+            "level": 100,
             "item": "Oran Berry",
             "moves": [
                 "Growth",
@@ -1365,7 +1365,7 @@ var SETDEX_SV = {
         "OU Rival Blue": {
             "nature": "Bashful",
             "ability": "Overgrow",
-            "level": 5,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Seed Bomb",
@@ -1389,7 +1389,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Robby": {
             "nature": "Hasty",
             "ability": "Compound Eyes",
-            "level": 10,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Captivate",
@@ -1400,7 +1400,7 @@ var SETDEX_SV = {
         "OU *Bug Catcher Cale": {
             "nature": "Timid",
             "ability": "Compound Eyes",
-            "level": 26,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Air Cutter",
@@ -1425,7 +1425,7 @@ var SETDEX_SV = {
         "OU Leader Brock": {
             "nature": "Bashful",
             "ability": "Sand Rush",
-            "level": 15,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Bullet Seed",
@@ -1460,7 +1460,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Camron": {
             "nature": "Jolly",
             "ability": "Sand Rush",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Knock Off",
@@ -1472,7 +1472,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Calm",
             "ability": "Sand Veil",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Feint Attack",
                 "Giga Drain",
@@ -1483,7 +1483,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Naughty",
             "ability": "Sand Veil",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Cotton Spore",
                 "Lunge",
@@ -1529,7 +1529,7 @@ var SETDEX_SV = {
         "OU Sailor Duncan": {
             "nature": "Naive",
             "ability": "Rough Skin",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Crunch",
@@ -1552,7 +1552,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Anthony": {
             "nature": "Modest",
             "ability": "Shed Skin",
-            "level": 7,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "Harden"
@@ -1597,7 +1597,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Robby": {
             "nature": "Careful",
             "ability": "Shield Dust",
-            "level": 12,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "String Shot",
@@ -1607,7 +1607,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Rick": {
             "nature": "Lax",
             "ability": "Shield Dust",
-            "level": 6,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "String Shot",
@@ -1641,7 +1641,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alma": {
             "nature": "Bold",
             "ability": "Natural Cure",
-            "level": 66,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Seismic Toss",
@@ -1721,7 +1721,7 @@ var SETDEX_SV = {
         "OU Burglar Arnie": {
             "nature": "Gentle",
             "ability": "Blaze",
-            "level": 67,
+            "level": 100,
             "moves": [
                 "Dragon Dance",
                 "Fire Spin",
@@ -1732,7 +1732,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Lucy": {
             "nature": "Timid",
             "ability": "Solar Power",
-            "level": 76,
+            "level": 100,
             "item": "Firium Z",
             "moves": [
                 "Air Slash",
@@ -1744,7 +1744,7 @@ var SETDEX_SV = {
         "OU Super Nerd Aavery": {
             "nature": "Modest",
             "ability": "Blaze",
-            "level": 71,
+            "level": 100,
             "moves": [
                 "Dragon Dance",
                 "Fire Spin",
@@ -1768,7 +1768,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Solar Power",
-            "level": 16,
+            "level": 100,
             "item": "Muscle Band",
             "moves": [
                 "Fire Fang",
@@ -1780,7 +1780,7 @@ var SETDEX_SV = {
         "OU Rival Blue": {
             "nature": "Bashful",
             "ability": "Blaze",
-            "level": 5,
+            "level": 100,
             "moves": [
                 "Fire Spin",
                 "Flamethrower",
@@ -1813,7 +1813,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Blaze",
-            "level": 28,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Brick Break",
@@ -1862,7 +1862,7 @@ var SETDEX_SV = {
         "OU Channeler Jennifer": {
             "nature": "Sassy",
             "ability": "Levitate",
-            "level": 39,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Forbidden Spell",
@@ -1898,7 +1898,7 @@ var SETDEX_SV = {
         "OU Sailor Dylan": {
             "nature": "Bashful",
             "ability": "Shell Armor",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Aurora Beam",
                 "Iron Defense",
@@ -1909,7 +1909,7 @@ var SETDEX_SV = {
         "OU Fisherman Ned": {
             "nature": "Hardy",
             "ability": "Shell Armor",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Aurora Beam",
                 "Iron Defense",
@@ -1920,7 +1920,7 @@ var SETDEX_SV = {
         "OU *Lass Reli": {
             "nature": "Modest",
             "ability": "Shell Armor",
-            "level": 26,
+            "level": 100,
             "item": "Deep Sea Tooth",
             "moves": [
                 "Icy Wind",
@@ -2021,7 +2021,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce Set 1": {
             "nature": "Modest",
             "ability": "Magic Guard",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Blizzard",
@@ -2033,7 +2033,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce Set 2": {
             "nature": "Modest",
             "ability": "Magic Guard",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Flamethrower",
@@ -2045,7 +2045,7 @@ var SETDEX_SV = {
         "OU Beauty Grace": {
             "nature": "Rash",
             "ability": "Cute Charm",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Double Slap",
                 "Metronome",
@@ -2056,7 +2056,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Magic Guard",
-            "level": 27,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Charge Beam",
@@ -2068,7 +2068,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Alexa": {
             "nature": "Modest",
             "ability": "Magic Guard",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Fire Blast",
@@ -2080,7 +2080,7 @@ var SETDEX_SV = {
         "OU Picnicker Heidi": {
             "nature": "Brave",
             "ability": "Magic Guard",
-            "level": 29,
+            "level": 100,
             "moves": [
                 "Double Slap",
                 "Metronome",
@@ -2112,7 +2112,7 @@ var SETDEX_SV = {
         "OU *Lass Anne": {
             "nature": "Bashful",
             "ability": "Magic Guard",
-            "level": 13,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Metronome"
@@ -2121,7 +2121,7 @@ var SETDEX_SV = {
         "OU Lass Julia": {
             "nature": "Docile",
             "ability": "Cute Charm",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "After You",
                 "Gravity",
@@ -2167,7 +2167,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Jolly",
             "ability": "Skill Link",
-            "level": 73,
+            "level": 100,
             "item": "White Herb",
             "moves": [
                 "Icicle Spear",
@@ -2179,7 +2179,7 @@ var SETDEX_SV = {
         "OU Fisherman Ronald": {
             "nature": "Impish",
             "ability": "Shell Armor",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Icicle Crash",
@@ -2190,7 +2190,7 @@ var SETDEX_SV = {
         "OU Scientist Parkker": {
             "nature": "Quiet",
             "ability": "Shell Armor",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Icicle Crash",
@@ -2201,7 +2201,7 @@ var SETDEX_SV = {
         "OU SwimmerM Richard": {
             "nature": "Quirky",
             "ability": "Skill Link",
-            "level": 59,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Icicle Crash",
@@ -2212,7 +2212,7 @@ var SETDEX_SV = {
         "OU *SwimmerM Finn": {
             "nature": "Jolly",
             "ability": "Skill Link",
-            "level": 99,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Icicle Spear",
@@ -2224,7 +2224,7 @@ var SETDEX_SV = {
         "OU SwimmerM Barry": {
             "nature": "Relaxed",
             "ability": "Skill Link",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Icicle Crash",
@@ -2235,7 +2235,7 @@ var SETDEX_SV = {
         "OU SwimmerF Nora": {
             "nature": "Modest",
             "ability": "Shell Armor",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Icicle Crash",
@@ -2246,7 +2246,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Jolly",
             "ability": "Skill Link",
-            "level": 81,
+            "level": 100,
             "item": "White Herb",
             "moves": [
                 "Icicle Spear",
@@ -2258,7 +2258,7 @@ var SETDEX_SV = {
         "OU SwimmerM Axle": {
             "nature": "Lonely",
             "ability": "Shell Armor",
-            "level": 61,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Icicle Crash",
@@ -2304,7 +2304,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Adaptability",
-            "level": 15,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Aerial Ace",
@@ -2329,7 +2329,7 @@ var SETDEX_SV = {
         "OU Sailor Leonard": {
             "nature": "Hardy",
             "ability": "Hustle",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Earth Power",
                 "Flail",
@@ -2386,7 +2386,7 @@ var SETDEX_SV = {
         "OU *Sailor Edmond": {
             "nature": "Modest",
             "ability": "Storm Drain",
-            "level": 26,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Earth Power",
@@ -2433,7 +2433,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Adaptability",
-            "level": 28,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Aqua Jet",
@@ -2445,7 +2445,7 @@ var SETDEX_SV = {
         "OU Sis And Bro Lil & Ian": {
             "nature": "Relaxed",
             "ability": "Hyper Cutter",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Crabhammer",
                 "Crunch",
@@ -2456,7 +2456,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Gentle",
             "ability": "Hyper Cutter",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Aqua Jet",
                 "Crabhammer",
@@ -2523,7 +2523,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Sniper",
-            "level": 26,
+            "level": 100,
             "item": "Scope Lens",
             "moves": [
                 "Air Cutter",
@@ -2535,7 +2535,7 @@ var SETDEX_SV = {
         "OU Biker Isaac": {
             "nature": "Hardy",
             "ability": "Sniper",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Heat Wave",
@@ -2546,7 +2546,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Rolando": {
             "nature": "Timid",
             "ability": "Sniper",
-            "level": 85,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Giga Drain",
@@ -2558,7 +2558,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Hardy",
             "ability": "Sniper",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -2569,7 +2569,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Mild",
             "ability": "Infiltrator",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -2603,7 +2603,7 @@ var SETDEX_SV = {
         "OU Sailor Huey": {
             "nature": "Relaxed",
             "ability": "Sheer Force",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Hydro Pump",
@@ -2627,7 +2627,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Steve": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Bone Rush",
                 "Double-Edge",
@@ -2674,7 +2674,7 @@ var SETDEX_SV = {
         "OU Picnicker Celia": {
             "nature": "Lax",
             "ability": "Cute Charm",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Attract",
                 "Hyper Voice",
@@ -2740,7 +2740,7 @@ var SETDEX_SV = {
         "OU Picnicker Irene": {
             "nature": "Naughty",
             "ability": "Thick Fat",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Dive",
@@ -2763,7 +2763,7 @@ var SETDEX_SV = {
         "OU SwimmerM David": {
             "nature": "Serious",
             "ability": "Ice Scales",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Dive",
@@ -2845,7 +2845,7 @@ var SETDEX_SV = {
         "OU Cue Ball Jamal": {
             "nature": "Careful",
             "ability": "Early Bird",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Double-Edge",
@@ -2856,7 +2856,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Marlon": {
             "nature": "Docile",
             "ability": "Rock Head",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Double-Edge",
@@ -2867,7 +2867,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Chester": {
             "nature": "Quirky",
             "ability": "Rock Head",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Double-Edge",
@@ -2878,7 +2878,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Shelly": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 59,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Brave Bird",
@@ -2903,7 +2903,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Chester": {
             "nature": "Quirky",
             "ability": "Early Bird",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Drill Peck",
                 "Endeavor",
@@ -2914,7 +2914,7 @@ var SETDEX_SV = {
         "OU Picnicker Leah": {
             "nature": "Calm",
             "ability": "Run Away",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Drill Peck",
                 "Endeavor",
@@ -2980,7 +2980,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Sturdy",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Bonemerang",
                 "Earthquake",
@@ -3121,7 +3121,7 @@ var SETDEX_SV = {
         "OU *Dragon Tamer Ramiro": {
             "nature": "Modest",
             "ability": "Multiscale",
-            "level": 66,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Hurricane",
@@ -3133,7 +3133,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance Set 1": {
             "nature": "Adamant",
             "ability": "Multiscale",
-            "level": 85,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Dragon Dance",
@@ -3145,7 +3145,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance Set 2": {
             "nature": "Adamant",
             "ability": "Multiscale",
-            "level": 85,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Dragon Dance",
@@ -3169,7 +3169,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Mild",
             "ability": "Multiscale",
-            "level": 85,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Aqua Tail",
@@ -3231,7 +3231,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Insomnia",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Future Sight",
                 "Nasty Plot",
@@ -3312,7 +3312,7 @@ var SETDEX_SV = {
         "OU *Gentleman Tucker": {
             "nature": "Jolly",
             "ability": "Arena Trap",
-            "level": 36,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aerial Ace",
@@ -3392,7 +3392,7 @@ var SETDEX_SV = {
         "OU Channeler Amanda": {
             "nature": "Bold",
             "ability": "Pressure",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Mean Look",
@@ -3403,7 +3403,7 @@ var SETDEX_SV = {
         "OU Channeler Jody": {
             "nature": "Naughty",
             "ability": "Pressure",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Mean Look",
@@ -3440,7 +3440,7 @@ var SETDEX_SV = {
         "OU *Bug Catcher Sammy": {
             "nature": "Bold",
             "ability": "Shield Dust",
-            "level": 14,
+            "level": 100,
             "item": "Black Sludge",
             "moves": [
                 "Protect",
@@ -3452,7 +3452,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Greg": {
             "nature": "Naughty",
             "ability": "Shield Dust",
-            "level": 10,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Detect",
@@ -3476,7 +3476,7 @@ var SETDEX_SV = {
         "OU Picnicker Gwen": {
             "nature": "Docile",
             "ability": "Run Away",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Double-Edge",
@@ -3487,7 +3487,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 1": {
             "nature": "Lonely",
             "ability": "Adaptability",
-            "level": 26,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Bite",
@@ -3499,7 +3499,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 2": {
             "nature": "Rash",
             "ability": "Adaptability",
-            "level": 26,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Bite",
@@ -3568,7 +3568,7 @@ var SETDEX_SV = {
         "OU Engineer Bernie": {
             "nature": "Bashful",
             "ability": "Static",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Screech",
@@ -3579,7 +3579,7 @@ var SETDEX_SV = {
         "OU Scientist Beau": {
             "nature": "Mild",
             "ability": "Static",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Fire Punch",
                 "Ice Punch",
@@ -3603,7 +3603,7 @@ var SETDEX_SV = {
         "OU *Youngster Timmy": {
             "nature": "Timid",
             "ability": "Minus",
-            "level": 26,
+            "level": 100,
             "item": "Magnet",
             "moves": [
                 "Flame Burst",
@@ -3615,7 +3615,7 @@ var SETDEX_SV = {
         "OU Gambler Dirk": {
             "nature": "Lax",
             "ability": "Static",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Charge",
                 "Roar",
@@ -3671,7 +3671,7 @@ var SETDEX_SV = {
         "OU Biker Nikolas": {
             "nature": "Modest",
             "ability": "Soundproof",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Spark",
@@ -3682,7 +3682,7 @@ var SETDEX_SV = {
         "OU Scientist Joshua": {
             "nature": "Timid",
             "ability": "Soundproof",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Court Change",
                 "Explosion",
@@ -3693,7 +3693,7 @@ var SETDEX_SV = {
         "OU Juggler Kirk": {
             "nature": "Naive",
             "ability": "Soundproof",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Court Change",
                 "Explosion",
@@ -3704,7 +3704,7 @@ var SETDEX_SV = {
         "OU Scientist Taylor": {
             "nature": "Adamant",
             "ability": "Galvanize",
-            "level": 44,
+            "level": 100,
             "item": "Choice Band",
             "moves": [
                 "Explosion"
@@ -3713,7 +3713,7 @@ var SETDEX_SV = {
         "OU Scientist Jerry": {
             "nature": "Naughty",
             "ability": "Static",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Court Change",
                 "Explosion",
@@ -3724,7 +3724,7 @@ var SETDEX_SV = {
         "OU Juggler Nelson": {
             "nature": "Serious",
             "ability": "Soundproof",
-            "level": 81,
+            "level": 100,
             "moves": [
                 "Court Change",
                 "Explosion",
@@ -3735,7 +3735,7 @@ var SETDEX_SV = {
         "OU *Juggler Kayden": {
             "nature": "Naive",
             "ability": "Galvanize",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Explosion",
@@ -3760,7 +3760,7 @@ var SETDEX_SV = {
         "OU Lass Megan": {
             "nature": "Lonely",
             "ability": "Vital Spirit",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Screech",
@@ -3892,7 +3892,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Ariana": {
             "nature": "Timid",
             "ability": "Magic Bounce",
-            "level": 79,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Last Resort",
@@ -3904,7 +3904,7 @@ var SETDEX_SV = {
         "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Synchronize",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Fiery Dance",
                 "Last Resort",
@@ -3915,7 +3915,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer George": {
             "nature": "Timid",
             "ability": "Magic Bounce",
-            "level": 85,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Dazzling Gleam",
@@ -3997,7 +3997,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Robert": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Psyshock",
@@ -4009,7 +4009,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 79,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earth Power",
@@ -4076,7 +4076,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Punk Rock",
-            "level": 55,
+            "level": 100,
             "item": "Silk Scarf",
             "moves": [
                 "Flamethrower",
@@ -4145,7 +4145,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Benny": {
             "nature": "Bashful",
             "ability": "Technician",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Drill Peck",
@@ -4156,7 +4156,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Impish",
             "ability": "Frisk",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Drill Peck",
@@ -4167,7 +4167,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Technician",
-            "level": 20,
+            "level": 100,
             "item": "Muscle Band",
             "moves": [
                 "Double Hit",
@@ -4192,7 +4192,7 @@ var SETDEX_SV = {
         "OU Fisherman Wade": {
             "nature": "Naive",
             "ability": "Swift Swim",
-            "level": 70,
+            "level": 100,
             "moves": [
                 "Flail",
                 "Splash",
@@ -4244,7 +4244,7 @@ var SETDEX_SV = {
         "OU Cue Ball Jamal": {
             "nature": "Serious",
             "ability": "Sheer Force",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Dragon Dance",
                 "Jaw Lock",
@@ -4280,7 +4280,7 @@ var SETDEX_SV = {
         "OU Lass Robin": {
             "nature": "Relaxed",
             "ability": "Static",
-            "level": 14,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Light Screen",
@@ -4346,7 +4346,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alicia": {
             "nature": "Jolly",
             "ability": "Toxic Boost",
-            "level": 36,
+            "level": 100,
             "item": "Toxic Orb",
             "moves": [
                 "Facade",
@@ -4358,7 +4358,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Cooprt": {
             "nature": "Jolly",
             "ability": "Flash Fire",
-            "level": 33,
+            "level": 100,
             "moves": [
                 "Flare Blitz",
                 "Last Resort",
@@ -4369,7 +4369,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Dawson": {
             "nature": "Jolly",
             "ability": "Flash Fire",
-            "level": 80,
+            "level": 100,
             "moves": [
                 "Flare Blitz",
                 "Last Resort",
@@ -4424,7 +4424,7 @@ var SETDEX_SV = {
         "OU *Scientist Ted": {
             "nature": "Naive",
             "ability": "Tinted Lens",
-            "level": 76,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Draco Barrage",
@@ -4436,7 +4436,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Rolando": {
             "nature": "Jolly",
             "ability": "Levitate",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Dragon Claw",
@@ -4615,7 +4615,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Trace",
-            "level": 28,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -4627,7 +4627,7 @@ var SETDEX_SV = {
         "OU Scientist Beau": {
             "nature": "Modest",
             "ability": "Synchronize",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Dazzling Gleam",
                 "Destiny Bond",
@@ -4650,7 +4650,7 @@ var SETDEX_SV = {
         "OU Friendly PkMnManiac": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 5,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Giga Drain",
@@ -4759,7 +4759,7 @@ var SETDEX_SV = {
         "OU Biker Ernest": {
             "nature": "Brave",
             "ability": "Levitate",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Destiny Bond",
                 "Minimize",
@@ -4770,7 +4770,7 @@ var SETDEX_SV = {
         "OU Channeler Tasha": {
             "nature": "Lonely",
             "ability": "Levitate",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Destiny Bond",
@@ -4781,7 +4781,7 @@ var SETDEX_SV = {
         "OU *Camper Justin": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 66,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Focus Blast",
@@ -4793,7 +4793,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Focus Blast",
@@ -4818,7 +4818,7 @@ var SETDEX_SV = {
         "OU Hiker Marcos": {
             "nature": "Bold",
             "ability": "Rock Head",
-            "level": 14,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Earthquake",
@@ -4919,7 +4919,7 @@ var SETDEX_SV = {
         "OU Hiker Eric": {
             "nature": "Quirky",
             "ability": "Hyper Cutter",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Sky Uppercut",
@@ -4954,7 +4954,7 @@ var SETDEX_SV = {
         "OU Picnicker Ariana": {
             "nature": "Quiet",
             "ability": "Chlorophyll",
-            "level": 33,
+            "level": 100,
             "moves": [
                 "Apple Acid",
                 "Grassy Terrain",
@@ -4987,7 +4987,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Quiet",
             "ability": "Infiltrator",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Bite",
                 "Confuse Ray",
@@ -4997,7 +4997,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Quiet",
             "ability": "Infiltrator",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -5008,7 +5008,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 3": {
             "nature": "Adamant",
             "ability": "Sniper",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -5019,7 +5019,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 4": {
             "nature": "Naive",
             "ability": "Sniper",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -5030,7 +5030,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 5": {
             "nature": "Quiet",
             "ability": "Infiltrator",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -5108,7 +5108,7 @@ var SETDEX_SV = {
         "OU Tamer Vincent": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 81,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Nasty Plot",
@@ -5162,7 +5162,7 @@ var SETDEX_SV = {
         "OU *PkMn Ranger Beth": {
             "nature": "Adamant",
             "ability": "Sturdy",
-            "level": 99,
+            "level": 100,
             "item": "Custap Berry",
             "moves": [
                 "Explosion",
@@ -5174,7 +5174,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Luke": {
             "nature": "Adamant",
             "ability": "Sand Veil",
-            "level": 66,
+            "level": 100,
             "item": "Rock Gem",
             "moves": [
                 "Explosion",
@@ -5209,7 +5209,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Dazzling",
-            "level": 56,
+            "level": 100,
             "item": "White Herb",
             "moves": [
                 "Moonblast",
@@ -5221,7 +5221,7 @@ var SETDEX_SV = {
         "OU SwimmerF Melissa": {
             "nature": "Timid",
             "ability": "Dazzling",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Coil",
                 "Hydro Pump",
@@ -5277,7 +5277,7 @@ var SETDEX_SV = {
         "OU *Twins Joy & Meg": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 99,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Close Combat",
@@ -5289,7 +5289,7 @@ var SETDEX_SV = {
         "OU *Camper Jeff": {
             "nature": "Adamant",
             "ability": "Intimidate",
-            "level": 27,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Brick Break",
@@ -5338,7 +5338,7 @@ var SETDEX_SV = {
         "OU Super Nerd Glenn": {
             "nature": "Brave",
             "ability": "Stench",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Acid Armor",
                 "Belch",
@@ -5385,7 +5385,7 @@ var SETDEX_SV = {
         "OU Gentleman Thomas": {
             "nature": "Brave",
             "ability": "Intimidate",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Flare Blitz",
@@ -5396,7 +5396,7 @@ var SETDEX_SV = {
         "OU Gambler Darian": {
             "nature": "Adamant",
             "ability": "Intimidate",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Flare Blitz",
@@ -5430,7 +5430,7 @@ var SETDEX_SV = {
         "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Thick Fat",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Payback",
@@ -5453,7 +5453,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Nelle": {
             "nature": "Bashful",
             "ability": "Gluttony",
-            "level": 15,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Belch",
@@ -5543,7 +5543,7 @@ var SETDEX_SV = {
         "OU SwimmerF Alice": {
             "nature": "Lax",
             "ability": "Intimidate",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Dragon Dance",
@@ -5554,7 +5554,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni Set 1": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 47,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Bounce",
@@ -5566,7 +5566,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni Set 2": {
             "nature": "Jolly",
             "ability": "Moxie",
-            "level": 57,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Bounce",
@@ -5578,7 +5578,7 @@ var SETDEX_SV = {
         "OU *Fisherman Tommy": {
             "nature": "Jolly",
             "ability": "Moxie",
-            "level": 98,
+            "level": 100,
             "item": "Wacan Berry",
             "moves": [
                 "Dragon Dance",
@@ -5590,7 +5590,7 @@ var SETDEX_SV = {
         "OU Fisherman Wade": {
             "nature": "Naughty",
             "ability": "Intimidate",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Dragon Dance",
@@ -5601,7 +5601,7 @@ var SETDEX_SV = {
         "OU SwimmerM David": {
             "nature": "Rash",
             "ability": "Intimidate",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Dragon Dance",
@@ -5655,7 +5655,7 @@ var SETDEX_SV = {
         "OU Black Belt Mike": {
             "nature": "Modest",
             "ability": "Sheer Force",
-            "level": 46,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Close Combat",
@@ -5667,7 +5667,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Guts",
-            "level": 28,
+            "level": 100,
             "item": "Flame Orb",
             "moves": [
                 "Bullet Punch",
@@ -5679,7 +5679,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Luke": {
             "nature": "Careful",
             "ability": "Thick Fat",
-            "level": 67,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Drain Punch",
@@ -5714,7 +5714,7 @@ var SETDEX_SV = {
         "OU Channeler Laurel": {
             "nature": "Hasty",
             "ability": "Levitate",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Destiny Bond",
@@ -5725,7 +5725,7 @@ var SETDEX_SV = {
         "OU Channeler Angelica": {
             "nature": "Naive",
             "ability": "Levitate",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Destiny Bond",
@@ -5736,7 +5736,7 @@ var SETDEX_SV = {
         "OU Channeler Patricia": {
             "nature": "Naive",
             "ability": "Levitate",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Destiny Bond",
@@ -5815,7 +5815,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Conner": {
             "nature": "Rash",
             "ability": "Swarm",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "First Impression",
@@ -5850,7 +5850,7 @@ var SETDEX_SV = {
         "OU Cue Ball Zeek": {
             "nature": "Relaxed",
             "ability": "Frisk",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Mega Punch",
@@ -5861,7 +5861,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Iron Fist",
-            "level": 27,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Drain Punch",
@@ -5896,7 +5896,7 @@ var SETDEX_SV = {
         "OU Leader Lt. Surge": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 36,
+            "level": 100,
             "item": "Electric Seed",
             "moves": [
                 "Bulk Up",
@@ -5908,7 +5908,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Striker",
-            "level": 27,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Bullet Punch",
@@ -5920,7 +5920,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Sam": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 59,
+            "level": 100,
             "item": "Electric Seed",
             "moves": [
                 "Bulk Up",
@@ -5956,7 +5956,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 27,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Bullet Punch",
@@ -6006,7 +6006,7 @@ var SETDEX_SV = {
         "OU Sailor Dylan": {
             "nature": "Brave",
             "ability": "Swift Swim",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Dragon Dance",
@@ -6075,7 +6075,7 @@ var SETDEX_SV = {
         "OU Gambler Rich": {
             "nature": "Hardy",
             "ability": "Early Bird",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Flamethrower",
@@ -6086,7 +6086,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Flash Fire",
-            "level": 23,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hidden Power Electric",
@@ -6133,7 +6133,7 @@ var SETDEX_SV = {
         "OU Cue Ball Corey": {
             "nature": "Careful",
             "ability": "Intimidate",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Aqua Fang",
                 "Crunch",
@@ -6200,7 +6200,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Bad Dreams",
-            "level": 47,
+            "level": 100,
             "item": "Colbur Berry",
             "moves": [
                 "Dark Void",
@@ -6212,7 +6212,7 @@ var SETDEX_SV = {
         "OU Juggler Shawn": {
             "nature": "Naughty",
             "ability": "Bad Dreams",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Dark Void",
                 "Future Sight",
@@ -6223,7 +6223,7 @@ var SETDEX_SV = {
         "OU Juggler Nelson": {
             "nature": "Careful",
             "ability": "Insomnia",
-            "level": 80,
+            "level": 100,
             "moves": [
                 "Dark Void",
                 "Future Sight",
@@ -6234,7 +6234,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Hasty",
             "ability": "Bad Dreams",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Dark Void",
                 "Future Sight",
@@ -6245,7 +6245,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Gentle",
             "ability": "Insomnia",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Dark Void",
                 "Future Sight",
@@ -6256,7 +6256,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 3": {
             "nature": "Bashful",
             "ability": "Insomnia",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Dark Void",
                 "Future Sight",
@@ -6316,7 +6316,7 @@ var SETDEX_SV = {
         "OU Lass Haley": {
             "nature": "Calm",
             "ability": "Oblivious",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Infestation",
@@ -6351,7 +6351,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Overgrow",
-            "level": 28,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Giga Drain",
@@ -6363,7 +6363,7 @@ var SETDEX_SV = {
         "OU Picnicker Martha": {
             "nature": "Calm",
             "ability": "Overgrow",
-            "level": 33,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Sludge Bomb",
@@ -6386,7 +6386,7 @@ var SETDEX_SV = {
         "OU *Lass Ali": {
             "nature": "Bold",
             "ability": "Friend Guard",
-            "level": 27,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Drain Kiss",
@@ -6467,7 +6467,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Robert": {
             "nature": "Timid",
             "ability": "Volt Absorb",
-            "level": 66,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Hidden Power Grass",
@@ -6502,7 +6502,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer May": {
             "nature": "Jolly",
             "ability": "Aerilate",
-            "level": 73,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Double-Edge",
@@ -6514,7 +6514,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Aerilate",
-            "level": 56,
+            "level": 100,
             "item": "Sharp Beak",
             "moves": [
                 "Double-Edge",
@@ -6569,7 +6569,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Timid",
             "ability": "Dry Skin",
-            "level": 73,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Blizzard",
@@ -6617,7 +6617,7 @@ var SETDEX_SV = {
         "OU Scientist Travis": {
             "nature": "Hasty",
             "ability": "Sharpness",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Mega Drain",
                 "Metal Sound",
@@ -6628,7 +6628,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Wilton": {
             "nature": "Adamant",
             "ability": "Swift Swim",
-            "level": 66,
+            "level": 100,
             "item": "Water Gem",
             "moves": [
                 "Aqua Jet",
@@ -6664,7 +6664,7 @@ var SETDEX_SV = {
         "OU Juggler Dalton": {
             "nature": "Quirky",
             "ability": "Synchronize",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Focus Blast",
                 "Future Sight",
@@ -6675,7 +6675,7 @@ var SETDEX_SV = {
         "OU Psychic Tyron": {
             "nature": "Naive",
             "ability": "Synchronize",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Focus Blast",
                 "Future Sight",
@@ -6698,7 +6698,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Doug": {
             "nature": "Bashful",
             "ability": "Shed Skin",
-            "level": 7,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "Harden"
@@ -6776,7 +6776,7 @@ var SETDEX_SV = {
         "OU Scientist Beau": {
             "nature": "Adamant",
             "ability": "Protean",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Drain Punch",
                 "Rock Slide",
@@ -6831,7 +6831,7 @@ var SETDEX_SV = {
         "OU SwimmerM Darrin": {
             "nature": "Lonely",
             "ability": "Swift Swim",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Dragon Dance",
@@ -6842,7 +6842,7 @@ var SETDEX_SV = {
         "OU *Leader Misty Set 1": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Draco Barrage",
@@ -6901,7 +6901,7 @@ var SETDEX_SV = {
         "OU SwimmerF Nora": {
             "nature": "Careful",
             "ability": "Hyper Cutter",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Crabhammer",
                 "Flail",
@@ -6925,7 +6925,7 @@ var SETDEX_SV = {
         "OU Lass Dawn": {
             "nature": "Rash",
             "ability": "Synchronize",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Charm",
@@ -6936,7 +6936,7 @@ var SETDEX_SV = {
         "OU Lass Megan": {
             "nature": "Bold",
             "ability": "Synchronize",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Charm",
@@ -6997,7 +6997,7 @@ var SETDEX_SV = {
         "OU Hiker Dudley": {
             "nature": "Bashful",
             "ability": "Sturdy",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Iron Defense",
                 "Magnitude",
@@ -7065,7 +7065,7 @@ var SETDEX_SV = {
         "OU SwimmerM David": {
             "nature": "Adamant",
             "ability": "Volt Absorb",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Charge",
                 "Hydro Pump",
@@ -7172,7 +7172,7 @@ var SETDEX_SV = {
         "OU SwimmerF Tiffany": {
             "nature": "Naughty",
             "ability": "Water Absorb",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Dragon Dance",
@@ -7183,7 +7183,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Dawson": {
             "nature": "Jolly",
             "ability": "Water Absorb",
-            "level": 80,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Dragon Dance",
@@ -7207,7 +7207,7 @@ var SETDEX_SV = {
         "OU Hiker Alan": {
             "nature": "Hardy",
             "ability": "Guts",
-            "level": 31,
+            "level": 100,
             "moves": [
                 "Magnitude",
                 "Rock Slide",
@@ -7328,7 +7328,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 82,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -7340,7 +7340,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 85,
+            "level": 100,
             "item": "Dragonium Z",
             "moves": [
                 "Calm Mind",
@@ -7352,7 +7352,7 @@ var SETDEX_SV = {
         "OU *Dragon Tamer Ramiro": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 66,
+            "level": 100,
             "item": "Soul Dew",
             "moves": [
                 "Aura Sphere",
@@ -7474,7 +7474,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Keigo": {
             "nature": "Sassy",
             "ability": "Swarm",
-            "level": 22,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Drain Punch",
@@ -7498,7 +7498,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Doug": {
             "nature": "Calm",
             "ability": "Swarm",
-            "level": 7,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Bug Buzz",
@@ -7509,7 +7509,7 @@ var SETDEX_SV = {
         "OU Bug Catcher James": {
             "nature": "Brave",
             "ability": "Swarm",
-            "level": 13,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Bug Buzz",
@@ -7556,7 +7556,7 @@ var SETDEX_SV = {
         "OU Hiker Lenny": {
             "nature": "Brave",
             "ability": "Suction Cups",
-            "level": 31,
+            "level": 100,
             "moves": [
                 "Spit Up",
                 "Stockpile",
@@ -7567,7 +7567,7 @@ var SETDEX_SV = {
         "OU Leader Brock": {
             "nature": "Bold",
             "ability": "Storm Drain",
-            "level": 16,
+            "level": 100,
             "item": "Oran Berry",
             "moves": [
                 "Hidden Power Rock",
@@ -7615,7 +7615,7 @@ var SETDEX_SV = {
         "OU Picnicker Isabelle": {
             "nature": "Quiet",
             "ability": "Swift Swim",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Knock Off",
@@ -7626,7 +7626,7 @@ var SETDEX_SV = {
         "OU Sailor Duncan": {
             "nature": "Timid",
             "ability": "Swift Swim",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Knock Off",
@@ -7706,7 +7706,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Energy Ball",
@@ -7718,7 +7718,7 @@ var SETDEX_SV = {
         "OU Leader Misty": {
             "nature": "Mild",
             "ability": "Swift Swim",
-            "level": 28,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Aurora Beam",
@@ -7739,7 +7739,7 @@ var SETDEX_SV = {
         "OU SwimmerM Roland": {
             "nature": "Hasty",
             "ability": "Swift Swim",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Aqua Step",
                 "Growl",
@@ -7773,7 +7773,7 @@ var SETDEX_SV = {
         "OU Leader Brock": {
             "nature": "Bashful",
             "ability": "Levitate",
-            "level": 14,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Ancient Power",
@@ -7797,7 +7797,7 @@ var SETDEX_SV = {
         "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Soul-Heart",
-            "level": 28,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Ice Beam",
@@ -7809,7 +7809,7 @@ var SETDEX_SV = {
         "OU Fisherman Elliot": {
             "nature": "Brave",
             "ability": "Swift Swim",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Moonblast",
@@ -7820,7 +7820,7 @@ var SETDEX_SV = {
         "OU Fisherman Wade": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Moonblast",
@@ -7929,7 +7929,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Brave",
             "ability": "Guts",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Cross Chop",
@@ -7963,7 +7963,7 @@ var SETDEX_SV = {
         "OU Black Belt Daisuke": {
             "nature": "Rash",
             "ability": "Guts",
-            "level": 80,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Bulk Up",
@@ -7975,7 +7975,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Impish",
             "ability": "Guts",
-            "level": 42,
+            "level": 100,
             "moves": [
                 "Bulk Up",
                 "Cross Chop",
@@ -7986,7 +7986,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Lax",
             "ability": "Guts",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Bulk Up",
                 "Cross Chop",
@@ -8009,7 +8009,7 @@ var SETDEX_SV = {
         "OU Hiker Jeremy": {
             "nature": "Calm",
             "ability": "Guts",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "Bulk Up",
                 "Cross Chop",
@@ -8020,7 +8020,7 @@ var SETDEX_SV = {
         "OU Hiker Nob": {
             "nature": "Lonely",
             "ability": "Guts",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Bulk Up",
                 "Cross Chop",
@@ -8043,7 +8043,7 @@ var SETDEX_SV = {
         "OU Lass Megan": {
             "nature": "Lonely",
             "ability": "Flame Body",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Fire Blast",
                 "Flamethrower",
@@ -8076,7 +8076,7 @@ var SETDEX_SV = {
         "OU *Burglar Max": {
             "nature": "Timid",
             "ability": "Simple",
-            "level": 80,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earth Power",
@@ -8101,7 +8101,7 @@ var SETDEX_SV = {
         "OU Fisherman Wade": {
             "nature": "Bold",
             "ability": "Swift Swim",
-            "level": 70,
+            "level": 100,
             "moves": [
                 "Flail",
                 "Splash",
@@ -8167,7 +8167,7 @@ var SETDEX_SV = {
         "OU Engineer Bernie": {
             "nature": "Lax",
             "ability": "Magnet Pull",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "Lock-On",
@@ -8178,7 +8178,7 @@ var SETDEX_SV = {
         "OU Super Nerd Jovan": {
             "nature": "Bold",
             "ability": "Magnet Pull",
-            "level": 13,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "Lock-On",
@@ -8212,7 +8212,7 @@ var SETDEX_SV = {
         "OU Scientist Jerry": {
             "nature": "Naughty",
             "ability": "Magnet Pull",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Gyro Ball",
@@ -8223,7 +8223,7 @@ var SETDEX_SV = {
         "OU Scientist Braydon": {
             "nature": "Bashful",
             "ability": "Magnet Pull",
-            "level": 69,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Gyro Ball",
@@ -8234,7 +8234,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Winston": {
             "nature": "Jolly",
             "ability": "Magnet Pull",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Gyro Ball",
@@ -8257,7 +8257,7 @@ var SETDEX_SV = {
         "OU Hiker Nob": {
             "nature": "Sassy",
             "ability": "Guts",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Endure",
@@ -8348,7 +8348,7 @@ var SETDEX_SV = {
         "OU Leader Misty": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 27,
+            "level": 100,
             "item": "Wacan Berry",
             "moves": [
                 "Hidden Power Grass",
@@ -8360,7 +8360,7 @@ var SETDEX_SV = {
         "OU Sis And Bro Lia & Luc": {
             "nature": "Modest",
             "ability": "Water Absorb",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Aqua Ring",
@@ -8443,7 +8443,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Rock Head",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Bone Rush",
                 "Double-Edge",
@@ -8501,7 +8501,7 @@ var SETDEX_SV = {
         "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Intimidate",
-            "level": 28,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Bug Buzz",
@@ -8513,7 +8513,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer Brendan": {
             "nature": "Modest",
             "ability": "Intimidate",
-            "level": 55,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Bug Buzz",
@@ -8525,7 +8525,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Elijah": {
             "nature": "Rash",
             "ability": "Intimidate",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Hurricane",
@@ -8549,7 +8549,7 @@ var SETDEX_SV = {
         "OU Hiker Clark": {
             "nature": "Quiet",
             "ability": "Intimidate",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Feint Attack",
                 "Harden",
@@ -8560,7 +8560,7 @@ var SETDEX_SV = {
         "OU *Lass Sally": {
             "nature": "Impish",
             "ability": "Intimidate",
-            "level": 21,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Covet",
@@ -8629,7 +8629,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Pure Power",
-            "level": 14,
+            "level": 100,
             "item": "Muscle Band",
             "moves": [
                 "Bullet Punch",
@@ -8641,7 +8641,7 @@ var SETDEX_SV = {
         "OU Sailor Phillip": {
             "nature": "Serious",
             "ability": "Pure Power",
-            "level": 29,
+            "level": 100,
             "moves": [
                 "Counter",
                 "Power Trick",
@@ -8711,7 +8711,7 @@ var SETDEX_SV = {
         "OU Lass Andrea": {
             "nature": "Modest",
             "ability": "Pickup",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Assurance",
                 "Captivate",
@@ -8817,7 +8817,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer George": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earthquake",
@@ -8865,7 +8865,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Charlie": {
             "nature": "Careful",
             "ability": "Shed Skin",
-            "level": 8,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "Harden"
@@ -8898,7 +8898,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Quiet",
             "ability": "Strong Jaw",
-            "level": 42,
+            "level": 100,
             "moves": [
                 "Embargo",
                 "Jaw Lock",
@@ -8909,7 +8909,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Hardy",
             "ability": "Intimidate",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Fire Fang",
@@ -8920,7 +8920,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Cooprt": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Embargo",
                 "Jaw Lock",
@@ -8931,7 +8931,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Strong Jaw",
-            "level": 21,
+            "level": 100,
             "item": "Berry Juice",
             "moves": [
                 "Bite",
@@ -9011,7 +9011,7 @@ var SETDEX_SV = {
         "OU *SwimmerM Garrett": {
             "nature": "Timid",
             "ability": "Competitive",
-            "level": 98,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Surf"
@@ -9020,7 +9020,7 @@ var SETDEX_SV = {
         "OU Fisherman Wade": {
             "nature": "Bashful",
             "ability": "Marvel Scale",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Bouncy Bubble",
                 "Coil",
@@ -9031,7 +9031,7 @@ var SETDEX_SV = {
         "OU *Dragon Tamer Ramiro": {
             "nature": "Modest",
             "ability": "Competitive",
-            "level": 66,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Bouncy Bubble",
@@ -9136,7 +9136,7 @@ var SETDEX_SV = {
         "OU Sailor Dwayne": {
             "nature": "Impish",
             "ability": "Minus",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Entrainment",
                 "Extreme Speed",
@@ -9192,7 +9192,7 @@ var SETDEX_SV = {
         "OU Channeler Laurel": {
             "nature": "Lonely",
             "ability": "Levitate",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Grudge",
                 "Perish Song",
@@ -9203,7 +9203,7 @@ var SETDEX_SV = {
         "OU *Camper Ethan": {
             "nature": "Bashful",
             "ability": "Levitate",
-            "level": 26,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Hex",
@@ -9328,7 +9328,7 @@ var SETDEX_SV = {
         "OU Juggler Dalton": {
             "nature": "Bold",
             "ability": "Soundproof",
-            "level": 44,
+            "level": 100,
             "moves": [
                 "Moonblast",
                 "Psycho Boost",
@@ -9339,7 +9339,7 @@ var SETDEX_SV = {
         "OU Psychic Tyron": {
             "nature": "Naive",
             "ability": "Soundproof",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Moonblast",
                 "Psycho Boost",
@@ -9350,7 +9350,7 @@ var SETDEX_SV = {
         "OU *Juggler Kayden": {
             "nature": "Timid",
             "ability": "Misty Surge",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Focus Blast",
@@ -9362,7 +9362,7 @@ var SETDEX_SV = {
         "OU Juggler Gregory": {
             "nature": "Rash",
             "ability": "Soundproof",
-            "level": 83,
+            "level": 100,
             "moves": [
                 "Dazzling Gleam",
                 "Psychic"
@@ -9428,7 +9428,7 @@ var SETDEX_SV = {
         "OU Scientist Joshua": {
             "nature": "Timid",
             "ability": "Regenerator",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Acid Armor",
                 "Belch",
@@ -9439,7 +9439,7 @@ var SETDEX_SV = {
         "OU Biker Jaren": {
             "nature": "Serious",
             "ability": "Regenerator",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Acid Armor",
                 "Belch",
@@ -9450,7 +9450,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Relaxed",
             "ability": "Sticky Hold",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Screech",
                 "Sludge",
@@ -9484,7 +9484,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Marlon": {
             "nature": "Modest",
             "ability": "Insomnia",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Quash",
                 "Sucker Punch",
@@ -9551,7 +9551,7 @@ var SETDEX_SV = {
         "OU Tamer Edgar": {
             "nature": "Modest",
             "ability": "Poison Touch",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Chip Away",
                 "Earth Power",
@@ -9586,7 +9586,7 @@ var SETDEX_SV = {
         "OU Leader Koga": {
             "nature": "Rash",
             "ability": "Sheer Force",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earth Power",
@@ -9598,7 +9598,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Sheer Force",
-            "level": 47,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earth Power",
@@ -9610,7 +9610,7 @@ var SETDEX_SV = {
         "OU Cue Ball Corey": {
             "nature": "Quiet",
             "ability": "Rivalry",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Chip Away",
                 "Earth Power",
@@ -9665,7 +9665,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Lonely",
             "ability": "Rivalry",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Body Slam",
                 "Chip Away",
@@ -9676,7 +9676,7 @@ var SETDEX_SV = {
         "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Sheer Force",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Blizzard",
@@ -9688,7 +9688,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Sheer Force",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Bubble Beam",
@@ -9700,7 +9700,7 @@ var SETDEX_SV = {
         "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Sheer Force",
-            "level": 27,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Earth Power",
@@ -9725,7 +9725,7 @@ var SETDEX_SV = {
         "OU Lass Paige": {
             "nature": "Serious",
             "ability": "Poison Touch",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Crunch",
@@ -9736,7 +9736,7 @@ var SETDEX_SV = {
         "OU Lass Janice": {
             "nature": "Modest",
             "ability": "Poison Touch",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Crunch",
@@ -9773,7 +9773,7 @@ var SETDEX_SV = {
         "OU Picnicker Gwen": {
             "nature": "Quirky",
             "ability": "Poison Touch",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Crunch",
@@ -9797,7 +9797,7 @@ var SETDEX_SV = {
         "OU Picnicker Kelsey": {
             "nature": "Sassy",
             "ability": "Poison Touch",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Flatter",
@@ -9808,7 +9808,7 @@ var SETDEX_SV = {
         "OU Youngster Dave": {
             "nature": "Docile",
             "ability": "Poison Touch",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Flatter",
@@ -9832,7 +9832,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Greg": {
             "nature": "Brave",
             "ability": "Compound Eyes",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Bide",
                 "Dig",
@@ -9888,7 +9888,7 @@ var SETDEX_SV = {
         "OU Super Nerd Erik": {
             "nature": "Hardy",
             "ability": "Flash Fire",
-            "level": 72,
+            "level": 100,
             "moves": [
                 "Confuse Ray",
                 "Healing Wish",
@@ -9899,7 +9899,7 @@ var SETDEX_SV = {
         "OU Young Couple Lea & Jed": {
             "nature": "Modest",
             "ability": "Flash Fire",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Confuse Ray",
                 "Healing Wish",
@@ -9910,7 +9910,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Drought",
-            "level": 79,
+            "level": 100,
             "item": "Charcoal",
             "moves": [
                 "Hypnosis",
@@ -9922,7 +9922,7 @@ var SETDEX_SV = {
         "OU *Pokemaniac Herman": {
             "nature": "Timid",
             "ability": "Drought",
-            "level": 34,
+            "level": 100,
             "item": "Air Balloon",
             "moves": [
                 "Heat Wave",
@@ -9958,7 +9958,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Relaxed",
             "ability": "Speed Boost",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "First Impression",
                 "Sonic Slash",
@@ -9969,7 +9969,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Modest",
             "ability": "Speed Boost",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "First Impression",
                 "Sonic Slash",
@@ -10017,7 +10017,7 @@ var SETDEX_SV = {
         "OU Hiker Marcos": {
             "nature": "Bold",
             "ability": "Sturdy",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Lock-On",
@@ -10040,7 +10040,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Lonely",
             "ability": "Simple",
-            "level": 15,
+            "level": 100,
             "item": "Passho Berry",
             "moves": [
                 "Ancient Power",
@@ -10052,7 +10052,7 @@ var SETDEX_SV = {
         "OU Gambler Stan": {
             "nature": "Relaxed",
             "ability": "Oblivious",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Earthquake",
@@ -10076,7 +10076,7 @@ var SETDEX_SV = {
         "OU Lass Kay": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Extrasensory",
                 "Leaf Blade",
@@ -10109,7 +10109,7 @@ var SETDEX_SV = {
         "OU *SwimmerF Abigail": {
             "nature": "Modest",
             "ability": "Mega Launcher",
-            "level": 99,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Aura Sphere",
@@ -10134,7 +10134,7 @@ var SETDEX_SV = {
         "OU Beauty Bridget": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Grassy Terrain",
                 "Moonblast",
@@ -10181,7 +10181,7 @@ var SETDEX_SV = {
         "OU Scientist Travis": {
             "nature": "Mild",
             "ability": "Swift Swim",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Ancient Power",
                 "Meteor Beam",
@@ -10192,7 +10192,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Wilton": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hydro Pump",
@@ -10254,7 +10254,7 @@ var SETDEX_SV = {
         "OU Lass Crissy": {
             "nature": "Adamant",
             "ability": "Effect Spore",
-            "level": 59,
+            "level": 100,
             "moves": [
                 "Aromatherapy",
                 "Crabhammer",
@@ -10288,7 +10288,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Drizzle",
-            "level": 55,
+            "level": 100,
             "item": "Wacan Berry",
             "moves": [
                 "Hurricane",
@@ -10300,7 +10300,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Roger": {
             "nature": "Quirky",
             "ability": "Frisk",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hurricane",
                 "Hydro Pump",
@@ -10335,7 +10335,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Beck": {
             "nature": "Lax",
             "ability": "Frisk",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Hurricane",
                 "Hydro Pump",
@@ -10346,7 +10346,7 @@ var SETDEX_SV = {
         "OU SwimmerM Axle": {
             "nature": "Adamant",
             "ability": "Frisk",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Hurricane",
                 "Hydro Pump",
@@ -10381,7 +10381,7 @@ var SETDEX_SV = {
         "OU *Burglar Anson": {
             "nature": "Timid",
             "ability": "Feline Prowess",
-            "level": 80,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Hyper Voice",
@@ -10393,7 +10393,7 @@ var SETDEX_SV = {
         "OU Tamer Vincent": {
             "nature": "Modest",
             "ability": "Limber",
-            "level": 80,
+            "level": 100,
             "moves": [
                 "Assurance",
                 "Captivate",
@@ -10416,7 +10416,7 @@ var SETDEX_SV = {
         "OU Youngster Dillon": {
             "nature": "Naughty",
             "ability": "Pickup",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Double-Edge",
@@ -10427,7 +10427,7 @@ var SETDEX_SV = {
         "OU Hiker Nob": {
             "nature": "Modest",
             "ability": "Pickup",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Double-Edge",
@@ -10474,7 +10474,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Edwin": {
             "nature": "Bold",
             "ability": "Frisk",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Air Slash",
@@ -10498,7 +10498,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Edwin": {
             "nature": "Relaxed",
             "ability": "Frisk",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Hurricane",
@@ -10535,7 +10535,7 @@ var SETDEX_SV = {
         "OU Picnicker Heidi": {
             "nature": "Mild",
             "ability": "Static",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "Light Screen",
                 "Thunder",
@@ -10630,7 +10630,7 @@ var SETDEX_SV = {
         "OU *Youngster Timmy": {
             "nature": "Timid",
             "ability": "Plus",
-            "level": 26,
+            "level": 100,
             "item": "Shuca Berry",
             "moves": [
                 "Charge Beam",
@@ -10654,7 +10654,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Transistor",
-            "level": 28,
+            "level": 100,
             "item": "Magnet",
             "moves": [
                 "Grass Knot",
@@ -10666,7 +10666,7 @@ var SETDEX_SV = {
         "OU Sailor Dwayne": {
             "nature": "Calm",
             "ability": "Plus",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Entrainment",
                 "Last Resort",
@@ -10699,7 +10699,7 @@ var SETDEX_SV = {
         "OU Leader Misty": {
             "nature": "Sassy",
             "ability": "Drizzle",
-            "level": 27,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Earthquake",
@@ -10711,7 +10711,7 @@ var SETDEX_SV = {
         "OU SwimmerF Shirley": {
             "nature": "Hasty",
             "ability": "Damp",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Hyper Voice",
@@ -10748,7 +10748,7 @@ var SETDEX_SV = {
         "OU SwimmerF Shirley": {
             "nature": "Impish",
             "ability": "Water Absorb",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10759,7 +10759,7 @@ var SETDEX_SV = {
         "OU Fisherman Ned": {
             "nature": "Adamant",
             "ability": "Damp",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10770,7 +10770,7 @@ var SETDEX_SV = {
         "OU SwimmerM Roland": {
             "nature": "Timid",
             "ability": "Water Absorb",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10781,7 +10781,7 @@ var SETDEX_SV = {
         "OU SwimmerM Matthew": {
             "nature": "Naughty",
             "ability": "Water Absorb",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10792,7 +10792,7 @@ var SETDEX_SV = {
         "OU Gambler Stan": {
             "nature": "Naughty",
             "ability": "Water Absorb",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10803,7 +10803,7 @@ var SETDEX_SV = {
         "OU Gambler Hugo": {
             "nature": "Hasty",
             "ability": "Water Absorb",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10814,7 +10814,7 @@ var SETDEX_SV = {
         "OU Picnicker Leah": {
             "nature": "Relaxed",
             "ability": "Water Absorb",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Belly Drum",
                 "Hydro Pump",
@@ -10849,7 +10849,7 @@ var SETDEX_SV = {
         "OU Black Belt Mike": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 46,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Double Slap",
@@ -10861,7 +10861,7 @@ var SETDEX_SV = {
         "OU SwimmerF Shirley": {
             "nature": "Modest",
             "ability": "Water Absorb",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Double Slap",
                 "Dynamic Punch",
@@ -10872,7 +10872,7 @@ var SETDEX_SV = {
         "OU Cue Ball Raul": {
             "nature": "Quiet",
             "ability": "Water Absorb",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Double Slap",
                 "Dynamic Punch",
@@ -10907,7 +10907,7 @@ var SETDEX_SV = {
         "OU Gentleman Lamar": {
             "nature": "Hasty",
             "ability": "Run Away",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Bounce",
@@ -10918,7 +10918,7 @@ var SETDEX_SV = {
         "OU Gambler Stan": {
             "nature": "Relaxed",
             "ability": "Run Away",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Bounce",
@@ -10929,7 +10929,7 @@ var SETDEX_SV = {
         "OU Camper Chris": {
             "nature": "Impish",
             "ability": "Run Away",
-            "level": 29,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Bounce",
@@ -10977,7 +10977,7 @@ var SETDEX_SV = {
         "OU Scientist Jerry": {
             "nature": "Gentle",
             "ability": "Trace",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Lock-On",
                 "Magic Coat",
@@ -10988,7 +10988,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Cooprt": {
             "nature": "Jolly",
             "ability": "Trace",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Lock-On",
                 "Magic Coat",
@@ -11043,7 +11043,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Bold",
             "ability": "Trace",
-            "level": 66,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Foul Play",
@@ -11055,7 +11055,7 @@ var SETDEX_SV = {
         "OU Scientist Jose": {
             "nature": "Modest",
             "ability": "Trace",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Aeroblast",
                 "Ice Beam",
@@ -11169,7 +11169,7 @@ var SETDEX_SV = {
         "OU SwimmerF Anya": {
             "nature": "Naughty",
             "ability": "Damp",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Haze",
                 "Mist",
@@ -11180,7 +11180,7 @@ var SETDEX_SV = {
         "OU Hiker Trent": {
             "nature": "Lax",
             "ability": "Water Absorb",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Haze",
                 "Mist",
@@ -11239,7 +11239,7 @@ var SETDEX_SV = {
         "OU Biker Jaxon": {
             "nature": "Gentle",
             "ability": "Swift Swim",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Poison Jab",
@@ -11295,7 +11295,7 @@ var SETDEX_SV = {
         "OU Picnicker Becky": {
             "nature": "Docile",
             "ability": "Static",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Extreme Speed",
                 "Quick Attack",
@@ -11395,7 +11395,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Inner Focus",
-            "level": 66,
+            "level": 100,
             "item": "Air Balloon",
             "moves": [
                 "Electro Shot",
@@ -11466,7 +11466,7 @@ var SETDEX_SV = {
         "OU Cue Ball Jamal": {
             "nature": "Modest",
             "ability": "Flash Fire",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Fire Blast",
@@ -11477,7 +11477,7 @@ var SETDEX_SV = {
         "OU Super Nerd Erik": {
             "nature": "Mild",
             "ability": "Reckless",
-            "level": 73,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Fire Blast",
@@ -11488,7 +11488,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Perry": {
             "nature": "Jolly",
             "ability": "Blazing Soul",
-            "level": 66,
+            "level": 100,
             "item": "Fire Gem",
             "moves": [
                 "Fire Lash",
@@ -11500,7 +11500,7 @@ var SETDEX_SV = {
         "OU Young Couple Lea & Jed": {
             "nature": "Mild",
             "ability": "Reckless",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Fire Blast",
@@ -11535,7 +11535,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Guts",
-            "level": 27,
+            "level": 100,
             "item": "Flame Orb",
             "moves": [
                 "Facade",
@@ -11547,7 +11547,7 @@ var SETDEX_SV = {
         "OU Youngster Joey": {
             "nature": "Bashful",
             "ability": "Run Away",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -11558,7 +11558,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Docile",
             "ability": "Run Away",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -11582,7 +11582,7 @@ var SETDEX_SV = {
         "OU Youngster Yasu": {
             "nature": "Hasty",
             "ability": "Run Away",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -11593,7 +11593,7 @@ var SETDEX_SV = {
         "OU Youngster Ben": {
             "nature": "Impish",
             "ability": "Run Away",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -11604,7 +11604,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Impish",
             "ability": "Run Away",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -11693,7 +11693,7 @@ var SETDEX_SV = {
         "OU *Dragon Tamer Ramiro": {
             "nature": "Bold",
             "ability": "Filter",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Bulldoze",
@@ -11938,7 +11938,7 @@ var SETDEX_SV = {
         "OU Biker Isaac": {
             "nature": "Docile",
             "ability": "Lightning Rod",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Megahorn",
@@ -11962,7 +11962,7 @@ var SETDEX_SV = {
         "OU Hiker Trent": {
             "nature": "Modest",
             "ability": "Lightning Rod",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Megahorn",
@@ -11996,7 +11996,7 @@ var SETDEX_SV = {
         "OU Picnicker Ariana": {
             "nature": "Brave",
             "ability": "Natural Cure",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Aromatherapy",
                 "Leaf Storm",
@@ -12007,7 +12007,7 @@ var SETDEX_SV = {
         "OU Beauty Bridget": {
             "nature": "Calm",
             "ability": "Poison Touch",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Aromatherapy",
                 "Leaf Storm",
@@ -12041,7 +12041,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Miguel": {
             "nature": "Careful",
             "ability": "Prankster",
-            "level": 22,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Foul Play",
@@ -12151,7 +12151,7 @@ var SETDEX_SV = {
         "OU *Biker William": {
             "nature": "Naive",
             "ability": "Intimidate",
-            "level": 66,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Earthquake",
@@ -12199,7 +12199,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Sand Veil",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Gyro Ball",
@@ -12254,7 +12254,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Jolly",
             "ability": "Overgrow",
-            "level": 28,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Drain Punch",
@@ -12311,7 +12311,7 @@ var SETDEX_SV = {
         "OU *Dumbass Kid": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 59,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Bullet Punch",
@@ -12335,7 +12335,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy": {
             "nature": "Careful",
             "ability": "Technician",
-            "level": 28,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Aerial Ace",
@@ -12371,7 +12371,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 1": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 28,
+            "level": 100,
             "item": "Muscle Band",
             "moves": [
                 "Aerial Ace",
@@ -12383,7 +12383,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 2": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 44,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Bug Bite",
@@ -12418,7 +12418,7 @@ var SETDEX_SV = {
         "OU SwimmerM Tony": {
             "nature": "Naive",
             "ability": "Poison Touch",
-            "level": 61,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Brine",
@@ -12429,7 +12429,7 @@ var SETDEX_SV = {
         "OU SwimmerM Darrin Set 1": {
             "nature": "Hardy",
             "ability": "Poison Touch",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Brine",
@@ -12440,7 +12440,7 @@ var SETDEX_SV = {
         "OU SwimmerM Darrin Set 2": {
             "nature": "Hardy",
             "ability": "Poison Touch",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Brine",
@@ -12451,7 +12451,7 @@ var SETDEX_SV = {
         "OU SwimmerF Nora": {
             "nature": "Quirky",
             "ability": "Poison Touch",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Brine",
@@ -12462,7 +12462,7 @@ var SETDEX_SV = {
         "OU Fisherman Elliot": {
             "nature": "Hardy",
             "ability": "Poison Touch",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Brine",
@@ -12496,7 +12496,7 @@ var SETDEX_SV = {
         "OU SwimmerM Reece": {
             "nature": "Naughty",
             "ability": "Lightning Rod",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Fishious Rend",
@@ -12507,7 +12507,7 @@ var SETDEX_SV = {
         "OU SwimmerF Anya": {
             "nature": "Lonely",
             "ability": "Lightning Rod",
-            "level": 61,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Fishious Rend",
@@ -12518,7 +12518,7 @@ var SETDEX_SV = {
         "OU Fisherman Ronald": {
             "nature": "Bold",
             "ability": "Lightning Rod",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Fishious Rend",
@@ -12529,7 +12529,7 @@ var SETDEX_SV = {
         "OU Fisherman Ned": {
             "nature": "Bold",
             "ability": "Lightning Rod",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Fishious Rend",
@@ -12646,7 +12646,7 @@ var SETDEX_SV = {
         "OU Biker Malik": {
             "nature": "Relaxed",
             "ability": "Merciless",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Flamethrower",
                 "Giga Drain",
@@ -12657,7 +12657,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Fatal Precision",
-            "level": 21,
+            "level": 100,
             "item": "Shuca Berry",
             "moves": [
                 "Bulldoze",
@@ -12669,7 +12669,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Hasty",
             "ability": "Merciless",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Coil",
                 "Gunk Shot",
@@ -12680,7 +12680,7 @@ var SETDEX_SV = {
         "OU Cue Ball Isaiah": {
             "nature": "Hasty",
             "ability": "Merciless",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Coil",
                 "Gunk Shot",
@@ -12691,7 +12691,7 @@ var SETDEX_SV = {
         "OU Tamer Phil": {
             "nature": "Modest",
             "ability": "Merciless",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Coil",
                 "Gunk Shot",
@@ -12724,7 +12724,7 @@ var SETDEX_SV = {
         "OU SwimmerM Reece": {
             "nature": "Hasty",
             "ability": "Rough Skin",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Aqua Fang",
@@ -12735,7 +12735,7 @@ var SETDEX_SV = {
         "OU Fisherman Ronald": {
             "nature": "Lonely",
             "ability": "Rough Skin",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Aqua Fang",
@@ -12746,7 +12746,7 @@ var SETDEX_SV = {
         "OU Sis And Bro Lil & Ian": {
             "nature": "Lonely",
             "ability": "Rough Skin",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Aqua Fang",
@@ -12757,7 +12757,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Rough Skin",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Aqua Fang",
@@ -12791,7 +12791,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Wonder Guard",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Grudge",
                 "Heal Block",
@@ -12802,7 +12802,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Naomi": {
             "nature": "Adamant",
             "ability": "Wonder Guard",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Poltergeist",
@@ -12814,7 +12814,7 @@ var SETDEX_SV = {
         "OU Channeler Angelica": {
             "nature": "Brave",
             "ability": "Wonder Guard",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Grudge",
                 "Heal Block",
@@ -12845,7 +12845,7 @@ var SETDEX_SV = {
         "OU Dumbass Creator": {
             "nature": "Jolly",
             "ability": "Wonder Guard",
-            "level": 250,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Soupercell Slam"
@@ -12891,7 +12891,7 @@ var SETDEX_SV = {
         "OU SwimmerM Barry": {
             "nature": "Gentle",
             "ability": "Shell Armor",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Ice Beam",
@@ -12902,7 +12902,7 @@ var SETDEX_SV = {
         "OU Fisherman Ronald": {
             "nature": "Hasty",
             "ability": "Shell Armor",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Ice Beam",
@@ -12913,7 +12913,7 @@ var SETDEX_SV = {
         "OU SwimmerM Luis": {
             "nature": "Modest",
             "ability": "Shell Armor",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Ice Beam",
@@ -12970,7 +12970,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Wind Rider",
-            "level": 47,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Ceaseless Edge",
@@ -12982,7 +12982,7 @@ var SETDEX_SV = {
         "OU *Picnicker Susie": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Fake Out",
@@ -12994,7 +12994,7 @@ var SETDEX_SV = {
         "OU *Burglar Anson": {
             "nature": "Jolly",
             "ability": "Wind Rider",
-            "level": 80,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Knock Off",
@@ -13019,7 +13019,7 @@ var SETDEX_SV = {
         "OU Youngster Chad": {
             "nature": "Lonely",
             "ability": "Effect Spore",
-            "level": 21,
+            "level": 100,
             "moves": [
                 "Growth",
                 "Seed Bomb",
@@ -13087,7 +13087,7 @@ var SETDEX_SV = {
         "OU Hiker Oliver": {
             "nature": "Rash",
             "ability": "Sturdy",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Guard Split",
                 "Power Split",
@@ -13098,7 +13098,7 @@ var SETDEX_SV = {
         "OU Leader Clair": {
             "nature": "Impish",
             "ability": "Solid Rock",
-            "level": 81,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Knock Off",
@@ -13269,7 +13269,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Truant",
-            "level": 47,
+            "level": 100,
             "item": "Normal Gem",
             "moves": [
                 "Double-Edge",
@@ -13281,7 +13281,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Jolly",
             "ability": "Truant",
-            "level": 28,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Body Slam",
@@ -13349,7 +13349,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer May": {
             "nature": "Bold",
             "ability": "Regenerator",
-            "level": 73,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Body Press",
@@ -13361,7 +13361,7 @@ var SETDEX_SV = {
         "OU SwimmerM Matthew": {
             "nature": "Modest",
             "ability": "Own Tempo",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Psych Up",
@@ -13372,7 +13372,7 @@ var SETDEX_SV = {
         "OU Psychic Cameron": {
             "nature": "Naive",
             "ability": "Oblivious",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Psych Up",
@@ -13383,7 +13383,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Bold",
             "ability": "Regenerator",
-            "level": 79,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Future Sight",
@@ -13438,7 +13438,7 @@ var SETDEX_SV = {
         "OU Psychic Cameron": {
             "nature": "Naive",
             "ability": "Oblivious",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Psych Up",
                 "Psychic",
@@ -13449,7 +13449,7 @@ var SETDEX_SV = {
         "OU SwimmerF Melissa": {
             "nature": "Jolly",
             "ability": "Oblivious",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Psych Up",
                 "Psychic",
@@ -13473,7 +13473,7 @@ var SETDEX_SV = {
         "OU Youngster Dan": {
             "nature": "Adamant",
             "ability": "Oblivious",
-            "level": 21,
+            "level": 100,
             "moves": [
                 "Heal Pulse",
                 "Psych Up",
@@ -13484,7 +13484,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Bold",
             "ability": "Regenerator",
-            "level": 15,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Psybeam",
@@ -13522,7 +13522,7 @@ var SETDEX_SV = {
         "OU *Picnicker Caitlin": {
             "nature": "Jolly",
             "ability": "Own Tempo",
-            "level": 36,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Close Combat",
@@ -13547,7 +13547,7 @@ var SETDEX_SV = {
         "OU Lass Megan": {
             "nature": "Impish",
             "ability": "Oblivious",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Blizzard",
                 "Copycat",
@@ -13689,7 +13689,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer May": {
             "nature": "Careful",
             "ability": "Thick Fat",
-            "level": 73,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Body Slam",
@@ -13735,7 +13735,7 @@ var SETDEX_SV = {
         "OU Picnicker Sofia": {
             "nature": "Rash",
             "ability": "Ice Body",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Blizzard",
                 "Crunch",
@@ -13758,7 +13758,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Adamant",
             "ability": "Intimidate",
-            "level": 15,
+            "level": 100,
             "item": "Muscle Band",
             "moves": [
                 "Covet",
@@ -13832,7 +13832,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Doug": {
             "nature": "Hasty",
             "ability": "Swarm",
-            "level": 7,
+            "level": 100,
             "moves": [
                 "Cross Poison",
                 "Poison Jab",
@@ -13856,7 +13856,7 @@ var SETDEX_SV = {
         "OU Camper Drew": {
             "nature": "Jolly",
             "ability": "Own Tempo",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Flail",
@@ -13867,7 +13867,7 @@ var SETDEX_SV = {
         "OU *Picnicker Caitlin": {
             "nature": "Jolly",
             "ability": "Contrary",
-            "level": 36,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Assist"
@@ -13902,7 +13902,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Adamant",
             "ability": "Torrent",
-            "level": 16,
+            "level": 100,
             "item": "Oran Berry",
             "moves": [
                 "Aqua Jet",
@@ -13914,7 +13914,7 @@ var SETDEX_SV = {
         "OU Rival Blue": {
             "nature": "Modest",
             "ability": "Torrent",
-            "level": 5,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Iron Defense",
@@ -14033,7 +14033,7 @@ var SETDEX_SV = {
         "OU *SwimmerF Maria": {
             "nature": "Timid",
             "ability": "Illuminate",
-            "level": 99,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Blizzard",
@@ -14045,7 +14045,7 @@ var SETDEX_SV = {
         "OU *Biker William": {
             "nature": "Timid",
             "ability": "Analytic",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Flip Turn",
@@ -14057,7 +14057,7 @@ var SETDEX_SV = {
         "OU Leader Misty": {
             "nature": "Modest",
             "ability": "Analytic",
-            "level": 28,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Aurora Beam",
@@ -14069,7 +14069,7 @@ var SETDEX_SV = {
         "OU SwimmerM Reece": {
             "nature": "Jolly",
             "ability": "Natural Cure",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Confuse Ray",
                 "Meteor Beam",
@@ -14080,7 +14080,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Haley": {
             "nature": "Timid",
             "ability": "Illuminate",
-            "level": 68,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Blizzard",
@@ -14092,7 +14092,7 @@ var SETDEX_SV = {
         "OU SwimmerM Jack": {
             "nature": "Naive",
             "ability": "Natural Cure",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Confuse Ray",
                 "Meteor Beam",
@@ -14103,7 +14103,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer George": {
             "nature": "Timid",
             "ability": "Illuminate",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Blizzard",
@@ -14115,7 +14115,7 @@ var SETDEX_SV = {
         "OU SwimmerM Axle": {
             "nature": "Calm",
             "ability": "Natural Cure",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Confuse Ray",
                 "Meteor Beam",
@@ -14318,7 +14318,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 82,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Fiery Dance",
@@ -14330,7 +14330,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Perry": {
             "nature": "Calm",
             "ability": "Solar Power",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Earth Power",
@@ -14342,7 +14342,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 79,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Growth",
@@ -14379,7 +14379,7 @@ var SETDEX_SV = {
         "OU Bug Catcher James": {
             "nature": "Calm",
             "ability": "Swift Swim",
-            "level": 13,
+            "level": 100,
             "moves": [
                 "Aqua Jet",
                 "Haze",
@@ -14390,7 +14390,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Anthony": {
             "nature": "Gentle",
             "ability": "Swift Swim",
-            "level": 7,
+            "level": 100,
             "moves": [
                 "Aqua Jet",
                 "Haze",
@@ -14437,7 +14437,7 @@ var SETDEX_SV = {
         "OU Biker Lukas": {
             "nature": "Impish",
             "ability": "Liquid Ooze",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Giga Drain",
                 "Ice Beam",
@@ -14448,7 +14448,7 @@ var SETDEX_SV = {
         "OU Biker Jaxon": {
             "nature": "Rash",
             "ability": "Liquid Ooze",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Ice Beam",
                 "Sludge",
@@ -14522,7 +14522,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Camron": {
             "nature": "Sassy",
             "ability": "Damp",
-            "level": 65,
+            "level": 100,
             "item": "Rindo Berry",
             "moves": [
                 "Earthquake",
@@ -14534,7 +14534,7 @@ var SETDEX_SV = {
         "OU SwimmerM Dean": {
             "nature": "Timid",
             "ability": "Torrent",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Muddy Water",
@@ -14569,7 +14569,7 @@ var SETDEX_SV = {
         "OU *Leader Whitney": {
             "nature": "Jolly",
             "ability": "Guts",
-            "level": 28,
+            "level": 100,
             "item": "Normal Gem",
             "moves": [
                 "Brave Bird",
@@ -14594,7 +14594,7 @@ var SETDEX_SV = {
         "OU Twins Eli & Anne": {
             "nature": "Modest",
             "ability": "Oblivious",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Earthquake",
@@ -14605,7 +14605,7 @@ var SETDEX_SV = {
         "OU Picnicker Sofia": {
             "nature": "Lonely",
             "ability": "Oblivious",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Earthquake",
@@ -14652,7 +14652,7 @@ var SETDEX_SV = {
         "OU Lass Lisa": {
             "nature": "Jolly",
             "ability": "Chlorophyll",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Grassy Terrain",
                 "Power Whip",
@@ -14733,7 +14733,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer George": {
             "nature": "Naive",
             "ability": "Sheer Force",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Close Combat",
@@ -14758,7 +14758,7 @@ var SETDEX_SV = {
         "OU Hiker Lucas": {
             "nature": "Modest",
             "ability": "Quick Feet",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Fake Tears",
                 "Feint Attack",
@@ -14782,7 +14782,7 @@ var SETDEX_SV = {
         "OU Fisherman Dale": {
             "nature": "Timid",
             "ability": "Clear Body",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14793,7 +14793,7 @@ var SETDEX_SV = {
         "OU Fisherman Barny": {
             "nature": "Lonely",
             "ability": "Clear Body",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14804,7 +14804,7 @@ var SETDEX_SV = {
         "OU SwimmerM Axle": {
             "nature": "Bold",
             "ability": "Clear Body",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14859,7 +14859,7 @@ var SETDEX_SV = {
         "OU Juggler Nate": {
             "nature": "Relaxed",
             "ability": "Clear Body",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14870,7 +14870,7 @@ var SETDEX_SV = {
         "OU SwimmerM Spencer": {
             "nature": "Hasty",
             "ability": "Liquid Ooze",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14881,7 +14881,7 @@ var SETDEX_SV = {
         "OU Picnicker Irene": {
             "nature": "Adamant",
             "ability": "Clear Body",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14892,7 +14892,7 @@ var SETDEX_SV = {
         "OU Fisherman Chip": {
             "nature": "Hardy",
             "ability": "Clear Body",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14903,7 +14903,7 @@ var SETDEX_SV = {
         "OU SwimmerM Douglas": {
             "nature": "Timid",
             "ability": "Liquid Ooze",
-            "level": 61,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14914,7 +14914,7 @@ var SETDEX_SV = {
         "OU SwimmerM Axle": {
             "nature": "Quiet",
             "ability": "Clear Body",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hex",
                 "Hydro Pump",
@@ -14959,7 +14959,7 @@ var SETDEX_SV = {
         "OU Picnicker Martha": {
             "nature": "Modest",
             "ability": "Hustle",
-            "level": 32,
+            "level": 100,
             "moves": [
                 "After You",
                 "Double-Edge",
@@ -14970,7 +14970,7 @@ var SETDEX_SV = {
         "OU *Lass Reli": {
             "nature": "Bashful",
             "ability": "Serene Grace",
-            "level": 25,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Air Slash",
@@ -15067,7 +15067,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 16,
+            "level": 100,
             "item": "Oran Berry",
             "moves": [
                 "Bullet Seed",
@@ -15103,7 +15103,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Sebastian": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Dragon Pulse",
@@ -15469,7 +15469,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Guts",
-            "level": 79,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Close Combat",
@@ -15481,7 +15481,7 @@ var SETDEX_SV = {
         "OU Picnicker Valerie": {
             "nature": "Sassy",
             "ability": "Quick Feet",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Rest",
@@ -15535,7 +15535,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Sam": {
             "nature": "Timid",
             "ability": "Water Absorb",
-            "level": 59,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Hidden Power Grass",
@@ -15559,7 +15559,7 @@ var SETDEX_SV = {
         "OU Sis And Bro Lia & Luc": {
             "nature": "Sassy",
             "ability": "Water Absorb",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Haze",
                 "Hydro Pump",
@@ -15593,7 +15593,7 @@ var SETDEX_SV = {
         "OU Picnicker Kindra": {
             "nature": "Naive",
             "ability": "Shield Dust",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Poison Fang",
                 "Psychic",
@@ -15617,7 +15617,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Conner": {
             "nature": "Mild",
             "ability": "Compound Eyes",
-            "level": 29,
+            "level": 100,
             "moves": [
                 "Leech Life",
                 "Poison Fang",
@@ -15672,7 +15672,7 @@ var SETDEX_SV = {
         "OU Beauty Olivia": {
             "nature": "Docile",
             "ability": "Overgrow",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Chloroblast",
                 "Petal Blizzard",
@@ -15683,7 +15683,7 @@ var SETDEX_SV = {
         "OU *Beauty Lola": {
             "nature": "Naive",
             "ability": "Chlorophyll",
-            "level": 66,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Earth Power",
@@ -15695,7 +15695,7 @@ var SETDEX_SV = {
         "OU Leader Blaine": {
             "nature": "Modest",
             "ability": "Chlorophyll",
-            "level": 76,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Growth",
@@ -15720,7 +15720,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Carter": {
             "nature": "Modest",
             "ability": "Levitate",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Hyper Beam",
@@ -15731,7 +15731,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Conner": {
             "nature": "Relaxed",
             "ability": "Levitate",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Hyper Beam",
@@ -15788,7 +15788,7 @@ var SETDEX_SV = {
         "OU *Pokemaniac Herman": {
             "nature": "Rash",
             "ability": "Chlorophyll",
-            "level": 35,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Giga Drain",
@@ -15893,7 +15893,7 @@ var SETDEX_SV = {
         "OU *Bug Catcher Sammy": {
             "nature": "Bashful",
             "ability": "Prankster",
-            "level": 13,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Flash",
@@ -15917,7 +15917,7 @@ var SETDEX_SV = {
         "OU Youngster Chad": {
             "nature": "Serious",
             "ability": "Prankster",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Double-Edge",
@@ -15940,7 +15940,7 @@ var SETDEX_SV = {
         "OU Engineer Baily": {
             "nature": "Timid",
             "ability": "Soundproof",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Court Change",
                 "Explosion",
@@ -15951,7 +15951,7 @@ var SETDEX_SV = {
         "OU Gambler Dirk": {
             "nature": "Bold",
             "ability": "Soundproof",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Court Change",
                 "Explosion",
@@ -16042,7 +16042,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Ariana": {
             "nature": "Modest",
             "ability": "Blubber Defense",
-            "level": 79,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Bouncy Bubble",
@@ -16098,7 +16098,7 @@ var SETDEX_SV = {
         "OU *Rocker Luca": {
             "nature": "Bold",
             "ability": "Ice Body",
-            "level": 66,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Blizzard",
@@ -16133,7 +16133,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Modest",
             "ability": "Torrent",
-            "level": 28,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Hidden Power Electric",
@@ -16158,7 +16158,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Kent": {
             "nature": "Docile",
             "ability": "Shield Dust",
-            "level": 13,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "Poison Sting",
@@ -16190,7 +16190,7 @@ var SETDEX_SV = {
         "OU Picnicker Valerie": {
             "nature": "Naughty",
             "ability": "Chlorophyll",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Poison Jab",
                 "Razor Leaf",
@@ -16201,7 +16201,7 @@ var SETDEX_SV = {
         "OU Gambler Jasper": {
             "nature": "Careful",
             "ability": "Chlorophyll",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Poison Jab",
                 "Razor Leaf",
@@ -16212,7 +16212,7 @@ var SETDEX_SV = {
         "OU Picnicker Yazmin": {
             "nature": "Serious",
             "ability": "Chlorophyll",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Poison Jab",
                 "Razor Leaf",
@@ -16269,7 +16269,7 @@ var SETDEX_SV = {
         "OU Biker Ricardo": {
             "nature": "Bold",
             "ability": "Levitate",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Poison Gas",
@@ -16280,7 +16280,7 @@ var SETDEX_SV = {
         "OU Super Nerd Leslie": {
             "nature": "Docile",
             "ability": "Levitate",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Self-Destruct",
                 "Sludge",
@@ -16290,7 +16290,7 @@ var SETDEX_SV = {
         "OU Scientist Taylor": {
             "nature": "Adamant",
             "ability": "Levitate",
-            "level": 45,
+            "level": 100,
             "item": "Stardust",
             "moves": [
                 "Explosion"
@@ -16299,7 +16299,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Mild",
             "ability": "Neutralize Gas",
-            "level": 42,
+            "level": 100,
             "moves": [
                 "Haze",
                 "Self-Destruct",
@@ -16310,7 +16310,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Docile",
             "ability": "Levitate",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Destiny Bond",
@@ -16321,7 +16321,7 @@ var SETDEX_SV = {
         "OU Biker Ernest Set 1": {
             "nature": "Calm",
             "ability": "Levitate",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Pain Split",
@@ -16332,7 +16332,7 @@ var SETDEX_SV = {
         "OU Biker Ernest Set 2": {
             "nature": "Naive",
             "ability": "Levitate",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Flamethrower",
                 "Sludge Bomb",
@@ -16343,7 +16343,7 @@ var SETDEX_SV = {
         "OU Biker Ernest Set 3": {
             "nature": "Impish",
             "ability": "Levitate",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Sludge Bomb",
                 "Smokescreen",
@@ -16354,7 +16354,7 @@ var SETDEX_SV = {
         "OU Biker Lukas": {
             "nature": "Naughty",
             "ability": "Neutralize Gas",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Smokescreen"
@@ -16363,7 +16363,7 @@ var SETDEX_SV = {
         "OU Scientist Connor": {
             "nature": "Modest",
             "ability": "Levitate",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Flamethrower",
@@ -16417,7 +16417,7 @@ var SETDEX_SV = {
         "OU *Biker William": {
             "nature": "Jolly",
             "ability": "Cash Splash",
-            "level": 66,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Bounce",
@@ -16429,7 +16429,7 @@ var SETDEX_SV = {
         "OU Fisherman Elliot": {
             "nature": "Hardy",
             "ability": "Hydration",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Dragon Dance",
                 "Future Sight",
@@ -16489,7 +16489,7 @@ var SETDEX_SV = {
         "OU *Gentleman Brooks": {
             "nature": "Modest",
             "ability": "Sheer Force",
-            "level": 28,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Flamethrower",
@@ -16501,7 +16501,7 @@ var SETDEX_SV = {
         "OU Beauty Grace": {
             "nature": "Impish",
             "ability": "Competitive",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Alluring Voice",
                 "Covet",
@@ -16632,7 +16632,7 @@ var SETDEX_SV = {
         "OU Channeler Tasha": {
             "nature": "Adamant",
             "ability": "Early Bird",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Future Sight",
                 "Guard Swap",
@@ -16643,7 +16643,7 @@ var SETDEX_SV = {
         "OU Channeler Emilia": {
             "nature": "Quirky",
             "ability": "Synchronize",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Future Sight",
                 "Guard Swap",
@@ -16666,7 +16666,7 @@ var SETDEX_SV = {
         "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Speed Boost",
-            "level": 13,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Air Cutter",
@@ -16701,7 +16701,7 @@ var SETDEX_SV = {
         "OU Gentleman Arthur": {
             "nature": "Mild",
             "ability": "Tough Claws",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Close Combat",
@@ -16724,7 +16724,7 @@ var SETDEX_SV = {
         "OU Cue Ball Isaiah": {
             "nature": "Mild",
             "ability": "Tough Claws",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Close Combat",
@@ -16735,7 +16735,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Facade",
@@ -16810,7 +16810,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Static",
-            "level": 82,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Hurricane",
@@ -16822,7 +16822,7 @@ var SETDEX_SV = {
         "OU *Dumbass Kid": {
             "nature": "Timid",
             "ability": "Static",
-            "level": 59,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Hurricane",
@@ -16872,7 +16872,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Quiet",
             "ability": "Sniper",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -16883,7 +16883,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Gentle",
             "ability": "Infiltrator",
-            "level": 16,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Haze",
@@ -16896,7 +16896,7 @@ var SETDEX_SV = {
         "OU Gambler Rich": {
             "nature": "Quirky",
             "ability": "Rivalry",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Hyper Voice",
@@ -16907,7 +16907,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Rivalry",
-            "level": 15,
+            "level": 100,
             "item": "Wise Glasses",
             "moves": [
                 "Hidden Power Grass",
@@ -16919,7 +16919,7 @@ var SETDEX_SV = {
         "OU Gentleman Thomas": {
             "nature": "Careful",
             "ability": "Rivalry",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Hyper Voice",
@@ -16932,7 +16932,7 @@ var SETDEX_SV = {
         "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Skill Link",
-            "level": 14,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Bullet Seed",
@@ -16946,7 +16946,7 @@ var SETDEX_SV = {
         "OU *Leader Falkner": {
             "nature": "Modest",
             "ability": "Volt Absorb",
-            "level": 16,
+            "level": 100,
             "item": "Berry Juice",
             "moves": [
                 "Air Slash",
@@ -16960,7 +16960,7 @@ var SETDEX_SV = {
         "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Hustle",
-            "level": 14,
+            "level": 100,
             "item": "Muscle Band",
             "moves": [
                 "Aerial Ace",
@@ -16974,7 +16974,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Ashton": {
             "nature": "Jolly",
             "ability": "Steadfast",
-            "level": 32,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Final Gambit",
@@ -16985,7 +16985,7 @@ var SETDEX_SV = {
         "OU Camper Flint": {
             "nature": "Impish",
             "ability": "Steadfast",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Final Gambit",
@@ -16996,7 +16996,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Edwin": {
             "nature": "Modest",
             "ability": "Steadfast",
-            "level": 59,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Final Gambit",
@@ -17007,7 +17007,7 @@ var SETDEX_SV = {
         "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Scrappy",
-            "level": 14,
+            "level": 100,
             "item": "Leek Stick",
             "moves": [
                 "Brutal Swing",
@@ -17021,7 +17021,7 @@ var SETDEX_SV = {
         "OU Leader Brock": {
             "nature": "Careful",
             "ability": "Sand Stream",
-            "level": 13,
+            "level": 100,
             "item": "Berry Juice",
             "moves": [
                 "Bulldoze",
@@ -17035,7 +17035,7 @@ var SETDEX_SV = {
         "OU Leader Brock": {
             "nature": "Bashful",
             "ability": "Defeatist",
-            "level": 14,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Bulldoze",
@@ -17049,7 +17049,7 @@ var SETDEX_SV = {
         "OU Leader Brock": {
             "nature": "Careful",
             "ability": "Filter",
-            "level": 15,
+            "level": 100,
             "item": "Air Balloon",
             "moves": [
                 "Bulldoze",
@@ -17061,7 +17061,7 @@ var SETDEX_SV = {
         "OU Gambler Darian": {
             "nature": "Mild",
             "ability": "Overcoat",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Gunk Shot",
                 "Poison Jab",
@@ -17074,7 +17074,7 @@ var SETDEX_SV = {
         "OU Camper Liam": {
             "nature": "Bashful",
             "ability": "Intimidate",
-            "level": 11,
+            "level": 100,
             "item": "Oran Berry",
             "moves": [
                 "Bite",
@@ -17085,7 +17085,7 @@ var SETDEX_SV = {
         "OU Picnicker Nancy": {
             "nature": "Bold",
             "ability": "Intimidate",
-            "level": 23,
+            "level": 100,
             "moves": [
                 "Flare Blitz",
                 "Head Smash",
@@ -17098,7 +17098,7 @@ var SETDEX_SV = {
         "OU Camper Liam": {
             "nature": "Bashful",
             "ability": "Purifying Salt",
-            "level": 11,
+            "level": 100,
             "item": "Hard Stone",
             "moves": [
                 "Bulldoze",
@@ -17111,7 +17111,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Rick": {
             "nature": "Lax",
             "ability": "Insomnia",
-            "level": 7,
+            "level": 100,
             "moves": [
                 "Circle Throw",
                 "Gastro Acid",
@@ -17124,7 +17124,7 @@ var SETDEX_SV = {
         "OU *Bug Catcher Sammy": {
             "nature": "Bashful",
             "ability": "Technician",
-            "level": 13,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Bug Bite",
@@ -17136,7 +17136,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Kent": {
             "nature": "Naughty",
             "ability": "Technician",
-            "level": 12,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Night Slash",
@@ -17149,7 +17149,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Charlie": {
             "nature": "Relaxed",
             "ability": "Shed Skin",
-            "level": 8,
+            "level": 100,
             "moves": [
                 "Dig",
                 "Leech Life",
@@ -17162,7 +17162,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Colton": {
             "nature": "Rash",
             "ability": "Shed Skin",
-            "level": 10,
+            "level": 100,
             "moves": [
                 "Detect",
                 "Harden"
@@ -17171,7 +17171,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Charlie": {
             "nature": "Careful",
             "ability": "Shed Skin",
-            "level": 9,
+            "level": 100,
             "moves": [
                 "Detect",
                 "Harden"
@@ -17182,7 +17182,7 @@ var SETDEX_SV = {
         "OU *Lass Anne": {
             "nature": "Bashful",
             "ability": "Fluffy",
-            "level": 15,
+            "level": 100,
             "item": "Oran Berry",
             "moves": [
                 "Aerial Ace",
@@ -17195,7 +17195,7 @@ var SETDEX_SV = {
         "OU *Lass Anne": {
             "nature": "Bashful",
             "ability": "Regenerator",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Protect",
                 "Swagger",
@@ -17206,7 +17206,7 @@ var SETDEX_SV = {
         "OU Lass Haley": {
             "nature": "Bold",
             "ability": "Regenerator",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Moonblast",
@@ -17217,7 +17217,7 @@ var SETDEX_SV = {
         "OU Lass Miriam": {
             "nature": "Adamant",
             "ability": "Regenerator",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Moonblast",
@@ -17230,7 +17230,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Nelle": {
             "nature": "Bashful",
             "ability": "Flame Body",
-            "level": 15,
+            "level": 100,
             "item": "Berry Juice",
             "moves": [
                 "Clear Smog",
@@ -17256,7 +17256,7 @@ var SETDEX_SV = {
         "OU *Lass Sally": {
             "nature": "Naive",
             "ability": "Lightning Rod",
-            "level": 21,
+            "level": 100,
             "item": "Light Ball",
             "moves": [
                 "Extreme Speed",
@@ -17270,7 +17270,7 @@ var SETDEX_SV = {
         "OU *Lass Sally": {
             "nature": "Timid",
             "ability": "Dancer",
-            "level": 22,
+            "level": 100,
             "item": "Spell Tag",
             "moves": [
                 "Air Cutter",
@@ -17284,7 +17284,7 @@ var SETDEX_SV = {
         "OU *Lass Sally": {
             "nature": "Modest",
             "ability": "Prankster",
-            "level": 22,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Hidden Power Psychic",
@@ -17298,7 +17298,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Greg": {
             "nature": "Docile",
             "ability": "Flash Fire",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Burn Up",
                 "Crunch",
@@ -17311,7 +17311,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Greg": {
             "nature": "Gentle",
             "ability": "Compound Eyes",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Bug Buzz",
@@ -17324,7 +17324,7 @@ var SETDEX_SV = {
         "OU Youngster Calvin": {
             "nature": "Bold",
             "ability": "Pickup",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Counter",
                 "Double-Edge",
@@ -17337,7 +17337,7 @@ var SETDEX_SV = {
         "OU Lass Janice": {
             "nature": "Sassy",
             "ability": "Own Tempo",
-            "level": 10,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Crunch",
@@ -17350,7 +17350,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Colton": {
             "nature": "Jolly",
             "ability": "Swarm",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Light Screen",
                 "Reflect",
@@ -17363,7 +17363,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Colton": {
             "nature": "Quiet",
             "ability": "Shield Dust",
-            "level": 11,
+            "level": 100,
             "moves": [
                 "Powder Snow",
                 "Struggle Bug"
@@ -17374,7 +17374,7 @@ var SETDEX_SV = {
         "OU Youngster Ben": {
             "nature": "Bold",
             "ability": "Run Away",
-            "level": 12,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Jaw Lock",
@@ -17387,7 +17387,7 @@ var SETDEX_SV = {
         "OU Lass Iris": {
             "nature": "Relaxed",
             "ability": "Mold Breaker",
-            "level": 16,
+            "level": 100,
             "moves": [
                 "Fake Out",
                 "Flatter",
@@ -17400,7 +17400,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Robby": {
             "nature": "Brave",
             "ability": "Tinted Lens",
-            "level": 12,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Feint",
@@ -17413,7 +17413,7 @@ var SETDEX_SV = {
         "OU Super Nerd Jovan": {
             "nature": "Bold",
             "ability": "Clear Body",
-            "level": 14,
+            "level": 100,
             "moves": [
                 "Astonish",
                 "Tackle"
@@ -17424,7 +17424,7 @@ var SETDEX_SV = {
         "OU Lass Miriam": {
             "nature": "Naive",
             "ability": "Ripen",
-            "level": 14,
+            "level": 100,
             "moves": [
                 "Astonish",
                 "Dragon Breath",
@@ -17437,7 +17437,7 @@ var SETDEX_SV = {
         "OU Youngster Josh": {
             "nature": "Naive",
             "ability": "Fluffy",
-            "level": 13,
+            "level": 100,
             "moves": [
                 "Cotton Guard",
                 "Double-Edge",
@@ -17450,7 +17450,7 @@ var SETDEX_SV = {
         "OU Youngster Josh": {
             "nature": "Mild",
             "ability": "Frisk",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Rock Climb",
@@ -17463,7 +17463,7 @@ var SETDEX_SV = {
         "OU Youngster Josh": {
             "nature": "Mild",
             "ability": "Aroma Veil",
-            "level": 16,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Take Down",
@@ -17476,7 +17476,7 @@ var SETDEX_SV = {
         "OU Hiker Marcos": {
             "nature": "Sassy",
             "ability": "Sand Rush",
-            "level": 16,
+            "level": 100,
             "moves": [
                 "Drill Run",
                 "Earthquake",
@@ -17489,7 +17489,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Miguel": {
             "nature": "Adamant",
             "ability": "Grassy Surge",
-            "level": 21,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Fake Out",
@@ -17503,7 +17503,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Miguel": {
             "nature": "Naive",
             "ability": "Reckless",
-            "level": 22,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hidden Power Ice",
@@ -17517,7 +17517,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Miguel": {
             "nature": "Timid",
             "ability": "Simple",
-            "level": 22,
+            "level": 100,
             "item": "Grassy Seed",
             "moves": [
                 "Air Cutter",
@@ -17529,7 +17529,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Edwin": {
             "nature": "Mild",
             "ability": "Unaware",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Endeavor",
@@ -17540,7 +17540,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Quirky",
             "ability": "Unaware",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Endeavor",
@@ -17553,7 +17553,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Miguel": {
             "nature": "Impish",
             "ability": "Grass Pelt",
-            "level": 22,
+            "level": 100,
             "item": "Miracle Seed",
             "moves": [
                 "Brick Break",
@@ -17567,7 +17567,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Impish",
             "ability": "Gluttony",
-            "level": 16,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -17578,7 +17578,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Naive",
             "ability": "Hustle",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -17591,7 +17591,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Insomnia",
-            "level": 17,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Seed Bomb",
@@ -17604,7 +17604,7 @@ var SETDEX_SV = {
         "OU Camper Drew": {
             "nature": "Brave",
             "ability": "Stench",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Explosion",
@@ -17615,7 +17615,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Timid",
             "ability": "Stench",
-            "level": 14,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Explosion",
@@ -17626,7 +17626,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Bashful",
             "ability": "Aftermath",
-            "level": 42,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Explosion",
@@ -17639,7 +17639,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Quiet",
             "ability": "Unburden",
-            "level": 14,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Foul Play",
@@ -17652,7 +17652,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Unburden",
-            "level": 15,
+            "level": 100,
             "moves": [
                 "Gunk Shot",
                 "Knock Off",
@@ -17665,7 +17665,7 @@ var SETDEX_SV = {
         "OU Hiker Oliver": {
             "nature": "Timid",
             "ability": "Toxic Debris",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Acid Armor",
                 "Power Gem",
@@ -17676,7 +17676,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Toxic Debris",
-            "level": 20,
+            "level": 100,
             "item": "Shuca Berry",
             "moves": [
                 "Ancient Power",
@@ -17690,7 +17690,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Feline Prowess",
-            "level": 26,
+            "level": 100,
             "item": "Black Glasses",
             "moves": [
                 "Dark Pulse",
@@ -17702,7 +17702,7 @@ var SETDEX_SV = {
         "OU Camper Drew": {
             "nature": "Gentle",
             "ability": "Fur Coat",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Dark Pulse",
@@ -17715,7 +17715,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 25,
+            "level": 100,
             "item": "Expert Belt",
             "moves": [
                 "Aqua Cutter",
@@ -17727,7 +17727,7 @@ var SETDEX_SV = {
         "OU Fisherman Hank": {
             "nature": "Impish",
             "ability": "Mold Breaker",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Aqua Cutter",
                 "Fillet Away",
@@ -17738,7 +17738,7 @@ var SETDEX_SV = {
         "OU SwimmerF Anya": {
             "nature": "Naive",
             "ability": "Mold Breaker",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Aqua Cutter",
                 "Fillet Away",
@@ -17749,7 +17749,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Naomi": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 85,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Aqua Cutter",
@@ -17763,7 +17763,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Sage Power",
-            "level": 27,
+            "level": 100,
             "item": "Miracle Seed",
             "moves": [
                 "Hidden Power Fire",
@@ -17775,7 +17775,7 @@ var SETDEX_SV = {
         "OU *Gentleman Brooks": {
             "nature": "Timid",
             "ability": "Sage Power",
-            "level": 28,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Focus Blast",
@@ -17789,7 +17789,7 @@ var SETDEX_SV = {
         "OU Sailor Duncan": {
             "nature": "Bashful",
             "ability": "Gluttony",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Fury Swipes",
                 "Leer",
@@ -17800,7 +17800,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Sage Power",
-            "level": 27,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Grass Knot",
@@ -17812,7 +17812,7 @@ var SETDEX_SV = {
         "OU SwimmerM Jerome": {
             "nature": "Jolly",
             "ability": "Gluttony",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Fury Swipes",
                 "Leer",
@@ -17825,7 +17825,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Sage Power",
-            "level": 27,
+            "level": 100,
             "item": "Charcoal",
             "moves": [
                 "Grass Knot",
@@ -17837,7 +17837,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Modest",
             "ability": "Sage Power",
-            "level": 85,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Flamethrower",
@@ -17849,7 +17849,7 @@ var SETDEX_SV = {
         "OU *Lass Ann": {
             "nature": "Timid",
             "ability": "Sage Power",
-            "level": 28,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Fire Pledge",
@@ -17861,7 +17861,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan": {
             "nature": "Timid",
             "ability": "Sage Power",
-            "level": 73,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Fire Blast",
@@ -17875,7 +17875,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Impish",
             "ability": "Rough Skin",
-            "level": 28,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Dragon Tail",
@@ -17887,7 +17887,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Cole": {
             "nature": "Impish",
             "ability": "Rough Skin",
-            "level": 59,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Dragon Hammer",
@@ -17899,7 +17899,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Robert": {
             "nature": "Careful",
             "ability": "Rough Skin",
-            "level": 66,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Dragon Hammer",
@@ -17913,7 +17913,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Iron Barbs",
-            "level": 27,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Iron Head",
@@ -17927,7 +17927,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Comatose",
-            "level": 28,
+            "level": 100,
             "item": "Silk Scarf",
             "moves": [
                 "Last Resort",
@@ -17939,7 +17939,7 @@ var SETDEX_SV = {
         "OU Gentleman Arthur": {
             "nature": "Quiet",
             "ability": "Intimidate",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Jaw Lock",
@@ -17950,7 +17950,7 @@ var SETDEX_SV = {
         "OU *Camper Ethan": {
             "nature": "Bashful",
             "ability": "Intimidate",
-            "level": 26,
+            "level": 100,
             "item": "Black Glasses",
             "moves": [
                 "Bite",
@@ -17964,7 +17964,7 @@ var SETDEX_SV = {
         "OU *Camper Ethan": {
             "nature": "Timid",
             "ability": "Corrosion",
-            "level": 26,
+            "level": 100,
             "item": "Black Sludge",
             "moves": [
                 "Incinerate",
@@ -17978,7 +17978,7 @@ var SETDEX_SV = {
         "OU Youngster Yasu": {
             "nature": "Brave",
             "ability": "Cheek Pouch",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Counter",
@@ -17989,7 +17989,7 @@ var SETDEX_SV = {
         "OU *Lass Reli": {
             "nature": "Bashful",
             "ability": "Cheek Pouch",
-            "level": 26,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Facade",
@@ -18003,7 +18003,7 @@ var SETDEX_SV = {
         "OU *Youngster Timmy": {
             "nature": "Bashful",
             "ability": "Ice Body",
-            "level": 26,
+            "level": 100,
             "item": "Occa Berry",
             "moves": [
                 "Ice Shard",
@@ -18017,7 +18017,7 @@ var SETDEX_SV = {
         "OU *Lass Ali": {
             "nature": "Modest",
             "ability": "Refrigerate",
-            "level": 26,
+            "level": 100,
             "item": "Chople Berry",
             "moves": [
                 "Ancient Power",
@@ -18031,7 +18031,7 @@ var SETDEX_SV = {
         "OU *Lass Ali": {
             "nature": "Modest",
             "ability": "Liquid Voice",
-            "level": 26,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Aqua Jet",
@@ -18045,7 +18045,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Brent": {
             "nature": "Naughty",
             "ability": "Compound Eyes",
-            "level": 29,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Hurricane",
@@ -18056,7 +18056,7 @@ var SETDEX_SV = {
         "OU *Bug Catcher Cale": {
             "nature": "Bashful",
             "ability": "Friend Guard",
-            "level": 25,
+            "level": 100,
             "item": "Charti Berry",
             "moves": [
                 "Air Cutter",
@@ -18070,7 +18070,7 @@ var SETDEX_SV = {
         "OU *Bug Catcher Cale": {
             "nature": "Careful",
             "ability": "Overcoat",
-            "level": 26,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Bug Bite",
@@ -18084,7 +18084,7 @@ var SETDEX_SV = {
         "OU Camper Shane": {
             "nature": "Sassy",
             "ability": "Infiltrator",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Curse",
                 "Pain Split",
@@ -18097,7 +18097,7 @@ var SETDEX_SV = {
         "OU Engineer Braxton": {
             "nature": "Careful",
             "ability": "Pickup",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Charge",
                 "Crunch",
@@ -18108,7 +18108,7 @@ var SETDEX_SV = {
         "OU Camper Shane": {
             "nature": "Adamant",
             "ability": "Pickup",
-            "level": 20,
+            "level": 100,
             "moves": [
                 "Charge",
                 "Crunch",
@@ -18121,7 +18121,7 @@ var SETDEX_SV = {
         "OU Hiker Franklin": {
             "nature": "Gentle",
             "ability": "Guts",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Focus Punch",
                 "Hammer Arm",
@@ -18132,7 +18132,7 @@ var SETDEX_SV = {
         "OU Friendly PkMnManiac": {
             "nature": "Timid",
             "ability": "Sheer Force",
-            "level": 5,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Ice Punch"
@@ -18143,7 +18143,7 @@ var SETDEX_SV = {
         "OU Hiker Franklin": {
             "nature": "Modest",
             "ability": "Rock Head",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Double-Edge",
@@ -18156,7 +18156,7 @@ var SETDEX_SV = {
         "OU Youngster Yasu": {
             "nature": "Serious",
             "ability": "Gluttony",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -18167,7 +18167,7 @@ var SETDEX_SV = {
         "OU Youngster Joey": {
             "nature": "Serious",
             "ability": "Gluttony",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -18178,7 +18178,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Careful",
             "ability": "Hustle",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -18189,7 +18189,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Rash",
             "ability": "Hustle",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -18200,7 +18200,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 3": {
             "nature": "Bold",
             "ability": "Gluttony",
-            "level": 49,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Endeavor",
@@ -18213,7 +18213,7 @@ var SETDEX_SV = {
         "OU Hiker Wayne": {
             "nature": "Careful",
             "ability": "Sturdy",
-            "level": 20,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Heavy Slam",
@@ -18226,7 +18226,7 @@ var SETDEX_SV = {
         "OU Picnicker Kelsey": {
             "nature": "Bold",
             "ability": "Early Bird",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Earth Power",
                 "Energy Ball",
@@ -18239,7 +18239,7 @@ var SETDEX_SV = {
         "OU Hiker Nob": {
             "nature": "Rash",
             "ability": "Moxie",
-            "level": 18,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Foul Play",
@@ -18252,7 +18252,7 @@ var SETDEX_SV = {
         "OU Camper Flint": {
             "nature": "Quiet",
             "ability": "Cheek Pouch",
-            "level": 20,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Counter",
@@ -18265,7 +18265,7 @@ var SETDEX_SV = {
         "OU Lass Haley": {
             "nature": "Hasty",
             "ability": "Pickup",
-            "level": 19,
+            "level": 100,
             "moves": [
                 "Beat Up",
                 "Copycat",
@@ -18290,7 +18290,7 @@ var SETDEX_SV = {
         "OU *Biker Goon": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 99,
+            "level": 100,
             "item": "Rock Gem",
             "moves": [
                 "Accelerock",
@@ -18302,7 +18302,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 1": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 28,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Night Slash",
@@ -18314,7 +18314,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 2": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 44,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Night Slash",
@@ -18328,7 +18328,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 1": {
             "nature": "Jolly",
             "ability": "Tinted Lens",
-            "level": 28,
+            "level": 100,
             "item": "SilverPowder",
             "moves": [
                 "First Impression",
@@ -18340,7 +18340,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 2": {
             "nature": "Jolly",
             "ability": "Tinted Lens",
-            "level": 44,
+            "level": 100,
             "item": "Bug Gem",
             "moves": [
                 "First Impression",
@@ -18354,7 +18354,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 1": {
             "nature": "Impish",
             "ability": "Water Bubble",
-            "level": 28,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Bug Bite",
@@ -18366,7 +18366,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 2": {
             "nature": "Impish",
             "ability": "Water Bubble",
-            "level": 44,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Liquidation",
@@ -18380,7 +18380,7 @@ var SETDEX_SV = {
         "OU *Cool Couple Ray & Tyra": {
             "nature": "Quiet",
             "ability": "Levitate",
-            "level": 85,
+            "level": 100,
             "item": "Magnet",
             "moves": [
                 "Bug Buzz",
@@ -18392,7 +18392,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 1": {
             "nature": "Modest",
             "ability": "Levitate",
-            "level": 28,
+            "level": 100,
             "item": "Magnet",
             "moves": [
                 "Hidden Power Grass",
@@ -18404,7 +18404,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy Set 2": {
             "nature": "Modest",
             "ability": "Levitate",
-            "level": 44,
+            "level": 100,
             "item": "Magnet",
             "moves": [
                 "Bug Buzz",
@@ -18418,7 +18418,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Keigo": {
             "nature": "Adamant",
             "ability": "Swarm",
-            "level": 22,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Camouflage",
@@ -18431,7 +18431,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Keigo": {
             "nature": "Calm",
             "ability": "Swarm",
-            "level": 23,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Flail",
@@ -18444,7 +18444,7 @@ var SETDEX_SV = {
         "OU Camper Ricky": {
             "nature": "Rash",
             "ability": "Intimidate",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Reversal",
@@ -18457,7 +18457,7 @@ var SETDEX_SV = {
         "OU Picnicker Nancy": {
             "nature": "Brave",
             "ability": "Serene Grace",
-            "level": 22,
+            "level": 100,
             "moves": [
                 "Blizzard",
                 "Captivate",
@@ -18470,7 +18470,7 @@ var SETDEX_SV = {
         "OU Picnicker Isabelle": {
             "nature": "Bashful",
             "ability": "Weak Armor",
-            "level": 23,
+            "level": 100,
             "moves": [
                 "Memento",
                 "Nasty Plot",
@@ -18483,7 +18483,7 @@ var SETDEX_SV = {
         "OU Picnicker Isabelle": {
             "nature": "Mild",
             "ability": "Leaf Guard",
-            "level": 23,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "Razor Leaf",
@@ -18496,7 +18496,7 @@ var SETDEX_SV = {
         "OU *Camper Jeff": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 27,
+            "level": 100,
             "item": "Chople Berry",
             "moves": [
                 "Arm Thrust",
@@ -18510,7 +18510,7 @@ var SETDEX_SV = {
         "OU *Camper Jeff": {
             "nature": "Timid",
             "ability": "Ice Body",
-            "level": 27,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Freeze-Dry",
@@ -18524,7 +18524,7 @@ var SETDEX_SV = {
         "OU *Camper Jeff": {
             "nature": "Adamant",
             "ability": "Tough Claws",
-            "level": 28,
+            "level": 100,
             "item": "Metal Coat",
             "moves": [
                 "Bullet Punch",
@@ -18536,7 +18536,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Bold",
             "ability": "Tough Claws",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Metal Sound",
                 "Screech",
@@ -18547,7 +18547,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Hasty",
             "ability": "Battle Armor",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Metal Sound",
                 "Screech",
@@ -18560,7 +18560,7 @@ var SETDEX_SV = {
         "OU *Camper Jeff": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
-            "level": 27,
+            "level": 100,
             "item": "Expert Belt",
             "moves": [
                 "Fire Fang",
@@ -18574,7 +18574,7 @@ var SETDEX_SV = {
         "OU Gambler Hugo": {
             "nature": "Naughty",
             "ability": "Battle Armor",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Counter",
@@ -18587,7 +18587,7 @@ var SETDEX_SV = {
         "OU Youngster Dillon": {
             "nature": "Impish",
             "ability": "Unaware",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Endeavor",
@@ -18600,7 +18600,7 @@ var SETDEX_SV = {
         "OU Youngster Dave": {
             "nature": "Docile",
             "ability": "Pickup",
-            "level": 25,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Double-Edge",
@@ -18613,7 +18613,7 @@ var SETDEX_SV = {
         "OU Black Belt Mike": {
             "nature": "Modest",
             "ability": "Scrappy",
-            "level": 47,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Brave Bird",
@@ -18625,7 +18625,7 @@ var SETDEX_SV = {
         "OU Gambler Jasper": {
             "nature": "Naive",
             "ability": "Scrappy",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Mega Kick",
@@ -18638,7 +18638,7 @@ var SETDEX_SV = {
         "OU Engineer Bernie": {
             "nature": "Relaxed",
             "ability": "Own Tempo",
-            "level": 24,
+            "level": 100,
             "moves": [
                 "Electric Terrain",
                 "Parabolic Charge",
@@ -18651,7 +18651,7 @@ var SETDEX_SV = {
         "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Adaptability",
-            "level": 28,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hidden Power Grass",
@@ -18665,7 +18665,7 @@ var SETDEX_SV = {
         "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Parental Bond",
-            "level": 28,
+            "level": 100,
             "item": "Normal Gem",
             "moves": [
                 "Charge Beam",
@@ -18679,7 +18679,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Sebastian": {
             "nature": "Timid",
             "ability": "Super Luck",
-            "level": 66,
+            "level": 100,
             "item": "Scope Lens",
             "moves": [
                 "Aeroblast",
@@ -18691,7 +18691,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Chester": {
             "nature": "Naive",
             "ability": "Hustle",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Aeroblast",
                 "Air Slash",
@@ -18702,7 +18702,7 @@ var SETDEX_SV = {
         "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Serene Grace",
-            "level": 28,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Air Slash",
@@ -18728,7 +18728,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alma": {
             "nature": "Bold",
             "ability": "Pixilate",
-            "level": 66,
+            "level": 100,
             "item": "Altarianite",
             "moves": [
                 "Earthquake",
@@ -18753,7 +18753,7 @@ var SETDEX_SV = {
         "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Pixilate",
-            "level": 28,
+            "level": 100,
             "item": "Altarianite",
             "moves": [
                 "Calm Mind",
@@ -18767,7 +18767,7 @@ var SETDEX_SV = {
         "OU SwimmerM Tony": {
             "nature": "Sassy",
             "ability": "Torrent",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Razor Shell",
@@ -18778,7 +18778,7 @@ var SETDEX_SV = {
         "OU *Lass Ann": {
             "nature": "Bashful",
             "ability": "Shell Armor",
-            "level": 28,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Flash Cannon",
@@ -18792,7 +18792,7 @@ var SETDEX_SV = {
         "OU *Gentleman Brooks": {
             "nature": "Bashful",
             "ability": "Tinted Lens",
-            "level": 28,
+            "level": 100,
             "item": "Miracle Seed",
             "moves": [
                 "Air Slash",
@@ -18806,7 +18806,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Gulp Missile",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hurricane",
@@ -18818,7 +18818,7 @@ var SETDEX_SV = {
         "OU Fisherman Nolan": {
             "nature": "Modest",
             "ability": "Gulp Missile",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Drill Peck",
@@ -18829,7 +18829,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Carter": {
             "nature": "Mild",
             "ability": "Gulp Missile",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Drill Peck",
@@ -18840,7 +18840,7 @@ var SETDEX_SV = {
         "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Gulp Missile",
-            "level": 27,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Ice Beam",
@@ -18854,7 +18854,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Gulp Missile",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hurricane",
@@ -18866,7 +18866,7 @@ var SETDEX_SV = {
         "OU Fisherman Nolan": {
             "nature": "Modest",
             "ability": "Gulp Missile",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Drill Peck",
@@ -18877,7 +18877,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Carter": {
             "nature": "Mild",
             "ability": "Gulp Missile",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Drill Peck",
@@ -18888,7 +18888,7 @@ var SETDEX_SV = {
         "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Gulp Missile",
-            "level": 27,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Ice Beam",
@@ -18902,7 +18902,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Gulp Missile",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Hurricane",
@@ -18914,7 +18914,7 @@ var SETDEX_SV = {
         "OU Fisherman Nolan": {
             "nature": "Modest",
             "ability": "Gulp Missile",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Drill Peck",
@@ -18925,7 +18925,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Carter": {
             "nature": "Mild",
             "ability": "Gulp Missile",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Drill Peck",
@@ -18936,7 +18936,7 @@ var SETDEX_SV = {
         "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Gulp Missile",
-            "level": 27,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Ice Beam",
@@ -18950,7 +18950,7 @@ var SETDEX_SV = {
         "OU *Sailor Edmond": {
             "nature": "Timid",
             "ability": "Storm Drain",
-            "level": 28,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Flip Turn",
@@ -18962,7 +18962,7 @@ var SETDEX_SV = {
         "OU SwimmerM Douglas": {
             "nature": "Jolly",
             "ability": "Storm Drain",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Hurricane",
@@ -18975,7 +18975,7 @@ var SETDEX_SV = {
         "OU *Sailor Edmond": {
             "nature": "Calm",
             "ability": "Storm Drain",
-            "level": 27,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Dragon Pulse",
@@ -18987,7 +18987,7 @@ var SETDEX_SV = {
         "OU Fisherman Nolan": {
             "nature": "Quiet",
             "ability": "Storm Drain",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Dragon Pulse",
                 "Mirror Coat",
@@ -19000,7 +19000,7 @@ var SETDEX_SV = {
         "OU Fisherman Dale": {
             "nature": "Gentle",
             "ability": "Limber",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Brutal Swing",
                 "Reversal",
@@ -19013,7 +19013,7 @@ var SETDEX_SV = {
         "OU Fisherman Dale": {
             "nature": "Docile",
             "ability": "Water Veil",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Encore",
                 "Flip Turn",
@@ -19026,7 +19026,7 @@ var SETDEX_SV = {
         "OU Gentleman Lamar": {
             "nature": "Hasty",
             "ability": "Sand Rush",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Giga Impact",
                 "Last Resort",
@@ -19039,7 +19039,7 @@ var SETDEX_SV = {
         "OU Lass Dawn": {
             "nature": "Lax",
             "ability": "Hunger Switch",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Aura Wheel",
                 "Crunch",
@@ -19050,7 +19050,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Jolly",
             "ability": "Hunger Switch",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aura Wheel",
@@ -19064,7 +19064,7 @@ var SETDEX_SV = {
         "OU Lass Dawn": {
             "nature": "Lax",
             "ability": "Hunger Switch",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Aura Wheel",
                 "Crunch",
@@ -19075,7 +19075,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Jolly",
             "ability": "Hunger Switch",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aura Wheel",
@@ -19089,7 +19089,7 @@ var SETDEX_SV = {
         "OU Fisherman Barny": {
             "nature": "Calm",
             "ability": "Swift Swim",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Double-Edge",
@@ -19102,7 +19102,7 @@ var SETDEX_SV = {
         "OU Fisherman Barny": {
             "nature": "Modest",
             "ability": "Swift Swim",
-            "level": 26,
+            "level": 100,
             "moves": [
                 "Air Slash",
                 "Aqua Ring",
@@ -19115,7 +19115,7 @@ var SETDEX_SV = {
         "OU Sailor Huey": {
             "nature": "Timid",
             "ability": "Simple",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Curse",
@@ -19128,7 +19128,7 @@ var SETDEX_SV = {
         "OU Sailor Dylan": {
             "nature": "Adamant",
             "ability": "Frisk",
-            "level": 29,
+            "level": 100,
             "moves": [
                 "Hurricane",
                 "Hydro Pump",
@@ -19141,7 +19141,7 @@ var SETDEX_SV = {
         "OU Youngster Tyler": {
             "nature": "Sassy",
             "ability": "Ice Face",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Aurora Veil",
                 "Blizzard",
@@ -19154,7 +19154,7 @@ var SETDEX_SV = {
         "OU Youngster Tyler": {
             "nature": "Sassy",
             "ability": "Ice Face",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Aurora Veil",
                 "Blizzard",
@@ -19167,7 +19167,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Swift Swim",
-            "level": 56,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Destiny Bond",
@@ -19203,7 +19203,7 @@ var SETDEX_SV = {
         "OU *Biker Goon": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 99,
+            "level": 100,
             "item": "Dark Gem",
             "moves": [
                 "Gunk Shot",
@@ -19255,7 +19255,7 @@ var SETDEX_SV = {
         "OU *Aroma Lady Violet": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 99,
+            "level": 100,
             "item": "Rock Gem",
             "moves": [
                 "Accelerock",
@@ -19279,7 +19279,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 76,
+            "level": 100,
             "item": "Fire Gem",
             "moves": [
                 "Accelerock",
@@ -19291,7 +19291,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Aidan": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 35,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Accelerock",
@@ -19303,7 +19303,7 @@ var SETDEX_SV = {
         "OU *Gatekeeper Logan": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 99,
+            "level": 100,
             "item": "Hard Stone",
             "moves": [
                 "Accelerock",
@@ -19317,7 +19317,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Hustle",
-            "level": 47,
+            "level": 100,
             "item": "Miracle Seed",
             "moves": [
                 "Close Combat",
@@ -19355,7 +19355,7 @@ var SETDEX_SV = {
         "OU *Biker Goon": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 98,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Headlong Rush",
@@ -19369,7 +19369,7 @@ var SETDEX_SV = {
         "OU SwimmerM Luis": {
             "nature": "Quirky",
             "ability": "Solid Rock",
-            "level": 20,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Hydro Pump",
@@ -19382,7 +19382,7 @@ var SETDEX_SV = {
         "OU Picnicker Diana": {
             "nature": "Bold",
             "ability": "Strong Jaw",
-            "level": 22,
+            "level": 100,
             "moves": [
                 "Aqua Fang",
                 "Body Slam",
@@ -19395,7 +19395,7 @@ var SETDEX_SV = {
         "OU Leader Misty": {
             "nature": "Careful",
             "ability": "Water Absorb",
-            "level": 28,
+            "level": 100,
             "item": "Black Sludge",
             "moves": [
                 "Bulldoze",
@@ -19407,7 +19407,7 @@ var SETDEX_SV = {
         "OU Picnicker Missy": {
             "nature": "Lax",
             "ability": "Poison Touch",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Megahorn",
@@ -19420,7 +19420,7 @@ var SETDEX_SV = {
         "OU Biker Alex": {
             "nature": "Modest",
             "ability": "Dry Skin",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Nasty Plot",
                 "Screech",
@@ -19431,7 +19431,7 @@ var SETDEX_SV = {
         "OU Leader Misty": {
             "nature": "Jolly",
             "ability": "Dry Skin",
-            "level": 27,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Drain Punch",
@@ -19443,7 +19443,7 @@ var SETDEX_SV = {
         "OU Biker Lukas": {
             "nature": "Mild",
             "ability": "Dry Skin",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Drain Punch",
                 "Poison Jab",
@@ -19454,7 +19454,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Serious",
             "ability": "Dry Skin",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Close Combat",
@@ -19467,7 +19467,7 @@ var SETDEX_SV = {
         "OU Friendly PkMnManiac": {
             "nature": "Jolly",
             "ability": "Lightning Rod",
-            "level": 5,
+            "level": 100,
             "item": "Light Ball",
             "moves": [
                 "Freezy Frost",
@@ -19480,7 +19480,7 @@ var SETDEX_SV = {
         "OU Friendly PkMnManiac": {
             "nature": "Brave",
             "ability": "Battle Armor",
-            "level": 5,
+            "level": 100,
             "item": "Black Sludge",
             "moves": [
                 "Poison Jab",
@@ -19492,7 +19492,7 @@ var SETDEX_SV = {
         "OU Friendly PkMnManiac": {
             "nature": "Bashful",
             "ability": "Flame Body",
-            "level": 5,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Flare Blitz",
@@ -19518,7 +19518,7 @@ var SETDEX_SV = {
         "OU *SwimmerM Finn": {
             "nature": "Jolly",
             "ability": "Swift Swim",
-            "level": 98,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Close Combat",
@@ -19530,7 +19530,7 @@ var SETDEX_SV = {
         "OU SwimmerM Darrin": {
             "nature": "Lax",
             "ability": "Swift Swim",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Double-Edge",
@@ -19541,7 +19541,7 @@ var SETDEX_SV = {
         "OU Fisherman Chip": {
             "nature": "Sassy",
             "ability": "Swift Swim",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Double-Edge",
@@ -19554,7 +19554,7 @@ var SETDEX_SV = {
         "OU SwimmerM Richard": {
             "nature": "Serious",
             "ability": "Unaware",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Heavy Slam",
@@ -19565,7 +19565,7 @@ var SETDEX_SV = {
         "OU Fisherman Elliot": {
             "nature": "Sassy",
             "ability": "Unaware",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Heavy Slam",
@@ -19576,7 +19576,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Alexa": {
             "nature": "Careful",
             "ability": "Unaware",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Body Press",
@@ -19590,7 +19590,7 @@ var SETDEX_SV = {
         "OU Leader Erika": {
             "nature": "Timid",
             "ability": "Punk Rock",
-            "level": 44,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Boomburst",
@@ -19602,7 +19602,7 @@ var SETDEX_SV = {
         "OU Young Couple Gia & Jes": {
             "nature": "Mild",
             "ability": "Punk Rock",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Overdrive",
@@ -19615,7 +19615,7 @@ var SETDEX_SV = {
         "OU Young Couple Gia & Jes": {
             "nature": "Bold",
             "ability": "Minus",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Magnetic Flux",
@@ -19628,7 +19628,7 @@ var SETDEX_SV = {
         "OU Picnicker Carol": {
             "nature": "Naughty",
             "ability": "Soundproof",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Psychic",
                 "Role Play",
@@ -19641,7 +19641,7 @@ var SETDEX_SV = {
         "OU Picnicker Carol": {
             "nature": "Serious",
             "ability": "Rocky Payload",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Dual Wingbeat",
                 "Knock Off",
@@ -19654,7 +19654,7 @@ var SETDEX_SV = {
         "OU Hiker Clark": {
             "nature": "Jolly",
             "ability": "Sturdy",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Magnitude",
                 "Rock Throw",
@@ -19667,7 +19667,7 @@ var SETDEX_SV = {
         "OU *Beauty Lola": {
             "nature": "Jolly",
             "ability": "Flower Gift",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Petal Blizzard",
@@ -19679,7 +19679,7 @@ var SETDEX_SV = {
         "OU *Pokemaniac Herman": {
             "nature": "Lonely",
             "ability": "Flower Gift",
-            "level": 36,
+            "level": 100,
             "item": "Miracle Seed",
             "moves": [
                 "Return",
@@ -19693,7 +19693,7 @@ var SETDEX_SV = {
         "OU *Beauty Lola": {
             "nature": "Jolly",
             "ability": "Flower Gift",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Petal Blizzard",
@@ -19705,7 +19705,7 @@ var SETDEX_SV = {
         "OU *Pokemaniac Herman": {
             "nature": "Lonely",
             "ability": "Flower Gift",
-            "level": 36,
+            "level": 100,
             "item": "Miracle Seed",
             "moves": [
                 "Return",
@@ -19719,7 +19719,7 @@ var SETDEX_SV = {
         "OU *Picnicker Susie": {
             "nature": "Timid",
             "ability": "Pixilate",
-            "level": 66,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Hyper Voice",
@@ -19731,7 +19731,7 @@ var SETDEX_SV = {
         "OU *Pokemaniac Herman": {
             "nature": "Modest",
             "ability": "Pixilate",
-            "level": 36,
+            "level": 100,
             "item": "Pixie Plate",
             "moves": [
                 "Hyper Voice",
@@ -19745,7 +19745,7 @@ var SETDEX_SV = {
         "OU *Biker Ruben": {
             "nature": "Timid",
             "ability": "Technician",
-            "level": 66,
+            "level": 100,
             "item": "Fire Gem",
             "moves": [
                 "Giga Drain",
@@ -19757,7 +19757,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alicia": {
             "nature": "Timid",
             "ability": "Technician",
-            "level": 34,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Clear Smog",
@@ -19769,7 +19769,7 @@ var SETDEX_SV = {
         "OU Biker Malik": {
             "nature": "Bashful",
             "ability": "Poison Touch",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Disable",
                 "Giga Drain",
@@ -19782,7 +19782,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alicia": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
-            "level": 35,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aqua Fang",
@@ -19794,7 +19794,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Lax",
             "ability": "Dazzling",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Aqua Fang",
                 "Psychic Fangs",
@@ -19807,7 +19807,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alicia": {
             "nature": "Timid",
             "ability": "Punk Rock",
-            "level": 36,
+            "level": 100,
             "item": "Silk Scarf",
             "moves": [
                 "Boomburst",
@@ -19819,7 +19819,7 @@ var SETDEX_SV = {
         "OU Picnicker Ariana": {
             "nature": "Timid",
             "ability": "Punk Rock",
-            "level": 33,
+            "level": 100,
             "moves": [
                 "Boomburst",
                 "Feather Dance",
@@ -19832,7 +19832,7 @@ var SETDEX_SV = {
         "OU Hiker Jeremy": {
             "nature": "Hasty",
             "ability": "Static",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Earth Power",
@@ -19843,7 +19843,7 @@ var SETDEX_SV = {
         "OU *Biker Hideo": {
             "nature": "Calm",
             "ability": "Sand Veil",
-            "level": 65,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earth Power",
@@ -19857,7 +19857,7 @@ var SETDEX_SV = {
         "OU Hiker Alan": {
             "nature": "Hasty",
             "ability": "Steam Engine",
-            "level": 32,
+            "level": 100,
             "moves": [
                 "Flame Charge",
                 "Harden",
@@ -19869,7 +19869,7 @@ var SETDEX_SV = {
         "OU Camper Chris": {
             "nature": "Impish",
             "ability": "Blaze",
-            "level": 31,
+            "level": 100,
             "moves": [
                 "Flamethrower",
                 "Flare Blitz",
@@ -19882,7 +19882,7 @@ var SETDEX_SV = {
         "OU Bug Catcher Brent": {
             "nature": "Timid",
             "ability": "Swarm",
-            "level": 28,
+            "level": 100,
             "moves": [
                 "After You",
                 "Calm Mind",
@@ -19895,7 +19895,7 @@ var SETDEX_SV = {
         "OU Hiker Brice": {
             "nature": "Jolly",
             "ability": "Anger Shell",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "High Horsepower",
                 "Iron Defense",
@@ -19908,7 +19908,7 @@ var SETDEX_SV = {
         "OU Hiker Brice": {
             "nature": "Hasty",
             "ability": "Clear Body",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "Light Screen",
                 "Moonblast",
@@ -19919,7 +19919,7 @@ var SETDEX_SV = {
         "OU Picnicker Sofia": {
             "nature": "Modest",
             "ability": "Clear Body",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Light Screen",
                 "Moonblast",
@@ -19932,7 +19932,7 @@ var SETDEX_SV = {
         "OU Hiker Brice": {
             "nature": "Bold",
             "ability": "Shields Down",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Explosion",
@@ -19945,7 +19945,7 @@ var SETDEX_SV = {
         "OU Hiker Brice": {
             "nature": "Bold",
             "ability": "Shields Down",
-            "level": 30,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Explosion",
@@ -19958,7 +19958,7 @@ var SETDEX_SV = {
         "OU *Picnicker Caitlin": {
             "nature": "Jolly",
             "ability": "Inner Focus",
-            "level": 35,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Assist"
@@ -19969,7 +19969,7 @@ var SETDEX_SV = {
         "OU *Picnicker Caitlin": {
             "nature": "Adamant",
             "ability": "Prankster",
-            "level": 35,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Assist"
@@ -19978,7 +19978,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Quiet",
             "ability": "Unburden",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Nasty Plot",
                 "Night Slash",
@@ -19991,7 +19991,7 @@ var SETDEX_SV = {
         "OU Camper Drew": {
             "nature": "Lax",
             "ability": "Swift Swim",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Echoed Voice",
                 "Flail",
@@ -20004,7 +20004,7 @@ var SETDEX_SV = {
         "OU *Picnicker Dana": {
             "nature": "Naive",
             "ability": "Shield Dust",
-            "level": 34,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Moonblast",
@@ -20018,7 +20018,7 @@ var SETDEX_SV = {
         "OU Biker Virgil": {
             "nature": "Adamant",
             "ability": "Reckless",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Head Charge",
@@ -20028,7 +20028,7 @@ var SETDEX_SV = {
         "OU *Picnicker Dana": {
             "nature": "Jolly",
             "ability": "Bull Rush",
-            "level": 35,
+            "level": 100,
             "item": "Silk Scarf",
             "moves": [
                 "Earthquake",
@@ -20040,7 +20040,7 @@ var SETDEX_SV = {
         "OU *Beauty Sheila": {
             "nature": "Adamant",
             "ability": "Sap Sipper",
-            "level": 66,
+            "level": 100,
             "item": "Normal Gem",
             "moves": [
                 "Close Combat",
@@ -20054,7 +20054,7 @@ var SETDEX_SV = {
         "OU *Picnicker Dana": {
             "nature": "Timid",
             "ability": "Mega Launcher",
-            "level": 36,
+            "level": 100,
             "item": "Expert Belt",
             "moves": [
                 "Aura Sphere",
@@ -20068,7 +20068,7 @@ var SETDEX_SV = {
         "OU *Picnicker Dana": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
-            "level": 36,
+            "level": 100,
             "item": "Hard Stone",
             "moves": [
                 "Accelerock",
@@ -20082,7 +20082,7 @@ var SETDEX_SV = {
         "OU *Picnicker Dana": {
             "nature": "Timid",
             "ability": "Mega Launcher",
-            "level": 36,
+            "level": 100,
             "item": "Magmarizer",
             "moves": [
                 "Aura Sphere",
@@ -20094,7 +20094,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Modest",
             "ability": "Mega Launcher",
-            "level": 81,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aura Sphere",
@@ -20106,7 +20106,7 @@ var SETDEX_SV = {
         "OU Juggler Shawn": {
             "nature": "Serious",
             "ability": "Flame Body",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Fire Blast",
                 "Hydro Steam",
@@ -20119,7 +20119,7 @@ var SETDEX_SV = {
         "OU Picnicker Ariana": {
             "nature": "Modest",
             "ability": "Rivalry",
-            "level": 31,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Discharge",
@@ -20132,7 +20132,7 @@ var SETDEX_SV = {
         "OU Hiker Lucas": {
             "nature": "Lonely",
             "ability": "Sharpness",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "Magnitude",
@@ -20144,7 +20144,7 @@ var SETDEX_SV = {
         "OU Hiker Lenny": {
             "nature": "Bashful",
             "ability": "Mold Breaker",
-            "level": 31,
+            "level": 100,
             "moves": [
                 "Ancient Power",
                 "Head Smash",
@@ -20157,7 +20157,7 @@ var SETDEX_SV = {
         "OU Hiker Lenny": {
             "nature": "Naughty",
             "ability": "Sturdy",
-            "level": 32,
+            "level": 100,
             "moves": [
                 "Heavy Slam",
                 "Iron Head",
@@ -20170,7 +20170,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Ashton": {
             "nature": "Jolly",
             "ability": "ThermalExchange",
-            "level": 32,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Dragon Claw",
@@ -20183,7 +20183,7 @@ var SETDEX_SV = {
         "OU Hiker Dudley": {
             "nature": "Relaxed",
             "ability": "Iron Barbs",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Bullet Seed",
                 "Gyro Ball",
@@ -20196,7 +20196,7 @@ var SETDEX_SV = {
         "OU Hiker Dudley": {
             "nature": "Hardy",
             "ability": "Sturdy",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Bug Bite",
                 "Magnitude",
@@ -20208,7 +20208,7 @@ var SETDEX_SV = {
         "OU Channeler Janae": {
             "nature": "Bold",
             "ability": "Iron Fist",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Curse",
                 "Earthquake",
@@ -20219,7 +20219,7 @@ var SETDEX_SV = {
         "OU Hiker Allen": {
             "nature": "Impish",
             "ability": "Iron Fist",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Magnitude",
                 "Shadow Punch"
@@ -20230,7 +20230,7 @@ var SETDEX_SV = {
         "OU Scientist Ivan": {
             "nature": "Careful",
             "ability": "Overcoat",
-            "level": 71,
+            "level": 100,
             "moves": [
                 "Gunk Shot",
                 "Poison Jab",
@@ -20241,7 +20241,7 @@ var SETDEX_SV = {
         "OU Hiker Eric": {
             "nature": "Relaxed",
             "ability": "Overcoat",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Gunk Shot",
                 "Poison Jab",
@@ -20254,7 +20254,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Steve": {
             "nature": "Jolly",
             "ability": "Blaze",
-            "level": 33,
+            "level": 100,
             "moves": [
                 "Fire Blast",
                 "Magic Room",
@@ -20267,7 +20267,7 @@ var SETDEX_SV = {
         "OU Lass Julia": {
             "nature": "Hasty",
             "ability": "Synchronize",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Dream Eater",
@@ -20280,7 +20280,7 @@ var SETDEX_SV = {
         "OU Super Nerd Glenn": {
             "nature": "Modest",
             "ability": "Gluttony",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Acid Armor",
                 "Belch",
@@ -20293,7 +20293,7 @@ var SETDEX_SV = {
         "OU Super Nerd Glenn": {
             "nature": "Timid",
             "ability": "Poison Touch",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Acid Armor",
                 "Belch",
@@ -20304,7 +20304,7 @@ var SETDEX_SV = {
         "OU Scientist Connor": {
             "nature": "Adamant",
             "ability": "Poison Touch",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Poison Jab",
@@ -20314,7 +20314,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Colby": {
             "nature": "Adamant",
             "ability": "Poison Touch",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Fire Punch",
@@ -20326,7 +20326,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Naughty",
             "ability": "Poison Touch",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Disable",
                 "Harden",
@@ -20339,7 +20339,7 @@ var SETDEX_SV = {
         "OU Lass Paige": {
             "nature": "Calm",
             "ability": "Cute Charm",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Double-Edge",
@@ -20352,7 +20352,7 @@ var SETDEX_SV = {
         "OU Lass Andrea": {
             "nature": "Naughty",
             "ability": "Pickup",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Captivate",
                 "Dark Pulse",
@@ -20365,7 +20365,7 @@ var SETDEX_SV = {
         "OU Lass Andrea": {
             "nature": "Naive",
             "ability": "Swarm",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Aromatherapy",
                 "Bug Buzz",
@@ -20378,7 +20378,7 @@ var SETDEX_SV = {
         "OU Lass Megan": {
             "nature": "Naughty",
             "ability": "Triage",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Aromatherapy",
                 "Grassy Terrain",
@@ -20391,7 +20391,7 @@ var SETDEX_SV = {
         "OU Scientist Rodney": {
             "nature": "Quirky",
             "ability": "Flash Fire",
-            "level": 48,
+            "level": 100,
             "moves": [
                 "Armor Cannon",
                 "Calm Mind",
@@ -20402,7 +20402,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Aidan": {
             "nature": "Modest",
             "ability": "Weak Armor",
-            "level": 35,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Aura Sphere",
@@ -20415,7 +20415,7 @@ var SETDEX_SV = {
         "OU Channeler Stacy": {
             "nature": "Jolly",
             "ability": "Flash Fire",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Armor Cannon",
                 "Calm Mind",
@@ -20428,7 +20428,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Aidan": {
             "nature": "Adamant",
             "ability": "Queenly Majesty",
-            "level": 35,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Brutal Swing",
@@ -20442,7 +20442,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Aidan": {
             "nature": "Naive",
             "ability": "Adaptability",
-            "level": 36,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Hydro Pump",
@@ -20468,7 +20468,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Zac": {
             "nature": "Timid",
             "ability": "Tinted Lens",
-            "level": 76,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Air Slash",
@@ -20480,7 +20480,7 @@ var SETDEX_SV = {
         "OU *Super Nerd Aidan": {
             "nature": "Modest",
             "ability": "Sheer Force",
-            "level": 36,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Air Slash",
@@ -20492,7 +20492,7 @@ var SETDEX_SV = {
         "OU *Biker Goon": {
             "nature": "Modest",
             "ability": "Sheer Force",
-            "level": 99,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Heat Wave",
@@ -20506,7 +20506,7 @@ var SETDEX_SV = {
         "OU Twins Eli & Anne": {
             "nature": "Calm",
             "ability": "Frisk",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Disarm Cry",
                 "Fake Out",
@@ -20519,7 +20519,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Bold",
             "ability": "Neutralize Gas",
-            "level": 47,
+            "level": 100,
             "item": "Shuca Berry",
             "moves": [
                 "Flamethrower",
@@ -20531,7 +20531,7 @@ var SETDEX_SV = {
         "OU Biker Ricardo": {
             "nature": "Rash",
             "ability": "Neutralize Gas",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Explosion",
                 "Sludge",
@@ -20542,7 +20542,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Gentle",
             "ability": "Neutralize Gas",
-            "level": 42,
+            "level": 100,
             "moves": [
                 "Poison Gas",
                 "Sludge",
@@ -20555,7 +20555,7 @@ var SETDEX_SV = {
         "OU Biker Ernest": {
             "nature": "Brave",
             "ability": "Corrosion",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Flamethrower",
                 "Nasty Plot",
@@ -20566,7 +20566,7 @@ var SETDEX_SV = {
         "OU Biker Ricardo": {
             "nature": "Docile",
             "ability": "Corrosion",
-            "level": 34,
+            "level": 100,
             "moves": [
                 "Disable",
                 "Flame Burst",
@@ -20577,7 +20577,7 @@ var SETDEX_SV = {
         "OU Burglar Ramon": {
             "nature": "Quiet",
             "ability": "Corrosion",
-            "level": 74,
+            "level": 100,
             "moves": [
                 "Dragon Pulse",
                 "Flamethrower",
@@ -20590,7 +20590,7 @@ var SETDEX_SV = {
         "OU Biker Isaac": {
             "nature": "Quiet",
             "ability": "Gooey",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Screech",
                 "Sludge Bomb",
@@ -20601,7 +20601,7 @@ var SETDEX_SV = {
         "OU Biker Jaren": {
             "nature": "Bold",
             "ability": "Weak Armor",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Amnesia",
                 "Belch",
@@ -20614,7 +20614,7 @@ var SETDEX_SV = {
         "OU Black Belt Hitoshi": {
             "nature": "Modest",
             "ability": "Contrary",
-            "level": 45,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Bulk Up",
@@ -20628,7 +20628,7 @@ var SETDEX_SV = {
         "OU Black Belt Hitoshi": {
             "nature": "Modest",
             "ability": "Mold Breaker",
-            "level": 46,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Bulk Up",
@@ -20642,7 +20642,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 79,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Bulk Up",
@@ -20654,7 +20654,7 @@ var SETDEX_SV = {
         "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 36,
+            "level": 100,
             "item": "Salac Berry",
             "moves": [
                 "Bulk Up",
@@ -20667,7 +20667,7 @@ var SETDEX_SV = {
         "OU Black Belt Hitoshi": {
             "nature": "Modest",
             "ability": "Defiant",
-            "level": 45,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Close Combat",
@@ -20681,7 +20681,7 @@ var SETDEX_SV = {
         "OU *Camper Justin": {
             "nature": "Careful",
             "ability": "Iron Fist",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Drain Punch",
@@ -20693,7 +20693,7 @@ var SETDEX_SV = {
         "OU Black Belt Hideki": {
             "nature": "Modest",
             "ability": "Iron Fist",
-            "level": 45,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Focus Punch",
@@ -20717,7 +20717,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Guts",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Focus Punch",
                 "Hammer Arm",
@@ -20728,7 +20728,7 @@ var SETDEX_SV = {
         "OU Black Belt Daisuke": {
             "nature": "Adamant",
             "ability": "Sheer Force",
-            "level": 80,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Focus Punch",
@@ -20742,7 +20742,7 @@ var SETDEX_SV = {
         "OU Crush Kin Ron & Mya": {
             "nature": "Naive",
             "ability": "Sharpness",
-            "level": 58,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Brave Bird",
@@ -20754,7 +20754,7 @@ var SETDEX_SV = {
         "OU Black Belt Aaron": {
             "nature": "Modest",
             "ability": "Scrappy",
-            "level": 46,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Brave Bird",
@@ -20768,7 +20768,7 @@ var SETDEX_SV = {
         "OU *Leader Chuck": {
             "nature": "Timid",
             "ability": "Sharpness",
-            "level": 36,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Psychic Noise",
@@ -20794,7 +20794,7 @@ var SETDEX_SV = {
         "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Unburden",
-            "level": 36,
+            "level": 100,
             "item": "Liechi Berry",
             "moves": [
                 "Close Combat",
@@ -20820,7 +20820,7 @@ var SETDEX_SV = {
         "OU *Leader Chuck": {
             "nature": "Naive",
             "ability": "Overcoat",
-            "level": 36,
+            "level": 100,
             "item": "Kommonium Z",
             "moves": [
                 "Clanging Scales",
@@ -20834,7 +20834,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Valiant Shield",
-            "level": 82,
+            "level": 100,
             "item": "Rusty Shield",
             "moves": [
                 "Behemoth Bash",
@@ -20846,7 +20846,7 @@ var SETDEX_SV = {
         "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Valiant Shield",
-            "level": 36,
+            "level": 100,
             "item": "Rusty Shield",
             "moves": [
                 "Behemoth Bash",
@@ -20872,7 +20872,7 @@ var SETDEX_SV = {
         "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 36,
+            "level": 100,
             "item": "Galladite",
             "moves": [
                 "Bulk Up",
@@ -20886,7 +20886,7 @@ var SETDEX_SV = {
         "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 36,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Bitter Blade",
@@ -20899,7 +20899,7 @@ var SETDEX_SV = {
         "OU Channeler Carly": {
             "nature": "Calm",
             "ability": "Flash Fire",
-            "level": 39,
+            "level": 100,
             "moves": [
                 "Bitter Blade",
                 "Flare Blitz",
@@ -20912,7 +20912,7 @@ var SETDEX_SV = {
         "OU Channeler Paula": {
             "nature": "Lax",
             "ability": "Infiltrator",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Curse",
                 "Pain Split",
@@ -20925,7 +20925,7 @@ var SETDEX_SV = {
         "OU *Channeler Ruth": {
             "nature": "Modest",
             "ability": "Electric Surge",
-            "level": 35,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Bouncy Bubble",
@@ -20939,7 +20939,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Prankster",
-            "level": 79,
+            "level": 100,
             "item": "Light Clay",
             "moves": [
                 "Darkest Lariat",
@@ -20951,7 +20951,7 @@ var SETDEX_SV = {
         "OU Youngster Johnson": {
             "nature": "Careful",
             "ability": "Frisk",
-            "level": 71,
+            "level": 100,
             "moves": [
                 "Foul Play",
                 "Hammer Arm",
@@ -20962,7 +20962,7 @@ var SETDEX_SV = {
         "OU *Channeler Ruth": {
             "nature": "Careful",
             "ability": "Prankster",
-            "level": 36,
+            "level": 100,
             "item": "Light Clay",
             "moves": [
                 "Darkest Lariat",
@@ -20974,7 +20974,7 @@ var SETDEX_SV = {
         "OU *Biker Goon": {
             "nature": "Impish",
             "ability": "Prankster",
-            "level": 98,
+            "level": 100,
             "item": "Light Clay",
             "moves": [
                 "Light Screen",
@@ -20988,7 +20988,7 @@ var SETDEX_SV = {
         "OU *Channeler Ruth": {
             "nature": "Modest",
             "ability": "Unburden",
-            "level": 36,
+            "level": 100,
             "item": "Electric Seed",
             "moves": [
                 "Air Slash",
@@ -21002,7 +21002,7 @@ var SETDEX_SV = {
         "OU *Channeler Ruth": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 36,
+            "level": 100,
             "item": "Electric Seed",
             "moves": [
                 "Calm Mind",
@@ -21016,7 +21016,7 @@ var SETDEX_SV = {
         "OU *Channeler Ruth": {
             "nature": "Timid",
             "ability": "Heatproof",
-            "level": 36,
+            "level": 100,
             "item": "White Herb",
             "moves": [
                 "Hidden Power Fighting",
@@ -21042,7 +21042,7 @@ var SETDEX_SV = {
         "OU Channeler Tammy": {
             "nature": "Bold",
             "ability": "Disguise",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Hone Claws",
                 "Pain Split",
@@ -21055,7 +21055,7 @@ var SETDEX_SV = {
         "OU Channeler Karina": {
             "nature": "Impish",
             "ability": "Water Absorb",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Brine",
                 "Hex",
@@ -21066,7 +21066,7 @@ var SETDEX_SV = {
         "OU SwimmerF Anya": {
             "nature": "Jolly",
             "ability": "Water Absorb",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Brine",
                 "Hex",
@@ -21077,7 +21077,7 @@ var SETDEX_SV = {
         "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Water Bubble",
-            "level": 59,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Hydro Pump",
@@ -21092,7 +21092,7 @@ var SETDEX_SV = {
         "OU Channeler Angelica": {
             "nature": "Bold",
             "ability": "Flash Fire",
-            "level": 39,
+            "level": 100,
             "moves": [
                 "Curse",
                 "Overheat",
@@ -21105,7 +21105,7 @@ var SETDEX_SV = {
         "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 36,
+            "level": 100,
             "item": "Chople Berry",
             "moves": [
                 "Earthquake",
@@ -21117,7 +21117,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alma": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earthquake",
@@ -21141,7 +21141,7 @@ var SETDEX_SV = {
         "OU Leader Koga": {
             "nature": "Adamant",
             "ability": "Moxie",
-            "level": 68,
+            "level": 100,
             "item": "Black Glasses",
             "moves": [
                 "Close Combat",
@@ -21153,7 +21153,7 @@ var SETDEX_SV = {
         "OU *Elite Four Agatha": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earthquake",
@@ -21167,7 +21167,7 @@ var SETDEX_SV = {
         "OU *Leader Morty": {
             "nature": "Adamant",
             "ability": "Hustle",
-            "level": 36,
+            "level": 100,
             "item": "Reaper Cloth",
             "moves": [
                 "Dynamic Punch",
@@ -21202,7 +21202,7 @@ var SETDEX_SV = {
         "OU *Leader Morty": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 36,
+            "level": 100,
             "item": "Spell Tag",
             "moves": [
                 "Moonblast",
@@ -21214,7 +21214,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Colby": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 85,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Moonblast",
@@ -21228,7 +21228,7 @@ var SETDEX_SV = {
         "OU Biker Alex": {
             "nature": "Lax",
             "ability": "Pressure",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Ice Shard",
                 "Night Slash",
@@ -21239,7 +21239,7 @@ var SETDEX_SV = {
         "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Infiltrator",
-            "level": 36,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Knock Off",
@@ -21251,7 +21251,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Mary": {
             "nature": "Jolly",
             "ability": "Infiltrator",
-            "level": 43,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Icicle Crash",
@@ -21263,7 +21263,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Sassy",
             "ability": "Pressure",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Night Slash",
@@ -21274,7 +21274,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Lax",
             "ability": "Pressure",
-            "level": 75,
+            "level": 100,
             "moves": [
                 "Dark Pulse",
                 "Night Slash",
@@ -21287,7 +21287,7 @@ var SETDEX_SV = {
         "OU *Leader Morty Set 1": {
             "nature": "Timid",
             "ability": "Shadow Tag",
-            "level": 36,
+            "level": 100,
             "item": "Gengarite",
             "moves": [
                 "Focus Blast",
@@ -21313,7 +21313,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 47,
+            "level": 100,
             "item": "Charti Berry",
             "moves": [
                 "Freeze-Dry",
@@ -21325,7 +21325,7 @@ var SETDEX_SV = {
         "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 66,
+            "level": 100,
             "item": "Icium Z",
             "moves": [
                 "Blizzard",
@@ -21337,7 +21337,7 @@ var SETDEX_SV = {
         "OU Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 35,
+            "level": 100,
             "item": "Icium Z",
             "moves": [
                 "Blizzard",
@@ -21351,7 +21351,7 @@ var SETDEX_SV = {
         "OU Leader Lt. Surge": {
             "nature": "Naive",
             "ability": "Reckless",
-            "level": 36,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Chloroblast",
@@ -21365,7 +21365,7 @@ var SETDEX_SV = {
         "OU Leader Lt. Surge": {
             "nature": "Modest",
             "ability": "Surge Surfer",
-            "level": 36,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Nasty Plot",
@@ -21377,7 +21377,7 @@ var SETDEX_SV = {
         "OU Picnicker Becky": {
             "nature": "Careful",
             "ability": "Surge Surfer",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Quick Attack",
                 "Speed Swap",
@@ -21390,7 +21390,7 @@ var SETDEX_SV = {
         "OU Leader Lt. Surge": {
             "nature": "Jolly",
             "ability": "Iron Fist",
-            "level": 36,
+            "level": 100,
             "item": "Punching Glove",
             "moves": [
                 "Close Combat",
@@ -21402,7 +21402,7 @@ var SETDEX_SV = {
         "OU *Leader Lt. Surge": {
             "nature": "Jolly",
             "ability": "Iron Fist",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Close Combat",
@@ -21416,7 +21416,7 @@ var SETDEX_SV = {
         "OU Leader Lt. Surge": {
             "nature": "Modest",
             "ability": "Mold Breaker",
-            "level": 36,
+            "level": 100,
             "item": "Ampharosite",
             "moves": [
                 "Dragon Pulse",
@@ -21428,7 +21428,7 @@ var SETDEX_SV = {
         "OU *Leader Erika": {
             "nature": "Modest",
             "ability": "Thick Fat",
-            "level": 68,
+            "level": 100,
             "item": "Ampharosite",
             "moves": [
                 "Draco Barrage",
@@ -21442,7 +21442,7 @@ var SETDEX_SV = {
         "OU Engineer Baily": {
             "nature": "Adamant",
             "ability": "Motor Drive",
-            "level": 27,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Discharge",
@@ -21455,7 +21455,7 @@ var SETDEX_SV = {
         "OU *Gentleman Tucker": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 36,
+            "level": 100,
             "item": "Leek Stick",
             "moves": [
                 "Brave Bird",
@@ -21467,7 +21467,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Donald": {
             "nature": "Hardy",
             "ability": "Frisk",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Drill Peck",
                 "False Swipe",
@@ -21480,7 +21480,7 @@ var SETDEX_SV = {
         "OU *Gentleman Tucker": {
             "nature": "Timid",
             "ability": "No Guard",
-            "level": 35,
+            "level": 100,
             "item": "Sharp Beak",
             "moves": [
                 "Hurricane",
@@ -21503,7 +21503,7 @@ var SETDEX_SV = {
         "OU Picnicker Irene": {
             "nature": "Sassy",
             "ability": "Frisk",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hurricane",
                 "Hydro Pump",
@@ -21516,7 +21516,7 @@ var SETDEX_SV = {
         "OU *Gentleman Tucker": {
             "nature": "Naive",
             "ability": "Lightning Rod",
-            "level": 35,
+            "level": 100,
             "item": "Light Ball",
             "moves": [
                 "Bouncy Bubble",
@@ -21530,7 +21530,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Camron": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 66,
+            "level": 100,
             "item": "Scizorite",
             "moves": [
                 "Bullet Punch",
@@ -21542,7 +21542,7 @@ var SETDEX_SV = {
         "OU *Leader Bugsy": {
             "nature": "Careful",
             "ability": "Technician",
-            "level": 44,
+            "level": 100,
             "item": "Scizorite",
             "moves": [
                 "Bullet Punch",
@@ -21556,7 +21556,7 @@ var SETDEX_SV = {
         "OU Lass Kay": {
             "nature": "Jolly",
             "ability": "Frisk",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Giga Drain",
                 "Hex",
@@ -21569,7 +21569,7 @@ var SETDEX_SV = {
         "OU Beauty Bridget": {
             "nature": "Lax",
             "ability": "Chlorophyll",
-            "level": 37,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Grav Apple",
@@ -21582,7 +21582,7 @@ var SETDEX_SV = {
         "OU Picnicker Tina": {
             "nature": "Bold",
             "ability": "Bulletproof",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Body Slam",
                 "Bulk Up",
@@ -21595,7 +21595,7 @@ var SETDEX_SV = {
         "OU Beauty Tamia": {
             "nature": "Bashful",
             "ability": "Chlorophyll",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Crunch",
                 "Overheat",
@@ -21608,7 +21608,7 @@ var SETDEX_SV = {
         "OU Lass Crissy": {
             "nature": "Mild",
             "ability": "Swarm",
-            "level": 59,
+            "level": 100,
             "moves": [
                 "Leaf Storm",
                 "Sacred Sword",
@@ -21619,7 +21619,7 @@ var SETDEX_SV = {
         "OU Beauty Tamia": {
             "nature": "Gentle",
             "ability": "Chlorophyll",
-            "level": 35,
+            "level": 100,
             "moves": [
                 "Leaf Storm",
                 "Sacred Sword",
@@ -21630,7 +21630,7 @@ var SETDEX_SV = {
         "OU *Biker Jared": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Sacred Sword",
@@ -21642,7 +21642,7 @@ var SETDEX_SV = {
         "OU Picnicker Yazmin": {
             "nature": "Hardy",
             "ability": "Swarm",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Leaf Storm",
                 "Sacred Sword",
@@ -21655,7 +21655,7 @@ var SETDEX_SV = {
         "OU Beauty Lori": {
             "nature": "Naughty",
             "ability": "Chlorophyll",
-            "level": 36,
+            "level": 100,
             "moves": [
                 "Chloroblast",
                 "Fickle Beam",
@@ -21668,7 +21668,7 @@ var SETDEX_SV = {
         "OU Lass Lisa": {
             "nature": "Brave",
             "ability": "Seed Sower",
-            "level": 39,
+            "level": 100,
             "moves": [
                 "Encore",
                 "Leech Seed",
@@ -21681,7 +21681,7 @@ var SETDEX_SV = {
         "OU Leader Erika": {
             "nature": "Jolly",
             "ability": "Sturdy",
-            "level": 44,
+            "level": 100,
             "item": "Cornerstone Mask",
             "moves": [
                 "Ivy Cudgel",
@@ -21693,7 +21693,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan": {
             "nature": "Jolly",
             "ability": "Sturdy",
-            "level": 73,
+            "level": 100,
             "item": "Cornerstone Mask",
             "moves": [
                 "Horn Leech",
@@ -21708,7 +21708,7 @@ var SETDEX_SV = {
         "OU *Leader Erika": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 68,
+            "level": 100,
             "item": "Grassy Seed",
             "moves": [
                 "Acrobatics",
@@ -21720,7 +21720,7 @@ var SETDEX_SV = {
         "OU Leader Erika": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 44,
+            "level": 100,
             "item": "Grassy Seed",
             "moves": [
                 "Acrobatics",
@@ -21732,7 +21732,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 85,
+            "level": 100,
             "item": "Misty Seed",
             "moves": [
                 "Acrobatics",
@@ -21744,7 +21744,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Haley": {
             "nature": "Adamant",
             "ability": "Unburden",
-            "level": 68,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Acrobatics",
@@ -21770,7 +21770,7 @@ var SETDEX_SV = {
         "OU Leader Erika": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 44,
+            "level": 100,
             "item": "Sceptilite",
             "moves": [
                 "Bullet Seed",
@@ -21782,7 +21782,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan Set 1": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 68,
+            "level": 100,
             "item": "Sceptilite",
             "moves": [
                 "Bullet Seed",
@@ -21794,7 +21794,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan Set 2": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 82,
+            "level": 100,
             "item": "Sceptilite",
             "moves": [
                 "Bullet Seed",
@@ -21806,7 +21806,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Technician",
-            "level": 55,
+            "level": 100,
             "item": "Sceptilite",
             "moves": [
                 "Dragon Breath",
@@ -21832,7 +21832,7 @@ var SETDEX_SV = {
         "OU Leader Erika": {
             "nature": "Bold",
             "ability": "Regenerator",
-            "level": 44,
+            "level": 100,
             "item": "Black Sludge",
             "moves": [
                 "Flamethrower",
@@ -21858,7 +21858,7 @@ var SETDEX_SV = {
         "OU Leader Erika": {
             "nature": "Jolly",
             "ability": "Beast Boost",
-            "level": 44,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Cut",
@@ -21870,7 +21870,7 @@ var SETDEX_SV = {
         "OU *Leader Erika": {
             "nature": "Jolly",
             "ability": "Beast Boost",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Cut",
@@ -21884,7 +21884,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Mary": {
             "nature": "Hasty",
             "ability": "Steam Engine",
-            "level": 44,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Earth Power",
@@ -21898,7 +21898,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Mary": {
             "nature": "Adamant",
             "ability": "Grassy Surge",
-            "level": 43,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Drain Punch",
@@ -21912,7 +21912,7 @@ var SETDEX_SV = {
         "OU Tamer Phil": {
             "nature": "Modest",
             "ability": "Heavy Metal",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Double Iron Bash",
                 "High Horsepower",
@@ -21923,7 +21923,7 @@ var SETDEX_SV = {
         "OU Biker Gerald": {
             "nature": "Quiet",
             "ability": "Heavy Metal",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "High Horsepower",
@@ -21933,7 +21933,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Mary": {
             "nature": "Adamant",
             "ability": "Heavy Metal",
-            "level": 44,
+            "level": 100,
             "item": "Grassy Seed",
             "moves": [
                 "Body Press",
@@ -21945,7 +21945,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Gentle",
             "ability": "Heavy Metal",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Double Iron Bash",
                 "High Horsepower",
@@ -21958,7 +21958,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Pure Power",
-            "level": 85,
+            "level": 100,
             "item": "Medichamite",
             "moves": [
                 "Close Combat",
@@ -21993,7 +21993,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Own Tempo",
-            "level": 46,
+            "level": 100,
             "item": "Steel Gem",
             "moves": [
                 "Gigaton Hammer",
@@ -22007,7 +22007,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Sniper",
-            "level": 46,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Air Slash",
@@ -22019,7 +22019,7 @@ var SETDEX_SV = {
         "OU SwimmerM Spencer": {
             "nature": "Naughty",
             "ability": "Torrent",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Liquidation",
@@ -22054,7 +22054,7 @@ var SETDEX_SV = {
         "OU Twins Kiri & Jan": {
             "nature": "Hardy",
             "ability": "Torrent",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Hydro Pump",
                 "Liquidation",
@@ -22067,7 +22067,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Sheer Force",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Focus Punch",
                 "Hammer Arm",
@@ -22080,7 +22080,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Intimidate",
-            "level": 41,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Foul Play",
@@ -22093,7 +22093,7 @@ var SETDEX_SV = {
         "OU Biker Billy": {
             "nature": "Lonely",
             "ability": "Stakeout",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Hyper Fang",
                 "Rest",
@@ -22104,7 +22104,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Stakeout",
-            "level": 38,
+            "level": 100,
             "moves": [
                 "Hyper Fang",
                 "Rest",
@@ -22117,7 +22117,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Lax",
             "ability": "Flash Fire",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Fire Lash",
                 "Flame Charge",
@@ -22127,7 +22127,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Quiet",
             "ability": "White Smoke",
-            "level": 75,
+            "level": 100,
             "moves": [
                 "Burn Up",
                 "Crunch",
@@ -22140,7 +22140,7 @@ var SETDEX_SV = {
         "OU *Camper Bryce": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 99,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Iron Head",
@@ -22152,7 +22152,7 @@ var SETDEX_SV = {
         "OU *Biker William": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 66,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Iron Head",
@@ -22164,7 +22164,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Mild",
             "ability": "Inner Focus",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Bite",
                 "Iron Head",
@@ -22174,7 +22174,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Bold",
             "ability": "Defiant",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Embargo",
                 "Iron Defense",
@@ -22187,7 +22187,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Quiet",
             "ability": "Frisk",
-            "level": 40,
+            "level": 100,
             "moves": [
                 "Foul Play",
                 "Hyper Fang",
@@ -22200,7 +22200,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Guts",
-            "level": 56,
+            "level": 100,
             "item": "Flame Orb",
             "moves": [
                 "Close Combat",
@@ -22212,7 +22212,7 @@ var SETDEX_SV = {
         "OU Cue Ball Jamal": {
             "nature": "Bold",
             "ability": "Reckless",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Counter",
                 "Double-Edge",
@@ -22223,7 +22223,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Impish",
             "ability": "Guts",
-            "level": 43,
+            "level": 100,
             "moves": [
                 "Counter",
                 "Double-Edge",
@@ -22234,7 +22234,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Lax",
             "ability": "Guts",
-            "level": 75,
+            "level": 100,
             "moves": [
                 "Counter",
                 "Double-Edge",
@@ -22247,7 +22247,7 @@ var SETDEX_SV = {
         "OU *Cool Couple Ray & Tyra": {
             "nature": "Relaxed",
             "ability": "Shadow Shield",
-            "level": 85,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Earthquake",
@@ -22259,7 +22259,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Hardy",
             "ability": "Wandering Soul",
-            "level": 42,
+            "level": 100,
             "moves": [
                 "Destiny Bond",
                 "Earthquake",
@@ -22296,7 +22296,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Alexa": {
             "nature": "Timid",
             "ability": "Blaze",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Aura Sphere",
@@ -22308,7 +22308,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Blaze",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Close Combat",
@@ -22321,7 +22321,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Blaze",
-            "level": 47,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Close Combat",
@@ -22335,7 +22335,7 @@ var SETDEX_SV = {
         "OU Beauty Olivia": {
             "nature": "Hardy",
             "ability": "Overgrow",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Giga Drain",
                 "Head Smash",
@@ -22346,7 +22346,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Rock Head",
-            "level": 47,
+            "level": 100,
             "item": "White Herb",
             "moves": [
                 "Earthquake",
@@ -22372,7 +22372,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Impish",
             "ability": "Earth Eater",
-            "level": 47,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Body Press",
@@ -22386,7 +22386,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Parental Bond",
-            "level": 47,
+            "level": 100,
             "item": "Kangaskanite",
             "moves": [
                 "Body Slam",
@@ -22400,7 +22400,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Gale Wings",
-            "level": 47,
+            "level": 100,
             "item": "Wide Lens",
             "moves": [
                 "Fire Blast",
@@ -22412,7 +22412,7 @@ var SETDEX_SV = {
         "OU Super Nerd Aavery": {
             "nature": "Docile",
             "ability": "Flame Body",
-            "level": 73,
+            "level": 100,
             "moves": [
                 "Dual Wingbeat",
                 "Me First",
@@ -22423,7 +22423,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Carter": {
             "nature": "Modest",
             "ability": "Flame Body",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Dual Wingbeat",
                 "Me First",
@@ -22436,7 +22436,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Toxic Chain",
-            "level": 47,
+            "level": 100,
             "item": "Fighting Gem",
             "moves": [
                 "Drain Punch",
@@ -22448,7 +22448,7 @@ var SETDEX_SV = {
         "OU *Burglar Anson": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 80,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Drain Punch",
@@ -22463,7 +22463,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 47,
+            "level": 100,
             "item": "Charti Berry",
             "moves": [
                 "Hidden Power Ice",
@@ -22477,7 +22477,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Calm",
             "ability": "Own Tempo",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Attract",
                 "Double-Edge",
@@ -22488,7 +22488,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Hardy",
             "ability": "Thick Fat",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Attract",
                 "Double-Edge",
@@ -22501,7 +22501,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Unburden",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Encore",
@@ -22514,7 +22514,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Rocky Payload",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Heavy Slam",
                 "Mega Kick",
@@ -22527,7 +22527,7 @@ var SETDEX_SV = {
         "OU *Crush Kin Mik & Kia": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 98,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Aqua Jet",
@@ -22539,7 +22539,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Colby": {
             "nature": "Adamant",
             "ability": "Technician",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Aqua Jet",
@@ -22563,7 +22563,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Limber",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Arm Thrust",
                 "Brutal Swing",
@@ -22574,7 +22574,7 @@ var SETDEX_SV = {
         "OU Crush Kin Ron & Mya": {
             "nature": "Naive",
             "ability": "Limber",
-            "level": 58,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Arm Thrust",
@@ -22588,7 +22588,7 @@ var SETDEX_SV = {
         "OU Biker Virgil": {
             "nature": "Brave",
             "ability": "Clear Body",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Gear Grind",
                 "Shift Gear",
@@ -22599,7 +22599,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Shelly": {
             "nature": "Adamant",
             "ability": "Steely Spirit",
-            "level": 59,
+            "level": 100,
             "item": "Fightinium Z",
             "moves": [
                 "Gear Grind",
@@ -22611,7 +22611,7 @@ var SETDEX_SV = {
         "OU Scientist Connor": {
             "nature": "Adamant",
             "ability": "Clear Body",
-            "level": 45,
+            "level": 100,
             "item": "Metal Coat",
             "moves": [
                 "Gear Grind",
@@ -22623,7 +22623,7 @@ var SETDEX_SV = {
         "OU Scientist Connor": {
             "nature": "Modest",
             "ability": "Analytic",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Psychic",
                 "Shadow Ball"
@@ -22634,7 +22634,7 @@ var SETDEX_SV = {
         "OU *Biker Jared": {
             "nature": "Calm",
             "ability": "Levitate",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Fire Blast",
@@ -22646,7 +22646,7 @@ var SETDEX_SV = {
         "OU Scientist Jose": {
             "nature": "Modest",
             "ability": "Levitate",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Flamethrower",
                 "Giga Drain",
@@ -22658,7 +22658,7 @@ var SETDEX_SV = {
         "OU Youngster Johnson": {
             "nature": "Naive",
             "ability": "Sand Rush",
-            "level": 71,
+            "level": 100,
             "moves": [
                 "Body Press",
                 "Charm",
@@ -22669,7 +22669,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Sand Rush",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Body Press",
                 "Charm",
@@ -22682,7 +22682,7 @@ var SETDEX_SV = {
         "OU Juggler Nate": {
             "nature": "Relaxed",
             "ability": "Stench",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Explosion",
@@ -22693,7 +22693,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 1": {
             "nature": "Timid",
             "ability": "Stench",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Explosion",
@@ -22704,7 +22704,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt Set 2": {
             "nature": "Jolly",
             "ability": "Stench",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Belch",
                 "Explosion",
@@ -22717,7 +22717,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Docile",
             "ability": "Intimidate",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Giga Impact",
                 "Last Resort",
@@ -22730,7 +22730,7 @@ var SETDEX_SV = {
         "OU Scientist Taylor": {
             "nature": "Modest",
             "ability": "Synchronize",
-            "level": 44,
+            "level": 100,
             "moves": [
                 "Calm Mind",
                 "Moonlight",
@@ -22743,7 +22743,7 @@ var SETDEX_SV = {
         "OU Lass Crissy": {
             "nature": "Careful",
             "ability": "Effect Spore",
-            "level": 59,
+            "level": 100,
             "moves": [
                 "Rage Powder",
                 "Sludge Bomb",
@@ -22754,7 +22754,7 @@ var SETDEX_SV = {
         "OU Scientist Taylor": {
             "nature": "Modest",
             "ability": "Effect Spore",
-            "level": 44,
+            "level": 100,
             "moves": [
                 "Giga Drain",
                 "Sludge Bomb",
@@ -22766,7 +22766,7 @@ var SETDEX_SV = {
         "OU Scientist Taylor": {
             "nature": "Adamant",
             "ability": "Speed Boost",
-            "level": 44,
+            "level": 100,
             "item": "Prism Scale",
             "moves": [
                 "Poison Jab",
@@ -22791,7 +22791,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Roger": {
             "nature": "Impish",
             "ability": "Unnerve",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Drill Peck",
@@ -22802,7 +22802,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Hardy",
             "ability": "Pressure",
-            "level": 49,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Drill Peck",
@@ -22815,7 +22815,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Bone Zone",
-            "level": 82,
+            "level": 100,
             "item": "Thick Club",
             "moves": [
                 "Bonemerang",
@@ -22827,7 +22827,7 @@ var SETDEX_SV = {
         "OU Angry Ghost": {
             "nature": "Jolly",
             "ability": "Bone Zone",
-            "level": 58,
+            "level": 100,
             "item": "Thick Club",
             "moves": [
                 "Bonemerang",
@@ -22839,7 +22839,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Rock Head",
-            "level": 46,
+            "level": 100,
             "moves": [
                 "Bone Rush",
                 "Endeavor",
@@ -22852,7 +22852,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Poison Heal",
-            "level": 82,
+            "level": 100,
             "item": "Toxic Orb",
             "moves": [
                 "Earthquake",
@@ -22864,7 +22864,7 @@ var SETDEX_SV = {
         "OU *Leader Jasmine": {
             "nature": "Jolly",
             "ability": "Poison Heal",
-            "level": 73,
+            "level": 100,
             "item": "Toxic Orb",
             "moves": [
                 "High Horsepower",
@@ -22876,7 +22876,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Lucy": {
             "nature": "Jolly",
             "ability": "Hyper Cutter",
-            "level": 76,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Acrobatics",
@@ -22888,7 +22888,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Sand Veil",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Crabhammer",
                 "Earthquake",
@@ -22901,7 +22901,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Brave",
             "ability": "Run Away",
-            "level": 49,
+            "level": 100,
             "moves": [
                 "Foul Play",
                 "Mystical Fire",
@@ -22914,7 +22914,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Naive",
             "ability": "Levitate",
-            "level": 56,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Explosion",
@@ -22928,7 +22928,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 1": {
             "nature": "Modest",
             "ability": "Beast Boost",
-            "level": 56,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Air Slash",
@@ -22940,7 +22940,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 2": {
             "nature": "Naive",
             "ability": "Beast Boost",
-            "level": 82,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Air Slash",
@@ -22952,7 +22952,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Timid",
             "ability": "Beast Boost",
-            "level": 81,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Air Slash",
@@ -22966,7 +22966,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Iron Fist",
-            "level": 56,
+            "level": 100,
             "item": "Electirizer",
             "moves": [
                 "Close Combat",
@@ -23004,7 +23004,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Sebastian": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 66,
+            "level": 100,
             "item": "Charzardite X",
             "moves": [
                 "Draco Barrage",
@@ -23016,7 +23016,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 56,
+            "level": 100,
             "item": "Charzardite X",
             "moves": [
                 "Dragon Claw",
@@ -23028,7 +23028,7 @@ var SETDEX_SV = {
         "OU Leader Blaine": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 76,
+            "level": 100,
             "item": "Charzardite X",
             "moves": [
                 "Dragon Claw",
@@ -23042,7 +23042,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Sheer Force",
-            "level": 56,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earthquake",
@@ -23054,7 +23054,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Lucy": {
             "nature": "Jolly",
             "ability": "Sheer Force",
-            "level": 76,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earthquake",
@@ -23068,7 +23068,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 1": {
             "nature": "Timid",
             "ability": "Thick Fat",
-            "level": 56,
+            "level": 100,
             "item": "Venusaurite",
             "moves": [
                 "Earth Power",
@@ -23080,7 +23080,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 2": {
             "nature": "Timid",
             "ability": "Thick Fat",
-            "level": 82,
+            "level": 100,
             "item": "Venusaurite",
             "moves": [
                 "Chloroblast",
@@ -23106,7 +23106,7 @@ var SETDEX_SV = {
         "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Mega Launcher",
-            "level": 66,
+            "level": 100,
             "item": "Blastoisnite",
             "moves": [
                 "Aura Sphere",
@@ -23118,7 +23118,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 1": {
             "nature": "Modest",
             "ability": "Mega Launcher",
-            "level": 56,
+            "level": 100,
             "item": "Blastoisnite",
             "moves": [
                 "Aura Sphere",
@@ -23130,7 +23130,7 @@ var SETDEX_SV = {
         "OU *Rival Blue Set 2": {
             "nature": "Timid",
             "ability": "Mega Launcher",
-            "level": 82,
+            "level": 100,
             "item": "Blastoisnite",
             "moves": [
                 "Dark Pulse",
@@ -23180,7 +23180,7 @@ var SETDEX_SV = {
         "OU *Burglar Lewis": {
             "nature": "Timid",
             "ability": "Competitive",
-            "level": 76,
+            "level": 100,
             "item": "Grassy Seed",
             "moves": [
                 "Air Slash",
@@ -23192,7 +23192,7 @@ var SETDEX_SV = {
         "OU Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Competitive",
-            "level": 55,
+            "level": 100,
             "item": "Colbur Berry",
             "moves": [
                 "Air Slash",
@@ -23206,7 +23206,7 @@ var SETDEX_SV = {
         "OU Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Good as Gold",
-            "level": 55,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Focus Blast",
@@ -23221,7 +23221,7 @@ var SETDEX_SV = {
         "OU Rocket Admin Archer": {
             "nature": "Naive",
             "ability": "Dark Aura",
-            "level": 56,
+            "level": 100,
             "item": "Houndoomnite",
             "moves": [
                 "Fiery Wrath",
@@ -23233,7 +23233,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer Set 1": {
             "nature": "Naive",
             "ability": "Solar Power",
-            "level": 79,
+            "level": 100,
             "item": "Houndoomnite",
             "moves": [
                 "Dark Hole",
@@ -23259,7 +23259,7 @@ var SETDEX_SV = {
         "OU Burglar Quinn": {
             "nature": "Rash",
             "ability": "Blaze",
-            "level": 72,
+            "level": 100,
             "moves": [
                 "Cross Chop",
                 "Flare Blitz",
@@ -23270,7 +23270,7 @@ var SETDEX_SV = {
         "OU Juggler Kirk": {
             "nature": "Modest",
             "ability": "Blaze",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Cross Chop",
                 "Flare Blitz",
@@ -23281,7 +23281,7 @@ var SETDEX_SV = {
         "OU Rocket Admin Ariana": {
             "nature": "Careful",
             "ability": "Intimidate",
-            "level": 55,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Fake Out",
@@ -23295,7 +23295,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Liquid Voice",
-            "level": 56,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -23307,7 +23307,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Modest",
             "ability": "Liquid Voice",
-            "level": 82,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -23319,7 +23319,7 @@ var SETDEX_SV = {
         "OU Rocket Admin Ariana": {
             "nature": "Modest",
             "ability": "Liquid Voice",
-            "level": 55,
+            "level": 100,
             "item": "Throat Spray",
             "moves": [
                 "Energy Ball",
@@ -23345,7 +23345,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Ariana Set 1": {
             "nature": "Adamant",
             "ability": "Huge Power",
-            "level": 79,
+            "level": 100,
             "item": "Mawilite",
             "moves": [
                 "Double Iron Bash",
@@ -23369,7 +23369,7 @@ var SETDEX_SV = {
         "OU Rocket Admin Ariana": {
             "nature": "Adamant",
             "ability": "Huge Power",
-            "level": 56,
+            "level": 100,
             "item": "Mawilite",
             "moves": [
                 "Iron Head",
@@ -23383,7 +23383,7 @@ var SETDEX_SV = {
         "OU Scientist Ed": {
             "nature": "Modest",
             "ability": "Unburden",
-            "level": 44,
+            "level": 100,
             "moves": [
                 "Bug Buzz",
                 "Giga Drain",
@@ -23394,7 +23394,7 @@ var SETDEX_SV = {
         "OU *Biker Ruben": {
             "nature": "Timid",
             "ability": "Sheer Force",
-            "level": 65,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Bug Buzz",
@@ -23408,7 +23408,7 @@ var SETDEX_SV = {
         "OU Scientist Ed": {
             "nature": "Modest",
             "ability": "Dry Skin",
-            "level": 45,
+            "level": 100,
             "item": "Stardust",
             "moves": [
                 "Grass Knot",
@@ -23420,7 +23420,7 @@ var SETDEX_SV = {
         "OU *Biker Lao": {
             "nature": "Timid",
             "ability": "Sand Veil",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Boomburst",
@@ -23446,7 +23446,7 @@ var SETDEX_SV = {
         "OU Scientist Ed": {
             "nature": "Adamant",
             "ability": "Defeatist",
-            "level": 44,
+            "level": 100,
             "moves": [
                 "Acrobatics",
                 "Rock Slide",
@@ -23457,7 +23457,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Robert": {
             "nature": "Jolly",
             "ability": "Defeatist",
-            "level": 66,
+            "level": 100,
             "item": "Sharp Beak",
             "moves": [
                 "Brave Bird",
@@ -23483,7 +23483,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Rash",
             "ability": "Sand Spit",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Earthquake",
@@ -23496,7 +23496,7 @@ var SETDEX_SV = {
         "OU Biker Alex": {
             "nature": "Bashful",
             "ability": "Battle Armor",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Poison Jab",
@@ -23507,7 +23507,7 @@ var SETDEX_SV = {
         "OU *Burglar Lewis": {
             "nature": "Jolly",
             "ability": "Sniper",
-            "level": 75,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aqua Tail",
@@ -23531,7 +23531,7 @@ var SETDEX_SV = {
         "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Sniper",
-            "level": 47,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Crunch",
@@ -23544,7 +23544,7 @@ var SETDEX_SV = {
         "OU Scientist Parkker": {
             "nature": "Lax",
             "ability": "Unaware",
-            "level": 45,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "Me First",
@@ -23555,7 +23555,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Mark": {
             "nature": "Jolly",
             "ability": "Own Tempo",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "Me First",
@@ -23566,7 +23566,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Dawson": {
             "nature": "Jolly",
             "ability": "Own Tempo",
-            "level": 81,
+            "level": 100,
             "moves": [
                 "Gyro Ball",
                 "Me First",
@@ -23579,7 +23579,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Serene Grace",
-            "level": 55,
+            "level": 100,
             "item": "Choice Specs",
             "moves": [
                 "Blizzard",
@@ -23591,7 +23591,7 @@ var SETDEX_SV = {
         "OU Burglar Simon": {
             "nature": "Hardy",
             "ability": "Serene Grace",
-            "level": 70,
+            "level": 100,
             "moves": [
                 "Aurora Veil",
                 "Confuse Ray",
@@ -23616,7 +23616,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Ice Body",
-            "level": 56,
+            "level": 100,
             "item": "Wide Lens",
             "moves": [
                 "Freeze-Dry",
@@ -23630,7 +23630,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Water Absorb",
-            "level": 56,
+            "level": 100,
             "item": "Water Gem",
             "moves": [
                 "Fishious Rend",
@@ -23642,7 +23642,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Adamant",
             "ability": "Slush Rush",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Fishious Rend",
@@ -23656,7 +23656,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Prankster",
-            "level": 55,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Foul Play",
@@ -23670,7 +23670,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 56,
+            "level": 100,
             "item": "Fighting Gem",
             "moves": [
                 "Brave Bird",
@@ -23682,7 +23682,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Mitch": {
             "nature": "Docile",
             "ability": "Sheer Force",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Crush Claw",
                 "Double-Edge",
@@ -23695,7 +23695,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Adaptability",
-            "level": 56,
+            "level": 100,
             "item": "Black Sludge",
             "moves": [
                 "Dragon Pulse",
@@ -23707,7 +23707,7 @@ var SETDEX_SV = {
         "OU Biker Lukas": {
             "nature": "Bold",
             "ability": "Poison Touch",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Dragon Pulse",
                 "Sludge Bomb",
@@ -23717,7 +23717,7 @@ var SETDEX_SV = {
         "OU *SwimmerF Maria": {
             "nature": "Modest",
             "ability": "Adaptability",
-            "level": 99,
+            "level": 100,
             "item": "Choice Specs",
             "moves": [
                 "Draco Barrage",
@@ -23729,7 +23729,7 @@ var SETDEX_SV = {
         "OU *Cool Couple Ray & Tyra": {
             "nature": "Quiet",
             "ability": "Adaptability",
-            "level": 85,
+            "level": 100,
             "item": "Poison Barb",
             "moves": [
                 "Draco Barrage",
@@ -23743,7 +23743,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Super Luck",
-            "level": 56,
+            "level": 100,
             "item": "Scope Lens",
             "moves": [
                 "Drill Peck",
@@ -23757,7 +23757,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Unburden",
-            "level": 55,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Dazzling Gleam",
@@ -23771,7 +23771,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 56,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Dark Pulse",
@@ -23783,7 +23783,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 82,
+            "level": 100,
             "item": "Darkinium Z",
             "moves": [
                 "Dark Pulse",
@@ -23821,7 +23821,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Magnet Pull",
-            "level": 56,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Flash Cannon",
@@ -23833,7 +23833,7 @@ var SETDEX_SV = {
         "OU *Leader Jasmine": {
             "nature": "Modest",
             "ability": "Sturdy",
-            "level": 73,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -23869,7 +23869,7 @@ var SETDEX_SV = {
         "OU *Biker William": {
             "nature": "Naive",
             "ability": "Sturdy",
-            "level": 65,
+            "level": 100,
             "item": "Custap Berry",
             "moves": [
                 "Body Press",
@@ -23883,7 +23883,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Iron Fist",
-            "level": 56,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Earthquake",
@@ -23897,7 +23897,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Thick Fat",
-            "level": 57,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Headlong Rush",
@@ -23909,7 +23909,7 @@ var SETDEX_SV = {
         "OU *Biker Jared": {
             "nature": "Jolly",
             "ability": "Thick Fat",
-            "level": 66,
+            "level": 100,
             "item": "Icium Z",
             "moves": [
                 "Headlong Rush",
@@ -23923,7 +23923,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Adamant",
             "ability": "Sand Rush",
-            "level": 57,
+            "level": 100,
             "item": "Water Gem",
             "moves": [
                 "Crunch",
@@ -23935,7 +23935,7 @@ var SETDEX_SV = {
         "OU *Biker Hideo": {
             "nature": "Jolly",
             "ability": "Sand Rush",
-            "level": 66,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Crunch",
@@ -23949,7 +23949,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Careful",
             "ability": "Purifying Salt",
-            "level": 57,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Body Press",
@@ -23963,7 +23963,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Zac": {
             "nature": "Adamant",
             "ability": "Mold Breaker",
-            "level": 76,
+            "level": 100,
             "item": "Ground Gem",
             "moves": [
                 "Earthquake",
@@ -23975,7 +23975,7 @@ var SETDEX_SV = {
         "OU *Biker Ruben": {
             "nature": "Adamant",
             "ability": "Sand Rush",
-            "level": 66,
+            "level": 100,
             "item": "Air Balloon",
             "moves": [
                 "Earthquake",
@@ -23987,7 +23987,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Sand Rush",
-            "level": 57,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earthquake",
@@ -24037,7 +24037,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Sand Force",
-            "level": 57,
+            "level": 100,
             "item": "Garchompite",
             "moves": [
                 "Earthquake",
@@ -24063,7 +24063,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Berserk",
-            "level": 80,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Fiery Wrath",
@@ -24075,7 +24075,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Cole": {
             "nature": "Timid",
             "ability": "Berserk",
-            "level": 59,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Agility",
@@ -24089,7 +24089,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Cole": {
             "nature": "Bold",
             "ability": "Misty Surge",
-            "level": 59,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -24101,7 +24101,7 @@ var SETDEX_SV = {
         "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Misty Surge",
-            "level": 59,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Flip Turn",
@@ -24114,7 +24114,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Modest",
             "ability": "Misty Surge",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Blizzard",
@@ -24128,7 +24128,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Archer": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 79,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Earthquake",
@@ -24152,7 +24152,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Sebastian": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 66,
+            "level": 100,
             "item": "Yache Berry",
             "moves": [
                 "Earthquake",
@@ -24164,7 +24164,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "High Horsepower",
@@ -24176,7 +24176,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Cole": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 59,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Earthquake",
@@ -24202,7 +24202,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Relaxed",
             "ability": "Iron Barbs",
-            "level": 82,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Gyro Ball",
@@ -24214,7 +24214,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Cole": {
             "nature": "Relaxed",
             "ability": "Iron Barbs",
-            "level": 59,
+            "level": 100,
             "item": "Rocky Helmet",
             "moves": [
                 "Explosion",
@@ -24228,7 +24228,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Mountaineer",
-            "level": 76,
+            "level": 100,
             "item": "Centiskite",
             "moves": [
                 "Coil",
@@ -24240,7 +24240,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Cole": {
             "nature": "Jolly",
             "ability": "Mountaineer",
-            "level": 59,
+            "level": 100,
             "item": "Centiskite",
             "moves": [
                 "Coil",
@@ -24254,7 +24254,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Naive",
             "ability": "Electric Surge",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Grass Knot",
@@ -24266,7 +24266,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Sam": {
             "nature": "Naive",
             "ability": "Electric Surge",
-            "level": 59,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Grass Knot",
@@ -24291,7 +24291,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Sam": {
             "nature": "Naive",
             "ability": "Dragon's Maw",
-            "level": 59,
+            "level": 100,
             "item": "Applite",
             "moves": [
                 "Draco Meteor",
@@ -24317,7 +24317,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Zac": {
             "nature": "Jolly",
             "ability": "Libero",
-            "level": 76,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Gunk Shot",
@@ -24329,7 +24329,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Shelly": {
             "nature": "Jolly",
             "ability": "Libero",
-            "level": 59,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "High Jump Kick",
@@ -24341,7 +24341,7 @@ var SETDEX_SV = {
         "OU Twins Kiri & Jan": {
             "nature": "Sassy",
             "ability": "Blaze",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Bounce",
                 "Counter",
@@ -24354,7 +24354,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Shelly": {
             "nature": "Modest",
             "ability": "Contrary",
-            "level": 59,
+            "level": 100,
             "item": "Applite",
             "moves": [
                 "Draco Meteor",
@@ -24368,7 +24368,7 @@ var SETDEX_SV = {
         "OU *Dumbass Kid": {
             "nature": "Jolly",
             "ability": "Swift Swim",
-            "level": 59,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Close Combat",
@@ -24382,7 +24382,7 @@ var SETDEX_SV = {
         "OU *Dumbass Kid": {
             "nature": "Timid",
             "ability": "Ice Scales",
-            "level": 59,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Hurricane",
@@ -24396,7 +24396,7 @@ var SETDEX_SV = {
         "OU *Picnicker Susie": {
             "nature": "Modest",
             "ability": "Sap Sipper",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Draco Barrage",
@@ -24408,7 +24408,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Modest",
             "ability": "Hydration",
-            "level": 82,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Hydro Pump",
@@ -24420,7 +24420,7 @@ var SETDEX_SV = {
         "OU *Dumbass Kid": {
             "nature": "Impish",
             "ability": "Hydration",
-            "level": 59,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Curse",
@@ -24432,7 +24432,7 @@ var SETDEX_SV = {
         "OU *Beauty Sheila": {
             "nature": "Adamant",
             "ability": "Sap Sipper",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Dragon Hammer",
@@ -24458,7 +24458,7 @@ var SETDEX_SV = {
         "OU *Dumbass Kid": {
             "nature": "Adamant",
             "ability": "Swift Swim",
-            "level": 59,
+            "level": 100,
             "item": "Swampertite",
             "moves": [
                 "Earthquake",
@@ -24471,7 +24471,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Adamant",
             "ability": "Swift Swim",
-            "level": 85,
+            "level": 100,
             "item": "Swampertite",
             "moves": [
                 "Earthquake",
@@ -24483,7 +24483,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Adamant",
             "ability": "Swift Swim",
-            "level": 85,
+            "level": 100,
             "item": "Swampertite",
             "moves": [
                 "Brick Break",
@@ -24497,7 +24497,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Speed Boost",
-            "level": 79,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Calm Mind",
@@ -24509,7 +24509,7 @@ var SETDEX_SV = {
         "OU Psychic Cameron": {
             "nature": "Naive",
             "ability": "Frisk",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Dazzling Gleam",
                 "Last Resort",
@@ -24522,7 +24522,7 @@ var SETDEX_SV = {
         "OU Juggler Nelson": {
             "nature": "Quirky",
             "ability": "Prankster",
-            "level": 76,
+            "level": 100,
             "moves": [
                 "Imprison",
                 "Misty Terrain",
@@ -24533,7 +24533,7 @@ var SETDEX_SV = {
         "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Prankster",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Imprison",
                 "Misty Terrain",
@@ -24546,7 +24546,7 @@ var SETDEX_SV = {
         "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Steadfast",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Close Combat",
                 "Protect",
@@ -24559,7 +24559,7 @@ var SETDEX_SV = {
         "OU Psychic Preston": {
             "nature": "Naive",
             "ability": "Levitate",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Heal Block",
                 "Heavy Slam",
@@ -24570,7 +24570,7 @@ var SETDEX_SV = {
         "OU Scientist Ivan": {
             "nature": "Quiet",
             "ability": "Levitate",
-            "level": 70,
+            "level": 100,
             "moves": [
                 "Heal Block",
                 "Heavy Slam",
@@ -24583,7 +24583,7 @@ var SETDEX_SV = {
         "OU Channeler Amanda": {
             "nature": "Timid",
             "ability": "Mummy",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Destiny Bond",
                 "Grudge",
@@ -24596,7 +24596,7 @@ var SETDEX_SV = {
         "OU *Scientist Ted": {
             "nature": "Jolly",
             "ability": "Stakeout",
-            "level": 74,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Destiny Bond",
@@ -24608,7 +24608,7 @@ var SETDEX_SV = {
         "OU Channeler Tasha": {
             "nature": "Quirky",
             "ability": "Ice Body",
-            "level": 53,
+            "level": 100,
             "moves": [
                 "Blizzard",
                 "Freeze-Dry",
@@ -24619,7 +24619,7 @@ var SETDEX_SV = {
         "OU *Fisherman Andrew": {
             "nature": "Timid",
             "ability": "Ice Body",
-            "level": 66,
+            "level": 100,
             "item": "Light Clay",
             "moves": [
                 "Aurora Veil",
@@ -24633,7 +24633,7 @@ var SETDEX_SV = {
         "OU *Biker Jared": {
             "nature": "Modest",
             "ability": "Sheer Force",
-            "level": 66,
+            "level": 100,
             "item": "Cameruptite",
             "moves": [
                 "Ancient Power",
@@ -24645,7 +24645,7 @@ var SETDEX_SV = {
         "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Sheer Force",
-            "level": 59,
+            "level": 100,
             "item": "Cameruptite",
             "moves": [
                 "Earth Power",
@@ -24660,7 +24660,7 @@ var SETDEX_SV = {
         "OU Leader Sabrina": {
             "nature": "Brave",
             "ability": "Chilling Neigh",
-            "level": 59,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Close Combat",
@@ -24675,7 +24675,7 @@ var SETDEX_SV = {
         "OU Leader Clair": {
             "nature": "Modest",
             "ability": "Soul-Heart",
-            "level": 81,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Aura Sphere",
@@ -24687,7 +24687,7 @@ var SETDEX_SV = {
         "OU *Leader Erika": {
             "nature": "Bold",
             "ability": "Soul-Heart",
-            "level": 68,
+            "level": 100,
             "item": "Grassy Seed",
             "moves": [
                 "Aura Sphere",
@@ -24699,7 +24699,7 @@ var SETDEX_SV = {
         "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Soul-Heart",
-            "level": 59,
+            "level": 100,
             "item": "Fightinium Z",
             "moves": [
                 "Flash Cannon",
@@ -24714,7 +24714,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Quark Drive",
-            "level": 82,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Drain Punch",
@@ -24726,7 +24726,7 @@ var SETDEX_SV = {
         "OU *Leader Lt. Surge": {
             "nature": "Careful",
             "ability": "Quark Drive",
-            "level": 68,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Drain Punch",
@@ -24738,7 +24738,7 @@ var SETDEX_SV = {
         "OU Leader Sabrina": {
             "nature": "Brave",
             "ability": "Quark Drive",
-            "level": 59,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Drain Punch",
@@ -24753,7 +24753,7 @@ var SETDEX_SV = {
         "OU *Rocker Luca": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 66,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Acrobatics",
@@ -24767,7 +24767,7 @@ var SETDEX_SV = {
         "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Tinted Lens",
-            "level": 66,
+            "level": 100,
             "item": "Choice Specs",
             "moves": [
                 "Air Slash",
@@ -24805,7 +24805,7 @@ var SETDEX_SV = {
         "OU *Camper Justin": {
             "nature": "Jolly",
             "ability": "Zen Mode",
-            "level": 66,
+            "level": 100,
             "item": "Charti Berry",
             "moves": [
                 "Earthquake",
@@ -24831,7 +24831,7 @@ var SETDEX_SV = {
         "OU *Camper Justin": {
             "nature": "Jolly",
             "ability": "Slush Rush",
-            "level": 66,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Belly Drum",
@@ -24845,7 +24845,7 @@ var SETDEX_SV = {
         "OU *Fisherman Andrew": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 66,
+            "level": 100,
             "item": "White Herb",
             "moves": [
                 "Close Combat",
@@ -24859,7 +24859,7 @@ var SETDEX_SV = {
         "OU *Fisherman Andrew": {
             "nature": "Jolly",
             "ability": "ThermalExchange",
-            "level": 66,
+            "level": 100,
             "item": "Dragonium Z",
             "moves": [
                 "Dragon Dance",
@@ -24873,7 +24873,7 @@ var SETDEX_SV = {
         "OU *Biker Lao": {
             "nature": "Jolly",
             "ability": "Inner Focus",
-            "level": 65,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Close Combat",
@@ -24885,7 +24885,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Alexa": {
             "nature": "Jolly",
             "ability": "Regenerator",
-            "level": 85,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Close Combat",
@@ -24899,7 +24899,7 @@ var SETDEX_SV = {
         "OU *Biker Lao": {
             "nature": "Naive",
             "ability": "Sand Force",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earthquake",
@@ -24913,7 +24913,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Koji": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 66,
+            "level": 100,
             "item": "Kinglerite",
             "moves": [
                 "Aqua Jet",
@@ -24937,7 +24937,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Rolando": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 85,
+            "level": 100,
             "item": "Kinglerite",
             "moves": [
                 "Aqua Jet",
@@ -24951,7 +24951,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Koji": {
             "nature": "Jolly",
             "ability": "Sand Rush",
-            "level": 66,
+            "level": 100,
             "item": "Electric Gem",
             "moves": [
                 "Bolt Beak",
@@ -24965,7 +24965,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Luke": {
             "nature": "Jolly",
             "ability": "Inner Focus",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Draco Barrage",
@@ -24979,7 +24979,7 @@ var SETDEX_SV = {
         "OU *Biker Ruben": {
             "nature": "Careful",
             "ability": "Sand Force",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -24991,7 +24991,7 @@ var SETDEX_SV = {
         "OU Dumbass Creator": {
             "nature": "Adamant",
             "ability": "Sand Stream",
-            "level": 250,
+            "level": 100,
             "item": "Smooth Rock",
             "moves": [
                 "Explosion"
@@ -25014,7 +25014,7 @@ var SETDEX_SV = {
         "OU *Biker Ruben": {
             "nature": "Jolly",
             "ability": "Scrappy",
-            "level": 66,
+            "level": 100,
             "item": "Lopunnite",
             "moves": [
                 "Close Combat",
@@ -25026,7 +25026,7 @@ var SETDEX_SV = {
         "OU *Burglar Lewis": {
             "nature": "Jolly",
             "ability": "Scrappy",
-            "level": 76,
+            "level": 100,
             "item": "Lopunnite",
             "moves": [
                 "Close Combat",
@@ -25038,7 +25038,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Jolly",
             "ability": "Scrappy",
-            "level": 85,
+            "level": 100,
             "item": "Lopunnite",
             "moves": [
                 "Close Combat",
@@ -25052,7 +25052,7 @@ var SETDEX_SV = {
         "OU *Biker Hideo": {
             "nature": "Jolly",
             "ability": "Adaptability",
-            "level": 66,
+            "level": 100,
             "item": "Beedrillite",
             "moves": [
                 "Drill Run",
@@ -25066,7 +25066,7 @@ var SETDEX_SV = {
         "OU *Biker Hideo": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 66,
+            "level": 100,
             "item": "Firium Z",
             "moves": [
                 "Hidden Power Grass",
@@ -25092,7 +25092,7 @@ var SETDEX_SV = {
         "OU *SwimmerM Garrett": {
             "nature": "Timid",
             "ability": "Protean",
-            "level": 98,
+            "level": 100,
             "item": "Choice Specs",
             "moves": [
                 "Dark Pulse",
@@ -25104,7 +25104,7 @@ var SETDEX_SV = {
         "OU *Biker Hideo": {
             "nature": "Naive",
             "ability": "Protean",
-            "level": 66,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Gunk Shot",
@@ -25130,7 +25130,7 @@ var SETDEX_SV = {
         "OU *Cue Ball Camron": {
             "nature": "Jolly",
             "ability": "Sand Veil",
-            "level": 66,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earthquake",
@@ -25142,7 +25142,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Rough Skin",
-            "level": 82,
+            "level": 100,
             "item": "Yache Berry",
             "moves": [
                 "Earthquake",
@@ -25156,7 +25156,7 @@ var SETDEX_SV = {
         "OU Biker Virgil": {
             "nature": "Jolly",
             "ability": "Swift Swim",
-            "level": 54,
+            "level": 100,
             "moves": [
                 "Earth Power",
                 "Scald",
@@ -25179,7 +25179,7 @@ var SETDEX_SV = {
         "OU SwimmerM Roland": {
             "nature": "Rash",
             "ability": "Swift Swim",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Echoed Voice",
                 "Flail",
@@ -25192,7 +25192,7 @@ var SETDEX_SV = {
         "OU Cue Ball Raul": {
             "nature": "Jolly",
             "ability": "Shed Skin",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Dragon Rush",
@@ -25203,7 +25203,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Rolando": {
             "nature": "Jolly",
             "ability": "Regenerator",
-            "level": 85,
+            "level": 100,
             "item": "Sitrus Berry",
             "moves": [
                 "Body Slam",
@@ -25217,7 +25217,7 @@ var SETDEX_SV = {
         "OU Biker Nikolas": {
             "nature": "Bashful",
             "ability": "Magnet Pull",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Discharge",
                 "Earth Power",
@@ -25240,7 +25240,7 @@ var SETDEX_SV = {
         "OU Scientist Braydon": {
             "nature": "Lax",
             "ability": "Magnet Pull",
-            "level": 69,
+            "level": 100,
             "moves": [
                 "Earth Power",
                 "Lock-On",
@@ -25253,7 +25253,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Jacob": {
             "nature": "Jolly",
             "ability": "Water Absorb",
-            "level": 66,
+            "level": 100,
             "item": "Wellspring Mask",
             "moves": [
                 "Ivy Cudgel",
@@ -25279,7 +25279,7 @@ var SETDEX_SV = {
         "OU *Dragon Tamer Ramiro": {
             "nature": "Modest",
             "ability": "Liquid Voice",
-            "level": 66,
+            "level": 100,
             "item": "Laprasite",
             "moves": [
                 "Boomburst",
@@ -25293,7 +25293,7 @@ var SETDEX_SV = {
         "OU Champion Lance": {
             "nature": "Hasty",
             "ability": "Clear Body",
-            "level": 83,
+            "level": 100,
             "item": "Spell Tag",
             "moves": [
                 "Dragon Darts",
@@ -25305,7 +25305,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Perry": {
             "nature": "Timid",
             "ability": "Stalwart",
-            "level": 66,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Draco Barrage",
@@ -25329,7 +25329,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Wilton": {
             "nature": "Timid",
             "ability": "Stalwart",
-            "level": 66,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Draco Barrage",
@@ -25353,7 +25353,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Jolly",
             "ability": "Clear Body",
-            "level": 81,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Dragon Dance",
@@ -25367,7 +25367,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Wilton": {
             "nature": "Jolly",
             "ability": "Aerilate",
-            "level": 66,
+            "level": 100,
             "item": "Pinsirite",
             "moves": [
                 "Close Combat",
@@ -25379,7 +25379,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer George": {
             "nature": "Jolly",
             "ability": "Aerilate",
-            "level": 85,
+            "level": 100,
             "item": "Pinsirite",
             "moves": [
                 "Close Combat",
@@ -25405,7 +25405,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Wilton": {
             "nature": "Timid",
             "ability": "Volt Absorb",
-            "level": 66,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Hurricane",
@@ -25417,7 +25417,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Roger": {
             "nature": "Quirky",
             "ability": "Static",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Discharge",
@@ -25430,7 +25430,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Beast Boost",
-            "level": 68,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Grass Knot",
@@ -25444,7 +25444,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
-            "level": 68,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Aqua Jet",
@@ -25456,7 +25456,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup Set 1": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
-            "level": 81,
+            "level": 100,
             "item": "Salac Berry",
             "moves": [
                 "Aqua Jet",
@@ -25469,7 +25469,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup Set 2": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
-            "level": 81,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Aqua Jet",
@@ -25483,7 +25483,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Naive",
             "ability": "Pressure",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Extreme Speed",
@@ -25497,7 +25497,7 @@ var SETDEX_SV = {
         "OU Picnicker Yazmin": {
             "nature": "Calm",
             "ability": "Sweet Veil",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Entrainment",
                 "Misty Terrain",
@@ -25510,7 +25510,7 @@ var SETDEX_SV = {
         "OU Picnicker Kindra": {
             "nature": "Bold",
             "ability": "Cotton Down",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Aromatherapy",
                 "Cotton Guard",
@@ -25523,7 +25523,7 @@ var SETDEX_SV = {
         "OU Picnicker Kindra": {
             "nature": "Naughty",
             "ability": "Ripen",
-            "level": 58,
+            "level": 100,
             "moves": [
                 "Dragon Dance",
                 "Dragon Energy",
@@ -25548,7 +25548,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Battle Armor",
-            "level": 80,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Flamethrower",
@@ -25560,7 +25560,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Haley": {
             "nature": "Jolly",
             "ability": "Battle Armor",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Explosion",
@@ -25574,7 +25574,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Haley": {
             "nature": "Adamant",
             "ability": "Overcoat",
-            "level": 68,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Close Combat",
@@ -25588,7 +25588,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Haley": {
             "nature": "Timid",
             "ability": "Unburden",
-            "level": 68,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Earth Power",
@@ -25602,7 +25602,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Haley": {
             "nature": "Adamant",
             "ability": "Aerilate",
-            "level": 68,
+            "level": 100,
             "item": "Sandacondite",
             "moves": [
                 "Body Slam",
@@ -25616,7 +25616,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Beck": {
             "nature": "Impish",
             "ability": "Intimidate",
-            "level": 56,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Brave Bird",
@@ -25629,7 +25629,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Marlon": {
             "nature": "Naive",
             "ability": "Frisk",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Bullet Seed",
                 "Drill Peck",
@@ -25642,7 +25642,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Mitch": {
             "nature": "Relaxed",
             "ability": "Overgrow",
-            "level": 55,
+            "level": 100,
             "moves": [
                 "Brave Bird",
                 "Feather Dance",
@@ -25655,7 +25655,7 @@ var SETDEX_SV = {
         "OU Bird Keeper Benny": {
             "nature": "Rash",
             "ability": "Torrent",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Drill Peck",
                 "Haze",
@@ -25666,7 +25666,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Bold",
             "ability": "Competitive",
-            "level": 82,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -25692,7 +25692,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Regenerator",
-            "level": 79,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Earthquake",
@@ -25704,7 +25704,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alma": {
             "nature": "Timid",
             "ability": "Chlorophyll",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Hidden Power Fire",
@@ -25742,7 +25742,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Shadow Tag",
-            "level": 82,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Calm Mind",
@@ -25754,7 +25754,7 @@ var SETDEX_SV = {
         "OU *Picnicker Alma": {
             "nature": "Timid",
             "ability": "Shadow Tag",
-            "level": 66,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Fire Blast",
@@ -25768,7 +25768,7 @@ var SETDEX_SV = {
         "OU *Picnicker Susie": {
             "nature": "Timid",
             "ability": "Flash Fire",
-            "level": 66,
+            "level": 100,
             "item": "Air Balloon",
             "moves": [
                 "Earth Power",
@@ -25806,7 +25806,7 @@ var SETDEX_SV = {
         "OU *Picnicker Susie": {
             "nature": "Bold",
             "ability": "Self Sufficient",
-            "level": 66,
+            "level": 100,
             "item": "Alcremite",
             "moves": [
                 "Misty Explosion",
@@ -25832,7 +25832,7 @@ var SETDEX_SV = {
         "OU *Beauty Lola": {
             "nature": "Calm",
             "ability": "Natural Cure",
-            "level": 66,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Hidden Power Fire",
@@ -25846,7 +25846,7 @@ var SETDEX_SV = {
         "OU *Beauty Sheila": {
             "nature": "Jolly",
             "ability": "Sap Sipper",
-            "level": 67,
+            "level": 100,
             "item": "Electrium Z",
             "moves": [
                 "Bolt Strike",
@@ -25860,7 +25860,7 @@ var SETDEX_SV = {
         "OU Picnicker Gwen": {
             "nature": "Lax",
             "ability": "Torrent",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Drill Peck",
                 "Hydro Pump",
@@ -25873,7 +25873,7 @@ var SETDEX_SV = {
         "OU Picnicker Gwen": {
             "nature": "Naive",
             "ability": "Steadfast",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Copycat",
                 "Final Gambit",
@@ -25886,7 +25886,7 @@ var SETDEX_SV = {
         "OU *Scientist Ted": {
             "nature": "Naive",
             "ability": "Bull Rush",
-            "level": 76,
+            "level": 100,
             "item": "Fighting Gem",
             "moves": [
                 "Close Combat",
@@ -25898,7 +25898,7 @@ var SETDEX_SV = {
         "OU Burglar Quinn": {
             "nature": "Naughty",
             "ability": "Reckless",
-            "level": 74,
+            "level": 100,
             "moves": [
                 "Flamethrower",
                 "Flare Blitz",
@@ -25909,7 +25909,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Robert": {
             "nature": "Naive",
             "ability": "Bull Rush",
-            "level": 66,
+            "level": 100,
             "item": "Fire Gem",
             "moves": [
                 "Close Combat",
@@ -25935,7 +25935,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Solid Rock",
-            "level": 76,
+            "level": 100,
             "item": "Rockium Z",
             "moves": [
                 "Earthquake",
@@ -25947,7 +25947,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Perry": {
             "nature": "Careful",
             "ability": "Solid Rock",
-            "level": 66,
+            "level": 100,
             "item": "Rindo Berry",
             "moves": [
                 "Earthquake",
@@ -25959,7 +25959,7 @@ var SETDEX_SV = {
         "OU Pokemaniac Mark": {
             "nature": "Jolly",
             "ability": "Lightning Rod",
-            "level": 60,
+            "level": 100,
             "moves": [
                 "Earthquake",
                 "Megahorn",
@@ -25972,7 +25972,7 @@ var SETDEX_SV = {
         "OU *Bird Keeper Perry": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
-            "level": 66,
+            "level": 100,
             "item": "Hearthflame Mask",
             "moves": [
                 "Ivy Cudgel",
@@ -25986,7 +25986,7 @@ var SETDEX_SV = {
         "OU *Biker Jared": {
             "nature": "Adamant",
             "ability": "Sturdy",
-            "level": 66,
+            "level": 100,
             "item": "Custap Berry",
             "moves": [
                 "Earthquake",
@@ -26000,7 +26000,7 @@ var SETDEX_SV = {
         "OU *Juggler Kayden": {
             "nature": "Bold",
             "ability": "Magic Bounce",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Drain Kiss",
@@ -26012,7 +26012,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Rolando": {
             "nature": "Modest",
             "ability": "Magic Bounce",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -26026,7 +26026,7 @@ var SETDEX_SV = {
         "OU *Juggler Kayden": {
             "nature": "Brave",
             "ability": "Shell Armor",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Dragon Pulse",
@@ -26040,7 +26040,7 @@ var SETDEX_SV = {
         "OU *Juggler Kayden": {
             "nature": "Jolly",
             "ability": "Battle Armor",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Explosion",
@@ -26066,7 +26066,7 @@ var SETDEX_SV = {
         "OU *Juggler Kayden": {
             "nature": "Naive",
             "ability": "Water Absorb",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earth Power",
@@ -26078,7 +26078,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Rolando": {
             "nature": "Timid",
             "ability": "Water Absorb",
-            "level": 85,
+            "level": 100,
             "item": "Waterium Z",
             "moves": [
                 "Earth Power",
@@ -26092,7 +26092,7 @@ var SETDEX_SV = {
         "OU Juggler Kirk": {
             "nature": "Mild",
             "ability": "Ripen",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Draco Meteor",
                 "Dragon Pulse",
@@ -26105,7 +26105,7 @@ var SETDEX_SV = {
         "OU Tamer Edgar": {
             "nature": "Modest",
             "ability": "Fluffy",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Double-Edge",
                 "Pain Split",
@@ -26130,7 +26130,7 @@ var SETDEX_SV = {
         "OU Leader Koga": {
             "nature": "Modest",
             "ability": "Psychic Surge",
-            "level": 68,
+            "level": 100,
             "item": "Twisted Spoon",
             "moves": [
                 "Focus Blast",
@@ -26144,7 +26144,7 @@ var SETDEX_SV = {
         "OU Leader Koga": {
             "nature": "Modest",
             "ability": "Magician",
-            "level": 68,
+            "level": 100,
             "item": "Darkinium Z",
             "moves": [
                 "Dark Pulse",
@@ -26156,7 +26156,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan Set 1": {
             "nature": "Jolly",
             "ability": "Magician",
-            "level": 73,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Drain Punch",
@@ -26182,7 +26182,7 @@ var SETDEX_SV = {
         "OU Leader Koga": {
             "nature": "Modest",
             "ability": "Beads of Ruin",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Dark Pulse",
@@ -26196,7 +26196,7 @@ var SETDEX_SV = {
         "OU Leader Koga": {
             "nature": "Rash",
             "ability": "Punk Rock",
-            "level": 68,
+            "level": 100,
             "item": "Toxtricitite",
             "moves": [
                 "Boomburst",
@@ -26222,7 +26222,7 @@ var SETDEX_SV = {
         "OU *Leader Erika": {
             "nature": "Jolly",
             "ability": "Protean",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Flower Trick",
@@ -26248,7 +26248,7 @@ var SETDEX_SV = {
         "OU *Leader Erika": {
             "nature": "Timid",
             "ability": "Contrary",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Dragon Pulse",
@@ -26262,7 +26262,7 @@ var SETDEX_SV = {
         "OU *Leader Lt. Surge": {
             "nature": "Jolly",
             "ability": "Quark Drive",
-            "level": 68,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Dragon Dance",
@@ -26276,7 +26276,7 @@ var SETDEX_SV = {
         "OU *Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Quark Drive",
-            "level": 68,
+            "level": 100,
             "item": "Fire Gem",
             "moves": [
                 "Dazzling Gleam",
@@ -26290,7 +26290,7 @@ var SETDEX_SV = {
         "OU *Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Hadron Engine",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -26305,7 +26305,7 @@ var SETDEX_SV = {
         "OU *Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Intimidate",
-            "level": 68,
+            "level": 100,
             "item": "Manectite",
             "moves": [
                 "Flamethrower",
@@ -26331,7 +26331,7 @@ var SETDEX_SV = {
         "OU *Leader Misty": {
             "nature": "Timid",
             "ability": "Quark Drive",
-            "level": 68,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Flip Turn",
@@ -26343,7 +26343,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Timid",
             "ability": "Quark Drive",
-            "level": 85,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Freeze-Dry",
@@ -26357,7 +26357,7 @@ var SETDEX_SV = {
         "OU *Leader Misty": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
-            "level": 68,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Bulk Up",
@@ -26371,7 +26371,7 @@ var SETDEX_SV = {
         "OU *Leader Misty": {
             "nature": "Calm",
             "ability": "Stamina",
-            "level": 68,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -26383,7 +26383,7 @@ var SETDEX_SV = {
         "OU Leader Clair": {
             "nature": "Timid",
             "ability": "Bad Company",
-            "level": 81,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -26397,7 +26397,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Modest",
             "ability": "Volt Absorb",
-            "level": 81,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Focus Blast",
@@ -26409,7 +26409,7 @@ var SETDEX_SV = {
         "OU *Leader Misty": {
             "nature": "Timid",
             "ability": "Volt Absorb",
-            "level": 68,
+            "level": 100,
             "item": "Fightinium Z",
             "moves": [
                 "Focus Blast",
@@ -26423,7 +26423,7 @@ var SETDEX_SV = {
         "OU *Leader Misty": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
-            "level": 68,
+            "level": 100,
             "item": "Gyaradosite",
             "moves": [
                 "Crunch",
@@ -26437,7 +26437,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Jolly",
             "ability": "Quark Drive",
-            "level": 68,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Close Combat",
@@ -26451,7 +26451,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Rash",
             "ability": "Sheer Force",
-            "level": 82,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earth Power",
@@ -26463,7 +26463,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Naive",
             "ability": "Sand Force",
-            "level": 68,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earthquake",
@@ -26477,7 +26477,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Careful",
             "ability": "Power Construct",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Coil",
@@ -26503,7 +26503,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Careful",
             "ability": "Power Construct",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Coil",
@@ -26529,7 +26529,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Jolly",
             "ability": "Quark Drive",
-            "level": 68,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Earthquake",
@@ -26542,7 +26542,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Alexa": {
             "nature": "Jolly",
             "ability": "Quark Drive",
-            "level": 85,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Earthquake",
@@ -26556,7 +26556,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Scrappy",
-            "level": 82,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Aura Sphere",
@@ -26568,7 +26568,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Modest",
             "ability": "Scrappy",
-            "level": 68,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Blood Moon",
@@ -26582,7 +26582,7 @@ var SETDEX_SV = {
         "OU *Leader Brock": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 68,
+            "level": 100,
             "item": "Aerodactlite",
             "moves": [
                 "Dragon Dance",
@@ -26608,7 +26608,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan": {
             "nature": "Quiet",
             "ability": "Stance Change",
-            "level": 73,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Flash Cannon",
@@ -26634,7 +26634,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan": {
             "nature": "Quiet",
             "ability": "Stance Change",
-            "level": 73,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Flash Cannon",
@@ -26660,7 +26660,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan": {
             "nature": "Quiet",
             "ability": "Stance Change",
-            "level": 73,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Flash Cannon",
@@ -26674,7 +26674,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan": {
             "nature": "Timid",
             "ability": "Natural Cure",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Earth Power",
@@ -26688,7 +26688,7 @@ var SETDEX_SV = {
         "OU *Dumbass Jojo Fan Set 1": {
             "nature": "Adamant",
             "ability": "ORAORAORAORA!",
-            "level": 73,
+            "level": 100,
             "item": "Machampite",
             "moves": [
                 "Bullet Punch",
@@ -26715,7 +26715,7 @@ var SETDEX_SV = {
         "OU SwimmerM Douglas": {
             "nature": "Brave",
             "ability": "Clear Body",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Earth Power",
                 "Giga Drain",
@@ -26740,7 +26740,7 @@ var SETDEX_SV = {
         "OU SwimmerF Alice": {
             "nature": "Lonely",
             "ability": "Schooling",
-            "level": 60,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Double-Edge",
@@ -26753,7 +26753,7 @@ var SETDEX_SV = {
         "OU SwimmerF Connie Set 1": {
             "nature": "Naive",
             "ability": "Water Veil",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Hydro Pump",
@@ -26764,7 +26764,7 @@ var SETDEX_SV = {
         "OU SwimmerF Connie Set 2": {
             "nature": "Brave",
             "ability": "Water Veil",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Hydro Pump",
@@ -26775,7 +26775,7 @@ var SETDEX_SV = {
         "OU SwimmerF Connie Set 3": {
             "nature": "Modest",
             "ability": "Water Veil",
-            "level": 63,
+            "level": 100,
             "moves": [
                 "Aqua Tail",
                 "Hydro Pump",
@@ -26786,7 +26786,7 @@ var SETDEX_SV = {
         "OU *Camper Bryce": {
             "nature": "Naive",
             "ability": "Technician",
-            "level": 98,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Fake Out",
@@ -26812,7 +26812,7 @@ var SETDEX_SV = {
         "OU SwimmerF Anya": {
             "nature": "Adamant",
             "ability": "Hydration",
-            "level": 57,
+            "level": 100,
             "moves": [
                 "Brine",
                 "Safeguard",
@@ -26823,7 +26823,7 @@ var SETDEX_SV = {
         "OU Fisherman Wade": {
             "nature": "Sassy",
             "ability": "Hydration",
-            "level": 62,
+            "level": 100,
             "moves": [
                 "Brine",
                 "Safeguard",
@@ -26836,7 +26836,7 @@ var SETDEX_SV = {
         "OU Picnicker Missy": {
             "nature": "Rash",
             "ability": "Storm Drain",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Body Slam",
                 "Muddy Water",
@@ -26849,7 +26849,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Jolly",
             "ability": "Teravolt",
-            "level": 73,
+            "level": 100,
             "item": "Icium Z",
             "moves": [
                 "Dragon Dance",
@@ -26887,7 +26887,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Lonely",
             "ability": "Slush Rush",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Bolt Beak",
@@ -26901,7 +26901,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Jolly",
             "ability": "Refrigerate",
-            "level": 73,
+            "level": 100,
             "item": "Glalitite",
             "moves": [
                 "Double-Edge",
@@ -26915,7 +26915,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Adamant",
             "ability": "Slush Rush",
-            "level": 73,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earthquake",
@@ -26929,7 +26929,7 @@ var SETDEX_SV = {
         "OU *Leader Pryce": {
             "nature": "Bold",
             "ability": "Regenerator",
-            "level": 73,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Calm Mind",
@@ -26955,7 +26955,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer May": {
             "nature": "Naive",
             "ability": "Transistor",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Electro Ball",
@@ -26969,7 +26969,7 @@ var SETDEX_SV = {
         "OU PkMn Trainer May": {
             "nature": "Jolly",
             "ability": "Speed Boost",
-            "level": 73,
+            "level": 100,
             "item": "Blazikenite",
             "moves": [
                 "Close Combat",
@@ -26995,7 +26995,7 @@ var SETDEX_SV = {
         "OU Fisherman Claude": {
             "nature": "Lax",
             "ability": "Reckless",
-            "level": 64,
+            "level": 100,
             "moves": [
                 "Aqua Fang",
                 "Head Smash",
@@ -27008,7 +27008,7 @@ var SETDEX_SV = {
         "OU Fisherman Claude": {
             "nature": "Docile",
             "ability": "Steely Spirit",
-            "level": 65,
+            "level": 100,
             "moves": [
                 "Heavy Slam",
                 "Phantom Force",
@@ -27021,7 +27021,7 @@ var SETDEX_SV = {
         "OU *Leader Jasmine": {
             "nature": "Jolly",
             "ability": "Grassy Surge",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Close Combat",
@@ -27035,7 +27035,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Adamant",
             "ability": "Prism Armor",
-            "level": 85,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Dragon Dance",
@@ -27059,7 +27059,7 @@ var SETDEX_SV = {
         "OU *Leader Jasmine": {
             "nature": "Jolly",
             "ability": "Prism Armor",
-            "level": 73,
+            "level": 100,
             "item": "Weakness Policy",
             "moves": [
                 "Dragon Dance",
@@ -27085,7 +27085,7 @@ var SETDEX_SV = {
         "OU *Leader Jasmine": {
             "nature": "Naive",
             "ability": "Download",
-            "level": 73,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Extreme Speed",
@@ -27121,7 +27121,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Hasty",
             "ability": "Download",
-            "level": 80,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Flamethrower",
@@ -27133,7 +27133,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Hasty",
             "ability": "Download",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Ice Beam",
@@ -27147,7 +27147,7 @@ var SETDEX_SV = {
         "OU *Leader Jasmine": {
             "nature": "Careful",
             "ability": "Filter",
-            "level": 73,
+            "level": 100,
             "item": "Aggronite",
             "moves": [
                 "Curse",
@@ -27161,7 +27161,7 @@ var SETDEX_SV = {
         "OU *Scientist Ted": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 75,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Aqua Jet",
@@ -27187,7 +27187,7 @@ var SETDEX_SV = {
         "OU *Scientist Ted": {
             "nature": "Timid",
             "ability": "No Guard",
-            "level": 76,
+            "level": 100,
             "item": "Pidgeotite",
             "moves": [
                 "Focus Blast",
@@ -27225,7 +27225,7 @@ var SETDEX_SV = {
         "OU *Scientist Ted": {
             "nature": "Jolly",
             "ability": "Sap Sipper",
-            "level": 76,
+            "level": 100,
             "item": "Eevium Z",
             "moves": [
                 "Jump Kick",
@@ -27239,7 +27239,7 @@ var SETDEX_SV = {
         "OU *Camper Bryce": {
             "nature": "Timid",
             "ability": "Magic Guard",
-            "level": 99,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Foul Play",
@@ -27251,7 +27251,7 @@ var SETDEX_SV = {
         "OU Burglar Arnie": {
             "nature": "Timid",
             "ability": "Blaze",
-            "level": 69,
+            "level": 100,
             "moves": [
                 "Magic Room",
                 "Mind Blown",
@@ -27262,7 +27262,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Derek": {
             "nature": "Timid",
             "ability": "Magic Guard",
-            "level": 76,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Grass Knot",
@@ -27274,7 +27274,7 @@ var SETDEX_SV = {
         "OU Burglar Quinn": {
             "nature": "Lonely",
             "ability": "Blaze",
-            "level": 73,
+            "level": 100,
             "moves": [
                 "Magic Room",
                 "Mind Blown",
@@ -27285,7 +27285,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Magic Guard",
-            "level": 80,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Expanding Force",
@@ -27311,7 +27311,7 @@ var SETDEX_SV = {
         "OU Scientist Braydon": {
             "nature": "Docile",
             "ability": "Electromrphosis",
-            "level": 70,
+            "level": 100,
             "moves": [
                 "Muddy Water",
                 "Parabolic Charge",
@@ -27336,7 +27336,7 @@ var SETDEX_SV = {
         "OU *Burglar Lewis": {
             "nature": "Adamant",
             "ability": "Grassy Surge",
-            "level": 75,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Fake Out",
@@ -27350,7 +27350,7 @@ var SETDEX_SV = {
         "OU *Burglar Lewis": {
             "nature": "Timid",
             "ability": "Grim Neigh",
-            "level": 76,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Dark Pulse",
@@ -27364,7 +27364,7 @@ var SETDEX_SV = {
         "OU Super Nerd Aavery": {
             "nature": "Serious",
             "ability": "Gluttony",
-            "level": 72,
+            "level": 100,
             "moves": [
                 "Dynamic Punch",
                 "Flare Blitz",
@@ -27377,7 +27377,7 @@ var SETDEX_SV = {
         "OU Super Nerd Aavery": {
             "nature": "Gentle",
             "ability": "Dancer",
-            "level": 72,
+            "level": 100,
             "moves": [
                 "Agility",
                 "Hurricane",
@@ -27402,7 +27402,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Defiant",
-            "level": 76,
+            "level": 100,
             "item": "Flying Gem",
             "moves": [
                 "Acrobatics",
@@ -27416,7 +27416,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Lucy": {
             "nature": "Jolly",
             "ability": "Steadfast",
-            "level": 76,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Accelerock",
@@ -27430,7 +27430,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Lucy": {
             "nature": "Modest",
             "ability": "Protosynthesis",
-            "level": 76,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Solar Beam",
@@ -27444,7 +27444,7 @@ var SETDEX_SV = {
         "OU Champion Lance": {
             "nature": "Hasty",
             "ability": "Aerilate",
-            "level": 82,
+            "level": 100,
             "item": "Salamencite",
             "moves": [
                 "Aqua Tail",
@@ -27456,7 +27456,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Zac": {
             "nature": "Naive",
             "ability": "Aerilate",
-            "level": 76,
+            "level": 100,
             "item": "Salamencite",
             "moves": [
                 "Double-Edge",
@@ -27506,7 +27506,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Zac": {
             "nature": "Timid",
             "ability": "Flame Body",
-            "level": 76,
+            "level": 100,
             "item": "Fire Gem",
             "moves": [
                 "Bug Buzz",
@@ -27520,7 +27520,7 @@ var SETDEX_SV = {
         "OU Leader Blaine": {
             "nature": "Timid",
             "ability": "Protosynthesis",
-            "level": 76,
+            "level": 100,
             "item": "Shuca Berry",
             "moves": [
                 "Earth Power",
@@ -27534,7 +27534,7 @@ var SETDEX_SV = {
         "OU Leader Blaine": {
             "nature": "Jolly",
             "ability": "Protosynthesis",
-            "level": 76,
+            "level": 100,
             "item": "Fighting Gem",
             "moves": [
                 "Close Combat",
@@ -27548,7 +27548,7 @@ var SETDEX_SV = {
         "OU *Champion Blue Set 1": {
             "nature": "Timid",
             "ability": "Protosynthesis",
-            "level": 85,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Draco Barrage",
@@ -27560,7 +27560,7 @@ var SETDEX_SV = {
         "OU *Champion Blue Set 2": {
             "nature": "Timid",
             "ability": "Protosynthesis",
-            "level": 85,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Draco Barrage",
@@ -27572,7 +27572,7 @@ var SETDEX_SV = {
         "OU Leader Blaine": {
             "nature": "Timid",
             "ability": "Protosynthesis",
-            "level": 76,
+            "level": 100,
             "item": "Water Gem",
             "moves": [
                 "Draco Barrage",
@@ -27598,7 +27598,7 @@ var SETDEX_SV = {
         "OU Leader Blaine": {
             "nature": "Jolly",
             "ability": "Phoenix Down",
-            "level": 76,
+            "level": 100,
             "item": "Flyinium Z",
             "moves": [
                 "Brave Bird",
@@ -27612,7 +27612,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Toxic Debris",
-            "level": 77,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earth Power",
@@ -27624,7 +27624,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance Set 1": {
             "nature": "Timid",
             "ability": "Toxic Debris",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Energy Ball",
@@ -27636,7 +27636,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance Set 2": {
             "nature": "Timid",
             "ability": "Toxic Debris",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Earth Power",
@@ -27650,7 +27650,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Overcoat",
-            "level": 79,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Foul Play",
@@ -27664,7 +27664,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Parasitic Waste",
-            "level": 79,
+            "level": 100,
             "item": "Garbodorite",
             "moves": [
                 "Drain Punch",
@@ -27678,7 +27678,7 @@ var SETDEX_SV = {
         "OU *Rocket Admin Ariana": {
             "nature": "Jolly",
             "ability": "Beast Boost",
-            "level": 79,
+            "level": 100,
             "item": "Coba Berry",
             "moves": [
                 "Drain Punch",
@@ -27692,7 +27692,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "SupremeOverlord",
-            "level": 79,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Iron Head",
@@ -27704,7 +27704,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Adamant",
             "ability": "SupremeOverlord",
-            "level": 82,
+            "level": 100,
             "item": "Chople Berry",
             "moves": [
                 "Brick Break",
@@ -27718,7 +27718,7 @@ var SETDEX_SV = {
         "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
-            "level": 79,
+            "level": 100,
             "item": "Sharpedonite",
             "moves": [
                 "Aqua Fang",
@@ -27744,7 +27744,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Sassy",
             "ability": "Intimidate",
-            "level": 80,
+            "level": 100,
             "item": "Figy Berry",
             "moves": [
                 "Parting Shot",
@@ -27758,7 +27758,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Unnerve",
-            "level": 80,
+            "level": 100,
             "moves": [
                 "Aura Sphere",
                 "Expanding Force",
@@ -27771,7 +27771,7 @@ var SETDEX_SV = {
         "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Insomnia",
-            "level": 80,
+            "level": 100,
             "moves": [
                 "Aura Sphere",
                 "Expanding Force",
@@ -27784,7 +27784,7 @@ var SETDEX_SV = {
         "OU Champion Lance": {
             "nature": "Modest",
             "ability": "Telepathy",
-            "level": 83,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -27798,7 +27798,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Naomi": {
             "nature": "Timid",
             "ability": "Compound Eyes",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Bug Buzz",
@@ -27810,7 +27810,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Timid",
             "ability": "Compound Eyes",
-            "level": 81,
+            "level": 100,
             "item": "Petaya Berry",
             "moves": [
                 "Bug Buzz",
@@ -27848,7 +27848,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Close Combat",
@@ -27860,7 +27860,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup Set 1": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
-            "level": 81,
+            "level": 100,
             "item": "Choice Scarf",
             "moves": [
                 "Close Combat",
@@ -27872,7 +27872,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup Set 2": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
-            "level": 81,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Close Combat",
@@ -27887,7 +27887,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Modest",
             "ability": "Prism Armor",
-            "level": 81,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Heat Wave",
@@ -27901,7 +27901,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Ketchup": {
             "nature": "Adamant",
             "ability": "Prankster",
-            "level": 81,
+            "level": 100,
             "item": "Banettite",
             "moves": [
                 "Destiny Bond",
@@ -27915,7 +27915,7 @@ var SETDEX_SV = {
         "OU Leader Clair": {
             "nature": "Jolly",
             "ability": "Protosynthesis",
-            "level": 81,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Dragon Dance",
@@ -27929,7 +27929,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Neuroforce",
-            "level": 85,
+            "level": 100,
             "item": "Necrozium Z",
             "moves": [
                 "Dragon Dance",
@@ -27941,7 +27941,7 @@ var SETDEX_SV = {
         "OU Leader Clair": {
             "nature": "Adamant",
             "ability": "Neuroforce",
-            "level": 81,
+            "level": 100,
             "item": "Necrozium Z",
             "moves": [
                 "Dragon Dance",
@@ -27955,7 +27955,7 @@ var SETDEX_SV = {
         "OU Leader Clair": {
             "nature": "Timid",
             "ability": "Pressure",
-            "level": 81,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Dynamax Cannon",
@@ -27969,7 +27969,7 @@ var SETDEX_SV = {
         "OU *Burglar Max": {
             "nature": "Jolly",
             "ability": "Intimidate",
-            "level": 80,
+            "level": 100,
             "item": "Eviolite",
             "moves": [
                 "Liquidation",
@@ -27983,7 +27983,7 @@ var SETDEX_SV = {
         "OU *Burglar Max": {
             "nature": "Jolly",
             "ability": "Arena Trap",
-            "level": 80,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Aqua Jet",
@@ -27997,7 +27997,7 @@ var SETDEX_SV = {
         "OU *Burglar Max": {
             "nature": "Modest",
             "ability": "Regenerator",
-            "level": 80,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -28011,7 +28011,7 @@ var SETDEX_SV = {
         "OU *Burglar Max": {
             "nature": "Timid",
             "ability": "Technician",
-            "level": 80,
+            "level": 100,
             "item": "Life Orb",
             "moves": [
                 "Drain Kiss",
@@ -28025,7 +28025,7 @@ var SETDEX_SV = {
         "OU *Burglar Anson": {
             "nature": "Timid",
             "ability": "Frisk",
-            "level": 80,
+            "level": 100,
             "item": "Air Balloon",
             "moves": [
                 "Focus Blast",
@@ -28039,7 +28039,7 @@ var SETDEX_SV = {
         "OU *Burglar Anson": {
             "nature": "Bold",
             "ability": "Protosynthesis",
-            "level": 80,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Moonblast",
@@ -28053,7 +28053,7 @@ var SETDEX_SV = {
         "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Rock Head",
-            "level": 82,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Close Combat",
@@ -28079,7 +28079,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Drought",
-            "level": 82,
+            "level": 100,
             "item": "Charzardite Y",
             "moves": [
                 "Focus Blast",
@@ -28093,7 +28093,7 @@ var SETDEX_SV = {
         "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Swift Swim",
-            "level": 82,
+            "level": 100,
             "item": "Mystic Water",
             "moves": [
                 "Flip Turn",
@@ -28119,7 +28119,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Naomi": {
             "nature": "Jolly",
             "ability": "Technician",
-            "level": 85,
+            "level": 100,
             "item": "Wide Lens",
             "moves": [
                 "Beat Up",
@@ -28133,7 +28133,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Naomi": {
             "nature": "Naive",
             "ability": "Sharpness",
-            "level": 85,
+            "level": 100,
             "item": "Absolite",
             "moves": [
                 "Night Slash",
@@ -28171,7 +28171,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Naomi": {
             "nature": "Timid",
             "ability": "Beast Boost",
-            "level": 85,
+            "level": 100,
             "item": "Ghostium Z",
             "moves": [
                 "Calm Mind",
@@ -28185,7 +28185,7 @@ var SETDEX_SV = {
         "OU Black Belt Daisuke": {
             "nature": "Bashful",
             "ability": "Receiver",
-            "level": 81,
+            "level": 100,
             "item": "Black Belt",
             "moves": [
                 "Close Combat",
@@ -28199,7 +28199,7 @@ var SETDEX_SV = {
         "OU Juggler Nelson": {
             "nature": "Mild",
             "ability": "Frisk",
-            "level": 82,
+            "level": 100,
             "moves": [
                 "Charm",
                 "Magic Room",
@@ -28224,7 +28224,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer George": {
             "nature": "Adamant",
             "ability": "Iron Fist",
-            "level": 85,
+            "level": 100,
             "item": "Black Glasses",
             "moves": [
                 "Bullet Punch",
@@ -28262,7 +28262,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Alexa": {
             "nature": "Jolly",
             "ability": "Synchronize",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Dragon Dance",
@@ -28276,7 +28276,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Colby": {
             "nature": "Timid",
             "ability": "Magic Bounce",
-            "level": 85,
+            "level": 100,
             "item": "Diancite",
             "moves": [
                 "Diamond Storm",
@@ -28290,7 +28290,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Colby": {
             "nature": "Jolly",
             "ability": "Sharpness",
-            "level": 85,
+            "level": 100,
             "item": "Scope Lens",
             "moves": [
                 "Leaf Blade",
@@ -28304,7 +28304,7 @@ var SETDEX_SV = {
         "OU *Ace Trainer Caroline": {
             "nature": "Sassy",
             "ability": "Beast Boost",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Body Press",
@@ -28318,7 +28318,7 @@ var SETDEX_SV = {
         "OU *Cool Couple Ray & Tyra": {
             "nature": "Quiet",
             "ability": "Zen Mode",
-            "level": 85,
+            "level": 100,
             "item": "Iapapa Berry",
             "moves": [
                 "Flamethrower",
@@ -28332,7 +28332,7 @@ var SETDEX_SV = {
         "OU *Cool Couple Ray & Tyra": {
             "nature": "Brave",
             "ability": "Intimidate",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Drain Punch",
@@ -28346,7 +28346,7 @@ var SETDEX_SV = {
         "OU *Cool Couple Ray & Tyra": {
             "nature": "Brave",
             "ability": "Sheer Force",
-            "level": 85,
+            "level": 100,
             "item": "Copperajite",
             "moves": [
                 "Close Combat",
@@ -28372,7 +28372,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Timid",
             "ability": "Pressure",
-            "level": 85,
+            "level": 100,
             "item": "Lustrous Orb",
             "moves": [
                 "Aura Sphere",
@@ -28386,7 +28386,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Modest",
             "ability": "Slush Rush",
-            "level": 85,
+            "level": 100,
             "item": "Choice Specs",
             "moves": [
                 "Blizzard",
@@ -28400,7 +28400,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Jolly",
             "ability": "Sword Of Ruin",
-            "level": 85,
+            "level": 100,
             "item": "Focus Sash",
             "moves": [
                 "Ice Shard",
@@ -28426,7 +28426,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Timid",
             "ability": "Turboblaze",
-            "level": 85,
+            "level": 100,
             "item": "Dragonium Z",
             "moves": [
                 "Blizzard",
@@ -28452,7 +28452,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lorelei": {
             "nature": "Naive",
             "ability": "Slush Rush",
-            "level": 85,
+            "level": 100,
             "item": "Abomasite",
             "moves": [
                 "Blizzard",
@@ -28466,7 +28466,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Timid",
             "ability": "Quark Drive",
-            "level": 85,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Calm Mind",
@@ -28480,7 +28480,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Intrepid Sword",
-            "level": 85,
+            "level": 100,
             "item": "Rusty Sword",
             "moves": [
                 "Behemoth Blade",
@@ -28495,7 +28495,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Volt Absorb",
-            "level": 85,
+            "level": 100,
             "item": "Misty Seed",
             "moves": [
                 "Bulk Up",
@@ -28509,7 +28509,7 @@ var SETDEX_SV = {
         "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Adaptability",
-            "level": 85,
+            "level": 100,
             "item": "Lucarionite",
             "moves": [
                 "Bullet Punch",
@@ -28523,7 +28523,7 @@ var SETDEX_SV = {
         "OU *Elite Four Agatha": {
             "nature": "Timid",
             "ability": "Protosynthesis",
-            "level": 85,
+            "level": 100,
             "item": "Booster Energy",
             "moves": [
                 "Moonblast",
@@ -28550,7 +28550,7 @@ var SETDEX_SV = {
         "OU *Elite Four Agatha": {
             "nature": "Naive",
             "ability": "Steadfast",
-            "level": 85,
+            "level": 100,
             "item": "Mewtwonite X",
             "moves": [
                 "Bulk Up",
@@ -28565,7 +28565,7 @@ var SETDEX_SV = {
         "OU *Elite Four Agatha": {
             "nature": "Timid",
             "ability": "Dark Aura",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Dark Hole",
@@ -28591,7 +28591,7 @@ var SETDEX_SV = {
         "OU *Elite Four Agatha": {
             "nature": "Hasty",
             "ability": "Victory Star",
-            "level": 85,
+            "level": 100,
             "item": "Normalium Z",
             "moves": [
                 "Celebrate",
@@ -28605,7 +28605,7 @@ var SETDEX_SV = {
         "OU *Elite Four Agatha": {
             "nature": "Timid",
             "ability": "As One",
-            "level": 85,
+            "level": 100,
             "item": "Colbur Berry",
             "moves": [
                 "Astral Barrage",
@@ -28619,7 +28619,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance": {
             "nature": "Careful",
             "ability": "Iron Fist",
-            "level": 85,
+            "level": 100,
             "item": "Assault Vest",
             "moves": [
                 "Double Iron Bash",
@@ -28633,7 +28633,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance": {
             "nature": "Timid",
             "ability": "Multitype",
-            "level": 85,
+            "level": 100,
             "item": "Pixie Plate",
             "moves": [
                 "Calm Mind",
@@ -28647,7 +28647,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance Set 1": {
             "nature": "Bold",
             "ability": "Primal Armor",
-            "level": 85,
+            "level": 100,
             "item": "Adamant Orb",
             "moves": [
                 "Flash Cannon",
@@ -28659,7 +28659,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance Set 2": {
             "nature": "Calm",
             "ability": "Primal Armor",
-            "level": 85,
+            "level": 100,
             "item": "Adamant Orb",
             "moves": [
                 "Flash Cannon",
@@ -28685,7 +28685,7 @@ var SETDEX_SV = {
         "OU *Elite Four Lance": {
             "nature": "Naive",
             "ability": "Delta Stream",
-            "level": 85,
+            "level": 100,
             "item": "Sharp Beak",
             "moves": [
                 "Dragon Ascent",
@@ -28700,7 +28700,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Desolate Land",
-            "level": 85,
+            "level": 100,
             "item": "Red Orb",
             "moves": [
                 "Heat Crash",
@@ -28714,7 +28714,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Protosynthesis",
-            "level": 85,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Draco Barrage",
@@ -28728,7 +28728,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "OrichalcumPulse",
-            "level": 85,
+            "level": 100,
             "item": "Roseli Berry",
             "moves": [
                 "Collision Course",
@@ -28742,7 +28742,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Timid",
             "ability": "Multitype",
-            "level": 85,
+            "level": 100,
             "item": "Groundium Z",
             "moves": [
                 "Calm Mind",
@@ -28768,7 +28768,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Timid",
             "ability": "Fairy Aura",
-            "level": 85,
+            "level": 100,
             "item": "Power Herb",
             "moves": [
                 "Focus Blast",
@@ -28782,7 +28782,7 @@ var SETDEX_SV = {
         "OU *Champion Blue Set 1": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 85,
+            "level": 100,
             "item": "Eternamax Orb",
             "moves": [
                 "Draco Barrage",
@@ -28795,7 +28795,7 @@ var SETDEX_SV = {
         "OU *Champion Blue Set 2": {
             "nature": "Timid",
             "ability": "Levitate",
-            "level": 85,
+            "level": 100,
             "item": "Eternamax Orb",
             "moves": [
                 "Draco Barrage",
@@ -28810,7 +28810,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Timid",
             "ability": "Primordial Sea",
-            "level": 85,
+            "level": 100,
             "item": "Blue Orb",
             "moves": [
                 "Ice Beam",
@@ -28836,7 +28836,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Multitype",
-            "level": 85,
+            "level": 100,
             "item": "Steelium Z",
             "moves": [
                 "Earthquake",
@@ -28850,7 +28850,7 @@ var SETDEX_SV = {
         "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Multitype",
-            "level": 85,
+            "level": 100,
             "item": "Normalium Z",
             "moves": [
                 "Extreme Speed",
@@ -29120,7 +29120,7 @@ var SETDEX_SV = {
         "OU *SwimmerF Amara": {
             "nature": "Modest",
             "ability": "Serene Grace",
-            "level": 99,
+            "level": 100,
             "item": "Leftovers",
             "moves": [
                 "Moonblast",
@@ -29280,7 +29280,7 @@ var SETDEX_SV = {
         "OU *Picnicker Claire": {
             "nature": "Timid",
             "ability": "Trace",
-            "level": 99,
+            "level": 100,
             "item": "Alakazite",
             "moves": [
                 "Expanding Force",
@@ -29294,7 +29294,7 @@ var SETDEX_SV = {
         "OU *Picnicker Claire": {
             "nature": "Timid",
             "ability": "Psychic Surge",
-            "level": 98,
+            "level": 100,
             "item": "Tanga Berry",
             "moves": [
                 "Expanding Force",
@@ -29322,7 +29322,7 @@ var SETDEX_SV = {
         "OU *Crush Kin Mik & Kia": {
             "nature": "Jolly",
             "ability": "Tough Claws",
-            "level": 99,
+            "level": 100,
             "item": "Metagrossite",
             "moves": [
                 "Earthquake",
@@ -29406,7 +29406,7 @@ var SETDEX_SV = {
         "OU *PkMn Ranger Beth": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
-            "level": 99,
+            "level": 100,
             "item": "Lum Berry",
             "moves": [
                 "Close Combat",
