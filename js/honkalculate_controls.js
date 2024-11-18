@@ -63,68 +63,73 @@ $.fn.dataTableExt.oSort['damage48-desc'] = function (a, b) {
 };
 
 function performCalculations() {
-	var attacker, defender, setName, setTier;
-	var selectedTiers = getSelectedTiers();
-	var setOptions = getSetOptions();
-	var dataSet = [];
-	var pokeInfo = $("#p1");
-	for (var i = 0; i < setOptions.length; i++) {
-		if (setOptions[i].id && typeof setOptions[i].id !== "undefined") {
-			setName = setOptions[i].id.substring(setOptions[i].id.indexOf("(") + 1, setOptions[i].id.lastIndexOf(")"));
-			setTier = setName.substring(0, setName.indexOf(" "));
-			if (selectedTiers.indexOf(setTier) !== -1) {
-				var field = createField();
-				if (mode === "one-vs-all") {
-					attacker = createPokemon(pokeInfo);
-					defender = createPokemon(setOptions[i].id);
-				} else {
-					attacker = createPokemon(setOptions[i].id);
-					defender = createPokemon(pokeInfo);
-					field.swap();
-				}
-				if (attacker.ability === "Rivalry") {
-					attacker.gender = "N";
-				}
-				if (defender.ability === "Rivalry") {
-					defender.gender = "N";
-				}
-				var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
-				attacker = damageResults[0].attacker;
-				defender = damageResults[0].defender;
-				var result, minMaxDamage, minDamage, maxDamage, minPercentage, maxPercentage, minPixels, maxPixels;
-				var highestDamage = -1;
-				var data = [setOptions[i].id];
-				for (var n = 0; n < 4; n++) {
-					result = damageResults[n];
-					minMaxDamage = result.range();
-					minDamage = minMaxDamage[0] * attacker.moves[n].hits;
-					maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
-					minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
-					maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
-					minPixels = Math.floor(minDamage * 48 / defender.maxHP());
-					maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
-					if (maxDamage > highestDamage) {
-						highestDamage = maxDamage;
-						while (data.length > 1) {
-							data.pop();
-						}
-						data.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
-						data.push(minPercentage + " - " + maxPercentage + "%");
-						data.push(minPixels + " - " + maxPixels + "px");
-						data.push(attacker.moves[n].bp === 0 ? 'nice move' : (result.kochance(false).text || 'possibly the worst move ever'));
-					}
-				}
-				data.push((mode === "one-vs-all") ? defender.types[0] : attacker.types[0]);
-				data.push(((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || "");
-				data.push(((mode === "one-vs-all") ? defender.ability : attacker.ability) || "");
-				data.push(((mode === "one-vs-all") ? defender.item : attacker.item) || "");
-				dataSet.push(data);
-			}
-		}
-	}
-	var pokemon = mode === "one-vs-all" ? attacker : defender;
-	if (pokemon) pokeInfo.find(".sp .totalMod").text(pokemon.stats.spe);
-	table.rows.add(dataSet).draw();
+    var attacker, defender, setName, setTier;
+    var selectedTiers = getSelectedTiers();
+    var setOptions = getSetOptions();
+    var dataSet = [];
+    var pokeInfo = $("#p1");
+    for (var i = 0; i < setOptions.length; i++) {
+        if (setOptions[i].id && typeof setOptions[i].id !== "undefined") {
+            setName = setOptions[i].id.substring(setOptions[i].id.indexOf("(") + 1, setOptions[i].id.lastIndexOf(")"));
+            setTier = setName.substring(0, setName.indexOf(" "));
+            if (selectedTiers.indexOf(setTier) !== -1) {
+                var field = createField();
+                if (mode === "one-vs-all") {
+                    attacker = createPokemon(pokeInfo);
+                    defender = createPokemon(setOptions[i].id);
+                } else {
+                    attacker = createPokemon(setOptions[i].id);
+                    defender = createPokemon(pokeInfo);
+                    field.swap();
+                }
+                if (attacker.ability === "Rivalry") {
+                    attacker.gender = "N";
+                }
+                if (defender.ability === "Rivalry") {
+                    defender.gender = "N";
+                }
+                var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
+                attacker = damageResults[0].attacker;
+                defender = damageResults[0].defender;
+                
+                // Store base info that will be common for all moves
+                var baseInfo = [setOptions[i].id];
+                var pokemonInfo = [
+                    (mode === "one-vs-all") ? defender.types[0] : attacker.types[0],
+                    ((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || "",
+                    ((mode === "one-vs-all") ? defender.ability : attacker.ability) || "",
+                    ((mode === "one-vs-all") ? defender.item : attacker.item) || ""
+                ];
+
+                // Process each move
+                for (var n = 0; n < 4; n++) {
+                    var result = damageResults[n];
+                    // Skip moves that do no damage
+                    if (attacker.moves[n].bp === 0) continue;
+                    
+                    var minMaxDamage = result.range();
+                    var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
+                    var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
+                    var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
+                    var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
+                    var minPixels = Math.floor(minDamage * 48 / defender.maxHP());
+                    var maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
+
+                    // Create a new data entry for each move
+                    var moveData = baseInfo.slice();
+                    moveData.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
+                    moveData.push(minPercentage + " - " + maxPercentage + "%");
+                    moveData.push(minPixels + " - " + maxPixels + "px");
+                    moveData.push(result.kochance(false).text || 'possibly the worst move ever');
+                    moveData = moveData.concat(pokemonInfo);
+                    dataSet.push(moveData);
+                }
+            }
+        }
+    }
+    var pokemon = mode === "one-vs-all" ? attacker : defender;
+    if (pokemon) pokeInfo.find(".sp .totalMod").text(pokemon.stats.spe);
+    table.rows.add(dataSet).draw();
 }
 
 function getSelectedTiers() {
@@ -310,25 +315,42 @@ $(".set-selector").change(function (e) {
 
 var dtHeight, dtWidth;
 $(document).ready(function () {
-	var params = new URLSearchParams(window.location.search);
-	window.mode = params.get("mode");
-	if (window.mode) {
-		if (window.mode === "randoms") {
-			window.location.replace("randoms" + linkExtension + "?" + params);
-		} else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
-			window.location.replace("index" + linkExtension + "?" + params);
-		}
-	} else {
-		window.mode = "one-vs-all";
-	}
+    var params = new URLSearchParams(window.location.search);
+    window.mode = params.get("mode");
+    if (window.mode) {
+        if (window.mode === "randoms") {
+            window.location.replace("randoms" + linkExtension + "?" + params);
+        } else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
+            window.location.replace("index" + linkExtension + "?" + params);
+        }
+    } else {
+        window.mode = "one-vs-all";
+    }
 
-	$("#" + mode).prop("checked", true);
-	$("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
-	$("#holder-2").show();
+    $("#" + mode).prop("checked", true);
+    $("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
+    $("#holder-2").show();
 
-	calcDTDimensions();
-	constructDataTable();
-	placeBsBtn();
+    // Check OU by default
+    $("#OU").prop("checked", true);
+
+    calcDTDimensions();
+    constructDataTable();
+    placeBsBtn();
+});
+
+$(".gen").change(function () {
+    $(".tiers input").prop("checked", false);
+    $("#singles-format").attr("disabled", false);
+    // Check OU after generation change
+    $("#OU").prop("checked", true);
+    adjustTierBorderRadius();
+
+    if ($.fn.DataTable.isDataTable("#holder-2")) {
+        table.clear();
+        constructDataTable();
+        placeBsBtn();
+    }
 });
 
 function calcDTDimensions() {
