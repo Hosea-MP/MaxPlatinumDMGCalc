@@ -1,6 +1,6 @@
 var SETDEX_SV = {
     "Abra": {
-        "Abra-1 [91]": {
+        "OU Abra-1 [91]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -13,18 +13,19 @@ var SETDEX_SV = {
         }
     },
     "Absol": {
-        "Absol-1 [248]": {
+        "OU Absol-1 [248]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
                 "Bite",
+                "Psychic",
                 "Razor Wind",
                 "Future Sight",
                 "Quick Attack"
             ],
             "nature": "Adamant"
         },
-        "Absol-2 [353]": {
+        "OU Absol-2 [353]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -35,7 +36,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Pressure",
             "level": 74,
@@ -48,7 +49,7 @@ var SETDEX_SV = {
         }
     },
     "Aerodactyl": {
-        "Aerodactyl-1 [436]": {
+        "OU Aerodactyl-1 [436]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -59,7 +60,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Aerodactyl-2 [532]": {
+        "OU Aerodactyl-2 [532]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -70,7 +71,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Aerodactyl-3 [628]": {
+        "OU Aerodactyl-3 [628]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -81,7 +82,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Aerodactyl-4 [724]": {
+        "OU Aerodactyl-4 [724]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -92,7 +93,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Unnerve",
             "level": 46,
@@ -104,7 +105,7 @@ var SETDEX_SV = {
                 "Rock Slide"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 100,
@@ -116,7 +117,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Cue Ball Camron": {
+        "OU *Cue Ball Camron": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 66,
@@ -130,7 +131,7 @@ var SETDEX_SV = {
         }
     },
     "Aggron": {
-        "Aggron-1 [451]": {
+        "OU Aggron-1 [451]": {
             "level": 100,
             "moves": [
                 "Iron Tail",
@@ -140,7 +141,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Aggron-2 [547]": {
+        "OU Aggron-2 [547]": {
             "level": 100,
             "moves": [
                 "Focus Punch",
@@ -150,7 +151,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Aggron-3 [643]": {
+        "OU Aggron-3 [643]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -161,7 +162,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Aggron-4 [739]": {
+        "OU Aggron-4 [739]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -171,7 +172,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "PkMn Trainer May": {
+        "OU PkMn Trainer May": {
             "nature": "Adamant",
             "ability": "Sturdy",
             "level": 73,
@@ -183,7 +184,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Rash",
             "ability": "Rock Head",
             "level": 47,
@@ -196,7 +197,7 @@ var SETDEX_SV = {
         }
     },
     "Aipom": {
-        "Aipom-1 [143]": {
+        "OU Aipom-1 [143]": {
             "item": "Silk Scarf",
             "level": 100,
             "moves": [
@@ -209,7 +210,7 @@ var SETDEX_SV = {
         }
     },
     "Alakazam": {
-        "Alakazam-1 [405]": {
+        "OU Alakazam-1 [405]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -220,7 +221,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Alakazam-2 [501]": {
+        "OU Alakazam-2 [501]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -230,7 +231,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Alakazam-3 [597]": {
+        "OU Alakazam-3 [597]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -241,7 +242,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Alakazam-4 [693]": {
+        "OU Alakazam-4 [693]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -252,7 +253,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Alakazam-Boss [Anabel Silver]": {
+        "OU Alakazam-Boss [Anabel Silver]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -263,7 +264,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Dumbass Gambler": {
+        "OU Dumbass Gambler": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 100,
@@ -272,7 +273,7 @@ var SETDEX_SV = {
                 "Metronome"
             ]
         },
-        "*Ace Trainer Barry": {
+        "OU *Ace Trainer Barry": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 100,
@@ -284,7 +285,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Gentleman Tucker": {
+        "OU *Gentleman Tucker": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 34,
@@ -298,7 +299,7 @@ var SETDEX_SV = {
         }
     },
     "Altaria": {
-        "Altaria-1 [413]": {
+        "OU Altaria-1 [413]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -309,7 +310,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Altaria-2 [509]": {
+        "OU Altaria-2 [509]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -320,7 +321,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Altaria-3 [605]": {
+        "OU Altaria-3 [605]": {
             "level": 100,
             "moves": [
                 "Sing",
@@ -330,7 +331,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Altaria-4 [701]": {
+        "OU Altaria-4 [701]": {
             "level": 100,
             "moves": [
                 "Dragon Claw",
@@ -340,7 +341,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Bird Keeper Mitch": {
+        "OU Bird Keeper Mitch": {
             "nature": "Sassy",
             "ability": "Natural Cure",
             "level": 55,
@@ -353,7 +354,7 @@ var SETDEX_SV = {
         }
     },
     "Ampharos": {
-        "Ampharos-1 [423]": {
+        "OU Ampharos-1 [423]": {
             "item": "Magnet",
             "level": 100,
             "moves": [
@@ -364,7 +365,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Ampharos-2 [519]": {
+        "OU Ampharos-2 [519]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -375,7 +376,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Ampharos-3 [615]": {
+        "OU Ampharos-3 [615]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -386,7 +387,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Ampharos-4 [711]": {
+        "OU Ampharos-4 [711]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -398,7 +399,7 @@ var SETDEX_SV = {
         }
     },
     "Anorith": {
-        "Anorith-1 [142]": {
+        "OU Anorith-1 [142]": {
             "level": 100,
             "moves": [
                 "Metal Claw",
@@ -408,7 +409,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Hiker Lenny": {
+        "OU Hiker Lenny": {
             "nature": "Sassy",
             "ability": "Battle Armor",
             "level": 32,
@@ -421,7 +422,7 @@ var SETDEX_SV = {
         }
     },
     "Arbok": {
-        "Arbok-1 [218]": {
+        "OU Arbok-1 [218]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -432,7 +433,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Arbok-2 [323]": {
+        "OU Arbok-2 [323]": {
             "level": 100,
             "moves": [
                 "Sludge Bomb",
@@ -442,7 +443,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tamer Edgar": {
+        "OU Tamer Edgar": {
             "nature": "Modest",
             "ability": "Intimidate",
             "level": 62,
@@ -453,7 +454,7 @@ var SETDEX_SV = {
                 "Shed Tail"
             ]
         },
-        "Youngster Johnson": {
+        "OU Youngster Johnson": {
             "nature": "Gentle",
             "ability": "Intimidate",
             "level": 71,
@@ -464,7 +465,7 @@ var SETDEX_SV = {
                 "Shed Tail"
             ]
         },
-        "Youngster Eddie": {
+        "OU Youngster Eddie": {
             "nature": "Quiet",
             "ability": "Intimidate",
             "level": 26,
@@ -475,7 +476,7 @@ var SETDEX_SV = {
                 "Shed Tail"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Intimidate",
             "level": 47,
@@ -486,7 +487,7 @@ var SETDEX_SV = {
                 "Shed Tail"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 28,
@@ -500,7 +501,7 @@ var SETDEX_SV = {
         }
     },
     "Arcanine": {
-        "Arcanine-1 [465]": {
+        "OU Arcanine-1 [465]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -511,7 +512,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Arcanine-2 [561]": {
+        "OU Arcanine-2 [561]": {
             "level": 100,
             "moves": [
                 "Fire Blast",
@@ -521,7 +522,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Arcanine-3 [657]": {
+        "OU Arcanine-3 [657]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -532,7 +533,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Arcanine-4 [753]": {
+        "OU Arcanine-4 [753]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -543,7 +544,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Arcanine-Boss [Spenser Gold]": {
+        "OU Arcanine-Boss [Spenser Gold]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -554,7 +555,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hasty"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 26,
@@ -566,7 +567,7 @@ var SETDEX_SV = {
                 "Thunder Fang"
             ]
         },
-        "*Ace Trainer Colby": {
+        "OU *Ace Trainer Colby": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 85,
@@ -578,7 +579,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Scientist Beau": {
+        "OU Scientist Beau": {
             "nature": "Mild",
             "ability": "Intimidate",
             "level": 41,
@@ -589,7 +590,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*Burglar Lewis": {
+        "OU *Burglar Lewis": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 74,
@@ -601,7 +602,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Super Nerd Erik": {
+        "OU Super Nerd Erik": {
             "nature": "Mild",
             "ability": "Intimidate",
             "level": 72,
@@ -614,7 +615,7 @@ var SETDEX_SV = {
         }
     },
     "Ariados": {
-        "Ariados-1 [161]": {
+        "OU Ariados-1 [161]": {
             "level": 100,
             "moves": [
                 "Signal Beam",
@@ -624,7 +625,7 @@ var SETDEX_SV = {
             ],
             "nature": "Serious"
         },
-        "Juggler Kirk": {
+        "OU Juggler Kirk": {
             "nature": "Quiet",
             "ability": "Swarm",
             "level": 63,
@@ -635,7 +636,7 @@ var SETDEX_SV = {
                 "Toxic Thread"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Quirky",
             "ability": "Swarm",
             "level": 40,
@@ -648,7 +649,7 @@ var SETDEX_SV = {
         }
     },
     "Armaldo": {
-        "Armaldo-1 [418]": {
+        "OU Armaldo-1 [418]": {
             "level": 100,
             "moves": [
                 "Slash",
@@ -658,7 +659,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Armaldo-2 [514]": {
+        "OU Armaldo-2 [514]": {
             "level": 100,
             "moves": [
                 "Iron Tail",
@@ -668,7 +669,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Armaldo-3 [610]": {
+        "OU Armaldo-3 [610]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -678,7 +679,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Armaldo-4 [706]": {
+        "OU Armaldo-4 [706]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -691,7 +692,7 @@ var SETDEX_SV = {
         }
     },
     "Aron": {
-        "Aron-1 [123]": {
+        "OU Aron-1 [123]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -702,7 +703,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Biker Hideo": {
+        "OU Biker Hideo": {
             "nature": "Bashful",
             "ability": "Sturdy",
             "level": 1,
@@ -711,7 +712,7 @@ var SETDEX_SV = {
                 "Endeavor"
             ]
         },
-        "Friendly PkMnManiac": {
+        "OU Friendly PkMnManiac": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 5,
@@ -725,7 +726,7 @@ var SETDEX_SV = {
         }
     },
     "Articuno": {
-        "Articuno-1 [757]": {
+        "OU Articuno-1 [757]": {
             "level": 100,
             "moves": [
                 "Ice Beam",
@@ -735,7 +736,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Articuno-2 [768]": {
+        "OU Articuno-2 [768]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -746,7 +747,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Articuno-3 [779]": {
+        "OU Articuno-3 [779]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -757,7 +758,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Articuno-4 [790]": {
+        "OU Articuno-4 [790]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -768,7 +769,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Articuno-5 [871]": {
+        "OU Articuno-5 [871]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -779,7 +780,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Articuno-6 [872]": {
+        "OU Articuno-6 [872]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -792,7 +793,7 @@ var SETDEX_SV = {
         }
     },
     "Azumarill": {
-        "Azumarill-1 [193]": {
+        "OU Azumarill-1 [193]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -803,7 +804,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Azumarill-2 [298]": {
+        "OU Azumarill-2 [298]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -813,7 +814,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*SwimmerF Abigail": {
+        "OU *SwimmerF Abigail": {
             "nature": "Adamant",
             "ability": "Huge Power",
             "level": 100,
@@ -825,7 +826,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "SwimmerM Douglas": {
+        "OU SwimmerM Douglas": {
             "nature": "Lax",
             "ability": "Thick Fat",
             "level": 61,
@@ -838,7 +839,7 @@ var SETDEX_SV = {
         }
     },
     "Azurill": {
-        "Azurill-1 [2]": {
+        "OU Azurill-1 [2]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -851,7 +852,7 @@ var SETDEX_SV = {
         }
     },
     "Bagon": {
-        "Bagon-1 [78]": {
+        "OU Bagon-1 [78]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -864,7 +865,7 @@ var SETDEX_SV = {
         }
     },
     "Baltoy": {
-        "Baltoy-1 [76]": {
+        "OU Baltoy-1 [76]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -875,7 +876,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Hiker Oliver": {
+        "OU Hiker Oliver": {
             "nature": "Relaxed",
             "ability": "Levitate",
             "level": 35,
@@ -888,7 +889,7 @@ var SETDEX_SV = {
         }
     },
     "Banette": {
-        "Banette-1 [238]": {
+        "OU Banette-1 [238]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -899,7 +900,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Banette-2 [343]": {
+        "OU Banette-2 [343]": {
             "level": 100,
             "moves": [
                 "Shadow Ball",
@@ -909,7 +910,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Channeler Hope": {
+        "OU Channeler Hope": {
             "nature": "Calm",
             "ability": "Insomnia",
             "level": 36,
@@ -922,7 +923,7 @@ var SETDEX_SV = {
         }
     },
     "Barboach": {
-        "Barboach-1 [56]": {
+        "OU Barboach-1 [56]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -935,7 +936,7 @@ var SETDEX_SV = {
         }
     },
     "Bayleef": {
-        "Bayleef-1 [181]": {
+        "OU Bayleef-1 [181]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -946,7 +947,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Bayleef-2 [286]": {
+        "OU Bayleef-2 [286]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -959,7 +960,7 @@ var SETDEX_SV = {
         }
     },
     "Beautifly": {
-        "Beautifly-1 [158]": {
+        "OU Beautifly-1 [158]": {
             "item": "Mental Herb",
             "level": 100,
             "moves": [
@@ -972,7 +973,7 @@ var SETDEX_SV = {
         }
     },
     "Beedrill": {
-        "Beedrill-1 [155]": {
+        "OU Beedrill-1 [155]": {
             "level": 100,
             "moves": [
                 "Twineedle",
@@ -984,7 +985,7 @@ var SETDEX_SV = {
         }
     },
     "Beldum": {
-        "Beldum-1 [79]": {
+        "OU Beldum-1 [79]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -997,7 +998,7 @@ var SETDEX_SV = {
         }
     },
     "Bellossom": {
-        "Bellossom-1 [256]": {
+        "OU Bellossom-1 [256]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -1008,7 +1009,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Bellossom-2 [361]": {
+        "OU Bellossom-2 [361]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -1019,7 +1020,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 85,
@@ -1033,7 +1034,7 @@ var SETDEX_SV = {
         }
     },
     "Bellsprout": {
-        "Bellsprout-1 [70]": {
+        "OU Bellsprout-1 [70]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -1044,7 +1045,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lax"
         },
-        "Beauty Bridget": {
+        "OU Beauty Bridget": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
             "level": 37,
@@ -1057,7 +1058,7 @@ var SETDEX_SV = {
         }
     },
     "Blastoise": {
-        "Blastoise-1 [449]": {
+        "OU Blastoise-1 [449]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -1067,7 +1068,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Blastoise-2 [545]": {
+        "OU Blastoise-2 [545]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -1077,7 +1078,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Blastoise-3 [641]": {
+        "OU Blastoise-3 [641]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1088,7 +1089,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Blastoise-4 [737]": {
+        "OU Blastoise-4 [737]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1099,7 +1100,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "SwimmerM Jerome": {
+        "OU SwimmerM Jerome": {
             "nature": "Naive",
             "ability": "Torrent",
             "level": 64,
@@ -1112,7 +1113,7 @@ var SETDEX_SV = {
         }
     },
     "Blaziken": {
-        "Blaziken-1 [452]": {
+        "OU Blaziken-1 [452]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -1122,7 +1123,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Blaziken-2 [548]": {
+        "OU Blaziken-2 [548]": {
             "level": 100,
             "moves": [
                 "Blaze Kick",
@@ -1132,7 +1133,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Blaziken-3 [644]": {
+        "OU Blaziken-3 [644]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -1143,7 +1144,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Blaziken-4 [740]": {
+        "OU Blaziken-4 [740]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -1154,7 +1155,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Bird Keeper Sebastian": {
+        "OU *Bird Keeper Sebastian": {
             "nature": "Adamant",
             "ability": "Speed Boost",
             "level": 66,
@@ -1166,7 +1167,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Bird Keeper Mitch": {
+        "OU Bird Keeper Mitch": {
             "nature": "Serious",
             "ability": "Striker",
             "level": 56,
@@ -1179,7 +1180,7 @@ var SETDEX_SV = {
         }
     },
     "Blissey": {
-        "Blissey-1 [463]": {
+        "OU Blissey-1 [463]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -1190,7 +1191,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Blissey-2 [559]": {
+        "OU Blissey-2 [559]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -1201,7 +1202,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Blissey-3 [655]": {
+        "OU Blissey-3 [655]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1212,7 +1213,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Blissey-4 [751]": {
+        "OU Blissey-4 [751]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1223,7 +1224,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Bold",
             "ability": "Natural Cure",
             "level": 79,
@@ -1235,7 +1236,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "*Aroma Lady Nikki": {
+        "OU *Aroma Lady Nikki": {
             "nature": "Bold",
             "ability": "Natural Cure",
             "level": 100,
@@ -1249,7 +1250,7 @@ var SETDEX_SV = {
         }
     },
     "Breloom": {
-        "Breloom-1 [383]": {
+        "OU Breloom-1 [383]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -1260,7 +1261,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Breloom-2 [481]": {
+        "OU Breloom-2 [481]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -1271,7 +1272,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Breloom-3 [575]": {
+        "OU Breloom-3 [575]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -1282,7 +1283,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Breloom-4 [671]": {
+        "OU Breloom-4 [671]": {
             "level": 100,
             "moves": [
                 "Focus Punch",
@@ -1292,7 +1293,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Breloom-Boss [Greta Gold]": {
+        "OU Breloom-Boss [Greta Gold]": {
             "level": 100,
             "moves": [
                 "Spore",
@@ -1302,7 +1303,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Black Belt Hideki": {
+        "OU Black Belt Hideki": {
             "nature": "Modest",
             "ability": "Technician",
             "level": 45,
@@ -1314,7 +1315,7 @@ var SETDEX_SV = {
                 "Spore"
             ]
         },
-        "Biker Gerald": {
+        "OU Biker Gerald": {
             "nature": "Serious",
             "ability": "Effect Spore",
             "level": 57,
@@ -1325,7 +1326,7 @@ var SETDEX_SV = {
                 "Spore"
             ]
         },
-        "Picnicker Tina": {
+        "OU Picnicker Tina": {
             "nature": "Careful",
             "ability": "Effect Spore",
             "level": 37,
@@ -1338,7 +1339,7 @@ var SETDEX_SV = {
         }
     },
     "Bulbasaur": {
-        "Bulbasaur-1 [101]": {
+        "OU Bulbasaur-1 [101]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -1349,7 +1350,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Overgrow",
             "level": 16,
@@ -1361,7 +1362,7 @@ var SETDEX_SV = {
                 "Sludge"
             ]
         },
-        "Rival Blue": {
+        "OU Rival Blue": {
             "nature": "Bashful",
             "ability": "Overgrow",
             "level": 5,
@@ -1374,7 +1375,7 @@ var SETDEX_SV = {
         }
     },
     "Butterfree": {
-        "Butterfree-1 [154]": {
+        "OU Butterfree-1 [154]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -1385,7 +1386,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bug Catcher Robby": {
+        "OU Bug Catcher Robby": {
             "nature": "Hasty",
             "ability": "Compound Eyes",
             "level": 10,
@@ -1396,7 +1397,7 @@ var SETDEX_SV = {
                 "Tailwind"
             ]
         },
-        "*Bug Catcher Cale": {
+        "OU *Bug Catcher Cale": {
             "nature": "Timid",
             "ability": "Compound Eyes",
             "level": 26,
@@ -1410,7 +1411,7 @@ var SETDEX_SV = {
         }
     },
     "Cacnea": {
-        "Cacnea-1 [126]": {
+        "OU Cacnea-1 [126]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -1421,7 +1422,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Leader Brock": {
+        "OU Leader Brock": {
             "nature": "Bashful",
             "ability": "Sand Rush",
             "level": 15,
@@ -1435,7 +1436,7 @@ var SETDEX_SV = {
         }
     },
     "Cacturne": {
-        "Cacturne-1 [255]": {
+        "OU Cacturne-1 [255]": {
             "level": 100,
             "moves": [
                 "Needle Arm",
@@ -1445,7 +1446,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hasty"
         },
-        "Cacturne-2 [360]": {
+        "OU Cacturne-2 [360]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -1456,7 +1457,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Cue Ball Camron": {
+        "OU *Cue Ball Camron": {
             "nature": "Jolly",
             "ability": "Sand Rush",
             "level": 66,
@@ -1468,7 +1469,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Calm",
             "ability": "Sand Veil",
             "level": 40,
@@ -1479,7 +1480,7 @@ var SETDEX_SV = {
                 "Sludge"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Naughty",
             "ability": "Sand Veil",
             "level": 46,
@@ -1492,7 +1493,7 @@ var SETDEX_SV = {
         }
     },
     "Camerupt": {
-        "Camerupt-1 [242]": {
+        "OU Camerupt-1 [242]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1503,7 +1504,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Camerupt-2 [347]": {
+        "OU Camerupt-2 [347]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -1515,7 +1516,7 @@ var SETDEX_SV = {
         }
     },
     "Carvanha": {
-        "Carvanha-1 [87]": {
+        "OU Carvanha-1 [87]": {
             "level": 100,
             "moves": [
                 "Bite",
@@ -1525,7 +1526,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Sailor Duncan": {
+        "OU Sailor Duncan": {
             "nature": "Naive",
             "ability": "Rough Skin",
             "level": 28,
@@ -1538,7 +1539,7 @@ var SETDEX_SV = {
         }
     },
     "Cascoon": {
-        "Cascoon-1 [13]": {
+        "OU Cascoon-1 [13]": {
             "level": 100,
             "moves": [
                 "Harden",
@@ -1548,7 +1549,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bashful"
         },
-        "Bug Catcher Anthony": {
+        "OU Bug Catcher Anthony": {
             "nature": "Modest",
             "ability": "Shed Skin",
             "level": 7,
@@ -1559,7 +1560,7 @@ var SETDEX_SV = {
         }
     },
     "Castform": {
-        "Castform-1 [205]": {
+        "OU Castform-1 [205]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -1570,7 +1571,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hasty"
         },
-        "Castform-2 [310]": {
+        "OU Castform-2 [310]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -1582,7 +1583,7 @@ var SETDEX_SV = {
         }
     },
     "Caterpie": {
-        "Caterpie-1 [3]": {
+        "OU Caterpie-1 [3]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1593,7 +1594,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bug Catcher Robby": {
+        "OU Bug Catcher Robby": {
             "nature": "Careful",
             "ability": "Shield Dust",
             "level": 12,
@@ -1603,7 +1604,7 @@ var SETDEX_SV = {
                 "Tackle"
             ]
         },
-        "Bug Catcher Rick": {
+        "OU Bug Catcher Rick": {
             "nature": "Lax",
             "ability": "Shield Dust",
             "level": 6,
@@ -1615,7 +1616,7 @@ var SETDEX_SV = {
         }
     },
     "Chansey": {
-        "Chansey-1 [228]": {
+        "OU Chansey-1 [228]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -1626,7 +1627,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Chansey-2 [333]": {
+        "OU Chansey-2 [333]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -1637,7 +1638,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "*Picnicker Alma": {
+        "OU *Picnicker Alma": {
             "nature": "Bold",
             "ability": "Natural Cure",
             "level": 66,
@@ -1651,7 +1652,7 @@ var SETDEX_SV = {
         }
     },
     "Charizard": {
-        "Charizard-1 [455]": {
+        "OU Charizard-1 [455]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1662,7 +1663,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Charizard-2 [551]": {
+        "OU Charizard-2 [551]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -1673,7 +1674,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Charizard-3 [647]": {
+        "OU Charizard-3 [647]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -1683,7 +1684,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Charizard-4 [743]": {
+        "OU Charizard-4 [743]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -1694,7 +1695,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Charizard-Boss [Tucker Silver]": {
+        "OU Charizard-Boss [Tucker Silver]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -1705,7 +1706,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Ace Trainer Samantha": {
+        "OU *Ace Trainer Samantha": {
             "nature": "Timid",
             "ability": "Solar Power",
             "level": 100,
@@ -1717,7 +1718,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "Burglar Arnie": {
+        "OU Burglar Arnie": {
             "nature": "Gentle",
             "ability": "Blaze",
             "level": 67,
@@ -1728,7 +1729,7 @@ var SETDEX_SV = {
                 "Inferno"
             ]
         },
-        "*Ace Trainer Lucy": {
+        "OU *Ace Trainer Lucy": {
             "nature": "Timid",
             "ability": "Solar Power",
             "level": 76,
@@ -1740,7 +1741,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "Super Nerd Aavery": {
+        "OU Super Nerd Aavery": {
             "nature": "Modest",
             "ability": "Blaze",
             "level": 71,
@@ -1753,7 +1754,7 @@ var SETDEX_SV = {
         }
     },
     "Charmander": {
-        "Charmander-1 [89]": {
+        "OU Charmander-1 [89]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1764,7 +1765,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Solar Power",
             "level": 16,
@@ -1776,7 +1777,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Rival Blue": {
+        "OU Rival Blue": {
             "nature": "Bashful",
             "ability": "Blaze",
             "level": 5,
@@ -1789,7 +1790,7 @@ var SETDEX_SV = {
         }
     },
     "Charmeleon": {
-        "Charmeleon-1 [176]": {
+        "OU Charmeleon-1 [176]": {
             "level": 100,
             "moves": [
                 "Slash",
@@ -1799,7 +1800,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Charmeleon-2 [281]": {
+        "OU Charmeleon-2 [281]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -1809,7 +1810,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Blaze",
             "level": 28,
@@ -1823,7 +1824,7 @@ var SETDEX_SV = {
         }
     },
     "Chikorita": {
-        "Chikorita-1 [102]": {
+        "OU Chikorita-1 [102]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -1836,7 +1837,7 @@ var SETDEX_SV = {
         }
     },
     "Chimecho": {
-        "Chimecho-1 [210]": {
+        "OU Chimecho-1 [210]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -1847,7 +1848,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Chimecho-2 [315]": {
+        "OU Chimecho-2 [315]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -1858,7 +1859,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Channeler Jennifer": {
+        "OU Channeler Jennifer": {
             "nature": "Sassy",
             "ability": "Levitate",
             "level": 39,
@@ -1871,7 +1872,7 @@ var SETDEX_SV = {
         }
     },
     "Chinchou": {
-        "Chinchou-1 [117]": {
+        "OU Chinchou-1 [117]": {
             "level": 100,
             "moves": [
                 "Spark",
@@ -1883,7 +1884,7 @@ var SETDEX_SV = {
         }
     },
     "Clamperl": {
-        "Clamperl-1 [135]": {
+        "OU Clamperl-1 [135]": {
             "item": "Deep Sea Scale",
             "level": 100,
             "moves": [
@@ -1894,7 +1895,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Sailor Dylan": {
+        "OU Sailor Dylan": {
             "nature": "Bashful",
             "ability": "Shell Armor",
             "level": 27,
@@ -1905,7 +1906,7 @@ var SETDEX_SV = {
                 "Whirlpool"
             ]
         },
-        "Fisherman Ned": {
+        "OU Fisherman Ned": {
             "nature": "Hardy",
             "ability": "Shell Armor",
             "level": 35,
@@ -1916,7 +1917,7 @@ var SETDEX_SV = {
                 "Whirlpool"
             ]
         },
-        "*Lass Reli": {
+        "OU *Lass Reli": {
             "nature": "Modest",
             "ability": "Shell Armor",
             "level": 26,
@@ -1930,7 +1931,7 @@ var SETDEX_SV = {
         }
     },
     "Claydol": {
-        "Claydol-1 [429]": {
+        "OU Claydol-1 [429]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -1940,7 +1941,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Claydol-2 [525]": {
+        "OU Claydol-2 [525]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -1951,7 +1952,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Claydol-3 [621]": {
+        "OU Claydol-3 [621]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -1961,7 +1962,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Claydol-4 [717]": {
+        "OU Claydol-4 [717]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1974,7 +1975,7 @@ var SETDEX_SV = {
         }
     },
     "Clefable": {
-        "Clefable-1 [390]": {
+        "OU Clefable-1 [390]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -1985,7 +1986,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Clefable-2 [486]": {
+        "OU Clefable-2 [486]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -1996,7 +1997,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Clefable-3 [582]": {
+        "OU Clefable-3 [582]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -2006,7 +2007,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Clefable-4 [678]": {
+        "OU Clefable-4 [678]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -2017,7 +2018,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Leader Pryce Set 1": {
+        "OU *Leader Pryce Set 1": {
             "nature": "Modest",
             "ability": "Magic Guard",
             "level": 73,
@@ -2029,7 +2030,7 @@ var SETDEX_SV = {
                 "Teleport"
             ]
         },
-        "*Leader Pryce Set 2": {
+        "OU *Leader Pryce Set 2": {
             "nature": "Modest",
             "ability": "Magic Guard",
             "level": 73,
@@ -2041,7 +2042,7 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ]
         },
-        "Beauty Grace": {
+        "OU Beauty Grace": {
             "nature": "Rash",
             "ability": "Cute Charm",
             "level": 58,
@@ -2052,7 +2053,7 @@ var SETDEX_SV = {
                 "Teleport"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 27,
@@ -2064,7 +2065,7 @@ var SETDEX_SV = {
                 "Mystical Fire"
             ]
         },
-        "*Ace Trainer Alexa": {
+        "OU *Ace Trainer Alexa": {
             "nature": "Modest",
             "ability": "Magic Guard",
             "level": 85,
@@ -2076,7 +2077,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "Picnicker Heidi": {
+        "OU Picnicker Heidi": {
             "nature": "Brave",
             "ability": "Magic Guard",
             "level": 29,
@@ -2087,7 +2088,7 @@ var SETDEX_SV = {
                 "Teleport"
             ]
         },
-        "Dumbass Gambler": {
+        "OU Dumbass Gambler": {
             "nature": "Quiet",
             "ability": "Magic Guard",
             "level": 100,
@@ -2098,7 +2099,7 @@ var SETDEX_SV = {
         }
     },
     "Clefairy": {
-        "Clefairy-1 [108]": {
+        "OU Clefairy-1 [108]": {
             "level": 100,
             "moves": [
                 "Follow Me",
@@ -2108,7 +2109,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "*Lass Anne": {
+        "OU *Lass Anne": {
             "nature": "Bashful",
             "ability": "Magic Guard",
             "level": 13,
@@ -2117,7 +2118,7 @@ var SETDEX_SV = {
                 "Metronome"
             ]
         },
-        "Lass Julia": {
+        "OU Lass Julia": {
             "nature": "Docile",
             "ability": "Cute Charm",
             "level": 35,
@@ -2130,7 +2131,7 @@ var SETDEX_SV = {
         }
     },
     "Cleffa": {
-        "Cleffa-1 [18]": {
+        "OU Cleffa-1 [18]": {
             "level": 100,
             "moves": [
                 "Sweet Kiss",
@@ -2142,7 +2143,7 @@ var SETDEX_SV = {
         }
     },
     "Cloyster": {
-        "Cloyster-1 [267]": {
+        "OU Cloyster-1 [267]": {
             "level": 100,
             "moves": [
                 "Aurora Beam",
@@ -2152,7 +2153,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Cloyster-2 [372]": {
+        "OU Cloyster-2 [372]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -2163,7 +2164,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Jolly",
             "ability": "Skill Link",
             "level": 73,
@@ -2175,7 +2176,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "Fisherman Ronald": {
+        "OU Fisherman Ronald": {
             "nature": "Impish",
             "ability": "Shell Armor",
             "level": 64,
@@ -2186,7 +2187,7 @@ var SETDEX_SV = {
                 "Spikes"
             ]
         },
-        "Scientist Parkker": {
+        "OU Scientist Parkker": {
             "nature": "Quiet",
             "ability": "Shell Armor",
             "level": 45,
@@ -2197,7 +2198,7 @@ var SETDEX_SV = {
                 "Spikes"
             ]
         },
-        "SwimmerM Richard": {
+        "OU SwimmerM Richard": {
             "nature": "Quirky",
             "ability": "Skill Link",
             "level": 59,
@@ -2208,7 +2209,7 @@ var SETDEX_SV = {
                 "Spikes"
             ]
         },
-        "*SwimmerM Finn": {
+        "OU *SwimmerM Finn": {
             "nature": "Jolly",
             "ability": "Skill Link",
             "level": 99,
@@ -2220,7 +2221,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "SwimmerM Barry": {
+        "OU SwimmerM Barry": {
             "nature": "Relaxed",
             "ability": "Skill Link",
             "level": 64,
@@ -2231,7 +2232,7 @@ var SETDEX_SV = {
                 "Spikes"
             ]
         },
-        "SwimmerF Nora": {
+        "OU SwimmerF Nora": {
             "nature": "Modest",
             "ability": "Shell Armor",
             "level": 64,
@@ -2242,7 +2243,7 @@ var SETDEX_SV = {
                 "Spikes"
             ]
         },
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Jolly",
             "ability": "Skill Link",
             "level": 81,
@@ -2254,7 +2255,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "SwimmerM Axle": {
+        "OU SwimmerM Axle": {
             "nature": "Lonely",
             "ability": "Shell Armor",
             "level": 61,
@@ -2267,7 +2268,7 @@ var SETDEX_SV = {
         }
     },
     "Combusken": {
-        "Combusken-1 [190]": {
+        "OU Combusken-1 [190]": {
             "level": 100,
             "moves": [
                 "Ember",
@@ -2277,7 +2278,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Combusken-2 [295]": {
+        "OU Combusken-2 [295]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -2289,7 +2290,7 @@ var SETDEX_SV = {
         }
     },
     "Corphish": {
-        "Corphish-1 [88]": {
+        "OU Corphish-1 [88]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -2300,7 +2301,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Adaptability",
             "level": 15,
@@ -2314,7 +2315,7 @@ var SETDEX_SV = {
         }
     },
     "Corsola": {
-        "Corsola-1 [152]": {
+        "OU Corsola-1 [152]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -2325,7 +2326,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Sailor Leonard": {
+        "OU Sailor Leonard": {
             "nature": "Hardy",
             "ability": "Hustle",
             "level": 28,
@@ -2338,7 +2339,7 @@ var SETDEX_SV = {
         }
     },
     "Cradily": {
-        "Cradily-1 [417]": {
+        "OU Cradily-1 [417]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -2349,7 +2350,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Cradily-2 [513]": {
+        "OU Cradily-2 [513]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -2360,7 +2361,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Cradily-3 [609]": {
+        "OU Cradily-3 [609]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -2371,7 +2372,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Cradily-4 [705]": {
+        "OU Cradily-4 [705]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -2382,7 +2383,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "*Sailor Edmond": {
+        "OU *Sailor Edmond": {
             "nature": "Modest",
             "ability": "Storm Drain",
             "level": 26,
@@ -2396,7 +2397,7 @@ var SETDEX_SV = {
         }
     },
     "Crawdaunt": {
-        "Crawdaunt-1 [250]": {
+        "OU Crawdaunt-1 [250]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -2407,7 +2408,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Crawdaunt-2 [355]": {
+        "OU Crawdaunt-2 [355]": {
             "level": 100,
             "moves": [
                 "Guillotine",
@@ -2417,7 +2418,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Tuber Amira": {
+        "OU *Tuber Amira": {
             "nature": "Jolly",
             "ability": "Adaptability",
             "level": 100,
@@ -2429,7 +2430,7 @@ var SETDEX_SV = {
                 "Knock Off"
             ]
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Adaptability",
             "level": 28,
@@ -2441,7 +2442,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "Sis And Bro Lil & Ian": {
+        "OU Sis And Bro Lil & Ian": {
             "nature": "Relaxed",
             "ability": "Hyper Cutter",
             "level": 64,
@@ -2452,7 +2453,7 @@ var SETDEX_SV = {
                 "Slash"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Gentle",
             "ability": "Hyper Cutter",
             "level": 47,
@@ -2465,7 +2466,7 @@ var SETDEX_SV = {
         }
     },
     "Crobat": {
-        "Crobat-1 [458]": {
+        "OU Crobat-1 [458]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -2476,7 +2477,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Crobat-2 [554]": {
+        "OU Crobat-2 [554]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -2487,7 +2488,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Crobat-3 [650]": {
+        "OU Crobat-3 [650]": {
             "level": 100,
             "moves": [
                 "Air Cutter",
@@ -2497,7 +2498,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Crobat-4 [746]": {
+        "OU Crobat-4 [746]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -2508,7 +2509,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Crobat-Boss [Spenser Silver]": {
+        "OU Crobat-Boss [Spenser Silver]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -2519,7 +2520,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Sniper",
             "level": 26,
@@ -2531,7 +2532,7 @@ var SETDEX_SV = {
                 "Mega Drain"
             ]
         },
-        "Biker Isaac": {
+        "OU Biker Isaac": {
             "nature": "Hardy",
             "ability": "Sniper",
             "level": 57,
@@ -2542,7 +2543,7 @@ var SETDEX_SV = {
                 "Sludge Bomb"
             ]
         },
-        "*Ace Trainer Rolando": {
+        "OU *Ace Trainer Rolando": {
             "nature": "Timid",
             "ability": "Sniper",
             "level": 85,
@@ -2554,7 +2555,7 @@ var SETDEX_SV = {
                 "Nasty Plot"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Hardy",
             "ability": "Sniper",
             "level": 46,
@@ -2565,7 +2566,7 @@ var SETDEX_SV = {
                 "Venoshock"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Mild",
             "ability": "Infiltrator",
             "level": 48,
@@ -2578,7 +2579,7 @@ var SETDEX_SV = {
         }
     },
     "Croconaw": {
-        "Croconaw-1 [183]": {
+        "OU Croconaw-1 [183]": {
             "level": 100,
             "moves": [
                 "Slash",
@@ -2588,7 +2589,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Croconaw-2 [288]": {
+        "OU Croconaw-2 [288]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -2599,7 +2600,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Sailor Huey": {
+        "OU Sailor Huey": {
             "nature": "Relaxed",
             "ability": "Sheer Force",
             "level": 28,
@@ -2612,7 +2613,7 @@ var SETDEX_SV = {
         }
     },
     "Cubone": {
-        "Cubone-1 [105]": {
+        "OU Cubone-1 [105]": {
             "item": "Soft Sand",
             "level": 100,
             "moves": [
@@ -2623,7 +2624,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Pokemaniac Steve": {
+        "OU Pokemaniac Steve": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 34,
@@ -2636,7 +2637,7 @@ var SETDEX_SV = {
         }
     },
     "Cyndaquil": {
-        "Cyndaquil-1 [90]": {
+        "OU Cyndaquil-1 [90]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -2649,7 +2650,7 @@ var SETDEX_SV = {
         }
     },
     "Delcatty": {
-        "Delcatty-1 [163]": {
+        "OU Delcatty-1 [163]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -2660,7 +2661,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Delcatty-2 [268]": {
+        "OU Delcatty-2 [268]": {
             "level": 100,
             "moves": [
                 "Fake Tears",
@@ -2670,7 +2671,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Picnicker Celia": {
+        "OU Picnicker Celia": {
             "nature": "Lax",
             "ability": "Cute Charm",
             "level": 58,
@@ -2683,7 +2684,7 @@ var SETDEX_SV = {
         }
     },
     "Delibird": {
-        "Delibird-1 [119]": {
+        "OU Delibird-1 [119]": {
             "level": 100,
             "moves": [
                 "Present",
@@ -2695,7 +2696,7 @@ var SETDEX_SV = {
         }
     },
     "Dewgong": {
-        "Dewgong-1 [393]": {
+        "OU Dewgong-1 [393]": {
             "level": 100,
             "moves": [
                 "Ice Beam",
@@ -2705,7 +2706,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Dewgong-2 [489]": {
+        "OU Dewgong-2 [489]": {
             "level": 100,
             "moves": [
                 "Blizzard",
@@ -2715,7 +2716,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Dewgong-3 [585]": {
+        "OU Dewgong-3 [585]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -2726,7 +2727,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Dewgong-4 [681]": {
+        "OU Dewgong-4 [681]": {
             "level": 100,
             "moves": [
                 "Sheer Cold",
@@ -2736,7 +2737,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Picnicker Irene": {
+        "OU Picnicker Irene": {
             "nature": "Naughty",
             "ability": "Thick Fat",
             "level": 63,
@@ -2747,7 +2748,7 @@ var SETDEX_SV = {
                 "Snowscape"
             ]
         },
-        "*SwimmerF Amara": {
+        "OU *SwimmerF Amara": {
             "nature": "Calm",
             "ability": "Ice Scales",
             "level": 100,
@@ -2759,7 +2760,7 @@ var SETDEX_SV = {
                 "Sleep Talk"
             ]
         },
-        "SwimmerM David": {
+        "OU SwimmerM David": {
             "nature": "Serious",
             "ability": "Ice Scales",
             "level": 63,
@@ -2772,7 +2773,7 @@ var SETDEX_SV = {
         }
     },
     "Diglett": {
-        "Diglett-1 [40]": {
+        "OU Diglett-1 [40]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -2785,7 +2786,7 @@ var SETDEX_SV = {
         }
     },
     "Ditto": {
-        "Ditto-1 [55]": {
+        "OU Ditto-1 [55]": {
             "item": "Metal Powder",
             "level": 100,
             "moves": [
@@ -2798,7 +2799,7 @@ var SETDEX_SV = {
         }
     },
     "Dodrio": {
-        "Dodrio-1 [380]": {
+        "OU Dodrio-1 [380]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -2809,7 +2810,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dodrio-2 [478]": {
+        "OU Dodrio-2 [478]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -2820,7 +2821,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dodrio-3 [572]": {
+        "OU Dodrio-3 [572]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -2830,7 +2831,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dodrio-4 [668]": {
+        "OU Dodrio-4 [668]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -2841,7 +2842,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Cue Ball Jamal": {
+        "OU Cue Ball Jamal": {
             "nature": "Careful",
             "ability": "Early Bird",
             "level": 56,
@@ -2852,7 +2853,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "Bird Keeper Marlon": {
+        "OU Bird Keeper Marlon": {
             "nature": "Docile",
             "ability": "Rock Head",
             "level": 57,
@@ -2863,7 +2864,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "Bird Keeper Chester": {
+        "OU Bird Keeper Chester": {
             "nature": "Quirky",
             "ability": "Rock Head",
             "level": 58,
@@ -2874,7 +2875,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "*PkMn Trainer Shelly": {
+        "OU *PkMn Trainer Shelly": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 59,
@@ -2888,7 +2889,7 @@ var SETDEX_SV = {
         }
     },
     "Doduo": {
-        "Doduo-1 [92]": {
+        "OU Doduo-1 [92]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -2899,7 +2900,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Bird Keeper Chester": {
+        "OU Bird Keeper Chester": {
             "nature": "Quirky",
             "ability": "Early Bird",
             "level": 57,
@@ -2910,7 +2911,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "Picnicker Leah": {
+        "OU Picnicker Leah": {
             "nature": "Calm",
             "ability": "Run Away",
             "level": 34,
@@ -2923,7 +2924,7 @@ var SETDEX_SV = {
         }
     },
     "Donphan": {
-        "Donphan-1 [428]": {
+        "OU Donphan-1 [428]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -2934,7 +2935,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Donphan-2 [524]": {
+        "OU Donphan-2 [524]": {
             "level": 100,
             "moves": [
                 "Flail",
@@ -2944,7 +2945,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Donphan-3 [620]": {
+        "OU Donphan-3 [620]": {
             "level": 100,
             "moves": [
                 "Fissure",
@@ -2954,7 +2955,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Donphan-4 [716]": {
+        "OU Donphan-4 [716]": {
             "level": 100,
             "moves": [
                 "Fissure",
@@ -2964,7 +2965,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Brave",
             "ability": "Technician",
             "level": 100,
@@ -2976,7 +2977,7 @@ var SETDEX_SV = {
                 "Rock Tomb"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Sturdy",
             "level": 48,
@@ -2989,7 +2990,7 @@ var SETDEX_SV = {
         }
     },
     "Dragonair": {
-        "Dragonair-1 [202]": {
+        "OU Dragonair-1 [202]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -3000,7 +3001,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Dragonair-2 [307]": {
+        "OU Dragonair-2 [307]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3013,7 +3014,7 @@ var SETDEX_SV = {
         }
     },
     "Dragonite": {
-        "Dragonite-1 [851]": {
+        "OU Dragonite-1 [851]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -3024,7 +3025,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dragonite-10 [860]": {
+        "OU Dragonite-10 [860]": {
             "level": 100,
             "moves": [
                 "Fire Blast",
@@ -3034,7 +3035,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Dragonite-2 [852]": {
+        "OU Dragonite-2 [852]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -3045,7 +3046,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dragonite-3 [853]": {
+        "OU Dragonite-3 [853]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -3056,7 +3057,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dragonite-4 [854]": {
+        "OU Dragonite-4 [854]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3067,7 +3068,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dragonite-5 [855]": {
+        "OU Dragonite-5 [855]": {
             "level": 100,
             "moves": [
                 "Outrage",
@@ -3077,7 +3078,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Dragonite-6 [856]": {
+        "OU Dragonite-6 [856]": {
             "level": 100,
             "moves": [
                 "Dragon Claw",
@@ -3087,7 +3088,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Dragonite-7 [857]": {
+        "OU Dragonite-7 [857]": {
             "level": 100,
             "moves": [
                 "Dragon Claw",
@@ -3097,7 +3098,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Dragonite-8 [858]": {
+        "OU Dragonite-8 [858]": {
             "level": 100,
             "moves": [
                 "Dragon Claw",
@@ -3107,7 +3108,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Dragonite-9 [859]": {
+        "OU Dragonite-9 [859]": {
             "level": 100,
             "moves": [
                 "Thunder",
@@ -3117,7 +3118,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Dragon Tamer Ramiro": {
+        "OU *Dragon Tamer Ramiro": {
             "nature": "Modest",
             "ability": "Multiscale",
             "level": 66,
@@ -3129,7 +3130,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Elite Four Lance Set 1": {
+        "OU *Elite Four Lance Set 1": {
             "nature": "Adamant",
             "ability": "Multiscale",
             "level": 85,
@@ -3141,7 +3142,7 @@ var SETDEX_SV = {
                 "Extreme Speed"
             ]
         },
-        "*Elite Four Lance Set 2": {
+        "OU *Elite Four Lance Set 2": {
             "nature": "Adamant",
             "ability": "Multiscale",
             "level": 85,
@@ -3153,7 +3154,7 @@ var SETDEX_SV = {
                 "Extreme Speed"
             ]
         },
-        "*Leader Clair": {
+        "OU *Leader Clair": {
             "nature": "Lonely",
             "ability": "Multiscale",
             "level": 100,
@@ -3165,7 +3166,7 @@ var SETDEX_SV = {
                 "Fire Blast"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Mild",
             "ability": "Multiscale",
             "level": 85,
@@ -3177,7 +3178,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Ace Trainer Symes": {
+        "OU *Ace Trainer Symes": {
             "nature": "Jolly",
             "ability": "Multiscale",
             "level": 100,
@@ -3189,7 +3190,7 @@ var SETDEX_SV = {
                 "Ice Punch"
             ]
         },
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Jolly",
             "ability": "Multiscale",
             "level": 100,
@@ -3203,7 +3204,7 @@ var SETDEX_SV = {
         }
     },
     "Dratini": {
-        "Dratini-1 [72]": {
+        "OU Dratini-1 [72]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -3216,7 +3217,7 @@ var SETDEX_SV = {
         }
     },
     "Drowzee": {
-        "Drowzee-1 [115]": {
+        "OU Drowzee-1 [115]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -3227,7 +3228,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Insomnia",
             "level": 40,
@@ -3240,7 +3241,7 @@ var SETDEX_SV = {
         }
     },
     "Dugtrio": {
-        "Dugtrio-1 [373]": {
+        "OU Dugtrio-1 [373]": {
             "item": "Soft Sand",
             "level": 100,
             "moves": [
@@ -3251,7 +3252,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dugtrio-2 [469]": {
+        "OU Dugtrio-2 [469]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -3262,7 +3263,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dugtrio-3 [565]": {
+        "OU Dugtrio-3 [565]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -3273,7 +3274,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dugtrio-4 [661]": {
+        "OU Dugtrio-4 [661]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -3284,7 +3285,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Ace Trainer Sharon": {
+        "OU *Ace Trainer Sharon": {
             "nature": "Jolly",
             "ability": "Arena Trap",
             "level": 100,
@@ -3296,7 +3297,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Picnicker Claire": {
+        "OU *Picnicker Claire": {
             "nature": "Jolly",
             "ability": "Arena Trap",
             "level": 100,
@@ -3308,7 +3309,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Gentleman Tucker": {
+        "OU *Gentleman Tucker": {
             "nature": "Jolly",
             "ability": "Arena Trap",
             "level": 36,
@@ -3322,7 +3323,7 @@ var SETDEX_SV = {
         }
     },
     "Dunsparce": {
-        "Dunsparce-1 [201]": {
+        "OU Dunsparce-1 [201]": {
             "level": 100,
             "moves": [
                 "Headbutt",
@@ -3332,7 +3333,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Dunsparce-2 [306]": {
+        "OU Dunsparce-2 [306]": {
             "level": 100,
             "moves": [
                 "Ice Beam",
@@ -3344,7 +3345,7 @@ var SETDEX_SV = {
         }
     },
     "Dusclops": {
-        "Dusclops-1 [379]": {
+        "OU Dusclops-1 [379]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -3355,7 +3356,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Dusclops-2 [477]": {
+        "OU Dusclops-2 [477]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -3366,7 +3367,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Dusclops-3 [571]": {
+        "OU Dusclops-3 [571]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -3377,7 +3378,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Dusclops-4 [667]": {
+        "OU Dusclops-4 [667]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3388,7 +3389,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Channeler Amanda": {
+        "OU Channeler Amanda": {
             "nature": "Bold",
             "ability": "Pressure",
             "level": 54,
@@ -3399,7 +3400,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "Channeler Jody": {
+        "OU Channeler Jody": {
             "nature": "Naughty",
             "ability": "Pressure",
             "level": 37,
@@ -3412,7 +3413,7 @@ var SETDEX_SV = {
         }
     },
     "Duskull": {
-        "Duskull-1 [64]": {
+        "OU Duskull-1 [64]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -3425,7 +3426,7 @@ var SETDEX_SV = {
         }
     },
     "Dustox": {
-        "Dustox-1 [159]": {
+        "OU Dustox-1 [159]": {
             "item": "Silver Powder",
             "level": 100,
             "moves": [
@@ -3436,7 +3437,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Bug Catcher Sammy": {
+        "OU *Bug Catcher Sammy": {
             "nature": "Bold",
             "ability": "Shield Dust",
             "level": 14,
@@ -3448,7 +3449,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "Bug Catcher Greg": {
+        "OU Bug Catcher Greg": {
             "nature": "Naughty",
             "ability": "Shield Dust",
             "level": 10,
@@ -3461,7 +3462,7 @@ var SETDEX_SV = {
         }
     },
     "Eevee": {
-        "Eevee-1 [114]": {
+        "OU Eevee-1 [114]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -3472,7 +3473,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Picnicker Gwen": {
+        "OU Picnicker Gwen": {
             "nature": "Docile",
             "ability": "Run Away",
             "level": 57,
@@ -3483,7 +3484,7 @@ var SETDEX_SV = {
                 "Trump Card"
             ]
         },
-        "*Rival Blue Set 1": {
+        "OU *Rival Blue Set 1": {
             "nature": "Lonely",
             "ability": "Adaptability",
             "level": 26,
@@ -3495,7 +3496,7 @@ var SETDEX_SV = {
                 "Round"
             ]
         },
-        "*Rival Blue Set 2": {
+        "OU *Rival Blue Set 2": {
             "nature": "Rash",
             "ability": "Adaptability",
             "level": 26,
@@ -3509,7 +3510,7 @@ var SETDEX_SV = {
         }
     },
     "Ekans": {
-        "Ekans-1 [54]": {
+        "OU Ekans-1 [54]": {
             "item": "Poison Barb",
             "level": 100,
             "moves": [
@@ -3522,7 +3523,7 @@ var SETDEX_SV = {
         }
     },
     "Electabuzz": {
-        "Electabuzz-1 [408]": {
+        "OU Electabuzz-1 [408]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -3533,7 +3534,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Electabuzz-2 [504]": {
+        "OU Electabuzz-2 [504]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -3544,7 +3545,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Electabuzz-3 [600]": {
+        "OU Electabuzz-3 [600]": {
             "level": 100,
             "moves": [
                 "Fire Punch",
@@ -3554,7 +3555,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Electabuzz-4 [696]": {
+        "OU Electabuzz-4 [696]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -3564,7 +3565,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Engineer Bernie": {
+        "OU Engineer Bernie": {
             "nature": "Bashful",
             "ability": "Static",
             "level": 24,
@@ -3575,7 +3576,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "Scientist Beau": {
+        "OU Scientist Beau": {
             "nature": "Mild",
             "ability": "Static",
             "level": 41,
@@ -3588,7 +3589,7 @@ var SETDEX_SV = {
         }
     },
     "Electrike": {
-        "Electrike-1 [65]": {
+        "OU Electrike-1 [65]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -3599,7 +3600,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Youngster Timmy": {
+        "OU *Youngster Timmy": {
             "nature": "Timid",
             "ability": "Minus",
             "level": 26,
@@ -3611,7 +3612,7 @@ var SETDEX_SV = {
                 "Signal Beam"
             ]
         },
-        "Gambler Dirk": {
+        "OU Gambler Dirk": {
             "nature": "Lax",
             "ability": "Static",
             "level": 26,
@@ -3624,7 +3625,7 @@ var SETDEX_SV = {
         }
     },
     "Electrode": {
-        "Electrode-1 [397]": {
+        "OU Electrode-1 [397]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -3635,7 +3636,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Electrode-2 [493]": {
+        "OU Electrode-2 [493]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -3646,7 +3647,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Electrode-3 [589]": {
+        "OU Electrode-3 [589]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -3657,7 +3658,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Electrode-4 [685]": {
+        "OU Electrode-4 [685]": {
             "level": 100,
             "moves": [
                 "Explosion",
@@ -3667,7 +3668,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Biker Nikolas": {
+        "OU Biker Nikolas": {
             "nature": "Modest",
             "ability": "Soundproof",
             "level": 55,
@@ -3678,7 +3679,7 @@ var SETDEX_SV = {
                 "Tri Attack"
             ]
         },
-        "Scientist Joshua": {
+        "OU Scientist Joshua": {
             "nature": "Timid",
             "ability": "Soundproof",
             "level": 45,
@@ -3689,7 +3690,7 @@ var SETDEX_SV = {
                 "Mirror Coat"
             ]
         },
-        "Juggler Kirk": {
+        "OU Juggler Kirk": {
             "nature": "Naive",
             "ability": "Soundproof",
             "level": 63,
@@ -3700,7 +3701,7 @@ var SETDEX_SV = {
                 "Mirror Coat"
             ]
         },
-        "Scientist Taylor": {
+        "OU Scientist Taylor": {
             "nature": "Adamant",
             "ability": "Galvanize",
             "level": 44,
@@ -3709,7 +3710,7 @@ var SETDEX_SV = {
                 "Explosion"
             ]
         },
-        "Scientist Jerry": {
+        "OU Scientist Jerry": {
             "nature": "Naughty",
             "ability": "Static",
             "level": 47,
@@ -3720,7 +3721,7 @@ var SETDEX_SV = {
                 "Mirror Coat"
             ]
         },
-        "Juggler Nelson": {
+        "OU Juggler Nelson": {
             "nature": "Serious",
             "ability": "Soundproof",
             "level": 81,
@@ -3731,7 +3732,7 @@ var SETDEX_SV = {
                 "Mirror Coat"
             ]
         },
-        "*Juggler Kayden": {
+        "OU *Juggler Kayden": {
             "nature": "Naive",
             "ability": "Galvanize",
             "level": 68,
@@ -3745,7 +3746,7 @@ var SETDEX_SV = {
         }
     },
     "Elekid": {
-        "Elekid-1 [144]": {
+        "OU Elekid-1 [144]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -3756,7 +3757,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naive"
         },
-        "Lass Megan": {
+        "OU Lass Megan": {
             "nature": "Lonely",
             "ability": "Vital Spirit",
             "level": 36,
@@ -3769,7 +3770,7 @@ var SETDEX_SV = {
         }
     },
     "Entei": {
-        "Entei-1 [761]": {
+        "OU Entei-1 [761]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3780,7 +3781,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Entei-2 [772]": {
+        "OU Entei-2 [772]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -3791,7 +3792,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Entei-3 [783]": {
+        "OU Entei-3 [783]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -3801,7 +3802,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Entei-4 [794]": {
+        "OU Entei-4 [794]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -3812,7 +3813,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Entei-5 [879]": {
+        "OU Entei-5 [879]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -3823,7 +3824,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Entei-6 [880]": {
+        "OU Entei-6 [880]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3834,7 +3835,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Entei-Boss [Anabel Silver]": {
+        "OU Entei-Boss [Anabel Silver]": {
             "level": 100,
             "moves": [
                 "Fire Blast",
@@ -3846,7 +3847,7 @@ var SETDEX_SV = {
         }
     },
     "Espeon": {
-        "Espeon-1 [447]": {
+        "OU Espeon-1 [447]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -3856,7 +3857,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Espeon-2 [543]": {
+        "OU Espeon-2 [543]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3867,7 +3868,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Espeon-3 [639]": {
+        "OU Espeon-3 [639]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -3877,7 +3878,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Espeon-4 [735]": {
+        "OU Espeon-4 [735]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -3888,7 +3889,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Timid",
             "ability": "Magic Bounce",
             "level": 79,
@@ -3900,7 +3901,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "Psychic Johan": {
+        "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Synchronize",
             "level": 53,
@@ -3911,7 +3912,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "*Ace Trainer George": {
+        "OU *Ace Trainer George": {
             "nature": "Timid",
             "ability": "Magic Bounce",
             "level": 85,
@@ -3925,7 +3926,7 @@ var SETDEX_SV = {
         }
     },
     "Exeggcute": {
-        "Exeggcute-1 [113]": {
+        "OU Exeggcute-1 [113]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -3938,7 +3939,7 @@ var SETDEX_SV = {
         }
     },
     "Exeggutor": {
-        "Exeggutor-1 [439]": {
+        "OU Exeggutor-1 [439]": {
             "level": 100,
             "moves": [
                 "Solar Beam",
@@ -3948,7 +3949,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Exeggutor-2 [535]": {
+        "OU Exeggutor-2 [535]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -3959,7 +3960,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Exeggutor-3 [631]": {
+        "OU Exeggutor-3 [631]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -3970,7 +3971,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Exeggutor-4 [727]": {
+        "OU Exeggutor-4 [727]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -3981,7 +3982,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Modest",
             "ability": "Harvest",
             "level": 100,
@@ -3993,7 +3994,7 @@ var SETDEX_SV = {
                 "Sleep Powder"
             ]
         },
-        "*Bird Keeper Robert": {
+        "OU *Bird Keeper Robert": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 66,
@@ -4005,7 +4006,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 79,
@@ -4019,7 +4020,7 @@ var SETDEX_SV = {
         }
     },
     "Exploud": {
-        "Exploud-1 [398]": {
+        "OU Exploud-1 [398]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -4030,7 +4031,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Exploud-2 [494]": {
+        "OU Exploud-2 [494]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -4041,7 +4042,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Exploud-3 [590]": {
+        "OU Exploud-3 [590]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -4052,7 +4053,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Exploud-4 [686]": {
+        "OU Exploud-4 [686]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -4063,7 +4064,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Punk Rock",
             "level": 100,
@@ -4072,7 +4073,7 @@ var SETDEX_SV = {
                 "Boomburst"
             ]
         },
-        "PkMn Trainer Brendan": {
+        "OU PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Punk Rock",
             "level": 55,
@@ -4086,7 +4087,7 @@ var SETDEX_SV = {
         }
     },
     "Farfetch'd": {
-        "Farfetch'd-1 [138]": {
+        "OU Farfetch'd-1 [138]": {
             "item": "Stick",
             "level": 100,
             "moves": [
@@ -4099,7 +4100,7 @@ var SETDEX_SV = {
         }
     },
     "Fearow": {
-        "Fearow-1 [376]": {
+        "OU Fearow-1 [376]": {
             "item": "Sharp Beak",
             "level": 100,
             "moves": [
@@ -4110,7 +4111,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Fearow-2 [474]": {
+        "OU Fearow-2 [474]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -4121,7 +4122,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Fearow-3 [568]": {
+        "OU Fearow-3 [568]": {
             "level": 100,
             "moves": [
                 "Drill Peck",
@@ -4131,7 +4132,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Fearow-4 [664]": {
+        "OU Fearow-4 [664]": {
             "level": 100,
             "moves": [
                 "Drill Peck",
@@ -4141,7 +4142,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Bird Keeper Benny": {
+        "OU Bird Keeper Benny": {
             "nature": "Bashful",
             "ability": "Technician",
             "level": 57,
@@ -4152,7 +4153,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Impish",
             "ability": "Frisk",
             "level": 41,
@@ -4163,7 +4164,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Technician",
             "level": 20,
@@ -4177,7 +4178,7 @@ var SETDEX_SV = {
         }
     },
     "Feebas": {
-        "Feebas-1 [8]": {
+        "OU Feebas-1 [8]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -4188,7 +4189,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Fisherman Wade": {
+        "OU Fisherman Wade": {
             "nature": "Naive",
             "ability": "Swift Swim",
             "level": 70,
@@ -4200,7 +4201,7 @@ var SETDEX_SV = {
         }
     },
     "Feraligatr": {
-        "Feraligatr-1 [450]": {
+        "OU Feraligatr-1 [450]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -4210,7 +4211,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Feraligatr-2 [546]": {
+        "OU Feraligatr-2 [546]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -4220,7 +4221,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Feraligatr-3 [642]": {
+        "OU Feraligatr-3 [642]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -4230,7 +4231,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Feraligatr-4 [738]": {
+        "OU Feraligatr-4 [738]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -4240,7 +4241,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Cue Ball Jamal": {
+        "OU Cue Ball Jamal": {
             "nature": "Serious",
             "ability": "Sheer Force",
             "level": 55,
@@ -4251,7 +4252,7 @@ var SETDEX_SV = {
                 "Triple Dive"
             ]
         },
-        "*Gatekeeper Logan": {
+        "OU *Gatekeeper Logan": {
             "nature": "Jolly",
             "ability": "Sheer Force",
             "level": 100,
@@ -4265,7 +4266,7 @@ var SETDEX_SV = {
         }
     },
     "Flaaffy": {
-        "Flaaffy-1 [149]": {
+        "OU Flaaffy-1 [149]": {
             "item": "Magnet",
             "level": 100,
             "moves": [
@@ -4276,7 +4277,7 @@ var SETDEX_SV = {
             ],
             "nature": "Mild"
         },
-        "Lass Robin": {
+        "OU Lass Robin": {
             "nature": "Relaxed",
             "ability": "Static",
             "level": 14,
@@ -4289,7 +4290,7 @@ var SETDEX_SV = {
         }
     },
     "Flareon": {
-        "Flareon-1 [445]": {
+        "OU Flareon-1 [445]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -4300,7 +4301,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Flareon-2 [541]": {
+        "OU Flareon-2 [541]": {
             "level": 100,
             "moves": [
                 "Curse",
@@ -4310,7 +4311,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Flareon-3 [637]": {
+        "OU Flareon-3 [637]": {
             "level": 100,
             "moves": [
                 "Shadow Ball",
@@ -4320,7 +4321,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Flareon-4 [733]": {
+        "OU Flareon-4 [733]": {
             "level": 100,
             "moves": [
                 "Overheat",
@@ -4330,7 +4331,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Jolly",
             "ability": "Toxic Boost",
             "level": 100,
@@ -4342,7 +4343,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*Picnicker Alicia": {
+        "OU *Picnicker Alicia": {
             "nature": "Jolly",
             "ability": "Toxic Boost",
             "level": 36,
@@ -4354,7 +4355,7 @@ var SETDEX_SV = {
                 "Stomping Tantrum"
             ]
         },
-        "Pokemaniac Cooprt": {
+        "OU Pokemaniac Cooprt": {
             "nature": "Jolly",
             "ability": "Flash Fire",
             "level": 33,
@@ -4365,7 +4366,7 @@ var SETDEX_SV = {
                 "Sacred Fire"
             ]
         },
-        "Pokemaniac Dawson": {
+        "OU Pokemaniac Dawson": {
             "nature": "Jolly",
             "ability": "Flash Fire",
             "level": 80,
@@ -4378,7 +4379,7 @@ var SETDEX_SV = {
         }
     },
     "Flygon": {
-        "Flygon-1 [441]": {
+        "OU Flygon-1 [441]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -4389,7 +4390,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Flygon-2 [537]": {
+        "OU Flygon-2 [537]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -4400,7 +4401,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Flygon-3 [633]": {
+        "OU Flygon-3 [633]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -4410,7 +4411,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Flygon-4 [729]": {
+        "OU Flygon-4 [729]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -4420,7 +4421,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Scientist Ted": {
+        "OU *Scientist Ted": {
             "nature": "Naive",
             "ability": "Tinted Lens",
             "level": 76,
@@ -4432,7 +4433,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Rolando": {
+        "OU *Ace Trainer Rolando": {
             "nature": "Jolly",
             "ability": "Levitate",
             "level": 85,
@@ -4444,7 +4445,7 @@ var SETDEX_SV = {
                 "Fire Punch"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Jolly",
             "ability": "Tinted Lens",
             "level": 100,
@@ -4458,7 +4459,7 @@ var SETDEX_SV = {
         }
     },
     "Forretress": {
-        "Forretress-1 [384]": {
+        "OU Forretress-1 [384]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -4469,7 +4470,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Forretress-2 [482]": {
+        "OU Forretress-2 [482]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -4479,7 +4480,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Forretress-3 [576]": {
+        "OU Forretress-3 [576]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -4490,7 +4491,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Forretress-4 [672]": {
+        "OU Forretress-4 [672]": {
             "level": 100,
             "moves": [
                 "Explosion",
@@ -4502,7 +4503,7 @@ var SETDEX_SV = {
         }
     },
     "Furret": {
-        "Furret-1 [200]": {
+        "OU Furret-1 [200]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -4513,7 +4514,7 @@ var SETDEX_SV = {
             ],
             "nature": "Serious"
         },
-        "Furret-2 [305]": {
+        "OU Furret-2 [305]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -4526,7 +4527,7 @@ var SETDEX_SV = {
         }
     },
     "Gardevoir": {
-        "Gardevoir-1 [438]": {
+        "OU Gardevoir-1 [438]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -4537,7 +4538,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "Gardevoir-2 [534]": {
+        "OU Gardevoir-2 [534]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -4548,7 +4549,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gardevoir-3 [630]": {
+        "OU Gardevoir-3 [630]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4558,7 +4559,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gardevoir-4 [726]": {
+        "OU Gardevoir-4 [726]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -4569,7 +4570,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gardevoir-5 [813]": {
+        "OU Gardevoir-5 [813]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -4580,7 +4581,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Gardevoir-6 [814]": {
+        "OU Gardevoir-6 [814]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4590,7 +4591,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "Gardevoir-7 [815]": {
+        "OU Gardevoir-7 [815]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4600,7 +4601,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Gardevoir-8 [816]": {
+        "OU Gardevoir-8 [816]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -4611,7 +4612,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Trace",
             "level": 28,
@@ -4623,7 +4624,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "Scientist Beau": {
+        "OU Scientist Beau": {
             "nature": "Modest",
             "ability": "Synchronize",
             "level": 41,
@@ -4636,7 +4637,7 @@ var SETDEX_SV = {
         }
     },
     "Gastly": {
-        "Gastly-1 [93]": {
+        "OU Gastly-1 [93]": {
             "level": 100,
             "moves": [
                 "Dream Eater",
@@ -4646,7 +4647,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Friendly PkMnManiac": {
+        "OU Friendly PkMnManiac": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 5,
@@ -4660,7 +4661,7 @@ var SETDEX_SV = {
         }
     },
     "Gengar": {
-        "Gengar-1 [422]": {
+        "OU Gengar-1 [422]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -4671,7 +4672,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "Gengar-2 [518]": {
+        "OU Gengar-2 [518]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -4682,7 +4683,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Gengar-3 [614]": {
+        "OU Gengar-3 [614]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4692,7 +4693,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gengar-4 [710]": {
+        "OU Gengar-4 [710]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4702,7 +4703,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gengar-5 [801]": {
+        "OU Gengar-5 [801]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -4713,7 +4714,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gengar-6 [802]": {
+        "OU Gengar-6 [802]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -4724,7 +4725,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gengar-7 [803]": {
+        "OU Gengar-7 [803]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4734,7 +4735,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gengar-8 [804]": {
+        "OU Gengar-8 [804]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4744,7 +4745,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gengar-Boss [Greta Gold]": {
+        "OU Gengar-Boss [Greta Gold]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -4755,7 +4756,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Biker Ernest": {
+        "OU Biker Ernest": {
             "nature": "Brave",
             "ability": "Levitate",
             "level": 58,
@@ -4766,7 +4767,7 @@ var SETDEX_SV = {
                 "Sludge Bomb"
             ]
         },
-        "Channeler Tasha": {
+        "OU Channeler Tasha": {
             "nature": "Lonely",
             "ability": "Levitate",
             "level": 55,
@@ -4777,7 +4778,7 @@ var SETDEX_SV = {
                 "Nightmare"
             ]
         },
-        "*Camper Justin": {
+        "OU *Camper Justin": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 66,
@@ -4789,7 +4790,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 68,
@@ -4803,7 +4804,7 @@ var SETDEX_SV = {
         }
     },
     "Geodude": {
-        "Geodude-1 [71]": {
+        "OU Geodude-1 [71]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -4814,7 +4815,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Hiker Marcos": {
+        "OU Hiker Marcos": {
             "nature": "Bold",
             "ability": "Rock Head",
             "level": 14,
@@ -4827,7 +4828,7 @@ var SETDEX_SV = {
         }
     },
     "Girafarig": {
-        "Girafarig-1 [236]": {
+        "OU Girafarig-1 [236]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -4838,7 +4839,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Girafarig-2 [341]": {
+        "OU Girafarig-2 [341]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -4850,7 +4851,7 @@ var SETDEX_SV = {
         }
     },
     "Glalie": {
-        "Glalie-1 [400]": {
+        "OU Glalie-1 [400]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -4861,7 +4862,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Glalie-2 [496]": {
+        "OU Glalie-2 [496]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -4872,7 +4873,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Glalie-3 [592]": {
+        "OU Glalie-3 [592]": {
             "level": 100,
             "moves": [
                 "Blizzard",
@@ -4882,7 +4883,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Glalie-4 [688]": {
+        "OU Glalie-4 [688]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -4895,7 +4896,7 @@ var SETDEX_SV = {
         }
     },
     "Gligar": {
-        "Gligar-1 [211]": {
+        "OU Gligar-1 [211]": {
             "level": 100,
             "moves": [
                 "Metal Claw",
@@ -4905,7 +4906,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hasty"
         },
-        "Gligar-2 [316]": {
+        "OU Gligar-2 [316]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -4915,7 +4916,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hiker Eric": {
+        "OU Hiker Eric": {
             "nature": "Quirky",
             "ability": "Hyper Cutter",
             "level": 34,
@@ -4928,7 +4929,7 @@ var SETDEX_SV = {
         }
     },
     "Gloom": {
-        "Gloom-1 [168]": {
+        "OU Gloom-1 [168]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -4939,7 +4940,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Gloom-2 [273]": {
+        "OU Gloom-2 [273]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -4950,7 +4951,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Picnicker Ariana": {
+        "OU Picnicker Ariana": {
             "nature": "Quiet",
             "ability": "Chlorophyll",
             "level": 33,
@@ -4963,7 +4964,7 @@ var SETDEX_SV = {
         }
     },
     "Golbat": {
-        "Golbat-1 [232]": {
+        "OU Golbat-1 [232]": {
             "level": 100,
             "moves": [
                 "Air Cutter",
@@ -4973,7 +4974,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Golbat-2 [337]": {
+        "OU Golbat-2 [337]": {
             "level": 100,
             "moves": [
                 "Sludge Bomb",
@@ -4983,7 +4984,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Quiet",
             "ability": "Infiltrator",
             "level": 41,
@@ -4993,7 +4994,7 @@ var SETDEX_SV = {
                 "Dual Wingbeat"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Quiet",
             "ability": "Infiltrator",
             "level": 46,
@@ -5004,7 +5005,7 @@ var SETDEX_SV = {
                 "Venoshock"
             ]
         },
-        "Team Rocket Grunt Set 3": {
+        "OU Team Rocket Grunt Set 3": {
             "nature": "Adamant",
             "ability": "Sniper",
             "level": 48,
@@ -5015,7 +5016,7 @@ var SETDEX_SV = {
                 "Venoshock"
             ]
         },
-        "Team Rocket Grunt Set 4": {
+        "OU Team Rocket Grunt Set 4": {
             "nature": "Naive",
             "ability": "Sniper",
             "level": 48,
@@ -5026,7 +5027,7 @@ var SETDEX_SV = {
                 "Venoshock"
             ]
         },
-        "Team Rocket Grunt Set 5": {
+        "OU Team Rocket Grunt Set 5": {
             "nature": "Quiet",
             "ability": "Infiltrator",
             "level": 45,
@@ -5039,7 +5040,7 @@ var SETDEX_SV = {
         }
     },
     "Goldeen": {
-        "Goldeen-1 [106]": {
+        "OU Goldeen-1 [106]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -5052,7 +5053,7 @@ var SETDEX_SV = {
         }
     },
     "Golduck": {
-        "Golduck-1 [419]": {
+        "OU Golduck-1 [419]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -5062,7 +5063,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Golduck-2 [515]": {
+        "OU Golduck-2 [515]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -5072,7 +5073,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Golduck-3 [611]": {
+        "OU Golduck-3 [611]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -5082,7 +5083,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Golduck-4 [707]": {
+        "OU Golduck-4 [707]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -5092,7 +5093,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*SwimmerF Tisha": {
+        "OU *SwimmerF Tisha": {
             "nature": "Timid",
             "ability": "Swift Swim",
             "level": 100,
@@ -5104,7 +5105,7 @@ var SETDEX_SV = {
                 "Synchronoise"
             ]
         },
-        "Tamer Vincent": {
+        "OU Tamer Vincent": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 81,
@@ -5117,7 +5118,7 @@ var SETDEX_SV = {
         }
     },
     "Golem": {
-        "Golem-1 [403]": {
+        "OU Golem-1 [403]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -5127,7 +5128,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Golem-2 [499]": {
+        "OU Golem-2 [499]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -5138,7 +5139,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Golem-3 [595]": {
+        "OU Golem-3 [595]": {
             "level": 100,
             "moves": [
                 "Explosion",
@@ -5148,7 +5149,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Golem-4 [691]": {
+        "OU Golem-4 [691]": {
             "level": 100,
             "moves": [
                 "Explosion",
@@ -5158,7 +5159,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*PkMn Ranger Beth": {
+        "OU *PkMn Ranger Beth": {
             "nature": "Adamant",
             "ability": "Sturdy",
             "level": 99,
@@ -5170,7 +5171,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Cue Ball Luke": {
+        "OU *Cue Ball Luke": {
             "nature": "Adamant",
             "ability": "Sand Veil",
             "level": 66,
@@ -5184,7 +5185,7 @@ var SETDEX_SV = {
         }
     },
     "Gorebyss": {
-        "Gorebyss-1 [259]": {
+        "OU Gorebyss-1 [259]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -5195,7 +5196,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Gorebyss-2 [364]": {
+        "OU Gorebyss-2 [364]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -5205,7 +5206,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Dazzling",
             "level": 56,
@@ -5217,7 +5218,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "SwimmerF Melissa": {
+        "OU SwimmerF Melissa": {
             "nature": "Timid",
             "ability": "Dazzling",
             "level": 64,
@@ -5230,7 +5231,7 @@ var SETDEX_SV = {
         }
     },
     "Granbull": {
-        "Granbull-1 [377]": {
+        "OU Granbull-1 [377]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -5241,7 +5242,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Granbull-2 [475]": {
+        "OU Granbull-2 [475]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -5252,7 +5253,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Granbull-3 [569]": {
+        "OU Granbull-3 [569]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -5262,7 +5263,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Granbull-4 [665]": {
+        "OU Granbull-4 [665]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -5273,7 +5274,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "*Twins Joy & Meg": {
+        "OU *Twins Joy & Meg": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 99,
@@ -5285,7 +5286,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "*Camper Jeff": {
+        "OU *Camper Jeff": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 27,
@@ -5299,7 +5300,7 @@ var SETDEX_SV = {
         }
     },
     "Graveler": {
-        "Graveler-1 [167]": {
+        "OU Graveler-1 [167]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -5310,7 +5311,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Graveler-2 [272]": {
+        "OU Graveler-2 [272]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -5323,7 +5324,7 @@ var SETDEX_SV = {
         }
     },
     "Grimer": {
-        "Grimer-1 [111]": {
+        "OU Grimer-1 [111]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -5334,7 +5335,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Super Nerd Glenn": {
+        "OU Super Nerd Glenn": {
             "nature": "Brave",
             "ability": "Stench",
             "level": 35,
@@ -5347,7 +5348,7 @@ var SETDEX_SV = {
         }
     },
     "Grovyle": {
-        "Grovyle-1 [189]": {
+        "OU Grovyle-1 [189]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -5358,7 +5359,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Grovyle-2 [294]": {
+        "OU Grovyle-2 [294]": {
             "level": 100,
             "moves": [
                 "Giga Drain",
@@ -5370,7 +5371,7 @@ var SETDEX_SV = {
         }
     },
     "Growlithe": {
-        "Growlithe-1 [137]": {
+        "OU Growlithe-1 [137]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -5381,7 +5382,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Gentleman Thomas": {
+        "OU Gentleman Thomas": {
             "nature": "Brave",
             "ability": "Intimidate",
             "level": 26,
@@ -5392,7 +5393,7 @@ var SETDEX_SV = {
                 "Outrage"
             ]
         },
-        "Gambler Darian": {
+        "OU Gambler Darian": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 25,
@@ -5405,7 +5406,7 @@ var SETDEX_SV = {
         }
     },
     "Grumpig": {
-        "Grumpig-1 [252]": {
+        "OU Grumpig-1 [252]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -5416,7 +5417,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Grumpig-2 [357]": {
+        "OU Grumpig-2 [357]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -5426,7 +5427,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Psychic Johan": {
+        "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Thick Fat",
             "level": 53,
@@ -5439,7 +5440,7 @@ var SETDEX_SV = {
         }
     },
     "Gulpin": {
-        "Gulpin-1 [80]": {
+        "OU Gulpin-1 [80]": {
             "level": 100,
             "moves": [
                 "Toxic",
@@ -5449,7 +5450,7 @@ var SETDEX_SV = {
             ],
             "nature": "Serious"
         },
-        "*Ace Trainer Nelle": {
+        "OU *Ace Trainer Nelle": {
             "nature": "Bashful",
             "ability": "Gluttony",
             "level": 15,
@@ -5463,7 +5464,7 @@ var SETDEX_SV = {
         }
     },
     "Gyarados": {
-        "Gyarados-1 [460]": {
+        "OU Gyarados-1 [460]": {
             "level": 100,
             "moves": [
                 "Return",
@@ -5473,7 +5474,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Gyarados-2 [556]": {
+        "OU Gyarados-2 [556]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -5483,7 +5484,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Gyarados-3 [652]": {
+        "OU Gyarados-3 [652]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -5493,7 +5494,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Gyarados-4 [748]": {
+        "OU Gyarados-4 [748]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -5504,7 +5505,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Gyarados-Boss [Lucy Gold]": {
+        "OU Gyarados-Boss [Lucy Gold]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -5515,7 +5516,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Jolly",
             "ability": "Moxie",
             "level": 100,
@@ -5527,7 +5528,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Jolly",
             "ability": "Moxie",
             "level": 100,
@@ -5539,7 +5540,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "SwimmerF Alice": {
+        "OU SwimmerF Alice": {
             "nature": "Lax",
             "ability": "Intimidate",
             "level": 64,
@@ -5550,7 +5551,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "Boss Giovanni Set 1": {
+        "OU Boss Giovanni Set 1": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 47,
@@ -5562,7 +5563,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "Boss Giovanni Set 2": {
+        "OU Boss Giovanni Set 2": {
             "nature": "Jolly",
             "ability": "Moxie",
             "level": 57,
@@ -5574,7 +5575,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*Fisherman Tommy": {
+        "OU *Fisherman Tommy": {
             "nature": "Jolly",
             "ability": "Moxie",
             "level": 98,
@@ -5586,7 +5587,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "Fisherman Wade": {
+        "OU Fisherman Wade": {
             "nature": "Naughty",
             "ability": "Intimidate",
             "level": 64,
@@ -5597,7 +5598,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "SwimmerM David": {
+        "OU SwimmerM David": {
             "nature": "Rash",
             "ability": "Intimidate",
             "level": 62,
@@ -5610,7 +5611,7 @@ var SETDEX_SV = {
         }
     },
     "Hariyama": {
-        "Hariyama-1 [391]": {
+        "OU Hariyama-1 [391]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -5621,7 +5622,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hariyama-2 [487]": {
+        "OU Hariyama-2 [487]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -5631,7 +5632,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Hariyama-3 [583]": {
+        "OU Hariyama-3 [583]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -5641,7 +5642,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hariyama-4 [679]": {
+        "OU Hariyama-4 [679]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -5651,7 +5652,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Black Belt Mike": {
+        "OU Black Belt Mike": {
             "nature": "Modest",
             "ability": "Sheer Force",
             "level": 46,
@@ -5663,7 +5664,7 @@ var SETDEX_SV = {
                 "Reversal"
             ]
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Guts",
             "level": 28,
@@ -5675,7 +5676,7 @@ var SETDEX_SV = {
                 "Knock Off"
             ]
         },
-        "*Cue Ball Luke": {
+        "OU *Cue Ball Luke": {
             "nature": "Careful",
             "ability": "Thick Fat",
             "level": 67,
@@ -5689,7 +5690,7 @@ var SETDEX_SV = {
         }
     },
     "Haunter": {
-        "Haunter-1 [180]": {
+        "OU Haunter-1 [180]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -5700,7 +5701,7 @@ var SETDEX_SV = {
             ],
             "nature": "Rash"
         },
-        "Haunter-2 [285]": {
+        "OU Haunter-2 [285]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -5710,7 +5711,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Channeler Laurel": {
+        "OU Channeler Laurel": {
             "nature": "Hasty",
             "ability": "Levitate",
             "level": 36,
@@ -5721,7 +5722,7 @@ var SETDEX_SV = {
                 "Nightmare"
             ]
         },
-        "Channeler Angelica": {
+        "OU Channeler Angelica": {
             "nature": "Naive",
             "ability": "Levitate",
             "level": 37,
@@ -5732,7 +5733,7 @@ var SETDEX_SV = {
                 "Nightmare"
             ]
         },
-        "Channeler Patricia": {
+        "OU Channeler Patricia": {
             "nature": "Naive",
             "ability": "Levitate",
             "level": 35,
@@ -5745,7 +5746,7 @@ var SETDEX_SV = {
         }
     },
     "Heracross": {
-        "Heracross-1 [425]": {
+        "OU Heracross-1 [425]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -5756,7 +5757,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Heracross-2 [521]": {
+        "OU Heracross-2 [521]": {
             "level": 100,
             "moves": [
                 "Megahorn",
@@ -5766,7 +5767,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Heracross-3 [617]": {
+        "OU Heracross-3 [617]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -5777,7 +5778,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Heracross-4 [713]": {
+        "OU Heracross-4 [713]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -5788,7 +5789,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Heracross-Boss [Greta Silver]": {
+        "OU Heracross-Boss [Greta Silver]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -5799,7 +5800,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "*Black Belt Hugh": {
+        "OU *Black Belt Hugh": {
             "nature": "Jolly",
             "ability": "Moxie",
             "level": 100,
@@ -5811,7 +5812,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Bug Catcher Conner": {
+        "OU Bug Catcher Conner": {
             "nature": "Rash",
             "ability": "Swarm",
             "level": 28,
@@ -5824,7 +5825,7 @@ var SETDEX_SV = {
         }
     },
     "Hitmonchan": {
-        "Hitmonchan-1 [235]": {
+        "OU Hitmonchan-1 [235]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -5835,7 +5836,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hitmonchan-2 [340]": {
+        "OU Hitmonchan-2 [340]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -5846,7 +5847,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Cue Ball Zeek": {
+        "OU Cue Ball Zeek": {
             "nature": "Relaxed",
             "ability": "Frisk",
             "level": 56,
@@ -5857,7 +5858,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Iron Fist",
             "level": 27,
@@ -5871,7 +5872,7 @@ var SETDEX_SV = {
         }
     },
     "Hitmonlee": {
-        "Hitmonlee-1 [234]": {
+        "OU Hitmonlee-1 [234]": {
             "item": "Black Belt",
             "level": 100,
             "moves": [
@@ -5882,7 +5883,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hitmonlee-2 [339]": {
+        "OU Hitmonlee-2 [339]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -5892,7 +5893,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Leader Lt. Surge": {
+        "OU Leader Lt. Surge": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 36,
@@ -5904,7 +5905,7 @@ var SETDEX_SV = {
                 "Rock Slide"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Striker",
             "level": 27,
@@ -5916,7 +5917,7 @@ var SETDEX_SV = {
                 "Low Sweep"
             ]
         },
-        "*PkMn Trainer Sam": {
+        "OU *PkMn Trainer Sam": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 59,
@@ -5930,7 +5931,7 @@ var SETDEX_SV = {
         }
     },
     "Hitmontop": {
-        "Hitmontop-1 [237]": {
+        "OU Hitmontop-1 [237]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -5941,7 +5942,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Hitmontop-2 [342]": {
+        "OU Hitmontop-2 [342]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -5952,7 +5953,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 27,
@@ -5966,7 +5967,7 @@ var SETDEX_SV = {
         }
     },
     "Hoothoot": {
-        "Hoothoot-1 [39]": {
+        "OU Hoothoot-1 [39]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -5979,7 +5980,7 @@ var SETDEX_SV = {
         }
     },
     "Hoppip": {
-        "Hoppip-1 [30]": {
+        "OU Hoppip-1 [30]": {
             "level": 100,
             "moves": [
                 "Mega Drain",
@@ -5991,7 +5992,7 @@ var SETDEX_SV = {
         }
     },
     "Horsea": {
-        "Horsea-1 [61]": {
+        "OU Horsea-1 [61]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -6002,7 +6003,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Sailor Dylan": {
+        "OU Sailor Dylan": {
             "nature": "Brave",
             "ability": "Swift Swim",
             "level": 28,
@@ -6015,7 +6016,7 @@ var SETDEX_SV = {
         }
     },
     "Houndoom": {
-        "Houndoom-1 [427]": {
+        "OU Houndoom-1 [427]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -6026,7 +6027,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Houndoom-2 [523]": {
+        "OU Houndoom-2 [523]": {
             "level": 100,
             "moves": [
                 "Fire Blast",
@@ -6036,7 +6037,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Houndoom-3 [619]": {
+        "OU Houndoom-3 [619]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -6047,7 +6048,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Houndoom-4 [715]": {
+        "OU Houndoom-4 [715]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -6060,7 +6061,7 @@ var SETDEX_SV = {
         }
     },
     "Houndour": {
-        "Houndour-1 [120]": {
+        "OU Houndour-1 [120]": {
             "item": "Charcoal",
             "level": 100,
             "moves": [
@@ -6071,7 +6072,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Gambler Rich": {
+        "OU Gambler Rich": {
             "nature": "Hardy",
             "ability": "Early Bird",
             "level": 35,
@@ -6082,7 +6083,7 @@ var SETDEX_SV = {
                 "Nasty Plot"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Flash Fire",
             "level": 23,
@@ -6096,7 +6097,7 @@ var SETDEX_SV = {
         }
     },
     "Huntail": {
-        "Huntail-1 [258]": {
+        "OU Huntail-1 [258]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -6107,7 +6108,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Huntail-2 [363]": {
+        "OU Huntail-2 [363]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -6117,7 +6118,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Crush Girl Jocelyn": {
+        "OU *Crush Girl Jocelyn": {
             "nature": "Naughty",
             "ability": "Intimidate",
             "level": 100,
@@ -6129,7 +6130,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "Cue Ball Corey": {
+        "OU Cue Ball Corey": {
             "nature": "Careful",
             "ability": "Intimidate",
             "level": 56,
@@ -6140,7 +6141,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 100,
@@ -6154,7 +6155,7 @@ var SETDEX_SV = {
         }
     },
     "Hypno": {
-        "Hypno-1 [402]": {
+        "OU Hypno-1 [402]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -6165,7 +6166,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Hypno-2 [498]": {
+        "OU Hypno-2 [498]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -6176,7 +6177,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Hypno-3 [594]": {
+        "OU Hypno-3 [594]": {
             "level": 100,
             "moves": [
                 "Psych Up",
@@ -6186,7 +6187,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hypno-4 [690]": {
+        "OU Hypno-4 [690]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -6196,7 +6197,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Bad Dreams",
             "level": 47,
@@ -6208,7 +6209,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "Juggler Shawn": {
+        "OU Juggler Shawn": {
             "nature": "Naughty",
             "ability": "Bad Dreams",
             "level": 63,
@@ -6219,7 +6220,7 @@ var SETDEX_SV = {
                 "Swagger"
             ]
         },
-        "Juggler Nelson": {
+        "OU Juggler Nelson": {
             "nature": "Careful",
             "ability": "Insomnia",
             "level": 80,
@@ -6230,7 +6231,7 @@ var SETDEX_SV = {
                 "Swagger"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Hasty",
             "ability": "Bad Dreams",
             "level": 45,
@@ -6241,7 +6242,7 @@ var SETDEX_SV = {
                 "Swagger"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Gentle",
             "ability": "Insomnia",
             "level": 48,
@@ -6252,7 +6253,7 @@ var SETDEX_SV = {
                 "Swagger"
             ]
         },
-        "Team Rocket Grunt Set 3": {
+        "OU Team Rocket Grunt Set 3": {
             "nature": "Bashful",
             "ability": "Insomnia",
             "level": 46,
@@ -6265,7 +6266,7 @@ var SETDEX_SV = {
         }
     },
     "Igglybuff": {
-        "Igglybuff-1 [14]": {
+        "OU Igglybuff-1 [14]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -6278,7 +6279,7 @@ var SETDEX_SV = {
         }
     },
     "Illumise": {
-        "Illumise-1 [174]": {
+        "OU Illumise-1 [174]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -6289,7 +6290,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Illumise-2 [279]": {
+        "OU Illumise-2 [279]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -6300,7 +6301,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*Twins Joy & Meg": {
+        "OU *Twins Joy & Meg": {
             "nature": "Jolly",
             "ability": "Tinted Lens",
             "level": 100,
@@ -6312,7 +6313,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Lass Haley": {
+        "OU Lass Haley": {
             "nature": "Calm",
             "ability": "Oblivious",
             "level": 19,
@@ -6325,7 +6326,7 @@ var SETDEX_SV = {
         }
     },
     "Ivysaur": {
-        "Ivysaur-1 [175]": {
+        "OU Ivysaur-1 [175]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -6336,7 +6337,7 @@ var SETDEX_SV = {
             ],
             "nature": "Gentle"
         },
-        "Ivysaur-2 [280]": {
+        "OU Ivysaur-2 [280]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -6347,7 +6348,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Overgrow",
             "level": 28,
@@ -6359,7 +6360,7 @@ var SETDEX_SV = {
                 "Sludge"
             ]
         },
-        "Picnicker Martha": {
+        "OU Picnicker Martha": {
             "nature": "Calm",
             "ability": "Overgrow",
             "level": 33,
@@ -6372,7 +6373,7 @@ var SETDEX_SV = {
         }
     },
     "Jigglypuff": {
-        "Jigglypuff-1 [44]": {
+        "OU Jigglypuff-1 [44]": {
             "level": 100,
             "moves": [
                 "Sing",
@@ -6382,7 +6383,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "*Lass Ali": {
+        "OU *Lass Ali": {
             "nature": "Bold",
             "ability": "Friend Guard",
             "level": 27,
@@ -6396,7 +6397,7 @@ var SETDEX_SV = {
         }
     },
     "Jolteon": {
-        "Jolteon-1 [444]": {
+        "OU Jolteon-1 [444]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -6407,7 +6408,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Jolteon-2 [540]": {
+        "OU Jolteon-2 [540]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -6417,7 +6418,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Jolteon-3 [636]": {
+        "OU Jolteon-3 [636]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -6428,7 +6429,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Jolteon-4 [732]": {
+        "OU Jolteon-4 [732]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -6439,7 +6440,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Timid",
             "ability": "Volt Absorb",
             "level": 100,
@@ -6451,7 +6452,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*SwimmerF Tisha": {
+        "OU *SwimmerF Tisha": {
             "nature": "Timid",
             "ability": "Volt Absorb",
             "level": 100,
@@ -6463,7 +6464,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Bird Keeper Robert": {
+        "OU *Bird Keeper Robert": {
             "nature": "Timid",
             "ability": "Volt Absorb",
             "level": 66,
@@ -6477,7 +6478,7 @@ var SETDEX_SV = {
         }
     },
     "Jumpluff": {
-        "Jumpluff-1 [230]": {
+        "OU Jumpluff-1 [230]": {
             "level": 100,
             "moves": [
                 "Aerial Ace",
@@ -6487,7 +6488,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Jumpluff-2 [335]": {
+        "OU Jumpluff-2 [335]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -6498,7 +6499,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "PkMn Trainer May": {
+        "OU PkMn Trainer May": {
             "nature": "Jolly",
             "ability": "Aerilate",
             "level": 73,
@@ -6510,7 +6511,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Aerilate",
             "level": 56,
@@ -6524,7 +6525,7 @@ var SETDEX_SV = {
         }
     },
     "Jynx": {
-        "Jynx-1 [378]": {
+        "OU Jynx-1 [378]": {
             "level": 100,
             "moves": [
                 "Ice Beam",
@@ -6534,7 +6535,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Jynx-2 [476]": {
+        "OU Jynx-2 [476]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -6545,7 +6546,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Jynx-3 [570]": {
+        "OU Jynx-3 [570]": {
             "level": 100,
             "moves": [
                 "Dream Eater",
@@ -6555,7 +6556,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Jynx-4 [666]": {
+        "OU Jynx-4 [666]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -6565,7 +6566,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Timid",
             "ability": "Dry Skin",
             "level": 73,
@@ -6579,7 +6580,7 @@ var SETDEX_SV = {
         }
     },
     "Kabuto": {
-        "Kabuto-1 [140]": {
+        "OU Kabuto-1 [140]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -6592,7 +6593,7 @@ var SETDEX_SV = {
         }
     },
     "Kabutops": {
-        "Kabutops-1 [262]": {
+        "OU Kabutops-1 [262]": {
             "level": 100,
             "moves": [
                 "Slash",
@@ -6602,7 +6603,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Kabutops-2 [367]": {
+        "OU Kabutops-2 [367]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -6613,7 +6614,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Scientist Travis": {
+        "OU Scientist Travis": {
             "nature": "Hasty",
             "ability": "Sharpness",
             "level": 45,
@@ -6624,7 +6625,7 @@ var SETDEX_SV = {
                 "Stone Axe"
             ]
         },
-        "*Ace Trainer Wilton": {
+        "OU *Ace Trainer Wilton": {
             "nature": "Adamant",
             "ability": "Swift Swim",
             "level": 66,
@@ -6638,7 +6639,7 @@ var SETDEX_SV = {
         }
     },
     "Kadabra": {
-        "Kadabra-1 [170]": {
+        "OU Kadabra-1 [170]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -6649,7 +6650,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Kadabra-2 [275]": {
+        "OU Kadabra-2 [275]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -6660,7 +6661,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Juggler Dalton": {
+        "OU Juggler Dalton": {
             "nature": "Quirky",
             "ability": "Synchronize",
             "level": 45,
@@ -6671,7 +6672,7 @@ var SETDEX_SV = {
                 "Role Play"
             ]
         },
-        "Psychic Tyron": {
+        "OU Psychic Tyron": {
             "nature": "Naive",
             "ability": "Synchronize",
             "level": 53,
@@ -6684,7 +6685,7 @@ var SETDEX_SV = {
         }
     },
     "Kakuna": {
-        "Kakuna-1 [10]": {
+        "OU Kakuna-1 [10]": {
             "level": 100,
             "moves": [
                 "Harden",
@@ -6694,7 +6695,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bashful"
         },
-        "Bug Catcher Doug": {
+        "OU Bug Catcher Doug": {
             "nature": "Bashful",
             "ability": "Shed Skin",
             "level": 7,
@@ -6705,7 +6706,7 @@ var SETDEX_SV = {
         }
     },
     "Kangaskhan": {
-        "Kangaskhan-1 [407]": {
+        "OU Kangaskhan-1 [407]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -6716,7 +6717,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Kangaskhan-2 [503]": {
+        "OU Kangaskhan-2 [503]": {
             "level": 100,
             "moves": [
                 "Crush Claw",
@@ -6726,7 +6727,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Kangaskhan-3 [599]": {
+        "OU Kangaskhan-3 [599]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -6737,7 +6738,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Kangaskhan-4 [695]": {
+        "OU Kangaskhan-4 [695]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -6750,7 +6751,7 @@ var SETDEX_SV = {
         }
     },
     "Kecleon": {
-        "Kecleon-1 [221]": {
+        "OU Kecleon-1 [221]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -6761,7 +6762,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naive"
         },
-        "Kecleon-2 [326]": {
+        "OU Kecleon-2 [326]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -6772,7 +6773,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Scientist Beau": {
+        "OU Scientist Beau": {
             "nature": "Adamant",
             "ability": "Protean",
             "level": 41,
@@ -6784,7 +6785,7 @@ var SETDEX_SV = {
         }
     },
     "Kingdra": {
-        "Kingdra-1 [462]": {
+        "OU Kingdra-1 [462]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -6794,7 +6795,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Kingdra-2 [558]": {
+        "OU Kingdra-2 [558]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -6805,7 +6806,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Kingdra-3 [654]": {
+        "OU Kingdra-3 [654]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -6816,7 +6817,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Kingdra-4 [750]": {
+        "OU Kingdra-4 [750]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -6827,7 +6828,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "SwimmerM Darrin": {
+        "OU SwimmerM Darrin": {
             "nature": "Lonely",
             "ability": "Swift Swim",
             "level": 63,
@@ -6838,7 +6839,7 @@ var SETDEX_SV = {
                 "Snipe Shot"
             ]
         },
-        "*Leader Misty Set 1": {
+        "OU *Leader Misty Set 1": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 68,
@@ -6850,7 +6851,7 @@ var SETDEX_SV = {
                 "Hydro Pump"
             ]
         },
-        "*Leader Misty Set 2": {
+        "OU *Leader Misty Set 2": {
             "nature": "Timid",
             "ability": "Swift Swim",
             "level": 100,
@@ -6864,7 +6865,7 @@ var SETDEX_SV = {
         }
     },
     "Kingler": {
-        "Kingler-1 [254]": {
+        "OU Kingler-1 [254]": {
             "level": 100,
             "moves": [
                 "Crabhammer",
@@ -6874,7 +6875,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Kingler-2 [359]": {
+        "OU Kingler-2 [359]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -6885,7 +6886,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Tuber Alexis": {
+        "OU *Tuber Alexis": {
             "nature": "Jolly",
             "ability": "Sheer Force",
             "level": 100,
@@ -6897,7 +6898,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "SwimmerF Nora": {
+        "OU SwimmerF Nora": {
             "nature": "Careful",
             "ability": "Hyper Cutter",
             "level": 63,
@@ -6910,7 +6911,7 @@ var SETDEX_SV = {
         }
     },
     "Kirlia": {
-        "Kirlia-1 [49]": {
+        "OU Kirlia-1 [49]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -6921,7 +6922,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Lass Dawn": {
+        "OU Lass Dawn": {
             "nature": "Rash",
             "ability": "Synchronize",
             "level": 27,
@@ -6932,7 +6933,7 @@ var SETDEX_SV = {
                 "Hypnosis"
             ]
         },
-        "Lass Megan": {
+        "OU Lass Megan": {
             "nature": "Bold",
             "ability": "Synchronize",
             "level": 35,
@@ -6945,7 +6946,7 @@ var SETDEX_SV = {
         }
     },
     "Koffing": {
-        "Koffing-1 [128]": {
+        "OU Koffing-1 [128]": {
             "item": "Poison Barb",
             "level": 100,
             "moves": [
@@ -6958,7 +6959,7 @@ var SETDEX_SV = {
         }
     },
     "Krabby": {
-        "Krabby-1 [112]": {
+        "OU Krabby-1 [112]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -6971,7 +6972,7 @@ var SETDEX_SV = {
         }
     },
     "Lairon": {
-        "Lairon-1 [216]": {
+        "OU Lairon-1 [216]": {
             "item": "Metal Coat",
             "level": 100,
             "moves": [
@@ -6982,7 +6983,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Lairon-2 [321]": {
+        "OU Lairon-2 [321]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -6993,7 +6994,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Hiker Dudley": {
+        "OU Hiker Dudley": {
             "nature": "Bashful",
             "ability": "Sturdy",
             "level": 34,
@@ -7006,7 +7007,7 @@ var SETDEX_SV = {
         }
     },
     "Lanturn": {
-        "Lanturn-1 [382]": {
+        "OU Lanturn-1 [382]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -7017,7 +7018,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Lanturn-2 [480]": {
+        "OU Lanturn-2 [480]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -7028,7 +7029,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Lanturn-3 [574]": {
+        "OU Lanturn-3 [574]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7039,7 +7040,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Lanturn-4 [670]": {
+        "OU Lanturn-4 [670]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -7049,7 +7050,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Tuber Alexis": {
+        "OU *Tuber Alexis": {
             "nature": "Modest",
             "ability": "Illuminate",
             "level": 100,
@@ -7061,7 +7062,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "SwimmerM David": {
+        "OU SwimmerM David": {
             "nature": "Adamant",
             "ability": "Volt Absorb",
             "level": 62,
@@ -7074,7 +7075,7 @@ var SETDEX_SV = {
         }
     },
     "Lapras": {
-        "Lapras-1 [457]": {
+        "OU Lapras-1 [457]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -7085,7 +7086,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Lapras-2 [553]": {
+        "OU Lapras-2 [553]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -7095,7 +7096,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "Lapras-3 [649]": {
+        "OU Lapras-3 [649]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7106,7 +7107,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Lapras-4 [745]": {
+        "OU Lapras-4 [745]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -7116,7 +7117,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Lapras-5 [821]": {
+        "OU Lapras-5 [821]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -7126,7 +7127,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Lapras-6 [822]": {
+        "OU Lapras-6 [822]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7137,7 +7138,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Lapras-7 [823]": {
+        "OU Lapras-7 [823]": {
             "item": "Leppa Berry",
             "level": 100,
             "moves": [
@@ -7148,7 +7149,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Lapras-8 [824]": {
+        "OU Lapras-8 [824]": {
             "level": 100,
             "moves": [
                 "Sheer Cold",
@@ -7158,7 +7159,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Lapras-Boss [Spenser Silver]": {
+        "OU Lapras-Boss [Spenser Silver]": {
             "level": 100,
             "moves": [
                 "Ice Beam",
@@ -7168,7 +7169,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "SwimmerF Tiffany": {
+        "OU SwimmerF Tiffany": {
             "nature": "Naughty",
             "ability": "Water Absorb",
             "level": 65,
@@ -7179,7 +7180,7 @@ var SETDEX_SV = {
                 "Wish"
             ]
         },
-        "Pokemaniac Dawson": {
+        "OU Pokemaniac Dawson": {
             "nature": "Jolly",
             "ability": "Water Absorb",
             "level": 80,
@@ -7192,7 +7193,7 @@ var SETDEX_SV = {
         }
     },
     "Larvitar": {
-        "Larvitar-1 [75]": {
+        "OU Larvitar-1 [75]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -7203,7 +7204,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Hiker Alan": {
+        "OU Hiker Alan": {
             "nature": "Hardy",
             "ability": "Guts",
             "level": 31,
@@ -7216,7 +7217,7 @@ var SETDEX_SV = {
         }
     },
     "Latias": {
-        "Latias-1 [766]": {
+        "OU Latias-1 [766]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -7226,7 +7227,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Latias-2 [777]": {
+        "OU Latias-2 [777]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -7236,7 +7237,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latias-3 [788]": {
+        "OU Latias-3 [788]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7247,7 +7248,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latias-4 [799]": {
+        "OU Latias-4 [799]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -7258,7 +7259,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latias-5 [843]": {
+        "OU Latias-5 [843]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7269,7 +7270,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Latias-6 [844]": {
+        "OU Latias-6 [844]": {
             "level": 100,
             "moves": [
                 "Mist Ball",
@@ -7279,7 +7280,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Latias-7 [845]": {
+        "OU Latias-7 [845]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -7290,7 +7291,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Latias-8 [846]": {
+        "OU Latias-8 [846]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -7301,7 +7302,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latias-Boss [Tucker Gold]": {
+        "OU Latias-Boss [Tucker Gold]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -7312,7 +7313,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Ace Trainer Barry": {
+        "OU *Ace Trainer Barry": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 100,
@@ -7324,7 +7325,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 82,
@@ -7336,7 +7337,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 85,
@@ -7348,7 +7349,7 @@ var SETDEX_SV = {
                 "Psyshock"
             ]
         },
-        "*Dragon Tamer Ramiro": {
+        "OU *Dragon Tamer Ramiro": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 66,
@@ -7362,7 +7363,7 @@ var SETDEX_SV = {
         }
     },
     "Latios": {
-        "Latios-1 [767]": {
+        "OU Latios-1 [767]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -7372,7 +7373,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Latios-2 [778]": {
+        "OU Latios-2 [778]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -7382,7 +7383,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latios-3 [789]": {
+        "OU Latios-3 [789]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7393,7 +7394,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latios-4 [800]": {
+        "OU Latios-4 [800]": {
             "level": 100,
             "moves": [
                 "Luster Purge",
@@ -7403,7 +7404,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Latios-5 [847]": {
+        "OU Latios-5 [847]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7414,7 +7415,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Latios-6 [848]": {
+        "OU Latios-6 [848]": {
             "level": 100,
             "moves": [
                 "Luster Purge",
@@ -7424,7 +7425,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latios-7 [849]": {
+        "OU Latios-7 [849]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7435,7 +7436,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Latios-8 [850]": {
+        "OU Latios-8 [850]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -7446,7 +7447,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Latios-Boss [Anabel Gold]": {
+        "OU Latios-Boss [Anabel Gold]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7459,7 +7460,7 @@ var SETDEX_SV = {
         }
     },
     "Ledian": {
-        "Ledian-1 [160]": {
+        "OU Ledian-1 [160]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7470,7 +7471,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bashful"
         },
-        "Bug Catcher Keigo": {
+        "OU Bug Catcher Keigo": {
             "nature": "Sassy",
             "ability": "Swarm",
             "level": 22,
@@ -7483,7 +7484,7 @@ var SETDEX_SV = {
         }
     },
     "Ledyba": {
-        "Ledyba-1 [41]": {
+        "OU Ledyba-1 [41]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -7494,7 +7495,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bashful"
         },
-        "Bug Catcher Doug": {
+        "OU Bug Catcher Doug": {
             "nature": "Calm",
             "ability": "Swarm",
             "level": 7,
@@ -7505,7 +7506,7 @@ var SETDEX_SV = {
                 "Double-Edge"
             ]
         },
-        "Bug Catcher James": {
+        "OU Bug Catcher James": {
             "nature": "Brave",
             "ability": "Swarm",
             "level": 13,
@@ -7518,7 +7519,7 @@ var SETDEX_SV = {
         }
     },
     "Lickitung": {
-        "Lickitung-1 [165]": {
+        "OU Lickitung-1 [165]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -7529,7 +7530,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Lickitung-2 [270]": {
+        "OU Lickitung-2 [270]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -7542,7 +7543,7 @@ var SETDEX_SV = {
         }
     },
     "Lileep": {
-        "Lileep-1 [141]": {
+        "OU Lileep-1 [141]": {
             "level": 100,
             "moves": [
                 "Ancient Power",
@@ -7552,7 +7553,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Hiker Lenny": {
+        "OU Hiker Lenny": {
             "nature": "Brave",
             "ability": "Suction Cups",
             "level": 31,
@@ -7563,7 +7564,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "Leader Brock": {
+        "OU Leader Brock": {
             "nature": "Bold",
             "ability": "Storm Drain",
             "level": 16,
@@ -7577,7 +7578,7 @@ var SETDEX_SV = {
         }
     },
     "Linoone": {
-        "Linoone-1 [204]": {
+        "OU Linoone-1 [204]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -7588,7 +7589,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Linoone-2 [309]": {
+        "OU Linoone-2 [309]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -7601,7 +7602,7 @@ var SETDEX_SV = {
         }
     },
     "Lombre": {
-        "Lombre-1 [132]": {
+        "OU Lombre-1 [132]": {
             "level": 100,
             "moves": [
                 "Water Pulse",
@@ -7611,7 +7612,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Picnicker Isabelle": {
+        "OU Picnicker Isabelle": {
             "nature": "Quiet",
             "ability": "Swift Swim",
             "level": 24,
@@ -7622,7 +7623,7 @@ var SETDEX_SV = {
                 "Zen Headbutt"
             ]
         },
-        "Sailor Duncan": {
+        "OU Sailor Duncan": {
             "nature": "Timid",
             "ability": "Swift Swim",
             "level": 27,
@@ -7635,7 +7636,7 @@ var SETDEX_SV = {
         }
     },
     "Lotad": {
-        "Lotad-1 [20]": {
+        "OU Lotad-1 [20]": {
             "level": 100,
             "moves": [
                 "Rain Dance",
@@ -7647,7 +7648,7 @@ var SETDEX_SV = {
         }
     },
     "Loudred": {
-        "Loudred-1 [145]": {
+        "OU Loudred-1 [145]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7660,7 +7661,7 @@ var SETDEX_SV = {
         }
     },
     "Ludicolo": {
-        "Ludicolo-1 [401]": {
+        "OU Ludicolo-1 [401]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -7670,7 +7671,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Ludicolo-2 [497]": {
+        "OU Ludicolo-2 [497]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -7680,7 +7681,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Ludicolo-3 [593]": {
+        "OU Ludicolo-3 [593]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -7691,7 +7692,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Ludicolo-4 [689]": {
+        "OU Ludicolo-4 [689]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -7702,7 +7703,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 85,
@@ -7714,7 +7715,7 @@ var SETDEX_SV = {
                 "Ice Beam"
             ]
         },
-        "Leader Misty": {
+        "OU Leader Misty": {
             "nature": "Mild",
             "ability": "Swift Swim",
             "level": 28,
@@ -7726,7 +7727,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Dumbass Gambler": {
+        "OU Dumbass Gambler": {
             "nature": "Bashful",
             "ability": "Own Tempo",
             "level": 100,
@@ -7735,7 +7736,7 @@ var SETDEX_SV = {
                 "Metronome"
             ]
         },
-        "SwimmerM Roland": {
+        "OU SwimmerM Roland": {
             "nature": "Hasty",
             "ability": "Swift Swim",
             "level": 64,
@@ -7748,7 +7749,7 @@ var SETDEX_SV = {
         }
     },
     "Lunatone": {
-        "Lunatone-1 [223]": {
+        "OU Lunatone-1 [223]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -7759,7 +7760,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Lunatone-2 [328]": {
+        "OU Lunatone-2 [328]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -7769,7 +7770,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Leader Brock": {
+        "OU Leader Brock": {
             "nature": "Bashful",
             "ability": "Levitate",
             "level": 14,
@@ -7783,7 +7784,7 @@ var SETDEX_SV = {
         }
     },
     "Luvdisc": {
-        "Luvdisc-1 [124]": {
+        "OU Luvdisc-1 [124]": {
             "level": 100,
             "moves": [
                 "Sweet Kiss",
@@ -7793,7 +7794,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Soul-Heart",
             "level": 28,
@@ -7805,7 +7806,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Fisherman Elliot": {
+        "OU Fisherman Elliot": {
             "nature": "Brave",
             "ability": "Swift Swim",
             "level": 36,
@@ -7816,7 +7817,7 @@ var SETDEX_SV = {
                 "Soak"
             ]
         },
-        "Fisherman Wade": {
+        "OU Fisherman Wade": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 65,
@@ -7829,7 +7830,7 @@ var SETDEX_SV = {
         }
     },
     "Machamp": {
-        "Machamp-1 [432]": {
+        "OU Machamp-1 [432]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -7839,7 +7840,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Machamp-2 [528]": {
+        "OU Machamp-2 [528]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -7850,7 +7851,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Machamp-3 [624]": {
+        "OU Machamp-3 [624]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -7860,7 +7861,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Machamp-4 [720]": {
+        "OU Machamp-4 [720]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -7870,7 +7871,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Machamp-5 [809]": {
+        "OU Machamp-5 [809]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -7880,7 +7881,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Machamp-6 [810]": {
+        "OU Machamp-6 [810]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7891,7 +7892,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Machamp-7 [811]": {
+        "OU Machamp-7 [811]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -7902,7 +7903,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Machamp-8 [812]": {
+        "OU Machamp-8 [812]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7913,7 +7914,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Adamant",
             "ability": "No Guard",
             "level": 100,
@@ -7925,7 +7926,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Brave",
             "ability": "Guts",
             "level": 47,
@@ -7938,7 +7939,7 @@ var SETDEX_SV = {
         }
     },
     "Machoke": {
-        "Machoke-1 [179]": {
+        "OU Machoke-1 [179]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -7949,7 +7950,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Machoke-2 [284]": {
+        "OU Machoke-2 [284]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -7959,7 +7960,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Black Belt Daisuke": {
+        "OU Black Belt Daisuke": {
             "nature": "Rash",
             "ability": "Guts",
             "level": 80,
@@ -7971,7 +7972,7 @@ var SETDEX_SV = {
                 "Scary Face"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Impish",
             "ability": "Guts",
             "level": 42,
@@ -7982,7 +7983,7 @@ var SETDEX_SV = {
                 "Scary Face"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Lax",
             "ability": "Guts",
             "level": 46,
@@ -7995,7 +7996,7 @@ var SETDEX_SV = {
         }
     },
     "Machop": {
-        "Machop-1 [83]": {
+        "OU Machop-1 [83]": {
             "level": 100,
             "moves": [
                 "Seismic Toss",
@@ -8005,7 +8006,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Hiker Jeremy": {
+        "OU Hiker Jeremy": {
             "nature": "Calm",
             "ability": "Guts",
             "level": 30,
@@ -8016,7 +8017,7 @@ var SETDEX_SV = {
                 "Scary Face"
             ]
         },
-        "Hiker Nob": {
+        "OU Hiker Nob": {
             "nature": "Lonely",
             "ability": "Guts",
             "level": 19,
@@ -8029,7 +8030,7 @@ var SETDEX_SV = {
         }
     },
     "Magby": {
-        "Magby-1 [150]": {
+        "OU Magby-1 [150]": {
             "level": 100,
             "moves": [
                 "Fire Punch",
@@ -8039,7 +8040,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Lass Megan": {
+        "OU Lass Megan": {
             "nature": "Lonely",
             "ability": "Flame Body",
             "level": 35,
@@ -8052,7 +8053,7 @@ var SETDEX_SV = {
         }
     },
     "Magcargo": {
-        "Magcargo-1 [195]": {
+        "OU Magcargo-1 [195]": {
             "level": 100,
             "moves": [
                 "Rock Slide",
@@ -8062,7 +8063,7 @@ var SETDEX_SV = {
             ],
             "nature": "Gentle"
         },
-        "Magcargo-2 [300]": {
+        "OU Magcargo-2 [300]": {
             "level": 100,
             "moves": [
                 "Overheat",
@@ -8072,7 +8073,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Burglar Max": {
+        "OU *Burglar Max": {
             "nature": "Timid",
             "ability": "Simple",
             "level": 80,
@@ -8086,7 +8087,7 @@ var SETDEX_SV = {
         }
     },
     "Magikarp": {
-        "Magikarp-1 [7]": {
+        "OU Magikarp-1 [7]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8097,7 +8098,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Fisherman Wade": {
+        "OU Fisherman Wade": {
             "nature": "Bold",
             "ability": "Swift Swim",
             "level": 70,
@@ -8109,7 +8110,7 @@ var SETDEX_SV = {
         }
     },
     "Magmar": {
-        "Magmar-1 [416]": {
+        "OU Magmar-1 [416]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -8120,7 +8121,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Magmar-2 [512]": {
+        "OU Magmar-2 [512]": {
             "level": 100,
             "moves": [
                 "Fire Blast",
@@ -8130,7 +8131,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Magmar-3 [608]": {
+        "OU Magmar-3 [608]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -8140,7 +8141,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Magmar-4 [704]": {
+        "OU Magmar-4 [704]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -8152,7 +8153,7 @@ var SETDEX_SV = {
         }
     },
     "Magnemite": {
-        "Magnemite-1 [109]": {
+        "OU Magnemite-1 [109]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -8163,7 +8164,7 @@ var SETDEX_SV = {
             ],
             "nature": "Gentle"
         },
-        "Engineer Bernie": {
+        "OU Engineer Bernie": {
             "nature": "Lax",
             "ability": "Magnet Pull",
             "level": 25,
@@ -8174,7 +8175,7 @@ var SETDEX_SV = {
                 "Zap Cannon"
             ]
         },
-        "Super Nerd Jovan": {
+        "OU Super Nerd Jovan": {
             "nature": "Bold",
             "ability": "Magnet Pull",
             "level": 13,
@@ -8187,7 +8188,7 @@ var SETDEX_SV = {
         }
     },
     "Magneton": {
-        "Magneton-1 [245]": {
+        "OU Magneton-1 [245]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -8198,7 +8199,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Magneton-2 [350]": {
+        "OU Magneton-2 [350]": {
             "level": 100,
             "moves": [
                 "Thunder",
@@ -8208,7 +8209,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Scientist Jerry": {
+        "OU Scientist Jerry": {
             "nature": "Naughty",
             "ability": "Magnet Pull",
             "level": 46,
@@ -8219,7 +8220,7 @@ var SETDEX_SV = {
                 "Magnet Rise"
             ]
         },
-        "Scientist Braydon": {
+        "OU Scientist Braydon": {
             "nature": "Bashful",
             "ability": "Magnet Pull",
             "level": 69,
@@ -8230,7 +8231,7 @@ var SETDEX_SV = {
                 "Magnet Rise"
             ]
         },
-        "Pokemaniac Winston": {
+        "OU Pokemaniac Winston": {
             "nature": "Jolly",
             "ability": "Magnet Pull",
             "level": 34,
@@ -8243,7 +8244,7 @@ var SETDEX_SV = {
         }
     },
     "Makuhita": {
-        "Makuhita-1 [23]": {
+        "OU Makuhita-1 [23]": {
             "level": 100,
             "moves": [
                 "Fake Out",
@@ -8253,7 +8254,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Hiker Nob": {
+        "OU Hiker Nob": {
             "nature": "Sassy",
             "ability": "Guts",
             "level": 19,
@@ -8266,7 +8267,7 @@ var SETDEX_SV = {
         }
     },
     "Manectric": {
-        "Manectric-1 [394]": {
+        "OU Manectric-1 [394]": {
             "item": "Magnet",
             "level": 100,
             "moves": [
@@ -8277,7 +8278,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Manectric-2 [490]": {
+        "OU Manectric-2 [490]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -8288,7 +8289,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Manectric-3 [586]": {
+        "OU Manectric-3 [586]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -8298,7 +8299,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Manectric-4 [682]": {
+        "OU Manectric-4 [682]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -8310,7 +8311,7 @@ var SETDEX_SV = {
         }
     },
     "Mankey": {
-        "Mankey-1 [82]": {
+        "OU Mankey-1 [82]": {
             "item": "Black Belt",
             "level": 100,
             "moves": [
@@ -8323,7 +8324,7 @@ var SETDEX_SV = {
         }
     },
     "Mantine": {
-        "Mantine-1 [246]": {
+        "OU Mantine-1 [246]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -8334,7 +8335,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Mantine-2 [351]": {
+        "OU Mantine-2 [351]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -8344,7 +8345,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Leader Misty": {
+        "OU Leader Misty": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 27,
@@ -8356,7 +8357,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "Sis And Bro Lia & Luc": {
+        "OU Sis And Bro Lia & Luc": {
             "nature": "Modest",
             "ability": "Water Absorb",
             "level": 64,
@@ -8369,7 +8370,7 @@ var SETDEX_SV = {
         }
     },
     "Mareep": {
-        "Mareep-1 [50]": {
+        "OU Mareep-1 [50]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -8382,7 +8383,7 @@ var SETDEX_SV = {
         }
     },
     "Marill": {
-        "Marill-1 [29]": {
+        "OU Marill-1 [29]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -8395,7 +8396,7 @@ var SETDEX_SV = {
         }
     },
     "Marowak": {
-        "Marowak-1 [388]": {
+        "OU Marowak-1 [388]": {
             "item": "Thick Club",
             "level": 100,
             "moves": [
@@ -8406,7 +8407,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Marowak-2 [471]": {
+        "OU Marowak-2 [471]": {
             "item": "Thick Club",
             "level": 100,
             "moves": [
@@ -8417,7 +8418,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Marowak-3 [580]": {
+        "OU Marowak-3 [580]": {
             "item": "Thick Club",
             "level": 100,
             "moves": [
@@ -8428,7 +8429,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Marowak-4 [676]": {
+        "OU Marowak-4 [676]": {
             "item": "Thick Club",
             "level": 100,
             "moves": [
@@ -8439,7 +8440,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Rock Head",
             "level": 46,
@@ -8452,7 +8453,7 @@ var SETDEX_SV = {
         }
     },
     "Marshtomp": {
-        "Marshtomp-1 [191]": {
+        "OU Marshtomp-1 [191]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8463,7 +8464,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Marshtomp-2 [296]": {
+        "OU Marshtomp-2 [296]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8476,7 +8477,7 @@ var SETDEX_SV = {
         }
     },
     "Masquerain": {
-        "Masquerain-1 [199]": {
+        "OU Masquerain-1 [199]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -8487,7 +8488,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Masquerain-2 [304]": {
+        "OU Masquerain-2 [304]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -8497,7 +8498,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Sailor Trevor": {
+        "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Intimidate",
             "level": 28,
@@ -8509,7 +8510,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "PkMn Trainer Brendan": {
+        "OU PkMn Trainer Brendan": {
             "nature": "Modest",
             "ability": "Intimidate",
             "level": 55,
@@ -8521,7 +8522,7 @@ var SETDEX_SV = {
                 "Stun Spore"
             ]
         },
-        "Bug Catcher Elijah": {
+        "OU Bug Catcher Elijah": {
             "nature": "Rash",
             "ability": "Intimidate",
             "level": 24,
@@ -8534,7 +8535,7 @@ var SETDEX_SV = {
         }
     },
     "Mawile": {
-        "Mawile-1 [153]": {
+        "OU Mawile-1 [153]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -8545,7 +8546,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Hiker Clark": {
+        "OU Hiker Clark": {
             "nature": "Quiet",
             "ability": "Intimidate",
             "level": 35,
@@ -8556,7 +8557,7 @@ var SETDEX_SV = {
                 "Vise Grip"
             ]
         },
-        "*Lass Sally": {
+        "OU *Lass Sally": {
             "nature": "Impish",
             "ability": "Intimidate",
             "level": 21,
@@ -8570,7 +8571,7 @@ var SETDEX_SV = {
         }
     },
     "Medicham": {
-        "Medicham-1 [374]": {
+        "OU Medicham-1 [374]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8581,7 +8582,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Medicham-2 [470]": {
+        "OU Medicham-2 [470]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -8592,7 +8593,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Medicham-3 [566]": {
+        "OU Medicham-3 [566]": {
             "level": 100,
             "moves": [
                 "Dynamic Punch",
@@ -8602,7 +8603,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Medicham-4 [662]": {
+        "OU Medicham-4 [662]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -8614,7 +8615,7 @@ var SETDEX_SV = {
         }
     },
     "Meditite": {
-        "Meditite-1 [51]": {
+        "OU Meditite-1 [51]": {
             "item": "Mental Herb",
             "level": 100,
             "moves": [
@@ -8625,7 +8626,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Pure Power",
             "level": 14,
@@ -8637,7 +8638,7 @@ var SETDEX_SV = {
                 "Rock Tomb"
             ]
         },
-        "Sailor Phillip": {
+        "OU Sailor Phillip": {
             "nature": "Serious",
             "ability": "Pure Power",
             "level": 29,
@@ -8650,7 +8651,7 @@ var SETDEX_SV = {
         }
     },
     "Meganium": {
-        "Meganium-1 [446]": {
+        "OU Meganium-1 [446]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -8661,7 +8662,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Meganium-2 [542]": {
+        "OU Meganium-2 [542]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -8672,7 +8673,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Meganium-3 [638]": {
+        "OU Meganium-3 [638]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -8683,7 +8684,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Meganium-4 [734]": {
+        "OU Meganium-4 [734]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -8696,7 +8697,7 @@ var SETDEX_SV = {
         }
     },
     "Meowth": {
-        "Meowth-1 [57]": {
+        "OU Meowth-1 [57]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -8707,7 +8708,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Lass Andrea": {
+        "OU Lass Andrea": {
             "nature": "Modest",
             "ability": "Pickup",
             "level": 36,
@@ -8720,7 +8721,7 @@ var SETDEX_SV = {
         }
     },
     "Metagross": {
-        "Metagross-1 [467]": {
+        "OU Metagross-1 [467]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -8731,7 +8732,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Metagross-2 [563]": {
+        "OU Metagross-2 [563]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -8741,7 +8742,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Metagross-3 [659]": {
+        "OU Metagross-3 [659]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -8752,7 +8753,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Metagross-4 [755]": {
+        "OU Metagross-4 [755]": {
             "level": 100,
             "moves": [
                 "Meteor Mash",
@@ -8762,7 +8763,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Metagross-5 [833]": {
+        "OU Metagross-5 [833]": {
             "level": 100,
             "moves": [
                 "Explosion",
@@ -8772,7 +8773,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Metagross-6 [834]": {
+        "OU Metagross-6 [834]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -8783,7 +8784,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Metagross-7 [835]": {
+        "OU Metagross-7 [835]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -8793,7 +8794,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Metagross-8 [836]": {
+        "OU Metagross-8 [836]": {
             "level": 100,
             "moves": [
                 "Meteor Mash",
@@ -8803,7 +8804,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Metagross-Boss [Tucker Gold]": {
+        "OU Metagross-Boss [Tucker Gold]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -8813,7 +8814,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "*Ace Trainer George": {
+        "OU *Ace Trainer George": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 85,
@@ -8827,7 +8828,7 @@ var SETDEX_SV = {
         }
     },
     "Metang": {
-        "Metang-1 [207]": {
+        "OU Metang-1 [207]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8838,7 +8839,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Metang-2 [312]": {
+        "OU Metang-2 [312]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8851,7 +8852,7 @@ var SETDEX_SV = {
         }
     },
     "Metapod": {
-        "Metapod-1 [9]": {
+        "OU Metapod-1 [9]": {
             "level": 100,
             "moves": [
                 "Harden",
@@ -8861,7 +8862,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bashful"
         },
-        "Bug Catcher Charlie": {
+        "OU Bug Catcher Charlie": {
             "nature": "Careful",
             "ability": "Shed Skin",
             "level": 8,
@@ -8872,7 +8873,7 @@ var SETDEX_SV = {
         }
     },
     "Mightyena": {
-        "Mightyena-1 [203]": {
+        "OU Mightyena-1 [203]": {
             "item": "Mental Herb",
             "level": 100,
             "moves": [
@@ -8883,7 +8884,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "Mightyena-2 [308]": {
+        "OU Mightyena-2 [308]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -8894,7 +8895,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Quiet",
             "ability": "Strong Jaw",
             "level": 42,
@@ -8905,7 +8906,7 @@ var SETDEX_SV = {
                 "Yawn"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Hardy",
             "ability": "Intimidate",
             "level": 46,
@@ -8916,7 +8917,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "Pokemaniac Cooprt": {
+        "OU Pokemaniac Cooprt": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 34,
@@ -8927,7 +8928,7 @@ var SETDEX_SV = {
                 "Yawn"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Strong Jaw",
             "level": 21,
@@ -8941,7 +8942,7 @@ var SETDEX_SV = {
         }
     },
     "Milotic": {
-        "Milotic-1 [464]": {
+        "OU Milotic-1 [464]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -8951,7 +8952,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Milotic-2 [560]": {
+        "OU Milotic-2 [560]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -8962,7 +8963,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Milotic-3 [656]": {
+        "OU Milotic-3 [656]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -8973,7 +8974,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Milotic-4 [752]": {
+        "OU Milotic-4 [752]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -8984,7 +8985,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Milotic-Boss [Lucy Silver]": {
+        "OU Milotic-Boss [Lucy Silver]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -8995,7 +8996,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*SwimmerF Amara": {
+        "OU *SwimmerF Amara": {
             "nature": "Modest",
             "ability": "Competitive",
             "level": 100,
@@ -9007,7 +9008,7 @@ var SETDEX_SV = {
                 "Ice Beam"
             ]
         },
-        "*SwimmerM Garrett": {
+        "OU *SwimmerM Garrett": {
             "nature": "Timid",
             "ability": "Competitive",
             "level": 98,
@@ -9016,7 +9017,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Fisherman Wade": {
+        "OU Fisherman Wade": {
             "nature": "Bashful",
             "ability": "Marvel Scale",
             "level": 63,
@@ -9027,7 +9028,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "*Dragon Tamer Ramiro": {
+        "OU *Dragon Tamer Ramiro": {
             "nature": "Modest",
             "ability": "Competitive",
             "level": 66,
@@ -9041,7 +9042,7 @@ var SETDEX_SV = {
         }
     },
     "Miltank": {
-        "Miltank-1 [412]": {
+        "OU Miltank-1 [412]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9052,7 +9053,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Miltank-2 [508]": {
+        "OU Miltank-2 [508]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -9063,7 +9064,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Miltank-3 [604]": {
+        "OU Miltank-3 [604]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -9074,7 +9075,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Miltank-4 [700]": {
+        "OU Miltank-4 [700]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -9084,7 +9085,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Jolly",
             "ability": "Thick Fat",
             "level": 100,
@@ -9098,7 +9099,7 @@ var SETDEX_SV = {
         }
     },
     "Minun": {
-        "Minun-1 [188]": {
+        "OU Minun-1 [188]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -9109,7 +9110,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Minun-2 [293]": {
+        "OU Minun-2 [293]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -9120,7 +9121,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Twins Joy & Meg": {
+        "OU *Twins Joy & Meg": {
             "nature": "Jolly",
             "ability": "Galvanize",
             "level": 100,
@@ -9132,7 +9133,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "Sailor Dwayne": {
+        "OU Sailor Dwayne": {
             "nature": "Impish",
             "ability": "Minus",
             "level": 28,
@@ -9145,7 +9146,7 @@ var SETDEX_SV = {
         }
     },
     "Misdreavus": {
-        "Misdreavus-1 [375]": {
+        "OU Misdreavus-1 [375]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9156,7 +9157,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Misdreavus-2 [473]": {
+        "OU Misdreavus-2 [473]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -9167,7 +9168,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Misdreavus-3 [567]": {
+        "OU Misdreavus-3 [567]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -9178,7 +9179,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Misdreavus-4 [663]": {
+        "OU Misdreavus-4 [663]": {
             "level": 100,
             "moves": [
                 "Destiny Bond",
@@ -9188,7 +9189,7 @@ var SETDEX_SV = {
             ],
             "nature": "Timid"
         },
-        "Channeler Laurel": {
+        "OU Channeler Laurel": {
             "nature": "Lonely",
             "ability": "Levitate",
             "level": 37,
@@ -9199,7 +9200,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Camper Ethan": {
+        "OU *Camper Ethan": {
             "nature": "Bashful",
             "ability": "Levitate",
             "level": 26,
@@ -9213,7 +9214,7 @@ var SETDEX_SV = {
         }
     },
     "Moltres": {
-        "Moltres-1 [759]": {
+        "OU Moltres-1 [759]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -9223,7 +9224,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Moltres-2 [770]": {
+        "OU Moltres-2 [770]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -9234,7 +9235,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Moltres-3 [781]": {
+        "OU Moltres-3 [781]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -9245,7 +9246,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Moltres-4 [792]": {
+        "OU Moltres-4 [792]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -9256,7 +9257,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Moltres-5 [875]": {
+        "OU Moltres-5 [875]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -9267,7 +9268,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Moltres-6 [876]": {
+        "OU Moltres-6 [876]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -9280,7 +9281,7 @@ var SETDEX_SV = {
         }
     },
     "Mr. Mime": {
-        "Mr. Mime-1 [381]": {
+        "OU Mr. Mime-1 [381]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -9291,7 +9292,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Mr. Mime-2 [479]": {
+        "OU Mr. Mime-2 [479]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -9302,7 +9303,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Mr. Mime-3 [573]": {
+        "OU Mr. Mime-3 [573]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -9313,7 +9314,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Mr. Mime-4 [669]": {
+        "OU Mr. Mime-4 [669]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -9324,7 +9325,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Juggler Dalton": {
+        "OU Juggler Dalton": {
             "nature": "Bold",
             "ability": "Soundproof",
             "level": 44,
@@ -9335,7 +9336,7 @@ var SETDEX_SV = {
                 "Sparkly Swirl"
             ]
         },
-        "Psychic Tyron": {
+        "OU Psychic Tyron": {
             "nature": "Naive",
             "ability": "Soundproof",
             "level": 53,
@@ -9346,7 +9347,7 @@ var SETDEX_SV = {
                 "Sparkly Swirl"
             ]
         },
-        "*Juggler Kayden": {
+        "OU *Juggler Kayden": {
             "nature": "Timid",
             "ability": "Misty Surge",
             "level": 68,
@@ -9358,7 +9359,7 @@ var SETDEX_SV = {
                 "Psyshock"
             ]
         },
-        "Juggler Gregory": {
+        "OU Juggler Gregory": {
             "nature": "Rash",
             "ability": "Soundproof",
             "level": 83,
@@ -9369,7 +9370,7 @@ var SETDEX_SV = {
         }
     },
     "Mudkip": {
-        "Mudkip-1 [97]": {
+        "OU Mudkip-1 [97]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9382,7 +9383,7 @@ var SETDEX_SV = {
         }
     },
     "Muk": {
-        "Muk-1 [421]": {
+        "OU Muk-1 [421]": {
             "item": "Poison Barb",
             "level": 100,
             "moves": [
@@ -9393,7 +9394,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Muk-2 [517]": {
+        "OU Muk-2 [517]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -9404,7 +9405,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Muk-3 [613]": {
+        "OU Muk-3 [613]": {
             "level": 100,
             "moves": [
                 "Sludge Bomb",
@@ -9414,7 +9415,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Muk-4 [709]": {
+        "OU Muk-4 [709]": {
             "level": 100,
             "moves": [
                 "Sludge Bomb",
@@ -9424,7 +9425,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Scientist Joshua": {
+        "OU Scientist Joshua": {
             "nature": "Timid",
             "ability": "Regenerator",
             "level": 46,
@@ -9435,7 +9436,7 @@ var SETDEX_SV = {
                 "Memento"
             ]
         },
-        "Biker Jaren": {
+        "OU Biker Jaren": {
             "nature": "Serious",
             "ability": "Regenerator",
             "level": 35,
@@ -9446,7 +9447,7 @@ var SETDEX_SV = {
                 "Memento"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Relaxed",
             "ability": "Sticky Hold",
             "level": 41,
@@ -9459,7 +9460,7 @@ var SETDEX_SV = {
         }
     },
     "Murkrow": {
-        "Murkrow-1 [185]": {
+        "OU Murkrow-1 [185]": {
             "level": 100,
             "moves": [
                 "Feint Attack",
@@ -9469,7 +9470,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Murkrow-2 [290]": {
+        "OU Murkrow-2 [290]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -9480,7 +9481,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bird Keeper Marlon": {
+        "OU Bird Keeper Marlon": {
             "nature": "Modest",
             "ability": "Insomnia",
             "level": 57,
@@ -9493,7 +9494,7 @@ var SETDEX_SV = {
         }
     },
     "Natu": {
-        "Natu-1 [107]": {
+        "OU Natu-1 [107]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -9506,7 +9507,7 @@ var SETDEX_SV = {
         }
     },
     "Nidoking": {
-        "Nidoking-1 [415]": {
+        "OU Nidoking-1 [415]": {
             "level": 100,
             "moves": [
                 "Horn Drill",
@@ -9516,7 +9517,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Nidoking-2 [511]": {
+        "OU Nidoking-2 [511]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -9526,7 +9527,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Nidoking-3 [607]": {
+        "OU Nidoking-3 [607]": {
             "item": "Leppa Berry",
             "level": 100,
             "moves": [
@@ -9537,7 +9538,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Nidoking-4 [703]": {
+        "OU Nidoking-4 [703]": {
             "level": 100,
             "moves": [
                 "Megahorn",
@@ -9547,7 +9548,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Tamer Edgar": {
+        "OU Tamer Edgar": {
             "nature": "Modest",
             "ability": "Poison Touch",
             "level": 62,
@@ -9558,7 +9559,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "*Crush Girl Sharon": {
+        "OU *Crush Girl Sharon": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 100,
@@ -9570,7 +9571,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 100,
@@ -9582,7 +9583,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "Leader Koga": {
+        "OU Leader Koga": {
             "nature": "Rash",
             "ability": "Sheer Force",
             "level": 68,
@@ -9594,7 +9595,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 47,
@@ -9606,7 +9607,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "Cue Ball Corey": {
+        "OU Cue Ball Corey": {
             "nature": "Quiet",
             "ability": "Rivalry",
             "level": 56,
@@ -9619,7 +9620,7 @@ var SETDEX_SV = {
         }
     },
     "Nidoqueen": {
-        "Nidoqueen-1 [414]": {
+        "OU Nidoqueen-1 [414]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9630,7 +9631,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Nidoqueen-2 [510]": {
+        "OU Nidoqueen-2 [510]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -9640,7 +9641,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Nidoqueen-3 [606]": {
+        "OU Nidoqueen-3 [606]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -9650,7 +9651,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Nidoqueen-4 [702]": {
+        "OU Nidoqueen-4 [702]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -9661,7 +9662,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Lonely",
             "ability": "Rivalry",
             "level": 47,
@@ -9672,7 +9673,7 @@ var SETDEX_SV = {
                 "Sludge"
             ]
         },
-        "*Rocker Luca": {
+        "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 66,
@@ -9684,7 +9685,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 66,
@@ -9696,7 +9697,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Sailor Trevor": {
+        "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 27,
@@ -9710,7 +9711,7 @@ var SETDEX_SV = {
         }
     },
     "Nidoran-F": {
-        "Nidoran-F-1 [48]": {
+        "OU Nidoran-F-1 [48]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -9721,7 +9722,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Lass Paige": {
+        "OU Lass Paige": {
             "nature": "Serious",
             "ability": "Poison Touch",
             "level": 37,
@@ -9732,7 +9733,7 @@ var SETDEX_SV = {
                 "Poison Fang"
             ]
         },
-        "Lass Janice": {
+        "OU Lass Janice": {
             "nature": "Modest",
             "ability": "Poison Touch",
             "level": 11,
@@ -9745,7 +9746,7 @@ var SETDEX_SV = {
         }
     },
     "Nidoran-M": {
-        "Nidoran-M-1 [47]": {
+        "OU Nidoran-M-1 [47]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -9758,7 +9759,7 @@ var SETDEX_SV = {
         }
     },
     "Nidorina": {
-        "Nidorina-1 [147]": {
+        "OU Nidorina-1 [147]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9769,7 +9770,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Picnicker Gwen": {
+        "OU Picnicker Gwen": {
             "nature": "Quirky",
             "ability": "Poison Touch",
             "level": 57,
@@ -9782,7 +9783,7 @@ var SETDEX_SV = {
         }
     },
     "Nidorino": {
-        "Nidorino-1 [148]": {
+        "OU Nidorino-1 [148]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9793,7 +9794,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Picnicker Kelsey": {
+        "OU Picnicker Kelsey": {
             "nature": "Sassy",
             "ability": "Poison Touch",
             "level": 18,
@@ -9804,7 +9805,7 @@ var SETDEX_SV = {
                 "Toxic Spikes"
             ]
         },
-        "Youngster Dave": {
+        "OU Youngster Dave": {
             "nature": "Docile",
             "ability": "Poison Touch",
             "level": 25,
@@ -9817,7 +9818,7 @@ var SETDEX_SV = {
         }
     },
     "Nincada": {
-        "Nincada-1 [42]": {
+        "OU Nincada-1 [42]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -9828,7 +9829,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Bug Catcher Greg": {
+        "OU Bug Catcher Greg": {
             "nature": "Brave",
             "ability": "Compound Eyes",
             "level": 11,
@@ -9841,7 +9842,7 @@ var SETDEX_SV = {
         }
     },
     "Ninetales": {
-        "Ninetales-1 [431]": {
+        "OU Ninetales-1 [431]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -9852,7 +9853,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Ninetales-2 [527]": {
+        "OU Ninetales-2 [527]": {
             "level": 100,
             "moves": [
                 "Heat Wave",
@@ -9862,7 +9863,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Ninetales-3 [623]": {
+        "OU Ninetales-3 [623]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -9873,7 +9874,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Ninetales-4 [719]": {
+        "OU Ninetales-4 [719]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -9884,7 +9885,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Super Nerd Erik": {
+        "OU Super Nerd Erik": {
             "nature": "Hardy",
             "ability": "Flash Fire",
             "level": 72,
@@ -9895,7 +9896,7 @@ var SETDEX_SV = {
                 "Safeguard"
             ]
         },
-        "Young Couple Lea & Jed": {
+        "OU Young Couple Lea & Jed": {
             "nature": "Modest",
             "ability": "Flash Fire",
             "level": 40,
@@ -9906,7 +9907,7 @@ var SETDEX_SV = {
                 "Safeguard"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Drought",
             "level": 79,
@@ -9918,7 +9919,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Pokemaniac Herman": {
+        "OU *Pokemaniac Herman": {
             "nature": "Timid",
             "ability": "Drought",
             "level": 34,
@@ -9932,7 +9933,7 @@ var SETDEX_SV = {
         }
     },
     "Ninjask": {
-        "Ninjask-1 [239]": {
+        "OU Ninjask-1 [239]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -9943,7 +9944,7 @@ var SETDEX_SV = {
             ],
             "nature": "Mild"
         },
-        "Ninjask-2 [344]": {
+        "OU Ninjask-2 [344]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -9954,7 +9955,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Relaxed",
             "ability": "Speed Boost",
             "level": 38,
@@ -9965,7 +9966,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Modest",
             "ability": "Speed Boost",
             "level": 48,
@@ -9978,7 +9979,7 @@ var SETDEX_SV = {
         }
     },
     "Noctowl": {
-        "Noctowl-1 [225]": {
+        "OU Noctowl-1 [225]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -9989,7 +9990,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Noctowl-2 [330]": {
+        "OU Noctowl-2 [330]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -10002,7 +10003,7 @@ var SETDEX_SV = {
         }
     },
     "Nosepass": {
-        "Nosepass-1 [151]": {
+        "OU Nosepass-1 [151]": {
             "item": "Hard Stone",
             "level": 100,
             "moves": [
@@ -10013,7 +10014,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Hiker Marcos": {
+        "OU Hiker Marcos": {
             "nature": "Bold",
             "ability": "Sturdy",
             "level": 15,
@@ -10026,7 +10027,7 @@ var SETDEX_SV = {
         }
     },
     "Numel": {
-        "Numel-1 [86]": {
+        "OU Numel-1 [86]": {
             "level": 100,
             "moves": [
                 "Ember",
@@ -10036,7 +10037,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Lonely",
             "ability": "Simple",
             "level": 15,
@@ -10048,7 +10049,7 @@ var SETDEX_SV = {
                 "Rock Tomb"
             ]
         },
-        "Gambler Stan": {
+        "OU Gambler Stan": {
             "nature": "Relaxed",
             "ability": "Oblivious",
             "level": 37,
@@ -10061,7 +10062,7 @@ var SETDEX_SV = {
         }
     },
     "Nuzleaf": {
-        "Nuzleaf-1 [131]": {
+        "OU Nuzleaf-1 [131]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10072,7 +10073,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Lass Kay": {
+        "OU Lass Kay": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
             "level": 38,
@@ -10085,7 +10086,7 @@ var SETDEX_SV = {
         }
     },
     "Octillery": {
-        "Octillery-1 [257]": {
+        "OU Octillery-1 [257]": {
             "level": 100,
             "moves": [
                 "Octazooka",
@@ -10095,7 +10096,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Octillery-2 [362]": {
+        "OU Octillery-2 [362]": {
             "level": 100,
             "moves": [
                 "Octazooka",
@@ -10105,7 +10106,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*SwimmerF Abigail": {
+        "OU *SwimmerF Abigail": {
             "nature": "Modest",
             "ability": "Mega Launcher",
             "level": 99,
@@ -10119,7 +10120,7 @@ var SETDEX_SV = {
         }
     },
     "Oddish": {
-        "Oddish-1 [103]": {
+        "OU Oddish-1 [103]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -10130,7 +10131,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Beauty Bridget": {
+        "OU Beauty Bridget": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 37,
@@ -10143,7 +10144,7 @@ var SETDEX_SV = {
         }
     },
     "Omanyte": {
-        "Omanyte-1 [139]": {
+        "OU Omanyte-1 [139]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10156,7 +10157,7 @@ var SETDEX_SV = {
         }
     },
     "Omastar": {
-        "Omastar-1 [261]": {
+        "OU Omastar-1 [261]": {
             "level": 100,
             "moves": [
                 "Bubble Beam",
@@ -10166,7 +10167,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Omastar-2 [366]": {
+        "OU Omastar-2 [366]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10177,7 +10178,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Scientist Travis": {
+        "OU Scientist Travis": {
             "nature": "Mild",
             "ability": "Swift Swim",
             "level": 45,
@@ -10188,7 +10189,7 @@ var SETDEX_SV = {
                 "Tickle"
             ]
         },
-        "*Ace Trainer Wilton": {
+        "OU *Ace Trainer Wilton": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 66,
@@ -10202,7 +10203,7 @@ var SETDEX_SV = {
         }
     },
     "Onix": {
-        "Onix-1 [157]": {
+        "OU Onix-1 [157]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10215,7 +10216,7 @@ var SETDEX_SV = {
         }
     },
     "Paras": {
-        "Paras-1 [53]": {
+        "OU Paras-1 [53]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10228,7 +10229,7 @@ var SETDEX_SV = {
         }
     },
     "Parasect": {
-        "Parasect-1 [178]": {
+        "OU Parasect-1 [178]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10239,7 +10240,7 @@ var SETDEX_SV = {
             ],
             "nature": "Rash"
         },
-        "Parasect-2 [283]": {
+        "OU Parasect-2 [283]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -10250,7 +10251,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Lass Crissy": {
+        "OU Lass Crissy": {
             "nature": "Adamant",
             "ability": "Effect Spore",
             "level": 59,
@@ -10263,7 +10264,7 @@ var SETDEX_SV = {
         }
     },
     "Pelipper": {
-        "Pelipper-1 [214]": {
+        "OU Pelipper-1 [214]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10274,7 +10275,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Pelipper-2 [319]": {
+        "OU Pelipper-2 [319]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -10284,7 +10285,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Drizzle",
             "level": 55,
@@ -10296,7 +10297,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "Bird Keeper Roger": {
+        "OU Bird Keeper Roger": {
             "nature": "Quirky",
             "ability": "Frisk",
             "level": 63,
@@ -10307,7 +10308,7 @@ var SETDEX_SV = {
                 "Spit Up"
             ]
         },
-        "*Ace Trainer Janny": {
+        "OU *Ace Trainer Janny": {
             "nature": "Calm",
             "ability": "Drizzle",
             "level": 100,
@@ -10319,7 +10320,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*SwimmerF Tisha": {
+        "OU *SwimmerF Tisha": {
             "nature": "Bold",
             "ability": "Drizzle",
             "level": 100,
@@ -10331,7 +10332,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Bird Keeper Beck": {
+        "OU Bird Keeper Beck": {
             "nature": "Lax",
             "ability": "Frisk",
             "level": 57,
@@ -10342,7 +10343,7 @@ var SETDEX_SV = {
                 "Spit Up"
             ]
         },
-        "SwimmerM Axle": {
+        "OU SwimmerM Axle": {
             "nature": "Adamant",
             "ability": "Frisk",
             "level": 62,
@@ -10355,7 +10356,7 @@ var SETDEX_SV = {
         }
     },
     "Persian": {
-        "Persian-1 [219]": {
+        "OU Persian-1 [219]": {
             "item": "Silk Scarf",
             "level": 100,
             "moves": [
@@ -10366,7 +10367,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Persian-2 [324]": {
+        "OU Persian-2 [324]": {
             "item": "Silk Scarf",
             "level": 100,
             "moves": [
@@ -10377,7 +10378,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*Burglar Anson": {
+        "OU *Burglar Anson": {
             "nature": "Timid",
             "ability": "Feline Prowess",
             "level": 80,
@@ -10389,7 +10390,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Tamer Vincent": {
+        "OU Tamer Vincent": {
             "nature": "Modest",
             "ability": "Limber",
             "level": 80,
@@ -10402,7 +10403,7 @@ var SETDEX_SV = {
         }
     },
     "Phanpy": {
-        "Phanpy-1 [121]": {
+        "OU Phanpy-1 [121]": {
             "level": 100,
             "moves": [
                 "Rollout",
@@ -10412,7 +10413,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Youngster Dillon": {
+        "OU Youngster Dillon": {
             "nature": "Naughty",
             "ability": "Pickup",
             "level": 25,
@@ -10423,7 +10424,7 @@ var SETDEX_SV = {
                 "Last Resort"
             ]
         },
-        "Hiker Nob": {
+        "OU Hiker Nob": {
             "nature": "Modest",
             "ability": "Pickup",
             "level": 18,
@@ -10436,7 +10437,7 @@ var SETDEX_SV = {
         }
     },
     "Pichu": {
-        "Pichu-1 [11]": {
+        "OU Pichu-1 [11]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10449,7 +10450,7 @@ var SETDEX_SV = {
         }
     },
     "Pidgeot": {
-        "Pidgeot-1 [251]": {
+        "OU Pidgeot-1 [251]": {
             "item": "Sharp Beak",
             "level": 100,
             "moves": [
@@ -10460,7 +10461,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Pidgeot-2 [356]": {
+        "OU Pidgeot-2 [356]": {
             "level": 100,
             "moves": [
                 "Return",
@@ -10470,7 +10471,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Bird Keeper Edwin": {
+        "OU Bird Keeper Edwin": {
             "nature": "Bold",
             "ability": "Frisk",
             "level": 57,
@@ -10483,7 +10484,7 @@ var SETDEX_SV = {
         }
     },
     "Pidgeotto": {
-        "Pidgeotto-1 [136]": {
+        "OU Pidgeotto-1 [136]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -10494,7 +10495,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bird Keeper Edwin": {
+        "OU Bird Keeper Edwin": {
             "nature": "Relaxed",
             "ability": "Frisk",
             "level": 57,
@@ -10507,7 +10508,7 @@ var SETDEX_SV = {
         }
     },
     "Pidgey": {
-        "Pidgey-1 [34]": {
+        "OU Pidgey-1 [34]": {
             "item": "Sharp Beak",
             "level": 100,
             "moves": [
@@ -10520,7 +10521,7 @@ var SETDEX_SV = {
         }
     },
     "Pikachu": {
-        "Pikachu-1 [67]": {
+        "OU Pikachu-1 [67]": {
             "item": "Light Ball",
             "level": 100,
             "moves": [
@@ -10531,7 +10532,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Picnicker Heidi": {
+        "OU Picnicker Heidi": {
             "nature": "Mild",
             "ability": "Static",
             "level": 30,
@@ -10544,7 +10545,7 @@ var SETDEX_SV = {
         }
     },
     "Piloswine": {
-        "Piloswine-1 [231]": {
+        "OU Piloswine-1 [231]": {
             "item": "Soft Sand",
             "level": 100,
             "moves": [
@@ -10555,7 +10556,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Piloswine-2 [336]": {
+        "OU Piloswine-2 [336]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -10567,7 +10568,7 @@ var SETDEX_SV = {
         }
     },
     "Pineco": {
-        "Pineco-1 [58]": {
+        "OU Pineco-1 [58]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -10580,7 +10581,7 @@ var SETDEX_SV = {
         }
     },
     "Pinsir": {
-        "Pinsir-1 [265]": {
+        "OU Pinsir-1 [265]": {
             "item": "Black Belt",
             "level": 100,
             "moves": [
@@ -10591,7 +10592,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naughty"
         },
-        "Pinsir-2 [370]": {
+        "OU Pinsir-2 [370]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -10604,7 +10605,7 @@ var SETDEX_SV = {
         }
     },
     "Plusle": {
-        "Plusle-1 [187]": {
+        "OU Plusle-1 [187]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -10615,7 +10616,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Plusle-2 [292]": {
+        "OU Plusle-2 [292]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -10626,7 +10627,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Youngster Timmy": {
+        "OU *Youngster Timmy": {
             "nature": "Timid",
             "ability": "Plus",
             "level": 26,
@@ -10638,7 +10639,7 @@ var SETDEX_SV = {
                 "Signal Beam"
             ]
         },
-        "*Twins Joy & Meg": {
+        "OU *Twins Joy & Meg": {
             "nature": "Timid",
             "ability": "Transistor",
             "level": 100,
@@ -10650,7 +10651,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Transistor",
             "level": 28,
@@ -10662,7 +10663,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "Sailor Dwayne": {
+        "OU Sailor Dwayne": {
             "nature": "Calm",
             "ability": "Plus",
             "level": 28,
@@ -10675,7 +10676,7 @@ var SETDEX_SV = {
         }
     },
     "Politoed": {
-        "Politoed-1 [266]": {
+        "OU Politoed-1 [266]": {
             "level": 100,
             "moves": [
                 "Dive",
@@ -10685,7 +10686,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Politoed-2 [371]": {
+        "OU Politoed-2 [371]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -10695,7 +10696,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Leader Misty": {
+        "OU Leader Misty": {
             "nature": "Sassy",
             "ability": "Drizzle",
             "level": 27,
@@ -10707,7 +10708,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "SwimmerF Shirley": {
+        "OU SwimmerF Shirley": {
             "nature": "Hasty",
             "ability": "Damp",
             "level": 63,
@@ -10720,7 +10721,7 @@ var SETDEX_SV = {
         }
     },
     "Poliwag": {
-        "Poliwag-1 [69]": {
+        "OU Poliwag-1 [69]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -10733,7 +10734,7 @@ var SETDEX_SV = {
         }
     },
     "Poliwhirl": {
-        "Poliwhirl-1 [156]": {
+        "OU Poliwhirl-1 [156]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -10744,7 +10745,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "SwimmerF Shirley": {
+        "OU SwimmerF Shirley": {
             "nature": "Impish",
             "ability": "Water Absorb",
             "level": 64,
@@ -10755,7 +10756,7 @@ var SETDEX_SV = {
                 "Wake-Up Slap"
             ]
         },
-        "Fisherman Ned": {
+        "OU Fisherman Ned": {
             "nature": "Adamant",
             "ability": "Damp",
             "level": 34,
@@ -10766,7 +10767,7 @@ var SETDEX_SV = {
                 "Wake-Up Slap"
             ]
         },
-        "SwimmerM Roland": {
+        "OU SwimmerM Roland": {
             "nature": "Timid",
             "ability": "Water Absorb",
             "level": 63,
@@ -10777,7 +10778,7 @@ var SETDEX_SV = {
                 "Wake-Up Slap"
             ]
         },
-        "SwimmerM Matthew": {
+        "OU SwimmerM Matthew": {
             "nature": "Naughty",
             "ability": "Water Absorb",
             "level": 63,
@@ -10788,7 +10789,7 @@ var SETDEX_SV = {
                 "Wake-Up Slap"
             ]
         },
-        "Gambler Stan": {
+        "OU Gambler Stan": {
             "nature": "Naughty",
             "ability": "Water Absorb",
             "level": 35,
@@ -10799,7 +10800,7 @@ var SETDEX_SV = {
                 "Wake-Up Slap"
             ]
         },
-        "Gambler Hugo": {
+        "OU Gambler Hugo": {
             "nature": "Hasty",
             "ability": "Water Absorb",
             "level": 25,
@@ -10810,7 +10811,7 @@ var SETDEX_SV = {
                 "Wake-Up Slap"
             ]
         },
-        "Picnicker Leah": {
+        "OU Picnicker Leah": {
             "nature": "Relaxed",
             "ability": "Water Absorb",
             "level": 35,
@@ -10823,7 +10824,7 @@ var SETDEX_SV = {
         }
     },
     "Poliwrath": {
-        "Poliwrath-1 [263]": {
+        "OU Poliwrath-1 [263]": {
             "item": "Black Belt",
             "level": 100,
             "moves": [
@@ -10834,7 +10835,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Poliwrath-2 [368]": {
+        "OU Poliwrath-2 [368]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -10845,7 +10846,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Black Belt Mike": {
+        "OU Black Belt Mike": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 46,
@@ -10857,7 +10858,7 @@ var SETDEX_SV = {
                 "Surging Strikes"
             ]
         },
-        "SwimmerF Shirley": {
+        "OU SwimmerF Shirley": {
             "nature": "Modest",
             "ability": "Water Absorb",
             "level": 64,
@@ -10868,7 +10869,7 @@ var SETDEX_SV = {
                 "Surging Strikes"
             ]
         },
-        "Cue Ball Raul": {
+        "OU Cue Ball Raul": {
             "nature": "Quiet",
             "ability": "Water Absorb",
             "level": 55,
@@ -10881,7 +10882,7 @@ var SETDEX_SV = {
         }
     },
     "Ponyta": {
-        "Ponyta-1 [192]": {
+        "OU Ponyta-1 [192]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -10892,7 +10893,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Ponyta-2 [297]": {
+        "OU Ponyta-2 [297]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10903,7 +10904,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Gentleman Lamar": {
+        "OU Gentleman Lamar": {
             "nature": "Hasty",
             "ability": "Run Away",
             "level": 27,
@@ -10914,7 +10915,7 @@ var SETDEX_SV = {
                 "Flare Blitz"
             ]
         },
-        "Gambler Stan": {
+        "OU Gambler Stan": {
             "nature": "Relaxed",
             "ability": "Run Away",
             "level": 36,
@@ -10925,7 +10926,7 @@ var SETDEX_SV = {
                 "Flare Blitz"
             ]
         },
-        "Camper Chris": {
+        "OU Camper Chris": {
             "nature": "Impish",
             "ability": "Run Away",
             "level": 29,
@@ -10938,7 +10939,7 @@ var SETDEX_SV = {
         }
     },
     "Poochyena": {
-        "Poochyena-1 [21]": {
+        "OU Poochyena-1 [21]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -10951,7 +10952,7 @@ var SETDEX_SV = {
         }
     },
     "Porygon": {
-        "Porygon-1 [169]": {
+        "OU Porygon-1 [169]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -10962,7 +10963,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Porygon-2 [274]": {
+        "OU Porygon-2 [274]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -10973,7 +10974,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Scientist Jerry": {
+        "OU Scientist Jerry": {
             "nature": "Gentle",
             "ability": "Trace",
             "level": 48,
@@ -10984,7 +10985,7 @@ var SETDEX_SV = {
                 "Zap Cannon"
             ]
         },
-        "Pokemaniac Cooprt": {
+        "OU Pokemaniac Cooprt": {
             "nature": "Jolly",
             "ability": "Trace",
             "level": 35,
@@ -10997,7 +10998,7 @@ var SETDEX_SV = {
         }
     },
     "Porygon2": {
-        "Porygon2-1 [437]": {
+        "OU Porygon2-1 [437]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11008,7 +11009,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Porygon2-2 [533]": {
+        "OU Porygon2-2 [533]": {
             "level": 100,
             "moves": [
                 "Solar Beam",
@@ -11018,7 +11019,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Porygon2-3 [629]": {
+        "OU Porygon2-3 [629]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -11028,7 +11029,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Porygon2-4 [725]": {
+        "OU Porygon2-4 [725]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11039,7 +11040,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Bold",
             "ability": "Trace",
             "level": 66,
@@ -11051,7 +11052,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "Scientist Jose": {
+        "OU Scientist Jose": {
             "nature": "Modest",
             "ability": "Trace",
             "level": 45,
@@ -11064,7 +11065,7 @@ var SETDEX_SV = {
         }
     },
     "Primeape": {
-        "Primeape-1 [233]": {
+        "OU Primeape-1 [233]": {
             "level": 100,
             "moves": [
                 "Karate Chop",
@@ -11074,7 +11075,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Primeape-2 [338]": {
+        "OU Primeape-2 [338]": {
             "level": 100,
             "moves": [
                 "Cross Chop",
@@ -11086,7 +11087,7 @@ var SETDEX_SV = {
         }
     },
     "Psyduck": {
-        "Psyduck-1 [104]": {
+        "OU Psyduck-1 [104]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -11099,7 +11100,7 @@ var SETDEX_SV = {
         }
     },
     "Pupitar": {
-        "Pupitar-1 [196]": {
+        "OU Pupitar-1 [196]": {
             "item": "Soft Sand",
             "level": 100,
             "moves": [
@@ -11110,7 +11111,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Pupitar-2 [301]": {
+        "OU Pupitar-2 [301]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -11122,7 +11123,7 @@ var SETDEX_SV = {
         }
     },
     "Quagsire": {
-        "Quagsire-1 [389]": {
+        "OU Quagsire-1 [389]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -11133,7 +11134,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Quagsire-2 [472]": {
+        "OU Quagsire-2 [472]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11144,7 +11145,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Quagsire-3 [581]": {
+        "OU Quagsire-3 [581]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -11154,7 +11155,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Quagsire-4 [677]": {
+        "OU Quagsire-4 [677]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11165,7 +11166,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "SwimmerF Anya": {
+        "OU SwimmerF Anya": {
             "nature": "Naughty",
             "ability": "Damp",
             "level": 62,
@@ -11176,7 +11177,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "Hiker Trent": {
+        "OU Hiker Trent": {
             "nature": "Lax",
             "ability": "Water Absorb",
             "level": 35,
@@ -11189,7 +11190,7 @@ var SETDEX_SV = {
         }
     },
     "Quilava": {
-        "Quilava-1 [182]": {
+        "OU Quilava-1 [182]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -11200,7 +11201,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Quilava-2 [287]": {
+        "OU Quilava-2 [287]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11213,7 +11214,7 @@ var SETDEX_SV = {
         }
     },
     "Qwilfish": {
-        "Qwilfish-1 [212]": {
+        "OU Qwilfish-1 [212]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -11224,7 +11225,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Qwilfish-2 [317]": {
+        "OU Qwilfish-2 [317]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -11235,7 +11236,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Biker Jaxon": {
+        "OU Biker Jaxon": {
             "nature": "Gentle",
             "ability": "Swift Swim",
             "level": 57,
@@ -11248,7 +11249,7 @@ var SETDEX_SV = {
         }
     },
     "Raichu": {
-        "Raichu-1 [392]": {
+        "OU Raichu-1 [392]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11259,7 +11260,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raichu-2 [488]": {
+        "OU Raichu-2 [488]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -11269,7 +11270,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Raichu-3 [584]": {
+        "OU Raichu-3 [584]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -11280,7 +11281,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Raichu-4 [680]": {
+        "OU Raichu-4 [680]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11291,7 +11292,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Picnicker Becky": {
+        "OU Picnicker Becky": {
             "nature": "Docile",
             "ability": "Static",
             "level": 57,
@@ -11304,7 +11305,7 @@ var SETDEX_SV = {
         }
     },
     "Raikou": {
-        "Raikou-1 [760]": {
+        "OU Raikou-1 [760]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11315,7 +11316,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raikou-2 [771]": {
+        "OU Raikou-2 [771]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11326,7 +11327,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raikou-3 [782]": {
+        "OU Raikou-3 [782]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -11337,7 +11338,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raikou-4 [793]": {
+        "OU Raikou-4 [793]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -11347,7 +11348,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raikou-5 [877]": {
+        "OU Raikou-5 [877]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11358,7 +11359,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raikou-6 [878]": {
+        "OU Raikou-6 [878]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11369,7 +11370,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Raikou-Boss [Anabel Gold]": {
+        "OU Raikou-Boss [Anabel Gold]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -11379,7 +11380,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Ace Trainer Janny": {
+        "OU *Ace Trainer Janny": {
             "nature": "Timid",
             "ability": "Inner Focus",
             "level": 100,
@@ -11391,7 +11392,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Inner Focus",
             "level": 66,
@@ -11405,7 +11406,7 @@ var SETDEX_SV = {
         }
     },
     "Ralts": {
-        "Ralts-1 [6]": {
+        "OU Ralts-1 [6]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -11418,7 +11419,7 @@ var SETDEX_SV = {
         }
     },
     "Rapidash": {
-        "Rapidash-1 [420]": {
+        "OU Rapidash-1 [420]": {
             "item": "Charcoal",
             "level": 100,
             "moves": [
@@ -11429,7 +11430,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Rapidash-2 [516]": {
+        "OU Rapidash-2 [516]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11440,7 +11441,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Rapidash-3 [612]": {
+        "OU Rapidash-3 [612]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -11451,7 +11452,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Rapidash-4 [708]": {
+        "OU Rapidash-4 [708]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -11462,7 +11463,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Cue Ball Jamal": {
+        "OU Cue Ball Jamal": {
             "nature": "Modest",
             "ability": "Flash Fire",
             "level": 55,
@@ -11473,7 +11474,7 @@ var SETDEX_SV = {
                 "Jump Kick"
             ]
         },
-        "Super Nerd Erik": {
+        "OU Super Nerd Erik": {
             "nature": "Mild",
             "ability": "Reckless",
             "level": 73,
@@ -11484,7 +11485,7 @@ var SETDEX_SV = {
                 "Jump Kick"
             ]
         },
-        "*Bird Keeper Perry": {
+        "OU *Bird Keeper Perry": {
             "nature": "Jolly",
             "ability": "Blazing Soul",
             "level": 66,
@@ -11496,7 +11497,7 @@ var SETDEX_SV = {
                 "Solar Blade"
             ]
         },
-        "Young Couple Lea & Jed": {
+        "OU Young Couple Lea & Jed": {
             "nature": "Mild",
             "ability": "Reckless",
             "level": 40,
@@ -11509,7 +11510,7 @@ var SETDEX_SV = {
         }
     },
     "Raticate": {
-        "Raticate-1 [198]": {
+        "OU Raticate-1 [198]": {
             "item": "Silk Scarf",
             "level": 100,
             "moves": [
@@ -11520,7 +11521,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naive"
         },
-        "Raticate-2 [303]": {
+        "OU Raticate-2 [303]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -11531,7 +11532,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Guts",
             "level": 27,
@@ -11543,7 +11544,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Youngster Joey": {
+        "OU Youngster Joey": {
             "nature": "Bashful",
             "ability": "Run Away",
             "level": 18,
@@ -11554,7 +11555,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Docile",
             "ability": "Run Away",
             "level": 40,
@@ -11567,7 +11568,7 @@ var SETDEX_SV = {
         }
     },
     "Rattata": {
-        "Rattata-1 [35]": {
+        "OU Rattata-1 [35]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -11578,7 +11579,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Youngster Yasu": {
+        "OU Youngster Yasu": {
             "nature": "Hasty",
             "ability": "Run Away",
             "level": 25,
@@ -11589,7 +11590,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Youngster Ben": {
+        "OU Youngster Ben": {
             "nature": "Impish",
             "ability": "Run Away",
             "level": 11,
@@ -11600,7 +11601,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Impish",
             "ability": "Run Away",
             "level": 15,
@@ -11613,7 +11614,7 @@ var SETDEX_SV = {
         }
     },
     "Regice": {
-        "Regice-1 [764]": {
+        "OU Regice-1 [764]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11624,7 +11625,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Regice-2 [775]": {
+        "OU Regice-2 [775]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11635,7 +11636,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Regice-3 [786]": {
+        "OU Regice-3 [786]": {
             "level": 100,
             "moves": [
                 "Ice Beam",
@@ -11645,7 +11646,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Regice-4 [797]": {
+        "OU Regice-4 [797]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11656,7 +11657,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Regice-5 [839]": {
+        "OU Regice-5 [839]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11667,7 +11668,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Regice-6 [840]": {
+        "OU Regice-6 [840]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11678,7 +11679,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Regice-Boss [Brandon Silver]": {
+        "OU Regice-Boss [Brandon Silver]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11689,7 +11690,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*Dragon Tamer Ramiro": {
+        "OU *Dragon Tamer Ramiro": {
             "nature": "Bold",
             "ability": "Filter",
             "level": 66,
@@ -11703,7 +11704,7 @@ var SETDEX_SV = {
         }
     },
     "Regirock": {
-        "Regirock-1 [763]": {
+        "OU Regirock-1 [763]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -11714,7 +11715,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Regirock-2 [774]": {
+        "OU Regirock-2 [774]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -11724,7 +11725,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Regirock-3 [785]": {
+        "OU Regirock-3 [785]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11735,7 +11736,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Regirock-4 [796]": {
+        "OU Regirock-4 [796]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11746,7 +11747,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Regirock-5 [837]": {
+        "OU Regirock-5 [837]": {
             "level": 100,
             "moves": [
                 "Hyper Beam",
@@ -11756,7 +11757,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Regirock-6 [838]": {
+        "OU Regirock-6 [838]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11767,7 +11768,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Regirock-Boss [Brandon Silver]": {
+        "OU Regirock-Boss [Brandon Silver]": {
             "level": 100,
             "moves": [
                 "Explosion",
@@ -11779,7 +11780,7 @@ var SETDEX_SV = {
         }
     },
     "Registeel": {
-        "Registeel-1 [765]": {
+        "OU Registeel-1 [765]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11790,7 +11791,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Registeel-2 [776]": {
+        "OU Registeel-2 [776]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -11801,7 +11802,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Registeel-3 [787]": {
+        "OU Registeel-3 [787]": {
             "level": 100,
             "moves": [
                 "Ancient Power",
@@ -11811,7 +11812,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Registeel-4 [798]": {
+        "OU Registeel-4 [798]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11822,7 +11823,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Registeel-5 [841]": {
+        "OU Registeel-5 [841]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11833,7 +11834,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Registeel-6 [842]": {
+        "OU Registeel-6 [842]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -11844,7 +11845,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Registeel-Boss [Brandon Silver]": {
+        "OU Registeel-Boss [Brandon Silver]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -11857,7 +11858,7 @@ var SETDEX_SV = {
         }
     },
     "Relicanth": {
-        "Relicanth-1 [260]": {
+        "OU Relicanth-1 [260]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -11868,7 +11869,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Relicanth-2 [365]": {
+        "OU Relicanth-2 [365]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -11881,7 +11882,7 @@ var SETDEX_SV = {
         }
     },
     "Remoraid": {
-        "Remoraid-1 [74]": {
+        "OU Remoraid-1 [74]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -11894,7 +11895,7 @@ var SETDEX_SV = {
         }
     },
     "Rhydon": {
-        "Rhydon-1 [404]": {
+        "OU Rhydon-1 [404]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -11904,7 +11905,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Rhydon-2 [500]": {
+        "OU Rhydon-2 [500]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -11914,7 +11915,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Rhydon-3 [596]": {
+        "OU Rhydon-3 [596]": {
             "level": 100,
             "moves": [
                 "Megahorn",
@@ -11924,7 +11925,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Rhydon-4 [692]": {
+        "OU Rhydon-4 [692]": {
             "level": 100,
             "moves": [
                 "Megahorn",
@@ -11934,7 +11935,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Biker Isaac": {
+        "OU Biker Isaac": {
             "nature": "Docile",
             "ability": "Lightning Rod",
             "level": 57,
@@ -11947,7 +11948,7 @@ var SETDEX_SV = {
         }
     },
     "Rhyhorn": {
-        "Rhyhorn-1 [134]": {
+        "OU Rhyhorn-1 [134]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -11958,7 +11959,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Hiker Trent": {
+        "OU Hiker Trent": {
             "nature": "Modest",
             "ability": "Lightning Rod",
             "level": 34,
@@ -11971,7 +11972,7 @@ var SETDEX_SV = {
         }
     },
     "Roselia": {
-        "Roselia-1 [172]": {
+        "OU Roselia-1 [172]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -11982,7 +11983,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Roselia-2 [277]": {
+        "OU Roselia-2 [277]": {
             "level": 100,
             "moves": [
                 "Giga Drain",
@@ -11992,7 +11993,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Picnicker Ariana": {
+        "OU Picnicker Ariana": {
             "nature": "Brave",
             "ability": "Natural Cure",
             "level": 35,
@@ -12003,7 +12004,7 @@ var SETDEX_SV = {
                 "Synthesis"
             ]
         },
-        "Beauty Bridget": {
+        "OU Beauty Bridget": {
             "nature": "Calm",
             "ability": "Poison Touch",
             "level": 38,
@@ -12016,7 +12017,7 @@ var SETDEX_SV = {
         }
     },
     "Sableye": {
-        "Sableye-1 [164]": {
+        "OU Sableye-1 [164]": {
             "item": "Black Glasses",
             "level": 100,
             "moves": [
@@ -12027,7 +12028,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Sableye-2 [269]": {
+        "OU Sableye-2 [269]": {
             "level": 100,
             "moves": [
                 "Shadow Ball",
@@ -12037,7 +12038,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*Super Nerd Miguel": {
+        "OU *Super Nerd Miguel": {
             "nature": "Careful",
             "ability": "Prankster",
             "level": 22,
@@ -12051,7 +12052,7 @@ var SETDEX_SV = {
         }
     },
     "Salamence": {
-        "Salamence-1 [466]": {
+        "OU Salamence-1 [466]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -12062,7 +12063,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Salamence-2 [562]": {
+        "OU Salamence-2 [562]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -12073,7 +12074,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Salamence-3 [658]": {
+        "OU Salamence-3 [658]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -12084,7 +12085,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Salamence-4 [754]": {
+        "OU Salamence-4 [754]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -12095,7 +12096,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Salamence-5 [829]": {
+        "OU Salamence-5 [829]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -12106,7 +12107,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Salamence-6 [830]": {
+        "OU Salamence-6 [830]": {
             "level": 100,
             "moves": [
                 "Headbutt",
@@ -12116,7 +12117,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Salamence-7 [831]": {
+        "OU Salamence-7 [831]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -12126,7 +12127,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Salamence-8 [832]": {
+        "OU Salamence-8 [832]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -12137,7 +12138,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Salamence-Boss [Tucker Silver]": {
+        "OU Salamence-Boss [Tucker Silver]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -12147,7 +12148,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Biker William": {
+        "OU *Biker William": {
             "nature": "Naive",
             "ability": "Intimidate",
             "level": 66,
@@ -12161,7 +12162,7 @@ var SETDEX_SV = {
         }
     },
     "Sandshrew": {
-        "Sandshrew-1 [68]": {
+        "OU Sandshrew-1 [68]": {
             "item": "Soft Sand",
             "level": 100,
             "moves": [
@@ -12174,7 +12175,7 @@ var SETDEX_SV = {
         }
     },
     "Sandslash": {
-        "Sandslash-1 [226]": {
+        "OU Sandslash-1 [226]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -12185,7 +12186,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Sandslash-2 [331]": {
+        "OU Sandslash-2 [331]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -12195,7 +12196,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Sand Veil",
             "level": 47,
@@ -12208,7 +12209,7 @@ var SETDEX_SV = {
         }
     },
     "Sceptile": {
-        "Sceptile-1 [454]": {
+        "OU Sceptile-1 [454]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -12219,7 +12220,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Sceptile-2 [550]": {
+        "OU Sceptile-2 [550]": {
             "level": 100,
             "moves": [
                 "Leaf Blade",
@@ -12229,7 +12230,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Sceptile-3 [646]": {
+        "OU Sceptile-3 [646]": {
             "level": 100,
             "moves": [
                 "Leaf Blade",
@@ -12239,7 +12240,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Sceptile-4 [742]": {
+        "OU Sceptile-4 [742]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -12250,7 +12251,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Jolly",
             "ability": "Overgrow",
             "level": 28,
@@ -12264,7 +12265,7 @@ var SETDEX_SV = {
         }
     },
     "Scizor": {
-        "Scizor-1 [424]": {
+        "OU Scizor-1 [424]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12275,7 +12276,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Scizor-2 [520]": {
+        "OU Scizor-2 [520]": {
             "level": 100,
             "moves": [
                 "Silver Wind",
@@ -12285,7 +12286,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Scizor-3 [616]": {
+        "OU Scizor-3 [616]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12296,7 +12297,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Scizor-4 [712]": {
+        "OU Scizor-4 [712]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -12307,7 +12308,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "*Dumbass Kid": {
+        "OU *Dumbass Kid": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 59,
@@ -12319,7 +12320,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*PkMn Ranger Beth": {
+        "OU *PkMn Ranger Beth": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 100,
@@ -12331,7 +12332,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Careful",
             "ability": "Technician",
             "level": 28,
@@ -12345,7 +12346,7 @@ var SETDEX_SV = {
         }
     },
     "Scyther": {
-        "Scyther-1 [264]": {
+        "OU Scyther-1 [264]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -12356,7 +12357,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Scyther-2 [369]": {
+        "OU Scyther-2 [369]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -12367,7 +12368,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Leader Bugsy Set 1": {
+        "OU *Leader Bugsy Set 1": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 28,
@@ -12379,7 +12380,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Bugsy Set 2": {
+        "OU *Leader Bugsy Set 2": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 44,
@@ -12393,7 +12394,7 @@ var SETDEX_SV = {
         }
     },
     "Seadra": {
-        "Seadra-1 [220]": {
+        "OU Seadra-1 [220]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -12404,7 +12405,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Seadra-2 [325]": {
+        "OU Seadra-2 [325]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -12414,7 +12415,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "SwimmerM Tony": {
+        "OU SwimmerM Tony": {
             "nature": "Naive",
             "ability": "Poison Touch",
             "level": 61,
@@ -12425,7 +12426,7 @@ var SETDEX_SV = {
                 "Dragon Pulse"
             ]
         },
-        "SwimmerM Darrin Set 1": {
+        "OU SwimmerM Darrin Set 1": {
             "nature": "Hardy",
             "ability": "Poison Touch",
             "level": 62,
@@ -12436,7 +12437,7 @@ var SETDEX_SV = {
                 "Dragon Pulse"
             ]
         },
-        "SwimmerM Darrin Set 2": {
+        "OU SwimmerM Darrin Set 2": {
             "nature": "Hardy",
             "ability": "Poison Touch",
             "level": 64,
@@ -12447,7 +12448,7 @@ var SETDEX_SV = {
                 "Dragon Pulse"
             ]
         },
-        "SwimmerF Nora": {
+        "OU SwimmerF Nora": {
             "nature": "Quirky",
             "ability": "Poison Touch",
             "level": 65,
@@ -12458,7 +12459,7 @@ var SETDEX_SV = {
                 "Dragon Pulse"
             ]
         },
-        "Fisherman Elliot": {
+        "OU Fisherman Elliot": {
             "nature": "Hardy",
             "ability": "Poison Touch",
             "level": 35,
@@ -12471,7 +12472,7 @@ var SETDEX_SV = {
         }
     },
     "Seaking": {
-        "Seaking-1 [229]": {
+        "OU Seaking-1 [229]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -12482,7 +12483,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Seaking-2 [334]": {
+        "OU Seaking-2 [334]": {
             "level": 100,
             "moves": [
                 "Horn Drill",
@@ -12492,7 +12493,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "SwimmerM Reece": {
+        "OU SwimmerM Reece": {
             "nature": "Naughty",
             "ability": "Lightning Rod",
             "level": 58,
@@ -12503,7 +12504,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "SwimmerF Anya": {
+        "OU SwimmerF Anya": {
             "nature": "Lonely",
             "ability": "Lightning Rod",
             "level": 61,
@@ -12514,7 +12515,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "Fisherman Ronald": {
+        "OU Fisherman Ronald": {
             "nature": "Bold",
             "ability": "Lightning Rod",
             "level": 64,
@@ -12525,7 +12526,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "Fisherman Ned": {
+        "OU Fisherman Ned": {
             "nature": "Bold",
             "ability": "Lightning Rod",
             "level": 35,
@@ -12538,7 +12539,7 @@ var SETDEX_SV = {
         }
     },
     "Sealeo": {
-        "Sealeo-1 [197]": {
+        "OU Sealeo-1 [197]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -12549,7 +12550,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Sealeo-2 [302]": {
+        "OU Sealeo-2 [302]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -12562,7 +12563,7 @@ var SETDEX_SV = {
         }
     },
     "Seedot": {
-        "Seedot-1 [19]": {
+        "OU Seedot-1 [19]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12575,7 +12576,7 @@ var SETDEX_SV = {
         }
     },
     "Seel": {
-        "Seel-1 [110]": {
+        "OU Seel-1 [110]": {
             "item": "Aspear Berry",
             "level": 100,
             "moves": [
@@ -12588,7 +12589,7 @@ var SETDEX_SV = {
         }
     },
     "Sentret": {
-        "Sentret-1 [17]": {
+        "OU Sentret-1 [17]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -12601,7 +12602,7 @@ var SETDEX_SV = {
         }
     },
     "Seviper": {
-        "Seviper-1 [240]": {
+        "OU Seviper-1 [240]": {
             "level": 100,
             "moves": [
                 "Poison Tail",
@@ -12611,7 +12612,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Seviper-2 [345]": {
+        "OU Seviper-2 [345]": {
             "level": 100,
             "moves": [
                 "Sludge Bomb",
@@ -12621,7 +12622,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Seviper-Boss [Lucy Gold]": {
+        "OU Seviper-Boss [Lucy Gold]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12632,7 +12633,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Seviper-Boss [Lucy Silver]": {
+        "OU Seviper-Boss [Lucy Silver]": {
             "level": 100,
             "moves": [
                 "Swagger",
@@ -12642,7 +12643,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Biker Malik": {
+        "OU Biker Malik": {
             "nature": "Relaxed",
             "ability": "Merciless",
             "level": 57,
@@ -12653,7 +12654,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Fatal Precision",
             "level": 21,
@@ -12665,7 +12666,7 @@ var SETDEX_SV = {
                 "Poison Fang"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Hasty",
             "ability": "Merciless",
             "level": 45,
@@ -12676,7 +12677,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "Cue Ball Isaiah": {
+        "OU Cue Ball Isaiah": {
             "nature": "Hasty",
             "ability": "Merciless",
             "level": 55,
@@ -12687,7 +12688,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "Tamer Phil": {
+        "OU Tamer Phil": {
             "nature": "Modest",
             "ability": "Merciless",
             "level": 63,
@@ -12700,7 +12701,7 @@ var SETDEX_SV = {
         }
     },
     "Sharpedo": {
-        "Sharpedo-1 [243]": {
+        "OU Sharpedo-1 [243]": {
             "level": 100,
             "moves": [
                 "Slash",
@@ -12710,7 +12711,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Sharpedo-2 [348]": {
+        "OU Sharpedo-2 [348]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -12720,7 +12721,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "SwimmerM Reece": {
+        "OU SwimmerM Reece": {
             "nature": "Hasty",
             "ability": "Rough Skin",
             "level": 58,
@@ -12731,7 +12732,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "Fisherman Ronald": {
+        "OU Fisherman Ronald": {
             "nature": "Lonely",
             "ability": "Rough Skin",
             "level": 64,
@@ -12742,7 +12743,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "Sis And Bro Lil & Ian": {
+        "OU Sis And Bro Lil & Ian": {
             "nature": "Lonely",
             "ability": "Rough Skin",
             "level": 65,
@@ -12753,7 +12754,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Rough Skin",
             "level": 47,
@@ -12766,7 +12767,7 @@ var SETDEX_SV = {
         }
     },
     "Shedinja": {
-        "Shedinja-1 [22]": {
+        "OU Shedinja-1 [22]": {
             "level": 100,
             "moves": [
                 "Shadow Ball",
@@ -12776,7 +12777,7 @@ var SETDEX_SV = {
             ],
             "nature": "Naive"
         },
-        "Shedinja-Boss [Greta Silver]": {
+        "OU Shedinja-Boss [Greta Silver]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -12787,7 +12788,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Wonder Guard",
             "level": 48,
@@ -12798,7 +12799,7 @@ var SETDEX_SV = {
                 "Pounce"
             ]
         },
-        "*Ace Trainer Naomi": {
+        "OU *Ace Trainer Naomi": {
             "nature": "Adamant",
             "ability": "Wonder Guard",
             "level": 85,
@@ -12810,7 +12811,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "Channeler Angelica": {
+        "OU Channeler Angelica": {
             "nature": "Brave",
             "ability": "Wonder Guard",
             "level": 37,
@@ -12821,7 +12822,7 @@ var SETDEX_SV = {
                 "Pounce"
             ]
         },
-        "Friendly Teacher Set 1": {
+        "OU Friendly Teacher Set 1": {
             "nature": "Jolly",
             "ability": "Wonder Guard",
             "level": 100,
@@ -12831,7 +12832,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "Friendly Teacher Set 2": {
+        "OU Friendly Teacher Set 2": {
             "nature": "Jolly",
             "ability": "Wonder Guard",
             "level": 100,
@@ -12841,7 +12842,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "Dumbass Creator": {
+        "OU Dumbass Creator": {
             "nature": "Jolly",
             "ability": "Wonder Guard",
             "level": 250,
@@ -12852,7 +12853,7 @@ var SETDEX_SV = {
         }
     },
     "Shelgon": {
-        "Shelgon-1 [206]": {
+        "OU Shelgon-1 [206]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -12863,7 +12864,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Shelgon-2 [311]": {
+        "OU Shelgon-2 [311]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12876,7 +12877,7 @@ var SETDEX_SV = {
         }
     },
     "Shellder": {
-        "Shellder-1 [84]": {
+        "OU Shellder-1 [84]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -12887,7 +12888,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "SwimmerM Barry": {
+        "OU SwimmerM Barry": {
             "nature": "Gentle",
             "ability": "Shell Armor",
             "level": 63,
@@ -12898,7 +12899,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "Fisherman Ronald": {
+        "OU Fisherman Ronald": {
             "nature": "Hasty",
             "ability": "Shell Armor",
             "level": 64,
@@ -12909,7 +12910,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "SwimmerM Luis": {
+        "OU SwimmerM Luis": {
             "nature": "Modest",
             "ability": "Shell Armor",
             "level": 19,
@@ -12922,7 +12923,7 @@ var SETDEX_SV = {
         }
     },
     "Shiftry": {
-        "Shiftry-1 [399]": {
+        "OU Shiftry-1 [399]": {
             "item": "Miracle Seed",
             "level": 100,
             "moves": [
@@ -12933,7 +12934,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Shiftry-2 [495]": {
+        "OU Shiftry-2 [495]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -12944,7 +12945,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Shiftry-3 [591]": {
+        "OU Shiftry-3 [591]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12955,7 +12956,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Shiftry-4 [687]": {
+        "OU Shiftry-4 [687]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -12966,7 +12967,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Wind Rider",
             "level": 47,
@@ -12978,7 +12979,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "*Picnicker Susie": {
+        "OU *Picnicker Susie": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
             "level": 66,
@@ -12990,7 +12991,7 @@ var SETDEX_SV = {
                 "Solar Blade"
             ]
         },
-        "*Burglar Anson": {
+        "OU *Burglar Anson": {
             "nature": "Jolly",
             "ability": "Wind Rider",
             "level": 80,
@@ -13004,7 +13005,7 @@ var SETDEX_SV = {
         }
     },
     "Shroomish": {
-        "Shroomish-1 [62]": {
+        "OU Shroomish-1 [62]": {
             "item": "Miracle Seed",
             "level": 100,
             "moves": [
@@ -13015,7 +13016,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Youngster Chad": {
+        "OU Youngster Chad": {
             "nature": "Lonely",
             "ability": "Effect Spore",
             "level": 21,
@@ -13028,7 +13029,7 @@ var SETDEX_SV = {
         }
     },
     "Shuckle": {
-        "Shuckle-1 [433]": {
+        "OU Shuckle-1 [433]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13039,7 +13040,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Shuckle-2 [529]": {
+        "OU Shuckle-2 [529]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13050,7 +13051,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Shuckle-3 [625]": {
+        "OU Shuckle-3 [625]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13061,7 +13062,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Shuckle-4 [721]": {
+        "OU Shuckle-4 [721]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13072,7 +13073,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Shuckle-Boss [Lucy Silver]": {
+        "OU Shuckle-Boss [Lucy Silver]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13083,7 +13084,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Hiker Oliver": {
+        "OU Hiker Oliver": {
             "nature": "Rash",
             "ability": "Sturdy",
             "level": 35,
@@ -13094,7 +13095,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Leader Clair": {
+        "OU Leader Clair": {
             "nature": "Impish",
             "ability": "Solid Rock",
             "level": 81,
@@ -13108,7 +13109,7 @@ var SETDEX_SV = {
         }
     },
     "Shuppet": {
-        "Shuppet-1 [63]": {
+        "OU Shuppet-1 [63]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -13121,7 +13122,7 @@ var SETDEX_SV = {
         }
     },
     "Silcoon": {
-        "Silcoon-1 [12]": {
+        "OU Silcoon-1 [12]": {
             "level": 100,
             "moves": [
                 "Harden",
@@ -13133,7 +13134,7 @@ var SETDEX_SV = {
         }
     },
     "Skarmory": {
-        "Skarmory-1 [387]": {
+        "OU Skarmory-1 [387]": {
             "level": 100,
             "moves": [
                 "Steel Wing",
@@ -13143,7 +13144,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Skarmory-2 [483]": {
+        "OU Skarmory-2 [483]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -13154,7 +13155,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Skarmory-3 [579]": {
+        "OU Skarmory-3 [579]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13165,7 +13166,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Skarmory-4 [675]": {
+        "OU Skarmory-4 [675]": {
             "level": 100,
             "moves": [
                 "Drill Peck",
@@ -13177,7 +13178,7 @@ var SETDEX_SV = {
         }
     },
     "Skiploom": {
-        "Skiploom-1 [130]": {
+        "OU Skiploom-1 [130]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -13190,7 +13191,7 @@ var SETDEX_SV = {
         }
     },
     "Skitty": {
-        "Skitty-1 [37]": {
+        "OU Skitty-1 [37]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -13203,7 +13204,7 @@ var SETDEX_SV = {
         }
     },
     "Slaking": {
-        "Slaking-1 [468]": {
+        "OU Slaking-1 [468]": {
             "level": 100,
             "moves": [
                 "Yawn",
@@ -13213,7 +13214,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Slaking-2 [564]": {
+        "OU Slaking-2 [564]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13224,7 +13225,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Slaking-3 [660]": {
+        "OU Slaking-3 [660]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -13235,7 +13236,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Slaking-4 [756]": {
+        "OU Slaking-4 [756]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -13245,7 +13246,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Slaking-Boss [Spenser Gold]": {
+        "OU Slaking-Boss [Spenser Gold]": {
             "level": 100,
             "moves": [
                 "Hyper Beam",
@@ -13255,7 +13256,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Slaking-Boss [Spenser Silver]": {
+        "OU Slaking-Boss [Spenser Silver]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -13265,7 +13266,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Truant",
             "level": 47,
@@ -13277,7 +13278,7 @@ var SETDEX_SV = {
                 "Knock Off"
             ]
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Jolly",
             "ability": "Truant",
             "level": 28,
@@ -13291,7 +13292,7 @@ var SETDEX_SV = {
         }
     },
     "Slakoth": {
-        "Slakoth-1 [52]": {
+        "OU Slakoth-1 [52]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13304,7 +13305,7 @@ var SETDEX_SV = {
         }
     },
     "Slowbro": {
-        "Slowbro-1 [410]": {
+        "OU Slowbro-1 [410]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -13314,7 +13315,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Slowbro-2 [506]": {
+        "OU Slowbro-2 [506]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13325,7 +13326,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Slowbro-3 [602]": {
+        "OU Slowbro-3 [602]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -13335,7 +13336,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Slowbro-4 [698]": {
+        "OU Slowbro-4 [698]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -13345,7 +13346,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "PkMn Trainer May": {
+        "OU PkMn Trainer May": {
             "nature": "Bold",
             "ability": "Regenerator",
             "level": 73,
@@ -13357,7 +13358,7 @@ var SETDEX_SV = {
                 "Teleport"
             ]
         },
-        "SwimmerM Matthew": {
+        "OU SwimmerM Matthew": {
             "nature": "Modest",
             "ability": "Own Tempo",
             "level": 63,
@@ -13368,7 +13369,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "Psychic Cameron": {
+        "OU Psychic Cameron": {
             "nature": "Naive",
             "ability": "Oblivious",
             "level": 54,
@@ -13379,7 +13380,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Bold",
             "ability": "Regenerator",
             "level": 79,
@@ -13393,7 +13394,7 @@ var SETDEX_SV = {
         }
     },
     "Slowking": {
-        "Slowking-1 [411]": {
+        "OU Slowking-1 [411]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13404,7 +13405,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Slowking-2 [507]": {
+        "OU Slowking-2 [507]": {
             "level": 100,
             "moves": [
                 "Yawn",
@@ -13414,7 +13415,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Slowking-3 [603]": {
+        "OU Slowking-3 [603]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -13424,7 +13425,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Slowking-4 [699]": {
+        "OU Slowking-4 [699]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -13434,7 +13435,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Psychic Cameron": {
+        "OU Psychic Cameron": {
             "nature": "Naive",
             "ability": "Oblivious",
             "level": 53,
@@ -13445,7 +13446,7 @@ var SETDEX_SV = {
                 "Trump Card"
             ]
         },
-        "SwimmerF Melissa": {
+        "OU SwimmerF Melissa": {
             "nature": "Jolly",
             "ability": "Oblivious",
             "level": 64,
@@ -13458,7 +13459,7 @@ var SETDEX_SV = {
         }
     },
     "Slowpoke": {
-        "Slowpoke-1 [100]": {
+        "OU Slowpoke-1 [100]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -13469,7 +13470,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Youngster Dan": {
+        "OU Youngster Dan": {
             "nature": "Adamant",
             "ability": "Oblivious",
             "level": 21,
@@ -13480,7 +13481,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Bold",
             "ability": "Regenerator",
             "level": 15,
@@ -13494,7 +13495,7 @@ var SETDEX_SV = {
         }
     },
     "Slugma": {
-        "Slugma-1 [31]": {
+        "OU Slugma-1 [31]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -13507,7 +13508,7 @@ var SETDEX_SV = {
         }
     },
     "Smeargle": {
-        "Smeargle-1 [33]": {
+        "OU Smeargle-1 [33]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -13518,7 +13519,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Picnicker Caitlin": {
+        "OU *Picnicker Caitlin": {
             "nature": "Jolly",
             "ability": "Own Tempo",
             "level": 36,
@@ -13532,7 +13533,7 @@ var SETDEX_SV = {
         }
     },
     "Smoochum": {
-        "Smoochum-1 [85]": {
+        "OU Smoochum-1 [85]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -13543,7 +13544,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Lass Megan": {
+        "OU Lass Megan": {
             "nature": "Impish",
             "ability": "Oblivious",
             "level": 35,
@@ -13556,7 +13557,7 @@ var SETDEX_SV = {
         }
     },
     "Sneasel": {
-        "Sneasel-1 [213]": {
+        "OU Sneasel-1 [213]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -13567,7 +13568,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Sneasel-2 [318]": {
+        "OU Sneasel-2 [318]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -13580,7 +13581,7 @@ var SETDEX_SV = {
         }
     },
     "Snorlax": {
-        "Snorlax-1 [461]": {
+        "OU Snorlax-1 [461]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13591,7 +13592,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-2 [557]": {
+        "OU Snorlax-2 [557]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13602,7 +13603,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-3 [653]": {
+        "OU Snorlax-3 [653]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -13612,7 +13613,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-4 [749]": {
+        "OU Snorlax-4 [749]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -13622,7 +13623,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-5 [825]": {
+        "OU Snorlax-5 [825]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -13632,7 +13633,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-6 [826]": {
+        "OU Snorlax-6 [826]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -13643,7 +13644,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-7 [827]": {
+        "OU Snorlax-7 [827]": {
             "level": 100,
             "moves": [
                 "Hyper Beam",
@@ -13653,7 +13654,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-8 [828]": {
+        "OU Snorlax-8 [828]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13664,7 +13665,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-Boss [Anabel Gold]": {
+        "OU Snorlax-Boss [Anabel Gold]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -13675,7 +13676,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Snorlax-Boss [Anabel Silver]": {
+        "OU Snorlax-Boss [Anabel Silver]": {
             "level": 100,
             "moves": [
                 "Body Slam",
@@ -13685,7 +13686,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "PkMn Trainer May": {
+        "OU PkMn Trainer May": {
             "nature": "Careful",
             "ability": "Thick Fat",
             "level": 73,
@@ -13697,7 +13698,7 @@ var SETDEX_SV = {
                 "Rest"
             ]
         },
-        "Dumbass Gambler": {
+        "OU Dumbass Gambler": {
             "nature": "Impish",
             "ability": "Thick Fat",
             "level": 100,
@@ -13706,7 +13707,7 @@ var SETDEX_SV = {
                 "Metronome"
             ]
         },
-        "*PkMn Trainer Red": {
+        "OU *PkMn Trainer Red": {
             "nature": "Adamant",
             "ability": "Thick Fat",
             "level": 100,
@@ -13720,7 +13721,7 @@ var SETDEX_SV = {
         }
     },
     "Snorunt": {
-        "Snorunt-1 [77]": {
+        "OU Snorunt-1 [77]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -13731,7 +13732,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Picnicker Sofia": {
+        "OU Picnicker Sofia": {
             "nature": "Rash",
             "ability": "Ice Body",
             "level": 34,
@@ -13744,7 +13745,7 @@ var SETDEX_SV = {
         }
     },
     "Snubbull": {
-        "Snubbull-1 [73]": {
+        "OU Snubbull-1 [73]": {
             "level": 100,
             "moves": [
                 "Bite",
@@ -13754,7 +13755,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 15,
@@ -13768,7 +13769,7 @@ var SETDEX_SV = {
         }
     },
     "Solrock": {
-        "Solrock-1 [224]": {
+        "OU Solrock-1 [224]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -13779,7 +13780,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Solrock-2 [329]": {
+        "OU Solrock-2 [329]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -13792,7 +13793,7 @@ var SETDEX_SV = {
         }
     },
     "Spearow": {
-        "Spearow-1 [38]": {
+        "OU Spearow-1 [38]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -13805,7 +13806,7 @@ var SETDEX_SV = {
         }
     },
     "Spheal": {
-        "Spheal-1 [60]": {
+        "OU Spheal-1 [60]": {
             "level": 100,
             "moves": [
                 "Ice Ball",
@@ -13817,7 +13818,7 @@ var SETDEX_SV = {
         }
     },
     "Spinarak": {
-        "Spinarak-1 [28]": {
+        "OU Spinarak-1 [28]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -13828,7 +13829,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bug Catcher Doug": {
+        "OU Bug Catcher Doug": {
             "nature": "Hasty",
             "ability": "Swarm",
             "level": 7,
@@ -13841,7 +13842,7 @@ var SETDEX_SV = {
         }
     },
     "Spinda": {
-        "Spinda-1 [146]": {
+        "OU Spinda-1 [146]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -13852,7 +13853,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Camper Drew": {
+        "OU Camper Drew": {
             "nature": "Jolly",
             "ability": "Own Tempo",
             "level": 28,
@@ -13863,7 +13864,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "*Picnicker Caitlin": {
+        "OU *Picnicker Caitlin": {
             "nature": "Jolly",
             "ability": "Contrary",
             "level": 36,
@@ -13874,7 +13875,7 @@ var SETDEX_SV = {
         }
     },
     "Spoink": {
-        "Spoink-1 [122]": {
+        "OU Spoink-1 [122]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -13887,7 +13888,7 @@ var SETDEX_SV = {
         }
     },
     "Squirtle": {
-        "Squirtle-1 [98]": {
+        "OU Squirtle-1 [98]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -13898,7 +13899,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Adamant",
             "ability": "Torrent",
             "level": 16,
@@ -13910,7 +13911,7 @@ var SETDEX_SV = {
                 "Rock Tomb"
             ]
         },
-        "Rival Blue": {
+        "OU Rival Blue": {
             "nature": "Modest",
             "ability": "Torrent",
             "level": 5,
@@ -13923,7 +13924,7 @@ var SETDEX_SV = {
         }
     },
     "Stantler": {
-        "Stantler-1 [247]": {
+        "OU Stantler-1 [247]": {
             "item": "Twisted Spoon",
             "level": 100,
             "moves": [
@@ -13934,7 +13935,7 @@ var SETDEX_SV = {
             ],
             "nature": "Gentle"
         },
-        "Stantler-2 [352]": {
+        "OU Stantler-2 [352]": {
             "level": 100,
             "moves": [
                 "Frustration",
@@ -13946,7 +13947,7 @@ var SETDEX_SV = {
         }
     },
     "Starmie": {
-        "Starmie-1 [440]": {
+        "OU Starmie-1 [440]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -13956,7 +13957,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Starmie-2 [536]": {
+        "OU Starmie-2 [536]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -13966,7 +13967,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Starmie-3 [632]": {
+        "OU Starmie-3 [632]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -13976,7 +13977,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Starmie-4 [728]": {
+        "OU Starmie-4 [728]": {
             "level": 100,
             "moves": [
                 "Psychic",
@@ -13986,7 +13987,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Starmie-5 [817]": {
+        "OU Starmie-5 [817]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -13996,7 +13997,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Starmie-6 [818]": {
+        "OU Starmie-6 [818]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14007,7 +14008,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Starmie-7 [819]": {
+        "OU Starmie-7 [819]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -14018,7 +14019,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Starmie-8 [820]": {
+        "OU Starmie-8 [820]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -14029,7 +14030,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "*SwimmerF Maria": {
+        "OU *SwimmerF Maria": {
             "nature": "Timid",
             "ability": "Illuminate",
             "level": 99,
@@ -14041,7 +14042,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Biker William": {
+        "OU *Biker William": {
             "nature": "Timid",
             "ability": "Analytic",
             "level": 66,
@@ -14053,7 +14054,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "Leader Misty": {
+        "OU Leader Misty": {
             "nature": "Modest",
             "ability": "Analytic",
             "level": 28,
@@ -14065,7 +14066,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "SwimmerM Reece": {
+        "OU SwimmerM Reece": {
             "nature": "Jolly",
             "ability": "Natural Cure",
             "level": 58,
@@ -14076,7 +14077,7 @@ var SETDEX_SV = {
                 "Recover"
             ]
         },
-        "*PkMn Trainer Haley": {
+        "OU *PkMn Trainer Haley": {
             "nature": "Timid",
             "ability": "Illuminate",
             "level": 68,
@@ -14088,7 +14089,7 @@ var SETDEX_SV = {
                 "Psyshock"
             ]
         },
-        "SwimmerM Jack": {
+        "OU SwimmerM Jack": {
             "nature": "Naive",
             "ability": "Natural Cure",
             "level": 65,
@@ -14099,7 +14100,7 @@ var SETDEX_SV = {
                 "Recover"
             ]
         },
-        "*Ace Trainer George": {
+        "OU *Ace Trainer George": {
             "nature": "Timid",
             "ability": "Illuminate",
             "level": 85,
@@ -14111,7 +14112,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "SwimmerM Axle": {
+        "OU SwimmerM Axle": {
             "nature": "Calm",
             "ability": "Natural Cure",
             "level": 62,
@@ -14124,7 +14125,7 @@ var SETDEX_SV = {
         }
     },
     "Staryu": {
-        "Staryu-1 [129]": {
+        "OU Staryu-1 [129]": {
             "level": 100,
             "moves": [
                 "Bubble Beam",
@@ -14136,7 +14137,7 @@ var SETDEX_SV = {
         }
     },
     "Steelix": {
-        "Steelix-1 [434]": {
+        "OU Steelix-1 [434]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -14147,7 +14148,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Steelix-2 [530]": {
+        "OU Steelix-2 [530]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14158,7 +14159,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Steelix-3 [626]": {
+        "OU Steelix-3 [626]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -14168,7 +14169,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Steelix-4 [722]": {
+        "OU Steelix-4 [722]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -14178,7 +14179,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Steelix-Boss [Lucy Gold]": {
+        "OU Steelix-Boss [Lucy Gold]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -14191,7 +14192,7 @@ var SETDEX_SV = {
         }
     },
     "Sudowoodo": {
-        "Sudowoodo-1 [194]": {
+        "OU Sudowoodo-1 [194]": {
             "item": "Hard Stone",
             "level": 100,
             "moves": [
@@ -14202,7 +14203,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Sudowoodo-2 [299]": {
+        "OU Sudowoodo-2 [299]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -14215,7 +14216,7 @@ var SETDEX_SV = {
         }
     },
     "Suicune": {
-        "Suicune-1 [762]": {
+        "OU Suicune-1 [762]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -14226,7 +14227,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Suicune-2 [773]": {
+        "OU Suicune-2 [773]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14237,7 +14238,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Suicune-3 [784]": {
+        "OU Suicune-3 [784]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -14247,7 +14248,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Suicune-4 [795]": {
+        "OU Suicune-4 [795]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -14258,7 +14259,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Suicune-5 [881]": {
+        "OU Suicune-5 [881]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -14268,7 +14269,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Suicune-6 [882]": {
+        "OU Suicune-6 [882]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -14279,7 +14280,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Suicune-Boss [Spenser Gold]": {
+        "OU Suicune-Boss [Spenser Gold]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -14292,7 +14293,7 @@ var SETDEX_SV = {
         }
     },
     "Sunflora": {
-        "Sunflora-1 [209]": {
+        "OU Sunflora-1 [209]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -14303,7 +14304,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Sunflora-2 [314]": {
+        "OU Sunflora-2 [314]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14314,7 +14315,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 82,
@@ -14326,7 +14327,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "*Bird Keeper Perry": {
+        "OU *Bird Keeper Perry": {
             "nature": "Calm",
             "ability": "Solar Power",
             "level": 66,
@@ -14338,7 +14339,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 79,
@@ -14352,7 +14353,7 @@ var SETDEX_SV = {
         }
     },
     "Sunkern": {
-        "Sunkern-1 [1]": {
+        "OU Sunkern-1 [1]": {
             "level": 100,
             "moves": [
                 "Mega Drain",
@@ -14364,7 +14365,7 @@ var SETDEX_SV = {
         }
     },
     "Surskit": {
-        "Surskit-1 [43]": {
+        "OU Surskit-1 [43]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -14375,7 +14376,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Bug Catcher James": {
+        "OU Bug Catcher James": {
             "nature": "Calm",
             "ability": "Swift Swim",
             "level": 13,
@@ -14386,7 +14387,7 @@ var SETDEX_SV = {
                 "Sticky Web"
             ]
         },
-        "Bug Catcher Anthony": {
+        "OU Bug Catcher Anthony": {
             "nature": "Gentle",
             "ability": "Swift Swim",
             "level": 7,
@@ -14399,7 +14400,7 @@ var SETDEX_SV = {
         }
     },
     "Swablu": {
-        "Swablu-1 [94]": {
+        "OU Swablu-1 [94]": {
             "item": "Mental Herb",
             "level": 100,
             "moves": [
@@ -14412,7 +14413,7 @@ var SETDEX_SV = {
         }
     },
     "Swalot": {
-        "Swalot-1 [249]": {
+        "OU Swalot-1 [249]": {
             "level": 100,
             "moves": [
                 "Stockpile",
@@ -14422,7 +14423,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Swalot-2 [354]": {
+        "OU Swalot-2 [354]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14433,7 +14434,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Biker Lukas": {
+        "OU Biker Lukas": {
             "nature": "Impish",
             "ability": "Liquid Ooze",
             "level": 56,
@@ -14444,7 +14445,7 @@ var SETDEX_SV = {
                 "Sludge Bomb"
             ]
         },
-        "Biker Jaxon": {
+        "OU Biker Jaxon": {
             "nature": "Rash",
             "ability": "Liquid Ooze",
             "level": 57,
@@ -14456,7 +14457,7 @@ var SETDEX_SV = {
         }
     },
     "Swampert": {
-        "Swampert-1 [459]": {
+        "OU Swampert-1 [459]": {
             "level": 100,
             "moves": [
                 "Earthquake",
@@ -14466,7 +14467,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Swampert-2 [555]": {
+        "OU Swampert-2 [555]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -14476,7 +14477,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Swampert-3 [651]": {
+        "OU Swampert-3 [651]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -14486,7 +14487,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Swampert-4 [747]": {
+        "OU Swampert-4 [747]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -14496,7 +14497,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Swampert-Boss [Tucker Gold]": {
+        "OU Swampert-Boss [Tucker Gold]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14507,7 +14508,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "Swampert-Boss [Tucker Silver]": {
+        "OU Swampert-Boss [Tucker Silver]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -14518,7 +14519,7 @@ var SETDEX_SV = {
             ],
             "nature": "Brave"
         },
-        "*Cue Ball Camron": {
+        "OU *Cue Ball Camron": {
             "nature": "Sassy",
             "ability": "Damp",
             "level": 65,
@@ -14530,7 +14531,7 @@ var SETDEX_SV = {
                 "Yawn"
             ]
         },
-        "SwimmerM Dean": {
+        "OU SwimmerM Dean": {
             "nature": "Timid",
             "ability": "Torrent",
             "level": 65,
@@ -14543,7 +14544,7 @@ var SETDEX_SV = {
         }
     },
     "Swellow": {
-        "Swellow-1 [215]": {
+        "OU Swellow-1 [215]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -14554,7 +14555,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Swellow-2 [320]": {
+        "OU Swellow-2 [320]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -14565,7 +14566,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Jolly",
             "ability": "Guts",
             "level": 28,
@@ -14579,7 +14580,7 @@ var SETDEX_SV = {
         }
     },
     "Swinub": {
-        "Swinub-1 [32]": {
+        "OU Swinub-1 [32]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -14590,7 +14591,7 @@ var SETDEX_SV = {
             ],
             "nature": "Gentle"
         },
-        "Twins Eli & Anne": {
+        "OU Twins Eli & Anne": {
             "nature": "Modest",
             "ability": "Oblivious",
             "level": 36,
@@ -14601,7 +14602,7 @@ var SETDEX_SV = {
                 "Icicle Crash"
             ]
         },
-        "Picnicker Sofia": {
+        "OU Picnicker Sofia": {
             "nature": "Lonely",
             "ability": "Oblivious",
             "level": 35,
@@ -14614,7 +14615,7 @@ var SETDEX_SV = {
         }
     },
     "Taillow": {
-        "Taillow-1 [45]": {
+        "OU Taillow-1 [45]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -14627,7 +14628,7 @@ var SETDEX_SV = {
         }
     },
     "Tangela": {
-        "Tangela-1 [217]": {
+        "OU Tangela-1 [217]": {
             "level": 100,
             "moves": [
                 "Mega Drain",
@@ -14637,7 +14638,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Tangela-2 [322]": {
+        "OU Tangela-2 [322]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -14648,7 +14649,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Lass Lisa": {
+        "OU Lass Lisa": {
             "nature": "Jolly",
             "ability": "Chlorophyll",
             "level": 38,
@@ -14661,7 +14662,7 @@ var SETDEX_SV = {
         }
     },
     "Tauros": {
-        "Tauros-1 [409]": {
+        "OU Tauros-1 [409]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -14672,7 +14673,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tauros-2 [505]": {
+        "OU Tauros-2 [505]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -14683,7 +14684,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tauros-3 [601]": {
+        "OU Tauros-3 [601]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14694,7 +14695,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Tauros-4 [697]": {
+        "OU Tauros-4 [697]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -14705,7 +14706,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Jolly",
             "ability": "Sheer Force",
             "level": 100,
@@ -14717,7 +14718,7 @@ var SETDEX_SV = {
                 "Throat Chop"
             ]
         },
-        "*Crush Girl Tanya": {
+        "OU *Crush Girl Tanya": {
             "nature": "Jolly",
             "ability": "Sheer Force",
             "level": 100,
@@ -14729,7 +14730,7 @@ var SETDEX_SV = {
                 "Throat Chop"
             ]
         },
-        "*Ace Trainer George": {
+        "OU *Ace Trainer George": {
             "nature": "Naive",
             "ability": "Sheer Force",
             "level": 85,
@@ -14743,7 +14744,7 @@ var SETDEX_SV = {
         }
     },
     "Teddiursa": {
-        "Teddiursa-1 [118]": {
+        "OU Teddiursa-1 [118]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -14754,7 +14755,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Hiker Lucas": {
+        "OU Hiker Lucas": {
             "nature": "Modest",
             "ability": "Quick Feet",
             "level": 35,
@@ -14767,7 +14768,7 @@ var SETDEX_SV = {
         }
     },
     "Tentacool": {
-        "Tentacool-1 [125]": {
+        "OU Tentacool-1 [125]": {
             "item": "Pecha Berry",
             "level": 100,
             "moves": [
@@ -14778,7 +14779,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Fisherman Dale": {
+        "OU Fisherman Dale": {
             "nature": "Timid",
             "ability": "Clear Body",
             "level": 27,
@@ -14789,7 +14790,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "Fisherman Barny": {
+        "OU Fisherman Barny": {
             "nature": "Lonely",
             "ability": "Clear Body",
             "level": 25,
@@ -14800,7 +14801,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "SwimmerM Axle": {
+        "OU SwimmerM Axle": {
             "nature": "Bold",
             "ability": "Clear Body",
             "level": 64,
@@ -14813,7 +14814,7 @@ var SETDEX_SV = {
         }
     },
     "Tentacruel": {
-        "Tentacruel-1 [435]": {
+        "OU Tentacruel-1 [435]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -14824,7 +14825,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Tentacruel-2 [531]": {
+        "OU Tentacruel-2 [531]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -14835,7 +14836,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Tentacruel-3 [627]": {
+        "OU Tentacruel-3 [627]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -14845,7 +14846,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Tentacruel-4 [723]": {
+        "OU Tentacruel-4 [723]": {
             "level": 100,
             "moves": [
                 "Hydro Pump",
@@ -14855,7 +14856,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Juggler Nate": {
+        "OU Juggler Nate": {
             "nature": "Relaxed",
             "ability": "Clear Body",
             "level": 63,
@@ -14866,7 +14867,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "SwimmerM Spencer": {
+        "OU SwimmerM Spencer": {
             "nature": "Hasty",
             "ability": "Liquid Ooze",
             "level": 64,
@@ -14877,7 +14878,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "Picnicker Irene": {
+        "OU Picnicker Irene": {
             "nature": "Adamant",
             "ability": "Clear Body",
             "level": 62,
@@ -14888,7 +14889,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "Fisherman Chip": {
+        "OU Fisherman Chip": {
             "nature": "Hardy",
             "ability": "Clear Body",
             "level": 35,
@@ -14899,7 +14900,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "SwimmerM Douglas": {
+        "OU SwimmerM Douglas": {
             "nature": "Timid",
             "ability": "Liquid Ooze",
             "level": 61,
@@ -14910,7 +14911,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "SwimmerM Axle": {
+        "OU SwimmerM Axle": {
             "nature": "Quiet",
             "ability": "Clear Body",
             "level": 63,
@@ -14923,7 +14924,7 @@ var SETDEX_SV = {
         }
     },
     "Togepi": {
-        "Togepi-1 [27]": {
+        "OU Togepi-1 [27]": {
             "level": 100,
             "moves": [
                 "Return",
@@ -14935,7 +14936,7 @@ var SETDEX_SV = {
         }
     },
     "Togetic": {
-        "Togetic-1 [184]": {
+        "OU Togetic-1 [184]": {
             "level": 100,
             "moves": [
                 "Aerial Ace",
@@ -14945,7 +14946,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Togetic-2 [289]": {
+        "OU Togetic-2 [289]": {
             "level": 100,
             "moves": [
                 "Return",
@@ -14955,7 +14956,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Picnicker Martha": {
+        "OU Picnicker Martha": {
             "nature": "Modest",
             "ability": "Hustle",
             "level": 32,
@@ -14966,7 +14967,7 @@ var SETDEX_SV = {
                 "Moonblast"
             ]
         },
-        "*Lass Reli": {
+        "OU *Lass Reli": {
             "nature": "Bashful",
             "ability": "Serene Grace",
             "level": 25,
@@ -14980,7 +14981,7 @@ var SETDEX_SV = {
         }
     },
     "Torchic": {
-        "Torchic-1 [96]": {
+        "OU Torchic-1 [96]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -14993,7 +14994,7 @@ var SETDEX_SV = {
         }
     },
     "Torkoal": {
-        "Torkoal-1 [253]": {
+        "OU Torkoal-1 [253]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -15004,7 +15005,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Torkoal-2 [358]": {
+        "OU Torkoal-2 [358]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -15015,7 +15016,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "*Ace Trainer Samantha": {
+        "OU *Ace Trainer Samantha": {
             "nature": "Relaxed",
             "ability": "Drought",
             "level": 100,
@@ -15029,7 +15030,7 @@ var SETDEX_SV = {
         }
     },
     "Totodile": {
-        "Totodile-1 [99]": {
+        "OU Totodile-1 [99]": {
             "level": 100,
             "moves": [
                 "Slash",
@@ -15041,7 +15042,7 @@ var SETDEX_SV = {
         }
     },
     "Trapinch": {
-        "Trapinch-1 [59]": {
+        "OU Trapinch-1 [59]": {
             "level": 100,
             "moves": [
                 "Toxic",
@@ -15053,7 +15054,7 @@ var SETDEX_SV = {
         }
     },
     "Treecko": {
-        "Treecko-1 [95]": {
+        "OU Treecko-1 [95]": {
             "level": 100,
             "moves": [
                 "Bullet Seed",
@@ -15063,7 +15064,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 16,
@@ -15077,7 +15078,7 @@ var SETDEX_SV = {
         }
     },
     "Tropius": {
-        "Tropius-1 [244]": {
+        "OU Tropius-1 [244]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -15088,7 +15089,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Tropius-2 [349]": {
+        "OU Tropius-2 [349]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -15099,7 +15100,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Bird Keeper Sebastian": {
+        "OU *Bird Keeper Sebastian": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
             "level": 66,
@@ -15113,7 +15114,7 @@ var SETDEX_SV = {
         }
     },
     "Typhlosion": {
-        "Typhlosion-1 [456]": {
+        "OU Typhlosion-1 [456]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -15124,7 +15125,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Typhlosion-2 [552]": {
+        "OU Typhlosion-2 [552]": {
             "level": 100,
             "moves": [
                 "Flamethrower",
@@ -15134,7 +15135,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Typhlosion-3 [648]": {
+        "OU Typhlosion-3 [648]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -15145,7 +15146,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Typhlosion-4 [744]": {
+        "OU Typhlosion-4 [744]": {
             "item": "White Herb",
             "level": 100,
             "moves": [
@@ -15158,7 +15159,7 @@ var SETDEX_SV = {
         }
     },
     "Tyranitar": {
-        "Tyranitar-1 [861]": {
+        "OU Tyranitar-1 [861]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15169,7 +15170,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Tyranitar-10 [870]": {
+        "OU Tyranitar-10 [870]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -15179,7 +15180,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tyranitar-2 [862]": {
+        "OU Tyranitar-2 [862]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15190,7 +15191,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Tyranitar-3 [863]": {
+        "OU Tyranitar-3 [863]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -15201,7 +15202,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tyranitar-4 [864]": {
+        "OU Tyranitar-4 [864]": {
             "level": 100,
             "moves": [
                 "Crunch",
@@ -15211,7 +15212,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Tyranitar-5 [865]": {
+        "OU Tyranitar-5 [865]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -15222,7 +15223,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tyranitar-6 [866]": {
+        "OU Tyranitar-6 [866]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -15233,7 +15234,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tyranitar-7 [867]": {
+        "OU Tyranitar-7 [867]": {
             "level": 100,
             "moves": [
                 "Rock Slide",
@@ -15243,7 +15244,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tyranitar-8 [868]": {
+        "OU Tyranitar-8 [868]": {
             "level": 100,
             "moves": [
                 "Rock Slide",
@@ -15253,7 +15254,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Tyranitar-9 [869]": {
+        "OU Tyranitar-9 [869]": {
             "level": 100,
             "moves": [
                 "Crunch",
@@ -15263,7 +15264,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Ace Trainer Samantha": {
+        "OU *Ace Trainer Samantha": {
             "nature": "Brave",
             "ability": "Unnerve",
             "level": 100,
@@ -15275,7 +15276,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Channeler Rachel": {
+        "OU *Channeler Rachel": {
             "nature": "Jolly",
             "ability": "Unnerve",
             "level": 100,
@@ -15289,7 +15290,7 @@ var SETDEX_SV = {
         }
     },
     "Tyrogue": {
-        "Tyrogue-1 [16]": {
+        "OU Tyrogue-1 [16]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -15302,7 +15303,7 @@ var SETDEX_SV = {
         }
     },
     "Umbreon": {
-        "Umbreon-1 [448]": {
+        "OU Umbreon-1 [448]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15313,7 +15314,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Umbreon-2 [544]": {
+        "OU Umbreon-2 [544]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -15324,7 +15325,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Umbreon-3 [640]": {
+        "OU Umbreon-3 [640]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15335,7 +15336,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Umbreon-4 [736]": {
+        "OU Umbreon-4 [736]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -15346,7 +15347,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Umbreon-Boss [Greta Gold]": {
+        "OU Umbreon-Boss [Greta Gold]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -15357,7 +15358,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Umbreon-Boss [Greta Silver]": {
+        "OU Umbreon-Boss [Greta Silver]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -15370,7 +15371,7 @@ var SETDEX_SV = {
         }
     },
     "Unown": {
-        "Unown-1 [127]": {
+        "OU Unown-1 [127]": {
             "level": 100,
             "moves": [
                 "Hidden Power",
@@ -15382,7 +15383,7 @@ var SETDEX_SV = {
         }
     },
     "Ursaring": {
-        "Ursaring-1 [426]": {
+        "OU Ursaring-1 [426]": {
             "level": 100,
             "moves": [
                 "Mega Kick",
@@ -15392,7 +15393,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Ursaring-2 [522]": {
+        "OU Ursaring-2 [522]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -15402,7 +15403,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Ursaring-3 [618]": {
+        "OU Ursaring-3 [618]": {
             "level": 100,
             "moves": [
                 "Fire Punch",
@@ -15412,7 +15413,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Ursaring-4 [714]": {
+        "OU Ursaring-4 [714]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15423,7 +15424,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Ursaring-5 [805]": {
+        "OU Ursaring-5 [805]": {
             "item": "Choice Band",
             "level": 100,
             "moves": [
@@ -15434,7 +15435,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Ursaring-6 [806]": {
+        "OU Ursaring-6 [806]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -15445,7 +15446,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Ursaring-7 [807]": {
+        "OU Ursaring-7 [807]": {
             "level": 100,
             "moves": [
                 "Facade",
@@ -15455,7 +15456,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Ursaring-8 [808]": {
+        "OU Ursaring-8 [808]": {
             "level": 100,
             "moves": [
                 "Facade",
@@ -15465,7 +15466,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Guts",
             "level": 79,
@@ -15477,7 +15478,7 @@ var SETDEX_SV = {
                 "Play Rough"
             ]
         },
-        "Picnicker Valerie": {
+        "OU Picnicker Valerie": {
             "nature": "Sassy",
             "ability": "Quick Feet",
             "level": 57,
@@ -15490,7 +15491,7 @@ var SETDEX_SV = {
         }
     },
     "Vaporeon": {
-        "Vaporeon-1 [443]": {
+        "OU Vaporeon-1 [443]": {
             "item": "Mystic Water",
             "level": 100,
             "moves": [
@@ -15501,7 +15502,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Vaporeon-2 [539]": {
+        "OU Vaporeon-2 [539]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -15511,7 +15512,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Vaporeon-3 [635]": {
+        "OU Vaporeon-3 [635]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -15521,7 +15522,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "Vaporeon-4 [731]": {
+        "OU Vaporeon-4 [731]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -15531,7 +15532,7 @@ var SETDEX_SV = {
             ],
             "nature": "Calm"
         },
-        "*PkMn Trainer Sam": {
+        "OU *PkMn Trainer Sam": {
             "nature": "Timid",
             "ability": "Water Absorb",
             "level": 59,
@@ -15543,7 +15544,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "*SwimmerF Tisha": {
+        "OU *SwimmerF Tisha": {
             "nature": "Modest",
             "ability": "Hydration",
             "level": 100,
@@ -15555,7 +15556,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "Sis And Bro Lia & Luc": {
+        "OU Sis And Bro Lia & Luc": {
             "nature": "Sassy",
             "ability": "Water Absorb",
             "level": 64,
@@ -15568,7 +15569,7 @@ var SETDEX_SV = {
         }
     },
     "Venomoth": {
-        "Venomoth-1 [227]": {
+        "OU Venomoth-1 [227]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -15579,7 +15580,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Venomoth-2 [332]": {
+        "OU Venomoth-2 [332]": {
             "level": 100,
             "moves": [
                 "Signal Beam",
@@ -15589,7 +15590,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Picnicker Kindra": {
+        "OU Picnicker Kindra": {
             "nature": "Naive",
             "ability": "Shield Dust",
             "level": 56,
@@ -15602,7 +15603,7 @@ var SETDEX_SV = {
         }
     },
     "Venonat": {
-        "Venonat-1 [81]": {
+        "OU Venonat-1 [81]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -15613,7 +15614,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Bug Catcher Conner": {
+        "OU Bug Catcher Conner": {
             "nature": "Mild",
             "ability": "Compound Eyes",
             "level": 29,
@@ -15626,7 +15627,7 @@ var SETDEX_SV = {
         }
     },
     "Venusaur": {
-        "Venusaur-1 [442]": {
+        "OU Venusaur-1 [442]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -15637,7 +15638,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Venusaur-2 [538]": {
+        "OU Venusaur-2 [538]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15648,7 +15649,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Venusaur-3 [634]": {
+        "OU Venusaur-3 [634]": {
             "level": 100,
             "moves": [
                 "Double-Edge",
@@ -15658,7 +15659,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Venusaur-4 [730]": {
+        "OU Venusaur-4 [730]": {
             "level": 100,
             "moves": [
                 "Solar Beam",
@@ -15668,7 +15669,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Beauty Olivia": {
+        "OU Beauty Olivia": {
             "nature": "Docile",
             "ability": "Overgrow",
             "level": 58,
@@ -15679,7 +15680,7 @@ var SETDEX_SV = {
                 "Synthesis"
             ]
         },
-        "*Beauty Lola": {
+        "OU *Beauty Lola": {
             "nature": "Naive",
             "ability": "Chlorophyll",
             "level": 66,
@@ -15691,7 +15692,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "Leader Blaine": {
+        "OU Leader Blaine": {
             "nature": "Modest",
             "ability": "Chlorophyll",
             "level": 76,
@@ -15705,7 +15706,7 @@ var SETDEX_SV = {
         }
     },
     "Vibrava": {
-        "Vibrava-1 [133]": {
+        "OU Vibrava-1 [133]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -15716,7 +15717,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bird Keeper Carter": {
+        "OU Bird Keeper Carter": {
             "nature": "Modest",
             "ability": "Levitate",
             "level": 57,
@@ -15727,7 +15728,7 @@ var SETDEX_SV = {
                 "Wing Attack"
             ]
         },
-        "Bug Catcher Conner": {
+        "OU Bug Catcher Conner": {
             "nature": "Relaxed",
             "ability": "Levitate",
             "level": 28,
@@ -15740,7 +15741,7 @@ var SETDEX_SV = {
         }
     },
     "Victreebel": {
-        "Victreebel-1 [396]": {
+        "OU Victreebel-1 [396]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -15751,7 +15752,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Victreebel-2 [492]": {
+        "OU Victreebel-2 [492]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -15762,7 +15763,7 @@ var SETDEX_SV = {
             ],
             "nature": "Serious"
         },
-        "Victreebel-3 [588]": {
+        "OU Victreebel-3 [588]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15773,7 +15774,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Victreebel-4 [684]": {
+        "OU Victreebel-4 [684]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15784,7 +15785,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*Pokemaniac Herman": {
+        "OU *Pokemaniac Herman": {
             "nature": "Rash",
             "ability": "Chlorophyll",
             "level": 35,
@@ -15798,7 +15799,7 @@ var SETDEX_SV = {
         }
     },
     "Vigoroth": {
-        "Vigoroth-1 [222]": {
+        "OU Vigoroth-1 [222]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -15809,7 +15810,7 @@ var SETDEX_SV = {
             ],
             "nature": "Lonely"
         },
-        "Vigoroth-2 [327]": {
+        "OU Vigoroth-2 [327]": {
             "item": "Salac Berry",
             "level": 100,
             "moves": [
@@ -15822,7 +15823,7 @@ var SETDEX_SV = {
         }
     },
     "Vileplume": {
-        "Vileplume-1 [395]": {
+        "OU Vileplume-1 [395]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -15833,7 +15834,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Vileplume-2 [491]": {
+        "OU Vileplume-2 [491]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -15844,7 +15845,7 @@ var SETDEX_SV = {
             ],
             "nature": "Bold"
         },
-        "Vileplume-3 [587]": {
+        "OU Vileplume-3 [587]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -15855,7 +15856,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Vileplume-4 [683]": {
+        "OU Vileplume-4 [683]": {
             "level": 100,
             "moves": [
                 "Solar Beam",
@@ -15867,7 +15868,7 @@ var SETDEX_SV = {
         }
     },
     "Volbeat": {
-        "Volbeat-1 [173]": {
+        "OU Volbeat-1 [173]": {
             "item": "Liechi Berry",
             "level": 100,
             "moves": [
@@ -15878,7 +15879,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Volbeat-2 [278]": {
+        "OU Volbeat-2 [278]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -15889,7 +15890,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "*Bug Catcher Sammy": {
+        "OU *Bug Catcher Sammy": {
             "nature": "Bashful",
             "ability": "Prankster",
             "level": 13,
@@ -15901,7 +15902,7 @@ var SETDEX_SV = {
                 "Water Pulse"
             ]
         },
-        "*Twins Joy & Meg": {
+        "OU *Twins Joy & Meg": {
             "nature": "Timid",
             "ability": "Illuminate",
             "level": 100,
@@ -15913,7 +15914,7 @@ var SETDEX_SV = {
                 "Water Pulse"
             ]
         },
-        "Youngster Chad": {
+        "OU Youngster Chad": {
             "nature": "Serious",
             "ability": "Prankster",
             "level": 19,
@@ -15926,7 +15927,7 @@ var SETDEX_SV = {
         }
     },
     "Voltorb": {
-        "Voltorb-1 [116]": {
+        "OU Voltorb-1 [116]": {
             "level": 100,
             "moves": [
                 "Spark",
@@ -15936,7 +15937,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Engineer Baily": {
+        "OU Engineer Baily": {
             "nature": "Timid",
             "ability": "Soundproof",
             "level": 28,
@@ -15947,7 +15948,7 @@ var SETDEX_SV = {
                 "Mirror Coat"
             ]
         },
-        "Gambler Dirk": {
+        "OU Gambler Dirk": {
             "nature": "Bold",
             "ability": "Soundproof",
             "level": 25,
@@ -15960,7 +15961,7 @@ var SETDEX_SV = {
         }
     },
     "Vulpix": {
-        "Vulpix-1 [66]": {
+        "OU Vulpix-1 [66]": {
             "item": "Rawst Berry",
             "level": 100,
             "moves": [
@@ -15973,7 +15974,7 @@ var SETDEX_SV = {
         }
     },
     "Wailmer": {
-        "Wailmer-1 [171]": {
+        "OU Wailmer-1 [171]": {
             "level": 100,
             "moves": [
                 "Whirlpool",
@@ -15983,7 +15984,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Wailmer-2 [276]": {
+        "OU Wailmer-2 [276]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -15996,7 +15997,7 @@ var SETDEX_SV = {
         }
     },
     "Wailord": {
-        "Wailord-1 [430]": {
+        "OU Wailord-1 [430]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -16006,7 +16007,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Wailord-2 [526]": {
+        "OU Wailord-2 [526]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -16017,7 +16018,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Wailord-3 [622]": {
+        "OU Wailord-3 [622]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -16028,7 +16029,7 @@ var SETDEX_SV = {
             ],
             "nature": "Modest"
         },
-        "Wailord-4 [718]": {
+        "OU Wailord-4 [718]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -16038,7 +16039,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Modest",
             "ability": "Blubber Defense",
             "level": 79,
@@ -16051,7 +16052,7 @@ var SETDEX_SV = {
         }
     },
     "Walrein": {
-        "Walrein-1 [453]": {
+        "OU Walrein-1 [453]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -16062,7 +16063,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Walrein-2 [549]": {
+        "OU Walrein-2 [549]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16073,7 +16074,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Walrein-3 [645]": {
+        "OU Walrein-3 [645]": {
             "level": 100,
             "moves": [
                 "Sheer Cold",
@@ -16083,7 +16084,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Walrein-4 [741]": {
+        "OU Walrein-4 [741]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -16094,7 +16095,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Rocker Luca": {
+        "OU *Rocker Luca": {
             "nature": "Bold",
             "ability": "Ice Body",
             "level": 66,
@@ -16108,7 +16109,7 @@ var SETDEX_SV = {
         }
     },
     "Wartortle": {
-        "Wartortle-1 [177]": {
+        "OU Wartortle-1 [177]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16119,7 +16120,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Wartortle-2 [282]": {
+        "OU Wartortle-2 [282]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -16129,7 +16130,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Modest",
             "ability": "Torrent",
             "level": 28,
@@ -16143,7 +16144,7 @@ var SETDEX_SV = {
         }
     },
     "Weedle": {
-        "Weedle-1 [4]": {
+        "OU Weedle-1 [4]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16154,7 +16155,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Bug Catcher Kent": {
+        "OU Bug Catcher Kent": {
             "nature": "Docile",
             "ability": "Shield Dust",
             "level": 13,
@@ -16166,7 +16167,7 @@ var SETDEX_SV = {
         }
     },
     "Weepinbell": {
-        "Weepinbell-1 [166]": {
+        "OU Weepinbell-1 [166]": {
             "level": 100,
             "moves": [
                 "Razor Leaf",
@@ -16176,7 +16177,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "Weepinbell-2 [271]": {
+        "OU Weepinbell-2 [271]": {
             "level": 100,
             "moves": [
                 "Sludge Bomb",
@@ -16186,7 +16187,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Picnicker Valerie": {
+        "OU Picnicker Valerie": {
             "nature": "Naughty",
             "ability": "Chlorophyll",
             "level": 56,
@@ -16197,7 +16198,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "Gambler Jasper": {
+        "OU Gambler Jasper": {
             "nature": "Careful",
             "ability": "Chlorophyll",
             "level": 24,
@@ -16208,7 +16209,7 @@ var SETDEX_SV = {
                 "Wring Out"
             ]
         },
-        "Picnicker Yazmin": {
+        "OU Picnicker Yazmin": {
             "nature": "Serious",
             "ability": "Chlorophyll",
             "level": 57,
@@ -16221,7 +16222,7 @@ var SETDEX_SV = {
         }
     },
     "Weezing": {
-        "Weezing-1 [406]": {
+        "OU Weezing-1 [406]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -16232,7 +16233,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Weezing-2 [502]": {
+        "OU Weezing-2 [502]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -16243,7 +16244,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Weezing-3 [598]": {
+        "OU Weezing-3 [598]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16254,7 +16255,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quirky"
         },
-        "Weezing-4 [694]": {
+        "OU Weezing-4 [694]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16265,7 +16266,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Biker Ricardo": {
+        "OU Biker Ricardo": {
             "nature": "Bold",
             "ability": "Levitate",
             "level": 35,
@@ -16276,7 +16277,7 @@ var SETDEX_SV = {
                 "Tackle"
             ]
         },
-        "Super Nerd Leslie": {
+        "OU Super Nerd Leslie": {
             "nature": "Docile",
             "ability": "Levitate",
             "level": 36,
@@ -16286,7 +16287,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "Scientist Taylor": {
+        "OU Scientist Taylor": {
             "nature": "Adamant",
             "ability": "Levitate",
             "level": 45,
@@ -16295,7 +16296,7 @@ var SETDEX_SV = {
                 "Explosion"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Mild",
             "ability": "Neutralize Gas",
             "level": 42,
@@ -16306,7 +16307,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Docile",
             "ability": "Levitate",
             "level": 38,
@@ -16317,7 +16318,7 @@ var SETDEX_SV = {
                 "Memento"
             ]
         },
-        "Biker Ernest Set 1": {
+        "OU Biker Ernest Set 1": {
             "nature": "Calm",
             "ability": "Levitate",
             "level": 57,
@@ -16328,7 +16329,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "Biker Ernest Set 2": {
+        "OU Biker Ernest Set 2": {
             "nature": "Naive",
             "ability": "Levitate",
             "level": 57,
@@ -16339,7 +16340,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Biker Ernest Set 3": {
+        "OU Biker Ernest Set 3": {
             "nature": "Impish",
             "ability": "Levitate",
             "level": 57,
@@ -16350,7 +16351,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "Biker Lukas": {
+        "OU Biker Lukas": {
             "nature": "Naughty",
             "ability": "Neutralize Gas",
             "level": 57,
@@ -16359,7 +16360,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "Scientist Connor": {
+        "OU Scientist Connor": {
             "nature": "Modest",
             "ability": "Levitate",
             "level": 45,
@@ -16371,7 +16372,7 @@ var SETDEX_SV = {
         }
     },
     "Whiscash": {
-        "Whiscash-1 [385]": {
+        "OU Whiscash-1 [385]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -16382,7 +16383,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Whiscash-2 [484]": {
+        "OU Whiscash-2 [484]": {
             "level": 100,
             "moves": [
                 "Surf",
@@ -16392,7 +16393,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Whiscash-3 [577]": {
+        "OU Whiscash-3 [577]": {
             "item": "Chesto Berry",
             "level": 100,
             "moves": [
@@ -16403,7 +16404,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Whiscash-4 [673]": {
+        "OU Whiscash-4 [673]": {
             "level": 100,
             "moves": [
                 "Fissure",
@@ -16413,7 +16414,7 @@ var SETDEX_SV = {
             ],
             "nature": "Quiet"
         },
-        "*Biker William": {
+        "OU *Biker William": {
             "nature": "Jolly",
             "ability": "Cash Splash",
             "level": 66,
@@ -16425,7 +16426,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "Fisherman Elliot": {
+        "OU Fisherman Elliot": {
             "nature": "Hardy",
             "ability": "Hydration",
             "level": 35,
@@ -16436,7 +16437,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "*Tuber Amira": {
+        "OU *Tuber Amira": {
             "nature": "Jolly",
             "ability": "Cash Splash",
             "level": 100,
@@ -16450,7 +16451,7 @@ var SETDEX_SV = {
         }
     },
     "Whismur": {
-        "Whismur-1 [24]": {
+        "OU Whismur-1 [24]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -16463,7 +16464,7 @@ var SETDEX_SV = {
         }
     },
     "Wigglytuff": {
-        "Wigglytuff-1 [208]": {
+        "OU Wigglytuff-1 [208]": {
             "item": "Silk Scarf",
             "level": 100,
             "moves": [
@@ -16474,7 +16475,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "Wigglytuff-2 [313]": {
+        "OU Wigglytuff-2 [313]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -16485,7 +16486,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Gentleman Brooks": {
+        "OU *Gentleman Brooks": {
             "nature": "Modest",
             "ability": "Sheer Force",
             "level": 28,
@@ -16497,7 +16498,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "Beauty Grace": {
+        "OU Beauty Grace": {
             "nature": "Impish",
             "ability": "Competitive",
             "level": 58,
@@ -16510,7 +16511,7 @@ var SETDEX_SV = {
         }
     },
     "Wingull": {
-        "Wingull-1 [46]": {
+        "OU Wingull-1 [46]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -16523,7 +16524,7 @@ var SETDEX_SV = {
         }
     },
     "Wobbuffet": {
-        "Wobbuffet-1 [186]": {
+        "OU Wobbuffet-1 [186]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16534,7 +16535,7 @@ var SETDEX_SV = {
             ],
             "nature": "Careful"
         },
-        "Wobbuffet-2 [291]": {
+        "OU Wobbuffet-2 [291]": {
             "item": "Focus Band",
             "level": 100,
             "moves": [
@@ -16547,7 +16548,7 @@ var SETDEX_SV = {
         }
     },
     "Wooper": {
-        "Wooper-1 [15]": {
+        "OU Wooper-1 [15]": {
             "item": "Sitrus Berry",
             "level": 100,
             "moves": [
@@ -16560,7 +16561,7 @@ var SETDEX_SV = {
         }
     },
     "Wurmple": {
-        "Wurmple-1 [5]": {
+        "OU Wurmple-1 [5]": {
             "level": 100,
             "moves": [
                 "Tackle",
@@ -16572,7 +16573,7 @@ var SETDEX_SV = {
         }
     },
     "Wynaut": {
-        "Wynaut-1 [36]": {
+        "OU Wynaut-1 [36]": {
             "level": 100,
             "moves": [
                 "Encore",
@@ -16584,7 +16585,7 @@ var SETDEX_SV = {
         }
     },
     "Xatu": {
-        "Xatu-1 [386]": {
+        "OU Xatu-1 [386]": {
             "item": "Sharp Beak",
             "level": 100,
             "moves": [
@@ -16595,7 +16596,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Xatu-2 [485]": {
+        "OU Xatu-2 [485]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -16606,7 +16607,7 @@ var SETDEX_SV = {
             ],
             "nature": "Impish"
         },
-        "Xatu-3 [578]": {
+        "OU Xatu-3 [578]": {
             "item": "King's Rock",
             "level": 100,
             "moves": [
@@ -16617,7 +16618,7 @@ var SETDEX_SV = {
             ],
             "nature": "Jolly"
         },
-        "Xatu-4 [674]": {
+        "OU Xatu-4 [674]": {
             "item": "Petaya Berry",
             "level": 100,
             "moves": [
@@ -16628,7 +16629,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Channeler Tasha": {
+        "OU Channeler Tasha": {
             "nature": "Adamant",
             "ability": "Early Bird",
             "level": 54,
@@ -16639,7 +16640,7 @@ var SETDEX_SV = {
                 "Power Swap"
             ]
         },
-        "Channeler Emilia": {
+        "OU Channeler Emilia": {
             "nature": "Quirky",
             "ability": "Synchronize",
             "level": 37,
@@ -16652,7 +16653,7 @@ var SETDEX_SV = {
         }
     },
     "Yanma": {
-        "Yanma-1 [162]": {
+        "OU Yanma-1 [162]": {
             "level": 100,
             "moves": [
                 "Signal Beam",
@@ -16662,7 +16663,7 @@ var SETDEX_SV = {
             ],
             "nature": "Relaxed"
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Speed Boost",
             "level": 13,
@@ -16676,7 +16677,7 @@ var SETDEX_SV = {
         }
     },
     "Zangoose": {
-        "Zangoose-1 [241]": {
+        "OU Zangoose-1 [241]": {
             "item": "Persim Berry",
             "level": 100,
             "moves": [
@@ -16687,7 +16688,7 @@ var SETDEX_SV = {
             ],
             "nature": "Hardy"
         },
-        "Zangoose-2 [346]": {
+        "OU Zangoose-2 [346]": {
             "level": 100,
             "moves": [
                 "Crush Claw",
@@ -16697,7 +16698,7 @@ var SETDEX_SV = {
             ],
             "nature": "Adamant"
         },
-        "Gentleman Arthur": {
+        "OU Gentleman Arthur": {
             "nature": "Mild",
             "ability": "Tough Claws",
             "level": 25,
@@ -16708,7 +16709,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Jolly",
             "ability": "Toxic Boost",
             "level": 100,
@@ -16720,7 +16721,7 @@ var SETDEX_SV = {
                 "Quick Attack"
             ]
         },
-        "Cue Ball Isaiah": {
+        "OU Cue Ball Isaiah": {
             "nature": "Mild",
             "ability": "Tough Claws",
             "level": 55,
@@ -16731,7 +16732,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 47,
@@ -16744,7 +16745,7 @@ var SETDEX_SV = {
         }
     },
     "Zapdos": {
-        "Zapdos-1 [758]": {
+        "OU Zapdos-1 [758]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -16754,7 +16755,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Zapdos-2 [769]": {
+        "OU Zapdos-2 [769]": {
             "item": "Bright Powder",
             "level": 100,
             "moves": [
@@ -16765,7 +16766,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Zapdos-3 [780]": {
+        "OU Zapdos-3 [780]": {
             "item": "Leftovers",
             "level": 100,
             "moves": [
@@ -16776,7 +16777,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Zapdos-4 [791]": {
+        "OU Zapdos-4 [791]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -16786,7 +16787,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Zapdos-5 [873]": {
+        "OU Zapdos-5 [873]": {
             "level": 100,
             "moves": [
                 "Thunderbolt",
@@ -16796,7 +16797,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "Zapdos-6 [874]": {
+        "OU Zapdos-6 [874]": {
             "level": 100,
             "moves": [
                 "Thunder",
@@ -16806,7 +16807,7 @@ var SETDEX_SV = {
             ],
             "nature": "Docile"
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Static",
             "level": 82,
@@ -16818,7 +16819,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Dumbass Kid": {
+        "OU *Dumbass Kid": {
             "nature": "Timid",
             "ability": "Static",
             "level": 59,
@@ -16830,7 +16831,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Hasty",
             "ability": "Pressure",
             "level": 100,
@@ -16844,7 +16845,7 @@ var SETDEX_SV = {
         }
     },
     "Zigzagoon": {
-        "Zigzagoon-1 [25]": {
+        "OU Zigzagoon-1 [25]": {
             "item": "Silk Scarf",
             "level": 100,
             "moves": [
@@ -16857,7 +16858,7 @@ var SETDEX_SV = {
         }
     },
     "Zubat": {
-        "Zubat-1 [26]": {
+        "OU Zubat-1 [26]": {
             "item": "Cheri Berry",
             "level": 100,
             "moves": [
@@ -16868,7 +16869,7 @@ var SETDEX_SV = {
             ],
             "nature": "Sassy"
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Quiet",
             "ability": "Sniper",
             "level": 15,
@@ -16879,7 +16880,7 @@ var SETDEX_SV = {
                 "Venoshock"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Gentle",
             "ability": "Infiltrator",
             "level": 16,
@@ -16892,7 +16893,7 @@ var SETDEX_SV = {
         }
     },
     "Litleo": {
-        "Gambler Rich": {
+        "OU Gambler Rich": {
             "nature": "Quirky",
             "ability": "Rivalry",
             "level": 35,
@@ -16903,7 +16904,7 @@ var SETDEX_SV = {
                 "Overheat"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Rivalry",
             "level": 15,
@@ -16915,7 +16916,7 @@ var SETDEX_SV = {
                 "Sleep Talk"
             ]
         },
-        "Gentleman Thomas": {
+        "OU Gentleman Thomas": {
             "nature": "Careful",
             "ability": "Rivalry",
             "level": 26,
@@ -16928,7 +16929,7 @@ var SETDEX_SV = {
         }
     },
     "Trumbeak": {
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Skill Link",
             "level": 14,
@@ -16942,7 +16943,7 @@ var SETDEX_SV = {
         }
     },
     "Wattrel": {
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Modest",
             "ability": "Volt Absorb",
             "level": 16,
@@ -16956,7 +16957,7 @@ var SETDEX_SV = {
         }
     },
     "Squawkabilly": {
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Hustle",
             "level": 14,
@@ -16970,7 +16971,7 @@ var SETDEX_SV = {
         }
     },
     "Farfetch’d-Galar": {
-        "Pokemaniac Ashton": {
+        "OU Pokemaniac Ashton": {
             "nature": "Jolly",
             "ability": "Steadfast",
             "level": 32,
@@ -16981,7 +16982,7 @@ var SETDEX_SV = {
                 "Slam"
             ]
         },
-        "Camper Flint": {
+        "OU Camper Flint": {
             "nature": "Impish",
             "ability": "Steadfast",
             "level": 18,
@@ -16992,7 +16993,7 @@ var SETDEX_SV = {
                 "Slam"
             ]
         },
-        "Bird Keeper Edwin": {
+        "OU Bird Keeper Edwin": {
             "nature": "Modest",
             "ability": "Steadfast",
             "level": 59,
@@ -17003,7 +17004,7 @@ var SETDEX_SV = {
                 "Slam"
             ]
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Bashful",
             "ability": "Scrappy",
             "level": 14,
@@ -17017,7 +17018,7 @@ var SETDEX_SV = {
         }
     },
     "Hippopotas": {
-        "Leader Brock": {
+        "OU Leader Brock": {
             "nature": "Careful",
             "ability": "Sand Stream",
             "level": 13,
@@ -17031,7 +17032,7 @@ var SETDEX_SV = {
         }
     },
     "Archen": {
-        "Leader Brock": {
+        "OU Leader Brock": {
             "nature": "Bashful",
             "ability": "Defeatist",
             "level": 14,
@@ -17045,7 +17046,7 @@ var SETDEX_SV = {
         }
     },
     "Varoom": {
-        "Leader Brock": {
+        "OU Leader Brock": {
             "nature": "Careful",
             "ability": "Filter",
             "level": 15,
@@ -17057,7 +17058,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "Gambler Darian": {
+        "OU Gambler Darian": {
             "nature": "Mild",
             "ability": "Overcoat",
             "level": 25,
@@ -17070,7 +17071,7 @@ var SETDEX_SV = {
         }
     },
     "Growlithe-Hisui": {
-        "Camper Liam": {
+        "OU Camper Liam": {
             "nature": "Bashful",
             "ability": "Intimidate",
             "level": 11,
@@ -17081,7 +17082,7 @@ var SETDEX_SV = {
                 "Rock Throw"
             ]
         },
-        "Picnicker Nancy": {
+        "OU Picnicker Nancy": {
             "nature": "Bold",
             "ability": "Intimidate",
             "level": 23,
@@ -17094,7 +17095,7 @@ var SETDEX_SV = {
         }
     },
     "Nacli": {
-        "Camper Liam": {
+        "OU Camper Liam": {
             "nature": "Bashful",
             "ability": "Purifying Salt",
             "level": 11,
@@ -17107,7 +17108,7 @@ var SETDEX_SV = {
         }
     },
     "Tarountula": {
-        "Bug Catcher Rick": {
+        "OU Bug Catcher Rick": {
             "nature": "Lax",
             "ability": "Insomnia",
             "level": 7,
@@ -17120,7 +17121,7 @@ var SETDEX_SV = {
         }
     },
     "Kricketune": {
-        "*Bug Catcher Sammy": {
+        "OU *Bug Catcher Sammy": {
             "nature": "Bashful",
             "ability": "Technician",
             "level": 13,
@@ -17132,7 +17133,7 @@ var SETDEX_SV = {
                 "Rock Tomb"
             ]
         },
-        "Bug Catcher Kent": {
+        "OU Bug Catcher Kent": {
             "nature": "Naughty",
             "ability": "Technician",
             "level": 12,
@@ -17145,7 +17146,7 @@ var SETDEX_SV = {
         }
     },
     "Rellor": {
-        "Bug Catcher Charlie": {
+        "OU Bug Catcher Charlie": {
             "nature": "Relaxed",
             "ability": "Shed Skin",
             "level": 8,
@@ -17158,7 +17159,7 @@ var SETDEX_SV = {
         }
     },
     "Spewpa": {
-        "Bug Catcher Colton": {
+        "OU Bug Catcher Colton": {
             "nature": "Rash",
             "ability": "Shed Skin",
             "level": 10,
@@ -17167,7 +17168,7 @@ var SETDEX_SV = {
                 "Harden"
             ]
         },
-        "Bug Catcher Charlie": {
+        "OU Bug Catcher Charlie": {
             "nature": "Careful",
             "ability": "Shed Skin",
             "level": 9,
@@ -17178,7 +17179,7 @@ var SETDEX_SV = {
         }
     },
     "Stufful": {
-        "*Lass Anne": {
+        "OU *Lass Anne": {
             "nature": "Bashful",
             "ability": "Fluffy",
             "level": 15,
@@ -17191,7 +17192,7 @@ var SETDEX_SV = {
         }
     },
     "Audino": {
-        "*Lass Anne": {
+        "OU *Lass Anne": {
             "nature": "Bashful",
             "ability": "Regenerator",
             "level": 15,
@@ -17202,7 +17203,7 @@ var SETDEX_SV = {
                 "Yawn"
             ]
         },
-        "Lass Haley": {
+        "OU Lass Haley": {
             "nature": "Bold",
             "ability": "Regenerator",
             "level": 18,
@@ -17213,7 +17214,7 @@ var SETDEX_SV = {
                 "Wish"
             ]
         },
-        "Lass Miriam": {
+        "OU Lass Miriam": {
             "nature": "Adamant",
             "ability": "Regenerator",
             "level": 15,
@@ -17226,7 +17227,7 @@ var SETDEX_SV = {
         }
     },
     "Charcadet": {
-        "*Ace Trainer Nelle": {
+        "OU *Ace Trainer Nelle": {
             "nature": "Bashful",
             "ability": "Flame Body",
             "level": 15,
@@ -17240,7 +17241,7 @@ var SETDEX_SV = {
         }
     },
     "Pikachu-Flying": {
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Timid",
             "ability": "Lightning Rod",
             "level": 100,
@@ -17252,7 +17253,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Lass Sally": {
+        "OU *Lass Sally": {
             "nature": "Naive",
             "ability": "Lightning Rod",
             "level": 21,
@@ -17266,7 +17267,7 @@ var SETDEX_SV = {
         }
     },
     "Oricorio-Sensu": {
-        "*Lass Sally": {
+        "OU *Lass Sally": {
             "nature": "Timid",
             "ability": "Dancer",
             "level": 22,
@@ -17280,7 +17281,7 @@ var SETDEX_SV = {
         }
     },
     "Whimsicott": {
-        "*Lass Sally": {
+        "OU *Lass Sally": {
             "nature": "Modest",
             "ability": "Prankster",
             "level": 22,
@@ -17294,7 +17295,7 @@ var SETDEX_SV = {
         }
     },
     "Sizzlipede": {
-        "Bug Catcher Greg": {
+        "OU Bug Catcher Greg": {
             "nature": "Docile",
             "ability": "Flash Fire",
             "level": 11,
@@ -17307,7 +17308,7 @@ var SETDEX_SV = {
         }
     },
     "Joltik": {
-        "Bug Catcher Greg": {
+        "OU Bug Catcher Greg": {
             "nature": "Gentle",
             "ability": "Compound Eyes",
             "level": 11,
@@ -17320,7 +17321,7 @@ var SETDEX_SV = {
         }
     },
     "Zigzagoon-Galar": {
-        "Youngster Calvin": {
+        "OU Youngster Calvin": {
             "nature": "Bold",
             "ability": "Pickup",
             "level": 15,
@@ -17333,7 +17334,7 @@ var SETDEX_SV = {
         }
     },
     "Fidough": {
-        "Lass Janice": {
+        "OU Lass Janice": {
             "nature": "Sassy",
             "ability": "Own Tempo",
             "level": 10,
@@ -17346,7 +17347,7 @@ var SETDEX_SV = {
         }
     },
     "Dottler": {
-        "Bug Catcher Colton": {
+        "OU Bug Catcher Colton": {
             "nature": "Jolly",
             "ability": "Swarm",
             "level": 11,
@@ -17359,7 +17360,7 @@ var SETDEX_SV = {
         }
     },
     "Snom": {
-        "Bug Catcher Colton": {
+        "OU Bug Catcher Colton": {
             "nature": "Quiet",
             "ability": "Shield Dust",
             "level": 11,
@@ -17370,7 +17371,7 @@ var SETDEX_SV = {
         }
     },
     "Maschiff": {
-        "Youngster Ben": {
+        "OU Youngster Ben": {
             "nature": "Bold",
             "ability": "Run Away",
             "level": 12,
@@ -17383,7 +17384,7 @@ var SETDEX_SV = {
         }
     },
     "Tinkatink": {
-        "Lass Iris": {
+        "OU Lass Iris": {
             "nature": "Relaxed",
             "ability": "Mold Breaker",
             "level": 16,
@@ -17396,7 +17397,7 @@ var SETDEX_SV = {
         }
     },
     "Nymble": {
-        "Bug Catcher Robby": {
+        "OU Bug Catcher Robby": {
             "nature": "Brave",
             "ability": "Tinted Lens",
             "level": 12,
@@ -17409,7 +17410,7 @@ var SETDEX_SV = {
         }
     },
     "Gimmighoul": {
-        "Super Nerd Jovan": {
+        "OU Super Nerd Jovan": {
             "nature": "Bold",
             "ability": "Clear Body",
             "level": 14,
@@ -17420,7 +17421,7 @@ var SETDEX_SV = {
         }
     },
     "Applin": {
-        "Lass Miriam": {
+        "OU Lass Miriam": {
             "nature": "Naive",
             "ability": "Ripen",
             "level": 14,
@@ -17433,7 +17434,7 @@ var SETDEX_SV = {
         }
     },
     "Wooloo": {
-        "Youngster Josh": {
+        "OU Youngster Josh": {
             "nature": "Naive",
             "ability": "Fluffy",
             "level": 13,
@@ -17446,7 +17447,7 @@ var SETDEX_SV = {
         }
     },
     "Rockruff": {
-        "Youngster Josh": {
+        "OU Youngster Josh": {
             "nature": "Mild",
             "ability": "Frisk",
             "level": 15,
@@ -17459,7 +17460,7 @@ var SETDEX_SV = {
         }
     },
     "Lechonk": {
-        "Youngster Josh": {
+        "OU Youngster Josh": {
             "nature": "Mild",
             "ability": "Aroma Veil",
             "level": 16,
@@ -17472,7 +17473,7 @@ var SETDEX_SV = {
         }
     },
     "Drilbur": {
-        "Hiker Marcos": {
+        "OU Hiker Marcos": {
             "nature": "Sassy",
             "ability": "Sand Rush",
             "level": 16,
@@ -17485,7 +17486,7 @@ var SETDEX_SV = {
         }
     },
     "Thwackey": {
-        "*Super Nerd Miguel": {
+        "OU *Super Nerd Miguel": {
             "nature": "Adamant",
             "ability": "Grassy Surge",
             "level": 21,
@@ -17499,7 +17500,7 @@ var SETDEX_SV = {
         }
     },
     "Voltorb-Hisui": {
-        "*Super Nerd Miguel": {
+        "OU *Super Nerd Miguel": {
             "nature": "Naive",
             "ability": "Reckless",
             "level": 22,
@@ -17513,7 +17514,7 @@ var SETDEX_SV = {
         }
     },
     "Swoobat": {
-        "*Super Nerd Miguel": {
+        "OU *Super Nerd Miguel": {
             "nature": "Timid",
             "ability": "Simple",
             "level": 22,
@@ -17525,7 +17526,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "Bird Keeper Edwin": {
+        "OU Bird Keeper Edwin": {
             "nature": "Mild",
             "ability": "Unaware",
             "level": 58,
@@ -17536,7 +17537,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Quirky",
             "ability": "Unaware",
             "level": 46,
@@ -17549,7 +17550,7 @@ var SETDEX_SV = {
         }
     },
     "Skiddo": {
-        "*Super Nerd Miguel": {
+        "OU *Super Nerd Miguel": {
             "nature": "Impish",
             "ability": "Grass Pelt",
             "level": 22,
@@ -17563,7 +17564,7 @@ var SETDEX_SV = {
         }
     },
     "Rattata-Alola": {
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Impish",
             "ability": "Gluttony",
             "level": 16,
@@ -17574,7 +17575,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Naive",
             "ability": "Hustle",
             "level": 15,
@@ -17587,7 +17588,7 @@ var SETDEX_SV = {
         }
     },
     "Capsakid": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Insomnia",
             "level": 17,
@@ -17600,7 +17601,7 @@ var SETDEX_SV = {
         }
     },
     "Stunky": {
-        "Camper Drew": {
+        "OU Camper Drew": {
             "nature": "Brave",
             "ability": "Stench",
             "level": 28,
@@ -17611,7 +17612,7 @@ var SETDEX_SV = {
                 "Venom Drench"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Timid",
             "ability": "Stench",
             "level": 14,
@@ -17622,7 +17623,7 @@ var SETDEX_SV = {
                 "Venom Drench"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Bashful",
             "ability": "Aftermath",
             "level": 42,
@@ -17635,7 +17636,7 @@ var SETDEX_SV = {
         }
     },
     "Nickit": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Quiet",
             "ability": "Unburden",
             "level": 14,
@@ -17648,7 +17649,7 @@ var SETDEX_SV = {
         }
     },
     "Shroodle": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Unburden",
             "level": 15,
@@ -17661,7 +17662,7 @@ var SETDEX_SV = {
         }
     },
     "Glimmet": {
-        "Hiker Oliver": {
+        "OU Hiker Oliver": {
             "nature": "Timid",
             "ability": "Toxic Debris",
             "level": 34,
@@ -17672,7 +17673,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Bashful",
             "ability": "Toxic Debris",
             "level": 20,
@@ -17686,7 +17687,7 @@ var SETDEX_SV = {
         }
     },
     "Persian-Alola": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Feline Prowess",
             "level": 26,
@@ -17698,7 +17699,7 @@ var SETDEX_SV = {
                 "Water Pulse"
             ]
         },
-        "Camper Drew": {
+        "OU Camper Drew": {
             "nature": "Gentle",
             "ability": "Fur Coat",
             "level": 28,
@@ -17711,7 +17712,7 @@ var SETDEX_SV = {
         }
     },
     "Veluza": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 25,
@@ -17723,7 +17724,7 @@ var SETDEX_SV = {
                 "Psycho Cut"
             ]
         },
-        "Fisherman Hank": {
+        "OU Fisherman Hank": {
             "nature": "Impish",
             "ability": "Mold Breaker",
             "level": 36,
@@ -17734,7 +17735,7 @@ var SETDEX_SV = {
                 "Night Slash"
             ]
         },
-        "SwimmerF Anya": {
+        "OU SwimmerF Anya": {
             "nature": "Naive",
             "ability": "Mold Breaker",
             "level": 62,
@@ -17745,7 +17746,7 @@ var SETDEX_SV = {
                 "Night Slash"
             ]
         },
-        "*Ace Trainer Naomi": {
+        "OU *Ace Trainer Naomi": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 85,
@@ -17759,7 +17760,7 @@ var SETDEX_SV = {
         }
     },
     "Simisage": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Sage Power",
             "level": 27,
@@ -17771,7 +17772,7 @@ var SETDEX_SV = {
                 "Sleep Talk"
             ]
         },
-        "*Gentleman Brooks": {
+        "OU *Gentleman Brooks": {
             "nature": "Timid",
             "ability": "Sage Power",
             "level": 28,
@@ -17785,7 +17786,7 @@ var SETDEX_SV = {
         }
     },
     "Simipour": {
-        "Sailor Duncan": {
+        "OU Sailor Duncan": {
             "nature": "Bashful",
             "ability": "Gluttony",
             "level": 26,
@@ -17796,7 +17797,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Sage Power",
             "level": 27,
@@ -17808,7 +17809,7 @@ var SETDEX_SV = {
                 "Water Pulse"
             ]
         },
-        "SwimmerM Jerome": {
+        "OU SwimmerM Jerome": {
             "nature": "Jolly",
             "ability": "Gluttony",
             "level": 63,
@@ -17821,7 +17822,7 @@ var SETDEX_SV = {
         }
     },
     "Simisear": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Sage Power",
             "level": 27,
@@ -17833,7 +17834,7 @@ var SETDEX_SV = {
                 "Sleep Talk"
             ]
         },
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Modest",
             "ability": "Sage Power",
             "level": 85,
@@ -17845,7 +17846,7 @@ var SETDEX_SV = {
                 "Hidden Power Ice"
             ]
         },
-        "*Lass Ann": {
+        "OU *Lass Ann": {
             "nature": "Timid",
             "ability": "Sage Power",
             "level": 28,
@@ -17857,7 +17858,7 @@ var SETDEX_SV = {
                 "Hidden Power Ice"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Timid",
             "ability": "Sage Power",
             "level": 73,
@@ -17871,7 +17872,7 @@ var SETDEX_SV = {
         }
     },
     "Druddigon": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Impish",
             "ability": "Rough Skin",
             "level": 28,
@@ -17883,7 +17884,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "*PkMn Trainer Cole": {
+        "OU *PkMn Trainer Cole": {
             "nature": "Impish",
             "ability": "Rough Skin",
             "level": 59,
@@ -17895,7 +17896,7 @@ var SETDEX_SV = {
                 "Stealth Rock"
             ]
         },
-        "*Bird Keeper Robert": {
+        "OU *Bird Keeper Robert": {
             "nature": "Careful",
             "ability": "Rough Skin",
             "level": 66,
@@ -17909,7 +17910,7 @@ var SETDEX_SV = {
         }
     },
     "Togedemaru": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Iron Barbs",
             "level": 27,
@@ -17923,7 +17924,7 @@ var SETDEX_SV = {
         }
     },
     "Komala": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Comatose",
             "level": 28,
@@ -17935,7 +17936,7 @@ var SETDEX_SV = {
         }
     },
     "Mabosstiff": {
-        "Gentleman Arthur": {
+        "OU Gentleman Arthur": {
             "nature": "Quiet",
             "ability": "Intimidate",
             "level": 26,
@@ -17946,7 +17947,7 @@ var SETDEX_SV = {
                 "Swagger"
             ]
         },
-        "*Camper Ethan": {
+        "OU *Camper Ethan": {
             "nature": "Bashful",
             "ability": "Intimidate",
             "level": 26,
@@ -17960,7 +17961,7 @@ var SETDEX_SV = {
         }
     },
     "Salandit": {
-        "*Camper Ethan": {
+        "OU *Camper Ethan": {
             "nature": "Timid",
             "ability": "Corrosion",
             "level": 26,
@@ -17974,7 +17975,7 @@ var SETDEX_SV = {
         }
     },
     "Greedent": {
-        "Youngster Yasu": {
+        "OU Youngster Yasu": {
             "nature": "Brave",
             "ability": "Cheek Pouch",
             "level": 25,
@@ -17985,7 +17986,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "*Lass Reli": {
+        "OU *Lass Reli": {
             "nature": "Bashful",
             "ability": "Cheek Pouch",
             "level": 26,
@@ -17999,7 +18000,7 @@ var SETDEX_SV = {
         }
     },
     "Snover": {
-        "*Youngster Timmy": {
+        "OU *Youngster Timmy": {
             "nature": "Bashful",
             "ability": "Ice Body",
             "level": 26,
@@ -18013,7 +18014,7 @@ var SETDEX_SV = {
         }
     },
     "Amaura": {
-        "*Lass Ali": {
+        "OU *Lass Ali": {
             "nature": "Modest",
             "ability": "Refrigerate",
             "level": 26,
@@ -18027,7 +18028,7 @@ var SETDEX_SV = {
         }
     },
     "Brionne": {
-        "*Lass Ali": {
+        "OU *Lass Ali": {
             "nature": "Modest",
             "ability": "Liquid Voice",
             "level": 26,
@@ -18041,7 +18042,7 @@ var SETDEX_SV = {
         }
     },
     "Vivillon": {
-        "Bug Catcher Brent": {
+        "OU Bug Catcher Brent": {
             "nature": "Naughty",
             "ability": "Compound Eyes",
             "level": 29,
@@ -18052,7 +18053,7 @@ var SETDEX_SV = {
                 "Safeguard"
             ]
         },
-        "*Bug Catcher Cale": {
+        "OU *Bug Catcher Cale": {
             "nature": "Bashful",
             "ability": "Friend Guard",
             "level": 25,
@@ -18066,7 +18067,7 @@ var SETDEX_SV = {
         }
     },
     "Wormadam-Sandy": {
-        "*Bug Catcher Cale": {
+        "OU *Bug Catcher Cale": {
             "nature": "Careful",
             "ability": "Overcoat",
             "level": 26,
@@ -18080,7 +18081,7 @@ var SETDEX_SV = {
         }
     },
     "Bramblin": {
-        "Camper Shane": {
+        "OU Camper Shane": {
             "nature": "Sassy",
             "ability": "Infiltrator",
             "level": 18,
@@ -18093,7 +18094,7 @@ var SETDEX_SV = {
         }
     },
     "Yamper": {
-        "Engineer Braxton": {
+        "OU Engineer Braxton": {
             "nature": "Careful",
             "ability": "Pickup",
             "level": 26,
@@ -18104,7 +18105,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "Camper Shane": {
+        "OU Camper Shane": {
             "nature": "Adamant",
             "ability": "Pickup",
             "level": 20,
@@ -18117,7 +18118,7 @@ var SETDEX_SV = {
         }
     },
     "Timburr": {
-        "Hiker Franklin": {
+        "OU Hiker Franklin": {
             "nature": "Gentle",
             "ability": "Guts",
             "level": 18,
@@ -18128,7 +18129,7 @@ var SETDEX_SV = {
                 "Superpower"
             ]
         },
-        "Friendly PkMnManiac": {
+        "OU Friendly PkMnManiac": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 5,
@@ -18139,7 +18140,7 @@ var SETDEX_SV = {
         }
     },
     "Geodude-Alola": {
-        "Hiker Franklin": {
+        "OU Hiker Franklin": {
             "nature": "Modest",
             "ability": "Rock Head",
             "level": 19,
@@ -18152,7 +18153,7 @@ var SETDEX_SV = {
         }
     },
     "Raticate-Alola": {
-        "Youngster Yasu": {
+        "OU Youngster Yasu": {
             "nature": "Serious",
             "ability": "Gluttony",
             "level": 24,
@@ -18163,7 +18164,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Youngster Joey": {
+        "OU Youngster Joey": {
             "nature": "Serious",
             "ability": "Gluttony",
             "level": 18,
@@ -18174,7 +18175,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Careful",
             "ability": "Hustle",
             "level": 40,
@@ -18185,7 +18186,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Rash",
             "ability": "Hustle",
             "level": 47,
@@ -18196,7 +18197,7 @@ var SETDEX_SV = {
                 "Super Fang"
             ]
         },
-        "Team Rocket Grunt Set 3": {
+        "OU Team Rocket Grunt Set 3": {
             "nature": "Bold",
             "ability": "Gluttony",
             "level": 49,
@@ -18209,7 +18210,7 @@ var SETDEX_SV = {
         }
     },
     "Naclstack": {
-        "Hiker Wayne": {
+        "OU Hiker Wayne": {
             "nature": "Careful",
             "ability": "Sturdy",
             "level": 20,
@@ -18222,7 +18223,7 @@ var SETDEX_SV = {
         }
     },
     "Dolliv": {
-        "Picnicker Kelsey": {
+        "OU Picnicker Kelsey": {
             "nature": "Bold",
             "ability": "Early Bird",
             "level": 19,
@@ -18235,7 +18236,7 @@ var SETDEX_SV = {
         }
     },
     "Sandile": {
-        "Hiker Nob": {
+        "OU Hiker Nob": {
             "nature": "Rash",
             "ability": "Moxie",
             "level": 18,
@@ -18248,7 +18249,7 @@ var SETDEX_SV = {
         }
     },
     "Skwovet": {
-        "Camper Flint": {
+        "OU Camper Flint": {
             "nature": "Quiet",
             "ability": "Cheek Pouch",
             "level": 20,
@@ -18261,7 +18262,7 @@ var SETDEX_SV = {
         }
     },
     "Tandemaus": {
-        "Lass Haley": {
+        "OU Lass Haley": {
             "nature": "Hasty",
             "ability": "Pickup",
             "level": 19,
@@ -18274,7 +18275,7 @@ var SETDEX_SV = {
         }
     },
     "Kleavor": {
-        "Gentleman Komodo": {
+        "OU Gentleman Komodo": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 100,
@@ -18286,7 +18287,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 99,
@@ -18298,7 +18299,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Bugsy Set 1": {
+        "OU *Leader Bugsy Set 1": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 28,
@@ -18310,7 +18311,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "*Leader Bugsy Set 2": {
+        "OU *Leader Bugsy Set 2": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 44,
@@ -18324,7 +18325,7 @@ var SETDEX_SV = {
         }
     },
     "Lokix": {
-        "*Leader Bugsy Set 1": {
+        "OU *Leader Bugsy Set 1": {
             "nature": "Jolly",
             "ability": "Tinted Lens",
             "level": 28,
@@ -18336,7 +18337,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Bugsy Set 2": {
+        "OU *Leader Bugsy Set 2": {
             "nature": "Jolly",
             "ability": "Tinted Lens",
             "level": 44,
@@ -18350,7 +18351,7 @@ var SETDEX_SV = {
         }
     },
     "Araquanid": {
-        "*Leader Bugsy Set 1": {
+        "OU *Leader Bugsy Set 1": {
             "nature": "Impish",
             "ability": "Water Bubble",
             "level": 28,
@@ -18362,7 +18363,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*Leader Bugsy Set 2": {
+        "OU *Leader Bugsy Set 2": {
             "nature": "Impish",
             "ability": "Water Bubble",
             "level": 44,
@@ -18376,7 +18377,7 @@ var SETDEX_SV = {
         }
     },
     "Vikavolt": {
-        "*Cool Couple Ray & Tyra": {
+        "OU *Cool Couple Ray & Tyra": {
             "nature": "Quiet",
             "ability": "Levitate",
             "level": 85,
@@ -18388,7 +18389,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Leader Bugsy Set 1": {
+        "OU *Leader Bugsy Set 1": {
             "nature": "Modest",
             "ability": "Levitate",
             "level": 28,
@@ -18400,7 +18401,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Leader Bugsy Set 2": {
+        "OU *Leader Bugsy Set 2": {
             "nature": "Modest",
             "ability": "Levitate",
             "level": 44,
@@ -18414,7 +18415,7 @@ var SETDEX_SV = {
         }
     },
     "Mothim": {
-        "Bug Catcher Keigo": {
+        "OU Bug Catcher Keigo": {
             "nature": "Adamant",
             "ability": "Swarm",
             "level": 22,
@@ -18427,7 +18428,7 @@ var SETDEX_SV = {
         }
     },
     "Karrablast": {
-        "Bug Catcher Keigo": {
+        "OU Bug Catcher Keigo": {
             "nature": "Calm",
             "ability": "Swarm",
             "level": 23,
@@ -18440,7 +18441,7 @@ var SETDEX_SV = {
         }
     },
     "Squawkabilly-White": {
-        "Camper Ricky": {
+        "OU Camper Ricky": {
             "nature": "Rash",
             "ability": "Intimidate",
             "level": 24,
@@ -18453,7 +18454,7 @@ var SETDEX_SV = {
         }
     },
     "Vulpix-Alola": {
-        "Picnicker Nancy": {
+        "OU Picnicker Nancy": {
             "nature": "Brave",
             "ability": "Serene Grace",
             "level": 22,
@@ -18466,7 +18467,7 @@ var SETDEX_SV = {
         }
     },
     "Sinistea": {
-        "Picnicker Isabelle": {
+        "OU Picnicker Isabelle": {
             "nature": "Bashful",
             "ability": "Weak Armor",
             "level": 23,
@@ -18479,7 +18480,7 @@ var SETDEX_SV = {
         }
     },
     "Swadloon": {
-        "Picnicker Isabelle": {
+        "OU Picnicker Isabelle": {
             "nature": "Mild",
             "ability": "Leaf Guard",
             "level": 23,
@@ -18492,7 +18493,7 @@ var SETDEX_SV = {
         }
     },
     "Ambipom": {
-        "*Camper Jeff": {
+        "OU *Camper Jeff": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 27,
@@ -18506,7 +18507,7 @@ var SETDEX_SV = {
         }
     },
     "Mr. Mime-Galar": {
-        "*Camper Jeff": {
+        "OU *Camper Jeff": {
             "nature": "Timid",
             "ability": "Ice Body",
             "level": 27,
@@ -18520,7 +18521,7 @@ var SETDEX_SV = {
         }
     },
     "Perrserker": {
-        "*Camper Jeff": {
+        "OU *Camper Jeff": {
             "nature": "Adamant",
             "ability": "Tough Claws",
             "level": 28,
@@ -18532,7 +18533,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Bold",
             "ability": "Tough Claws",
             "level": 41,
@@ -18543,7 +18544,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Hasty",
             "ability": "Battle Armor",
             "level": 48,
@@ -18556,7 +18557,7 @@ var SETDEX_SV = {
         }
     },
     "Boltund": {
-        "*Camper Jeff": {
+        "OU *Camper Jeff": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
             "level": 27,
@@ -18570,7 +18571,7 @@ var SETDEX_SV = {
         }
     },
     "Falinks": {
-        "Gambler Hugo": {
+        "OU Gambler Hugo": {
             "nature": "Naughty",
             "ability": "Battle Armor",
             "level": 26,
@@ -18583,7 +18584,7 @@ var SETDEX_SV = {
         }
     },
     "Woobat": {
-        "Youngster Dillon": {
+        "OU Youngster Dillon": {
             "nature": "Impish",
             "ability": "Unaware",
             "level": 26,
@@ -18596,7 +18597,7 @@ var SETDEX_SV = {
         }
     },
     "Greavard": {
-        "Youngster Dave": {
+        "OU Youngster Dave": {
             "nature": "Docile",
             "ability": "Pickup",
             "level": 25,
@@ -18609,7 +18610,7 @@ var SETDEX_SV = {
         }
     },
     "Flamigo": {
-        "Black Belt Mike": {
+        "OU Black Belt Mike": {
             "nature": "Modest",
             "ability": "Scrappy",
             "level": 47,
@@ -18621,7 +18622,7 @@ var SETDEX_SV = {
                 "Wide Guard"
             ]
         },
-        "Gambler Jasper": {
+        "OU Gambler Jasper": {
             "nature": "Naive",
             "ability": "Scrappy",
             "level": 26,
@@ -18634,7 +18635,7 @@ var SETDEX_SV = {
         }
     },
     "Tadbulb": {
-        "Engineer Bernie": {
+        "OU Engineer Bernie": {
             "nature": "Relaxed",
             "ability": "Own Tempo",
             "level": 24,
@@ -18647,7 +18648,7 @@ var SETDEX_SV = {
         }
     },
     "Pyroar": {
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Adaptability",
             "level": 28,
@@ -18661,7 +18662,7 @@ var SETDEX_SV = {
         }
     },
     "Farigiraf": {
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Parental Bond",
             "level": 28,
@@ -18675,7 +18676,7 @@ var SETDEX_SV = {
         }
     },
     "Togekiss": {
-        "*Bird Keeper Sebastian": {
+        "OU *Bird Keeper Sebastian": {
             "nature": "Timid",
             "ability": "Super Luck",
             "level": 66,
@@ -18687,7 +18688,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "Bird Keeper Chester": {
+        "OU Bird Keeper Chester": {
             "nature": "Naive",
             "ability": "Hustle",
             "level": 58,
@@ -18698,7 +18699,7 @@ var SETDEX_SV = {
                 "Moonblast"
             ]
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Serene Grace",
             "level": 28,
@@ -18710,7 +18711,7 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ]
         },
-        "*Crush Girl Jocelyn": {
+        "OU *Crush Girl Jocelyn": {
             "nature": "Jolly",
             "ability": "Serene Grace",
             "level": 100,
@@ -18724,7 +18725,7 @@ var SETDEX_SV = {
         }
     },
     "Altaria-Mega": {
-        "*Picnicker Alma": {
+        "OU *Picnicker Alma": {
             "nature": "Bold",
             "ability": "Pixilate",
             "level": 66,
@@ -18737,7 +18738,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Gatekeeper Logan": {
+        "OU *Gatekeeper Logan": {
             "nature": "Jolly",
             "ability": "Pixilate",
             "level": 100,
@@ -18749,7 +18750,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Pixilate",
             "level": 28,
@@ -18763,7 +18764,7 @@ var SETDEX_SV = {
         }
     },
     "Samurott": {
-        "SwimmerM Tony": {
+        "OU SwimmerM Tony": {
             "nature": "Sassy",
             "ability": "Torrent",
             "level": 63,
@@ -18774,7 +18775,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "*Lass Ann": {
+        "OU *Lass Ann": {
             "nature": "Bashful",
             "ability": "Shell Armor",
             "level": 28,
@@ -18788,7 +18789,7 @@ var SETDEX_SV = {
         }
     },
     "Decidueye": {
-        "*Gentleman Brooks": {
+        "OU *Gentleman Brooks": {
             "nature": "Bashful",
             "ability": "Tinted Lens",
             "level": 28,
@@ -18802,7 +18803,7 @@ var SETDEX_SV = {
         }
     },
     "Cramorant": {
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Gulp Missile",
             "level": 68,
@@ -18814,7 +18815,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Fisherman Nolan": {
+        "OU Fisherman Nolan": {
             "nature": "Modest",
             "ability": "Gulp Missile",
             "level": 64,
@@ -18825,7 +18826,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Bird Keeper Carter": {
+        "OU Bird Keeper Carter": {
             "nature": "Mild",
             "ability": "Gulp Missile",
             "level": 56,
@@ -18836,7 +18837,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "*Sailor Trevor": {
+        "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Gulp Missile",
             "level": 27,
@@ -18850,7 +18851,7 @@ var SETDEX_SV = {
         }
     },
     "Cramorant-Gulping": {
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Gulp Missile",
             "level": 68,
@@ -18862,7 +18863,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Fisherman Nolan": {
+        "OU Fisherman Nolan": {
             "nature": "Modest",
             "ability": "Gulp Missile",
             "level": 64,
@@ -18873,7 +18874,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Bird Keeper Carter": {
+        "OU Bird Keeper Carter": {
             "nature": "Mild",
             "ability": "Gulp Missile",
             "level": 56,
@@ -18884,7 +18885,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "*Sailor Trevor": {
+        "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Gulp Missile",
             "level": 27,
@@ -18898,7 +18899,7 @@ var SETDEX_SV = {
         }
     },
     "Cramorant-Gorging": {
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Timid",
             "ability": "Gulp Missile",
             "level": 68,
@@ -18910,7 +18911,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Fisherman Nolan": {
+        "OU Fisherman Nolan": {
             "nature": "Modest",
             "ability": "Gulp Missile",
             "level": 64,
@@ -18921,7 +18922,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Bird Keeper Carter": {
+        "OU Bird Keeper Carter": {
             "nature": "Mild",
             "ability": "Gulp Missile",
             "level": 56,
@@ -18932,7 +18933,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "*Sailor Trevor": {
+        "OU *Sailor Trevor": {
             "nature": "Timid",
             "ability": "Gulp Missile",
             "level": 27,
@@ -18946,7 +18947,7 @@ var SETDEX_SV = {
         }
     },
     "Lumineon": {
-        "*Sailor Edmond": {
+        "OU *Sailor Edmond": {
             "nature": "Timid",
             "ability": "Storm Drain",
             "level": 28,
@@ -18958,7 +18959,7 @@ var SETDEX_SV = {
                 "Ice Beam"
             ]
         },
-        "SwimmerM Douglas": {
+        "OU SwimmerM Douglas": {
             "nature": "Jolly",
             "ability": "Storm Drain",
             "level": 63,
@@ -18971,7 +18972,7 @@ var SETDEX_SV = {
         }
     },
     "Tatsugiri": {
-        "*Sailor Edmond": {
+        "OU *Sailor Edmond": {
             "nature": "Calm",
             "ability": "Storm Drain",
             "level": 27,
@@ -18983,7 +18984,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "Fisherman Nolan": {
+        "OU Fisherman Nolan": {
             "nature": "Quiet",
             "ability": "Storm Drain",
             "level": 63,
@@ -18996,7 +18997,7 @@ var SETDEX_SV = {
         }
     },
     "Clobbopus": {
-        "Fisherman Dale": {
+        "OU Fisherman Dale": {
             "nature": "Gentle",
             "ability": "Limber",
             "level": 27,
@@ -19009,7 +19010,7 @@ var SETDEX_SV = {
         }
     },
     "Finizen": {
-        "Fisherman Dale": {
+        "OU Fisherman Dale": {
             "nature": "Docile",
             "ability": "Water Veil",
             "level": 27,
@@ -19022,7 +19023,7 @@ var SETDEX_SV = {
         }
     },
     "Herdier": {
-        "Gentleman Lamar": {
+        "OU Gentleman Lamar": {
             "nature": "Hasty",
             "ability": "Sand Rush",
             "level": 26,
@@ -19035,7 +19036,7 @@ var SETDEX_SV = {
         }
     },
     "Morpeko": {
-        "Lass Dawn": {
+        "OU Lass Dawn": {
             "nature": "Lax",
             "ability": "Hunger Switch",
             "level": 28,
@@ -19046,7 +19047,7 @@ var SETDEX_SV = {
                 "Zippy Zap"
             ]
         },
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Jolly",
             "ability": "Hunger Switch",
             "level": 85,
@@ -19060,7 +19061,7 @@ var SETDEX_SV = {
         }
     },
     "Morpeko-Hangry": {
-        "Lass Dawn": {
+        "OU Lass Dawn": {
             "nature": "Lax",
             "ability": "Hunger Switch",
             "level": 28,
@@ -19071,7 +19072,7 @@ var SETDEX_SV = {
                 "Zippy Zap"
             ]
         },
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Jolly",
             "ability": "Hunger Switch",
             "level": 85,
@@ -19085,7 +19086,7 @@ var SETDEX_SV = {
         }
     },
     "Arrokuda": {
-        "Fisherman Barny": {
+        "OU Fisherman Barny": {
             "nature": "Calm",
             "ability": "Swift Swim",
             "level": 27,
@@ -19098,7 +19099,7 @@ var SETDEX_SV = {
         }
     },
     "Mantyke": {
-        "Fisherman Barny": {
+        "OU Fisherman Barny": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 26,
@@ -19111,7 +19112,7 @@ var SETDEX_SV = {
         }
     },
     "Bibarel": {
-        "Sailor Huey": {
+        "OU Sailor Huey": {
             "nature": "Timid",
             "ability": "Simple",
             "level": 28,
@@ -19124,7 +19125,7 @@ var SETDEX_SV = {
         }
     },
     "Ducklett": {
-        "Sailor Dylan": {
+        "OU Sailor Dylan": {
             "nature": "Adamant",
             "ability": "Frisk",
             "level": 29,
@@ -19137,7 +19138,7 @@ var SETDEX_SV = {
         }
     },
     "Eiscue": {
-        "Youngster Tyler": {
+        "OU Youngster Tyler": {
             "nature": "Sassy",
             "ability": "Ice Face",
             "level": 27,
@@ -19150,7 +19151,7 @@ var SETDEX_SV = {
         }
     },
     "Eiscue-Noice": {
-        "Youngster Tyler": {
+        "OU Youngster Tyler": {
             "nature": "Sassy",
             "ability": "Ice Face",
             "level": 27,
@@ -19163,7 +19164,7 @@ var SETDEX_SV = {
         }
     },
     "Overqwil": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Swift Swim",
             "level": 56,
@@ -19175,7 +19176,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*SwimmerM Finn": {
+        "OU *SwimmerM Finn": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 100,
@@ -19187,7 +19188,7 @@ var SETDEX_SV = {
                 "Toxic Spikes"
             ]
         },
-        "Gentleman Komodo": {
+        "OU Gentleman Komodo": {
             "nature": "Careful",
             "ability": "Intimidate",
             "level": 100,
@@ -19199,7 +19200,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 99,
@@ -19213,7 +19214,7 @@ var SETDEX_SV = {
         }
     },
     "Goodra-Hisui": {
-        "Gentleman Komodo": {
+        "OU Gentleman Komodo": {
             "nature": "Modest",
             "ability": "Sap Sipper",
             "level": 100,
@@ -19225,7 +19226,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Bold",
             "ability": "Gooey",
             "level": 100,
@@ -19237,7 +19238,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Cue Ball Paxton": {
+        "OU *Cue Ball Paxton": {
             "nature": "Modest",
             "ability": "Sap Sipper",
             "level": 100,
@@ -19251,7 +19252,7 @@ var SETDEX_SV = {
         }
     },
     "Arcanine-Hisui": {
-        "*Aroma Lady Violet": {
+        "OU *Aroma Lady Violet": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 99,
@@ -19263,7 +19264,7 @@ var SETDEX_SV = {
                 "Head Smash"
             ]
         },
-        "Gentleman Komodo": {
+        "OU Gentleman Komodo": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 100,
@@ -19275,7 +19276,7 @@ var SETDEX_SV = {
                 "Teleport"
             ]
         },
-        "*Ace Trainer Derek": {
+        "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 76,
@@ -19287,7 +19288,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*Super Nerd Aidan": {
+        "OU *Super Nerd Aidan": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 35,
@@ -19299,7 +19300,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*Gatekeeper Logan": {
+        "OU *Gatekeeper Logan": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 99,
@@ -19313,7 +19314,7 @@ var SETDEX_SV = {
         }
     },
     "Lilligant-Hisui": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Hustle",
             "level": 47,
@@ -19325,7 +19326,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Gentleman Komodo": {
+        "OU Gentleman Komodo": {
             "nature": "Jolly",
             "ability": "Hustle",
             "level": 100,
@@ -19339,7 +19340,7 @@ var SETDEX_SV = {
         }
     },
     "Avalugg-Hisui": {
-        "Gentleman Komodo": {
+        "OU Gentleman Komodo": {
             "nature": "Impish",
             "ability": "Technician",
             "level": 100,
@@ -19351,7 +19352,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 98,
@@ -19365,7 +19366,7 @@ var SETDEX_SV = {
         }
     },
     "Tirtouga": {
-        "SwimmerM Luis": {
+        "OU SwimmerM Luis": {
             "nature": "Quirky",
             "ability": "Solid Rock",
             "level": 20,
@@ -19378,7 +19379,7 @@ var SETDEX_SV = {
         }
     },
     "Drednaw": {
-        "Picnicker Diana": {
+        "OU Picnicker Diana": {
             "nature": "Bold",
             "ability": "Strong Jaw",
             "level": 22,
@@ -19391,7 +19392,7 @@ var SETDEX_SV = {
         }
     },
     "Clodsire": {
-        "Leader Misty": {
+        "OU Leader Misty": {
             "nature": "Careful",
             "ability": "Water Absorb",
             "level": 28,
@@ -19403,7 +19404,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "Picnicker Missy": {
+        "OU Picnicker Missy": {
             "nature": "Lax",
             "ability": "Poison Touch",
             "level": 64,
@@ -19416,7 +19417,7 @@ var SETDEX_SV = {
         }
     },
     "Toxicroak": {
-        "Biker Alex": {
+        "OU Biker Alex": {
             "nature": "Modest",
             "ability": "Dry Skin",
             "level": 57,
@@ -19427,7 +19428,7 @@ var SETDEX_SV = {
                 "Vacuum Wave"
             ]
         },
-        "Leader Misty": {
+        "OU Leader Misty": {
             "nature": "Jolly",
             "ability": "Dry Skin",
             "level": 27,
@@ -19439,7 +19440,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Biker Lukas": {
+        "OU Biker Lukas": {
             "nature": "Mild",
             "ability": "Dry Skin",
             "level": 57,
@@ -19450,7 +19451,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Serious",
             "ability": "Dry Skin",
             "level": 46,
@@ -19463,7 +19464,7 @@ var SETDEX_SV = {
         }
     },
     "Pikachu-Belle": {
-        "Friendly PkMnManiac": {
+        "OU Friendly PkMnManiac": {
             "nature": "Jolly",
             "ability": "Lightning Rod",
             "level": 5,
@@ -19476,7 +19477,7 @@ var SETDEX_SV = {
         }
     },
     "Skorupi": {
-        "Friendly PkMnManiac": {
+        "OU Friendly PkMnManiac": {
             "nature": "Brave",
             "ability": "Battle Armor",
             "level": 5,
@@ -19488,7 +19489,7 @@ var SETDEX_SV = {
         }
     },
     "Larvesta": {
-        "Friendly PkMnManiac": {
+        "OU Friendly PkMnManiac": {
             "nature": "Bashful",
             "ability": "Flame Body",
             "level": 5,
@@ -19502,7 +19503,7 @@ var SETDEX_SV = {
         }
     },
     "Barraskewda": {
-        "*Ace Trainer Janny": {
+        "OU *Ace Trainer Janny": {
             "nature": "Adamant",
             "ability": "Swift Swim",
             "level": 100,
@@ -19514,7 +19515,7 @@ var SETDEX_SV = {
                 "Liquidation"
             ]
         },
-        "*SwimmerM Finn": {
+        "OU *SwimmerM Finn": {
             "nature": "Jolly",
             "ability": "Swift Swim",
             "level": 98,
@@ -19526,7 +19527,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "SwimmerM Darrin": {
+        "OU SwimmerM Darrin": {
             "nature": "Lax",
             "ability": "Swift Swim",
             "level": 62,
@@ -19537,7 +19538,7 @@ var SETDEX_SV = {
                 "Liquidation"
             ]
         },
-        "Fisherman Chip": {
+        "OU Fisherman Chip": {
             "nature": "Sassy",
             "ability": "Swift Swim",
             "level": 35,
@@ -19550,7 +19551,7 @@ var SETDEX_SV = {
         }
     },
     "Dondozo": {
-        "SwimmerM Richard": {
+        "OU SwimmerM Richard": {
             "nature": "Serious",
             "ability": "Unaware",
             "level": 57,
@@ -19561,7 +19562,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "Fisherman Elliot": {
+        "OU Fisherman Elliot": {
             "nature": "Sassy",
             "ability": "Unaware",
             "level": 37,
@@ -19572,7 +19573,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "*Ace Trainer Alexa": {
+        "OU *Ace Trainer Alexa": {
             "nature": "Careful",
             "ability": "Unaware",
             "level": 85,
@@ -19586,7 +19587,7 @@ var SETDEX_SV = {
         }
     },
     "Toxtricity": {
-        "Leader Erika": {
+        "OU Leader Erika": {
             "nature": "Timid",
             "ability": "Punk Rock",
             "level": 44,
@@ -19598,7 +19599,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "Young Couple Gia & Jes": {
+        "OU Young Couple Gia & Jes": {
             "nature": "Mild",
             "ability": "Punk Rock",
             "level": 38,
@@ -19611,7 +19612,7 @@ var SETDEX_SV = {
         }
     },
     "Toxtricity-Low-Key": {
-        "Young Couple Gia & Jes": {
+        "OU Young Couple Gia & Jes": {
             "nature": "Bold",
             "ability": "Minus",
             "level": 38,
@@ -19624,7 +19625,7 @@ var SETDEX_SV = {
         }
     },
     "Mime Jr.": {
-        "Picnicker Carol": {
+        "OU Picnicker Carol": {
             "nature": "Naughty",
             "ability": "Soundproof",
             "level": 35,
@@ -19637,7 +19638,7 @@ var SETDEX_SV = {
         }
     },
     "Bombirdier": {
-        "Picnicker Carol": {
+        "OU Picnicker Carol": {
             "nature": "Serious",
             "ability": "Rocky Payload",
             "level": 34,
@@ -19650,7 +19651,7 @@ var SETDEX_SV = {
         }
     },
     "Boldore": {
-        "Hiker Clark": {
+        "OU Hiker Clark": {
             "nature": "Jolly",
             "ability": "Sturdy",
             "level": 36,
@@ -19663,7 +19664,7 @@ var SETDEX_SV = {
         }
     },
     "Cherrim": {
-        "*Beauty Lola": {
+        "OU *Beauty Lola": {
             "nature": "Jolly",
             "ability": "Flower Gift",
             "level": 66,
@@ -19675,7 +19676,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "*Pokemaniac Herman": {
+        "OU *Pokemaniac Herman": {
             "nature": "Lonely",
             "ability": "Flower Gift",
             "level": 36,
@@ -19689,7 +19690,7 @@ var SETDEX_SV = {
         }
     },
     "Cherrim-Sunshine": {
-        "*Beauty Lola": {
+        "OU *Beauty Lola": {
             "nature": "Jolly",
             "ability": "Flower Gift",
             "level": 66,
@@ -19701,7 +19702,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "*Pokemaniac Herman": {
+        "OU *Pokemaniac Herman": {
             "nature": "Lonely",
             "ability": "Flower Gift",
             "level": 36,
@@ -19715,7 +19716,7 @@ var SETDEX_SV = {
         }
     },
     "Sylveon": {
-        "*Picnicker Susie": {
+        "OU *Picnicker Susie": {
             "nature": "Timid",
             "ability": "Pixilate",
             "level": 66,
@@ -19727,7 +19728,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Pokemaniac Herman": {
+        "OU *Pokemaniac Herman": {
             "nature": "Modest",
             "ability": "Pixilate",
             "level": 36,
@@ -19741,7 +19742,7 @@ var SETDEX_SV = {
         }
     },
     "Roserade": {
-        "*Biker Ruben": {
+        "OU *Biker Ruben": {
             "nature": "Timid",
             "ability": "Technician",
             "level": 66,
@@ -19753,7 +19754,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Picnicker Alicia": {
+        "OU *Picnicker Alicia": {
             "nature": "Timid",
             "ability": "Technician",
             "level": 34,
@@ -19765,7 +19766,7 @@ var SETDEX_SV = {
                 "Sleep Powder"
             ]
         },
-        "Biker Malik": {
+        "OU Biker Malik": {
             "nature": "Bashful",
             "ability": "Poison Touch",
             "level": 57,
@@ -19778,7 +19779,7 @@ var SETDEX_SV = {
         }
     },
     "Bruxish": {
-        "*Picnicker Alicia": {
+        "OU *Picnicker Alicia": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
             "level": 35,
@@ -19790,7 +19791,7 @@ var SETDEX_SV = {
                 "Psychic Fangs"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Lax",
             "ability": "Dazzling",
             "level": 47,
@@ -19803,7 +19804,7 @@ var SETDEX_SV = {
         }
     },
     "Chatot": {
-        "*Picnicker Alicia": {
+        "OU *Picnicker Alicia": {
             "nature": "Timid",
             "ability": "Punk Rock",
             "level": 36,
@@ -19815,7 +19816,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Picnicker Ariana": {
+        "OU Picnicker Ariana": {
             "nature": "Timid",
             "ability": "Punk Rock",
             "level": 33,
@@ -19828,7 +19829,7 @@ var SETDEX_SV = {
         }
     },
     "Stunfisk": {
-        "Hiker Jeremy": {
+        "OU Hiker Jeremy": {
             "nature": "Hasty",
             "ability": "Static",
             "level": 30,
@@ -19839,7 +19840,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Biker Hideo": {
+        "OU *Biker Hideo": {
             "nature": "Calm",
             "ability": "Sand Veil",
             "level": 65,
@@ -19853,7 +19854,7 @@ var SETDEX_SV = {
         }
     },
     "Carkol": {
-        "Hiker Alan": {
+        "OU Hiker Alan": {
             "nature": "Hasty",
             "ability": "Steam Engine",
             "level": 32,
@@ -19865,7 +19866,7 @@ var SETDEX_SV = {
         }
     },
     "Pignite": {
-        "Camper Chris": {
+        "OU Camper Chris": {
             "nature": "Impish",
             "ability": "Blaze",
             "level": 31,
@@ -19878,7 +19879,7 @@ var SETDEX_SV = {
         }
     },
     "Orbeetle": {
-        "Bug Catcher Brent": {
+        "OU Bug Catcher Brent": {
             "nature": "Timid",
             "ability": "Swarm",
             "level": 28,
@@ -19891,7 +19892,7 @@ var SETDEX_SV = {
         }
     },
     "Klawf": {
-        "Hiker Brice": {
+        "OU Hiker Brice": {
             "nature": "Jolly",
             "ability": "Anger Shell",
             "level": 30,
@@ -19904,7 +19905,7 @@ var SETDEX_SV = {
         }
     },
     "Carbink": {
-        "Hiker Brice": {
+        "OU Hiker Brice": {
             "nature": "Hasty",
             "ability": "Clear Body",
             "level": 30,
@@ -19915,7 +19916,7 @@ var SETDEX_SV = {
                 "Safeguard"
             ]
         },
-        "Picnicker Sofia": {
+        "OU Picnicker Sofia": {
             "nature": "Modest",
             "ability": "Clear Body",
             "level": 35,
@@ -19928,7 +19929,7 @@ var SETDEX_SV = {
         }
     },
     "Minior-Meteor": {
-        "Hiker Brice": {
+        "OU Hiker Brice": {
             "nature": "Bold",
             "ability": "Shields Down",
             "level": 30,
@@ -19941,7 +19942,7 @@ var SETDEX_SV = {
         }
     },
     "Minior": {
-        "Hiker Brice": {
+        "OU Hiker Brice": {
             "nature": "Bold",
             "ability": "Shields Down",
             "level": 30,
@@ -19954,7 +19955,7 @@ var SETDEX_SV = {
         }
     },
     "Sneasel-Hisui": {
-        "*Picnicker Caitlin": {
+        "OU *Picnicker Caitlin": {
             "nature": "Jolly",
             "ability": "Inner Focus",
             "level": 35,
@@ -19965,7 +19966,7 @@ var SETDEX_SV = {
         }
     },
     "Liepard": {
-        "*Picnicker Caitlin": {
+        "OU *Picnicker Caitlin": {
             "nature": "Adamant",
             "ability": "Prankster",
             "level": 35,
@@ -19974,7 +19975,7 @@ var SETDEX_SV = {
                 "Assist"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Quiet",
             "ability": "Unburden",
             "level": 46,
@@ -19987,7 +19988,7 @@ var SETDEX_SV = {
         }
     },
     "Palpitoad": {
-        "Camper Drew": {
+        "OU Camper Drew": {
             "nature": "Lax",
             "ability": "Swift Swim",
             "level": 27,
@@ -20000,7 +20001,7 @@ var SETDEX_SV = {
         }
     },
     "Ribombee": {
-        "*Picnicker Dana": {
+        "OU *Picnicker Dana": {
             "nature": "Naive",
             "ability": "Shield Dust",
             "level": 34,
@@ -20014,7 +20015,7 @@ var SETDEX_SV = {
         }
     },
     "Bouffalant": {
-        "Biker Virgil": {
+        "OU Biker Virgil": {
             "nature": "Adamant",
             "ability": "Reckless",
             "level": 55,
@@ -20024,7 +20025,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "*Picnicker Dana": {
+        "OU *Picnicker Dana": {
             "nature": "Jolly",
             "ability": "Bull Rush",
             "level": 35,
@@ -20036,7 +20037,7 @@ var SETDEX_SV = {
                 "Throat Chop"
             ]
         },
-        "*Beauty Sheila": {
+        "OU *Beauty Sheila": {
             "nature": "Adamant",
             "ability": "Sap Sipper",
             "level": 66,
@@ -20050,7 +20051,7 @@ var SETDEX_SV = {
         }
     },
     "Clawitzer": {
-        "*Picnicker Dana": {
+        "OU *Picnicker Dana": {
             "nature": "Timid",
             "ability": "Mega Launcher",
             "level": 36,
@@ -20064,7 +20065,7 @@ var SETDEX_SV = {
         }
     },
     "Rampardos": {
-        "*Picnicker Dana": {
+        "OU *Picnicker Dana": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
             "level": 36,
@@ -20078,7 +20079,7 @@ var SETDEX_SV = {
         }
     },
     "Magmortar": {
-        "*Picnicker Dana": {
+        "OU *Picnicker Dana": {
             "nature": "Timid",
             "ability": "Mega Launcher",
             "level": 36,
@@ -20090,7 +20091,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Modest",
             "ability": "Mega Launcher",
             "level": 81,
@@ -20102,7 +20103,7 @@ var SETDEX_SV = {
                 "Steam Eruption"
             ]
         },
-        "Juggler Shawn": {
+        "OU Juggler Shawn": {
             "nature": "Serious",
             "ability": "Flame Body",
             "level": 63,
@@ -20115,7 +20116,7 @@ var SETDEX_SV = {
         }
     },
     "Luxio": {
-        "Picnicker Ariana": {
+        "OU Picnicker Ariana": {
             "nature": "Modest",
             "ability": "Rivalry",
             "level": 31,
@@ -20128,7 +20129,7 @@ var SETDEX_SV = {
         }
     },
     "Honedge": {
-        "Hiker Lucas": {
+        "OU Hiker Lucas": {
             "nature": "Lonely",
             "ability": "Sharpness",
             "level": 35,
@@ -20140,7 +20141,7 @@ var SETDEX_SV = {
         }
     },
     "Cranidos": {
-        "Hiker Lenny": {
+        "OU Hiker Lenny": {
             "nature": "Bashful",
             "ability": "Mold Breaker",
             "level": 31,
@@ -20153,7 +20154,7 @@ var SETDEX_SV = {
         }
     },
     "Shieldon": {
-        "Hiker Lenny": {
+        "OU Hiker Lenny": {
             "nature": "Naughty",
             "ability": "Sturdy",
             "level": 32,
@@ -20166,7 +20167,7 @@ var SETDEX_SV = {
         }
     },
     "Arctibax": {
-        "Pokemaniac Ashton": {
+        "OU Pokemaniac Ashton": {
             "nature": "Jolly",
             "ability": "ThermalExchange",
             "level": 32,
@@ -20179,7 +20180,7 @@ var SETDEX_SV = {
         }
     },
     "Ferroseed": {
-        "Hiker Dudley": {
+        "OU Hiker Dudley": {
             "nature": "Relaxed",
             "ability": "Iron Barbs",
             "level": 34,
@@ -20192,7 +20193,7 @@ var SETDEX_SV = {
         }
     },
     "Dwebble": {
-        "Hiker Dudley": {
+        "OU Hiker Dudley": {
             "nature": "Hardy",
             "ability": "Sturdy",
             "level": 35,
@@ -20204,7 +20205,7 @@ var SETDEX_SV = {
         }
     },
     "Golett": {
-        "Channeler Janae": {
+        "OU Channeler Janae": {
             "nature": "Bold",
             "ability": "Iron Fist",
             "level": 38,
@@ -20215,7 +20216,7 @@ var SETDEX_SV = {
                 "Hammer Arm"
             ]
         },
-        "Hiker Allen": {
+        "OU Hiker Allen": {
             "nature": "Impish",
             "ability": "Iron Fist",
             "level": 35,
@@ -20226,7 +20227,7 @@ var SETDEX_SV = {
         }
     },
     "Revavroom": {
-        "Scientist Ivan": {
+        "OU Scientist Ivan": {
             "nature": "Careful",
             "ability": "Overcoat",
             "level": 71,
@@ -20237,7 +20238,7 @@ var SETDEX_SV = {
                 "Uproar"
             ]
         },
-        "Hiker Eric": {
+        "OU Hiker Eric": {
             "nature": "Relaxed",
             "ability": "Overcoat",
             "level": 34,
@@ -20250,7 +20251,7 @@ var SETDEX_SV = {
         }
     },
     "Braixen": {
-        "Pokemaniac Steve": {
+        "OU Pokemaniac Steve": {
             "nature": "Jolly",
             "ability": "Blaze",
             "level": 33,
@@ -20263,7 +20264,7 @@ var SETDEX_SV = {
         }
     },
     "Munna": {
-        "Lass Julia": {
+        "OU Lass Julia": {
             "nature": "Hasty",
             "ability": "Synchronize",
             "level": 34,
@@ -20276,7 +20277,7 @@ var SETDEX_SV = {
         }
     },
     "Grimer-Alola": {
-        "Super Nerd Glenn": {
+        "OU Super Nerd Glenn": {
             "nature": "Modest",
             "ability": "Gluttony",
             "level": 36,
@@ -20289,7 +20290,7 @@ var SETDEX_SV = {
         }
     },
     "Muk-Alola": {
-        "Super Nerd Glenn": {
+        "OU Super Nerd Glenn": {
             "nature": "Timid",
             "ability": "Poison Touch",
             "level": 34,
@@ -20300,7 +20301,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "Scientist Connor": {
+        "OU Scientist Connor": {
             "nature": "Adamant",
             "ability": "Poison Touch",
             "level": 45,
@@ -20310,7 +20311,7 @@ var SETDEX_SV = {
                 "Shadow Sneak"
             ]
         },
-        "*Ace Trainer Colby": {
+        "OU *Ace Trainer Colby": {
             "nature": "Adamant",
             "ability": "Poison Touch",
             "level": 85,
@@ -20322,7 +20323,7 @@ var SETDEX_SV = {
                 "Pursuit"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Naughty",
             "ability": "Poison Touch",
             "level": 40,
@@ -20335,7 +20336,7 @@ var SETDEX_SV = {
         }
     },
     "Lopunny": {
-        "Lass Paige": {
+        "OU Lass Paige": {
             "nature": "Calm",
             "ability": "Cute Charm",
             "level": 36,
@@ -20348,7 +20349,7 @@ var SETDEX_SV = {
         }
     },
     "Meowth-Alola": {
-        "Lass Andrea": {
+        "OU Lass Andrea": {
             "nature": "Naughty",
             "ability": "Pickup",
             "level": 36,
@@ -20361,7 +20362,7 @@ var SETDEX_SV = {
         }
     },
     "Cutiefly": {
-        "Lass Andrea": {
+        "OU Lass Andrea": {
             "nature": "Naive",
             "ability": "Swarm",
             "level": 37,
@@ -20374,7 +20375,7 @@ var SETDEX_SV = {
         }
     },
     "Comfey": {
-        "Lass Megan": {
+        "OU Lass Megan": {
             "nature": "Naughty",
             "ability": "Triage",
             "level": 35,
@@ -20387,7 +20388,7 @@ var SETDEX_SV = {
         }
     },
     "Armarouge": {
-        "Scientist Rodney": {
+        "OU Scientist Rodney": {
             "nature": "Quirky",
             "ability": "Flash Fire",
             "level": 48,
@@ -20398,7 +20399,7 @@ var SETDEX_SV = {
                 "Flamethrower"
             ]
         },
-        "*Super Nerd Aidan": {
+        "OU *Super Nerd Aidan": {
             "nature": "Modest",
             "ability": "Weak Armor",
             "level": 35,
@@ -20411,7 +20412,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "Channeler Stacy": {
+        "OU Channeler Stacy": {
             "nature": "Jolly",
             "ability": "Flash Fire",
             "level": 54,
@@ -20424,7 +20425,7 @@ var SETDEX_SV = {
         }
     },
     "Tsareena": {
-        "*Super Nerd Aidan": {
+        "OU *Super Nerd Aidan": {
             "nature": "Adamant",
             "ability": "Queenly Majesty",
             "level": 35,
@@ -20438,7 +20439,7 @@ var SETDEX_SV = {
         }
     },
     "Basculegion-F": {
-        "*Super Nerd Aidan": {
+        "OU *Super Nerd Aidan": {
             "nature": "Naive",
             "ability": "Adaptability",
             "level": 36,
@@ -20450,7 +20451,7 @@ var SETDEX_SV = {
                 "Shadow Sneak"
             ]
         },
-        "*SwimmerF Maria": {
+        "OU *SwimmerF Maria": {
             "nature": "Timid",
             "ability": "Adaptability",
             "level": 100,
@@ -20464,7 +20465,7 @@ var SETDEX_SV = {
         }
     },
     "Braviary-Hisui": {
-        "*Ace Trainer Zac": {
+        "OU *Ace Trainer Zac": {
             "nature": "Timid",
             "ability": "Tinted Lens",
             "level": 76,
@@ -20476,7 +20477,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*Super Nerd Aidan": {
+        "OU *Super Nerd Aidan": {
             "nature": "Modest",
             "ability": "Sheer Force",
             "level": 36,
@@ -20488,7 +20489,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Modest",
             "ability": "Sheer Force",
             "level": 99,
@@ -20502,7 +20503,7 @@ var SETDEX_SV = {
         }
     },
     "Espurr": {
-        "Twins Eli & Anne": {
+        "OU Twins Eli & Anne": {
             "nature": "Calm",
             "ability": "Frisk",
             "level": 37,
@@ -20515,7 +20516,7 @@ var SETDEX_SV = {
         }
     },
     "Weezing-Galar": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Bold",
             "ability": "Neutralize Gas",
             "level": 47,
@@ -20527,7 +20528,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Biker Ricardo": {
+        "OU Biker Ricardo": {
             "nature": "Rash",
             "ability": "Neutralize Gas",
             "level": 34,
@@ -20538,7 +20539,7 @@ var SETDEX_SV = {
                 "Strange Steam"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Gentle",
             "ability": "Neutralize Gas",
             "level": 42,
@@ -20551,7 +20552,7 @@ var SETDEX_SV = {
         }
     },
     "Salazzle": {
-        "Biker Ernest": {
+        "OU Biker Ernest": {
             "nature": "Brave",
             "ability": "Corrosion",
             "level": 57,
@@ -20562,7 +20563,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "Biker Ricardo": {
+        "OU Biker Ricardo": {
             "nature": "Docile",
             "ability": "Corrosion",
             "level": 34,
@@ -20573,7 +20574,7 @@ var SETDEX_SV = {
                 "Sludge"
             ]
         },
-        "Burglar Ramon": {
+        "OU Burglar Ramon": {
             "nature": "Quiet",
             "ability": "Corrosion",
             "level": 74,
@@ -20586,7 +20587,7 @@ var SETDEX_SV = {
         }
     },
     "Garbodor": {
-        "Biker Isaac": {
+        "OU Biker Isaac": {
             "nature": "Quiet",
             "ability": "Gooey",
             "level": 57,
@@ -20597,7 +20598,7 @@ var SETDEX_SV = {
                 "Toxic Spikes"
             ]
         },
-        "Biker Jaren": {
+        "OU Biker Jaren": {
             "nature": "Bold",
             "ability": "Weak Armor",
             "level": 35,
@@ -20610,7 +20611,7 @@ var SETDEX_SV = {
         }
     },
     "Sawk": {
-        "Black Belt Hitoshi": {
+        "OU Black Belt Hitoshi": {
             "nature": "Modest",
             "ability": "Contrary",
             "level": 45,
@@ -20624,7 +20625,7 @@ var SETDEX_SV = {
         }
     },
     "Throh": {
-        "Black Belt Hitoshi": {
+        "OU Black Belt Hitoshi": {
             "nature": "Modest",
             "ability": "Mold Breaker",
             "level": 46,
@@ -20638,7 +20639,7 @@ var SETDEX_SV = {
         }
     },
     "Annihilape": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 79,
@@ -20650,7 +20651,7 @@ var SETDEX_SV = {
                 "Rage Fist"
             ]
         },
-        "*Leader Chuck": {
+        "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 36,
@@ -20663,7 +20664,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "Black Belt Hitoshi": {
+        "OU Black Belt Hitoshi": {
             "nature": "Modest",
             "ability": "Defiant",
             "level": 45,
@@ -20677,7 +20678,7 @@ var SETDEX_SV = {
         }
     },
     "Conkeldurr": {
-        "*Camper Justin": {
+        "OU *Camper Justin": {
             "nature": "Careful",
             "ability": "Iron Fist",
             "level": 66,
@@ -20689,7 +20690,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Black Belt Hideki": {
+        "OU Black Belt Hideki": {
             "nature": "Modest",
             "ability": "Iron Fist",
             "level": 45,
@@ -20701,7 +20702,7 @@ var SETDEX_SV = {
                 "Superpower"
             ]
         },
-        "*Black Belt Shea": {
+        "OU *Black Belt Shea": {
             "nature": "Adamant",
             "ability": "Guts",
             "level": 100,
@@ -20713,7 +20714,7 @@ var SETDEX_SV = {
                 "Mach Punch"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Guts",
             "level": 47,
@@ -20724,7 +20725,7 @@ var SETDEX_SV = {
                 "Superpower"
             ]
         },
-        "Black Belt Daisuke": {
+        "OU Black Belt Daisuke": {
             "nature": "Adamant",
             "ability": "Sheer Force",
             "level": 80,
@@ -20738,7 +20739,7 @@ var SETDEX_SV = {
         }
     },
     "Sirfetch’d": {
-        "Crush Kin Ron & Mya": {
+        "OU Crush Kin Ron & Mya": {
             "nature": "Naive",
             "ability": "Sharpness",
             "level": 58,
@@ -20750,7 +20751,7 @@ var SETDEX_SV = {
                 "Sacred Sword"
             ]
         },
-        "Black Belt Aaron": {
+        "OU Black Belt Aaron": {
             "nature": "Modest",
             "ability": "Scrappy",
             "level": 46,
@@ -20764,7 +20765,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Crown": {
-        "*Leader Chuck": {
+        "OU *Leader Chuck": {
             "nature": "Timid",
             "ability": "Sharpness",
             "level": 36,
@@ -20778,7 +20779,7 @@ var SETDEX_SV = {
         }
     },
     "Sneasler": {
-        "*Channeler Rachel": {
+        "OU *Channeler Rachel": {
             "nature": "Jolly",
             "ability": "Poison Touch",
             "level": 100,
@@ -20790,7 +20791,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Leader Chuck": {
+        "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Unburden",
             "level": 36,
@@ -20804,7 +20805,7 @@ var SETDEX_SV = {
         }
     },
     "Kommo-o": {
-        "*Ace Trainer Barry": {
+        "OU *Ace Trainer Barry": {
             "nature": "Naive",
             "ability": "Soundproof",
             "level": 100,
@@ -20816,7 +20817,7 @@ var SETDEX_SV = {
                 "Rock Slide"
             ]
         },
-        "*Leader Chuck": {
+        "OU *Leader Chuck": {
             "nature": "Naive",
             "ability": "Overcoat",
             "level": 36,
@@ -20830,7 +20831,7 @@ var SETDEX_SV = {
         }
     },
     "Zamazenta-Crowned": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Valiant Shield",
             "level": 82,
@@ -20842,7 +20843,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*Leader Chuck": {
+        "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Valiant Shield",
             "level": 36,
@@ -20856,7 +20857,7 @@ var SETDEX_SV = {
         }
     },
     "Gallade-Mega": {
-        "*Crush Girl Sharon": {
+        "OU *Crush Girl Sharon": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 100,
@@ -20868,7 +20869,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Leader Chuck": {
+        "OU *Leader Chuck": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 36,
@@ -20882,7 +20883,7 @@ var SETDEX_SV = {
         }
     },
     "Ceruledge": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 36,
@@ -20895,7 +20896,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "Channeler Carly": {
+        "OU Channeler Carly": {
             "nature": "Calm",
             "ability": "Flash Fire",
             "level": 39,
@@ -20908,7 +20909,7 @@ var SETDEX_SV = {
         }
     },
     "Brambleghast": {
-        "Channeler Paula": {
+        "OU Channeler Paula": {
             "nature": "Lax",
             "ability": "Infiltrator",
             "level": 36,
@@ -20921,7 +20922,7 @@ var SETDEX_SV = {
         }
     },
     "Pincurchin": {
-        "*Channeler Ruth": {
+        "OU *Channeler Ruth": {
             "nature": "Modest",
             "ability": "Electric Surge",
             "level": 35,
@@ -20935,7 +20936,7 @@ var SETDEX_SV = {
         }
     },
     "Grimmsnarl": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Prankster",
             "level": 79,
@@ -20947,7 +20948,7 @@ var SETDEX_SV = {
                 "Spirit Break"
             ]
         },
-        "Youngster Johnson": {
+        "OU Youngster Johnson": {
             "nature": "Careful",
             "ability": "Frisk",
             "level": 71,
@@ -20958,7 +20959,7 @@ var SETDEX_SV = {
                 "Play Rough"
             ]
         },
-        "*Channeler Ruth": {
+        "OU *Channeler Ruth": {
             "nature": "Careful",
             "ability": "Prankster",
             "level": 36,
@@ -20970,7 +20971,7 @@ var SETDEX_SV = {
                 "Spirit Break"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Impish",
             "ability": "Prankster",
             "level": 98,
@@ -20984,7 +20985,7 @@ var SETDEX_SV = {
         }
     },
     "Drifblim": {
-        "*Channeler Ruth": {
+        "OU *Channeler Ruth": {
             "nature": "Modest",
             "ability": "Unburden",
             "level": 36,
@@ -20998,7 +20999,7 @@ var SETDEX_SV = {
         }
     },
     "Cresselia": {
-        "*Channeler Ruth": {
+        "OU *Channeler Ruth": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 36,
@@ -21012,7 +21013,7 @@ var SETDEX_SV = {
         }
     },
     "Polteageist": {
-        "*Channeler Ruth": {
+        "OU *Channeler Ruth": {
             "nature": "Timid",
             "ability": "Heatproof",
             "level": 36,
@@ -21026,7 +21027,7 @@ var SETDEX_SV = {
         }
     },
     "Mimikyu": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Disguise",
             "level": 100,
@@ -21038,7 +21039,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Channeler Tammy": {
+        "OU Channeler Tammy": {
             "nature": "Bold",
             "ability": "Disguise",
             "level": 36,
@@ -21051,7 +21052,7 @@ var SETDEX_SV = {
         }
     },
     "Jellicent": {
-        "Channeler Karina": {
+        "OU Channeler Karina": {
             "nature": "Impish",
             "ability": "Water Absorb",
             "level": 37,
@@ -21062,7 +21063,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "SwimmerF Anya": {
+        "OU SwimmerF Anya": {
             "nature": "Jolly",
             "ability": "Water Absorb",
             "level": 63,
@@ -21073,7 +21074,7 @@ var SETDEX_SV = {
                 "Rain Dance"
             ]
         },
-        "Leader Sabrina": {
+        "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Water Bubble",
             "level": 59,
@@ -21088,7 +21089,7 @@ var SETDEX_SV = {
         }
     },
     "Lampent": {
-        "Channeler Angelica": {
+        "OU Channeler Angelica": {
             "nature": "Bold",
             "ability": "Flash Fire",
             "level": 39,
@@ -21101,7 +21102,7 @@ var SETDEX_SV = {
         }
     },
     "Krookodile": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 36,
@@ -21113,7 +21114,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Picnicker Alma": {
+        "OU *Picnicker Alma": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 66,
@@ -21125,7 +21126,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 100,
@@ -21137,7 +21138,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "Leader Koga": {
+        "OU Leader Koga": {
             "nature": "Adamant",
             "ability": "Moxie",
             "level": 68,
@@ -21149,7 +21150,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Elite Four Agatha": {
+        "OU *Elite Four Agatha": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 85,
@@ -21163,7 +21164,7 @@ var SETDEX_SV = {
         }
     },
     "Dusknoir": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Adamant",
             "ability": "Hustle",
             "level": 36,
@@ -21175,7 +21176,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Dumbass Gambler": {
+        "OU Dumbass Gambler": {
             "nature": "Careful",
             "ability": "Hustle",
             "level": 100,
@@ -21184,7 +21185,7 @@ var SETDEX_SV = {
                 "Metronome"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Adamant",
             "ability": "Pressure",
             "level": 100,
@@ -21198,7 +21199,7 @@ var SETDEX_SV = {
         }
     },
     "Mismagius": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 36,
@@ -21210,7 +21211,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Ace Trainer Colby": {
+        "OU *Ace Trainer Colby": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 85,
@@ -21224,7 +21225,7 @@ var SETDEX_SV = {
         }
     },
     "Weavile": {
-        "Biker Alex": {
+        "OU Biker Alex": {
             "nature": "Lax",
             "ability": "Pressure",
             "level": 57,
@@ -21235,7 +21236,7 @@ var SETDEX_SV = {
                 "Triple Axel"
             ]
         },
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Infiltrator",
             "level": 36,
@@ -21247,7 +21248,7 @@ var SETDEX_SV = {
                 "Triple Axel"
             ]
         },
-        "*Ace Trainer Mary": {
+        "OU *Ace Trainer Mary": {
             "nature": "Jolly",
             "ability": "Infiltrator",
             "level": 43,
@@ -21259,7 +21260,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Sassy",
             "ability": "Pressure",
             "level": 46,
@@ -21270,7 +21271,7 @@ var SETDEX_SV = {
                 "Snatch"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Lax",
             "ability": "Pressure",
             "level": 75,
@@ -21283,7 +21284,7 @@ var SETDEX_SV = {
         }
     },
     "Gengar-Mega": {
-        "*Leader Morty Set 1": {
+        "OU *Leader Morty Set 1": {
             "nature": "Timid",
             "ability": "Shadow Tag",
             "level": 36,
@@ -21295,7 +21296,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "*Leader Morty Set 2": {
+        "OU *Leader Morty Set 2": {
             "nature": "Timid",
             "ability": "Shadow Tag",
             "level": 100,
@@ -21309,7 +21310,7 @@ var SETDEX_SV = {
         }
     },
     "Rotom-Frost": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 47,
@@ -21321,7 +21322,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Rocker Luca": {
+        "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 66,
@@ -21333,7 +21334,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "Leader Lt. Surge": {
+        "OU Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 35,
@@ -21347,7 +21348,7 @@ var SETDEX_SV = {
         }
     },
     "Electrode-Hisui": {
-        "Leader Lt. Surge": {
+        "OU Leader Lt. Surge": {
             "nature": "Naive",
             "ability": "Reckless",
             "level": 36,
@@ -21361,7 +21362,7 @@ var SETDEX_SV = {
         }
     },
     "Raichu-Alola": {
-        "Leader Lt. Surge": {
+        "OU Leader Lt. Surge": {
             "nature": "Modest",
             "ability": "Surge Surfer",
             "level": 36,
@@ -21373,7 +21374,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Picnicker Becky": {
+        "OU Picnicker Becky": {
             "nature": "Careful",
             "ability": "Surge Surfer",
             "level": 58,
@@ -21386,7 +21387,7 @@ var SETDEX_SV = {
         }
     },
     "Pawmot": {
-        "Leader Lt. Surge": {
+        "OU Leader Lt. Surge": {
             "nature": "Jolly",
             "ability": "Iron Fist",
             "level": 36,
@@ -21398,7 +21399,7 @@ var SETDEX_SV = {
                 "Plasma Fists"
             ]
         },
-        "*Leader Lt. Surge": {
+        "OU *Leader Lt. Surge": {
             "nature": "Jolly",
             "ability": "Iron Fist",
             "level": 68,
@@ -21412,7 +21413,7 @@ var SETDEX_SV = {
         }
     },
     "Ampharos-Mega": {
-        "Leader Lt. Surge": {
+        "OU Leader Lt. Surge": {
             "nature": "Modest",
             "ability": "Mold Breaker",
             "level": 36,
@@ -21424,7 +21425,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Leader Erika": {
+        "OU *Leader Erika": {
             "nature": "Modest",
             "ability": "Thick Fat",
             "level": 68,
@@ -21438,7 +21439,7 @@ var SETDEX_SV = {
         }
     },
     "Emolga": {
-        "Engineer Baily": {
+        "OU Engineer Baily": {
             "nature": "Adamant",
             "ability": "Motor Drive",
             "level": 27,
@@ -21451,7 +21452,7 @@ var SETDEX_SV = {
         }
     },
     "Farfetch’d": {
-        "*Gentleman Tucker": {
+        "OU *Gentleman Tucker": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 36,
@@ -21463,7 +21464,7 @@ var SETDEX_SV = {
                 "Sacred Sword"
             ]
         },
-        "Bird Keeper Donald": {
+        "OU Bird Keeper Donald": {
             "nature": "Hardy",
             "ability": "Frisk",
             "level": 58,
@@ -21476,7 +21477,7 @@ var SETDEX_SV = {
         }
     },
     "Swanna": {
-        "*Gentleman Tucker": {
+        "OU *Gentleman Tucker": {
             "nature": "Timid",
             "ability": "No Guard",
             "level": 35,
@@ -21487,7 +21488,7 @@ var SETDEX_SV = {
                 "Ice Beam"
             ]
         },
-        "*Tuber Amira": {
+        "OU *Tuber Amira": {
             "nature": "Naive",
             "ability": "No Guard",
             "level": 100,
@@ -21499,7 +21500,7 @@ var SETDEX_SV = {
                 "Hydro Pump"
             ]
         },
-        "Picnicker Irene": {
+        "OU Picnicker Irene": {
             "nature": "Sassy",
             "ability": "Frisk",
             "level": 63,
@@ -21512,7 +21513,7 @@ var SETDEX_SV = {
         }
     },
     "Pikachu-Surfing": {
-        "*Gentleman Tucker": {
+        "OU *Gentleman Tucker": {
             "nature": "Naive",
             "ability": "Lightning Rod",
             "level": 35,
@@ -21526,7 +21527,7 @@ var SETDEX_SV = {
         }
     },
     "Scizor-Mega": {
-        "*Cue Ball Camron": {
+        "OU *Cue Ball Camron": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 66,
@@ -21538,7 +21539,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Careful",
             "ability": "Technician",
             "level": 44,
@@ -21552,7 +21553,7 @@ var SETDEX_SV = {
         }
     },
     "Pumpkaboo-Small": {
-        "Lass Kay": {
+        "OU Lass Kay": {
             "nature": "Jolly",
             "ability": "Frisk",
             "level": 38,
@@ -21565,7 +21566,7 @@ var SETDEX_SV = {
         }
     },
     "Cherubi": {
-        "Beauty Bridget": {
+        "OU Beauty Bridget": {
             "nature": "Lax",
             "ability": "Chlorophyll",
             "level": 37,
@@ -21578,7 +21579,7 @@ var SETDEX_SV = {
         }
     },
     "Quilladin": {
-        "Picnicker Tina": {
+        "OU Picnicker Tina": {
             "nature": "Bold",
             "ability": "Bulletproof",
             "level": 35,
@@ -21591,7 +21592,7 @@ var SETDEX_SV = {
         }
     },
     "Scovillain": {
-        "Beauty Tamia": {
+        "OU Beauty Tamia": {
             "nature": "Bashful",
             "ability": "Chlorophyll",
             "level": 35,
@@ -21604,7 +21605,7 @@ var SETDEX_SV = {
         }
     },
     "Leavanny": {
-        "Lass Crissy": {
+        "OU Lass Crissy": {
             "nature": "Mild",
             "ability": "Swarm",
             "level": 59,
@@ -21615,7 +21616,7 @@ var SETDEX_SV = {
                 "Victory Dance"
             ]
         },
-        "Beauty Tamia": {
+        "OU Beauty Tamia": {
             "nature": "Gentle",
             "ability": "Chlorophyll",
             "level": 35,
@@ -21626,7 +21627,7 @@ var SETDEX_SV = {
                 "Victory Dance"
             ]
         },
-        "*Biker Jared": {
+        "OU *Biker Jared": {
             "nature": "Adamant",
             "ability": "Chlorophyll",
             "level": 66,
@@ -21638,7 +21639,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "Picnicker Yazmin": {
+        "OU Picnicker Yazmin": {
             "nature": "Hardy",
             "ability": "Swarm",
             "level": 57,
@@ -21651,7 +21652,7 @@ var SETDEX_SV = {
         }
     },
     "Exeggutor-Alola": {
-        "Beauty Lori": {
+        "OU Beauty Lori": {
             "nature": "Naughty",
             "ability": "Chlorophyll",
             "level": 36,
@@ -21664,7 +21665,7 @@ var SETDEX_SV = {
         }
     },
     "Arboliva": {
-        "Lass Lisa": {
+        "OU Lass Lisa": {
             "nature": "Brave",
             "ability": "Seed Sower",
             "level": 39,
@@ -21677,7 +21678,7 @@ var SETDEX_SV = {
         }
     },
     "Ogerpon-Cornerstone": {
-        "Leader Erika": {
+        "OU Leader Erika": {
             "nature": "Jolly",
             "ability": "Sturdy",
             "level": 44,
@@ -21689,7 +21690,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Jolly",
             "ability": "Sturdy",
             "level": 73,
@@ -21704,7 +21705,7 @@ var SETDEX_SV = {
         }
     },
     "Hawlucha": {
-        "*Leader Erika": {
+        "OU *Leader Erika": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 68,
@@ -21716,7 +21717,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Leader Erika": {
+        "OU Leader Erika": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 44,
@@ -21728,7 +21729,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 85,
@@ -21740,7 +21741,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*PkMn Trainer Haley": {
+        "OU *PkMn Trainer Haley": {
             "nature": "Adamant",
             "ability": "Unburden",
             "level": 68,
@@ -21752,7 +21753,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Cue Ball Paxton": {
+        "OU *Cue Ball Paxton": {
             "nature": "Jolly",
             "ability": "Unburden",
             "level": 100,
@@ -21766,7 +21767,7 @@ var SETDEX_SV = {
         }
     },
     "Sceptile-Mega": {
-        "Leader Erika": {
+        "OU Leader Erika": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 44,
@@ -21778,7 +21779,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*PkMn Trainer Brendan Set 1": {
+        "OU *PkMn Trainer Brendan Set 1": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 68,
@@ -21790,7 +21791,7 @@ var SETDEX_SV = {
                 "Earthquake"
             ]
         },
-        "*PkMn Trainer Brendan Set 2": {
+        "OU *PkMn Trainer Brendan Set 2": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 82,
@@ -21802,7 +21803,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "PkMn Trainer Brendan": {
+        "OU PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Technician",
             "level": 55,
@@ -21814,7 +21815,7 @@ var SETDEX_SV = {
                 "Mega Drain"
             ]
         },
-        "*Ace Trainer Andrew": {
+        "OU *Ace Trainer Andrew": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 100,
@@ -21828,7 +21829,7 @@ var SETDEX_SV = {
         }
     },
     "Slowbro-Galar": {
-        "Leader Erika": {
+        "OU Leader Erika": {
             "nature": "Bold",
             "ability": "Regenerator",
             "level": 44,
@@ -21840,7 +21841,7 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ]
         },
-        "*Fisherman Tommy": {
+        "OU *Fisherman Tommy": {
             "nature": "Modest",
             "ability": "Regenerator",
             "level": 100,
@@ -21854,7 +21855,7 @@ var SETDEX_SV = {
         }
     },
     "Kartana": {
-        "Leader Erika": {
+        "OU Leader Erika": {
             "nature": "Jolly",
             "ability": "Beast Boost",
             "level": 44,
@@ -21866,7 +21867,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Leader Erika": {
+        "OU *Leader Erika": {
             "nature": "Jolly",
             "ability": "Beast Boost",
             "level": 68,
@@ -21880,7 +21881,7 @@ var SETDEX_SV = {
         }
     },
     "Coalossal": {
-        "*Ace Trainer Mary": {
+        "OU *Ace Trainer Mary": {
             "nature": "Hasty",
             "ability": "Steam Engine",
             "level": 44,
@@ -21894,7 +21895,7 @@ var SETDEX_SV = {
         }
     },
     "Maractus": {
-        "*Ace Trainer Mary": {
+        "OU *Ace Trainer Mary": {
             "nature": "Adamant",
             "ability": "Grassy Surge",
             "level": 43,
@@ -21908,7 +21909,7 @@ var SETDEX_SV = {
         }
     },
     "Copperajah": {
-        "Tamer Phil": {
+        "OU Tamer Phil": {
             "nature": "Modest",
             "ability": "Heavy Metal",
             "level": 62,
@@ -21919,7 +21920,7 @@ var SETDEX_SV = {
                 "Superpower"
             ]
         },
-        "Biker Gerald": {
+        "OU Biker Gerald": {
             "nature": "Quiet",
             "ability": "Heavy Metal",
             "level": 57,
@@ -21929,7 +21930,7 @@ var SETDEX_SV = {
                 "Screech"
             ]
         },
-        "*Ace Trainer Mary": {
+        "OU *Ace Trainer Mary": {
             "nature": "Adamant",
             "ability": "Heavy Metal",
             "level": 44,
@@ -21941,7 +21942,7 @@ var SETDEX_SV = {
                 "Power Whip"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Gentle",
             "ability": "Heavy Metal",
             "level": 46,
@@ -21954,7 +21955,7 @@ var SETDEX_SV = {
         }
     },
     "Medicham-Mega": {
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Pure Power",
             "level": 85,
@@ -21966,7 +21967,7 @@ var SETDEX_SV = {
                 "Zen Headbutt"
             ]
         },
-        "Dumbass Gambler": {
+        "OU Dumbass Gambler": {
             "nature": "Jolly",
             "ability": "Pure Power",
             "level": 100,
@@ -21975,7 +21976,7 @@ var SETDEX_SV = {
                 "Metronome"
             ]
         },
-        "*Black Belt Hugh": {
+        "OU *Black Belt Hugh": {
             "nature": "Jolly",
             "ability": "Pure Power",
             "level": 100,
@@ -21989,7 +21990,7 @@ var SETDEX_SV = {
         }
     },
     "Tinkaton": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Own Tempo",
             "level": 46,
@@ -22003,7 +22004,7 @@ var SETDEX_SV = {
         }
     },
     "Inteleon": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Sniper",
             "level": 46,
@@ -22015,7 +22016,7 @@ var SETDEX_SV = {
                 "Snipe Shot"
             ]
         },
-        "SwimmerM Spencer": {
+        "OU SwimmerM Spencer": {
             "nature": "Naughty",
             "ability": "Torrent",
             "level": 63,
@@ -22026,7 +22027,7 @@ var SETDEX_SV = {
                 "Soak"
             ]
         },
-        "*SwimmerF Maria": {
+        "OU *SwimmerF Maria": {
             "nature": "Timid",
             "ability": "Sniper",
             "level": 100,
@@ -22038,7 +22039,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Andrew": {
+        "OU *Ace Trainer Andrew": {
             "nature": "Timid",
             "ability": "Sniper",
             "level": 100,
@@ -22050,7 +22051,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Twins Kiri & Jan": {
+        "OU Twins Kiri & Jan": {
             "nature": "Hardy",
             "ability": "Torrent",
             "level": 56,
@@ -22063,7 +22064,7 @@ var SETDEX_SV = {
         }
     },
     "Gurdurr": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Sheer Force",
             "level": 41,
@@ -22076,7 +22077,7 @@ var SETDEX_SV = {
         }
     },
     "Krokorok": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Intimidate",
             "level": 41,
@@ -22089,7 +22090,7 @@ var SETDEX_SV = {
         }
     },
     "Gumshoos": {
-        "Biker Billy": {
+        "OU Biker Billy": {
             "nature": "Lonely",
             "ability": "Stakeout",
             "level": 55,
@@ -22100,7 +22101,7 @@ var SETDEX_SV = {
                 "Yawn"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Stakeout",
             "level": 38,
@@ -22113,7 +22114,7 @@ var SETDEX_SV = {
         }
     },
     "Centiskorch": {
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Lax",
             "ability": "Flash Fire",
             "level": 40,
@@ -22123,7 +22124,7 @@ var SETDEX_SV = {
                 "Lunge"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Quiet",
             "ability": "White Smoke",
             "level": 75,
@@ -22136,7 +22137,7 @@ var SETDEX_SV = {
         }
     },
     "Bisharp": {
-        "*Camper Bryce": {
+        "OU *Camper Bryce": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 99,
@@ -22148,7 +22149,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Biker William": {
+        "OU *Biker William": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 66,
@@ -22160,7 +22161,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Mild",
             "ability": "Inner Focus",
             "level": 40,
@@ -22170,7 +22171,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Bold",
             "ability": "Defiant",
             "level": 45,
@@ -22183,7 +22184,7 @@ var SETDEX_SV = {
         }
     },
     "Vullaby": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Quiet",
             "ability": "Frisk",
             "level": 40,
@@ -22196,7 +22197,7 @@ var SETDEX_SV = {
         }
     },
     "Obstagoon": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Guts",
             "level": 56,
@@ -22208,7 +22209,7 @@ var SETDEX_SV = {
                 "Parting Shot"
             ]
         },
-        "Cue Ball Jamal": {
+        "OU Cue Ball Jamal": {
             "nature": "Bold",
             "ability": "Reckless",
             "level": 56,
@@ -22219,7 +22220,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Impish",
             "ability": "Guts",
             "level": 43,
@@ -22230,7 +22231,7 @@ var SETDEX_SV = {
                 "Taunt"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Lax",
             "ability": "Guts",
             "level": 75,
@@ -22243,7 +22244,7 @@ var SETDEX_SV = {
         }
     },
     "Runerigus": {
-        "*Cool Couple Ray & Tyra": {
+        "OU *Cool Couple Ray & Tyra": {
             "nature": "Relaxed",
             "ability": "Shadow Shield",
             "level": 85,
@@ -22255,7 +22256,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Hardy",
             "ability": "Wandering Soul",
             "level": 42,
@@ -22268,7 +22269,7 @@ var SETDEX_SV = {
         }
     },
     "Infernape": {
-        "*Crush Kin Mik & Kia": {
+        "OU *Crush Kin Mik & Kia": {
             "nature": "Jolly",
             "ability": "Blaze",
             "level": 100,
@@ -22280,7 +22281,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "*Ace Trainer Andrew": {
+        "OU *Ace Trainer Andrew": {
             "nature": "Jolly",
             "ability": "Blaze",
             "level": 100,
@@ -22292,7 +22293,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "*Ace Trainer Alexa": {
+        "OU *Ace Trainer Alexa": {
             "nature": "Timid",
             "ability": "Blaze",
             "level": 85,
@@ -22304,7 +22305,7 @@ var SETDEX_SV = {
                 "Vacuum Wave"
             ]
         },
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Blaze",
             "level": 85,
@@ -22317,7 +22318,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Blaze",
             "level": 47,
@@ -22331,7 +22332,7 @@ var SETDEX_SV = {
         }
     },
     "Torterra": {
-        "Beauty Olivia": {
+        "OU Beauty Olivia": {
             "nature": "Hardy",
             "ability": "Overgrow",
             "level": 57,
@@ -22342,7 +22343,7 @@ var SETDEX_SV = {
                 "Leaf Storm"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 47,
@@ -22354,7 +22355,7 @@ var SETDEX_SV = {
                 "Wood Hammer"
             ]
         },
-        "*Ace Trainer Andrew": {
+        "OU *Ace Trainer Andrew": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 100,
@@ -22368,7 +22369,7 @@ var SETDEX_SV = {
         }
     },
     "Orthworm": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Impish",
             "ability": "Earth Eater",
             "level": 47,
@@ -22382,7 +22383,7 @@ var SETDEX_SV = {
         }
     },
     "Kangaskhan-Mega": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Parental Bond",
             "level": 47,
@@ -22396,7 +22397,7 @@ var SETDEX_SV = {
         }
     },
     "Talonflame": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Gale Wings",
             "level": 47,
@@ -22408,7 +22409,7 @@ var SETDEX_SV = {
                 "Will-O-Wisp"
             ]
         },
-        "Super Nerd Aavery": {
+        "OU Super Nerd Aavery": {
             "nature": "Docile",
             "ability": "Flame Body",
             "level": 73,
@@ -22419,7 +22420,7 @@ var SETDEX_SV = {
                 "Tailwind"
             ]
         },
-        "Bird Keeper Carter": {
+        "OU Bird Keeper Carter": {
             "nature": "Modest",
             "ability": "Flame Body",
             "level": 57,
@@ -22432,7 +22433,7 @@ var SETDEX_SV = {
         }
     },
     "Okidogi": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Toxic Chain",
             "level": 47,
@@ -22444,7 +22445,7 @@ var SETDEX_SV = {
                 "Poison Jab"
             ]
         },
-        "*Burglar Anson": {
+        "OU *Burglar Anson": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 80,
@@ -22459,7 +22460,7 @@ var SETDEX_SV = {
         }
     },
     "Rotom-Wash": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 47,
@@ -22473,7 +22474,7 @@ var SETDEX_SV = {
         }
     },
     "Purugly": {
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Calm",
             "ability": "Own Tempo",
             "level": 46,
@@ -22484,7 +22485,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Hardy",
             "ability": "Thick Fat",
             "level": 46,
@@ -22497,7 +22498,7 @@ var SETDEX_SV = {
         }
     },
     "Grafaiai": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Unburden",
             "level": 46,
@@ -22510,7 +22511,7 @@ var SETDEX_SV = {
         }
     },
     "Stonjourner": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Rocky Payload",
             "level": 46,
@@ -22523,7 +22524,7 @@ var SETDEX_SV = {
         }
     },
     "Grapploct": {
-        "*Crush Kin Mik & Kia": {
+        "OU *Crush Kin Mik & Kia": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 98,
@@ -22535,7 +22536,7 @@ var SETDEX_SV = {
                 "Mach Punch"
             ]
         },
-        "*Ace Trainer Colby": {
+        "OU *Ace Trainer Colby": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 85,
@@ -22547,7 +22548,7 @@ var SETDEX_SV = {
                 "Mach Punch"
             ]
         },
-        "*Crush Girl Sharon": {
+        "OU *Crush Girl Sharon": {
             "nature": "Adamant",
             "ability": "Technician",
             "level": 100,
@@ -22559,7 +22560,7 @@ var SETDEX_SV = {
                 "Mach Punch"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Limber",
             "level": 47,
@@ -22570,7 +22571,7 @@ var SETDEX_SV = {
                 "Topsy-Turvy"
             ]
         },
-        "Crush Kin Ron & Mya": {
+        "OU Crush Kin Ron & Mya": {
             "nature": "Naive",
             "ability": "Limber",
             "level": 58,
@@ -22584,7 +22585,7 @@ var SETDEX_SV = {
         }
     },
     "Klinklang": {
-        "Biker Virgil": {
+        "OU Biker Virgil": {
             "nature": "Brave",
             "ability": "Clear Body",
             "level": 54,
@@ -22595,7 +22596,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*PkMn Trainer Shelly": {
+        "OU *PkMn Trainer Shelly": {
             "nature": "Adamant",
             "ability": "Steely Spirit",
             "level": 59,
@@ -22607,7 +22608,7 @@ var SETDEX_SV = {
                 "Volt Tackle"
             ]
         },
-        "Scientist Connor": {
+        "OU Scientist Connor": {
             "nature": "Adamant",
             "ability": "Clear Body",
             "level": 45,
@@ -22619,7 +22620,7 @@ var SETDEX_SV = {
         }
     },
     "Beheeyem": {
-        "Scientist Connor": {
+        "OU Scientist Connor": {
             "nature": "Modest",
             "ability": "Analytic",
             "level": 46,
@@ -22630,7 +22631,7 @@ var SETDEX_SV = {
         }
     },
     "Eelektross": {
-        "*Biker Jared": {
+        "OU *Biker Jared": {
             "nature": "Calm",
             "ability": "Levitate",
             "level": 66,
@@ -22642,7 +22643,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "Scientist Jose": {
+        "OU Scientist Jose": {
             "nature": "Modest",
             "ability": "Levitate",
             "level": 45,
@@ -22654,7 +22655,7 @@ var SETDEX_SV = {
         }
     },
     "Houndstone": {
-        "Youngster Johnson": {
+        "OU Youngster Johnson": {
             "nature": "Naive",
             "ability": "Sand Rush",
             "level": 71,
@@ -22665,7 +22666,7 @@ var SETDEX_SV = {
                 "Last Respects"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Sand Rush",
             "level": 47,
@@ -22678,7 +22679,7 @@ var SETDEX_SV = {
         }
     },
     "Skuntank": {
-        "Juggler Nate": {
+        "OU Juggler Nate": {
             "nature": "Relaxed",
             "ability": "Stench",
             "level": 63,
@@ -22689,7 +22690,7 @@ var SETDEX_SV = {
                 "Venom Drench"
             ]
         },
-        "Team Rocket Grunt Set 1": {
+        "OU Team Rocket Grunt Set 1": {
             "nature": "Timid",
             "ability": "Stench",
             "level": 47,
@@ -22700,7 +22701,7 @@ var SETDEX_SV = {
                 "Venom Drench"
             ]
         },
-        "Team Rocket Grunt Set 2": {
+        "OU Team Rocket Grunt Set 2": {
             "nature": "Jolly",
             "ability": "Stench",
             "level": 46,
@@ -22713,7 +22714,7 @@ var SETDEX_SV = {
         }
     },
     "Stoutland": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Docile",
             "ability": "Intimidate",
             "level": 47,
@@ -22726,7 +22727,7 @@ var SETDEX_SV = {
         }
     },
     "Musharna": {
-        "Scientist Taylor": {
+        "OU Scientist Taylor": {
             "nature": "Modest",
             "ability": "Synchronize",
             "level": 44,
@@ -22739,7 +22740,7 @@ var SETDEX_SV = {
         }
     },
     "Amoonguss": {
-        "Lass Crissy": {
+        "OU Lass Crissy": {
             "nature": "Careful",
             "ability": "Effect Spore",
             "level": 59,
@@ -22750,7 +22751,7 @@ var SETDEX_SV = {
                 "Spore"
             ]
         },
-        "Scientist Taylor": {
+        "OU Scientist Taylor": {
             "nature": "Modest",
             "ability": "Effect Spore",
             "level": 44,
@@ -22762,7 +22763,7 @@ var SETDEX_SV = {
         }
     },
     "Scolipede": {
-        "Scientist Taylor": {
+        "OU Scientist Taylor": {
             "nature": "Adamant",
             "ability": "Speed Boost",
             "level": 44,
@@ -22775,7 +22776,7 @@ var SETDEX_SV = {
         }
     },
     "Corviknight": {
-        "*Ace Trainer Barry": {
+        "OU *Ace Trainer Barry": {
             "nature": "Impish",
             "ability": "Pressure",
             "level": 100,
@@ -22787,7 +22788,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "Bird Keeper Roger": {
+        "OU Bird Keeper Roger": {
             "nature": "Impish",
             "ability": "Unnerve",
             "level": 63,
@@ -22798,7 +22799,7 @@ var SETDEX_SV = {
                 "Swagger"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Hardy",
             "ability": "Pressure",
             "level": 49,
@@ -22811,7 +22812,7 @@ var SETDEX_SV = {
         }
     },
     "Marowak-Alola": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Bone Zone",
             "level": 82,
@@ -22823,7 +22824,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Angry Ghost": {
+        "OU Angry Ghost": {
             "nature": "Jolly",
             "ability": "Bone Zone",
             "level": 58,
@@ -22835,7 +22836,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Rock Head",
             "level": 46,
@@ -22848,7 +22849,7 @@ var SETDEX_SV = {
         }
     },
     "Gliscor": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Poison Heal",
             "level": 82,
@@ -22860,7 +22861,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Leader Jasmine": {
+        "OU *Leader Jasmine": {
             "nature": "Jolly",
             "ability": "Poison Heal",
             "level": 73,
@@ -22872,7 +22873,7 @@ var SETDEX_SV = {
                 "Toxic"
             ]
         },
-        "*Ace Trainer Lucy": {
+        "OU *Ace Trainer Lucy": {
             "nature": "Jolly",
             "ability": "Hyper Cutter",
             "level": 76,
@@ -22884,7 +22885,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Sand Veil",
             "level": 45,
@@ -22897,7 +22898,7 @@ var SETDEX_SV = {
         }
     },
     "Thievul": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Brave",
             "ability": "Run Away",
             "level": 49,
@@ -22910,7 +22911,7 @@ var SETDEX_SV = {
         }
     },
     "Azelf": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Naive",
             "ability": "Levitate",
             "level": 56,
@@ -22924,7 +22925,7 @@ var SETDEX_SV = {
         }
     },
     "Celesteela": {
-        "*Rival Blue Set 1": {
+        "OU *Rival Blue Set 1": {
             "nature": "Modest",
             "ability": "Beast Boost",
             "level": 56,
@@ -22936,7 +22937,7 @@ var SETDEX_SV = {
                 "Giga Drain"
             ]
         },
-        "*Rival Blue Set 2": {
+        "OU *Rival Blue Set 2": {
             "nature": "Naive",
             "ability": "Beast Boost",
             "level": 82,
@@ -22948,7 +22949,7 @@ var SETDEX_SV = {
                 "Iron Head"
             ]
         },
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Timid",
             "ability": "Beast Boost",
             "level": 81,
@@ -22962,7 +22963,7 @@ var SETDEX_SV = {
         }
     },
     "Electivire": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Iron Fist",
             "level": 56,
@@ -22976,7 +22977,7 @@ var SETDEX_SV = {
         }
     },
     "Charizard-Mega-X": {
-        "*PkMn Trainer Red": {
+        "OU *PkMn Trainer Red": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 100,
@@ -22988,7 +22989,7 @@ var SETDEX_SV = {
                 "Flare Blitz"
             ]
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 100,
@@ -23000,7 +23001,7 @@ var SETDEX_SV = {
                 "Flare Blitz"
             ]
         },
-        "*Bird Keeper Sebastian": {
+        "OU *Bird Keeper Sebastian": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 66,
@@ -23012,7 +23013,7 @@ var SETDEX_SV = {
                 "Flare Blitz"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 56,
@@ -23024,7 +23025,7 @@ var SETDEX_SV = {
                 "Flare Blitz"
             ]
         },
-        "Leader Blaine": {
+        "OU Leader Blaine": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 76,
@@ -23038,7 +23039,7 @@ var SETDEX_SV = {
         }
     },
     "Darmanitan": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Sheer Force",
             "level": 56,
@@ -23050,7 +23051,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Lucy": {
+        "OU *Ace Trainer Lucy": {
             "nature": "Jolly",
             "ability": "Sheer Force",
             "level": 76,
@@ -23064,7 +23065,7 @@ var SETDEX_SV = {
         }
     },
     "Venusaur-Mega": {
-        "*Rival Blue Set 1": {
+        "OU *Rival Blue Set 1": {
             "nature": "Timid",
             "ability": "Thick Fat",
             "level": 56,
@@ -23076,7 +23077,7 @@ var SETDEX_SV = {
                 "Sludge Bomb"
             ]
         },
-        "*Rival Blue Set 2": {
+        "OU *Rival Blue Set 2": {
             "nature": "Timid",
             "ability": "Thick Fat",
             "level": 82,
@@ -23088,7 +23089,7 @@ var SETDEX_SV = {
                 "Sludge Bomb"
             ]
         },
-        "*PkMn Trainer Red": {
+        "OU *PkMn Trainer Red": {
             "nature": "Modest",
             "ability": "Thick Fat",
             "level": 100,
@@ -23102,7 +23103,7 @@ var SETDEX_SV = {
         }
     },
     "Blastoise-Mega": {
-        "*Rocker Luca": {
+        "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Mega Launcher",
             "level": 66,
@@ -23114,7 +23115,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "*Rival Blue Set 1": {
+        "OU *Rival Blue Set 1": {
             "nature": "Modest",
             "ability": "Mega Launcher",
             "level": 56,
@@ -23126,7 +23127,7 @@ var SETDEX_SV = {
                 "Water Pulse"
             ]
         },
-        "*Rival Blue Set 2": {
+        "OU *Rival Blue Set 2": {
             "nature": "Timid",
             "ability": "Mega Launcher",
             "level": 82,
@@ -23138,7 +23139,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "*PkMn Trainer Red": {
+        "OU *PkMn Trainer Red": {
             "nature": "Modest",
             "ability": "Mega Launcher",
             "level": 100,
@@ -23150,7 +23151,7 @@ var SETDEX_SV = {
                 "Shell Smash"
             ]
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Timid",
             "ability": "Mega Launcher",
             "level": 100,
@@ -23164,7 +23165,7 @@ var SETDEX_SV = {
         }
     },
     "Articuno-Galar": {
-        "*Ace Trainer Janny": {
+        "OU *Ace Trainer Janny": {
             "nature": "Timid",
             "ability": "Competitive",
             "level": 100,
@@ -23176,7 +23177,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Burglar Lewis": {
+        "OU *Burglar Lewis": {
             "nature": "Timid",
             "ability": "Competitive",
             "level": 76,
@@ -23188,7 +23189,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "Rocket Admin Archer": {
+        "OU Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Competitive",
             "level": 55,
@@ -23202,7 +23203,7 @@ var SETDEX_SV = {
         }
     },
     "Gholdengo": {
-        "Rocket Admin Archer": {
+        "OU Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Good as Gold",
             "level": 55,
@@ -23217,7 +23218,7 @@ var SETDEX_SV = {
         }
     },
     "Houndoom-Mega": {
-        "Rocket Admin Archer": {
+        "OU Rocket Admin Archer": {
             "nature": "Naive",
             "ability": "Dark Aura",
             "level": 56,
@@ -23229,7 +23230,7 @@ var SETDEX_SV = {
                 "Scorching Sands"
             ]
         },
-        "*Rocket Admin Archer Set 1": {
+        "OU *Rocket Admin Archer Set 1": {
             "nature": "Naive",
             "ability": "Solar Power",
             "level": 79,
@@ -23241,7 +23242,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Rocket Admin Archer Set 2": {
+        "OU *Rocket Admin Archer Set 2": {
             "nature": "Timid",
             "ability": "Solar Power",
             "level": 100,
@@ -23255,7 +23256,7 @@ var SETDEX_SV = {
         }
     },
     "Incineroar": {
-        "Burglar Quinn": {
+        "OU Burglar Quinn": {
             "nature": "Rash",
             "ability": "Blaze",
             "level": 72,
@@ -23266,7 +23267,7 @@ var SETDEX_SV = {
                 "Scary Face"
             ]
         },
-        "Juggler Kirk": {
+        "OU Juggler Kirk": {
             "nature": "Modest",
             "ability": "Blaze",
             "level": 63,
@@ -23277,7 +23278,7 @@ var SETDEX_SV = {
                 "Scary Face"
             ]
         },
-        "Rocket Admin Ariana": {
+        "OU Rocket Admin Ariana": {
             "nature": "Careful",
             "ability": "Intimidate",
             "level": 55,
@@ -23291,7 +23292,7 @@ var SETDEX_SV = {
         }
     },
     "Primarina": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Liquid Voice",
             "level": 56,
@@ -23303,7 +23304,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Modest",
             "ability": "Liquid Voice",
             "level": 82,
@@ -23315,7 +23316,7 @@ var SETDEX_SV = {
                 "Ice Beam"
             ]
         },
-        "Rocket Admin Ariana": {
+        "OU Rocket Admin Ariana": {
             "nature": "Modest",
             "ability": "Liquid Voice",
             "level": 55,
@@ -23327,7 +23328,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "*Aroma Lady Violet": {
+        "OU *Aroma Lady Violet": {
             "nature": "Bold",
             "ability": "Liquid Voice",
             "level": 100,
@@ -23341,7 +23342,7 @@ var SETDEX_SV = {
         }
     },
     "Mawile-Mega": {
-        "*Rocket Admin Ariana Set 1": {
+        "OU *Rocket Admin Ariana Set 1": {
             "nature": "Adamant",
             "ability": "Huge Power",
             "level": 79,
@@ -23353,7 +23354,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Rocket Admin Ariana Set 2": {
+        "OU *Rocket Admin Ariana Set 2": {
             "nature": "Adamant",
             "ability": "Huge Power",
             "level": 100,
@@ -23365,7 +23366,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "Rocket Admin Ariana": {
+        "OU Rocket Admin Ariana": {
             "nature": "Adamant",
             "ability": "Huge Power",
             "level": 56,
@@ -23379,7 +23380,7 @@ var SETDEX_SV = {
         }
     },
     "Accelgor": {
-        "Scientist Ed": {
+        "OU Scientist Ed": {
             "nature": "Modest",
             "ability": "Unburden",
             "level": 44,
@@ -23390,7 +23391,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Biker Ruben": {
+        "OU *Biker Ruben": {
             "nature": "Timid",
             "ability": "Sheer Force",
             "level": 65,
@@ -23404,7 +23405,7 @@ var SETDEX_SV = {
         }
     },
     "Heliolisk": {
-        "Scientist Ed": {
+        "OU Scientist Ed": {
             "nature": "Modest",
             "ability": "Dry Skin",
             "level": 45,
@@ -23416,7 +23417,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Biker Lao": {
+        "OU *Biker Lao": {
             "nature": "Timid",
             "ability": "Sand Veil",
             "level": 66,
@@ -23428,7 +23429,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Solar Power",
             "level": 100,
@@ -23442,7 +23443,7 @@ var SETDEX_SV = {
         }
     },
     "Archeops": {
-        "Scientist Ed": {
+        "OU Scientist Ed": {
             "nature": "Adamant",
             "ability": "Defeatist",
             "level": 44,
@@ -23453,7 +23454,7 @@ var SETDEX_SV = {
                 "Zen Headbutt"
             ]
         },
-        "*Bird Keeper Robert": {
+        "OU *Bird Keeper Robert": {
             "nature": "Jolly",
             "ability": "Defeatist",
             "level": 66,
@@ -23465,7 +23466,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Crush Girl Jocelyn": {
+        "OU *Crush Girl Jocelyn": {
             "nature": "Jolly",
             "ability": "Defeatist",
             "level": 100,
@@ -23479,7 +23480,7 @@ var SETDEX_SV = {
         }
     },
     "Sandaconda": {
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Rash",
             "ability": "Sand Spit",
             "level": 47,
@@ -23492,7 +23493,7 @@ var SETDEX_SV = {
         }
     },
     "Drapion": {
-        "Biker Alex": {
+        "OU Biker Alex": {
             "nature": "Bashful",
             "ability": "Battle Armor",
             "level": 57,
@@ -23503,7 +23504,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Burglar Lewis": {
+        "OU *Burglar Lewis": {
             "nature": "Jolly",
             "ability": "Sniper",
             "level": 75,
@@ -23515,7 +23516,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Aroma Lady Nikki": {
+        "OU *Aroma Lady Nikki": {
             "nature": "Jolly",
             "ability": "Sniper",
             "level": 100,
@@ -23527,7 +23528,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "Team Rocket Grunt": {
+        "OU Team Rocket Grunt": {
             "nature": "Calm",
             "ability": "Sniper",
             "level": 47,
@@ -23540,7 +23541,7 @@ var SETDEX_SV = {
         }
     },
     "Lickilicky": {
-        "Scientist Parkker": {
+        "OU Scientist Parkker": {
             "nature": "Lax",
             "ability": "Unaware",
             "level": 45,
@@ -23551,7 +23552,7 @@ var SETDEX_SV = {
                 "Screech"
             ]
         },
-        "Pokemaniac Mark": {
+        "OU Pokemaniac Mark": {
             "nature": "Jolly",
             "ability": "Own Tempo",
             "level": 62,
@@ -23562,7 +23563,7 @@ var SETDEX_SV = {
                 "Screech"
             ]
         },
-        "Pokemaniac Dawson": {
+        "OU Pokemaniac Dawson": {
             "nature": "Jolly",
             "ability": "Own Tempo",
             "level": 81,
@@ -23575,7 +23576,7 @@ var SETDEX_SV = {
         }
     },
     "Ninetales-Alola": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Serene Grace",
             "level": 55,
@@ -23587,7 +23588,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "Burglar Simon": {
+        "OU Burglar Simon": {
             "nature": "Hardy",
             "ability": "Serene Grace",
             "level": 70,
@@ -23598,7 +23599,7 @@ var SETDEX_SV = {
                 "Safeguard"
             ]
         },
-        "*Ace Trainer Nick": {
+        "OU *Ace Trainer Nick": {
             "nature": "Timid",
             "ability": "Snow Warning",
             "level": 100,
@@ -23612,7 +23613,7 @@ var SETDEX_SV = {
         }
     },
     "Mr. Rime": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Ice Body",
             "level": 56,
@@ -23626,7 +23627,7 @@ var SETDEX_SV = {
         }
     },
     "Arctovish": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Water Absorb",
             "level": 56,
@@ -23638,7 +23639,7 @@ var SETDEX_SV = {
                 "Psychic Fangs"
             ]
         },
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Adamant",
             "ability": "Slush Rush",
             "level": 73,
@@ -23652,7 +23653,7 @@ var SETDEX_SV = {
         }
     },
     "Klefki": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Prankster",
             "level": 55,
@@ -23666,7 +23667,7 @@ var SETDEX_SV = {
         }
     },
     "Braviary": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 56,
@@ -23678,7 +23679,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "Bird Keeper Mitch": {
+        "OU Bird Keeper Mitch": {
             "nature": "Docile",
             "ability": "Sheer Force",
             "level": 56,
@@ -23691,7 +23692,7 @@ var SETDEX_SV = {
         }
     },
     "Dragalge": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Adaptability",
             "level": 56,
@@ -23703,7 +23704,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "Biker Lukas": {
+        "OU Biker Lukas": {
             "nature": "Bold",
             "ability": "Poison Touch",
             "level": 57,
@@ -23713,7 +23714,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "*SwimmerF Maria": {
+        "OU *SwimmerF Maria": {
             "nature": "Modest",
             "ability": "Adaptability",
             "level": 99,
@@ -23725,7 +23726,7 @@ var SETDEX_SV = {
                 "Sludge Wave"
             ]
         },
-        "*Cool Couple Ray & Tyra": {
+        "OU *Cool Couple Ray & Tyra": {
             "nature": "Quiet",
             "ability": "Adaptability",
             "level": 85,
@@ -23739,7 +23740,7 @@ var SETDEX_SV = {
         }
     },
     "Honchkrow": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Naive",
             "ability": "Super Luck",
             "level": 56,
@@ -23753,7 +23754,7 @@ var SETDEX_SV = {
         }
     },
     "Slurpuff": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Unburden",
             "level": 55,
@@ -23767,7 +23768,7 @@ var SETDEX_SV = {
         }
     },
     "Hydreigon": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 56,
@@ -23779,7 +23780,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 82,
@@ -23791,7 +23792,7 @@ var SETDEX_SV = {
                 "Nasty Plot"
             ]
         },
-        "*Channeler Rachel": {
+        "OU *Channeler Rachel": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 100,
@@ -23803,7 +23804,7 @@ var SETDEX_SV = {
                 "Focus Blast"
             ]
         },
-        "*Tuber Alexis": {
+        "OU *Tuber Alexis": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 100,
@@ -23817,7 +23818,7 @@ var SETDEX_SV = {
         }
     },
     "Magnezone": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Magnet Pull",
             "level": 56,
@@ -23829,7 +23830,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Leader Jasmine": {
+        "OU *Leader Jasmine": {
             "nature": "Modest",
             "ability": "Sturdy",
             "level": 73,
@@ -23841,7 +23842,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Timid",
             "ability": "Magnet Pull",
             "level": 100,
@@ -23853,7 +23854,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Camper Bryce": {
+        "OU *Camper Bryce": {
             "nature": "Jolly",
             "ability": "Magnet Pull",
             "level": 100,
@@ -23865,7 +23866,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Biker William": {
+        "OU *Biker William": {
             "nature": "Naive",
             "ability": "Sturdy",
             "level": 65,
@@ -23879,7 +23880,7 @@ var SETDEX_SV = {
         }
     },
     "Golurk": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Iron Fist",
             "level": 56,
@@ -23893,7 +23894,7 @@ var SETDEX_SV = {
         }
     },
     "Mamoswine": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Thick Fat",
             "level": 57,
@@ -23905,7 +23906,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Biker Jared": {
+        "OU *Biker Jared": {
             "nature": "Jolly",
             "ability": "Thick Fat",
             "level": 66,
@@ -23919,7 +23920,7 @@ var SETDEX_SV = {
         }
     },
     "Dracovish": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Adamant",
             "ability": "Sand Rush",
             "level": 57,
@@ -23931,7 +23932,7 @@ var SETDEX_SV = {
                 "Psychic Fangs"
             ]
         },
-        "*Biker Hideo": {
+        "OU *Biker Hideo": {
             "nature": "Jolly",
             "ability": "Sand Rush",
             "level": 66,
@@ -23945,7 +23946,7 @@ var SETDEX_SV = {
         }
     },
     "Garganacl": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Careful",
             "ability": "Purifying Salt",
             "level": 57,
@@ -23959,7 +23960,7 @@ var SETDEX_SV = {
         }
     },
     "Excadrill": {
-        "*Ace Trainer Zac": {
+        "OU *Ace Trainer Zac": {
             "nature": "Adamant",
             "ability": "Mold Breaker",
             "level": 76,
@@ -23971,7 +23972,7 @@ var SETDEX_SV = {
                 "Rock Slide"
             ]
         },
-        "*Biker Ruben": {
+        "OU *Biker Ruben": {
             "nature": "Adamant",
             "ability": "Sand Rush",
             "level": 66,
@@ -23983,7 +23984,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Sand Rush",
             "level": 57,
@@ -23995,7 +23996,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Aroma Lady Violet": {
+        "OU *Aroma Lady Violet": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
             "level": 100,
@@ -24009,7 +24010,7 @@ var SETDEX_SV = {
         }
     },
     "Garchomp-Mega": {
-        "*Ace Trainer Samantha": {
+        "OU *Ace Trainer Samantha": {
             "nature": "Timid",
             "ability": "Sand Force",
             "level": 100,
@@ -24021,7 +24022,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Ace Trainer Nick": {
+        "OU *Ace Trainer Nick": {
             "nature": "Jolly",
             "ability": "Sand Force",
             "level": 100,
@@ -24033,7 +24034,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Sand Force",
             "level": 57,
@@ -24045,7 +24046,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Jolly",
             "ability": "Sand Force",
             "level": 100,
@@ -24059,7 +24060,7 @@ var SETDEX_SV = {
         }
     },
     "Moltres-Galar": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Berserk",
             "level": 80,
@@ -24071,7 +24072,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*PkMn Trainer Cole": {
+        "OU *PkMn Trainer Cole": {
             "nature": "Timid",
             "ability": "Berserk",
             "level": 59,
@@ -24085,7 +24086,7 @@ var SETDEX_SV = {
         }
     },
     "Tapu Fini": {
-        "*PkMn Trainer Cole": {
+        "OU *PkMn Trainer Cole": {
             "nature": "Bold",
             "ability": "Misty Surge",
             "level": 59,
@@ -24097,7 +24098,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "Leader Sabrina": {
+        "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Misty Surge",
             "level": 59,
@@ -24110,7 +24111,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Modest",
             "ability": "Misty Surge",
             "level": 85,
@@ -24124,7 +24125,7 @@ var SETDEX_SV = {
         }
     },
     "Landorus-Therian": {
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 79,
@@ -24136,7 +24137,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Ace Trainer Barry": {
+        "OU *Ace Trainer Barry": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 100,
@@ -24148,7 +24149,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Bird Keeper Sebastian": {
+        "OU *Bird Keeper Sebastian": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 66,
@@ -24160,7 +24161,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 85,
@@ -24172,7 +24173,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*PkMn Trainer Cole": {
+        "OU *PkMn Trainer Cole": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 59,
@@ -24186,7 +24187,7 @@ var SETDEX_SV = {
         }
     },
     "Ferrothorn": {
-        "*Ace Trainer Janny": {
+        "OU *Ace Trainer Janny": {
             "nature": "Impish",
             "ability": "Iron Barbs",
             "level": 100,
@@ -24198,7 +24199,7 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Relaxed",
             "ability": "Iron Barbs",
             "level": 82,
@@ -24210,7 +24211,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*PkMn Trainer Cole": {
+        "OU *PkMn Trainer Cole": {
             "nature": "Relaxed",
             "ability": "Iron Barbs",
             "level": 59,
@@ -24224,7 +24225,7 @@ var SETDEX_SV = {
         }
     },
     "Centiskorch-Mega": {
-        "*Ace Trainer Derek": {
+        "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Mountaineer",
             "level": 76,
@@ -24236,7 +24237,7 @@ var SETDEX_SV = {
                 "Power Whip"
             ]
         },
-        "*PkMn Trainer Cole": {
+        "OU *PkMn Trainer Cole": {
             "nature": "Jolly",
             "ability": "Mountaineer",
             "level": 59,
@@ -24250,7 +24251,7 @@ var SETDEX_SV = {
         }
     },
     "Tapu Koko": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Naive",
             "ability": "Electric Surge",
             "level": 68,
@@ -24262,7 +24263,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*PkMn Trainer Sam": {
+        "OU *PkMn Trainer Sam": {
             "nature": "Naive",
             "ability": "Electric Surge",
             "level": 59,
@@ -24276,7 +24277,7 @@ var SETDEX_SV = {
         }
     },
     "Flapple-Mega": {
-        "*Aroma Lady Violet": {
+        "OU *Aroma Lady Violet": {
             "nature": "Naive",
             "ability": "Dragon's Maw",
             "level": 100,
@@ -24287,7 +24288,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*PkMn Trainer Sam": {
+        "OU *PkMn Trainer Sam": {
             "nature": "Naive",
             "ability": "Dragon's Maw",
             "level": 59,
@@ -24299,7 +24300,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Leader Clair": {
+        "OU *Leader Clair": {
             "nature": "Naive",
             "ability": "Dragon's Maw",
             "level": 100,
@@ -24313,7 +24314,7 @@ var SETDEX_SV = {
         }
     },
     "Cinderace": {
-        "*Ace Trainer Zac": {
+        "OU *Ace Trainer Zac": {
             "nature": "Jolly",
             "ability": "Libero",
             "level": 76,
@@ -24325,7 +24326,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*PkMn Trainer Shelly": {
+        "OU *PkMn Trainer Shelly": {
             "nature": "Jolly",
             "ability": "Libero",
             "level": 59,
@@ -24337,7 +24338,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Twins Kiri & Jan": {
+        "OU Twins Kiri & Jan": {
             "nature": "Sassy",
             "ability": "Blaze",
             "level": 56,
@@ -24350,7 +24351,7 @@ var SETDEX_SV = {
         }
     },
     "Appletun-Mega": {
-        "*PkMn Trainer Shelly": {
+        "OU *PkMn Trainer Shelly": {
             "nature": "Modest",
             "ability": "Contrary",
             "level": 59,
@@ -24364,7 +24365,7 @@ var SETDEX_SV = {
         }
     },
     "Beartic": {
-        "*Dumbass Kid": {
+        "OU *Dumbass Kid": {
             "nature": "Jolly",
             "ability": "Swift Swim",
             "level": 59,
@@ -24378,7 +24379,7 @@ var SETDEX_SV = {
         }
     },
     "Frosmoth": {
-        "*Dumbass Kid": {
+        "OU *Dumbass Kid": {
             "nature": "Timid",
             "ability": "Ice Scales",
             "level": 59,
@@ -24392,7 +24393,7 @@ var SETDEX_SV = {
         }
     },
     "Goodra": {
-        "*Picnicker Susie": {
+        "OU *Picnicker Susie": {
             "nature": "Modest",
             "ability": "Sap Sipper",
             "level": 66,
@@ -24404,7 +24405,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Modest",
             "ability": "Hydration",
             "level": 82,
@@ -24416,7 +24417,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Dumbass Kid": {
+        "OU *Dumbass Kid": {
             "nature": "Impish",
             "ability": "Hydration",
             "level": 59,
@@ -24428,7 +24429,7 @@ var SETDEX_SV = {
                 "Rest"
             ]
         },
-        "*Beauty Sheila": {
+        "OU *Beauty Sheila": {
             "nature": "Adamant",
             "ability": "Sap Sipper",
             "level": 66,
@@ -24442,7 +24443,7 @@ var SETDEX_SV = {
         }
     },
     "Swampert-Mega": {
-        "*Dumbass Gian": {
+        "OU *Dumbass Gian": {
             "nature": "Jolly",
             "ability": "Swift Swim",
             "level": 100,
@@ -24454,7 +24455,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*Dumbass Kid": {
+        "OU *Dumbass Kid": {
             "nature": "Adamant",
             "ability": "Swift Swim",
             "level": 59,
@@ -24467,7 +24468,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Adamant",
             "ability": "Swift Swim",
             "level": 85,
@@ -24479,7 +24480,7 @@ var SETDEX_SV = {
                 "Waterfall"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Adamant",
             "ability": "Swift Swim",
             "level": 85,
@@ -24493,7 +24494,7 @@ var SETDEX_SV = {
         }
     },
     "Espathra": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Modest",
             "ability": "Speed Boost",
             "level": 79,
@@ -24505,7 +24506,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "Psychic Cameron": {
+        "OU Psychic Cameron": {
             "nature": "Naive",
             "ability": "Frisk",
             "level": 53,
@@ -24518,7 +24519,7 @@ var SETDEX_SV = {
         }
     },
     "Meowstic": {
-        "Juggler Nelson": {
+        "OU Juggler Nelson": {
             "nature": "Quirky",
             "ability": "Prankster",
             "level": 76,
@@ -24529,7 +24530,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "Psychic Johan": {
+        "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Prankster",
             "level": 53,
@@ -24542,7 +24543,7 @@ var SETDEX_SV = {
         }
     },
     "Gallade": {
-        "Psychic Johan": {
+        "OU Psychic Johan": {
             "nature": "Naive",
             "ability": "Steadfast",
             "level": 54,
@@ -24555,7 +24556,7 @@ var SETDEX_SV = {
         }
     },
     "Bronzong": {
-        "Psychic Preston": {
+        "OU Psychic Preston": {
             "nature": "Naive",
             "ability": "Levitate",
             "level": 54,
@@ -24566,7 +24567,7 @@ var SETDEX_SV = {
                 "Spin Out"
             ]
         },
-        "Scientist Ivan": {
+        "OU Scientist Ivan": {
             "nature": "Quiet",
             "ability": "Levitate",
             "level": 70,
@@ -24579,7 +24580,7 @@ var SETDEX_SV = {
         }
     },
     "Cofagrigus": {
-        "Channeler Amanda": {
+        "OU Channeler Amanda": {
             "nature": "Timid",
             "ability": "Mummy",
             "level": 55,
@@ -24592,7 +24593,7 @@ var SETDEX_SV = {
         }
     },
     "Froslass": {
-        "*Scientist Ted": {
+        "OU *Scientist Ted": {
             "nature": "Jolly",
             "ability": "Stakeout",
             "level": 74,
@@ -24604,7 +24605,7 @@ var SETDEX_SV = {
                 "Triple Axel"
             ]
         },
-        "Channeler Tasha": {
+        "OU Channeler Tasha": {
             "nature": "Quirky",
             "ability": "Ice Body",
             "level": 53,
@@ -24615,7 +24616,7 @@ var SETDEX_SV = {
                 "Snowscape"
             ]
         },
-        "*Fisherman Andrew": {
+        "OU *Fisherman Andrew": {
             "nature": "Timid",
             "ability": "Ice Body",
             "level": 66,
@@ -24629,7 +24630,7 @@ var SETDEX_SV = {
         }
     },
     "Camerupt-Mega": {
-        "*Biker Jared": {
+        "OU *Biker Jared": {
             "nature": "Modest",
             "ability": "Sheer Force",
             "level": 66,
@@ -24641,7 +24642,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "Leader Sabrina": {
+        "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Sheer Force",
             "level": 59,
@@ -24656,7 +24657,7 @@ var SETDEX_SV = {
         }
     },
     "Glastrier": {
-        "Leader Sabrina": {
+        "OU Leader Sabrina": {
             "nature": "Brave",
             "ability": "Chilling Neigh",
             "level": 59,
@@ -24671,7 +24672,7 @@ var SETDEX_SV = {
         }
     },
     "Magearna": {
-        "Leader Clair": {
+        "OU Leader Clair": {
             "nature": "Modest",
             "ability": "Soul-Heart",
             "level": 81,
@@ -24683,7 +24684,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Leader Erika": {
+        "OU *Leader Erika": {
             "nature": "Bold",
             "ability": "Soul-Heart",
             "level": 68,
@@ -24695,7 +24696,7 @@ var SETDEX_SV = {
                 "Stored Power"
             ]
         },
-        "Leader Sabrina": {
+        "OU Leader Sabrina": {
             "nature": "Quiet",
             "ability": "Soul-Heart",
             "level": 59,
@@ -24710,7 +24711,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Hands": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Quark Drive",
             "level": 82,
@@ -24722,7 +24723,7 @@ var SETDEX_SV = {
                 "Plasma Fists"
             ]
         },
-        "*Leader Lt. Surge": {
+        "OU *Leader Lt. Surge": {
             "nature": "Careful",
             "ability": "Quark Drive",
             "level": 68,
@@ -24734,7 +24735,7 @@ var SETDEX_SV = {
                 "Plasma Fists"
             ]
         },
-        "Leader Sabrina": {
+        "OU Leader Sabrina": {
             "nature": "Brave",
             "ability": "Quark Drive",
             "level": 59,
@@ -24749,7 +24750,7 @@ var SETDEX_SV = {
         }
     },
     "Tornadus": {
-        "*Rocker Luca": {
+        "OU *Rocker Luca": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 66,
@@ -24763,7 +24764,7 @@ var SETDEX_SV = {
         }
     },
     "Yanmega": {
-        "*Rocker Luca": {
+        "OU *Rocker Luca": {
             "nature": "Timid",
             "ability": "Tinted Lens",
             "level": 66,
@@ -24775,7 +24776,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Gatekeeper Logan": {
+        "OU *Gatekeeper Logan": {
             "nature": "Timid",
             "ability": "Tinted Lens",
             "level": 100,
@@ -24787,7 +24788,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Timid",
             "ability": "Tinted Lens",
             "level": 100,
@@ -24801,7 +24802,7 @@ var SETDEX_SV = {
         }
     },
     "Darmanitan-Galar-Zen": {
-        "*Camper Justin": {
+        "OU *Camper Justin": {
             "nature": "Jolly",
             "ability": "Zen Mode",
             "level": 66,
@@ -24813,7 +24814,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Crush Girl Sharon": {
+        "OU *Crush Girl Sharon": {
             "nature": "Jolly",
             "ability": "Zen Mode",
             "level": 100,
@@ -24827,7 +24828,7 @@ var SETDEX_SV = {
         }
     },
     "Cetitan": {
-        "*Camper Justin": {
+        "OU *Camper Justin": {
             "nature": "Jolly",
             "ability": "Slush Rush",
             "level": 66,
@@ -24841,7 +24842,7 @@ var SETDEX_SV = {
         }
     },
     "Barbaracle": {
-        "*Fisherman Andrew": {
+        "OU *Fisherman Andrew": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 66,
@@ -24855,7 +24856,7 @@ var SETDEX_SV = {
         }
     },
     "Baxcalibur": {
-        "*Fisherman Andrew": {
+        "OU *Fisherman Andrew": {
             "nature": "Jolly",
             "ability": "ThermalExchange",
             "level": 66,
@@ -24869,7 +24870,7 @@ var SETDEX_SV = {
         }
     },
     "Mienshao": {
-        "*Biker Lao": {
+        "OU *Biker Lao": {
             "nature": "Jolly",
             "ability": "Inner Focus",
             "level": 65,
@@ -24881,7 +24882,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Alexa": {
+        "OU *Ace Trainer Alexa": {
             "nature": "Jolly",
             "ability": "Regenerator",
             "level": 85,
@@ -24895,7 +24896,7 @@ var SETDEX_SV = {
         }
     },
     "Dugtrio-Alola": {
-        "*Biker Lao": {
+        "OU *Biker Lao": {
             "nature": "Naive",
             "ability": "Sand Force",
             "level": 66,
@@ -24909,7 +24910,7 @@ var SETDEX_SV = {
         }
     },
     "Kingler-Mega": {
-        "*Cue Ball Koji": {
+        "OU *Cue Ball Koji": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 66,
@@ -24921,7 +24922,7 @@ var SETDEX_SV = {
                 "Meteor Mash"
             ]
         },
-        "*Gatekeeper Owen": {
+        "OU *Gatekeeper Owen": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 100,
@@ -24933,7 +24934,7 @@ var SETDEX_SV = {
                 "Iron Head"
             ]
         },
-        "*Ace Trainer Rolando": {
+        "OU *Ace Trainer Rolando": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 85,
@@ -24947,7 +24948,7 @@ var SETDEX_SV = {
         }
     },
     "Dracozolt": {
-        "*Cue Ball Koji": {
+        "OU *Cue Ball Koji": {
             "nature": "Jolly",
             "ability": "Sand Rush",
             "level": 66,
@@ -24961,7 +24962,7 @@ var SETDEX_SV = {
         }
     },
     "Zygarde-10%": {
-        "*Cue Ball Luke": {
+        "OU *Cue Ball Luke": {
             "nature": "Jolly",
             "ability": "Inner Focus",
             "level": 66,
@@ -24975,7 +24976,7 @@ var SETDEX_SV = {
         }
     },
     "Gigalith": {
-        "*Biker Ruben": {
+        "OU *Biker Ruben": {
             "nature": "Careful",
             "ability": "Sand Force",
             "level": 66,
@@ -24987,7 +24988,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Dumbass Creator": {
+        "OU Dumbass Creator": {
             "nature": "Adamant",
             "ability": "Sand Stream",
             "level": 250,
@@ -24998,7 +24999,7 @@ var SETDEX_SV = {
         }
     },
     "Lopunny-Mega": {
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Jolly",
             "ability": "Scrappy",
             "level": 100,
@@ -25010,7 +25011,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Biker Ruben": {
+        "OU *Biker Ruben": {
             "nature": "Jolly",
             "ability": "Scrappy",
             "level": 66,
@@ -25022,7 +25023,7 @@ var SETDEX_SV = {
                 "Triple Axel"
             ]
         },
-        "*Burglar Lewis": {
+        "OU *Burglar Lewis": {
             "nature": "Jolly",
             "ability": "Scrappy",
             "level": 76,
@@ -25034,7 +25035,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Jolly",
             "ability": "Scrappy",
             "level": 85,
@@ -25048,7 +25049,7 @@ var SETDEX_SV = {
         }
     },
     "Beedrill-Mega": {
-        "*Biker Hideo": {
+        "OU *Biker Hideo": {
             "nature": "Jolly",
             "ability": "Adaptability",
             "level": 66,
@@ -25062,7 +25063,7 @@ var SETDEX_SV = {
         }
     },
     "Rotom-Heat": {
-        "*Biker Hideo": {
+        "OU *Biker Hideo": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 66,
@@ -25076,7 +25077,7 @@ var SETDEX_SV = {
         }
     },
     "Greninja": {
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Naive",
             "ability": "Protean",
             "level": 100,
@@ -25088,7 +25089,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*SwimmerM Garrett": {
+        "OU *SwimmerM Garrett": {
             "nature": "Timid",
             "ability": "Protean",
             "level": 98,
@@ -25100,7 +25101,7 @@ var SETDEX_SV = {
                 "Surf"
             ]
         },
-        "*Biker Hideo": {
+        "OU *Biker Hideo": {
             "nature": "Naive",
             "ability": "Protean",
             "level": 66,
@@ -25112,7 +25113,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Andrew": {
+        "OU *Ace Trainer Andrew": {
             "nature": "Careful",
             "ability": "Protean",
             "level": 100,
@@ -25126,7 +25127,7 @@ var SETDEX_SV = {
         }
     },
     "Garchomp": {
-        "*Cue Ball Camron": {
+        "OU *Cue Ball Camron": {
             "nature": "Jolly",
             "ability": "Sand Veil",
             "level": 66,
@@ -25138,7 +25139,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Rough Skin",
             "level": 82,
@@ -25152,7 +25153,7 @@ var SETDEX_SV = {
         }
     },
     "Seismitoad": {
-        "Biker Virgil": {
+        "OU Biker Virgil": {
             "nature": "Jolly",
             "ability": "Swift Swim",
             "level": 54,
@@ -25163,7 +25164,7 @@ var SETDEX_SV = {
                 "Smokescreen"
             ]
         },
-        "*Ace Trainer Janny": {
+        "OU *Ace Trainer Janny": {
             "nature": "Modest",
             "ability": "Swift Swim",
             "level": 100,
@@ -25175,7 +25176,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "SwimmerM Roland": {
+        "OU SwimmerM Roland": {
             "nature": "Rash",
             "ability": "Swift Swim",
             "level": 64,
@@ -25188,7 +25189,7 @@ var SETDEX_SV = {
         }
     },
     "Cyclizar": {
-        "Cue Ball Raul": {
+        "OU Cue Ball Raul": {
             "nature": "Jolly",
             "ability": "Shed Skin",
             "level": 55,
@@ -25199,7 +25200,7 @@ var SETDEX_SV = {
                 "Shift Gear"
             ]
         },
-        "*Ace Trainer Rolando": {
+        "OU *Ace Trainer Rolando": {
             "nature": "Jolly",
             "ability": "Regenerator",
             "level": 85,
@@ -25213,7 +25214,7 @@ var SETDEX_SV = {
         }
     },
     "Probopass": {
-        "Biker Nikolas": {
+        "OU Biker Nikolas": {
             "nature": "Bashful",
             "ability": "Magnet Pull",
             "level": 55,
@@ -25224,7 +25225,7 @@ var SETDEX_SV = {
                 "Spark"
             ]
         },
-        "*Black Belt Shea": {
+        "OU *Black Belt Shea": {
             "nature": "Bold",
             "ability": "Levitate",
             "level": 100,
@@ -25236,7 +25237,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "Scientist Braydon": {
+        "OU Scientist Braydon": {
             "nature": "Lax",
             "ability": "Magnet Pull",
             "level": 69,
@@ -25249,7 +25250,7 @@ var SETDEX_SV = {
         }
     },
     "Ogerpon-Wellspring": {
-        "*Bird Keeper Jacob": {
+        "OU *Bird Keeper Jacob": {
             "nature": "Jolly",
             "ability": "Water Absorb",
             "level": 66,
@@ -25263,7 +25264,7 @@ var SETDEX_SV = {
         }
     },
     "Lapras-Mega": {
-        "*SwimmerM Garrett": {
+        "OU *SwimmerM Garrett": {
             "nature": "Modest",
             "ability": "Liquid Voice",
             "level": 100,
@@ -25275,7 +25276,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Dragon Tamer Ramiro": {
+        "OU *Dragon Tamer Ramiro": {
             "nature": "Modest",
             "ability": "Liquid Voice",
             "level": 66,
@@ -25289,7 +25290,7 @@ var SETDEX_SV = {
         }
     },
     "Dragapult": {
-        "Champion Lance": {
+        "OU Champion Lance": {
             "nature": "Hasty",
             "ability": "Clear Body",
             "level": 83,
@@ -25301,7 +25302,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Bird Keeper Perry": {
+        "OU *Bird Keeper Perry": {
             "nature": "Timid",
             "ability": "Stalwart",
             "level": 66,
@@ -25313,7 +25314,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Clair": {
+        "OU *Leader Clair": {
             "nature": "Hasty",
             "ability": "Clear Body",
             "level": 100,
@@ -25325,7 +25326,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Wilton": {
+        "OU *Ace Trainer Wilton": {
             "nature": "Timid",
             "ability": "Stalwart",
             "level": 66,
@@ -25337,7 +25338,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Nick": {
+        "OU *Ace Trainer Nick": {
             "nature": "Jolly",
             "ability": "Clear Body",
             "level": 100,
@@ -25349,7 +25350,7 @@ var SETDEX_SV = {
                 "Phantom Force"
             ]
         },
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Jolly",
             "ability": "Clear Body",
             "level": 81,
@@ -25363,7 +25364,7 @@ var SETDEX_SV = {
         }
     },
     "Pinsir-Mega": {
-        "*Ace Trainer Wilton": {
+        "OU *Ace Trainer Wilton": {
             "nature": "Jolly",
             "ability": "Aerilate",
             "level": 66,
@@ -25375,7 +25376,7 @@ var SETDEX_SV = {
                 "X-Scissor"
             ]
         },
-        "*Ace Trainer George": {
+        "OU *Ace Trainer George": {
             "nature": "Jolly",
             "ability": "Aerilate",
             "level": 85,
@@ -25387,7 +25388,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Jolly",
             "ability": "Aerilate",
             "level": 100,
@@ -25401,7 +25402,7 @@ var SETDEX_SV = {
         }
     },
     "Kilowattrel": {
-        "*Ace Trainer Wilton": {
+        "OU *Ace Trainer Wilton": {
             "nature": "Timid",
             "ability": "Volt Absorb",
             "level": 66,
@@ -25413,7 +25414,7 @@ var SETDEX_SV = {
                 "Weather Ball"
             ]
         },
-        "Bird Keeper Roger": {
+        "OU Bird Keeper Roger": {
             "nature": "Quirky",
             "ability": "Static",
             "level": 64,
@@ -25426,7 +25427,7 @@ var SETDEX_SV = {
         }
     },
     "Nihilego": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Beast Boost",
             "level": 68,
@@ -25440,7 +25441,7 @@ var SETDEX_SV = {
         }
     },
     "Urshifu-Rapid-Strike": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 68,
@@ -25452,7 +25453,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*PkMn Trainer Ketchup Set 1": {
+        "OU *PkMn Trainer Ketchup Set 1": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 81,
@@ -25465,7 +25466,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*PkMn Trainer Ketchup Set 2": {
+        "OU *PkMn Trainer Ketchup Set 2": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 81,
@@ -25479,7 +25480,7 @@ var SETDEX_SV = {
         }
     },
     "Deoxys-Attack": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Naive",
             "ability": "Pressure",
             "level": 68,
@@ -25493,7 +25494,7 @@ var SETDEX_SV = {
         }
     },
     "Alcremie": {
-        "Picnicker Yazmin": {
+        "OU Picnicker Yazmin": {
             "nature": "Calm",
             "ability": "Sweet Veil",
             "level": 58,
@@ -25506,7 +25507,7 @@ var SETDEX_SV = {
         }
     },
     "Eldegoss": {
-        "Picnicker Kindra": {
+        "OU Picnicker Kindra": {
             "nature": "Bold",
             "ability": "Cotton Down",
             "level": 57,
@@ -25519,7 +25520,7 @@ var SETDEX_SV = {
         }
     },
     "Flapple": {
-        "Picnicker Kindra": {
+        "OU Picnicker Kindra": {
             "nature": "Naughty",
             "ability": "Ripen",
             "level": 58,
@@ -25532,7 +25533,7 @@ var SETDEX_SV = {
         }
     },
     "Silvally-Fairy": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Timid",
             "ability": "Battle Armor",
             "level": 100,
@@ -25544,7 +25545,7 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Jolly",
             "ability": "Battle Armor",
             "level": 80,
@@ -25556,7 +25557,7 @@ var SETDEX_SV = {
                 "Thunder Wave"
             ]
         },
-        "*PkMn Trainer Haley": {
+        "OU *PkMn Trainer Haley": {
             "nature": "Jolly",
             "ability": "Battle Armor",
             "level": 68,
@@ -25570,7 +25571,7 @@ var SETDEX_SV = {
         }
     },
     "Escavalier": {
-        "*PkMn Trainer Haley": {
+        "OU *PkMn Trainer Haley": {
             "nature": "Adamant",
             "ability": "Overcoat",
             "level": 68,
@@ -25584,7 +25585,7 @@ var SETDEX_SV = {
         }
     },
     "Cursola": {
-        "*PkMn Trainer Haley": {
+        "OU *PkMn Trainer Haley": {
             "nature": "Timid",
             "ability": "Unburden",
             "level": 68,
@@ -25598,7 +25599,7 @@ var SETDEX_SV = {
         }
     },
     "Sandaconda-Mega": {
-        "*PkMn Trainer Haley": {
+        "OU *PkMn Trainer Haley": {
             "nature": "Adamant",
             "ability": "Aerilate",
             "level": 68,
@@ -25612,7 +25613,7 @@ var SETDEX_SV = {
         }
     },
     "Staravia": {
-        "Bird Keeper Beck": {
+        "OU Bird Keeper Beck": {
             "nature": "Impish",
             "ability": "Intimidate",
             "level": 56,
@@ -25625,7 +25626,7 @@ var SETDEX_SV = {
         }
     },
     "Toucannon": {
-        "Bird Keeper Marlon": {
+        "OU Bird Keeper Marlon": {
             "nature": "Naive",
             "ability": "Frisk",
             "level": 57,
@@ -25638,7 +25639,7 @@ var SETDEX_SV = {
         }
     },
     "Dartrix": {
-        "Bird Keeper Mitch": {
+        "OU Bird Keeper Mitch": {
             "nature": "Relaxed",
             "ability": "Overgrow",
             "level": 55,
@@ -25651,7 +25652,7 @@ var SETDEX_SV = {
         }
     },
     "Empoleon": {
-        "Bird Keeper Benny": {
+        "OU Bird Keeper Benny": {
             "nature": "Rash",
             "ability": "Torrent",
             "level": 57,
@@ -25662,7 +25663,7 @@ var SETDEX_SV = {
                 "Make It Rain"
             ]
         },
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Bold",
             "ability": "Competitive",
             "level": 82,
@@ -25674,7 +25675,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "*Twins Joy & Meg": {
+        "OU *Twins Joy & Meg": {
             "nature": "Timid",
             "ability": "Competitive",
             "level": 100,
@@ -25688,7 +25689,7 @@ var SETDEX_SV = {
         }
     },
     "Tangrowth": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Sassy",
             "ability": "Regenerator",
             "level": 79,
@@ -25700,7 +25701,7 @@ var SETDEX_SV = {
                 "Knock Off"
             ]
         },
-        "*Picnicker Alma": {
+        "OU *Picnicker Alma": {
             "nature": "Timid",
             "ability": "Chlorophyll",
             "level": 66,
@@ -25712,7 +25713,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "*Aroma Lady Nikki": {
+        "OU *Aroma Lady Nikki": {
             "nature": "Timid",
             "ability": "Regenerator",
             "level": 100,
@@ -25726,7 +25727,7 @@ var SETDEX_SV = {
         }
     },
     "Chandelure": {
-        "*Aroma Lady Violet": {
+        "OU *Aroma Lady Violet": {
             "nature": "Timid",
             "ability": "Shadow Tag",
             "level": 100,
@@ -25738,7 +25739,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Shadow Tag",
             "level": 82,
@@ -25750,7 +25751,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Picnicker Alma": {
+        "OU *Picnicker Alma": {
             "nature": "Timid",
             "ability": "Shadow Tag",
             "level": 66,
@@ -25764,7 +25765,7 @@ var SETDEX_SV = {
         }
     },
     "Heatran": {
-        "*Picnicker Susie": {
+        "OU *Picnicker Susie": {
             "nature": "Timid",
             "ability": "Flash Fire",
             "level": 66,
@@ -25776,7 +25777,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "*Ace Trainer Nick": {
+        "OU *Ace Trainer Nick": {
             "nature": "Timid",
             "ability": "Flash Fire",
             "level": 100,
@@ -25788,7 +25789,7 @@ var SETDEX_SV = {
                 "Protect"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Timid",
             "ability": "Flash Fire",
             "level": 100,
@@ -25802,7 +25803,7 @@ var SETDEX_SV = {
         }
     },
     "Alcremie-Mega": {
-        "*Picnicker Susie": {
+        "OU *Picnicker Susie": {
             "nature": "Bold",
             "ability": "Self Sufficient",
             "level": 66,
@@ -25814,7 +25815,7 @@ var SETDEX_SV = {
                 "Recover"
             ]
         },
-        "*Ace Trainer Symes": {
+        "OU *Ace Trainer Symes": {
             "nature": "Bold",
             "ability": "Self Sufficient",
             "level": 100,
@@ -25828,7 +25829,7 @@ var SETDEX_SV = {
         }
     },
     "Florges": {
-        "*Beauty Lola": {
+        "OU *Beauty Lola": {
             "nature": "Calm",
             "ability": "Natural Cure",
             "level": 66,
@@ -25842,7 +25843,7 @@ var SETDEX_SV = {
         }
     },
     "Zebstrika": {
-        "*Beauty Sheila": {
+        "OU *Beauty Sheila": {
             "nature": "Jolly",
             "ability": "Sap Sipper",
             "level": 67,
@@ -25856,7 +25857,7 @@ var SETDEX_SV = {
         }
     },
     "Prinplup": {
-        "Picnicker Gwen": {
+        "OU Picnicker Gwen": {
             "nature": "Lax",
             "ability": "Torrent",
             "level": 57,
@@ -25869,7 +25870,7 @@ var SETDEX_SV = {
         }
     },
     "Riolu": {
-        "Picnicker Gwen": {
+        "OU Picnicker Gwen": {
             "nature": "Naive",
             "ability": "Steadfast",
             "level": 57,
@@ -25882,7 +25883,7 @@ var SETDEX_SV = {
         }
     },
     "Emboar": {
-        "*Scientist Ted": {
+        "OU *Scientist Ted": {
             "nature": "Naive",
             "ability": "Bull Rush",
             "level": 76,
@@ -25894,7 +25895,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "Burglar Quinn": {
+        "OU Burglar Quinn": {
             "nature": "Naughty",
             "ability": "Reckless",
             "level": 74,
@@ -25905,7 +25906,7 @@ var SETDEX_SV = {
                 "Jump Kick"
             ]
         },
-        "*Bird Keeper Robert": {
+        "OU *Bird Keeper Robert": {
             "nature": "Naive",
             "ability": "Bull Rush",
             "level": 66,
@@ -25917,7 +25918,7 @@ var SETDEX_SV = {
                 "Wild Charge"
             ]
         },
-        "*Cue Ball Paxton": {
+        "OU *Cue Ball Paxton": {
             "nature": "Jolly",
             "ability": "Bull Rush",
             "level": 100,
@@ -25931,7 +25932,7 @@ var SETDEX_SV = {
         }
     },
     "Rhyperior": {
-        "*Ace Trainer Derek": {
+        "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Solid Rock",
             "level": 76,
@@ -25943,7 +25944,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "*Bird Keeper Perry": {
+        "OU *Bird Keeper Perry": {
             "nature": "Careful",
             "ability": "Solid Rock",
             "level": 66,
@@ -25955,7 +25956,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Pokemaniac Mark": {
+        "OU Pokemaniac Mark": {
             "nature": "Jolly",
             "ability": "Lightning Rod",
             "level": 60,
@@ -25968,7 +25969,7 @@ var SETDEX_SV = {
         }
     },
     "Ogerpon-Hearthflame": {
-        "*Bird Keeper Perry": {
+        "OU *Bird Keeper Perry": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
             "level": 66,
@@ -25982,7 +25983,7 @@ var SETDEX_SV = {
         }
     },
     "Crustle": {
-        "*Biker Jared": {
+        "OU *Biker Jared": {
             "nature": "Adamant",
             "ability": "Sturdy",
             "level": 66,
@@ -25996,7 +25997,7 @@ var SETDEX_SV = {
         }
     },
     "Hatterene": {
-        "*Juggler Kayden": {
+        "OU *Juggler Kayden": {
             "nature": "Bold",
             "ability": "Magic Bounce",
             "level": 68,
@@ -26008,7 +26009,7 @@ var SETDEX_SV = {
                 "Psyshock"
             ]
         },
-        "*Ace Trainer Rolando": {
+        "OU *Ace Trainer Rolando": {
             "nature": "Modest",
             "ability": "Magic Bounce",
             "level": 85,
@@ -26022,7 +26023,7 @@ var SETDEX_SV = {
         }
     },
     "Turtonator": {
-        "*Juggler Kayden": {
+        "OU *Juggler Kayden": {
             "nature": "Brave",
             "ability": "Shell Armor",
             "level": 68,
@@ -26036,7 +26037,7 @@ var SETDEX_SV = {
         }
     },
     "Silvally": {
-        "*Juggler Kayden": {
+        "OU *Juggler Kayden": {
             "nature": "Jolly",
             "ability": "Battle Armor",
             "level": 68,
@@ -26050,7 +26051,7 @@ var SETDEX_SV = {
         }
     },
     "Volcanion": {
-        "*Ace Trainer Samantha": {
+        "OU *Ace Trainer Samantha": {
             "nature": "Modest",
             "ability": "Water Absorb",
             "level": 100,
@@ -26062,7 +26063,7 @@ var SETDEX_SV = {
                 "Solar Beam"
             ]
         },
-        "*Juggler Kayden": {
+        "OU *Juggler Kayden": {
             "nature": "Naive",
             "ability": "Water Absorb",
             "level": 68,
@@ -26074,7 +26075,7 @@ var SETDEX_SV = {
                 "Steam Eruption"
             ]
         },
-        "*Ace Trainer Rolando": {
+        "OU *Ace Trainer Rolando": {
             "nature": "Timid",
             "ability": "Water Absorb",
             "level": 85,
@@ -26088,7 +26089,7 @@ var SETDEX_SV = {
         }
     },
     "Appletun": {
-        "Juggler Kirk": {
+        "OU Juggler Kirk": {
             "nature": "Mild",
             "ability": "Ripen",
             "level": 62,
@@ -26101,7 +26102,7 @@ var SETDEX_SV = {
         }
     },
     "Bewear": {
-        "Tamer Edgar": {
+        "OU Tamer Edgar": {
             "nature": "Modest",
             "ability": "Fluffy",
             "level": 63,
@@ -26112,7 +26113,7 @@ var SETDEX_SV = {
                 "Thrash"
             ]
         },
-        "*Crush Girl Tanya": {
+        "OU *Crush Girl Tanya": {
             "nature": "Adamant",
             "ability": "Fluffy",
             "level": 100,
@@ -26126,7 +26127,7 @@ var SETDEX_SV = {
         }
     },
     "Tapu Lele": {
-        "Leader Koga": {
+        "OU Leader Koga": {
             "nature": "Modest",
             "ability": "Psychic Surge",
             "level": 68,
@@ -26140,7 +26141,7 @@ var SETDEX_SV = {
         }
     },
     "Hoopa-Unbound": {
-        "Leader Koga": {
+        "OU Leader Koga": {
             "nature": "Modest",
             "ability": "Magician",
             "level": 68,
@@ -26152,7 +26153,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Dumbass Jojo Fan Set 1": {
+        "OU *Dumbass Jojo Fan Set 1": {
             "nature": "Jolly",
             "ability": "Magician",
             "level": 73,
@@ -26164,7 +26165,7 @@ var SETDEX_SV = {
                 "Hyperspace Fury"
             ]
         },
-        "*Dumbass Jojo Fan Set 2": {
+        "OU *Dumbass Jojo Fan Set 2": {
             "nature": "Timid",
             "ability": "Magician",
             "level": 100,
@@ -26178,7 +26179,7 @@ var SETDEX_SV = {
         }
     },
     "Chi-Yu": {
-        "Leader Koga": {
+        "OU Leader Koga": {
             "nature": "Modest",
             "ability": "Beads of Ruin",
             "level": 68,
@@ -26192,7 +26193,7 @@ var SETDEX_SV = {
         }
     },
     "Toxtricity-Mega": {
-        "Leader Koga": {
+        "OU Leader Koga": {
             "nature": "Rash",
             "ability": "Punk Rock",
             "level": 68,
@@ -26204,7 +26205,7 @@ var SETDEX_SV = {
                 "Overdrive"
             ]
         },
-        "*Ace Trainer Barry": {
+        "OU *Ace Trainer Barry": {
             "nature": "Timid",
             "ability": "Punk Rock",
             "level": 100,
@@ -26218,7 +26219,7 @@ var SETDEX_SV = {
         }
     },
     "Meowscarada": {
-        "*Leader Erika": {
+        "OU *Leader Erika": {
             "nature": "Jolly",
             "ability": "Protean",
             "level": 68,
@@ -26232,7 +26233,7 @@ var SETDEX_SV = {
         }
     },
     "Serperior": {
-        "*Ace Trainer Sharon": {
+        "OU *Ace Trainer Sharon": {
             "nature": "Timid",
             "ability": "Contrary",
             "level": 100,
@@ -26244,7 +26245,7 @@ var SETDEX_SV = {
                 "Substitute"
             ]
         },
-        "*Leader Erika": {
+        "OU *Leader Erika": {
             "nature": "Timid",
             "ability": "Contrary",
             "level": 68,
@@ -26258,7 +26259,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Thorns": {
-        "*Leader Lt. Surge": {
+        "OU *Leader Lt. Surge": {
             "nature": "Jolly",
             "ability": "Quark Drive",
             "level": 68,
@@ -26272,7 +26273,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Moth": {
-        "*Leader Lt. Surge": {
+        "OU *Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Quark Drive",
             "level": 68,
@@ -26286,7 +26287,7 @@ var SETDEX_SV = {
         }
     },
     "Miraidon": {
-        "*Leader Lt. Surge": {
+        "OU *Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Hadron Engine",
             "level": 68,
@@ -26301,7 +26302,7 @@ var SETDEX_SV = {
         }
     },
     "Manectric-Mega": {
-        "*Leader Lt. Surge": {
+        "OU *Leader Lt. Surge": {
             "nature": "Timid",
             "ability": "Intimidate",
             "level": 68,
@@ -26313,7 +26314,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*PkMn Ranger Beth": {
+        "OU *PkMn Ranger Beth": {
             "nature": "Timid",
             "ability": "Intimidate",
             "level": 100,
@@ -26327,7 +26328,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Bundle": {
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Timid",
             "ability": "Quark Drive",
             "level": 68,
@@ -26339,7 +26340,7 @@ var SETDEX_SV = {
                 "Ice Beam"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Timid",
             "ability": "Quark Drive",
             "level": 85,
@@ -26353,7 +26354,7 @@ var SETDEX_SV = {
         }
     },
     "Palafin-Hero": {
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
             "level": 68,
@@ -26367,7 +26368,7 @@ var SETDEX_SV = {
         }
     },
     "Archaludon": {
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Calm",
             "ability": "Stamina",
             "level": 68,
@@ -26379,7 +26380,7 @@ var SETDEX_SV = {
                 "Flash Cannon"
             ]
         },
-        "Leader Clair": {
+        "OU Leader Clair": {
             "nature": "Timid",
             "ability": "Bad Company",
             "level": 81,
@@ -26393,7 +26394,7 @@ var SETDEX_SV = {
         }
     },
     "Thundurus-Therian": {
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Modest",
             "ability": "Volt Absorb",
             "level": 81,
@@ -26405,7 +26406,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Timid",
             "ability": "Volt Absorb",
             "level": 68,
@@ -26419,7 +26420,7 @@ var SETDEX_SV = {
         }
     },
     "Gyarados-Mega": {
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
             "level": 68,
@@ -26433,7 +26434,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Boulder": {
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Jolly",
             "ability": "Quark Drive",
             "level": 68,
@@ -26447,7 +26448,7 @@ var SETDEX_SV = {
         }
     },
     "Landorus": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Rash",
             "ability": "Sheer Force",
             "level": 82,
@@ -26459,7 +26460,7 @@ var SETDEX_SV = {
                 "Rock Slide"
             ]
         },
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Naive",
             "ability": "Sand Force",
             "level": 68,
@@ -26473,7 +26474,7 @@ var SETDEX_SV = {
         }
     },
     "Zygarde": {
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Careful",
             "ability": "Power Construct",
             "level": 68,
@@ -26485,7 +26486,7 @@ var SETDEX_SV = {
                 "Thousand Arrows"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Impish",
             "ability": "Power Construct",
             "level": 100,
@@ -26499,7 +26500,7 @@ var SETDEX_SV = {
         }
     },
     "Zygarde-Complete": {
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Careful",
             "ability": "Power Construct",
             "level": 68,
@@ -26511,7 +26512,7 @@ var SETDEX_SV = {
                 "Thousand Arrows"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Impish",
             "ability": "Power Construct",
             "level": 100,
@@ -26525,7 +26526,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Treads": {
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Jolly",
             "ability": "Quark Drive",
             "level": 68,
@@ -26538,7 +26539,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Ace Trainer Alexa": {
+        "OU *Ace Trainer Alexa": {
             "nature": "Jolly",
             "ability": "Quark Drive",
             "level": 85,
@@ -26552,7 +26553,7 @@ var SETDEX_SV = {
         }
     },
     "Ursaluna-Bloodmoon": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Timid",
             "ability": "Scrappy",
             "level": 82,
@@ -26564,7 +26565,7 @@ var SETDEX_SV = {
                 "Hyper Voice"
             ]
         },
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Modest",
             "ability": "Scrappy",
             "level": 68,
@@ -26578,7 +26579,7 @@ var SETDEX_SV = {
         }
     },
     "Aerodactyl-Mega": {
-        "*Leader Brock": {
+        "OU *Leader Brock": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 68,
@@ -26592,7 +26593,7 @@ var SETDEX_SV = {
         }
     },
     "Aegislash-Shield": {
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Quiet",
             "ability": "Stance Change",
             "level": 100,
@@ -26604,7 +26605,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Quiet",
             "ability": "Stance Change",
             "level": 73,
@@ -26618,7 +26619,7 @@ var SETDEX_SV = {
         }
     },
     "Aegislash-Blade": {
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Quiet",
             "ability": "Stance Change",
             "level": 100,
@@ -26630,7 +26631,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Quiet",
             "ability": "Stance Change",
             "level": 73,
@@ -26644,7 +26645,7 @@ var SETDEX_SV = {
         }
     },
     "Aegislash-Both": {
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Quiet",
             "ability": "Stance Change",
             "level": 100,
@@ -26656,7 +26657,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Quiet",
             "ability": "Stance Change",
             "level": 73,
@@ -26670,7 +26671,7 @@ var SETDEX_SV = {
         }
     },
     "Celebi": {
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Timid",
             "ability": "Natural Cure",
             "level": 73,
@@ -26684,7 +26685,7 @@ var SETDEX_SV = {
         }
     },
     "Machamp-Mega": {
-        "*Dumbass Jojo Fan Set 1": {
+        "OU *Dumbass Jojo Fan Set 1": {
             "nature": "Adamant",
             "ability": "ORAORAORAORA!",
             "level": 73,
@@ -26697,7 +26698,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Dumbass Jojo Fan Set 2": {
+        "OU *Dumbass Jojo Fan Set 2": {
             "nature": "Adamant",
             "ability": "ORAORAORAORA!",
             "level": 100,
@@ -26711,7 +26712,7 @@ var SETDEX_SV = {
         }
     },
     "Toedscruel": {
-        "SwimmerM Douglas": {
+        "OU SwimmerM Douglas": {
             "nature": "Brave",
             "ability": "Clear Body",
             "level": 62,
@@ -26736,7 +26737,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "SwimmerF Alice": {
+        "OU SwimmerF Alice": {
             "nature": "Lonely",
             "ability": "Schooling",
             "level": 60,
@@ -26749,7 +26750,7 @@ var SETDEX_SV = {
         }
     },
     "Floatzel": {
-        "SwimmerF Connie Set 1": {
+        "OU SwimmerF Connie Set 1": {
             "nature": "Naive",
             "ability": "Water Veil",
             "level": 63,
@@ -26760,7 +26761,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "SwimmerF Connie Set 2": {
+        "OU SwimmerF Connie Set 2": {
             "nature": "Brave",
             "ability": "Water Veil",
             "level": 62,
@@ -26771,7 +26772,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "SwimmerF Connie Set 3": {
+        "OU SwimmerF Connie Set 3": {
             "nature": "Modest",
             "ability": "Water Veil",
             "level": 63,
@@ -26782,7 +26783,7 @@ var SETDEX_SV = {
                 "Wave Crash"
             ]
         },
-        "*Camper Bryce": {
+        "OU *Camper Bryce": {
             "nature": "Naive",
             "ability": "Technician",
             "level": 98,
@@ -26794,7 +26795,7 @@ var SETDEX_SV = {
                 "Surging Strikes"
             ]
         },
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 100,
@@ -26808,7 +26809,7 @@ var SETDEX_SV = {
         }
     },
     "Alomomola": {
-        "SwimmerF Anya": {
+        "OU SwimmerF Anya": {
             "nature": "Adamant",
             "ability": "Hydration",
             "level": 57,
@@ -26819,7 +26820,7 @@ var SETDEX_SV = {
                 "Wish"
             ]
         },
-        "Fisherman Wade": {
+        "OU Fisherman Wade": {
             "nature": "Sassy",
             "ability": "Hydration",
             "level": 62,
@@ -26832,7 +26833,7 @@ var SETDEX_SV = {
         }
     },
     "Gastrodon": {
-        "Picnicker Missy": {
+        "OU Picnicker Missy": {
             "nature": "Rash",
             "ability": "Storm Drain",
             "level": 64,
@@ -26845,7 +26846,7 @@ var SETDEX_SV = {
         }
     },
     "Kyurem-Black": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Jolly",
             "ability": "Teravolt",
             "level": 73,
@@ -26857,7 +26858,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*Leader Clair": {
+        "OU *Leader Clair": {
             "nature": "Jolly",
             "ability": "Teravolt",
             "level": 100,
@@ -26871,7 +26872,7 @@ var SETDEX_SV = {
         }
     },
     "Arctozolt": {
-        "*Ace Trainer Nick": {
+        "OU *Ace Trainer Nick": {
             "nature": "Naive",
             "ability": "Slush Rush",
             "level": 100,
@@ -26883,7 +26884,7 @@ var SETDEX_SV = {
                 "Low Kick"
             ]
         },
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Lonely",
             "ability": "Slush Rush",
             "level": 73,
@@ -26897,7 +26898,7 @@ var SETDEX_SV = {
         }
     },
     "Glalie-Mega": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Jolly",
             "ability": "Refrigerate",
             "level": 73,
@@ -26911,7 +26912,7 @@ var SETDEX_SV = {
         }
     },
     "Sandslash-Alola": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Adamant",
             "ability": "Slush Rush",
             "level": 73,
@@ -26925,7 +26926,7 @@ var SETDEX_SV = {
         }
     },
     "Reuniclus": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Bold",
             "ability": "Regenerator",
             "level": 73,
@@ -26937,7 +26938,7 @@ var SETDEX_SV = {
                 "Recover"
             ]
         },
-        "*Aroma Lady Nikki": {
+        "OU *Aroma Lady Nikki": {
             "nature": "Modest",
             "ability": "Regenerator",
             "level": 100,
@@ -26951,7 +26952,7 @@ var SETDEX_SV = {
         }
     },
     "Regieleki": {
-        "PkMn Trainer May": {
+        "OU PkMn Trainer May": {
             "nature": "Naive",
             "ability": "Transistor",
             "level": 73,
@@ -26965,7 +26966,7 @@ var SETDEX_SV = {
         }
     },
     "Blaziken-Mega": {
-        "PkMn Trainer May": {
+        "OU PkMn Trainer May": {
             "nature": "Jolly",
             "ability": "Speed Boost",
             "level": 73,
@@ -26977,7 +26978,7 @@ var SETDEX_SV = {
                 "Thunder Punch"
             ]
         },
-        "*Ace Trainer Andrew": {
+        "OU *Ace Trainer Andrew": {
             "nature": "Jolly",
             "ability": "Speed Boost",
             "level": 100,
@@ -26991,7 +26992,7 @@ var SETDEX_SV = {
         }
     },
     "Basculin": {
-        "Fisherman Claude": {
+        "OU Fisherman Claude": {
             "nature": "Lax",
             "ability": "Reckless",
             "level": 64,
@@ -27004,7 +27005,7 @@ var SETDEX_SV = {
         }
     },
     "Dhelmise": {
-        "Fisherman Claude": {
+        "OU Fisherman Claude": {
             "nature": "Docile",
             "ability": "Steely Spirit",
             "level": 65,
@@ -27017,7 +27018,7 @@ var SETDEX_SV = {
         }
     },
     "Tapu Bulu": {
-        "*Leader Jasmine": {
+        "OU *Leader Jasmine": {
             "nature": "Jolly",
             "ability": "Grassy Surge",
             "level": 73,
@@ -27031,7 +27032,7 @@ var SETDEX_SV = {
         }
     },
     "Necrozma-Dusk-Mane": {
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Adamant",
             "ability": "Prism Armor",
             "level": 85,
@@ -27043,7 +27044,7 @@ var SETDEX_SV = {
                 "Sunsteel Strike"
             ]
         },
-        "*Dumbass Gian": {
+        "OU *Dumbass Gian": {
             "nature": "Adamant",
             "ability": "Prism Armor",
             "level": 100,
@@ -27055,7 +27056,7 @@ var SETDEX_SV = {
                 "Sunsteel Strike"
             ]
         },
-        "*Leader Jasmine": {
+        "OU *Leader Jasmine": {
             "nature": "Jolly",
             "ability": "Prism Armor",
             "level": 73,
@@ -27067,7 +27068,7 @@ var SETDEX_SV = {
                 "Sunsteel Strike"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Adamant",
             "ability": "Prism Armor",
             "level": 100,
@@ -27081,7 +27082,7 @@ var SETDEX_SV = {
         }
     },
     "Genesect": {
-        "*Leader Jasmine": {
+        "OU *Leader Jasmine": {
             "nature": "Naive",
             "ability": "Download",
             "level": 73,
@@ -27093,7 +27094,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Naive",
             "ability": "Download",
             "level": 100,
@@ -27105,7 +27106,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Clair": {
+        "OU *Leader Clair": {
             "nature": "Hasty",
             "ability": "Download",
             "level": 100,
@@ -27117,7 +27118,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Hasty",
             "ability": "Download",
             "level": 80,
@@ -27129,7 +27130,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Hasty",
             "ability": "Download",
             "level": 85,
@@ -27143,7 +27144,7 @@ var SETDEX_SV = {
         }
     },
     "Aggron-Mega": {
-        "*Leader Jasmine": {
+        "OU *Leader Jasmine": {
             "nature": "Careful",
             "ability": "Filter",
             "level": 73,
@@ -27157,7 +27158,7 @@ var SETDEX_SV = {
         }
     },
     "Samurott-Hisui": {
-        "*Scientist Ted": {
+        "OU *Scientist Ted": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 75,
@@ -27169,7 +27170,7 @@ var SETDEX_SV = {
                 "Sacred Sword"
             ]
         },
-        "*Ace Trainer Symes": {
+        "OU *Ace Trainer Symes": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 100,
@@ -27183,7 +27184,7 @@ var SETDEX_SV = {
         }
     },
     "Pidgeot-Mega": {
-        "*Scientist Ted": {
+        "OU *Scientist Ted": {
             "nature": "Timid",
             "ability": "No Guard",
             "level": 76,
@@ -27195,7 +27196,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Timid",
             "ability": "No Guard",
             "level": 100,
@@ -27207,7 +27208,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Timid",
             "ability": "No Guard",
             "level": 100,
@@ -27221,7 +27222,7 @@ var SETDEX_SV = {
         }
     },
     "Leafeon": {
-        "*Scientist Ted": {
+        "OU *Scientist Ted": {
             "nature": "Jolly",
             "ability": "Sap Sipper",
             "level": 76,
@@ -27235,7 +27236,7 @@ var SETDEX_SV = {
         }
     },
     "Delphox": {
-        "*Camper Bryce": {
+        "OU *Camper Bryce": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 99,
@@ -27247,7 +27248,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "Burglar Arnie": {
+        "OU Burglar Arnie": {
             "nature": "Timid",
             "ability": "Blaze",
             "level": 69,
@@ -27258,7 +27259,7 @@ var SETDEX_SV = {
                 "Sunny Day"
             ]
         },
-        "*Ace Trainer Derek": {
+        "OU *Ace Trainer Derek": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 76,
@@ -27270,7 +27271,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "Burglar Quinn": {
+        "OU Burglar Quinn": {
             "nature": "Lonely",
             "ability": "Blaze",
             "level": 73,
@@ -27281,7 +27282,7 @@ var SETDEX_SV = {
                 "Sunny Day"
             ]
         },
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 80,
@@ -27293,7 +27294,7 @@ var SETDEX_SV = {
                 "Shadow Ball"
             ]
         },
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Timid",
             "ability": "Magic Guard",
             "level": 100,
@@ -27307,7 +27308,7 @@ var SETDEX_SV = {
         }
     },
     "Bellibolt": {
-        "Scientist Braydon": {
+        "OU Scientist Braydon": {
             "nature": "Docile",
             "ability": "Electromrphosis",
             "level": 70,
@@ -27320,7 +27321,7 @@ var SETDEX_SV = {
         }
     },
     "Rillaboom": {
-        "*Ace Trainer Symes": {
+        "OU *Ace Trainer Symes": {
             "nature": "Jolly",
             "ability": "Grassy Surge",
             "level": 100,
@@ -27332,7 +27333,7 @@ var SETDEX_SV = {
                 "Wood Hammer"
             ]
         },
-        "*Burglar Lewis": {
+        "OU *Burglar Lewis": {
             "nature": "Adamant",
             "ability": "Grassy Surge",
             "level": 75,
@@ -27346,7 +27347,7 @@ var SETDEX_SV = {
         }
     },
     "Spectrier": {
-        "*Burglar Lewis": {
+        "OU *Burglar Lewis": {
             "nature": "Timid",
             "ability": "Grim Neigh",
             "level": 76,
@@ -27360,7 +27361,7 @@ var SETDEX_SV = {
         }
     },
     "Heatmor": {
-        "Super Nerd Aavery": {
+        "OU Super Nerd Aavery": {
             "nature": "Serious",
             "ability": "Gluttony",
             "level": 72,
@@ -27373,7 +27374,7 @@ var SETDEX_SV = {
         }
     },
     "Oricorio": {
-        "Super Nerd Aavery": {
+        "OU Super Nerd Aavery": {
             "nature": "Gentle",
             "ability": "Dancer",
             "level": 72,
@@ -27386,7 +27387,7 @@ var SETDEX_SV = {
         }
     },
     "Zapdos-Galar": {
-        "*Ace Trainer Nick": {
+        "OU *Ace Trainer Nick": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 100,
@@ -27398,7 +27399,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Ace Trainer Derek": {
+        "OU *Ace Trainer Derek": {
             "nature": "Jolly",
             "ability": "Defiant",
             "level": 76,
@@ -27412,7 +27413,7 @@ var SETDEX_SV = {
         }
     },
     "Lycanroc": {
-        "*Ace Trainer Lucy": {
+        "OU *Ace Trainer Lucy": {
             "nature": "Jolly",
             "ability": "Steadfast",
             "level": 76,
@@ -27426,7 +27427,7 @@ var SETDEX_SV = {
         }
     },
     "Raging Bolt": {
-        "*Ace Trainer Lucy": {
+        "OU *Ace Trainer Lucy": {
             "nature": "Modest",
             "ability": "Protosynthesis",
             "level": 76,
@@ -27440,7 +27441,7 @@ var SETDEX_SV = {
         }
     },
     "Salamence-Mega": {
-        "Champion Lance": {
+        "OU Champion Lance": {
             "nature": "Hasty",
             "ability": "Aerilate",
             "level": 82,
@@ -27452,7 +27453,7 @@ var SETDEX_SV = {
                 "Hyper Voice"
             ]
         },
-        "*Ace Trainer Zac": {
+        "OU *Ace Trainer Zac": {
             "nature": "Naive",
             "ability": "Aerilate",
             "level": 76,
@@ -27464,7 +27465,7 @@ var SETDEX_SV = {
                 "Tailwind"
             ]
         },
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Naive",
             "ability": "Aerilate",
             "level": 100,
@@ -27476,7 +27477,7 @@ var SETDEX_SV = {
                 "Hyper Voice"
             ]
         },
-        "*Rocket Admin Archer": {
+        "OU *Rocket Admin Archer": {
             "nature": "Naive",
             "ability": "Aerilate",
             "level": 100,
@@ -27490,7 +27491,7 @@ var SETDEX_SV = {
         }
     },
     "Volcarona": {
-        "*Ace Trainer Sharon": {
+        "OU *Ace Trainer Sharon": {
             "nature": "Timid",
             "ability": "Flame Body",
             "level": 100,
@@ -27502,7 +27503,7 @@ var SETDEX_SV = {
                 "Roost"
             ]
         },
-        "*Ace Trainer Zac": {
+        "OU *Ace Trainer Zac": {
             "nature": "Timid",
             "ability": "Flame Body",
             "level": 76,
@@ -27516,7 +27517,7 @@ var SETDEX_SV = {
         }
     },
     "Sandy Shocks": {
-        "Leader Blaine": {
+        "OU Leader Blaine": {
             "nature": "Timid",
             "ability": "Protosynthesis",
             "level": 76,
@@ -27530,7 +27531,7 @@ var SETDEX_SV = {
         }
     },
     "Great Tusk": {
-        "Leader Blaine": {
+        "OU Leader Blaine": {
             "nature": "Jolly",
             "ability": "Protosynthesis",
             "level": 76,
@@ -27544,7 +27545,7 @@ var SETDEX_SV = {
         }
     },
     "Walking Wake": {
-        "*Champion Blue Set 1": {
+        "OU *Champion Blue Set 1": {
             "nature": "Timid",
             "ability": "Protosynthesis",
             "level": 85,
@@ -27556,7 +27557,7 @@ var SETDEX_SV = {
                 "Scald"
             ]
         },
-        "*Champion Blue Set 2": {
+        "OU *Champion Blue Set 2": {
             "nature": "Timid",
             "ability": "Protosynthesis",
             "level": 85,
@@ -27568,7 +27569,7 @@ var SETDEX_SV = {
                 "Hydro Pump"
             ]
         },
-        "Leader Blaine": {
+        "OU Leader Blaine": {
             "nature": "Timid",
             "ability": "Protosynthesis",
             "level": 76,
@@ -27582,7 +27583,7 @@ var SETDEX_SV = {
         }
     },
     "Ho-Oh": {
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Jolly",
             "ability": "Phoenix Down",
             "level": 100,
@@ -27594,7 +27595,7 @@ var SETDEX_SV = {
                 "Sacred Fire"
             ]
         },
-        "Leader Blaine": {
+        "OU Leader Blaine": {
             "nature": "Jolly",
             "ability": "Phoenix Down",
             "level": 76,
@@ -27608,7 +27609,7 @@ var SETDEX_SV = {
         }
     },
     "Glimmora": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Timid",
             "ability": "Toxic Debris",
             "level": 77,
@@ -27620,7 +27621,7 @@ var SETDEX_SV = {
                 "Stealth Rock"
             ]
         },
-        "*Elite Four Lance Set 1": {
+        "OU *Elite Four Lance Set 1": {
             "nature": "Timid",
             "ability": "Toxic Debris",
             "level": 85,
@@ -27632,7 +27633,7 @@ var SETDEX_SV = {
                 "Stealth Rock"
             ]
         },
-        "*Elite Four Lance Set 2": {
+        "OU *Elite Four Lance Set 2": {
             "nature": "Timid",
             "ability": "Toxic Debris",
             "level": 85,
@@ -27646,7 +27647,7 @@ var SETDEX_SV = {
         }
     },
     "Mandibuzz": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Careful",
             "ability": "Overcoat",
             "level": 79,
@@ -27660,7 +27661,7 @@ var SETDEX_SV = {
         }
     },
     "Garbodor-Mega": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Adamant",
             "ability": "Parasitic Waste",
             "level": 79,
@@ -27674,7 +27675,7 @@ var SETDEX_SV = {
         }
     },
     "Buzzwole": {
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Jolly",
             "ability": "Beast Boost",
             "level": 79,
@@ -27688,7 +27689,7 @@ var SETDEX_SV = {
         }
     },
     "Kingambit": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "SupremeOverlord",
             "level": 79,
@@ -27700,7 +27701,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Adamant",
             "ability": "SupremeOverlord",
             "level": 82,
@@ -27714,7 +27715,7 @@ var SETDEX_SV = {
         }
     },
     "Sharpedo-Mega": {
-        "*Team Rocket Grunt": {
+        "OU *Team Rocket Grunt": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
             "level": 79,
@@ -27726,7 +27727,7 @@ var SETDEX_SV = {
                 "Crunch"
             ]
         },
-        "*Biker Goon": {
+        "OU *Biker Goon": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
             "level": 100,
@@ -27740,7 +27741,7 @@ var SETDEX_SV = {
         }
     },
     "Spiritomb": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Sassy",
             "ability": "Intimidate",
             "level": 80,
@@ -27754,7 +27755,7 @@ var SETDEX_SV = {
         }
     },
     "Mewtwo": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Unnerve",
             "level": 80,
@@ -27767,7 +27768,7 @@ var SETDEX_SV = {
         }
     },
     "Mewtwo-Mega-Y": {
-        "Boss Giovanni": {
+        "OU Boss Giovanni": {
             "nature": "Timid",
             "ability": "Insomnia",
             "level": 80,
@@ -27780,7 +27781,7 @@ var SETDEX_SV = {
         }
     },
     "Dialga": {
-        "Champion Lance": {
+        "OU Champion Lance": {
             "nature": "Modest",
             "ability": "Telepathy",
             "level": 83,
@@ -27794,7 +27795,7 @@ var SETDEX_SV = {
         }
     },
     "Galvantula": {
-        "*Ace Trainer Naomi": {
+        "OU *Ace Trainer Naomi": {
             "nature": "Timid",
             "ability": "Compound Eyes",
             "level": 85,
@@ -27806,7 +27807,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Timid",
             "ability": "Compound Eyes",
             "level": 81,
@@ -27818,7 +27819,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Dumbass Jojo Fan": {
+        "OU *Dumbass Jojo Fan": {
             "nature": "Timid",
             "ability": "Compound Eyes",
             "level": 100,
@@ -27832,7 +27833,7 @@ var SETDEX_SV = {
         }
     },
     "Urshifu": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 100,
@@ -27844,7 +27845,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 85,
@@ -27856,7 +27857,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*PkMn Trainer Ketchup Set 1": {
+        "OU *PkMn Trainer Ketchup Set 1": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 81,
@@ -27868,7 +27869,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*PkMn Trainer Ketchup Set 2": {
+        "OU *PkMn Trainer Ketchup Set 2": {
             "nature": "Jolly",
             "ability": "Unseen Fist",
             "level": 81,
@@ -27883,7 +27884,7 @@ var SETDEX_SV = {
         }
     },
     "Necrozma": {
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Modest",
             "ability": "Prism Armor",
             "level": 81,
@@ -27897,7 +27898,7 @@ var SETDEX_SV = {
         }
     },
     "Banette-Mega": {
-        "*PkMn Trainer Ketchup": {
+        "OU *PkMn Trainer Ketchup": {
             "nature": "Adamant",
             "ability": "Prankster",
             "level": 81,
@@ -27911,7 +27912,7 @@ var SETDEX_SV = {
         }
     },
     "Roaring Moon": {
-        "Leader Clair": {
+        "OU Leader Clair": {
             "nature": "Jolly",
             "ability": "Protosynthesis",
             "level": 81,
@@ -27925,7 +27926,7 @@ var SETDEX_SV = {
         }
     },
     "Necrozma-Ultra": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Neuroforce",
             "level": 85,
@@ -27937,7 +27938,7 @@ var SETDEX_SV = {
                 "Stone Edge"
             ]
         },
-        "Leader Clair": {
+        "OU Leader Clair": {
             "nature": "Adamant",
             "ability": "Neuroforce",
             "level": 81,
@@ -27951,7 +27952,7 @@ var SETDEX_SV = {
         }
     },
     "Eternatus": {
-        "Leader Clair": {
+        "OU Leader Clair": {
             "nature": "Timid",
             "ability": "Pressure",
             "level": 81,
@@ -27965,7 +27966,7 @@ var SETDEX_SV = {
         }
     },
     "Qwilfish-Hisui": {
-        "*Burglar Max": {
+        "OU *Burglar Max": {
             "nature": "Jolly",
             "ability": "Intimidate",
             "level": 80,
@@ -27979,7 +27980,7 @@ var SETDEX_SV = {
         }
     },
     "Wugtrio": {
-        "*Burglar Max": {
+        "OU *Burglar Max": {
             "nature": "Jolly",
             "ability": "Arena Trap",
             "level": 80,
@@ -27993,7 +27994,7 @@ var SETDEX_SV = {
         }
     },
     "Hydrapple": {
-        "*Burglar Max": {
+        "OU *Burglar Max": {
             "nature": "Modest",
             "ability": "Regenerator",
             "level": 80,
@@ -28007,7 +28008,7 @@ var SETDEX_SV = {
         }
     },
     "Fezandipiti": {
-        "*Burglar Max": {
+        "OU *Burglar Max": {
             "nature": "Timid",
             "ability": "Technician",
             "level": 80,
@@ -28021,7 +28022,7 @@ var SETDEX_SV = {
         }
     },
     "Munkidori": {
-        "*Burglar Anson": {
+        "OU *Burglar Anson": {
             "nature": "Timid",
             "ability": "Frisk",
             "level": 80,
@@ -28035,7 +28036,7 @@ var SETDEX_SV = {
         }
     },
     "Screamtail": {
-        "*Burglar Anson": {
+        "OU *Burglar Anson": {
             "nature": "Bold",
             "ability": "Protosynthesis",
             "level": 80,
@@ -28049,7 +28050,7 @@ var SETDEX_SV = {
         }
     },
     "Tyrantrum": {
-        "*PkMn Trainer Brendan": {
+        "OU *PkMn Trainer Brendan": {
             "nature": "Adamant",
             "ability": "Rock Head",
             "level": 82,
@@ -28061,7 +28062,7 @@ var SETDEX_SV = {
                 "Head Smash"
             ]
         },
-        "*Black Belt Hugh": {
+        "OU *Black Belt Hugh": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 100,
@@ -28075,7 +28076,7 @@ var SETDEX_SV = {
         }
     },
     "Charizard-Mega-Y": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Timid",
             "ability": "Drought",
             "level": 82,
@@ -28089,7 +28090,7 @@ var SETDEX_SV = {
         }
     },
     "Basculegion": {
-        "*Rival Blue": {
+        "OU *Rival Blue": {
             "nature": "Jolly",
             "ability": "Swift Swim",
             "level": 82,
@@ -28101,7 +28102,7 @@ var SETDEX_SV = {
                 "Zen Headbutt"
             ]
         },
-        "*Fisherman Tommy": {
+        "OU *Fisherman Tommy": {
             "nature": "Jolly",
             "ability": "Adaptability",
             "level": 100,
@@ -28115,7 +28116,7 @@ var SETDEX_SV = {
         }
     },
     "Maushold": {
-        "*Ace Trainer Naomi": {
+        "OU *Ace Trainer Naomi": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 85,
@@ -28129,7 +28130,7 @@ var SETDEX_SV = {
         }
     },
     "Absol-Mega": {
-        "*Ace Trainer Naomi": {
+        "OU *Ace Trainer Naomi": {
             "nature": "Naive",
             "ability": "Sharpness",
             "level": 85,
@@ -28141,7 +28142,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Ace Trainer Sharon": {
+        "OU *Ace Trainer Sharon": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 100,
@@ -28153,7 +28154,7 @@ var SETDEX_SV = {
                 "Sucker Punch"
             ]
         },
-        "*Channeler Rachel": {
+        "OU *Channeler Rachel": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 100,
@@ -28167,7 +28168,7 @@ var SETDEX_SV = {
         }
     },
     "Blacephalon": {
-        "*Ace Trainer Naomi": {
+        "OU *Ace Trainer Naomi": {
             "nature": "Timid",
             "ability": "Beast Boost",
             "level": 85,
@@ -28181,7 +28182,7 @@ var SETDEX_SV = {
         }
     },
     "Passimian": {
-        "Black Belt Daisuke": {
+        "OU Black Belt Daisuke": {
             "nature": "Bashful",
             "ability": "Receiver",
             "level": 81,
@@ -28195,7 +28196,7 @@ var SETDEX_SV = {
         }
     },
     "Gothitelle": {
-        "Juggler Nelson": {
+        "OU Juggler Nelson": {
             "nature": "Mild",
             "ability": "Frisk",
             "level": 82,
@@ -28208,7 +28209,7 @@ var SETDEX_SV = {
         }
     },
     "Pangoro": {
-        "*Crush Girl Tanya": {
+        "OU *Crush Girl Tanya": {
             "nature": "Adamant",
             "ability": "Scrappy",
             "level": 100,
@@ -28220,7 +28221,7 @@ var SETDEX_SV = {
                 "Wicked Blow"
             ]
         },
-        "*Ace Trainer George": {
+        "OU *Ace Trainer George": {
             "nature": "Adamant",
             "ability": "Iron Fist",
             "level": 85,
@@ -28234,7 +28235,7 @@ var SETDEX_SV = {
         }
     },
     "Mew": {
-        "*Professor Oak": {
+        "OU *Professor Oak": {
             "nature": "Timid",
             "ability": "Synchronize",
             "level": 100,
@@ -28246,7 +28247,7 @@ var SETDEX_SV = {
                 "Psyshock"
             ]
         },
-        "*Gatekeeper Owen": {
+        "OU *Gatekeeper Owen": {
             "nature": "Timid",
             "ability": "Synchronize",
             "level": 100,
@@ -28258,7 +28259,7 @@ var SETDEX_SV = {
                 "Psychic"
             ]
         },
-        "*Ace Trainer Alexa": {
+        "OU *Ace Trainer Alexa": {
             "nature": "Jolly",
             "ability": "Synchronize",
             "level": 85,
@@ -28272,7 +28273,7 @@ var SETDEX_SV = {
         }
     },
     "Diancie-Mega": {
-        "*Ace Trainer Colby": {
+        "OU *Ace Trainer Colby": {
             "nature": "Timid",
             "ability": "Magic Bounce",
             "level": 85,
@@ -28286,7 +28287,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Leaves": {
-        "*Ace Trainer Colby": {
+        "OU *Ace Trainer Colby": {
             "nature": "Jolly",
             "ability": "Sharpness",
             "level": 85,
@@ -28300,7 +28301,7 @@ var SETDEX_SV = {
         }
     },
     "Stakataka": {
-        "*Ace Trainer Caroline": {
+        "OU *Ace Trainer Caroline": {
             "nature": "Sassy",
             "ability": "Beast Boost",
             "level": 85,
@@ -28314,7 +28315,7 @@ var SETDEX_SV = {
         }
     },
     "Darmanitan-Zen": {
-        "*Cool Couple Ray & Tyra": {
+        "OU *Cool Couple Ray & Tyra": {
             "nature": "Quiet",
             "ability": "Zen Mode",
             "level": 85,
@@ -28328,7 +28329,7 @@ var SETDEX_SV = {
         }
     },
     "Scrafty": {
-        "*Cool Couple Ray & Tyra": {
+        "OU *Cool Couple Ray & Tyra": {
             "nature": "Brave",
             "ability": "Intimidate",
             "level": 85,
@@ -28342,7 +28343,7 @@ var SETDEX_SV = {
         }
     },
     "Copperajah-Mega": {
-        "*Cool Couple Ray & Tyra": {
+        "OU *Cool Couple Ray & Tyra": {
             "nature": "Brave",
             "ability": "Sheer Force",
             "level": 85,
@@ -28356,7 +28357,7 @@ var SETDEX_SV = {
         }
     },
     "Palkia-Origin": {
-        "*Dumbass Gian": {
+        "OU *Dumbass Gian": {
             "nature": "Timid",
             "ability": "Pressure",
             "level": 100,
@@ -28368,7 +28369,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Timid",
             "ability": "Pressure",
             "level": 85,
@@ -28382,7 +28383,7 @@ var SETDEX_SV = {
         }
     },
     "Glaceon": {
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Modest",
             "ability": "Slush Rush",
             "level": 85,
@@ -28396,7 +28397,7 @@ var SETDEX_SV = {
         }
     },
     "Chien-Pao": {
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Jolly",
             "ability": "Sword Of Ruin",
             "level": 85,
@@ -28410,7 +28411,7 @@ var SETDEX_SV = {
         }
     },
     "Kyurem-White": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Quiet",
             "ability": "Turboblaze",
             "level": 100,
@@ -28422,7 +28423,7 @@ var SETDEX_SV = {
                 "Fusion Flare"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Timid",
             "ability": "Turboblaze",
             "level": 85,
@@ -28436,7 +28437,7 @@ var SETDEX_SV = {
         }
     },
     "Abomasnow-Mega": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Quiet",
             "ability": "Snow Warning",
             "level": 100,
@@ -28448,7 +28449,7 @@ var SETDEX_SV = {
                 "Wood Hammer"
             ]
         },
-        "*Elite Four Lorelei": {
+        "OU *Elite Four Lorelei": {
             "nature": "Naive",
             "ability": "Slush Rush",
             "level": 85,
@@ -28462,7 +28463,7 @@ var SETDEX_SV = {
         }
     },
     "Iron Valiant": {
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Timid",
             "ability": "Quark Drive",
             "level": 85,
@@ -28476,7 +28477,7 @@ var SETDEX_SV = {
         }
     },
     "Zacian-Crowned": {
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Intrepid Sword",
             "level": 85,
@@ -28491,7 +28492,7 @@ var SETDEX_SV = {
         }
     },
     "Zeraora": {
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Volt Absorb",
             "level": 85,
@@ -28505,7 +28506,7 @@ var SETDEX_SV = {
         }
     },
     "Lucario-Mega": {
-        "*Elite Four Bruno": {
+        "OU *Elite Four Bruno": {
             "nature": "Jolly",
             "ability": "Adaptability",
             "level": 85,
@@ -28519,7 +28520,7 @@ var SETDEX_SV = {
         }
     },
     "Flutter Mane": {
-        "*Elite Four Agatha": {
+        "OU *Elite Four Agatha": {
             "nature": "Timid",
             "ability": "Protosynthesis",
             "level": 85,
@@ -28533,7 +28534,7 @@ var SETDEX_SV = {
         }
     },
     "Mewtwo-Mega-X": {
-        "*PkMn Trainer Red": {
+        "OU *PkMn Trainer Red": {
             "nature": "Jolly",
             "ability": "Steadfast",
             "level": 100,
@@ -28546,7 +28547,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Elite Four Agatha": {
+        "OU *Elite Four Agatha": {
             "nature": "Naive",
             "ability": "Steadfast",
             "level": 85,
@@ -28561,7 +28562,7 @@ var SETDEX_SV = {
         }
     },
     "Yveltal": {
-        "*Elite Four Agatha": {
+        "OU *Elite Four Agatha": {
             "nature": "Timid",
             "ability": "Dark Aura",
             "level": 85,
@@ -28575,7 +28576,7 @@ var SETDEX_SV = {
         }
     },
     "Victini": {
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Hasty",
             "ability": "Victory Star",
             "level": 100,
@@ -28587,7 +28588,7 @@ var SETDEX_SV = {
                 "Zen Headbutt"
             ]
         },
-        "*Elite Four Agatha": {
+        "OU *Elite Four Agatha": {
             "nature": "Hasty",
             "ability": "Victory Star",
             "level": 85,
@@ -28601,7 +28602,7 @@ var SETDEX_SV = {
         }
     },
     "Calyrex-Shadow": {
-        "*Elite Four Agatha": {
+        "OU *Elite Four Agatha": {
             "nature": "Timid",
             "ability": "As One",
             "level": 85,
@@ -28615,7 +28616,7 @@ var SETDEX_SV = {
         }
     },
     "Melmetal": {
-        "*Elite Four Lance": {
+        "OU *Elite Four Lance": {
             "nature": "Careful",
             "ability": "Iron Fist",
             "level": 85,
@@ -28629,7 +28630,7 @@ var SETDEX_SV = {
         }
     },
     "Arceus-Fairy": {
-        "*Elite Four Lance": {
+        "OU *Elite Four Lance": {
             "nature": "Timid",
             "ability": "Multitype",
             "level": 85,
@@ -28643,7 +28644,7 @@ var SETDEX_SV = {
         }
     },
     "Dialga-Primal": {
-        "*Elite Four Lance Set 1": {
+        "OU *Elite Four Lance Set 1": {
             "nature": "Bold",
             "ability": "Primal Armor",
             "level": 85,
@@ -28655,7 +28656,7 @@ var SETDEX_SV = {
                 "Sleep Talk"
             ]
         },
-        "*Elite Four Lance Set 2": {
+        "OU *Elite Four Lance Set 2": {
             "nature": "Calm",
             "ability": "Primal Armor",
             "level": 85,
@@ -28667,7 +28668,7 @@ var SETDEX_SV = {
                 "Sleep Talk"
             ]
         },
-        "*Leader Clair": {
+        "OU *Leader Clair": {
             "nature": "Timid",
             "ability": "Primal Armor",
             "level": 100,
@@ -28681,7 +28682,7 @@ var SETDEX_SV = {
         }
     },
     "Rayquaza-Mega": {
-        "*Elite Four Lance": {
+        "OU *Elite Four Lance": {
             "nature": "Naive",
             "ability": "Delta Stream",
             "level": 85,
@@ -28696,7 +28697,7 @@ var SETDEX_SV = {
         }
     },
     "Groudon-Primal": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Desolate Land",
             "level": 85,
@@ -28710,7 +28711,7 @@ var SETDEX_SV = {
         }
     },
     "Gouging Fire": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Protosynthesis",
             "level": 85,
@@ -28724,7 +28725,7 @@ var SETDEX_SV = {
         }
     },
     "Koraidon": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "OrichalcumPulse",
             "level": 85,
@@ -28738,7 +28739,7 @@ var SETDEX_SV = {
         }
     },
     "Arceus-Ground": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Timid",
             "ability": "Multitype",
             "level": 85,
@@ -28752,7 +28753,7 @@ var SETDEX_SV = {
         }
     },
     "Xerneas": {
-        "*Rocket Admin Ariana": {
+        "OU *Rocket Admin Ariana": {
             "nature": "Jolly",
             "ability": "Fairy Aura",
             "level": 100,
@@ -28764,7 +28765,7 @@ var SETDEX_SV = {
                 "Thunderbolt"
             ]
         },
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Timid",
             "ability": "Fairy Aura",
             "level": 85,
@@ -28778,7 +28779,7 @@ var SETDEX_SV = {
         }
     },
     "Eternatus-Eternamax": {
-        "*Champion Blue Set 1": {
+        "OU *Champion Blue Set 1": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 85,
@@ -28791,7 +28792,7 @@ var SETDEX_SV = {
             ],
             "shiny": 1
         },
-        "*Champion Blue Set 2": {
+        "OU *Champion Blue Set 2": {
             "nature": "Timid",
             "ability": "Levitate",
             "level": 85,
@@ -28806,7 +28807,7 @@ var SETDEX_SV = {
         }
     },
     "Kyogre-Primal": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Timid",
             "ability": "Primordial Sea",
             "level": 85,
@@ -28818,7 +28819,7 @@ var SETDEX_SV = {
                 "Thunder"
             ]
         },
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Hasty",
             "ability": "Primordial Sea",
             "level": 100,
@@ -28832,7 +28833,7 @@ var SETDEX_SV = {
         }
     },
     "Arceus-Steel": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Multitype",
             "level": 85,
@@ -28846,7 +28847,7 @@ var SETDEX_SV = {
         }
     },
     "Arceus": {
-        "*Champion Blue": {
+        "OU *Champion Blue": {
             "nature": "Jolly",
             "ability": "Multitype",
             "level": 85,
@@ -28860,7 +28861,7 @@ var SETDEX_SV = {
         }
     },
     "Shaymin-Sky": {
-        "*Dumbass Gian": {
+        "OU *Dumbass Gian": {
             "nature": "Timid",
             "ability": "Serene Grace",
             "level": 100,
@@ -28872,7 +28873,7 @@ var SETDEX_SV = {
                 "Seed Flare"
             ]
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Timid",
             "ability": "Serene Grace",
             "level": 100,
@@ -28886,7 +28887,7 @@ var SETDEX_SV = {
         }
     },
     "Enamorus": {
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Hasty",
             "ability": "Contrary",
             "level": 100,
@@ -28898,7 +28899,7 @@ var SETDEX_SV = {
                 "Superpower"
             ]
         },
-        "*Leader Falkner": {
+        "OU *Leader Falkner": {
             "nature": "Jolly",
             "ability": "Contrary",
             "level": 100,
@@ -28912,7 +28913,7 @@ var SETDEX_SV = {
         }
     },
     "Calyrex-Ice": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Brave",
             "ability": "As One",
             "level": 100,
@@ -28926,7 +28927,7 @@ var SETDEX_SV = {
         }
     },
     "Kyurem": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Quiet",
             "ability": "Pressure",
             "level": 100,
@@ -28940,7 +28941,7 @@ var SETDEX_SV = {
         }
     },
     "Wishiwashi-Sevii-School": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Quiet",
             "ability": "Schooling",
             "level": 100,
@@ -28954,7 +28955,7 @@ var SETDEX_SV = {
         }
     },
     "Heracross-Mega": {
-        "*Leader Pryce": {
+        "OU *Leader Pryce": {
             "nature": "Brave",
             "ability": "Skill Link",
             "level": 100,
@@ -28968,7 +28969,7 @@ var SETDEX_SV = {
         }
     },
     "Magearna-Original": {
-        "*Dumbass Gian": {
+        "OU *Dumbass Gian": {
             "nature": "Calm",
             "ability": "Soul-Heart",
             "level": 100,
@@ -28982,7 +28983,7 @@ var SETDEX_SV = {
         }
     },
     "Greninja-Ash": {
-        "*Dumbass Gian": {
+        "OU *Dumbass Gian": {
             "nature": "Timid",
             "ability": "Battle Bond",
             "level": 100,
@@ -28996,7 +28997,7 @@ var SETDEX_SV = {
         }
     },
     "Zebstrika-Sevii": {
-        "*Ace Trainer Symes": {
+        "OU *Ace Trainer Symes": {
             "nature": "Timid",
             "ability": "Illuminate",
             "level": 100,
@@ -29008,7 +29009,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*Gatekeeper Owen": {
+        "OU *Gatekeeper Owen": {
             "nature": "Timid",
             "ability": "Illuminate",
             "level": 100,
@@ -29022,7 +29023,7 @@ var SETDEX_SV = {
         }
     },
     "Decidueye-Hisui": {
-        "*Ace Trainer Symes": {
+        "OU *Ace Trainer Symes": {
             "nature": "Adamant",
             "ability": "Quill Rush",
             "level": 100,
@@ -29034,7 +29035,7 @@ var SETDEX_SV = {
                 "Swords Dance"
             ]
         },
-        "*Black Belt Shea": {
+        "OU *Black Belt Shea": {
             "nature": "Jolly",
             "ability": "Quill Rush",
             "level": 100,
@@ -29048,7 +29049,7 @@ var SETDEX_SV = {
         }
     },
     "Dodrio-Sevii": {
-        "*Ace Trainer Samantha": {
+        "OU *Ace Trainer Samantha": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 100,
@@ -29060,7 +29061,7 @@ var SETDEX_SV = {
                 "Headlong Rush"
             ]
         },
-        "*Black Belt Shea": {
+        "OU *Black Belt Shea": {
             "nature": "Jolly",
             "ability": "Rock Head",
             "level": 100,
@@ -29074,7 +29075,7 @@ var SETDEX_SV = {
         }
     },
     "Keldeo": {
-        "*Ace Trainer Runan": {
+        "OU *Ace Trainer Runan": {
             "nature": "Timid",
             "ability": "Sharpness",
             "level": 100,
@@ -29088,7 +29089,7 @@ var SETDEX_SV = {
         }
     },
     "Marshadow": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Technician",
             "level": 100,
@@ -29102,7 +29103,7 @@ var SETDEX_SV = {
         }
     },
     "Zarude": {
-        "*Leader Morty": {
+        "OU *Leader Morty": {
             "nature": "Jolly",
             "ability": "Leaf Guard",
             "level": 100,
@@ -29116,7 +29117,7 @@ var SETDEX_SV = {
         }
     },
     "Milotic-Sevii": {
-        "*SwimmerF Amara": {
+        "OU *SwimmerF Amara": {
             "nature": "Modest",
             "ability": "Serene Grace",
             "level": 99,
@@ -29130,7 +29131,7 @@ var SETDEX_SV = {
         }
     },
     "Pikachu-Libre": {
-        "*PkMn Trainer Red": {
+        "OU *PkMn Trainer Red": {
             "nature": "Jolly",
             "ability": "Lightning Rod",
             "level": 100,
@@ -29158,7 +29159,7 @@ var SETDEX_SV = {
         }
     },
     "Drednaw-Mega": {
-        "*SwimmerM Finn": {
+        "OU *SwimmerM Finn": {
             "nature": "Adamant",
             "ability": "Strong Jaw",
             "level": 100,
@@ -29170,7 +29171,7 @@ var SETDEX_SV = {
                 "Rock Polish"
             ]
         },
-        "*Leader Misty": {
+        "OU *Leader Misty": {
             "nature": "Jolly",
             "ability": "Strong Jaw",
             "level": 100,
@@ -29184,7 +29185,7 @@ var SETDEX_SV = {
         }
     },
     "Mantine-Sevii": {
-        "*Ace Trainer Sharon": {
+        "OU *Ace Trainer Sharon": {
             "nature": "Timid",
             "ability": "Storm Drain",
             "level": 100,
@@ -29196,7 +29197,7 @@ var SETDEX_SV = {
                 "Volt Switch"
             ]
         },
-        "*SwimmerM Garrett": {
+        "OU *SwimmerM Garrett": {
             "nature": "Timid",
             "ability": "Storm Drain",
             "level": 100,
@@ -29208,7 +29209,7 @@ var SETDEX_SV = {
                 "Water Pulse"
             ]
         },
-        "*Tuber Amira": {
+        "OU *Tuber Amira": {
             "nature": "Timid",
             "ability": "Hydration",
             "level": 100,
@@ -29222,7 +29223,7 @@ var SETDEX_SV = {
         }
     },
     "Slowbro-Mega": {
-        "*Fisherman Tommy": {
+        "OU *Fisherman Tommy": {
             "nature": "Bold",
             "ability": "Shell Armor",
             "level": 100,
@@ -29234,7 +29235,7 @@ var SETDEX_SV = {
                 "Slack Off"
             ]
         },
-        "*Tuber Alexis": {
+        "OU *Tuber Alexis": {
             "nature": "Bold",
             "ability": "Shell Armor",
             "level": 100,
@@ -29248,7 +29249,7 @@ var SETDEX_SV = {
         }
     },
     "Ursaring-Sevii": {
-        "*Crush Girl Tanya": {
+        "OU *Crush Girl Tanya": {
             "nature": "Adamant",
             "ability": "Guts",
             "level": 100,
@@ -29262,7 +29263,7 @@ var SETDEX_SV = {
         }
     },
     "Butterfree-Mega": {
-        "*Camper Bryce": {
+        "OU *Camper Bryce": {
             "nature": "Timid",
             "ability": "Compound Eyes",
             "level": 100,
@@ -29276,7 +29277,7 @@ var SETDEX_SV = {
         }
     },
     "Alakazam-Mega": {
-        "*Picnicker Claire": {
+        "OU *Picnicker Claire": {
             "nature": "Timid",
             "ability": "Trace",
             "level": 99,
@@ -29290,7 +29291,7 @@ var SETDEX_SV = {
         }
     },
     "Indeedee": {
-        "*Picnicker Claire": {
+        "OU *Picnicker Claire": {
             "nature": "Timid",
             "ability": "Psychic Surge",
             "level": 98,
@@ -29304,7 +29305,7 @@ var SETDEX_SV = {
         }
     },
     "Lucario": {
-        "*Picnicker Claire": {
+        "OU *Picnicker Claire": {
             "nature": "Jolly",
             "ability": "Justified",
             "level": 100,
@@ -29318,7 +29319,7 @@ var SETDEX_SV = {
         }
     },
     "Metagross-Mega": {
-        "*Crush Kin Mik & Kia": {
+        "OU *Crush Kin Mik & Kia": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 99,
@@ -29332,7 +29333,7 @@ var SETDEX_SV = {
         }
     },
     "Lycanroc-Dusk": {
-        "*Crush Kin Mik & Kia": {
+        "OU *Crush Kin Mik & Kia": {
             "nature": "Jolly",
             "ability": "Tough Claws",
             "level": 100,
@@ -29346,7 +29347,7 @@ var SETDEX_SV = {
         }
     },
     "Pheromosa": {
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Hasty",
             "ability": "Beast Boost",
             "level": 100,
@@ -29360,7 +29361,7 @@ var SETDEX_SV = {
         }
     },
     "Clawitzer-Sevii": {
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Modest",
             "ability": "Mega Launcher",
             "level": 100,
@@ -29374,7 +29375,7 @@ var SETDEX_SV = {
         }
     },
     "Arceus-Bug": {
-        "*Leader Bugsy": {
+        "OU *Leader Bugsy": {
             "nature": "Jolly",
             "ability": "Multitype",
             "level": 100,
@@ -29388,7 +29389,7 @@ var SETDEX_SV = {
         }
     },
     "Dudunsparce": {
-        "*Crush Girl Jocelyn": {
+        "OU *Crush Girl Jocelyn": {
             "nature": "Adamant",
             "ability": "Serene Grace",
             "level": 100,
@@ -29402,7 +29403,7 @@ var SETDEX_SV = {
         }
     },
     "Haxorus": {
-        "*PkMn Ranger Beth": {
+        "OU *PkMn Ranger Beth": {
             "nature": "Jolly",
             "ability": "Mold Breaker",
             "level": 99,
@@ -29416,7 +29417,7 @@ var SETDEX_SV = {
         }
     },
     "Darkrai": {
-        "*Channeler Rachel": {
+        "OU *Channeler Rachel": {
             "nature": "Timid",
             "ability": "Bad Dreams",
             "level": 100,
@@ -29430,7 +29431,7 @@ var SETDEX_SV = {
         }
     },
     "Zoroark-Hisui": {
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Timid",
             "ability": "Illusion",
             "level": 100,
@@ -29442,7 +29443,7 @@ var SETDEX_SV = {
                 "U-turn"
             ]
         },
-        "*Channeler Rachel": {
+        "OU *Channeler Rachel": {
             "nature": "Naive",
             "ability": "Illusion",
             "level": 100,
@@ -29456,7 +29457,7 @@ var SETDEX_SV = {
         }
     },
     "Ursaluna": {
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Careful",
             "ability": "Guts",
             "level": 100,
@@ -29470,7 +29471,7 @@ var SETDEX_SV = {
         }
     },
     "Snorlax-Mega": {
-        "*Leader Whitney": {
+        "OU *Leader Whitney": {
             "nature": "Impish",
             "ability": "Thick Fat",
             "level": 100,
@@ -29484,7 +29485,7 @@ var SETDEX_SV = {
         }
     },
     "Centiskorch-Sevii-Mega": {
-        "*Cue Ball Paxton": {
+        "OU *Cue Ball Paxton": {
             "nature": "Jolly",
             "ability": "Sand Force",
             "level": 100,
@@ -29498,7 +29499,7 @@ var SETDEX_SV = {
         }
     },
     "Sableye-Mega": {
-        "*Aroma Lady Nikki": {
+        "OU *Aroma Lady Nikki": {
             "nature": "Calm",
             "ability": "Magic Bounce",
             "level": 100,
@@ -29512,7 +29513,7 @@ var SETDEX_SV = {
         }
     },
     "Toxapex": {
-        "*Aroma Lady Nikki": {
+        "OU *Aroma Lady Nikki": {
             "nature": "Impish",
             "ability": "Regenerator",
             "level": 100,
@@ -29526,7 +29527,7 @@ var SETDEX_SV = {
         }
     },
     "Palossand": {
-        "*Tuber Amira": {
+        "OU *Tuber Amira": {
             "nature": "Bold",
             "ability": "WaterCompaction",
             "level": 100,
@@ -29540,7 +29541,7 @@ var SETDEX_SV = {
         }
     },
     "Carracosta": {
-        "*Tuber Alexis": {
+        "OU *Tuber Alexis": {
             "nature": "Jolly",
             "ability": "Sturdy",
             "level": 100,
@@ -29554,7 +29555,7 @@ var SETDEX_SV = {
         }
     },
     "Noivern": {
-        "*SwimmerF Tisha": {
+        "OU *SwimmerF Tisha": {
             "nature": "Timid",
             "ability": "Infiltrator",
             "level": 100,
@@ -29568,7 +29569,7 @@ var SETDEX_SV = {
         }
     },
     "Meloetta-Pirouette": {
-        "*Gatekeeper Owen": {
+        "OU *Gatekeeper Owen": {
             "nature": "Jolly",
             "ability": "Serene Grace",
             "level": 100,
@@ -29582,7 +29583,7 @@ var SETDEX_SV = {
         }
     },
     "Giratina-Origin": {
-        "*Gatekeeper Owen": {
+        "OU *Gatekeeper Owen": {
             "nature": "Quiet",
             "ability": "Levitate",
             "level": 100,
@@ -29596,7 +29597,7 @@ var SETDEX_SV = {
         }
     },
     "Enamorus-Therian": {
-        "*Gatekeeper Owen": {
+        "OU *Gatekeeper Owen": {
             "nature": "Modest",
             "ability": "Overcoat",
             "level": 100,
@@ -29610,7 +29611,7 @@ var SETDEX_SV = {
         }
     },
     "Zoroark": {
-        "*Ace Trainer Sharon": {
+        "OU *Ace Trainer Sharon": {
             "nature": "Timid",
             "ability": "Illusion",
             "level": 100,
