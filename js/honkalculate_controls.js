@@ -62,71 +62,211 @@ $.fn.dataTableExt.oSort['damage48-desc'] = function (a, b) {
 	return parseInt(b) - parseInt(a);
 };
 
-function performCalculations() {
-    var attacker, defender, setName, setTier;
-    var selectedTiers = getSelectedTiers();
-    var setOptions = getSetOptions();
-    var dataSet = [];
-    var pokeInfo = $("#p1");
-    for (var i = 0; i < setOptions.length; i++) {
-        if (setOptions[i].id && typeof setOptions[i].id !== "undefined") {
-            setName = setOptions[i].id.substring(setOptions[i].id.indexOf("(") + 1, setOptions[i].id.lastIndexOf(")"));
-            setTier = setName.substring(0, setName.indexOf(" "));
-            if (selectedTiers.indexOf(setTier) !== -1) {
-                var field = createField();
-                if (mode === "one-vs-all") {
-                    attacker = createPokemon(pokeInfo);
-                    defender = createPokemon(setOptions[i].id);
-                } else {
-                    attacker = createPokemon(setOptions[i].id);
-                    defender = createPokemon(pokeInfo);
-                    field.swap();
-                }
-                if (attacker.ability === "Rivalry") {
-                    attacker.gender = "N";
-                }
-                if (defender.ability === "Rivalry") {
-                    defender.gender = "N";
-                }
-                var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
-                attacker = damageResults[0].attacker;
-                defender = damageResults[0].defender;
-                
-                // Store base info that will be common for all moves
-                var baseInfo = [setOptions[i].id];
-                var pokemonInfo = [
-                    (mode === "one-vs-all") ? defender.types[0] : attacker.types[0],
-                    ((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || "",
-                    ((mode === "one-vs-all") ? defender.ability : attacker.ability) || "",
-                    ((mode === "one-vs-all") ? defender.item : attacker.item) || ""
-                ];
+async function loadProgressionPoints() {
+    try {
+        const response = await fetch('potential_encounters.json');
+        const data = await response.json();
+        const select = document.getElementById('progression-select');
+        
+        // Clear existing options
+        select.innerHTML = '<option value="">Select progression point...</option>';
+        
+        // Add an option for each boss/location combination
+        data.forEach(point => {
+            const option = document.createElement('option');
+            option.value = JSON.stringify(point.encounters);
+            option.text = `${point.boss} (${point.location})`;
+            select.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error loading progression points:', error);
+    }
+}
 
-                // Process each move
-                for (var n = 0; n < 4; n++) {
-                    var result = damageResults[n];
-                    // Skip moves that do no damage
-                    if (attacker.moves[n].bp === 0) continue;
-                    
-                    var minMaxDamage = result.range();
-                    var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
-                    var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
-                    var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
-                    var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
-                    var minPixels = Math.floor(minDamage * 48 / defender.maxHP());
-                    var maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
+// Add these helper functions
+function getMovesForType(type) {
+    return Object.entries(moves)
+        .filter(([name, move]) => {
+            return move.type === type && 
+                   move.bp >= 30 && 
+                   move.bp <= 100 &&
+                   move.category !== 'Status';
+        })
+        .map(([name]) => name); // Only return the move name
+}
 
-                    // Create a new data entry for each move
-                    var moveData = baseInfo.slice();
-                    moveData.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
-                    moveData.push(minPercentage + " - " + maxPercentage + "%");
-                    moveData.push(minPixels + " - " + maxPixels + "px");
-                    moveData.push(result.kochance(false).text || 'possibly the worst move ever');
-                    moveData = moveData.concat(pokemonInfo);
-                    dataSet.push(moveData);
-                }
-            }
+function selectMovesForPokemon(types) {
+    let selectedMoves = [];
+    
+    // First, ensure we have at least one move of each type the Pokemon has
+    types.forEach(type => {
+        if (!type) return; // Skip empty second type
+        
+        const movesOfType = getMovesForType(type);
+        if (movesOfType.length > 0) {
+            // Select a random move of this type
+            const randomMove = movesOfType[Math.floor(Math.random() * movesOfType.length)];
+            selectedMoves.push(randomMove);
+        }
+    });
+    
+    // If we still need more moves, select random moves from any type
+    while (selectedMoves.length < 4) {
+        // Get all valid moves
+        const allValidMoves = Object.entries(moves)
+            .filter(([name, move]) => 
+                move.bp >= 30 && 
+                move.bp <= 100 && 
+                move.category !== 'Status'
+            )
+            .map(([name]) => name);
+        
+        // Select a random move that's not already selected
+        const remainingMoves = allValidMoves.filter(move => 
+            !selectedMoves.includes(move)
+        );
+        
+        if (remainingMoves.length === 0) {
+            // If we can't find any more valid moves, fill with Tackle
+            selectedMoves.push('Tackle');
+        } else {
+            const randomMove = remainingMoves[Math.floor(Math.random() * remainingMoves.length)];
+            selectedMoves.push(randomMove);
         }
     }
+    
+    return selectedMoves;
+}
+
+// This is the complete performCalculations function that needs to replace your existing one
+function performCalculations() {
+    var attacker, defender;
+    var dataSet = [];
+    var pokeInfo = $("#p1");
+
+    // Get the selected encounters
+    const progressionSelect = document.getElementById('progression-select');
+    const selectedEncounters = progressionSelect.value ? 
+        JSON.parse(progressionSelect.value) : null;
+
+    // If there are selected encounters, use those instead of setOptions
+    const pokemonToCalculate = selectedEncounters || getSetOptions();
+
+    for (var i = 0; i < pokemonToCalculate.length; i++) {
+        let pokemonId;
+        let baseInfo;
+
+        if (selectedEncounters) {
+            // If using encounters list, construct a basic set for this Pokemon
+            pokemonId = pokemonToCalculate[i];
+
+            // Debug logging
+            console.log("Processing Pokemon:", pokemonId);
+            console.log("Exists in Pokedex:", !!pokedex[pokemonId]);
+            
+            // Try to handle forme names properly
+            let baseName = pokemonId.split('-')[0];
+            let isInPokedex = !!pokedex[pokemonId];
+            let baseInPokedex = !!pokedex[baseName];
+            
+            if (!isInPokedex && !baseInPokedex) {
+                console.log("Pokemon not found in pokedex:", pokemonId);
+                continue; // Skip this Pokemon if we can't find it
+            }
+
+            // Use the base name if the full name isn't in the pokedex
+            let actualPokemonId = isInPokedex ? pokemonId : baseName;
+
+            // Create a default set if none exists
+            if (!setdex[actualPokemonId] || !setdex[actualPokemonId]["Blank Set"]) {
+                const pokemon = pokedex[actualPokemonId];
+                const types = [pokemon.types[0], pokemon.types[1] || null].filter(Boolean);
+                const selectedMoves = selectMovesForPokemon(types);
+
+                setdex[actualPokemonId] = setdex[actualPokemonId] || {};
+                setdex[actualPokemonId]["Blank Set"] = {
+                    level: 100,
+                    ability: pokemon?.abilities?.[0] || "",
+                    item: "",
+                    nature: "Hardy",
+                    evs: {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0},
+                    ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31},
+                    moves: selectedMoves
+                };
+            }
+            
+            let fullId = actualPokemonId + " (Blank Set)";
+            baseInfo = [fullId];
+            pokemonId = fullId;  // Update pokemonId to include the set name
+        } else {
+            // Original behavior for setOptions
+            if (!pokemonToCalculate[i].id || typeof pokemonToCalculate[i].id === "undefined") continue;
+            pokemonId = pokemonToCalculate[i].id;
+            setName = pokemonId.substring(pokemonId.indexOf("(") + 1, pokemonId.lastIndexOf(")"));
+            setTier = setName.substring(0, setName.indexOf(" "));
+            if (selectedTiers.indexOf(setTier) === -1) continue;
+            baseInfo = [pokemonId];
+        }
+
+        var field = createField();
+        try {
+            if (mode === "one-vs-all") {
+                attacker = createPokemon(pokeInfo);
+                defender = createPokemon(pokemonId);
+            } else {
+                attacker = createPokemon(pokemonId);
+                defender = createPokemon(pokeInfo);
+                field.swap();
+            }
+        } catch (error) {
+            console.error("Error creating Pokemon:", pokemonId, error);
+            continue; // Skip this Pokemon if we can't create it
+        }
+
+        if (attacker.ability === "Rivalry") {
+            attacker.gender = "N";
+        }
+        if (defender.ability === "Rivalry") {
+            defender.gender = "N";
+        }
+
+        var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
+        attacker = damageResults[0].attacker;
+        defender = damageResults[0].defender;
+
+        // Store base info that will be common for all moves
+        var pokemonInfo = [
+            (mode === "one-vs-all") ? defender.types[0] : attacker.types[0],
+            ((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || "",
+            ((mode === "one-vs-all") ? defender.ability : attacker.ability) || "",
+            ((mode === "one-vs-all") ? defender.item : attacker.item) || ""
+        ];
+
+        // Process each move
+        for (var n = 0; n < 4; n++) {
+            var result = damageResults[n];
+            // Skip moves that do no damage
+            if (attacker.moves[n].bp === 0) continue;
+
+            var minMaxDamage = result.range();
+            var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
+            var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
+            var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
+            var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
+            var minPixels = Math.floor(minDamage * 48 / defender.maxHP());
+            var maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
+
+            // Create a new data entry for each move
+            var moveData = baseInfo.slice();
+            moveData.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
+            moveData.push(minPercentage + " - " + maxPercentage + "%");
+            moveData.push(minPixels + " - " + maxPixels + "px");
+            moveData.push(result.kochance(false).text || 'possibly the worst move ever');
+            moveData = moveData.concat(pokemonInfo);
+            dataSet.push(moveData);
+        }
+    }
+
     var pokemon = mode === "one-vs-all" ? attacker : defender;
     if (pokemon) pokeInfo.find(".sp .totalMod").text(pokemon.stats.spe);
     table.rows.add(dataSet).draw();
@@ -333,6 +473,15 @@ $(document).ready(function () {
 
     // Check OU by default
     $("#OU").prop("checked", true);
+
+    // Load the progression points
+    loadProgressionPoints();
+    
+    // Add change handler for progression select
+    $("#progression-select").change(function() {
+        table.clear();
+        performCalculations();
+    });
 
     calcDTDimensions();
     constructDataTable();
