@@ -219,28 +219,33 @@ function performCalculations() {
 			((mode === "one-vs-all") ? defender.item : attacker.item) || ""
 		];
 
-		for (var n = 0; n < 4; n++) {
-			var result = damageResults[n];
-
-			if (attacker.moves[n].bp === 0) continue;
-
-			var minMaxDamage = result.range();
-			var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
-			var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
-			var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
-			var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
-
-            var moveData = baseInfo.slice();
+        for (var n = 0; n < 4; n++) {
+            var result = damageResults[n];
+        
+            if (attacker.moves[n].bp === 0) continue;
+        
+            var minMaxDamage = result.range();
+            var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
+            var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
+            var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
+            var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
+        
             var moveName = attacker.moves[n].name.replace("Hidden Power", "HP");
             var moveType = attacker.moves[n].type;
             var effectiveBP = attacker.moves[n].bp * attacker.moves[n].hits;
-            moveData.push(moveName + " (" + moveType + ")");
-            moveData.push(effectiveBP + " BP");   
+        
+            var moveData = baseInfo.slice();
+            moveData.push((mode === "one-vs-all") ? defender.types[0] : attacker.types[0]); // Type 1
+            moveData.push(((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || ""); // Type 2
+            moveData.push(moveName + " (" + moveType + ")");  // Best Move
+            moveData.push(effectiveBP + " BP");  // Base Power (BP)
             moveData.push(minPercentage + " - " + maxPercentage + "%");
             moveData.push(result.kochance(false).text);
-            moveData = moveData.concat(pokemonInfo);  
-			dataSet.push(moveData);
-		}
+            moveData.push(((mode === "one-vs-all") ? defender.ability : attacker.ability) || ""); // Ability
+            moveData.push(((mode === "one-vs-all") ? defender.item : attacker.item) || ""); // Item
+        
+            dataSet.push(moveData);
+        }
 	}
 
 	var pokemon = mode === "one-vs-all" ? attacker : defender;
@@ -312,26 +317,33 @@ function constructDataTable() {
     table = $("#holder-2").DataTable({
         destroy: true,
         columnDefs: [{
-                targets: [5, 6, 7, 8], // Updated indices to remove Damage (px)
+                targets: [7, 8], // Only hide Ability and Item columns
                 visible: false,
                 searchable: false
             },
             {
-                targets: [2], // Base Power column
+                targets: [4], // Base Power column
                 type: 'numeric'
             },
             {
-                targets: [3], // Damage % column
+                targets: [5], // Damage % column
                 type: 'damage100'
             },
             {
-                targets: [4], // KO chance column
-                iDataSort: 3
+                targets: [6], // KO chance column
+                iDataSort: 5,
+                width: '150px',
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        return '<div class="ko-chance-cell">' + data + '</div>';
+                    }
+                    return data;
+                }
             }
         ],
         dom: 'C<"clear">fti',
         colVis: {
-            exclude: (gen > 2) ? [0, 1, 2, 3] : (gen === 2) ? [0, 1, 2, 3, 7] : [0, 1, 2, 3, 7, 8],
+            exclude: (gen > 2) ? [0, 1, 2, 3, 4, 5] : (gen === 2) ? [0, 1, 2, 3, 4, 5, 7] : [0, 1, 2, 3, 4, 5, 7, 8],
             stateChange: function(iColumn, bVisible) {
                 var column = table.settings()[0].aoColumns[iColumn];
                 if (column.bSearchable !== bVisible) {
@@ -343,7 +355,8 @@ function constructDataTable() {
         paging: false,
         scrollX: Math.floor(dtWidth / 100) * 100,
         scrollY: dtHeight,
-        scrollCollapse: true
+        scrollCollapse: true,
+        autoWidth: false
     });
     $(".dataTables_wrapper").css({
         "max-width": dtWidth
