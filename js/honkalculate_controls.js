@@ -230,17 +230,17 @@ function performCalculations() {
             var moveType = attacker.moves[n].type;
             var effectiveBP = attacker.moves[n].bp * attacker.moves[n].hits;
         
-            var moveData = baseInfo.slice();
-            moveData.push((mode === "one-vs-all") ? defender.types[0] : attacker.types[0]); // Type 1
-            moveData.push(((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || ""); // Type 2
-            moveData.push(moveName + " (" + moveType + ")");  // Best Move
-            moveData.push(effectiveBP + " BP");  // Base Power (BP)
-            moveData.push(minPercentage + " - " + maxPercentage + "%");
-            moveData.push(result.kochance(false).text);
-            moveData.push(((mode === "one-vs-all") ? defender.ability : attacker.ability) || ""); // Ability
-            moveData.push(((mode === "one-vs-all") ? defender.item : attacker.item) || ""); // Item
-        
-            dataSet.push(moveData);
+			var moveData = baseInfo.slice();
+			moveData.push((mode === "one-vs-all") ? defender.types[0] : attacker.types[0]); // Type 1
+			moveData.push(((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || ""); // Type 2
+			moveData.push(moveName + " (" + moveType + ")");  // Best Move
+			moveData.push(effectiveBP + " BP");  // Base Power (BP)
+			moveData.push(minPercentage + " - " + maxPercentage + "%");  // Damage %
+			moveData.push(result.kochance(false).text);  // KO chance
+			moveData.push(((mode === "one-vs-all") ? defender.ability : attacker.ability) || ""); // Ability
+			moveData.push(((mode === "one-vs-all") ? defender.item : attacker.item) || ""); // Item
+			
+			dataSet.push(moveData);
         }
 	}
 
@@ -312,21 +312,19 @@ var table;
 function constructDataTable() {
     table = $("#holder-2").DataTable({
         destroy: true,
-        columnDefs: [{
-                targets: [7, 8], // Only hide Ability and Item columns
+        columnDefs: [
+            {
+                targets: [1, 2, 4, 7, 8],
                 visible: false,
-                searchable: false
+                searchable: true
             },
             {
-                targets: [4], // Base Power column
-                type: 'numeric'
-            },
-            {
-                targets: [5], // Damage % column
+                targets: [5],
                 type: 'damage100'
             },
             {
-                targets: [6], // KO chance column
+                targets: [6],
+                visible: true,
                 iDataSort: 5,
                 width: '150px',
                 render: function(data, type, row) {
@@ -339,7 +337,7 @@ function constructDataTable() {
         ],
         dom: 'C<"clear">fti',
         colVis: {
-            exclude: (gen > 2) ? [0, 1, 2, 3, 4, 5] : (gen === 2) ? [0, 1, 2, 3, 4, 5, 7] : [0, 1, 2, 3, 4, 5, 7, 8],
+            exclude: [0, 3, 5, 6],
             stateChange: function(iColumn, bVisible) {
                 var column = table.settings()[0].aoColumns[iColumn];
                 if (column.bSearchable !== bVisible) {
