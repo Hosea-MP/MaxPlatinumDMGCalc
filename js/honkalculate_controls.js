@@ -128,15 +128,11 @@ function performCalculations() {
 
 			pokemonId = pokemonToCalculate[i];
 
-			console.log("Processing Pokemon:", pokemonId);
-			console.log("Exists in Pokedex:", !!pokedex[pokemonId]);
-
 			let baseName = pokemonId.split('-')[0];
 			let isInPokedex = !!pokedex[pokemonId];
 			let baseInPokedex = !!pokedex[baseName];
 
 			if (!isInPokedex && !baseInPokedex) {
-				console.log("Pokemon not found in pokedex:", pokemonId);
 				continue;
 			}
 

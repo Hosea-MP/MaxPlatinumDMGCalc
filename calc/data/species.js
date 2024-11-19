@@ -9875,94 +9875,734 @@ var SV_PATCH = {
     },
     
 };
-var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
+
+var RR_PATCH = {
+    'Abomasnow-Mega': {bs: {df: 105, sd: 105, sp: 60}},
+    'Absol-Mega': {types: ['Dark', 'Fairy'], abilities: {0: 'Blademaster'}},
+    'Alcremie': {otherFormes: ['Alcremie-Mega']},
+    'Altaria': {bs: {hp: 85}},
+    'Altaria-Mega': {bs: {hp: 85}},
+    'Ampharos-Mega': {abilities: {0: 'Thick Fat'}},
+    'Appletun': {otherFormes: ['Appletun-Mega']},
+    'Arbok': {types: ['Poison', 'Dark'],bs: {hp: 75, df: 75}},
+    'Arcanine-Hisui': {bs: {at: 125, sa: 85}},
+    'Arctovish': {bs: {sa: 55, sp: 80}},
+    'Ariados': {bs: {at: 95, sp: 70}},
+    'Armaldo': {bs: {hp: 100, sa: 45}},
+    'Aromatisse': {bs: {at: 62, df: 82}},
+    'Articuno': {bs: {at: 70, sp: 100}},
+    'Articuno-Galar': {bs: {at: 70, df: 95, sp: 100}},
+    'Avalugg-Hisui': {bs: {hp: 100, at: 132, sp: 28}},
+    'Banette-Mega': {types: ['Ghost', 'Normal']},
+    'Basculin': {nfe: true},
+    'Basculin-Blue-Striped': {nfe: true},
+    'Beartic': {types: ['Ice', 'Fighting'], bs: {at: 140}},
+    'Beautifly': {bs: {at: 60, sa: 105, sp: 75}},
+    'Beheeyem': {bs: {hp: 95}},
+    'Bellossom': {types: ['Grass', 'Fairy']},
+    'Bibarel': {bs: {df: 80, sd: 80, sp: 50}},
+    'Blitzle': {otherFormes: ['Blitzle-Sevii']},
+    'Boltund': {bs: {at: 100, sa: 80}},
+    'Bombirdier': {bs: {hp: 85}},
+    'Bouffalant': {bs: {hp: 100, sp: 65}},
+    'Braviary-Hisui': {bs: {hp: 115, at: 58, df: 80, sd: 80}},
+    'Butterfree': {bs: {sa: 95}, otherFormes: ['Butterfree-Mega']},
+    'Cacturne': {bs: {at: 120, sa: 120}},
+    'Camerupt' : {bs: {hp: 90}},
+    'Camerupt-Mega': {bs: {hp: 90, at: 100, df: 110, sd: 115}},
+    'Capsakid': {bs: {hp: 52}},
+    'Carnivine': {bs: {hp: 89, df: 82, sd: 82, sa: 55}, otherFormes: ['Carnivine-Sevii']},
+    'Castform': {bs: {hp: 85, at: 85, df: 85, sa: 85, sd: 85, sp: 85}},
+    'Castform-Rainy': {bs: {hp: 85, at: 85, df: 85, sa: 85, sd: 85, sp: 85}},
+    'Castform-Sunny': {bs: {hp: 85, at: 85, df: 85, sa: 85, sd: 85, sp: 85}},
+    'Castform-Snowy': {bs: {hp: 85, at: 85, df: 85, sa: 85, sd: 85, sp: 85}},
+    'Centiskorch': {otherFormes: ['Centiskorch-Mega', 'Centiskorch-Sevii', 'Centiskorch-Sevii-Mega']},
+    'Chatot': {bs: {sp: 101}},
+    'Cherrim': {bs: {at: 100, sa: 60}},
+    'Cherrim-Sunshine': {bs: {at: 100, sa: 60}},
+    'Chimecho': {bs: {hp: 90, sp: 80}},
+    'Clauncher': {otherFormes: ['Clauncher-Sevii']},
+    'Clawitzer': {bs: {sp: 72}, otherFormes: ['Clawitzer-Sevii']},
+    'Claydol': {bs: {sa: 80}},
+    'Clobbopus': {types: ['Water', 'Fighting']},
+    'Coalossal': {otherFormes: ['Coalossal-Mega']},
+    'Corsola': {bs: {hp: 85, df: 100, sd: 100}},
+    'Copperajah': {bs: {df: 79, sd: 79}, otherFormes: ['Copperajah-Mega']},
+    'Cramorant': {bs: {hp: 85, df: 65, sa: 100, sp: 105}},
+    'Cramorant-Gorging': {bs: {hp: 85, df: 65, sa: 100, sp: 105}},
+    'Cramorant-Gulping': {bs: {hp: 85, df: 65, sa: 100, sp: 105}},
+    'Cresselia': {bs: {df: 120, sd: 130}},
+    'Crobat': {bs: {sa: 90}},
+    'Crustle': {bs: {sp: 55}},
+    'Cryogonal': {bs: {sa: 110}},
+    'Cursola': {bs: {hp: 80, at: 75, sp: 55}},
+    'Decidueye': {bs: {sa: 95, sd: 85, sp: 100}},
+    'Decidueye-Hisui': {bs: {hp: 98, df: 85, sa: 75, sd: 100, sp: 70}},
+    'Dedenne': {bs: {sa: 91}},
+    'Delcatty': {bs: {sa: 65}},
+    'Delibird': {bs: {at: 100, sp: 105}},
+    'Dewgong': {bs: {hp: 95, at: 50, sa: 90}},
+    'Dhelmise': {otherFormes: ['Dhelmise-Sevii']},
+    'Dialga': {otherFormes: ['Dialga-Primal']},
+    'Dodrio': {otherFormes: ['Dodrio-Sevii']},
+    'Doduo': {otherFormes: ['Doduo-Sevii']},
+    'Drampa': {bs: {hp: 103, at: 50}},
+    'Drednaw': {otherFormes: ['Drednaw-Mega']},
+    'Druddigon': {bs: {hp: 90, sp: 41}},
+    'Dubwool': {bs: {hp: 82}},
+    'Dugtrio-Alola': {bs: {at: 110}},
+    'Dunsparce': {bs: {df: 80, sd: 75}},
+    'Dustox': {bs: {hp: 80, at: 40, sa: 60}},
+    'Duraludon': {bs: {hp: 85}, otherFormes: ['Duraludon-Mega']},
+    'Eelektross': {bs: {at: 105, sa: 115}},
+    'Eiscue': {bs: {at: 100, sa: 45}},
+    'Eiscue-Noice': {bs: {at: 100, sa: 45}},
+    'Eldegoss': {bs: {hp: 75, sa: 90}},
+    'Electrode': {bs: {at: 55, sa: 100}},
+    'Electrode-Hisui': {bs: {at: 55, sa: 95}},
+    'Eternatus-Eternamax': {bs: {hp: 140, at: 105, df: 110, sa: 185, sd: 110, sp: 140}, weightkg: 950, abilities: {0: 'Levitate'}},
+    'Emolga': {bs: {at: 55, sa: 95}},
+    'Exploud': {bs: {at: 81, sp: 73}},
+    'Falinks': {types: ['Fighting', 'Bug'], bs: {hp: 75, sa: 60}},
+    'Farfetch\u2019d': {types: ['Fighting', 'Flying'], bs: {hp: 75, df: 70, sd: 77, sp: 65}},
+    'Fearow': {bs: {at: 100, sp: 115}, abilities: {0: 'Sniper'}},
+    'Feebas': {otherFormes: ['Feebas-Sevii']},
+    'Fezandipiti': {bs: {at: 70, sa: 91, sp: 99}},
+    'Flamigo': {bs: {hp: 92, sd: 74}},
+    'Flapple': {otherFormes: ['Flapple-Mega']},
+    'Flareon': {bs: {df: 70, sa: 65, sd: 100, sp: 95}},
+    'Floatzel': {bs: {at: 90, sa: 95}},
+    'Flygon': {bs: {hp: 100, sa: 100}},
+    'Froslass': {bs: {at: 95, sa: 95}},
+    'Frosmoth': {bs: {df: 65}},
+    'Furfrou': {bs: {at: 90}},
+    'Furret': {bs: {at: 86}},
+    'Garbodor': {bs: {at: 115, sp: 60}, otherFormes: ['Garbodor-Mega']},
+    'Garchomp-Mega': {bs: {df: 105, sp: 102}},
+    'Glaceon': {bs: {hp: 80, at: 45, df: 100, sp: 75}},
+    'Glalie-Mega': {bs: {at: 135, sa: 105}},
+    'Gogoat': {bs: {df: 72, sa: 67, sd: 87, sp: 74}},
+    'Golduck': {types: ['Water', 'Psychic'], bs: {sa: 100, sp: 100}},
+    'Golurk': {bs: {hp: 100, df: 90, sd: 90}},
+    'Gorebyss': {types: ['Water', 'Fairy'], bs: {sa: 104}},
+    'Gourgeist': {bs: {at: 58, sa: 90}},
+    'Gourgeist-Small': {bs: {at: 58, sa: 85}},
+    'Gourgeist-Large': {bs: {at: 58, sa: 95}},
+    'Gourgeist-Super': {bs: {at: 58, sa: 100}},
+    'Granbull': {types: ['Fairy', 'Fighting'], bs: {hp: 100}},
+    'Grapploct': {types: ['Water', 'Fighting']},
+    'Grumpig': {bs: {hp: 90}},
+    'Gumshoos': {bs: {hp: 98}},
+    'Guzzlord': {bs: {hp: 203, df: 73, sd: 73, sp: 23}},
+    'Heatmor': {bs: {at: 90, sp: 100}},
+    'Hitmonchan': {bs: {at: 115}},
+    'Honchkrow': {bs: {sp: 96}},
+    'Houndoom-Mega': {bs: {at: 110}, abilities: {0: 'Dark Aura'}},
+    'Huntail': {types: ['Water', 'Dark']},
+    'Illumise': {types: ['Bug', 'Fairy'], bs: {hp: 85, at: 90, sa: 47, sp: 100}},
+    'Infernape': {bs: {at: 110, sa: 110, sp: 113}},
+    'Jumpluff': {bs: {at: 85, sa: 35}},
+    'Jynx': {bs: {df: 50, sp: 100}},
+    'Kecleon': {bs: {hp: 85, at: 100}},
+    'Kingler': {otherFormes: ['Kingler-Mega']},
+    'Kleavor': {bs: {hp: 85, sa: 30}},
+    'Komala': {bs: {hp: 75}},
+    'Kricketot': {bs: {at: 40, sa: 40}},
+    'Kricketune': {bs: {at: 95, df: 71, sd: 71, sp: 80}},
+    'Lapras': {types: ['Water', 'Dragon'], otherFormes: ['Lapras-Mega']},
+    'Leafeon': {bs: {at: 130, df: 110}},
+    'Ledian': {types: ['Bug', 'Fighting'], bs: {at: 90, sa: 35, sd: 100}},
+    'Lickilicky': {bs: {at: 95, sp: 30}},
+    'Liepard': {bs: {at: 98, sa: 78}},
+    'Linoone': {bs: {hp: 85, at: 85}},
+    'Lokix': {otherFormes: ['Lokix-Sevii']},
+    'Lopunny': {types: ['Normal', 'Fighting']},
+    'Ludicolo': {bs: {sa: 100}},
+    'Lumineon': {bs: {hp: 79, at: 59, sa: 96, sd: 69, sp: 101}},
+    'Lunatone': {bs: {sa: 105, sp: 90}},
+    'Lurantis': {types: ['Grass', 'Fighting'], bs: {sp: 55}},
+    'Luvdisc': {types: ['Water', 'Fairy'], bs: {sa: 100}},
+    'Luxray': {types: ['Electric', 'Dark']},
+    'Machamp': {otherFormes: ['Machamp-Mega']},
+    'Magmortar': {bs: {at: 80, sp: 98}},
+    'Mantine': {bs: {sa: 90}, otherFormes: ['Mantine-Sevii']},
+    'Mantyke': {otherFormes: ['Mantyke-Sevii']},
+    'Maractus': {bs: {at: 106, sa: 85}},
+    'Marowak': {bs: {hp: 80, sa: 30}},
+    'Masquerain': {types: ['Water', 'Bug'], bs: {hp: 80}},
+    'Meganium': {types: ['Grass', 'Fairy']},
+    'Meowstic': {bs: {sa: 63}},
+    'Meowstic-F': {bs: {sa: 63}},
+    'Meowth-Alola': {bs: {sa: 40}},
+    'Mightyena': {bs: {at: 95}},
+    'Milotic': {bs: {df: 84, sp: 86}, otherFormes: ['Milotic-Sevii']},
+    'Miltank': {bs: {at: 85}},
+    'Minun': {bs: {at: 85, df: 75, sa: 50, sd: 40, sp: 110}},
+    'Mismagius': {types: ['Ghost', 'Fairy'], bs: {hp: 70, df: 70}},
+    'Mr. Mime': {bs: {hp: 50}},
+    'Mr. Rime': {bs: {at: 65, sd: 90, sp: 100}},
+    'Morpeko': {bs: {at: 110}},
+    'Morpeko-Hangry': {bs: {at: 110}},
+    'Mothim': {bs: {at: 84, sp: 80}},
+    'Noctowl': {bs: {hp: 110}},
+    'Noibat': {otherFormes: ['Noibat-Sevii']},
+    'Noivern': {bs: {sa: 102}, otherFormes: ['Noivern-Sevii']},
+    'Nymble': {otherFormes: ['Nymble-Sevii']},
+    'Octillery': {bs: {sp: 75}},
+    'Onix': {bs: {hp: 50, at: 60, df: 150, sp: 65}},
+    'Oranguru': {bs: {df: 110, sd: 80}},
+    'Orbeetle': {otherFormes: ['Orbeetle-Mega']},
+    'Overqwil': {bs: {hp: 95, df: 100, sa: 55, sd: 80}},
+    'Pachirisu': {bs: {hp: 75, sd: 95}},
+    'Parasect': {bs: {hp: 80, at: 110, df: 100}},
+    'Passimian': {bs: {sd: 75}},
+    'Perrserker': {bs: {hp: 90, sa: 30}},
+    'Persian': {bs: {at: 80, sa: 60}},
+    'Persian-Alola': {bs: {sa: 55}},
+    'Pikachu': {otherFormes: ['Pikachu-Belle','Pikachu-Cosplay','Pikachu-Libre','Pikachu-PhD','Pikachu-Pop-Star','Pikachu-Rock-Star','Pikachu-Flying','Pikachu-Surfing']},
+    'Pikachu-Belle': {types: ['Electric', 'Ice']},
+    'Pikachu-Rock-Star': {types: ['Electric', 'Steel']},
+    'Pikachu-Pop-Star': {types: ['Electric', 'Fairy']},
+    'Pikachu-Libre': {types: ['Electric', 'Fighting']},
+    'Pikachu-PhD': {types: ['Electric', 'Psychic']},
+    'Pincurchin': {types: ['Electric', 'Water'], bs: {hp: 68, at: 81}},
+    'Plusle': {bs: {sp: 110}},
+    'Ponyta-Galar': {types: ['Fire', 'Fairy']},
+    'Probopass': {bs: {hp: 65, at: 45, sa: 80}},
+    'Pumpkaboo': {bs: {at: 44, sa: 66}},
+    'Pumpkaboo-Small': {bs: {at: 44, sa: 66}},
+    'Pumpkaboo-Large': {bs: {at: 44, sa: 66}},
+    'Pumpkaboo-Super': {bs: {at: 44, sa: 66}},
+    'Purugly': {bs: {hp: 100, df: 79, sa: 54, sd: 74}},
+    'Quagsire': {bs: {hp: 100, df: 90}},
+    'Qwilfish': {bs: {hp: 80, at: 105}},
+    'Raichu': {types: ['Electric', 'Normal'], bs: {hp: 70, at: 100, sa: 100}},
+    'Rapidash': {bs: {sp: 125}},
+    'Rapidash-Galar': {types: ['Fire', 'Fairy'], bs: {sp: 125}},
+    'Raticate': {bs: {hp: 60, at: 91}},
+    'Raticate-Alola': {bs: {at: 86}},
+    'Relicanth': {bs: {at: 105, df: 115}},
+    'Samurott': {types: ['Water', 'Steel'], bs: {at: 108, sa: 95, sp: 90}},
+    'Samurott-Hisui': {bs: {hp: 95, df: 85, sa: 95, sd: 70, sp: 90}},
+    'Sandaconda': {otherFormes: ['Sandaconda-Mega']},
+    'Sandslash': {bs: {at: 110, df: 120, sa: 25, sd: 65}},
+    'Sandslash-Alola': {bs: {at: 110}, abilities: {0: 'Slush Rush'}},
+    'Sawsbuck': {bs: {at: 110, sp: 105}},
+    'Sceptile': {types: ['Grass', 'Dragon'], bs: {at: 105, sa: 85}},
+    'Sceptile-Mega': {bs: {at: 135, sa: 110}, abilities: {0: 'Technician'}},
+    'Scovillain': {bs: {hp: 85, at: 78, sa: 118}},
+    'Scream Tail': {bs: {at: 65, sa: 85}},
+    'Seviper': {bs: {hp: 83, df: 83, sd: 83, sp: 85}},
+    'Shiftry': {bs: {at: 120, sa: 110}},
+    'Shiinotic': {bs: {hp: 75}},
+    'Silvally': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Bug': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Dark': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Dragon': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Electric': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Fairy': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Fighting': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Fire': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Flying': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Ghost': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Grass': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Ground': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Ice': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Poison': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Psychic': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Rock': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Steel': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Silvally-Water': {bs: {hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100}, abilities: {0: 'Battle Armor'}},
+    'Sirfetch\u2019d': {bs: {hp: 82}},
+    'Sizzlipede': {otherFormes: ['Sizzlipede-Sevii']},
+    'Skuntank': {bs: {sa: 91}},
+    'Slowbro-Galar': {bs: {at: 75, df: 105, sa: 115}},
+    'Slurpuff': {bs: {at: 90, sa: 75}},
+    'Snorlax': {otherFormes: ['Snorlax-Mega']},
+    'Solrock': {bs: {at: 105, sp: 90}},
+    'Spidops': {bs: {hp: 85, at: 89, sa: 32}},
+    'Spinda': {bs: {hp: 80, at: 80, df: 80, sa: 80, sd: 80, sp: 80}},
+    'Stantler': {nfe: true},
+    'Steelix-Mega': {abilities: {0: 'Heatproof'}},
+    'Steenee': {bs: {at: 70, sa: 70}},
+    'Stonjourner': {bs: {sd: 50, sp: 80}},
+    'Stoutland': {bs: {hp: 90, at: 115}},
+    'Sudowoodo': {bs: {hp: 90}},
+    'Sunflora': {bs: {hp: 95, sa: 135, sp: 55}},
+    'Swalot': {bs: {at: 53, df: 88, sa: 93, sd: 88}},
+    'Swanna': {bs: {at: 77, sa: 97, sp: 108}},
+    'Swoobat': {bs: {hp: 75, df: 65}},
+    'Talonflame': {bs: {at: 91}},
+    'Tatsugiri': {bs: {hp: 78, df: 70}},
+    'Tauros': {bs: {sa: 70}},
+    'Tauros-Paldea-Aqua': {types: ['Water', 'Fighting'], bs: {sa: 60}},
+    'Tauros-Paldea-Blaze': {types: ['Fire', 'Fighting'], bs: {sa: 60}},
+    'Tauros-Paldea-Combat': {bs: {sa: 60}},
+    'Teddiursa': {otherFormes: ['Teddiursa-Sevii']},
+    'Tentacruel': {bs: {at: 60, df: 80, sa: 90}},
+    'Terapagos-Terastal': {bs: {hp: 110}},
+    'Thievul': {bs: {sa: 97, sp: 110}},
+    'Throh': {bs: {df: 95, sd: 95}},
+    'Tinkaton': {bs: {at: 85, df: 87}},
+    'Toedscruel': {bs: {at: 60, df: 80, sa: 90}},
+    'Togedemaru': {bs: {at: 108}},
+    'Torkoal': {bs: {at: 75, sa: 95}},
+    'Toucannon': {bs: {hp: 90}},
+    'Toxtricity': {otherFormes: ['Toxtricity-Low-Key', 'Toxtricity-Mega']},
+    'Trevenant': {bs: {at: 120, df: 82}},
+    'Tropius': {types: ['Grass', 'Dragon'], bs: {sa: 92, sp: 81}},
+    'Turtonator': {bs: {hp: 70, at: 58}},
+    'Unfezant': {bs: {at: 105}},
+    'Unown': {bs: {at: 48, sa: 96, sp: 96}},
+    'Ursaluna-Bloodmoon': {bs: {sa: 140}},
+    'Ursaring': {nfe: true, otherFormes: ['Ursaring-Sevii']},
+    'Vanilluxe': {bs: {at: 90, sp: 84}},
+    'Veluza': {bs: {hp: 95, df: 83, sd: 75}},
+    'Venomoth': {types: ['Bug', 'Psychic'], bs: {df: 65, sa: 95}},
+    'Vespiquen': {bs: {hp: 85}},
+    'Victreebel': {bs: {df: 70, sd: 75}},
+    'Volbeat': {types: ['Bug', 'Electric'], bs: {hp: 85, at: 47, sa: 90, sp: 100}},
+    'Wailord': {bs: {hp: 150, at: 50, df: 80, sa: 105, sd: 80, sp: 50}},
+    'Walrein': {bs: {hp: 90}},
+    'Watchog': {bs: {hp: 85, at: 100}},
+    'Wishiwashi': {bs: {hp: 55}, otherFormes: ['Wishiwashi-School', 'Wishiwashi-Sevii', 'Wishiwashi-Sevii-School']},
+    'Wishiwashi-School': {bs: {hp: 55}},
+    'Wormadam-Sandy': {bs: {at: 59, sa: 79}},
+    'Wormadam-Trash': {bs: {at: 59, sa: 79}},
+    'Wugtrio': {bs: {at: 115, sa: 35}},
+    'Wyrdeer': {bs: {at: 80, df: 82, sa: 110, sd: 85}},
+    'Xatu': {bs: {sa: 105, sp: 105}},
+    'Xurkitree': {bs: {at: 69, sp: 98}},
+    'Zangoose': {bs: {df: 70, sd: 70, sp: 100}},
+    'Zebstrika': {otherFormes: ['Zebstrika-Sevii']},
+    'Alcremie-Mega': {
+      types: ['Fairy'],
+      bs: {hp: 65, at: 70, df: 95, sa: 140, sd: 131, sp: 84},
+      weightkg: 0.5,
+      abilities: {0: 'Self Sufficient'},
+      baseSpecies: 'Alcremie',
+    },
+    'Appletun-Mega': {
+      types: ['Grass', 'Dragon'],
+      bs: {hp: 110, at: 105, df: 100, sa: 135, sd: 100, sp: 40},
+      weightkg: 13,
+      abilities: {0: 'Contrary'},
+      baseSpecies: 'Appletun',
+    },
+    'Blitzle-Sevii': {
+      types: ['Ice', 'Electric'],
+      bs: {hp: 45, at: 45, df: 32, sa: 65, sd: 32, sp: 76},
+      weightkg: 29.8,
+      abilities: {0: 'Lightning Rod'},
+      nfe: true,
+      baseSpecies: 'Blitzle',
+    },
+    'Butterfree-Mega': {
+      types: ['Bug', 'Flying'],
+      bs: {hp: 60, at: 45, df: 100, sa: 140, sd: 100, sp: 80},
+      weightkg: 32,
+      abilities: {0: 'Compound Eyes'},
+      baseSpecies: 'Butterfree',
+    },
+    'Carnivine-Sevii': {
+      types: ['Poison', 'Steel'],
+      bs: {hp: 94, at: 100, df: 92, sa: 55, sd: 77, sp: 36},
+      weightkg: 27,
+      abilities: {0: 'Levitate'},
+      baseSpecies: 'Carnivine',
+    },
+    'Centiskorch-Mega': {
+      types: ['Fire', 'Bug'],
+      bs: {hp: 100, at: 150, df: 80, sa: 90, sd: 110, sp: 85},
+      weightkg: 120,
+      abilities: {0: 'Mountaineer'},
+      baseSpecies: 'Centiskorch',
+    },
+    'Centiskorch-Sevii': {
+      types: ['Ground', 'Bug'],
+      bs: {hp: 100, at: 115, df: 65, sa: 65, sd: 90, sp: 90},
+      weightkg: 120,
+      abilities: {0: 'Shed Skin'},
+      baseSpecies: 'Centiskorch',
+    },
+    'Centiskorch-Sevii-Mega': {
+      types: ['Ground', 'Bug'],
+      bs: {hp: 100, at: 150, df: 80, sa: 75, sd: 100, sp: 120},
+      weightkg: 120,
+      abilities: {0: 'Arena Trap'},
+      baseSpecies: 'Centiskorch',
+    },
+    'Chillet': {
+      types: ['Ice', 'Dragon'],
+      bs: {hp: 85, at: 100, df: 74, sa: 45, sd: 65, sp: 111},
+      weightkg: 32.5,
+      abilities: {0: 'Refriegerate'},
+    },
+    'Clauncher-Sevii': {
+      types: ['Bug', 'Dark'],
+      bs: {hp: 50, at: 38, df: 62, sa: 58, sd: 63, sp: 59},
+      weightkg: 8.3,
+      abilities: {0: 'Mega Launcher'},
+      nfe: true,
+      baseSpecies: 'Clauncher',
+    },
+    'Clawitzer-Sevii': {
+      types: ['Bug', 'Dark'],
+      bs: {hp: 81, at: 63, df: 83, sa: 110, sd: 79, sp: 97},
+      weightkg: 35.3,
+      abilities: {0: 'Mega Launcher'},
+      baseSpecies: 'Clawitzer',
+    },
+    'Coalossal-Mega': {
+      types: ['Steel', 'Fire'],
+      bs: {hp: 110, at: 80, df: 125, sa: 125, sd: 105, sp: 45},
+      weightkg: 310.5,
+      abilities: {0: 'Mountaineer'},
+      baseSpecies: 'Coalossal',
+    },
+    'Copperajah-Mega': {
+      types: ['Steel', 'Fighting'],
+      bs: {hp: 122, at: 155, df: 94, sa: 100, sd: 94, sp: 20},
+      weightkg: 650,
+      abilities: {0: 'Sheer Force'},
+      baseSpecies: 'Copperajah',
+    },
+    'Dhelmise-Sevii': {
+      types: ['Water', 'Grass'],
+      bs: {hp: 90, at: 81, df: 105, sa: 106, sd: 95, sp: 40},
+      weightkg: 210,
+      gender: 'N',
+      abilities: {0: 'Sap Sipper'},
+      baseSpecies: 'Dhelmise',
+    },
+    'Dialga-Primal': {
+      types: ['Steel', 'Dragon'],
+      bs: {hp: 100, at: 120, df: 150, sa: 185, sd: 130, sp: 90},
+      weightkg: 683,
+      abilities: {0: 'Primal Armor'},
+      gender: 'N',
+      baseSpecies: 'Dialga',
+    },
+    'Dodrio-Sevii': {
+      types: ['Fire', 'Ground'],
+      bs: {hp: 65, at: 125, df: 65, sa: 40, sd: 65, sp: 110},
+      weightkg: 85.2,
+      abilities: {0: 'Rock Head'},
+      baseSpecies: 'Dodrio',
+    },
+    'Doduo-Sevii': {
+      types: ['Fire', 'Ground'],
+      bs: {hp: 40, at: 80, df: 45, sa: 35, sd: 35, sp: 75},
+      weightkg: 39.2,
+      abilities: {0: 'Rock Head'},
+      nfe: true,
+      baseSpecies: 'Doduo',
+    },
+    'Drednaw-Mega': {
+      types: ['Water', 'Fighting'],
+      bs: {hp: 90, at: 155, df: 125, sa: 48, sd: 98, sp: 85},
+      weightkg: 115.5,
+      abilities: {0: 'Strong Jaw'},
+      baseSpecies: 'Drednaw',
+    },
+    'Duraludon-Mega': {
+      types: ['Steel', 'Dragon'],
+      bs: {hp: 85, at: 95, df: 140, sa: 140, sd: 90, sp: 95},
+      weightkg: 40,
+      abilities: {0: 'Bad Company'},
+      baseSpecies: 'Duraludon',
+    },
+    'Feebas-Sevii': {
+      types: ['Water', 'Ground'],
+      bs: {hp: 20, at: 15, df: 20, sa: 10, sd: 55, sp: 80},
+      weightkg: 7.4,
+      abilities: {0: 'Swift Swim'},
+      nfe: true,
+      baseSpecies: 'Feebas',
+    },
+    'Flapple-Mega': {
+      types: ['Grass', 'Dragon'],
+      bs: {hp: 70, at: 145, df: 90, sa: 135, sd: 70, sp: 105},
+      weightkg: 1,
+      abilities: {0: 'Dragon\'s Maw'},
+      baseSpecies: 'Flapple',
+    },
+    'Garbodor-Mega': {
+      types: ['Poison'],
+      bs: {hp: 80, at: 135, df: 105, sa: 105, sd: 105, sp: 75},
+      weightkg: 107.3,
+      abilities: {0: 'Parasitic Waste'},
+      baseSpecies: 'Garbodor',
+    },
+    'Kingler-Mega': {
+      types: ['Water', 'Steel'],
+      bs: {hp: 55, at: 150, df: 130, sa: 50, sd: 75, sp: 110},
+      weightkg: 60,
+      abilities: {0: 'Tough Claws'},
+      baseSpecies: 'Kingler',
+    },
+    'Lapras-Mega': {
+      types: ['Water', 'Dragon'],
+      bs: {hp: 130, at: 105, df: 90, sa: 115, sd: 105, sp: 70},
+      weightkg: 220,
+      abilities: {0: 'Liquid Voice'},
+      baseSpecies: 'Lapras',
+    },
+    'Lokix-Sevii': {
+      types: ['Bug', 'Dragon'],
+      bs: {hp: 71, at: 102, df: 78, sa: 52, sd: 55, sp: 92},
+      weightkg: 17.5,
+      abilities: {0: 'Swarm'},
+      baseSpecies: 'Lokix',
+    },
+    'Machamp-Mega': {
+      types: ['Fighting'],
+      bs: {hp: 90, at: 145, df: 110, sa: 65, sd: 115, sp: 75},
+      weightkg: 130,
+      abilities: {0: 'ORAORAORAORA'},
+      baseSpecies: 'Machamp',
+    },
+    'Mantine-Sevii': {
+      types: ['Electric', 'Poison'],
+      bs: {hp: 80, at: 30, df: 70, sa: 100, sd: 120, sp: 95},
+      weightkg: 220,
+      abilities: {0: 'Static'},
+      baseSpecies: 'Mantine',
+    },
+    'Mantyke-Sevii': {
+      types: ['Electric', 'Poison'],
+      bs: {hp: 45, at: 20, df: 55, sa: 70, sd: 85, sp: 70},
+      weightkg: 65,
+      abilities: {0: 'Static'},
+      nfe: true,
+      baseSpecies: 'Mantyke',
+    },
+    'Milotic-Sevii': {
+      types: ['Fairy', 'Ground'],
+      bs: {hp: 95, at: 60, df: 84, sa: 105, sd: 125, sp: 81},
+      weightkg: 162,
+      abilities: {0: 'Marvel Scale'},
+      baseSpecies: 'Milotic',
+    },
+    'Noibat-Sevii': {
+      types: ['Rock', 'Ghost'],
+      bs: {hp: 40, at: 45, df: 35, sa: 30, sd: 40, sp: 55},
+      weightkg: 8,
+      abilities: {0: 'Cursed Body'},
+      nfe: true,
+      baseSpecies: 'Noibat',
+    },
+    'Noivern-Sevii': {
+      types: ['Rock', 'Ghost'],
+      bs: {hp: 85, at: 102, df: 80, sa: 70, sd: 80, sp: 123},
+      weightkg: 85,
+      abilities: {0: 'Cursed Body'},
+      baseSpecies: 'Noivern',
+    },
+    'Nymble-Sevii': {
+      types: ['Bug', 'Dragon'],
+      bs: {hp: 33, at: 46, df: 40, sa: 21, sd: 25, sp: 45},
+      weightkg: 1,
+      abilities: {0: 'Swarm'},
+      nfe: true,
+      baseSpecies: 'Nymble',
+    },
+    'Orbeetle-Mega': {
+      types: ['Bug', 'Psychic'],
+      bs: {hp: 60, at: 45, df: 125, sa: 135, sd: 130, sp: 100},
+      weightkg: 40.8,
+      abilities: {0: 'Magic Guard'},
+      baseSpecies: 'Orbeetle',
+    },
+    'Pikachu-Flying': {
+      types: ['Electric', 'Flying'],
+      bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
+      weightkg: 6,
+      abilities: {0: 'Static'},
+      baseSpecies: 'Pikachu',
+    },
+    'Pikachu-Surfing': {
+      types: ['Electric', 'Water'],
+      bs: {hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90},
+      weightkg: 6,
+      abilities: {0: 'Static'},
+      baseSpecies: 'Pikachu',
+    },
+    'Sandaconda-Mega': {
+      types: ['Ground', 'Flying'],
+      bs: {hp: 72, at: 140, df: 160, sa: 85, sd: 90, sp: 81},
+      weightkg: 65.5,
+      abilities: {0: 'Aerilate'},
+      baseSpecies: 'Sandaconda',
+    },
+    'Sizzlipede-Sevii': {
+      types: ['Ground', 'Bug'],
+      bs: {hp: 50, at: 65, df: 45, sa: 50, sd: 50, sp: 45},
+      weightkg: 1,
+      abilities: {0: 'Shed Skin'},
+      nfe: true,
+      baseSpecies: 'Sizzlipede',
+    },
+    'Snorlax-Mega': {
+      types: ['Normal', 'Grass'],
+      bs: {hp: 160, at: 160, df: 85, sa: 80, sd: 125, sp: 30},
+      weightkg: 460,
+      abilities: {0: 'Thick Fat'},
+      baseSpecies: 'Snorlax',
+    },
+    'Teddiursa-Sevii': {
+      types: ['Ghost'],
+      bs: {hp: 55, at: 80, df: 50, sa: 45, sd: 50, sp: 50},
+      weightkg: 8.8,
+      abilities: {0: 'Pickup'},
+      nfe: true,
+      baseSpecies: 'Teddiursa',
+    },
+    'Toxtricity-Mega': {
+      types: ['Electric', 'Poison'],
+      bs: {hp: 75, at: 120, df: 80, sa: 155, sd: 80, sp: 111},
+      weightkg: 40,
+      abilities: {0: 'Punk Rock'},
+      baseSpecies: 'Toxtricity',
+    },
+    'Ursaring-Sevii': {
+      types: ['Ghost', 'Fighting'],
+      bs: {hp: 100, at: 110, df: 90, sa: 55, sd: 90, sp: 55},
+      weightkg: 125.8,
+      abilities: {0: 'Guts'},
+      baseSpecies: 'Ursaring',
+    },
+    'Wishiwashi-Sevii': {
+      types: ['Ghost'],
+      bs: {hp: 60, at: 20, df: 20, sa: 25, sd: 15, sp: 35},
+      weightkg: 0.3,
+      abilities: {0: 'Schooling'},
+      baseSpecies: 'Wishiwashi',
+    },
+    'Wishiwashi-Sevii-School': {
+      types: ['Ghost', 'Dragon'],
+      bs: {hp: 60, at: 140, df: 130, sa: 140, sd: 135, sp: 25},
+      weightkg: 78.6,
+      abilities: {0: 'Schooling'},
+      baseSpecies: 'Wishiwashi',
+    },
+    'Zebstrika-Sevii': {
+      types: ['Ice', 'Electric'],
+      bs: {hp: 75, at: 70, df: 63, sa: 110, sd: 63, sp: 116},
+      weightkg: 79.5,
+      abilities: {0: 'Lightning Rod'},
+      baseSpecies: 'Zebstrika',
+    },
+};
+
+"use strict";
+var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, RR_PATCH);
 exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
-var Species = (function () {
-    function Species(gen) {
-        this.gen = gen;
+
+function Species(gen) {
+    if (!(this instanceof Species)) {
+        return new Species(gen);
     }
-    Species.prototype.get = function (id) {
-        return SPECIES_BY_ID[this.gen][id];
-    };
-    Species.prototype[Symbol.iterator] = function () {
-        var _a, _b, _c, _i, id;
-        return __generator(this, function (_d) {
-            switch (_d.label) {
-                case 0:
-                    _a = SPECIES_BY_ID[this.gen];
-                    _b = [];
-                    for (_c in _a)
-                        _b.push(_c);
-                    _i = 0;
-                    _d.label = 1;
-                case 1:
-                    if (!(_i < _b.length)) return [3, 4];
-                    _c = _b[_i];
-                    if (!(_c in _a)) return [3, 3];
-                    id = _c;
-                    return [4, this.get(id)];
-                case 2:
-                    _d.sent();
-                    _d.label = 3;
-                case 3:
-                    _i++;
-                    return [3, 1];
-                case 4: return [2];
-            }
-        });
-    };
-    return Species;
-}());
-exports.Species = Species;
-var Specie = (function () {
-    function Specie(name, data) {
-        this.kind = 'Species';
-        this.id = (0, util_1.toID)(name);
-        this.name = name;
-        var baseStats = {};
-        baseStats.hp = data.bs.hp;
-        baseStats.atk = data.bs.at;
-        baseStats.def = data.bs.df;
-        baseStats.spa = gen >= 2 ? data.bs.sa : data.bs.sl;
-        baseStats.spd = gen >= 2 ? data.bs.sd : data.bs.sl;
-        baseStats.spe = data.bs.sp;
-        this.baseStats = baseStats;
+    if (typeof gen !== 'number' || gen < 0 || gen >= SPECIES_BY_ID.length) {
+        throw new Error('Invalid generation number: ' + gen);
+    }
+    this.gen = gen;
+}
+
+Species.prototype.get = function(id) {
+    if (!SPECIES_BY_ID[this.gen]) {
+        throw new Error('Generation ' + this.gen + ' not found in SPECIES_BY_ID');
+    }
+    return SPECIES_BY_ID[this.gen][id];
+};
+
+Species.prototype[Symbol.iterator] = function* () {
+    for (const id in SPECIES_BY_ID[this.gen]) {
+        yield this.get(id);
+    }
+};
+
+function Specie(name, data) {
+    if (!(this instanceof Specie)) {
+        return new Specie(name, data);
+    }
+        
+    this.kind = 'Species';
+    this.id = (0, util_1.toID)(name);
+    this.name = name;
+    
+    var baseStats = {};
+    if (data && data.bs) {
+        baseStats.hp = data.bs.hp || 0;
+        baseStats.atk = data.bs.at || 0;
+        baseStats.def = data.bs.df || 0;
+        
+        if (gen >= 2) {
+            baseStats.spa = data.bs.sa || 0;
+            baseStats.spd = data.bs.sd || 0;
+        } else if (data.bs.sl) {
+            baseStats.spa = data.bs.sl;
+            baseStats.spd = data.bs.sl;
+        } else {
+            baseStats.spa = 0;
+            baseStats.spd = 0;
+        }
+        
+        baseStats.spe = data.bs.sp || 0;
+    } else {
+        baseStats = { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 };
+    }
+    this.baseStats = baseStats;
+    
+    if (data) {
+        if (data.types) {
+            this.types = Array.isArray(data.types) ? [...data.types] : [data.types];
+        }
+        
+        if (typeof data.weightkg === 'number') {
+            this.weightkg = data.weightkg;
+        }
+        
+        if (typeof data.nfe === 'boolean') {
+            this.nfe = data.nfe;
+        }
+        
         if (data.otherFormes) {
             this.otherFormes = data.otherFormes;
             if (gen >= 9 && !['toxtricity', 'urshifu'].includes(this.id)) {
-                this.otherFormes = this.otherFormes.filter(function (f) { return !f.endsWith('-Gmax'); });
-                if (!this.otherFormes.length)
+                this.otherFormes = this.otherFormes.filter(function (f) {
+                    return !f.endsWith('-Gmax');
+                });
+                if (!this.otherFormes.length) {
                     this.otherFormes = undefined;
-                if (this.otherFormes)
-                    this.otherFormes = __spreadArray([], __read(new Set(this.otherFormes)), false);
+                }
+                if (this.otherFormes) {
+                    this.otherFormes = Array.from(new Set(this.otherFormes));
+                }
             }
         }
+        
         (0, util_1.assignWithout)(this, data, Specie.EXCLUDE);
     }
-    Specie.EXCLUDE = new Set(['bs', 'otherFormes']);
-    return Specie;
-}());
+}
+
+Specie.EXCLUDE = new Set(['bs', 'otherFormes']);
+
 var SPECIES_BY_ID = [];
 var gen = 0;
-try {
-    for (var SPECIES_1 = __values(exports.SPECIES), SPECIES_1_1 = SPECIES_1.next(); !SPECIES_1_1.done; SPECIES_1_1 = SPECIES_1.next()) {
-        var species = SPECIES_1_1.value;
-        var map = {};
-        for (var specie in species) {
-            if (gen >= 2 && species[specie].bs.sl)
-                delete species[specie].bs.sl;
+
+
+for (var species of exports.SPECIES) {
+    var map = {};
+    for (var specie in species) {
+        try {
             var m = new Specie(specie, species[specie]);
             map[m.id] = m;
+        } catch (error) {
         }
-        SPECIES_BY_ID.push(map);
-        gen++;
     }
+    SPECIES_BY_ID.push(map);
+    gen++;
 }
-catch (e_1_1) { e_1 = { error: e_1_1 }; }
-finally {
-    try {
-        if (SPECIES_1_1 && !SPECIES_1_1.done && (_a = SPECIES_1["return"])) _a.call(SPECIES_1);
-    }
-    finally { if (e_1) throw e_1.error; }
-}
-//# sourceMappingURL=species.js.map
+
+exports.Species = Species;
