@@ -121,7 +121,7 @@ function performCalculations() {
         secondaryTitle.textContent = "Checks Pokemon (Average Damage < 40%)";
         damageHeader.textContent = "Avg Damage %";
     } else {
-        secondaryTitle.textContent = "Counter Pokemon (One Move's Damage > 100%)";
+        secondaryTitle.textContent = "Counter Pokemon (One Move's Damage > 75%)";
         damageHeader.textContent = "Max Damage %";
     }
 
@@ -279,7 +279,7 @@ function performCalculations() {
                 ]);
             }
         } else {
-            if (stats.maxDamage >= 100) {
+            if (stats.maxDamage >= 75) {
                 secondaryData.push([
                     pokemon.split(" (")[0],
                     stats.types[0],
