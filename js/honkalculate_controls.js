@@ -229,15 +229,16 @@ function performCalculations() {
 			var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
 			var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
 			var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
-			var minPixels = Math.floor(minDamage * 48 / defender.maxHP());
-			var maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
 
-			var moveData = baseInfo.slice();
-			moveData.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
-			moveData.push(minPercentage + " - " + maxPercentage + "%");
-			moveData.push(minPixels + " - " + maxPixels + "px");
-			moveData.push(result.kochance(false).text || 'possibly the worst move ever');
-			moveData = moveData.concat(pokemonInfo);
+            var moveData = baseInfo.slice();
+            var moveName = attacker.moves[n].name.replace("Hidden Power", "HP");
+            var moveType = attacker.moves[n].type;
+            var effectiveBP = attacker.moves[n].bp * attacker.moves[n].hits;
+            moveData.push(moveName + " (" + moveType + ")");
+            moveData.push(effectiveBP + " BP");   
+            moveData.push(minPercentage + " - " + maxPercentage + "%");
+            moveData.push(result.kochance(false).text);
+            moveData = moveData.concat(pokemonInfo);  
 			dataSet.push(moveData);
 		}
 	}
@@ -308,45 +309,45 @@ function adjustTierBorderRadius() {
 var table;
 
 function constructDataTable() {
-	table = $("#holder-2").DataTable({
-		destroy: true,
-		columnDefs: [{
-				targets: [3, 5, 6, 7, 8],
-				visible: false,
-				searchable: false
-			},
-			{
-				targets: [2],
-				type: 'damage100'
-			},
-			{
-				targets: [3],
-				type: 'damage48'
-			},
-			{
-				targets: [4],
-				iDataSort: 2
-			}
-		],
-		dom: 'C<"clear">fti',
-		colVis: {
-			exclude: (gen > 2) ? [0, 1, 2] : (gen === 2) ? [0, 1, 2, 7] : [0, 1, 2, 7, 8],
-			stateChange: function(iColumn, bVisible) {
-				var column = table.settings()[0].aoColumns[iColumn];
-				if (column.bSearchable !== bVisible) {
-					column.bSearchable = bVisible;
-					table.rows().invalidate();
-				}
-			}
-		},
-		paging: false,
-		scrollX: Math.floor(dtWidth / 100) * 100,
-		scrollY: dtHeight,
-		scrollCollapse: true
-	});
-	$(".dataTables_wrapper").css({
-		"max-width": dtWidth
-	});
+    table = $("#holder-2").DataTable({
+        destroy: true,
+        columnDefs: [{
+                targets: [5, 6, 7, 8], // Updated indices to remove Damage (px)
+                visible: false,
+                searchable: false
+            },
+            {
+                targets: [2], // Base Power column
+                type: 'numeric'
+            },
+            {
+                targets: [3], // Damage % column
+                type: 'damage100'
+            },
+            {
+                targets: [4], // KO chance column
+                iDataSort: 3
+            }
+        ],
+        dom: 'C<"clear">fti',
+        colVis: {
+            exclude: (gen > 2) ? [0, 1, 2, 3] : (gen === 2) ? [0, 1, 2, 3, 7] : [0, 1, 2, 3, 7, 8],
+            stateChange: function(iColumn, bVisible) {
+                var column = table.settings()[0].aoColumns[iColumn];
+                if (column.bSearchable !== bVisible) {
+                    column.bSearchable = bVisible;
+                    table.rows().invalidate();
+                }
+            }
+        },
+        paging: false,
+        scrollX: Math.floor(dtWidth / 100) * 100,
+        scrollY: dtHeight,
+        scrollCollapse: true
+    });
+    $(".dataTables_wrapper").css({
+        "max-width": dtWidth
+    });
 }
 
 function placeBsBtn() {
@@ -382,7 +383,7 @@ $(".mode").change(function() {
 	} else {
 		var params = new URLSearchParams(window.location.search);
 		params.set('mode', $(this).attr("id"));
-		window.location.replace('honkalculate' + linkExtension + '?' + params);
+		window.location.replace('index' + linkExtension + '?' + params);
 	}
 });
 
@@ -443,34 +444,29 @@ $(".set-selector").change(function(e) {
 
 var dtHeight, dtWidth;
 $(document).ready(function() {
-	var params = new URLSearchParams(window.location.search);
-	window.mode = params.get("mode");
-	if (window.mode) {
-		if (window.mode === "randoms") {
-			window.location.replace("randoms" + linkExtension + "?" + params);
-		} else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
-			window.location.replace("index" + linkExtension + "?" + params);
-		}
-	} else {
-		window.mode = "one-vs-all";
-	}
+    var params = new URLSearchParams(window.location.search);
+    window.mode = params.get("mode");
+    if (window.mode) {
+        if (window.mode === "randoms") {
+            window.location.replace("randoms" + linkExtension + "?" + params);
+        } else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
+            window.location.replace("index" + linkExtension + "?" + params);
+        }
+    } else {
+        window.mode = "one-vs-all";
+    }
 
-	$("#" + mode).prop("checked", true);
-	$("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
-	$("#holder-2").show();
+    $("#" + mode).prop("checked", true);
+    $("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
+    $("#holder-2").show();
 
-	$("#OU").prop("checked", true);
+    $("#OU").prop("checked", true);
 
-	loadProgressionPoints();
+    loadProgressionPoints();  // Just load the points, don't auto-calculate
 
-	$("#progression-select").change(function() {
-		table.clear();
-		performCalculations();
-	});
-
-	calcDTDimensions();
-	constructDataTable();
-	placeBsBtn();
+    calcDTDimensions();
+    constructDataTable();
+    placeBsBtn();
 });
 
 $(".gen").change(function() {

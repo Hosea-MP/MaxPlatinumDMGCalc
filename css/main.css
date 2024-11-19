@@ -77,6 +77,19 @@ a img {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+  .bs-btn.bs-btn-default {
+    position: relative !important;
+    display: block;
+    margin: 0 auto 1rem;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #374151;
+    cursor: pointer;
+}
   .button {
     outline: none;
     cursor: pointer;
@@ -705,4 +718,36 @@ a img {
   .footer #dark-theme-toggle {
     margin: 1rem auto 0;
   }
-  
+  /* Center all table content */
+#holder-2 {
+    width: 100%;
+}
+
+#holder-2 th,
+#holder-2 td {
+    text-align: center !important;
+}
+
+/* DataTables specific centering */
+.dataTables_wrapper .sorting,
+.dataTables_wrapper .sorting_asc,
+.dataTables_wrapper .sorting_desc {
+    text-align: center;
+}
+
+/* Ensure column headers are also centered */
+.dataTables_scrollHead table th {
+    text-align: center !important;
+}
+
+/* Center the table within its container */
+.dataTables_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ensure content within cells is centered */
+#holder-2 td {
+    vertical-align: middle;
+}
