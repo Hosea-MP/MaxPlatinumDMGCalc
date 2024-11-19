@@ -122,7 +122,7 @@ function performCalculations() {
         damageHeader.textContent = "Avg Damage %";
     } else {
         secondaryTitle.textContent = "Counter Pokemon (One Move's Damage > 75%)";
-        damageHeader.textContent = "Max Damage %";
+        damageHeader.textContent = "Damage (%)";
     }
 
     const progressionSelect = document.getElementById('progression-select');
