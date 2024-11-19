@@ -1,4 +1,4 @@
-$.fn.DataTable.ColVis.prototype._fnDomColumnButton = function (i) {
+$.fn.DataTable.ColVis.prototype._fnDomColumnButton = function(i) {
 	var
 		that = this,
 		column = this.s.dt.aoColumns[i],
@@ -9,26 +9,22 @@ $.fn.DataTable.ColVis.prototype._fnDomColumnButton = function (i) {
 		this.s.fnLabel(i, column.sTitle, column.nTh);
 
 	return $(
-		'<li ' + (dt.bJUI ? 'class="ui-button ui-state-default"' : '') + '>' +
-		'<label>' +
-		'<input type="checkbox" />' +
-		'<span>' + title + '</span>' +
-		'</label>' +
-		'</li>'
-	)
-		.click(function (e) {
+			'<li ' + (dt.bJUI ? 'class="ui-button ui-state-default"' : '') + '>' +
+			'<label>' +
+			'<input type="checkbox" />' +
+			'<span>' + title + '</span>' +
+			'</label>' +
+			'</li>'
+		)
+		.click(function(e) {
 			var showHide = !$('input', this).is(":checked");
 			if (e.target.nodeName.toLowerCase() !== "li") {
 				showHide = !showHide;
 			}
 
-			/* Need to consider the case where the initialiser created more than one table - change the
-			 * API index that DataTables is using
-			 */
 			var oldIndex = $.fn.dataTableExt.iApiIndex;
 			$.fn.dataTableExt.iApiIndex = that._fnDataTablesApiIndex();
 
-			// Optimisation for server-side processing when scrolling - don't do a full redraw
 			if (dt.oFeatures.bServerSide) {
 				that.s.dt.oInstance.fnSetColumnVis(i, showHide, false);
 				that.s.dt.oInstance.fnAdjustColumnSizing(false);
@@ -40,7 +36,7 @@ $.fn.DataTable.ColVis.prototype._fnDomColumnButton = function (i) {
 				that.s.dt.oInstance.fnSetColumnVis(i, showHide);
 			}
 
-			$.fn.dataTableExt.iApiIndex = oldIndex; /* Restore */
+			$.fn.dataTableExt.iApiIndex = oldIndex;
 
 			if ((e.target.nodeName.toLowerCase() === 'input' || e.target.nodeName.toLowerCase() === 'li') && that.s.fnStateChange !== null) {
 				that.s.fnStateChange.call(that, i, showHide);
@@ -48,232 +44,211 @@ $.fn.DataTable.ColVis.prototype._fnDomColumnButton = function (i) {
 		})[0];
 };
 
-$.fn.dataTableExt.oSort['damage100-asc'] = function (a, b) {
+$.fn.dataTableExt.oSort['damage100-asc'] = function(a, b) {
 	return parseFloat(a) - parseFloat(b);
 };
-$.fn.dataTableExt.oSort['damage100-desc'] = function (a, b) {
+$.fn.dataTableExt.oSort['damage100-desc'] = function(a, b) {
 	return parseFloat(b) - parseFloat(a);
 };
 
-$.fn.dataTableExt.oSort['damage48-asc'] = function (a, b) {
+$.fn.dataTableExt.oSort['damage48-asc'] = function(a, b) {
 	return parseInt(a) - parseInt(b);
 };
-$.fn.dataTableExt.oSort['damage48-desc'] = function (a, b) {
+$.fn.dataTableExt.oSort['damage48-desc'] = function(a, b) {
 	return parseInt(b) - parseInt(a);
 };
 
 async function loadProgressionPoints() {
-    try {
-        const response = await fetch('potential_encounters.json');
-        const data = await response.json();
-        const select = document.getElementById('progression-select');
-        
-        // Clear existing options
-        select.innerHTML = '<option value="">Select progression point...</option>';
-        
-        // Add an option for each boss/location combination
-        data.forEach(point => {
-            const option = document.createElement('option');
-            option.value = JSON.stringify(point.encounters);
-            option.text = `${point.boss} (${point.location})`;
-            select.appendChild(option);
-        });
-    } catch (error) {
-        console.error('Error loading progression points:', error);
-    }
+	try {
+		const response = await fetch('potential_encounters.json');
+		const data = await response.json();
+		const select = document.getElementById('progression-select');
+
+		select.innerHTML = '<option value="">Select progression point...</option>';
+
+		data.forEach(point => {
+			const option = document.createElement('option');
+			option.value = JSON.stringify(point.encounters);
+			option.text = `${point.boss} (${point.location})`;
+			select.appendChild(option);
+		});
+	} catch (error) {
+		console.error('Error loading progression points:', error);
+	}
 }
 
-// Add these helper functions
 function getMovesForType(type) {
-    return Object.entries(moves)
-        .filter(([name, move]) => {
-            return move.type === type && 
-                   move.bp >= 30 && 
-                   move.bp <= 100 &&
-                   move.category !== 'Status';
-        })
-        .map(([name]) => name); // Only return the move name
+	return Object.entries(moves)
+		.filter(([name, move]) => {
+			return move.type === type &&
+				move.bp >= 30 &&
+				move.bp <= 100 &&
+				move.category !== 'Status';
+		})
+		.map(([name]) => name);
 }
 
 function selectMovesForPokemon(types) {
-    let selectedMoves = [];
-    
-    // First, ensure we have at least one move of each type the Pokemon has
-    types.forEach(type => {
-        if (!type) return; // Skip empty second type
-        
-        const movesOfType = getMovesForType(type);
-        if (movesOfType.length > 0) {
-            // Select a random move of this type
-            const randomMove = movesOfType[Math.floor(Math.random() * movesOfType.length)];
-            selectedMoves.push(randomMove);
-        }
-    });
-    
-    // If we still need more moves, select random moves from any type
-    while (selectedMoves.length < 4) {
-        // Get all valid moves
-        const allValidMoves = Object.entries(moves)
-            .filter(([name, move]) => 
-                move.bp >= 30 && 
-                move.bp <= 100 && 
-                move.category !== 'Status'
-            )
-            .map(([name]) => name);
-        
-        // Select a random move that's not already selected
-        const remainingMoves = allValidMoves.filter(move => 
-            !selectedMoves.includes(move)
-        );
-        
-        if (remainingMoves.length === 0) {
-            // If we can't find any more valid moves, fill with Tackle
-            selectedMoves.push('Tackle');
-        } else {
-            const randomMove = remainingMoves[Math.floor(Math.random() * remainingMoves.length)];
-            selectedMoves.push(randomMove);
-        }
-    }
-    
-    return selectedMoves;
+	let selectedMoves = [];
+
+	types.forEach(type => {
+		if (!type) return;
+
+		const movesOfType = getMovesForType(type);
+		if (movesOfType.length > 0) {
+
+			const randomMove = movesOfType[Math.floor(Math.random() * movesOfType.length)];
+			selectedMoves.push(randomMove);
+		}
+	});
+
+	while (selectedMoves.length < 4) {
+		selectedMoves.push('(No Move)');
+	}
+
+	return selectedMoves;
 }
 
-// This is the complete performCalculations function that needs to replace your existing one
 function performCalculations() {
-    var attacker, defender;
-    var dataSet = [];
-    var pokeInfo = $("#p1");
+	var attacker, defender;
+	var dataSet = [];
+	var pokeInfo = $("#p1");
 
-    // Get the selected encounters
-    const progressionSelect = document.getElementById('progression-select');
-    const selectedEncounters = progressionSelect.value ? 
-        JSON.parse(progressionSelect.value) : null;
+	const progressionSelect = document.getElementById('progression-select');
+	const selectedEncounters = progressionSelect.value ?
+		JSON.parse(progressionSelect.value) : null;
 
-    // If there are selected encounters, use those instead of setOptions
-    const pokemonToCalculate = selectedEncounters || getSetOptions();
+	const pokemonToCalculate = selectedEncounters || getSetOptions();
 
-    for (var i = 0; i < pokemonToCalculate.length; i++) {
-        let pokemonId;
-        let baseInfo;
+	for (var i = 0; i < pokemonToCalculate.length; i++) {
+		let pokemonId;
+		let baseInfo;
 
-        if (selectedEncounters) {
-            // If using encounters list, construct a basic set for this Pokemon
-            pokemonId = pokemonToCalculate[i];
+		if (selectedEncounters) {
 
-            // Debug logging
-            console.log("Processing Pokemon:", pokemonId);
-            console.log("Exists in Pokedex:", !!pokedex[pokemonId]);
-            
-            // Try to handle forme names properly
-            let baseName = pokemonId.split('-')[0];
-            let isInPokedex = !!pokedex[pokemonId];
-            let baseInPokedex = !!pokedex[baseName];
-            
-            if (!isInPokedex && !baseInPokedex) {
-                console.log("Pokemon not found in pokedex:", pokemonId);
-                continue; // Skip this Pokemon if we can't find it
-            }
+			pokemonId = pokemonToCalculate[i];
 
-            // Use the base name if the full name isn't in the pokedex
-            let actualPokemonId = isInPokedex ? pokemonId : baseName;
+			console.log("Processing Pokemon:", pokemonId);
+			console.log("Exists in Pokedex:", !!pokedex[pokemonId]);
 
-            // Create a default set if none exists
-            if (!setdex[actualPokemonId] || !setdex[actualPokemonId]["Blank Set"]) {
-                const pokemon = pokedex[actualPokemonId];
-                const types = [pokemon.types[0], pokemon.types[1] || null].filter(Boolean);
-                const selectedMoves = selectMovesForPokemon(types);
+			let baseName = pokemonId.split('-')[0];
+			let isInPokedex = !!pokedex[pokemonId];
+			let baseInPokedex = !!pokedex[baseName];
 
-                setdex[actualPokemonId] = setdex[actualPokemonId] || {};
-                setdex[actualPokemonId]["Blank Set"] = {
-                    level: 100,
-                    ability: pokemon?.abilities?.[0] || "",
-                    item: "",
-                    nature: "Hardy",
-                    evs: {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0},
-                    ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31},
-                    moves: selectedMoves
-                };
-            }
-            
-            let fullId = actualPokemonId + " (Blank Set)";
-            baseInfo = [fullId];
-            pokemonId = fullId;  // Update pokemonId to include the set name
-        } else {
-            // Original behavior for setOptions
-            if (!pokemonToCalculate[i].id || typeof pokemonToCalculate[i].id === "undefined") continue;
-            pokemonId = pokemonToCalculate[i].id;
-            setName = pokemonId.substring(pokemonId.indexOf("(") + 1, pokemonId.lastIndexOf(")"));
-            setTier = setName.substring(0, setName.indexOf(" "));
-            if (selectedTiers.indexOf(setTier) === -1) continue;
-            baseInfo = [pokemonId];
-        }
+			if (!isInPokedex && !baseInPokedex) {
+				console.log("Pokemon not found in pokedex:", pokemonId);
+				continue;
+			}
 
-        var field = createField();
-        try {
-            if (mode === "one-vs-all") {
-                attacker = createPokemon(pokeInfo);
-                defender = createPokemon(pokemonId);
-            } else {
-                attacker = createPokemon(pokemonId);
-                defender = createPokemon(pokeInfo);
-                field.swap();
-            }
-        } catch (error) {
-            console.error("Error creating Pokemon:", pokemonId, error);
-            continue; // Skip this Pokemon if we can't create it
-        }
+			let actualPokemonId = isInPokedex ? pokemonId : baseName;
 
-        if (attacker.ability === "Rivalry") {
-            attacker.gender = "N";
-        }
-        if (defender.ability === "Rivalry") {
-            defender.gender = "N";
-        }
+			if (!setdex[actualPokemonId] || !setdex[actualPokemonId]["Blank Set"]) {
+				const pokemon = pokedex[actualPokemonId];
+				const types = [pokemon.types[0], pokemon.types[1] || null].filter(Boolean);
+				const selectedMoves = selectMovesForPokemon(types);
 
-        var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
-        attacker = damageResults[0].attacker;
-        defender = damageResults[0].defender;
+				setdex[actualPokemonId] = setdex[actualPokemonId] || {};
+				setdex[actualPokemonId]["Blank Set"] = {
+					level: 100,
+					ability: pokemon?.abilities?.[0] || "",
+					item: "",
+					nature: "Hardy",
+					evs: {
+						hp: 0,
+						atk: 0,
+						def: 0,
+						spa: 0,
+						spd: 0,
+						spe: 0
+					},
+					ivs: {
+						hp: 31,
+						atk: 31,
+						def: 31,
+						spa: 31,
+						spd: 31,
+						spe: 31
+					},
+					moves: selectedMoves
+				};
+			}
 
-        // Store base info that will be common for all moves
-        var pokemonInfo = [
-            (mode === "one-vs-all") ? defender.types[0] : attacker.types[0],
-            ((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || "",
-            ((mode === "one-vs-all") ? defender.ability : attacker.ability) || "",
-            ((mode === "one-vs-all") ? defender.item : attacker.item) || ""
-        ];
+			let fullId = actualPokemonId + " (Blank Set)";
+			baseInfo = [fullId];
+			pokemonId = fullId;
+		} else {
 
-        // Process each move
-        for (var n = 0; n < 4; n++) {
-            var result = damageResults[n];
-            // Skip moves that do no damage
-            if (attacker.moves[n].bp === 0) continue;
+			if (!pokemonToCalculate[i].id || typeof pokemonToCalculate[i].id === "undefined") continue;
+			pokemonId = pokemonToCalculate[i].id;
+			setName = pokemonId.substring(pokemonId.indexOf("(") + 1, pokemonId.lastIndexOf(")"));
+			setTier = setName.substring(0, setName.indexOf(" "));
+			if (selectedTiers.indexOf(setTier) === -1) continue;
+			baseInfo = [pokemonId];
+		}
 
-            var minMaxDamage = result.range();
-            var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
-            var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
-            var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
-            var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
-            var minPixels = Math.floor(minDamage * 48 / defender.maxHP());
-            var maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
+		var field = createField();
+		try {
+			if (mode === "one-vs-all") {
+				attacker = createPokemon(pokeInfo);
+				defender = createPokemon(pokemonId);
+			} else {
+				attacker = createPokemon(pokemonId);
+				defender = createPokemon(pokeInfo);
+				field.swap();
+			}
+		} catch (error) {
+			console.error("Error creating Pokemon:", pokemonId, error);
+			continue;
+		}
 
-            // Create a new data entry for each move
-            var moveData = baseInfo.slice();
-            moveData.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
-            moveData.push(minPercentage + " - " + maxPercentage + "%");
-            moveData.push(minPixels + " - " + maxPixels + "px");
-            moveData.push(result.kochance(false).text || 'possibly the worst move ever');
-            moveData = moveData.concat(pokemonInfo);
-            dataSet.push(moveData);
-        }
-    }
+		if (attacker.ability === "Rivalry") {
+			attacker.gender = "N";
+		}
+		if (defender.ability === "Rivalry") {
+			defender.gender = "N";
+		}
 
-    var pokemon = mode === "one-vs-all" ? attacker : defender;
-    if (pokemon) pokeInfo.find(".sp .totalMod").text(pokemon.stats.spe);
-    table.rows.add(dataSet).draw();
+		var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
+		attacker = damageResults[0].attacker;
+		defender = damageResults[0].defender;
+
+		var pokemonInfo = [
+			(mode === "one-vs-all") ? defender.types[0] : attacker.types[0],
+			((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || "",
+			((mode === "one-vs-all") ? defender.ability : attacker.ability) || "",
+			((mode === "one-vs-all") ? defender.item : attacker.item) || ""
+		];
+
+		for (var n = 0; n < 4; n++) {
+			var result = damageResults[n];
+
+			if (attacker.moves[n].bp === 0) continue;
+
+			var minMaxDamage = result.range();
+			var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
+			var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
+			var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
+			var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
+			var minPixels = Math.floor(minDamage * 48 / defender.maxHP());
+			var maxPixels = Math.floor(maxDamage * 48 / defender.maxHP());
+
+			var moveData = baseInfo.slice();
+			moveData.push(attacker.moves[n].name.replace("Hidden Power", "HP"));
+			moveData.push(minPercentage + " - " + maxPercentage + "%");
+			moveData.push(minPixels + " - " + maxPixels + "px");
+			moveData.push(result.kochance(false).text || 'possibly the worst move ever');
+			moveData = moveData.concat(pokemonInfo);
+			dataSet.push(moveData);
+		}
+	}
+
+	var pokemon = mode === "one-vs-all" ? attacker : defender;
+	if (pokemon) pokeInfo.find(".sp .totalMod").text(pokemon.stats.spe);
+	table.rows.add(dataSet).draw();
 }
 
 function getSelectedTiers() {
-	var selectedTiers = $('.tiers input:checked').map(function () {
+	var selectedTiers = $('.tiers input:checked').map(function() {
 		return this.id;
 	}).get();
 	return selectedTiers;
@@ -287,7 +262,7 @@ function calculateMovesOfAttacker(gen, attacker, defender, field) {
 	return results;
 }
 
-$(".gen").change(function () {
+$(".gen").change(function() {
 	$(".tiers input").prop("checked", false);
 	$("#singles-format").attr("disabled", false);
 	adjustTierBorderRadius();
@@ -300,8 +275,14 @@ $(".gen").change(function () {
 });
 
 function adjustTierBorderRadius() {
-	var squaredLeftCorner = {"border-top-left-radius": 0, "border-bottom-left-radius": 0};
-	var roundedLeftCorner = {"border-top-left-radius": "8px", "border-bottom-left-radius": "8px"};
+	var squaredLeftCorner = {
+		"border-top-left-radius": 0,
+		"border-bottom-left-radius": 0
+	};
+	var roundedLeftCorner = {
+		"border-top-left-radius": "8px",
+		"border-bottom-left-radius": "8px"
+	};
 	if (gen <= 2) {
 		$("#UU").next("label").css(roundedLeftCorner);
 	} else {
@@ -325,11 +306,11 @@ function adjustTierBorderRadius() {
 }
 
 var table;
+
 function constructDataTable() {
 	table = $("#holder-2").DataTable({
 		destroy: true,
-		columnDefs: [
-			{
+		columnDefs: [{
 				targets: [3, 5, 6, 7, 8],
 				visible: false,
 				searchable: false
@@ -342,14 +323,15 @@ function constructDataTable() {
 				targets: [3],
 				type: 'damage48'
 			},
-			{targets: [4],
+			{
+				targets: [4],
 				iDataSort: 2
 			}
 		],
 		dom: 'C<"clear">fti',
 		colVis: {
 			exclude: (gen > 2) ? [0, 1, 2] : (gen === 2) ? [0, 1, 2, 7] : [0, 1, 2, 7, 8],
-			stateChange: function (iColumn, bVisible) {
+			stateChange: function(iColumn, bVisible) {
 				var column = table.settings()[0].aoColumns[iColumn];
 				if (column.bSearchable !== bVisible) {
 					column.bSearchable = bVisible;
@@ -358,31 +340,35 @@ function constructDataTable() {
 			}
 		},
 		paging: false,
-		scrollX: Math.floor(dtWidth / 100) * 100, // round down to nearest hundred
+		scrollX: Math.floor(dtWidth / 100) * 100,
 		scrollY: dtHeight,
 		scrollCollapse: true
 	});
-	$(".dataTables_wrapper").css({"max-width": dtWidth});
+	$(".dataTables_wrapper").css({
+		"max-width": dtWidth
+	});
 }
 
 function placeBsBtn() {
 	var honkalculator = "<button style='position:absolute' class='bs-btn bs-btn-default'>Honkalculate</button>";
 	$("#holder-2_wrapper").prepend(honkalculator);
-	$(".bs-btn").click(function () {
+	$(".bs-btn").click(function() {
 		var formats = getSelectedTiers();
 		if (!formats.length) {
 			$(".bs-btn").popover({
 				content: "No format selected",
 				placement: "right"
 			}).popover('show');
-			setTimeout(function () { $(".bs-btn").popover('destroy'); }, 1350);
+			setTimeout(function() {
+				$(".bs-btn").popover('destroy');
+			}, 1350);
 		}
 		table.clear();
 		performCalculations();
 	});
 }
 
-$(".mode").change(function () {
+$(".mode").change(function() {
 	if ($("#one-vs-one").prop("checked")) {
 		var params = new URLSearchParams(window.location.search);
 		params.delete('mode');
@@ -400,7 +386,7 @@ $(".mode").change(function () {
 	}
 });
 
-$(".tiers label").mouseup(function () {
+$(".tiers label").mouseup(function() {
 	var oldID = $('.tiers input:checked').attr("id");
 	var newID = $(this).attr("for");
 	if ((oldID === "Doubles" || startsWith(oldID, "VGC")) && (newID !== oldID)) {
@@ -412,10 +398,10 @@ $(".tiers label").mouseup(function () {
 	}
 });
 
-$(".tiers input").change(function () {
+$(".tiers input").change(function() {
 	var type = $(this).attr("type");
 	var id = $(this).attr("id");
-	$(".tiers input").not(":" + type).prop("checked", false); // deselect all radios if a checkbox is checked, and vice-versa
+	$(".tiers input").not(":" + type).prop("checked", false);
 
 	if (id === "Doubles" || startsWith(id, "VGC")) {
 		$("#doubles-format").prop("checked", true);
@@ -438,10 +424,12 @@ function setLevel(lvl) {
 		content: "Level has been set to " + lvl,
 		placement: "right"
 	}).popover('show');
-	setTimeout(function () { $('.level').popover('destroy'); }, 1350);
+	setTimeout(function() {
+		$('.level').popover('destroy');
+	}, 1350);
 }
 
-$(".set-selector").change(function (e) {
+$(".set-selector").change(function(e) {
 	var genWasChanged;
 	var format = getSelectedTiers()[0];
 	if (genWasChanged) {
@@ -454,52 +442,49 @@ $(".set-selector").change(function (e) {
 });
 
 var dtHeight, dtWidth;
-$(document).ready(function () {
-    var params = new URLSearchParams(window.location.search);
-    window.mode = params.get("mode");
-    if (window.mode) {
-        if (window.mode === "randoms") {
-            window.location.replace("randoms" + linkExtension + "?" + params);
-        } else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
-            window.location.replace("index" + linkExtension + "?" + params);
-        }
-    } else {
-        window.mode = "one-vs-all";
-    }
+$(document).ready(function() {
+	var params = new URLSearchParams(window.location.search);
+	window.mode = params.get("mode");
+	if (window.mode) {
+		if (window.mode === "randoms") {
+			window.location.replace("randoms" + linkExtension + "?" + params);
+		} else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
+			window.location.replace("index" + linkExtension + "?" + params);
+		}
+	} else {
+		window.mode = "one-vs-all";
+	}
 
-    $("#" + mode).prop("checked", true);
-    $("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
-    $("#holder-2").show();
+	$("#" + mode).prop("checked", true);
+	$("#holder-2 th:first").text((mode === "one-vs-all") ? "Defender" : "Attacker");
+	$("#holder-2").show();
 
-    // Check OU by default
-    $("#OU").prop("checked", true);
+	$("#OU").prop("checked", true);
 
-    // Load the progression points
-    loadProgressionPoints();
-    
-    // Add change handler for progression select
-    $("#progression-select").change(function() {
-        table.clear();
-        performCalculations();
-    });
+	loadProgressionPoints();
 
-    calcDTDimensions();
-    constructDataTable();
-    placeBsBtn();
+	$("#progression-select").change(function() {
+		table.clear();
+		performCalculations();
+	});
+
+	calcDTDimensions();
+	constructDataTable();
+	placeBsBtn();
 });
 
-$(".gen").change(function () {
-    $(".tiers input").prop("checked", false);
-    $("#singles-format").attr("disabled", false);
-    // Check OU after generation change
-    $("#OU").prop("checked", true);
-    adjustTierBorderRadius();
+$(".gen").change(function() {
+	$(".tiers input").prop("checked", false);
+	$("#singles-format").attr("disabled", false);
 
-    if ($.fn.DataTable.isDataTable("#holder-2")) {
-        table.clear();
-        constructDataTable();
-        placeBsBtn();
-    }
+	$("#OU").prop("checked", true);
+	adjustTierBorderRadius();
+
+	if ($.fn.DataTable.isDataTable("#holder-2")) {
+		table.clear();
+		constructDataTable();
+		placeBsBtn();
+	}
 });
 
 function calcDTDimensions() {

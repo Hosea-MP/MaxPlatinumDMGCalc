@@ -1,5 +1,5 @@
 if (!Array.prototype.indexOf) {
-	Array.prototype.indexOf = function (searchElement, fromIndex) { // eslint-disable-line no-extend-native
+	Array.prototype.indexOf = function(searchElement, fromIndex) {
 		var k;
 		if (this == null) {
 			throw new TypeError('"this" equals null or n is undefined');
@@ -37,7 +37,9 @@ function endsWith(string, target) {
 
 var LEGACY_STATS_RBY = ["hp", "at", "df", "sl", "sp"];
 var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
-var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
+var LEGACY_STATS = [
+	[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC
+];
 var HIDDEN_POWER_REGEX = /Hidden Power (\w*)/;
 
 var CALC_STATUS = {
@@ -50,26 +52,35 @@ var CALC_STATUS = {
 	'Frostbitten': 'frz'
 };
 
+if (window.mode) {
+	if (window.mode === "randoms") {
+		window.location.replace("randoms" + linkExtension + "?" + params);
+	} else if (window.mode !== "one-vs-all" && window.mode !== "all-vs-one") {
+		window.location.replace("index" + linkExtension + "?" + params);
+	}
+} else {
+	window.mode = "one-vs-all";
+}
+
 function legacyStatToStat(st) {
 	switch (st) {
-	case 'hp':
-		return "hp";
-	case 'at':
-		return "atk";
-	case 'df':
-		return "def";
-	case 'sa':
-		return "spa";
-	case 'sd':
-		return "spd";
-	case 'sp':
-		return "spe";
-	case 'sl':
-		return "spc";
+		case 'hp':
+			return "hp";
+		case 'at':
+			return "atk";
+		case 'df':
+			return "def";
+		case 'sa':
+			return "spa";
+		case 'sd':
+			return "spd";
+		case 'sp':
+			return "spe";
+		case 'sl':
+			return "spc";
 	}
 }
 
-// input field validation
 var bounds = {
 	"level": [0, 250],
 	"base": [1, 255],
@@ -81,21 +92,23 @@ var bounds = {
 for (var bounded in bounds) {
 	attachValidation(bounded, bounds[bounded][0], bounds[bounded][1]);
 }
+
 function attachValidation(clazz, min, max) {
-	$("." + clazz).keyup(function () {
+	$("." + clazz).keyup(function() {
 		validate($(this), min, max);
 	});
 }
+
 function validate(obj, min, max) {
 	obj.val(Math.max(min, Math.min(max, ~~obj.val())));
 }
 
-$("input:radio[name='format']").change(function () {
+$("input:radio[name='format']").change(function() {
 	var gameType = $("input:radio[name='format']:checked").val();
 	if (gameType === 'Singles') {
 		$("input:checkbox[name='ruin']:checked").prop("checked", false);
 	}
-	$(".format-specific." + gameType.toLowerCase()).each(function () {
+	$(".format-specific." + gameType.toLowerCase()).each(function() {
 		if ($(this).hasClass("gen-specific") && !$(this).hasClass("g" + gen)) {
 			return;
 		}
@@ -105,7 +118,7 @@ $("input:radio[name='format']").change(function () {
 });
 
 var defaultLevel = 100;
-$("input:radio[name='defaultLevel']").change(function () {
+$("input:radio[name='defaultLevel']").change(function() {
 	defaultLevel = $("input:radio[name='defaultLevel']:checked").val();
 	$("#levelL1").val(defaultLevel);
 	$("#levelR1").val(defaultLevel);
@@ -113,49 +126,48 @@ $("input:radio[name='defaultLevel']").change(function () {
 	$("#levelR1").trigger("change");
 });
 
-// auto-calc stats and current HP on change
-$(".level").bind("keyup change", function () {
+$(".level").bind("keyup change", function() {
 	var poke = $(this).closest(".poke-info");
 	calcHP(poke);
 	calcStats(poke);
 });
-$(".nature").bind("keyup change", function () {
+$(".nature").bind("keyup change", function() {
 	calcStats($(this).closest(".poke-info"));
 });
-$(".hp .base, .hp .evs, .hp .ivs").bind("keyup change", function () {
+$(".hp .base, .hp .evs, .hp .ivs").bind("keyup change", function() {
 	calcHP($(this).closest(".poke-info"));
 });
-$(".at .base, .at .evs, .at .ivs").bind("keyup change", function () {
+$(".at .base, .at .evs, .at .ivs").bind("keyup change", function() {
 	calcStat($(this).closest(".poke-info"), 'at');
 });
-$(".df .base, .df .evs, .df .ivs").bind("keyup change", function () {
+$(".df .base, .df .evs, .df .ivs").bind("keyup change", function() {
 	calcStat($(this).closest(".poke-info"), 'df');
 });
-$(".sa .base, .sa .evs, .sa .ivs").bind("keyup change", function () {
+$(".sa .base, .sa .evs, .sa .ivs").bind("keyup change", function() {
 	calcStat($(this).closest(".poke-info"), 'sa');
 });
-$(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
+$(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function() {
 	calcStat($(this).closest(".poke-info"), 'sd');
 });
-$(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
+$(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function() {
 	calcStat($(this).closest(".poke-info"), 'sp');
 });
-$(".sl .base").keyup(function () {
+$(".sl .base").keyup(function() {
 	calcStat($(this).closest(".poke-info"), 'sl');
 });
-$(".at .dvs").keyup(function () {
+$(".at .dvs").keyup(function() {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'at');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".df .dvs").keyup(function () {
+$(".df .dvs").keyup(function() {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'df');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sa .dvs").keyup(function () {
+$(".sa .dvs").keyup(function() {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sa');
 	poke.find(".sd .dvs").val($(this).val());
@@ -163,13 +175,13 @@ $(".sa .dvs").keyup(function () {
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sp .dvs").keyup(function () {
+$(".sp .dvs").keyup(function() {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sp');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sl .dvs").keyup(function () {
+$(".sl .dvs").keyup(function() {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sl');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
@@ -193,9 +205,9 @@ function getForcedTeraType(pokemonName) {
 
 function getHPDVs(poke) {
 	return (~~poke.find(".at .dvs").val() % 2) * 8 +
-(~~poke.find(".df .dvs").val() % 2) * 4 +
-(~~poke.find(".sp .dvs").val() % 2) * 2 +
-(~~poke.find(gen === 1 ? ".sl .dvs" : ".sa .dvs").val() % 2);
+		(~~poke.find(".df .dvs").val() % 2) * 4 +
+		(~~poke.find(".sp .dvs").val() % 2) * 2 +
+		(~~poke.find(gen === 1 ? ".sl .dvs" : ".sa .dvs").val() % 2);
 }
 
 function calcStats(poke) {
@@ -210,6 +222,7 @@ function calcCurrentHP(poke, max, percent, skipDraw) {
 	if (!skipDraw) drawHealthBar(poke, max, current);
 	return current;
 }
+
 function calcPercentHP(poke, max, current, skipDraw) {
 	var percent = Math.round(100 * Number(current) / Number(max));
 	if (percent === 0 && current > 0) {
@@ -222,6 +235,7 @@ function calcPercentHP(poke, max, current, skipDraw) {
 	if (!skipDraw) drawHealthBar(poke, max, current);
 	return percent;
 }
+
 function drawHealthBar(poke, max, current) {
 	var fillPercent = 100 * current / max;
 	var fillColor = fillPercent > 50 ? "green" : fillPercent > 20 ? "yellow" : "red";
@@ -235,24 +249,24 @@ function drawHealthBar(poke, max, current) {
 	}
 	healthbar.css("background", "linear-gradient(to right, " + fillColor + " " + fillPercent + "%, white 0%");
 }
-// TODO: these HP inputs should really be input type=number with min=0, step=1, constrained by max=maxHP or 100
-$(".current-hp").keyup(function () {
+
+$(".current-hp").keyup(function() {
 	var max = $(this).parent().children(".max-hp").text();
 	validate($(this), 0, max);
 	var current = $(this).val();
 	calcPercentHP($(this).parent(), max, current);
 });
-$(".percent-hp").keyup(function () {
+$(".percent-hp").keyup(function() {
 	var max = $(this).parent().children(".max-hp").text();
 	validate($(this), 0, 100);
 	var percent = $(this).val();
 	calcCurrentHP($(this).parent(), max, percent);
 });
 
-$(".ability").bind("keyup change", function () {
+$(".ability").bind("keyup change", function() {
 	var moveHits =
 		$(this).val() === 'Skill Link' ? 5 :
-			$(this).closest(".poke-info").find(".item").val() === 'Loaded Dice' ? 4 : 3;
+		$(this).closest(".poke-info").find(".item").val() === 'Loaded Dice' ? 4 : 3;
 	$(this).closest(".poke-info").find(".move-hits").val(moveHits);
 
 	var ability = $(this).closest(".poke-info").find(".ability").val();
@@ -303,21 +317,22 @@ function autosetQP(pokemon) {
 	}
 }
 
-$("#p1 .ability").bind("keyup change", function () {
+$("#p1 .ability").bind("keyup change", function() {
 	autosetWeather($(this).val(), 0, $("#p1 .item").val());
 	autosetTerrain($(this).val(), 0);
 	autosetQP($(this).closest(".poke-info"));
 });
 
-$("input[name='weather']").change(function () {
+$("input[name='weather']").change(function() {
 	var allPokemon = $('.poke-info');
-	allPokemon.each(function () {
+	allPokemon.each(function() {
 		autosetQP($(this));
 	});
 });
 
 var lastManualWeather = "";
 var lastAutoWeather = ["", ""];
+
 function autosetWeather(ability, i, item) {
 	var currentWeather = $("input:radio[name='weather']:checked").val();
 	if (lastAutoWeather.indexOf(currentWeather) === -1) {
@@ -325,120 +340,126 @@ function autosetWeather(ability, i, item) {
 		lastAutoWeather[1 - i] = "";
 	}
 	switch (ability) {
-	case "Drought":
-	case "Orichalcum Pulse":
-		lastAutoWeather[i] = "Sun";
-		$("#sun").prop("checked", true);
-		break;
-	case "Drizzle":
-		lastAutoWeather[i] = "Rain";
-		$("#rain").prop("checked", true);
-		break;
-	case "Sand Stream":
-		lastAutoWeather[i] = "Sand";
-		$("#sand").prop("checked", true);
-		break;
-	case "Snow Warning":
-		if (gen >= 9) {
-			lastAutoWeather[i] = "Snow";
-			$("#snow").prop("checked", true);
-		} else {
-			lastAutoWeather[i] = "Hail";
-			$("#hail").prop("checked", true);
-		}
-		break;
-	case "Desolate Land":
-		lastAutoWeather[i] = "Harsh Sunshine";
-		$("#harsh-sunshine").prop("checked", true);
-		break;
-	case "Primordial Sea":
-		lastAutoWeather[i] = "Heavy Rain";
-		$("#heavy-rain").prop("checked", true);
-		break;
-	case "Delta Stream":
-		lastAutoWeather[i] = "Strong Winds";
-		$("#strong-winds").prop("checked", true);
-		break;
-	case "Forecast":
-		switch (item) {
-		case "Damp Rock":
-			lastAutoWeather[i] = "Rain";
-			$("#rain").prop("checked", true);
-			break;
-		case "Heat Rock":
+		case "Drought":
+		case "Orichalcum Pulse":
 			lastAutoWeather[i] = "Sun";
 			$("#sun").prop("checked", true);
 			break;
-		case "Icy Rock":
-			lastAutoWeather[i] = "Hail";
-			$("#hail").prop("checked", true);
+		case "Drizzle":
+			lastAutoWeather[i] = "Rain";
+			$("#rain").prop("checked", true);
 			break;
-		case "Smooth Rock":
+		case "Sand Stream":
 			lastAutoWeather[i] = "Sand";
 			$("#sand").prop("checked", true);
 			break;
-		}
-		break;
-	default:
-		lastAutoWeather[i] = "";
-		var newWeather = lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
-		$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
-		break;
+		case "Snow Warning":
+			if (gen >= 9) {
+				lastAutoWeather[i] = "Snow";
+				$("#snow").prop("checked", true);
+			} else {
+				lastAutoWeather[i] = "Hail";
+				$("#hail").prop("checked", true);
+			}
+			break;
+		case "Desolate Land":
+			lastAutoWeather[i] = "Harsh Sunshine";
+			$("#harsh-sunshine").prop("checked", true);
+			break;
+		case "Primordial Sea":
+			lastAutoWeather[i] = "Heavy Rain";
+			$("#heavy-rain").prop("checked", true);
+			break;
+		case "Delta Stream":
+			lastAutoWeather[i] = "Strong Winds";
+			$("#strong-winds").prop("checked", true);
+			break;
+		case "Forecast":
+			switch (item) {
+				case "Damp Rock":
+					lastAutoWeather[i] = "Rain";
+					$("#rain").prop("checked", true);
+					break;
+				case "Heat Rock":
+					lastAutoWeather[i] = "Sun";
+					$("#sun").prop("checked", true);
+					break;
+				case "Icy Rock":
+					lastAutoWeather[i] = "Hail";
+					$("#hail").prop("checked", true);
+					break;
+				case "Smooth Rock":
+					lastAutoWeather[i] = "Sand";
+					$("#sand").prop("checked", true);
+					break;
+			}
+			break;
+		default:
+			lastAutoWeather[i] = "";
+			var newWeather = lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
+			$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
+			break;
 	}
 }
 
-$("input[name='terrain']").change(function () {
+$("input[name='terrain']").change(function() {
 	var allPokemon = $('.poke-info');
-	allPokemon.each(function () {
+	allPokemon.each(function() {
 		autosetQP($(this));
 	});
 });
 
 var lastManualTerrain = "";
 var lastAutoTerrain = ["", ""];
+
 function autosetTerrain(ability, i) {
 	var currentTerrain = $("input:checkbox[name='terrain']:checked").val() || "No terrain";
 	if (lastAutoTerrain.indexOf(currentTerrain) === -1) {
 		lastManualTerrain = currentTerrain;
 		lastAutoTerrain[1 - i] = "";
 	}
-	// terrain input uses checkbox instead of radio, need to uncheck all first
+
 	$("input:checkbox[name='terrain']:checked").prop("checked", false);
 	switch (ability) {
-	case "Electric Surge":
-	case "Hadron Engine":
-		lastAutoTerrain[i] = "Electric";
-		$("#electric").prop("checked", true);
-		break;
-	case "Grassy Surge":
-		lastAutoTerrain[i] = "Grassy";
-		$("#grassy").prop("checked", true);
-		break;
-	case "Misty Surge":
-		lastAutoTerrain[i] = "Misty";
-		$("#misty").prop("checked", true);
-		break;
-	case "Psychic Surge":
-		lastAutoTerrain[i] = "Psychic";
-		$("#psychic").prop("checked", true);
-		break;
-	default:
-		lastAutoTerrain[i] = "";
-		var newTerrain = lastAutoTerrain[1 - i] !== "" ? lastAutoTerrain[1 - i] : lastManualTerrain;
-		if ("No terrain" !== newTerrain) {
-			$("input:checkbox[name='terrain'][value='" + newTerrain + "']").prop("checked", true);
-		}
-		break;
+		case "Electric Surge":
+		case "Hadron Engine":
+			lastAutoTerrain[i] = "Electric";
+			$("#electric").prop("checked", true);
+			break;
+		case "Grassy Surge":
+			lastAutoTerrain[i] = "Grassy";
+			$("#grassy").prop("checked", true);
+			break;
+		case "Misty Surge":
+			lastAutoTerrain[i] = "Misty";
+			$("#misty").prop("checked", true);
+			break;
+		case "Psychic Surge":
+			lastAutoTerrain[i] = "Psychic";
+			$("#psychic").prop("checked", true);
+			break;
+		default:
+			lastAutoTerrain[i] = "";
+			var newTerrain = lastAutoTerrain[1 - i] !== "" ? lastAutoTerrain[1 - i] : lastManualTerrain;
+			if ("No terrain" !== newTerrain) {
+				$("input:checkbox[name='terrain'][value='" + newTerrain + "']").prop("checked", true);
+			}
+			break;
 	}
 }
 
-$("#p1 .item").bind("keyup change", function () {
+$("#p1 .item").bind("keyup change", function() {
 	autosetStatus("#p1", $(this).val());
 	autosetWeather($("#p1 .ability").val(), 0, $(this).val());
 });
 
-var lastManualStatus = {"#p1": "Healthy"};
-var lastAutoStatus = {"#p1": "Healthy"};
+var lastManualStatus = {
+	"#p1": "Healthy"
+};
+var lastAutoStatus = {
+	"#p1": "Healthy"
+};
+
 function autosetStatus(p, item) {
 	var currentStatus = $(p + " .status").val();
 	if (currentStatus !== lastAutoStatus[p]) {
@@ -461,7 +482,7 @@ function autosetStatus(p, item) {
 	}
 }
 
-$(".status").bind("keyup change", function () {
+$(".status").bind("keyup change", function() {
 	if ($(this).val() === 'Badly Poisoned') {
 		$(this).parent().children(".toxic-counter").show();
 	} else {
@@ -469,15 +490,15 @@ $(".status").bind("keyup change", function () {
 	}
 });
 
-$(".teraType").change(function () {
+$(".teraType").change(function() {
 	var pokeObj = $(this).closest(".poke-info");
 	var checked = pokeObj.find(".teraToggle").prop("checked");
 	stellarButtonsVisibility(pokeObj, $(this).val() === "Stellar" && checked);
 });
 
 var lockerMove = "";
-// auto-update move details on select
-$(".move-selector").change(function () {
+
+$(".move-selector").change(function() {
 	var moveName = $(this).val();
 	var move = moves[moveName] || moves['(No Move)'];
 	var moveGroupObj = $(this).parent();
@@ -513,7 +534,7 @@ $(".move-selector").change(function () {
 			moveGroupObj.children(".move-bp").val(actual.power);
 		}
 	} else if (gen >= 2 && gen <= 6 && HIDDEN_POWER_REGEX.test($(this).attr('data-prev'))) {
-		// If this selector was previously Hidden Power but now isn't, reset all IVs/DVs to max.
+
 		var pokeObj = $(this).closest(".poke-info");
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var legacyStat = LEGACY_STATS[gen][i];
@@ -545,7 +566,7 @@ $(".move-selector").change(function () {
 		var pokemon = $(this).closest(".poke-info");
 		var moveHits =
 			pokemon.find(".ability").val() === 'Skill Link' ? 5 :
-				pokemon.find(".item").val() === 'Loaded Dice' ? 4 : 3;
+			pokemon.find(".item").val() === 'Loaded Dice' ? 4 : 3;
 		moveGroupObj.children(".move-hits").val(moveHits);
 	} else if (dropsStats) {
 		moveGroupObj.children(".move-hits").hide();
@@ -557,7 +578,7 @@ $(".move-selector").change(function () {
 	moveGroupObj.children(".move-z").prop("checked", false);
 });
 
-$(".item").change(function () {
+$(".item").change(function() {
 	var itemName = $(this).val();
 	var $metronomeControl = $(this).closest('.poke-info').find('.metronome');
 	if (itemName === "Metronome") {
@@ -567,7 +588,7 @@ $(".item").change(function () {
 	}
 	var moveHits =
 		$(this).closest(".poke-info").find(".ability").val() === 'Skill Link' ? 5 :
-			itemName === 'Loaded Dice' ? 4 : 3;
+		itemName === 'Loaded Dice' ? 4 : 3;
 	$(this).closest(".poke-info").find(".move-hits").val(moveHits);
 	autosetQP($(this).closest(".poke-info"));
 });
@@ -577,8 +598,7 @@ function smogonAnalysis(pokemonName) {
 	return "https://smogon.com/dex/" + generation + "/pokemon/" + pokemonName.toLowerCase() + "/";
 }
 
-// auto-update set details on select
-$(".set-selector").change(function () {
+$(".set-selector").change(function() {
 	var fullSetName = $(this).val();
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
@@ -586,8 +606,8 @@ $(".set-selector").change(function () {
 	if (pokemon) {
 		var pokeObj = $(this).closest(".poke-info");
 		var isAutoTera =
-		(startsWith(pokemonName, "Ogerpon") && endsWith(pokemonName, "Tera")) ||
-		pokemonName === 'Terapagos-Stellar';
+			(startsWith(pokemonName, "Ogerpon") && endsWith(pokemonName, "Tera")) ||
+			pokemonName === 'Terapagos-Stellar';
 		if (stickyMoves.getSelectedSide() === pokeObj.prop("id")) {
 			stickyMoves.clearStickyMove();
 		}
@@ -656,7 +676,7 @@ $(".set-selector").change(function () {
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(
 					(set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined) ?
-						set.evs[LEGACY_STATS[gen][i]] : ($("#randoms").prop("checked") ? 84 : 0));
+					set.evs[LEGACY_STATS[gen][i]] : ($("#randoms").prop("checked") ? 84 : 0));
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(
 					(set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined) ? set.ivs[LEGACY_STATS[gen][i]] : 31);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(
@@ -724,13 +744,13 @@ $(".set-selector").change(function () {
 				$(this).closest('.poke-info').find(".move-pool").hide();
 			}
 		}
-		if (typeof getSelectedTiers === "function") { // doesn't exist when in 1vs1 mode
+		if (typeof getSelectedTiers === "function") {
 			var format = getSelectedTiers()[0];
 			var is50lvl = startsWith(format, "VGC") || startsWith(format, "Battle Spot");
-			//var isDoubles = format === 'Doubles' || has50lvl; *TODO*
+
 			if (format === "LC") pokeObj.find(".level").val(5);
 			if (is50lvl) pokeObj.find(".level").val(50);
-			//if (isDoubles) field.gameType = 'Doubles'; *TODO*
+
 		}
 		var formeObj = $(this).siblings().find(".forme").parent();
 		itemObj.prop("disabled", false);
@@ -829,14 +849,14 @@ function setSelectValueIfValid(select, value, fallback) {
 	select.val(!value ? fallback : select.children("option[value='" + value + "']").length ? value : fallback);
 }
 
-$(".teraToggle").change(function () {
+$(".teraToggle").change(function() {
 	var pokeObj = $(this).closest(".poke-info");
 	stellarButtonsVisibility(pokeObj, pokeObj.find(".teraType").val() === "Stellar" && this.checked);
 	var forme = $(this).parent().siblings().find(".forme");
 	var curForme = forme.val();
 	if (forme.is(":hidden")) return;
 	var container = $(this).closest(".info-group").siblings();
-	// Ogerpon mechs
+
 	if (!startsWith(curForme, "Ogerpon")) return;
 	if (
 		curForme !== "Ogerpon" && !endsWith(curForme, "Tera") &&
@@ -854,7 +874,7 @@ $(".teraToggle").change(function () {
 	container.find(".ability").val(pokedex[newForme].abilities[0]);
 });
 
-$(".forme").change(function () {
+$(".forme").change(function() {
 	var altForme = pokedex[$(this).val()],
 		container = $(this).closest(".info-group").siblings(),
 		fullSetName = container.find(".select2-chosen").first().text(),
@@ -902,11 +922,9 @@ $(".forme").change(function () {
 });
 
 function correctHiddenPower(pokemon) {
-	// After Gen 7 bottlecaps means you can have a HP without perfect IVs
-	// Level 100 is elided from sets so if its undefined its level 100
+
 	if (gen >= 7 && (!pokemon.level || pokemon.level >= 100)) return pokemon;
 
-	// Convert the legacy stats table to a useful one, and also figure out if all are maxed
 	var ivs = {};
 	var maxed = true;
 	for (var i = 0; i <= LEGACY_STATS[9].length; i++) {
@@ -919,16 +937,29 @@ function correctHiddenPower(pokemon) {
 	for (var i = 0; i < pokemon.moves.length; i++) {
 		var m = pokemon.moves[i].match(HIDDEN_POWER_REGEX);
 		if (!m) continue;
-		// The Pokemon has Hidden Power and is not maxed but the types don't match we don't
-		// want to attempt to reconcile the user's IVs so instead just correct the HP type
+
 		if (!maxed && expected.type !== m[1]) {
 			pokemon.moves[i] = "Hidden Power " + expected.type;
 		} else {
-			// Otherwise, use the default preset hidden power IVs that PS would use
+
 			var hpIVs = calc.Stats.getHiddenPowerIVs(GENERATION, m[1]);
-			if (!hpIVs) continue; // some impossible type was specified, ignore
-			pokemon.ivs = pokemon.ivs || {hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31};
-			pokemon.dvs = pokemon.dvs || {hp: 15, at: 15, df: 15, sa: 15, sd: 15, sp: 15};
+			if (!hpIVs) continue;
+			pokemon.ivs = pokemon.ivs || {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31
+			};
+			pokemon.dvs = pokemon.dvs || {
+				hp: 15,
+				at: 15,
+				df: 15,
+				sa: 15,
+				sd: 15,
+				sp: 15
+			};
 			for (var stat in hpIVs) {
 				pokemon.ivs[calc.Stats.shortForm(stat)] = hpIVs[stat];
 				pokemon.dvs[calc.Stats.shortForm(stat)] = calc.Stats.IVToDV(hpIVs[stat]);
@@ -948,7 +979,7 @@ function correctHiddenPower(pokemon) {
 }
 
 function createPokemon(pokeInfo) {
-	if (typeof pokeInfo === "string") { // in this case, pokeInfo is the id of an individual setOptions value whose moveset's tier matches the selected tier(s)
+	if (typeof pokeInfo === "string") {
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var isRandoms = $("#randoms").prop("checked");
@@ -977,11 +1008,14 @@ function createPokemon(pokeInfo) {
 		var pokemonMoves = [];
 		for (var i = 0; i < 4; i++) {
 			var moveName = moveNames[i];
-			pokemonMoves.push(new calc.Move(gen, moves[moveName] ? moveName : "(No Move)", {ability: ability, item: item}));
+			pokemonMoves.push(new calc.Move(gen, moves[moveName] ? moveName : "(No Move)", {
+				ability: ability,
+				item: item
+			}));
 		}
 
 		if (isRandoms) {
-			pokemonMoves = pokemonMoves.filter(function (move) {
+			pokemonMoves = pokemonMoves.filter(function(move) {
 				return move.category !== "Status";
 			});
 		}
@@ -1033,7 +1067,7 @@ function createPokemon(pokeInfo) {
 		pokeInfo.isDynamaxed = isDynamaxed;
 		calcHP(pokeInfo);
 		var curHP = ~~pokeInfo.find(".current-hp").val();
-		// FIXME the Pokemon constructor expects non-dynamaxed HP
+
 		if (isDynamaxed) curHP = Math.floor(curHP / 2);
 		var types = [pokeInfo.find(".type1").val(), pokeInfo.find(".type2").val()];
 		return new calc.Pokemon(gen, name, {
@@ -1087,21 +1121,35 @@ function getMoveDetails(moveInfo, opts) {
 		type: moveInfo.find(".move-type").val()
 	};
 	if (moveName === 'Tera Blast') {
-		// custom logic for stellar type tera blast
+
 		var isStellar = opts.teraType === 'Stellar';
 		var statDrops = moveInfo.find('.stat-drops');
 		var dropsStats = statDrops.is(':visible');
 		if (isStellar !== dropsStats) {
-			// update stat drop dropdown here
-			if (isStellar) statDrops.show(); else statDrops.hide();
+
+			if (isStellar) statDrops.show();
+			else statDrops.hide();
 		}
-		if (isStellar) overrides.self = {boosts: {atk: -1, spa: -1}};
+		if (isStellar) overrides.self = {
+			boosts: {
+				atk: -1,
+				spa: -1
+			}
+		};
 	}
 	if (gen >= 4) overrides.category = moveInfo.find(".move-cat").val();
 	return new calc.Move(gen, moveName, {
-		ability: opts.ability, item: opts.item, useZ: isZMove, species: opts.species, isCrit: isCrit, hits: hits,
-		isStellarFirstUse: isStellarFirstUse, timesUsed: timesUsed, timesUsedWithMetronome: timesUsedWithMetronome,
-		overrides: overrides, useMax: opts.useMax
+		ability: opts.ability,
+		item: opts.item,
+		useZ: isZMove,
+		species: opts.species,
+		isCrit: isCrit,
+		hits: hits,
+		isStellarFirstUse: isStellarFirstUse,
+		timesUsed: timesUsed,
+		timesUsedWithMetronome: timesUsedWithMetronome,
+		overrides: overrides,
+		useMax: opts.useMax
 	});
 }
 
@@ -1142,25 +1190,46 @@ function createField() {
 	var isAuroraVeil = [$("#auroraVeilL").prop("checked"), $("#auroraVeilR").prop("checked")];
 	var isBattery = [$("#batteryL").prop("checked"), $("#batteryR").prop("checked")];
 	var isPowerSpot = [$("#powerSpotL").prop("checked"), $("#powerSpotR").prop("checked")];
-	// TODO: support switching in as well!
+
 	var isSwitchingOut = [$("#switchingL").prop("checked"), $("#switchingR").prop("checked")];
 
-	var createSide = function (i) {
+	var createSide = function(i) {
 		return new calc.Side({
-			spikes: spikes[i], isSR: isSR[i], steelsurge: steelsurge[i],
-			vinelash: vinelash[i], wildfire: wildfire[i], cannonade: cannonade[i], volcalith: volcalith[i],
-			isReflect: isReflect[i], isLightScreen: isLightScreen[i],
-			isProtected: isProtected[i], isSeeded: isSeeded[i], isForesight: isForesight[i],
-			isTailwind: isTailwind[i], isHelpingHand: isHelpingHand[i], isFlowerGift: isFlowerGift[i], isFriendGuard: isFriendGuard[i],
-			isAuroraVeil: isAuroraVeil[i], isBattery: isBattery[i], isPowerSpot: isPowerSpot[i], isSwitching: isSwitchingOut[i] ? 'out' : undefined
+			spikes: spikes[i],
+			isSR: isSR[i],
+			steelsurge: steelsurge[i],
+			vinelash: vinelash[i],
+			wildfire: wildfire[i],
+			cannonade: cannonade[i],
+			volcalith: volcalith[i],
+			isReflect: isReflect[i],
+			isLightScreen: isLightScreen[i],
+			isProtected: isProtected[i],
+			isSeeded: isSeeded[i],
+			isForesight: isForesight[i],
+			isTailwind: isTailwind[i],
+			isHelpingHand: isHelpingHand[i],
+			isFlowerGift: isFlowerGift[i],
+			isFriendGuard: isFriendGuard[i],
+			isAuroraVeil: isAuroraVeil[i],
+			isBattery: isBattery[i],
+			isPowerSpot: isPowerSpot[i],
+			isSwitching: isSwitchingOut[i] ? 'out' : undefined
 		});
 	};
 	return new calc.Field({
-		gameType: gameType, weather: weather, terrain: terrain,
-		isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity,
-		isBeadsOfRuin: isBeadsOfRuin, isTabletsOfRuin: isTabletsOfRuin,
-		isSwordOfRuin: isSwordOfRuin, isVesselOfRuin: isVesselOfRuin,
-		attackerSide: createSide(0), defenderSide: createSide(1)
+		gameType: gameType,
+		weather: weather,
+		terrain: terrain,
+		isMagicRoom: isMagicRoom,
+		isWonderRoom: isWonderRoom,
+		isGravity: isGravity,
+		isBeadsOfRuin: isBeadsOfRuin,
+		isTabletsOfRuin: isTabletsOfRuin,
+		isSwordOfRuin: isSwordOfRuin,
+		isVesselOfRuin: isVesselOfRuin,
+		attackerSide: createSide(0),
+		defenderSide: createSide(1)
 	});
 }
 
@@ -1171,7 +1240,7 @@ function calcHP(poke) {
 	var prevMaxHP = Number($maxHP.attr('data-prev')) || total;
 	var $currentHP = poke.find(".current-hp");
 	var prevCurrentHP = $currentHP.attr('data-set') ? Math.min(Number($currentHP.val()), prevMaxHP) : prevMaxHP;
-	// NOTE: poke.find(".percent-hp").val() is a rounded value!
+
 	var prevPercentHP = 100 * prevCurrentHP / prevMaxHP;
 
 	$maxHP.text(total);
@@ -1196,7 +1265,7 @@ function calcStat(poke, StatID) {
 		evs = ~~stat.find(".evs").val();
 		if (StatID !== "hp") nature = poke.find(".nature").val();
 	}
-	// Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
+
 	var total = calc.calcStat(gen, legacyStatToStat(StatID), base, ivs, evs, level, nature);
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
 		total *= 2;
@@ -1206,19 +1275,39 @@ function calcStat(poke, StatID) {
 }
 
 var GENERATION = {
-	'1': 1, 'rb': 1, 'rby': 1,
-	'2': 2, 'gs': 2, 'gsc': 2,
-	'3': 3, 'rs': 3, 'rse': 3, 'frlg': 3, 'adv': 3,
-	'4': 4, 'dp': 4, 'dpp': 4, 'hgss': 4,
-	'5': 5, 'bw': 5, 'bw2': 5, 'b2w2': 5,
-	'6': 6, 'xy': 6, 'oras': 6,
-	'7': 7, 'sm': 7, 'usm': 7, 'usum': 7,
-	'8': 8, 'ss': 8,
-	'9': 9, 'sv': 9
+	'1': 1,
+	'rb': 1,
+	'rby': 1,
+	'2': 2,
+	'gs': 2,
+	'gsc': 2,
+	'3': 3,
+	'rs': 3,
+	'rse': 3,
+	'frlg': 3,
+	'adv': 3,
+	'4': 4,
+	'dp': 4,
+	'dpp': 4,
+	'hgss': 4,
+	'5': 5,
+	'bw': 5,
+	'bw2': 5,
+	'b2w2': 5,
+	'6': 6,
+	'xy': 6,
+	'oras': 6,
+	'7': 7,
+	'sm': 7,
+	'usm': 7,
+	'usum': 7,
+	'8': 8,
+	'ss': 8,
+	'9': 9,
+	'sv': 9
 };
 
-var SETDEX = [
-	{},
+var SETDEX = [{},
 	typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
 	typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
 	typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
@@ -1229,8 +1318,7 @@ var SETDEX = [
 	typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
 	typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
 ];
-var RANDDEX = [
-	{},
+var RANDDEX = [{},
 	typeof GEN1RANDOMBATTLE === 'undefined' ? {} : GEN1RANDOMBATTLE,
 	typeof GEN2RANDOMBATTLE === 'undefined' ? {} : GEN2RANDOMBATTLE,
 	typeof GEN3RANDOMBATTLE === 'undefined' ? {} : GEN3RANDOMBATTLE,
@@ -1243,8 +1331,8 @@ var RANDDEX = [
 ];
 var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
 
-$(".gen").change(function () {
-	/*eslint-disable */
+$(".gen").change(function() {
+
 	gen = ~~$(this).val() || 9;
 	GENERATION = calc.Generations.get(gen);
 	var params = new URLSearchParams(window.location.search);
@@ -1260,12 +1348,13 @@ $(".gen").change(function () {
 			params.sort();
 			var path = window.location.pathname + '?' + params;
 			window.history.pushState({}, document.title, path);
-			gtag('config', 'UA-26211653-3', {'page_path': path});
+			gtag('config', 'UA-26211653-3', {
+				'page_path': path
+			});
 		}
 	}
 	genWasChanged = true;
-	/* eslint-enable */
-	// declaring these variables with var here makes z moves not work; TODO
+
 	pokedex = calc.SPECIES[gen];
 	setdex = SETDEX[gen];
 	randdex = RANDDEX[gen];
@@ -1295,14 +1384,17 @@ $(".gen").change(function () {
 
 function getFirstValidSetOption() {
 	var sets = getSetOptions();
-	// NB: The first set is never valid, so we start searching after it.
+
 	for (var i = 1; i < sets.length; i++) {
 		if (sets[i].id && sets[i].id.indexOf('(Blank Set)') === -1) return sets[i];
 	}
-	return {text: 'Houndoom (Blank Set)', id: 'Houndoom (Blank Set)'};
+	return {
+		text: 'Houndoom (Blank Set)',
+		id: 'Houndoom (Blank Set)'
+	};
 }
 
-$(".notation").change(function () {
+$(".notation").change(function() {
 	notation = $(this).val();
 });
 
@@ -1411,9 +1503,9 @@ function getSelectOptions(arr, sort, defaultOption) {
 	}
 	return r;
 }
-var stickyMoves = (function () {
+var stickyMoves = (function() {
 	var lastClicked = 'resultMoveL1';
-	$(".result-move").click(function () {
+	$(".result-move").click(function() {
 		if (this.id === lastClicked) {
 			$(this).toggleClass("locked-move");
 		} else {
@@ -1423,14 +1515,14 @@ var stickyMoves = (function () {
 	});
 
 	return {
-		clearStickyMove: function () {
+		clearStickyMove: function() {
 			lastClicked = null;
 			$('.locked-move').removeClass('locked-move');
 		},
-		setSelectedMove: function (slot) {
+		setSelectedMove: function(slot) {
 			lastClicked = slot;
 		},
-		getSelectedSide: function () {
+		getSelectedSide: function() {
 			if (lastClicked) {
 				if (lastClicked.indexOf('resultMoveL') !== -1) {
 					return 'p1';
@@ -1446,10 +1538,10 @@ var stickyMoves = (function () {
 function isPokeInfoGrounded(pokeInfo) {
 	var teraType = pokeInfo.find(".teraToggle").is(":checked") ? pokeInfo.find(".teraType").val() : undefined;
 	return $("#gravity").prop("checked") || (
-		  teraType ? teraType !== "Flying" : pokeInfo.find(".type1").val() !== "Flying" &&
-        teraType ? teraType !== "Flying" : pokeInfo.find(".type2").val() !== "Flying" &&
-        pokeInfo.find(".ability").val() !== "Levitate" &&
-        pokeInfo.find(".item").val() !== "Air Balloon"
+		teraType ? teraType !== "Flying" : pokeInfo.find(".type1").val() !== "Flying" &&
+		teraType ? teraType !== "Flying" : pokeInfo.find(".type2").val() !== "Flying" &&
+		pokeInfo.find(".ability").val() !== "Levitate" &&
+		pokeInfo.find(".item").val() !== "Air Balloon"
 	);
 }
 
@@ -1457,77 +1549,77 @@ function getTerrainEffects() {
 	var className = $(this).prop("className");
 	className = className.substring(0, className.indexOf(" "));
 	switch (className) {
-	case "type1":
-	case "type2":
-	case "teraType":
-	case "teraToggle":
-	case "item":
-		var id = $(this).closest(".poke-info").prop("id");
-		var terrainValue = $("input:checkbox[name='terrain']:checked").val();
-		if (terrainValue === "Electric") {
-			$("#" + id).find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#" + id)));
-		} else if (terrainValue === "Misty") {
-			$("#" + id).find(".status").prop("disabled", isPokeInfoGrounded($("#" + id)));
-		}
-		break;
-	case "ability":
-		// with autoset, ability change may cause terrain change, need to consider both sides
-		var terrainValue = $("input:checkbox[name='terrain']:checked").val();
-		if (terrainValue === "Electric") {
-			$("#p1").find(".status").prop("disabled", false);
-			$("#p2").find(".status").prop("disabled", false);
-			$("#p1").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p1")));
-			$("#p2").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p2")));
-		} else if (terrainValue === "Misty") {
-			$("#p1").find(".status").prop("disabled", isPokeInfoGrounded($("#p1")));
-			$("#p2").find(".status").prop("disabled", isPokeInfoGrounded($("#p2")));
-		} else {
-			$("#p1").find("[value='Asleep']").prop("disabled", false);
-			$("#p1").find(".status").prop("disabled", false);
-			$("#p2").find("[value='Asleep']").prop("disabled", false);
-			$("#p2").find(".status").prop("disabled", false);
-		}
-		break;
-	default:
-		$("input:checkbox[name='terrain']").not(this).prop("checked", false);
-		if ($(this).prop("checked") && $(this).val() === "Electric") {
-			// need to enable status because it may be disabled by Misty Terrain before.
-			$("#p1").find(".status").prop("disabled", false);
-			$("#p2").find(".status").prop("disabled", false);
-			$("#p1").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p1")));
-			$("#p2").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p2")));
-		} else if ($(this).prop("checked") && $(this).val() === "Misty") {
-			$("#p1").find(".status").prop("disabled", isPokeInfoGrounded($("#p1")));
-			$("#p2").find(".status").prop("disabled", isPokeInfoGrounded($("#p2")));
-		} else {
-			$("#p1").find("[value='Asleep']").prop("disabled", false);
-			$("#p1").find(".status").prop("disabled", false);
-			$("#p2").find("[value='Asleep']").prop("disabled", false);
-			$("#p2").find(".status").prop("disabled", false);
-		}
-		break;
+		case "type1":
+		case "type2":
+		case "teraType":
+		case "teraToggle":
+		case "item":
+			var id = $(this).closest(".poke-info").prop("id");
+			var terrainValue = $("input:checkbox[name='terrain']:checked").val();
+			if (terrainValue === "Electric") {
+				$("#" + id).find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#" + id)));
+			} else if (terrainValue === "Misty") {
+				$("#" + id).find(".status").prop("disabled", isPokeInfoGrounded($("#" + id)));
+			}
+			break;
+		case "ability":
+
+			var terrainValue = $("input:checkbox[name='terrain']:checked").val();
+			if (terrainValue === "Electric") {
+				$("#p1").find(".status").prop("disabled", false);
+				$("#p2").find(".status").prop("disabled", false);
+				$("#p1").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p1")));
+				$("#p2").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p2")));
+			} else if (terrainValue === "Misty") {
+				$("#p1").find(".status").prop("disabled", isPokeInfoGrounded($("#p1")));
+				$("#p2").find(".status").prop("disabled", isPokeInfoGrounded($("#p2")));
+			} else {
+				$("#p1").find("[value='Asleep']").prop("disabled", false);
+				$("#p1").find(".status").prop("disabled", false);
+				$("#p2").find("[value='Asleep']").prop("disabled", false);
+				$("#p2").find(".status").prop("disabled", false);
+			}
+			break;
+		default:
+			$("input:checkbox[name='terrain']").not(this).prop("checked", false);
+			if ($(this).prop("checked") && $(this).val() === "Electric") {
+
+				$("#p1").find(".status").prop("disabled", false);
+				$("#p2").find(".status").prop("disabled", false);
+				$("#p1").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p1")));
+				$("#p2").find("[value='Asleep']").prop("disabled", isPokeInfoGrounded($("#p2")));
+			} else if ($(this).prop("checked") && $(this).val() === "Misty") {
+				$("#p1").find(".status").prop("disabled", isPokeInfoGrounded($("#p1")));
+				$("#p2").find(".status").prop("disabled", isPokeInfoGrounded($("#p2")));
+			} else {
+				$("#p1").find("[value='Asleep']").prop("disabled", false);
+				$("#p1").find(".status").prop("disabled", false);
+				$("#p2").find("[value='Asleep']").prop("disabled", false);
+				$("#p2").find(".status").prop("disabled", false);
+			}
+			break;
 	}
 }
 
 function loadDefaultLists() {
 	$(".set-selector").select2({
-		formatResult: function (object) {
+		formatResult: function(object) {
 			if ($("#randoms").prop("checked")) {
 				return object.pokemon;
 			} else {
 				return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
 			}
 		},
-		query: function (query) {
+		query: function(query) {
 			var pageSize = 30;
 			var results = [];
 			var options = getSetOptions();
 			for (var i = 0; i < options.length; i++) {
 				var option = options[i];
 				var pokeName = option.pokemon.toUpperCase();
-				if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
-					return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0;
-				})) {
+				if (!query.term || query.term.toUpperCase().split(" ").every(function(term) {
+						return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0;
+					})) {
 					if ($("#randoms").prop("checked")) {
 						if (option.id) results.push(option);
 					} else {
@@ -1540,7 +1632,7 @@ function loadDefaultLists() {
 				more: results.length >= query.page * pageSize
 			});
 		},
-		initSelection: function (element, callback) {
+		initSelection: function(element, callback) {
 			callback(getFirstValidSetOption());
 		}
 	});
@@ -1559,10 +1651,10 @@ function allPokemon(selector) {
 
 function loadCustomList(id) {
 	$("#" + id + " .set-selector").select2({
-		formatResult: function (set) {
+		formatResult: function(set) {
 			return (set.nickname ? set.pokemon + " (" + set.nickname + ")" : set.id);
 		},
-		query: function (query) {
+		query: function(query) {
 			var pageSize = 30;
 			var results = [];
 			var options = getSetOptions();
@@ -1570,9 +1662,9 @@ function loadCustomList(id) {
 				var option = options[i];
 				var pokeName = option.pokemon.toUpperCase();
 				var setName = option.set ? option.set.toUpperCase() : option.set;
-				if (option.isCustom && option.set && (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
-					return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0 || setName.indexOf(term) === 0 || setName.indexOf("-" + term) >= 0 || setName.indexOf(" " + term) >= 0;
-				}))) {
+				if (option.isCustom && option.set && (!query.term || query.term.toUpperCase().split(" ").every(function(term) {
+						return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0 || setName.indexOf(term) === 0 || setName.indexOf("-" + term) >= 0 || setName.indexOf(" " + term) >= 0;
+					}))) {
 					results.push(option);
 				}
 			}
@@ -1581,14 +1673,14 @@ function loadCustomList(id) {
 				more: results.length >= query.page * pageSize
 			});
 		},
-		initSelection: function (element, callback) {
+		initSelection: function(element, callback) {
 			var data = "";
 			callback(data);
 		}
 	});
 }
 
-$(document).ready(function () {
+$(document).ready(function() {
 	var params = new URLSearchParams(window.location.search);
 	var g = GENERATION[params.get('gen')] || 9;
 	$("#gen" + g).prop("checked", true);
@@ -1602,8 +1694,8 @@ $(document).ready(function () {
 	loadDefaultLists();
 	$(".move-selector").select2({
 		dropdownAutoWidth: true,
-		matcher: function (term, text) {
-			// 2nd condition is for Hidden Power
+		matcher: function(term, text) {
+
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
@@ -1612,11 +1704,10 @@ $(document).ready(function () {
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 });
 
-/* Click-to-copy function */
-$("#mainResult").click(function () {
-	navigator.clipboard.writeText($("#mainResult").text()).then(function () {
+$("#mainResult").click(function() {
+	navigator.clipboard.writeText($("#mainResult").text()).then(function() {
 		document.getElementById('tooltipText').style.visibility = 'visible';
-		setTimeout(function () {
+		setTimeout(function() {
 			document.getElementById('tooltipText').style.visibility = 'hidden';
 		}, 1500);
 	});
