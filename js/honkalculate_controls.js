@@ -110,30 +110,17 @@ function selectMovesForPokemon(types) {
 }
 
 function performCalculations() {
-    var attacker, defender;
     var dataSet = [];
     var pokeInfo = $("#p1");
-    var pokemonDamageStats = {};
-
-    var secondaryTitle = document.getElementById('secondary-table-title');
-    var damageHeader = document.getElementById('damage-column-header');
-    if (mode === "one-vs-all") {
-        secondaryTitle.textContent = "Checks Pokemon (Average Damage < 40%)";
-        damageHeader.textContent = "Avg Damage %";
-    } else {
-        secondaryTitle.textContent = "Counter Pokemon (One Move's Damage > 75%)";
-        damageHeader.textContent = "Damage (%)";
-    }
-
+    
     const progressionSelect = document.getElementById('progression-select');
-    const selectedEncounters = progressionSelect.value ?
+    const selectedEncounters = progressionSelect.value ? 
         JSON.parse(progressionSelect.value) : null;
-
+    
     const pokemonToCalculate = selectedEncounters || getSetOptions();
 
     for (var i = 0; i < pokemonToCalculate.length; i++) {
         let pokemonId;
-        let baseInfo;
 
         if (selectedEncounters) {
             pokemonId = pokemonToCalculate[i];
@@ -146,160 +133,110 @@ function performCalculations() {
             }
 
             let actualPokemonId = isInPokedex ? pokemonId : baseName;
-
             if (!setdex[actualPokemonId] || !setdex[actualPokemonId]["Blank Set"]) {
                 const pokemon = pokedex[actualPokemonId];
                 const types = [pokemon.types[0], pokemon.types[1] || null].filter(Boolean);
                 const selectedMoves = selectMovesForPokemon(types);
-
+                
                 setdex[actualPokemonId] = setdex[actualPokemonId] || {};
                 setdex[actualPokemonId]["Blank Set"] = {
                     level: 100,
                     ability: pokemon?.abilities?.[0] || "",
                     item: "",
                     nature: "Bashful",
-                    evs: {
-                        hp: 0,
-                        atk: 0,
-                        def: 0,
-                        spa: 0,
-                        spd: 0,
-                        spe: 0
-                    },
-                    ivs: {
-                        hp: 31,
-                        atk: 31,
-                        def: 31,
-                        spa: 31,
-                        spd: 31,
-                        spe: 31
-                    },
+                    evs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 },
+                    ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 },
                     moves: selectedMoves
                 };
-            } else if (mode === "one-vs-all" && setdex[actualPokemonId]["Blank Set"]) {
-                
-                setdex[actualPokemonId]["Blank Set"].level = 100;
-                setdex[actualPokemonId]["Blank Set"].nature = "Bashful";
             }
 
-            let fullId = actualPokemonId + " (Blank Set)";
-            baseInfo = [fullId];
-            pokemonId = fullId;
+            pokemonId = actualPokemonId + " (Blank Set)";
         } else {
-            if (!pokemonToCalculate[i].id || typeof pokemonToCalculate[i].id === "undefined") continue;
+            if (!pokemonToCalculate[i].id) continue;
             pokemonId = pokemonToCalculate[i].id;
-            setName = pokemonId.substring(pokemonId.indexOf("(") + 1, pokemonId.lastIndexOf(")"));
-            setTier = setName.substring(0, setName.indexOf(" "));
-            if (selectedTiers.indexOf(setTier) === -1) continue;
-            baseInfo = [pokemonId];
         }
 
         var field = createField();
-        try {
-            if (mode === "one-vs-all") {
-                attacker = createPokemon(pokeInfo);
-                defender = createPokemon(pokemonId);
-            } else {
-                attacker = createPokemon(pokemonId);
-                defender = createPokemon(pokeInfo);
-                field.swap();
-            }
-        } catch (error) {
-            console.error("Error creating Pokemon:", pokemonId, error);
-            continue;
-        }
-
-        if (attacker.ability === "Rivalry") {
-            attacker.gender = "N";
-        }
-        if (defender.ability === "Rivalry") {
-            defender.gender = "N";
-        }
-
-        var damageResults = calculateMovesOfAttacker(gen, attacker, defender, field);
-        attacker = damageResults[0].attacker;
-        defender = damageResults[0].defender;
-
-        if (!pokemonDamageStats[pokemonId]) {
-            pokemonDamageStats[pokemonId] = {
-                totalDamage: 0,
-                moveCount: 0,
-                maxDamage: 0,
-                types: [(mode === "one-vs-all") ? defender.types[0] : attacker.types[0],
-                       ((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || ""]
-            };
-        }
-
-        for (var n = 0; n < 4; n++) {
-            var result = damageResults[n];
-            
-            if (attacker.moves[n].bp === 0) continue;
-            
-            var minMaxDamage = result.range();
-            var minDamage = minMaxDamage[0] * attacker.moves[n].hits;
-            var maxDamage = minMaxDamage[1] * attacker.moves[n].hits;
-            var minPercentage = Math.floor(minDamage * 1000 / defender.maxHP()) / 10;
-            var maxPercentage = Math.floor(maxDamage * 1000 / defender.maxHP()) / 10;
-            
-            var moveName = attacker.moves[n].name.replace("Hidden Power", "HP");
-            var moveType = attacker.moves[n].type;
-            var effectiveBP = attacker.moves[n].bp * attacker.moves[n].hits;
-
-            var avgPercentage = (minPercentage + maxPercentage) / 2;
-            pokemonDamageStats[pokemonId].totalDamage += avgPercentage;
-            pokemonDamageStats[pokemonId].moveCount++;
-            pokemonDamageStats[pokemonId].maxDamage = Math.max(pokemonDamageStats[pokemonId].maxDamage, maxPercentage);
-            
-            var moveData = baseInfo.slice();
-            moveData.push((mode === "one-vs-all") ? defender.types[0] : attacker.types[0]); // Type 1
-            moveData.push(((mode === "one-vs-all") ? defender.types[1] : attacker.types[1]) || ""); // Type 2
-            moveData.push(moveName + " (" + moveType + ")");  // Best Move
-            moveData.push(effectiveBP + " BP");  // Base Power (BP)
-            moveData.push(minPercentage + " - " + maxPercentage + "%");  // Damage %
-            moveData.push(result.kochance(false).text);  // KO chance
-            moveData.push(((mode === "one-vs-all") ? defender.ability : attacker.ability) || ""); // Ability
-            moveData.push(((mode === "one-vs-all") ? defender.item : attacker.item) || ""); // Item
-            
-            dataSet.push(moveData);
-        }
-    }
-
-    var secondaryData = [];
-    for (var pokemon in pokemonDamageStats) {
-        var stats = pokemonDamageStats[pokemon];
         
-        if (mode === "one-vs-all") {
-            var avgDamage = stats.totalDamage / stats.moveCount;
-            if (avgDamage < 50) {
-                secondaryData.push([
-                    pokemon.split(" (")[0],
-                    stats.types[0],
-                    stats.types[1] || "",
-                    avgDamage.toFixed(1) + "%"
-                ]);
-            }
-        } else {
-            if (stats.maxDamage >= 75) {
-                secondaryData.push([
-                    pokemon.split(" (")[0],
-                    stats.types[0],
-                    stats.types[1] || "",
-                    stats.maxDamage.toFixed(1) + "%"
-                ]);
+        var attackerDealt = createPokemon(pokeInfo);
+        var defenderDealt = createPokemon(pokemonId);
+        var damageResultsDealt = calculateMovesOfAttacker(gen, attackerDealt, defenderDealt, field);
+         
+        field.swap();
+        var attackerReceived = createPokemon(pokemonId);
+        var defenderReceived = createPokemon(pokeInfo);
+        var damageResultsReceived = calculateMovesOfAttacker(gen, attackerReceived, defenderReceived, field);
+
+        let bestDamageDealt = 0;
+        let bestMoveDealt = null;
+        let bestMoveDealtResult = null;
+        
+        for (var n = 0; n < 4; n++) {
+            if (attackerDealt.moves[n].bp === 0) continue;
+            
+            var result = damageResultsDealt[n];
+            var minMaxDamage = result.range();
+            var maxDamage = minMaxDamage[1] * attackerDealt.moves[n].hits;
+            var maxPercentage = Math.floor(maxDamage * 1000 / defenderDealt.maxHP()) / 10;
+            
+            if (maxPercentage > bestDamageDealt) {
+                bestDamageDealt = maxPercentage;
+                bestMoveDealt = attackerDealt.moves[n];
+                bestMoveDealtResult = result;
             }
         }
-    }
-    
-    secondaryData.sort(function(a, b) {
-        var aValue = parseFloat(a[3]);
-        var bValue = parseFloat(b[3]);
-        return mode === "one-vs-all" ? aValue - bValue : bValue - aValue;
-    });
 
-    var pokemon = mode === "one-vs-all" ? attacker : defender;
-    if (pokemon) pokeInfo.find(".sp .totalMod").text(pokemon.stats.spe);
+        let bestDamageReceived = 0;
+        let bestMoveReceived = null;
+        let bestMoveReceivedResult = null;
+        
+        for (var n = 0; n < 4; n++) {
+            if (attackerReceived.moves[n].bp === 0) continue;
+            
+            var result = damageResultsReceived[n];
+            var minMaxDamage = result.range();
+            var maxDamage = minMaxDamage[1] * attackerReceived.moves[n].hits;
+            var maxPercentage = Math.floor(maxDamage * 1000 / defenderReceived.maxHP()) / 10;
+            
+            if (maxPercentage > bestDamageReceived) {
+                bestDamageReceived = maxPercentage;
+                bestMoveReceived = attackerReceived.moves[n];
+                bestMoveReceivedResult = result;
+            }
+        }
+
+        if (bestMoveDealt && bestMoveReceived) {
+            var receivedMinMaxDamage = bestMoveReceivedResult.range();
+            var receivedMinDamage = receivedMinMaxDamage[0] * bestMoveReceived.hits;
+            var receivedMaxDamage = receivedMinMaxDamage[1] * bestMoveReceived.hits;
+            var receivedMinPercentage = Math.floor(receivedMinDamage * 1000 / defenderReceived.maxHP()) / 10;
+            var receivedMaxPercentage = Math.floor(receivedMaxDamage * 1000 / defenderReceived.maxHP()) / 10;
+            
+            var dealtMinMaxDamage = bestMoveDealtResult.range();
+            var dealtMinDamage = dealtMinMaxDamage[0] * bestMoveDealt.hits;
+            var dealtMaxDamage = dealtMinMaxDamage[1] * bestMoveDealt.hits;
+            var dealtMinPercentage = Math.floor(dealtMinDamage * 1000 / defenderDealt.maxHP()) / 10;
+            var dealtMaxPercentage = Math.floor(dealtMaxDamage * 1000 / defenderDealt.maxHP()) / 10;
+
+            dataSet.push([
+                pokemonId.split(" (")[0],
+                formatMoveName(bestMoveReceived.name, bestMoveReceived.type),  // Enemy's Move
+                receivedMinPercentage + " - " + receivedMaxPercentage + "%",  // Damage Received
+                formatMoveName(bestMoveDealt.name, bestMoveDealt.type),  // Our Move
+                dealtMinPercentage + " - " + dealtMaxPercentage + "%"  // Damage Dealt
+            ]);
+        }
+    }
+
+    table.clear();
     table.rows.add(dataSet).draw();
-    checksTable.rows.add(secondaryData).draw();
+}
+
+function formatMoveName(moveName, moveType) {
+    if (moveName.startsWith('Hidden Power')) {
+        return 'Hidden Power (' + moveType + ')';
+    }
+    return moveName + " (" + moveType + ")";
 }
 
 function getSelectedTiers() {
@@ -366,60 +303,29 @@ var checksTable;
 function constructDataTable() {
     table = $("#holder-2").DataTable({
         destroy: true,
+        columns: [
+            { title: "Our Pokemon", data: 0 },
+            { title: "Our Move", data: 1 },
+            { title: "Damage Dealt", data: 2 },
+            { title: "Enemy's Move", data: 3 },
+            { title: "Damage Received", data: 4 }
+        ],
         columnDefs: [
             {
-                targets: [1, 2, 4, 7, 8],
-                visible: false,
-                searchable: true
-            },
-            {
-                targets: [5],
+                targets: [2, 4],
                 type: 'damage100'
-            },
-            {
-                targets: [6],
-                visible: true,
-                iDataSort: 5,
-                width: '150px',
-                render: function(data, type, row) {
-                    if (type === 'display') {
-                        return '<div class="ko-chance-cell">' + data + '</div>';
-                    }
-                    return data;
-                }
             }
         ],
         dom: 'C<"clear">fti',
-        colVis: {
-            exclude: [0, 3, 5, 6],
-            stateChange: function(iColumn, bVisible) {
-                var column = table.settings()[0].aoColumns[iColumn];
-                if (column.bSearchable !== bVisible) {
-                    column.bSearchable = bVisible;
-                    table.rows().invalidate();
-                }
-            }
-        },
         paging: false,
         scrollX: Math.floor(dtWidth / 100) * 100,
         scrollY: dtHeight,
         scrollCollapse: true,
         autoWidth: false
     });
+    
     $(".dataTables_wrapper").css({
         "max-width": dtWidth
-    });
-}
-
-function constructChecksTable() {
-    checksTable = $("#checks-table").DataTable({
-        destroy: true,
-        paging: false,
-        scrollX: Math.floor(dtWidth / 100) * 100,
-        scrollY: dtHeight,
-        scrollCollapse: true,
-        autoWidth: false,
-        order: [[3, 'asc']],
     });
 }
 
@@ -538,18 +444,7 @@ $(document).ready(function() {
     loadProgressionPoints();
 
     calcDTDimensions();
-    constructDataTable();
-    
-    checksTable = $("#checks-table").DataTable({
-        destroy: true,
-        paging: false,
-        scrollX: Math.floor(dtWidth / 100) * 100,
-        scrollY: dtHeight,
-        scrollCollapse: true,
-        autoWidth: false,
-        order: [[3, 'asc']],
-    });
-    
+    constructDataTable();   
     placeBsBtn();
 });
 

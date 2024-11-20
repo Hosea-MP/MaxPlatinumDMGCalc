@@ -43,20 +43,12 @@
           <input class="gen visually-hidden" type="radio" name="gen" value="9" id="gen9" checked="checked" />
           <label class="btn btn-small btn-right" for="gen9">S/V</label>
         </span>
-        <span class="modeSelection" aria-labelledby="selectModeInstruction" role="radiogroup" title="Select the calculator's mode of function.">
-          <span class="title-text">Mode: </span>
-          <span class="visually-hidden" id="selectModeInstruction">Select the calculator's mode of function.</span>
-          <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all" />
-          <label class="btn btn-mid btn-wide gen-specific g3 g4 g5 g6 g7 g8 g9" for="one-vs-all">My Pokemon vs Trainer Pokemon</label>
-          <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" />
-          <label class="btn btn-mid btn-wide gen-specific g3 g4 g5 g6 g7 g8 g9" for="all-vs-one">Trainer Pokemon vs My Pokemon</label>
-          <div>
-            <label for="progression-select" class="title-text">Game Progress: </label>
-            <select id="progression-select" style="width: 200px; margin: 10px 0;">
-              <option value="">Select progression point...</option>
-            </select>
-          </div>
-        </span>
+        <div>
+          <label for="progression-select" class="title-text">Game Progress: </label>
+          <select id="progression-select" style="width: 200px; margin: 10px 0;">
+            <option value="">Select progression point...</option>
+          </select>
+        </div>
       </div>
       <hr />
       <div>
@@ -847,38 +839,17 @@
       <fieldset class="panel holder-0">
         <legend class="panel-heading panel-title">Damage Results</legend>
         <table class="hide display" id="holder-2">
-          <thead>
-              <tr>
-                  <th>Defender</th>
-                  <th>Type 1</th>
-                  <th>Type 2</th>
-                  <th>Best Move</th>
-                  <th>Base Power (BP)</th>
-                  <th>Damage (%)</th>
-                  <th>KO Chance</th>
-                  <th>Ability</th>
-                  <th>Item</th>
-              </tr>
-          </thead>
-      </table>
-      </fieldset>
-    </div>
-    <div style="border: 1px solid rgb(170, 170, 170); background-color: rgb(241, 244, 249); margin-top: 20px;">
-      <div id="secondary-table-title" style="text-align: center; font-weight: bold; padding: 10px;">
-      </div>
-      <div style="padding: 10px;">
-          <table id="checks-table" class="display" style="width: 100%;">
-              <thead>
-                  <tr>
-                      <th>Pokemon</th>
-                      <th>Type 1</th>
-                      <th>Type 2</th>
-                      <th id="damage-column-header"></th>
-                  </tr>
-              </thead>
-          </table>
-      </div>
-  </div>
+            <thead>
+                <tr>
+                    <th>Pokemon</th>
+                    <th>Enemy's Move</th>
+                    <th>Damage Received</th>
+                    <th>Our Move</th>
+                    <th>Damage Dealt</th>
+                </tr>
+            </thead>
+        </table>
+    </fieldset>
     <script type="text/javascript">
       var linkExtension = '.html';
     </script>
