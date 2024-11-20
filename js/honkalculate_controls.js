@@ -64,8 +64,6 @@ async function loadProgressionPoints() {
 		const data = await response.json();
 		const select = document.getElementById('progression-select');
 
-		select.innerHTML = '<option value="">Select progression point...</option>';
-
 		data.forEach(point => {
 			const option = document.createElement('option');
 			option.value = JSON.stringify(point.encounters);
