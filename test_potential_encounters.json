@@ -44,8 +44,8 @@
             "level": 100
           },
           {
-            "species": "Charizard",
-            "level": "<not found>"
+            "species": "Charizard-Mega-X",
+            "level": 100
           },
           {
             "species": "Gyarados",
@@ -65,12 +65,12 @@
         "name": "Professor Oak",
         "party": [
           {
-            "species": "Pidgeot",
-            "level": "<not found>"
+            "species": "Pidgeot-Mega",
+            "level": 100
           },
           {
-            "species": "Blastoise",
-            "level": "<not found>"
+            "species": "Blastoise-Mega",
+            "level": 100
           },
           {
             "species": "Flareon",
@@ -665,7 +665,7 @@
           },
           {
             "species": "Squirtle",
-            "level": 16
+            "level": 5
           }
         ]
       },
@@ -682,7 +682,7 @@
           },
           {
             "species": "Bulbasaur",
-            "level": 16
+            "level": 5
           }
         ]
       },
@@ -699,7 +699,7 @@
           },
           {
             "species": "Charmander",
-            "level": 16
+            "level": 5
           }
         ]
       },
@@ -727,8 +727,8 @@
             "level": 82
           },
           {
-            "species": "Blastoise",
-            "level": "<not found>"
+            "species": "Blastoise-Mega",
+            "level": 56
           }
         ]
       },
@@ -756,8 +756,8 @@
             "level": 82
           },
           {
-            "species": "Venusaur",
-            "level": "<not found>"
+            "species": "Venusaur-Mega",
+            "level": 56
           }
         ]
       },
@@ -765,8 +765,8 @@
         "name": "Rival Blue",
         "party": [
           {
-            "species": "Charizard",
-            "level": "<not found>"
+            "species": "Charizard-Mega-X",
+            "level": 56
           },
           {
             "species": "Garchomp",
@@ -777,8 +777,8 @@
             "level": 82
           },
           {
-            "species": "Zamazenta",
-            "level": "<not found>"
+            "species": "Zamazenta-Crowned",
+            "level": 82
           },
           {
             "species": "Gliscor",
@@ -1704,8 +1704,8 @@
             "level": 68
           },
           {
-            "species": "Aerodactyl",
-            "level": "<not found>"
+            "species": "Aerodactyl-Mega",
+            "level": 68
           }
         ]
       },
@@ -4064,8 +4064,8 @@
             "level": 28
           },
           {
-            "species": "Altaria",
-            "level": "<not found>"
+            "species": "Altaria-Mega",
+            "level": 28
           }
         ]
       },
@@ -4734,8 +4734,8 @@
             "level": 100
           },
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 100
           },
           {
             "species": "Goodra-Hisui",
@@ -4746,8 +4746,8 @@
             "level": 68
           },
           {
-            "species": "Drednaw",
-            "level": "<not found>"
+            "species": "Drednaw-Mega",
+            "level": 100
           },
           {
             "species": "Floatzel",
@@ -4779,8 +4779,8 @@
             "level": 68
           },
           {
-            "species": "Gyarados",
-            "level": "<not found>"
+            "species": "Gyarados-Mega",
+            "level": 68
           }
         ]
       },
@@ -5819,8 +5819,8 @@
             "level": 36
           },
           {
-            "species": "Gengar",
-            "level": "<not found>"
+            "species": "Gengar-Mega",
+            "level": 36
           }
         ]
       }
@@ -5829,182 +5829,7 @@
   "81": {
     "name": "Lavender Town EXP Farm",
     "levelCap": 28,
-    "trainers": [
-      {
-        "name": "Friendly Coach",
-        "party": [
-          {
-            "species": "Jumpluff",
-            "level": "<not found>"
-          },
-          {
-            "species": "Jumpluff",
-            "level": "<not found>"
-          },
-          {
-            "species": "Jumpluff",
-            "level": "<not found>"
-          },
-          {
-            "species": "Jumpluff",
-            "level": "<not found>"
-          },
-          {
-            "species": "Jumpluff",
-            "level": "<not found>"
-          },
-          {
-            "species": "Jumpluff",
-            "level": "<not found>"
-          }
-        ]
-      },
-      {
-        "name": "Friendly Coach",
-        "party": [
-          {
-            "species": "Stoutland",
-            "level": "<not found>"
-          },
-          {
-            "species": "Stoutland",
-            "level": "<not found>"
-          },
-          {
-            "species": "Stoutland",
-            "level": "<not found>"
-          },
-          {
-            "species": "Stoutland",
-            "level": "<not found>"
-          },
-          {
-            "species": "Stoutland",
-            "level": "<not found>"
-          },
-          {
-            "species": "Stoutland",
-            "level": "<not found>"
-          }
-        ]
-      },
-      {
-        "name": "Friendly Coach",
-        "party": [
-          {
-            "species": "Coalossal",
-            "level": "<not found>"
-          },
-          {
-            "species": "Coalossal",
-            "level": "<not found>"
-          },
-          {
-            "species": "Coalossal",
-            "level": "<not found>"
-          },
-          {
-            "species": "Coalossal",
-            "level": "<not found>"
-          },
-          {
-            "species": "Coalossal",
-            "level": "<not found>"
-          },
-          {
-            "species": "Coalossal",
-            "level": "<not found>"
-          }
-        ]
-      },
-      {
-        "name": "Friendly Coach",
-        "party": [
-          {
-            "species": "Beautifly",
-            "level": "<not found>"
-          },
-          {
-            "species": "Beautifly",
-            "level": "<not found>"
-          },
-          {
-            "species": "Beautifly",
-            "level": "<not found>"
-          },
-          {
-            "species": "Beautifly",
-            "level": "<not found>"
-          },
-          {
-            "species": "Beautifly",
-            "level": "<not found>"
-          },
-          {
-            "species": "Beautifly",
-            "level": "<not found>"
-          }
-        ]
-      },
-      {
-        "name": "Friendly Coach",
-        "party": [
-          {
-            "species": "Dustox",
-            "level": "<not found>"
-          },
-          {
-            "species": "Dustox",
-            "level": "<not found>"
-          },
-          {
-            "species": "Dustox",
-            "level": "<not found>"
-          },
-          {
-            "species": "Dustox",
-            "level": "<not found>"
-          },
-          {
-            "species": "Dustox",
-            "level": "<not found>"
-          },
-          {
-            "species": "Dustox",
-            "level": "<not found>"
-          }
-        ]
-      },
-      {
-        "name": "Friendly Coach",
-        "party": [
-          {
-            "species": "Audino",
-            "level": "<not found>"
-          },
-          {
-            "species": "Audino",
-            "level": "<not found>"
-          },
-          {
-            "species": "Audino",
-            "level": "<not found>"
-          },
-          {
-            "species": "Audino",
-            "level": "<not found>"
-          },
-          {
-            "species": "Audino",
-            "level": "<not found>"
-          },
-          {
-            "species": "Audino",
-            "level": "<not found>"
-          }
-        ]
-      }
-    ]
+    "trainers": []
   },
   "82": {
     "name": "Lavender Town Poke Mart",
@@ -6359,15 +6184,6 @@
             "level": 39
           }
         ]
-      },
-      {
-        "name": "Ghost",
-        "party": [
-          {
-            "species": "Marowak-Alola",
-            "level": "<not found>"
-          }
-        ]
       }
     ],
     "encounters": [
@@ -6534,8 +6350,8 @@
             "level": 66
           },
           {
-            "species": "Blastoise",
-            "level": "<not found>"
+            "species": "Blastoise-Mega",
+            "level": 66
           },
           {
             "species": "Walrein",
@@ -6556,8 +6372,8 @@
         "name": "Camper Justin",
         "party": [
           {
-            "species": "Darmanitan-Galar",
-            "level": "<not found>"
+            "species": "Darmanitan-Galar-Zen",
+            "level": 66
           },
           {
             "species": "Cetitan",
@@ -6737,8 +6553,8 @@
             "level": 59
           },
           {
-            "species": "Centiskorch",
-            "level": "<not found>"
+            "species": "Centiskorch-Mega",
+            "level": 59
           }
         ]
       },
@@ -7374,8 +7190,8 @@
             "level": 59
           },
           {
-            "species": "Flapple",
-            "level": "<not found>"
+            "species": "Flapple-Mega",
+            "level": 59
           }
         ]
       },
@@ -7395,8 +7211,8 @@
             "level": 59
           },
           {
-            "species": "Appletun",
-            "level": "<not found>"
+            "species": "Appletun-Mega",
+            "level": 59
           }
         ]
       }
@@ -7435,8 +7251,8 @@
             "level": 66
           },
           {
-            "species": "Beedrill",
-            "level": "<not found>"
+            "species": "Beedrill-Mega",
+            "level": 66
           },
           {
             "species": "Rotom-Heat",
@@ -7472,8 +7288,8 @@
             "level": 66
           },
           {
-            "species": "Lopunny",
-            "level": "<not found>"
+            "species": "Lopunny-Mega",
+            "level": 66
           }
         ]
       },
@@ -7481,8 +7297,8 @@
         "name": "Cue Ball Koji",
         "party": [
           {
-            "species": "Kingler",
-            "level": "<not found>"
+            "species": "Kingler-Mega",
+            "level": 66
           },
           {
             "species": "Dracozolt",
@@ -7519,8 +7335,8 @@
             "level": 66
           },
           {
-            "species": "Scizor",
-            "level": "<not found>"
+            "species": "Scizor-Mega",
+            "level": 66
           },
           {
             "species": "Garchomp",
@@ -7704,7 +7520,7 @@
             "level": 36
           },
           {
-            "species": "Kommo-o",
+            "species": "Kommo-O",
             "level": 36
           },
           {
@@ -7712,12 +7528,12 @@
             "level": 36
           },
           {
-            "species": "Zamazenta",
-            "level": "<not found>"
+            "species": "Zamazenta-Crowned",
+            "level": 36
           },
           {
-            "species": "Gallade",
-            "level": "<not found>"
+            "species": "Gallade-Mega",
+            "level": 36
           }
         ]
       },
@@ -7817,8 +7633,8 @@
             "level": 68
           },
           {
-            "species": "Manectric",
-            "level": "<not found>"
+            "species": "Manectric-Mega",
+            "level": 68
           }
         ]
       },
@@ -7872,8 +7688,8 @@
             "level": 36
           },
           {
-            "species": "Ampharos",
-            "level": "<not found>"
+            "species": "Ampharos-Mega",
+            "level": 36
           }
         ]
       },
@@ -7932,8 +7748,8 @@
             "level": 68
           },
           {
-            "species": "Ampharos",
-            "level": "<not found>"
+            "species": "Ampharos-Mega",
+            "level": 68
           }
         ]
       },
@@ -7945,8 +7761,8 @@
             "level": 38
           },
           {
-            "species": "Pumpkaboo",
-            "level": "<not found>"
+            "species": "Pumpkaboo-Small",
+            "level": 38
           }
         ]
       },
@@ -8052,8 +7868,8 @@
             "level": 44
           },
           {
-            "species": "Sceptile",
-            "level": "<not found>"
+            "species": "Sceptile-Mega",
+            "level": 44
           },
           {
             "species": "Toxtricity",
@@ -8093,8 +7909,8 @@
             "level": 100
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 100
           },
           {
             "species": "Alakazam",
@@ -8311,8 +8127,8 @@
             "level": 47
           },
           {
-            "species": "Kangaskhan",
-            "level": "<not found>"
+            "species": "Kangaskhan-Mega",
+            "level": 47
           }
         ]
       },
@@ -8963,8 +8779,8 @@
             "level": 56
           },
           {
-            "species": "Blastoise",
-            "level": "<not found>"
+            "species": "Blastoise-Mega",
+            "level": 56
           }
         ]
       },
@@ -8992,8 +8808,8 @@
             "level": 56
           },
           {
-            "species": "Venusaur",
-            "level": "<not found>"
+            "species": "Venusaur-Mega",
+            "level": 56
           }
         ]
       },
@@ -9021,8 +8837,8 @@
             "level": 56
           },
           {
-            "species": "Charizard",
-            "level": "<not found>"
+            "species": "Charizard-Mega-X",
+            "level": 56
           }
         ]
       }
@@ -9192,8 +9008,8 @@
             "level": 55
           },
           {
-            "species": "Houndoom",
-            "level": "<not found>"
+            "species": "Houndoom-Mega",
+            "level": 56
           }
         ]
       },
@@ -9209,8 +9025,8 @@
             "level": 55
           },
           {
-            "species": "Mawile",
-            "level": "<not found>"
+            "species": "Mawile-Mega",
+            "level": 56
           }
         ]
       },
@@ -9255,8 +9071,8 @@
             "level": 57
           },
           {
-            "species": "Garchomp",
-            "level": "<not found>"
+            "species": "Garchomp-Mega",
+            "level": 57
           }
         ]
       },
@@ -9332,8 +9148,8 @@
             "level": 59
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 59
           }
         ]
       },
@@ -9341,12 +9157,12 @@
         "name": "Dumbass Gian",
         "party": [
           {
-            "species": "Magearna",
-            "level": "<not found>"
+            "species": "Magearna-Original",
+            "level": 100
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 100
           },
           {
             "species": "Necrozma-Dusk-Mane",
@@ -9456,8 +9272,8 @@
             "level": 59
           },
           {
-            "species": "Camerupt",
-            "level": "<not found>"
+            "species": "Camerupt-Mega",
+            "level": 59
           },
           {
             "species": "Glastrier",
@@ -9539,8 +9355,8 @@
             "level": 66
           },
           {
-            "species": "Camerupt",
-            "level": "<not found>"
+            "species": "Camerupt-Mega",
+            "level": 66
           },
           {
             "species": "Eelektross",
@@ -9594,8 +9410,8 @@
             "level": 66
           },
           {
-            "species": "Charizard",
-            "level": "<not found>"
+            "species": "Charizard-Mega-X",
+            "level": 66
           },
           {
             "species": "Togekiss",
@@ -9681,8 +9497,8 @@
             "level": 66
           },
           {
-            "species": "Altaria",
-            "level": "<not found>"
+            "species": "Altaria-Mega",
+            "level": 66
           }
         ]
       },
@@ -9706,8 +9522,8 @@
             "level": 66
           },
           {
-            "species": "Alcremie",
-            "level": "<not found>"
+            "species": "Alcremie-Mega",
+            "level": 66
           }
         ]
       },
@@ -10190,8 +10006,8 @@
             "level": 68
           },
           {
-            "species": "Sandaconda",
-            "level": "<not found>"
+            "species": "Sandaconda-Mega",
+            "level": 68
           }
         ]
       },
@@ -10695,8 +10511,8 @@
             "level": 66
           },
           {
-            "species": "Pinsir",
-            "level": "<not found>"
+            "species": "Pinsir-Mega",
+            "level": 66
           },
           {
             "species": "Omastar",
@@ -10720,8 +10536,8 @@
             "level": 66
           },
           {
-            "species": "Lapras",
-            "level": "<not found>"
+            "species": "Lapras-Mega",
+            "level": 66
           },
           {
             "species": "Latias",
@@ -11437,8 +11253,8 @@
             "level": 64
           },
           {
-            "species": "Wishiwashi",
-            "level": "<not found>"
+            "species": "Wishiwashi-School",
+            "level": 60
           }
         ]
       },
@@ -11634,8 +11450,8 @@
             "level": 68
           },
           {
-            "species": "Toxtricity",
-            "level": "<not found>"
+            "species": "Toxtricity-Mega",
+            "level": 68
           }
         ]
       }
@@ -11828,8 +11644,8 @@
             "level": 73
           },
           {
-            "species": "Machamp",
-            "level": "<not found>"
+            "species": "Machamp-Mega",
+            "level": 73
           }
         ]
       }
@@ -11961,8 +11777,8 @@
             "level": 73
           },
           {
-            "species": "Glalie",
-            "level": "<not found>"
+            "species": "Glalie-Mega",
+            "level": 73
           }
         ]
       },
@@ -11990,8 +11806,8 @@
             "level": 73
           },
           {
-            "species": "Glalie",
-            "level": "<not found>"
+            "species": "Glalie-Mega",
+            "level": 73
           }
         ]
       },
@@ -12019,8 +11835,8 @@
             "level": 73
           },
           {
-            "species": "Glalie",
-            "level": "<not found>"
+            "species": "Glalie-Mega",
+            "level": 73
           }
         ]
       },
@@ -12708,8 +12524,8 @@
             "level": 73
           },
           {
-            "species": "Aggron",
-            "level": "<not found>"
+            "species": "Aggron-Mega",
+            "level": 73
           }
         ]
       },
@@ -12737,8 +12553,8 @@
             "level": 73
           },
           {
-            "species": "Aggron",
-            "level": "<not found>"
+            "species": "Aggron-Mega",
+            "level": 73
           }
         ]
       },
@@ -12766,8 +12582,8 @@
             "level": 73
           },
           {
-            "species": "Aggron",
-            "level": "<not found>"
+            "species": "Aggron-Mega",
+            "level": 73
           }
         ]
       }
@@ -12973,8 +12789,8 @@
             "level": 73
           },
           {
-            "species": "Blaziken",
-            "level": "<not found>"
+            "species": "Blaziken-Mega",
+            "level": 73
           }
         ]
       }
@@ -13070,8 +12886,8 @@
             "level": 75
           },
           {
-            "species": "Pidgeot",
-            "level": "<not found>"
+            "species": "Pidgeot-Mega",
+            "level": 76
           },
           {
             "species": "Emboar",
@@ -13412,8 +13228,8 @@
             "level": 75
           },
           {
-            "species": "Lopunny",
-            "level": "<not found>"
+            "species": "Lopunny-Mega",
+            "level": 76
           },
           {
             "species": "Spectrier",
@@ -13564,8 +13380,8 @@
             "level": 76
           },
           {
-            "species": "Centiskorch",
-            "level": "<not found>"
+            "species": "Centiskorch-Mega",
+            "level": 76
           }
         ]
       },
@@ -13577,8 +13393,8 @@
             "level": 76
           },
           {
-            "species": "Salamence",
-            "level": "<not found>"
+            "species": "Salamence-Mega",
+            "level": 76
           },
           {
             "species": "Braviary-Hisui",
@@ -13669,8 +13485,8 @@
             "level": 76
           },
           {
-            "species": "Charizard",
-            "level": "<not found>"
+            "species": "Charizard-Mega-X",
+            "level": 76
           }
         ]
       }
@@ -13696,8 +13512,8 @@
             "level": 79
           },
           {
-            "species": "Houndoom",
-            "level": "<not found>"
+            "species": "Houndoom-Mega",
+            "level": 56
           },
           {
             "species": "Sunflora",
@@ -13721,8 +13537,8 @@
             "level": 79
           },
           {
-            "species": "Mawile",
-            "level": "<not found>"
+            "species": "Mawile-Mega",
+            "level": 56
           }
         ]
       },
@@ -13750,8 +13566,8 @@
             "level": 79
           },
           {
-            "species": "Garbodor",
-            "level": "<not found>"
+            "species": "Garbodor-Mega",
+            "level": 79
           }
         ]
       },
@@ -13912,8 +13728,8 @@
             "level": 81
           },
           {
-            "species": "Banette",
-            "level": "<not found>"
+            "species": "Banette-Mega",
+            "level": 81
           },
           {
             "species": "Urshifu-Rapid-Strike",
@@ -14120,8 +13936,8 @@
             "level": 83
           },
           {
-            "species": "Salamence",
-            "level": "<not found>"
+            "species": "Salamence-Mega",
+            "level": 82
           }
         ]
       },
@@ -14300,16 +14116,16 @@
             "level": 100
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 100
           },
           {
             "species": "Dragonite",
             "level": 100
           },
           {
-            "species": "Flapple",
-            "level": "<not found>"
+            "species": "Flapple-Mega",
+            "level": 100
           },
           {
             "species": "Kyurem-Black",
@@ -14337,8 +14153,8 @@
             "level": 81
           },
           {
-            "species": "Necrozma-Dusk-Mane",
-            "level": "<not found>"
+            "species": "Necrozma-Ultra",
+            "level": 81
           },
           {
             "species": "Eternatus",
@@ -14700,8 +14516,8 @@
             "level": 85
           },
           {
-            "species": "Kingler",
-            "level": "<not found>"
+            "species": "Kingler-Mega",
+            "level": 85
           },
           {
             "species": "Hatterene",
@@ -14725,8 +14541,8 @@
             "level": 85
           },
           {
-            "species": "Absol",
-            "level": "<not found>"
+            "species": "Absol-Mega",
+            "level": 85
           },
           {
             "species": "Galvantula",
@@ -14989,8 +14805,8 @@
             "level": 85
           },
           {
-            "species": "Pinsir",
-            "level": "<not found>"
+            "species": "Pinsir-Mega",
+            "level": 85
           }
         ]
       },
@@ -15002,8 +14818,8 @@
             "level": 85
           },
           {
-            "species": "Diancie",
-            "level": "<not found>"
+            "species": "Diancie-Mega",
+            "level": 85
           },
           {
             "species": "Iron Leaves",
@@ -15027,8 +14843,8 @@
         "name": "Ace Trainer Caroline",
         "party": [
           {
-            "species": "Lopunny",
-            "level": "<not found>"
+            "species": "Lopunny-Mega",
+            "level": 85
           },
           {
             "species": "Bellossom",
@@ -15085,16 +14901,16 @@
         "name": "Cool Couple Ray & Tyra",
         "party": [
           {
-            "species": "Darmanitan",
-            "level": "<not found>"
+            "species": "Darmanitan-Zen",
+            "level": 85
           },
           {
             "species": "Scrafty",
             "level": 85
           },
           {
-            "species": "Copperajah",
-            "level": "<not found>"
+            "species": "Copperajah-Mega",
+            "level": 85
           },
           {
             "species": "Runerigus",
@@ -15230,8 +15046,8 @@
             "level": 85
           },
           {
-            "species": "Abomasnow",
-            "level": "<not found>"
+            "species": "Abomasnow-Mega",
+            "level": 85
           }
         ]
       },
@@ -15259,8 +15075,8 @@
             "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           }
         ]
       },
@@ -15284,12 +15100,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Lucario",
-            "level": "<not found>"
+            "species": "Lucario-Mega",
+            "level": 85
           }
         ]
       },
@@ -15313,12 +15129,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 85
           }
         ]
       },
@@ -15330,8 +15146,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -15363,8 +15179,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -15392,20 +15208,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -15421,20 +15237,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -15442,20 +15258,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
-            "species": "Necrozma-Dawn-Wings",
-            "level": "<not found>"
+            "species": "Necrozma-Ultra",
+            "level": 85
           },
           {
             "species": "Arceus",
@@ -15471,20 +15287,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
             "species": "Walking Wake",
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
             "species": "Xerneas",
@@ -15500,8 +15316,8 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Groudon",
-            "level": "<not found>"
+            "species": "Groudon-Primal",
+            "level": 85
           },
           {
             "species": "Gouging Fire",
@@ -15520,8 +15336,8 @@
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           }
         ]
       }
@@ -15555,8 +15371,8 @@
             "level": 85
           },
           {
-            "species": "Abomasnow",
-            "level": "<not found>"
+            "species": "Abomasnow-Mega",
+            "level": 85
           }
         ]
       },
@@ -15584,8 +15400,8 @@
             "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           }
         ]
       },
@@ -15609,12 +15425,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Lucario",
-            "level": "<not found>"
+            "species": "Lucario-Mega",
+            "level": 85
           }
         ]
       },
@@ -15638,12 +15454,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 85
           }
         ]
       },
@@ -15655,8 +15471,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -15688,8 +15504,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -15717,20 +15533,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -15746,20 +15562,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -15767,20 +15583,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
-            "species": "Necrozma-Dawn-Wings",
-            "level": "<not found>"
+            "species": "Necrozma-Ultra",
+            "level": 85
           },
           {
             "species": "Arceus",
@@ -15796,20 +15612,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
             "species": "Walking Wake",
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
             "species": "Xerneas",
@@ -15825,8 +15641,8 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Groudon",
-            "level": "<not found>"
+            "species": "Groudon-Primal",
+            "level": 85
           },
           {
             "species": "Gouging Fire",
@@ -15845,8 +15661,8 @@
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           }
         ]
       }
@@ -15880,8 +15696,8 @@
             "level": 85
           },
           {
-            "species": "Abomasnow",
-            "level": "<not found>"
+            "species": "Abomasnow-Mega",
+            "level": 85
           }
         ]
       },
@@ -15909,8 +15725,8 @@
             "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           }
         ]
       },
@@ -15934,12 +15750,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Lucario",
-            "level": "<not found>"
+            "species": "Lucario-Mega",
+            "level": 85
           }
         ]
       },
@@ -15963,12 +15779,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 85
           }
         ]
       },
@@ -15980,8 +15796,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -16013,8 +15829,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -16042,20 +15858,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -16071,20 +15887,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -16092,20 +15908,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
-            "species": "Necrozma-Dawn-Wings",
-            "level": "<not found>"
+            "species": "Necrozma-Ultra",
+            "level": 85
           },
           {
             "species": "Arceus",
@@ -16121,20 +15937,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
             "species": "Walking Wake",
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
             "species": "Xerneas",
@@ -16150,8 +15966,8 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Groudon",
-            "level": "<not found>"
+            "species": "Groudon-Primal",
+            "level": 85
           },
           {
             "species": "Gouging Fire",
@@ -16170,8 +15986,8 @@
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           }
         ]
       }
@@ -16205,8 +16021,8 @@
             "level": 85
           },
           {
-            "species": "Abomasnow",
-            "level": "<not found>"
+            "species": "Abomasnow-Mega",
+            "level": 85
           }
         ]
       },
@@ -16234,8 +16050,8 @@
             "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           }
         ]
       },
@@ -16259,12 +16075,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Lucario",
-            "level": "<not found>"
+            "species": "Lucario-Mega",
+            "level": 85
           }
         ]
       },
@@ -16288,12 +16104,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 85
           }
         ]
       },
@@ -16305,8 +16121,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -16338,8 +16154,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -16367,20 +16183,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -16396,20 +16212,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -16417,20 +16233,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
-            "species": "Necrozma-Dawn-Wings",
-            "level": "<not found>"
+            "species": "Necrozma-Ultra",
+            "level": 85
           },
           {
             "species": "Arceus",
@@ -16446,20 +16262,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
             "species": "Walking Wake",
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
             "species": "Xerneas",
@@ -16475,8 +16291,8 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Groudon",
-            "level": "<not found>"
+            "species": "Groudon-Primal",
+            "level": 85
           },
           {
             "species": "Gouging Fire",
@@ -16495,8 +16311,8 @@
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           }
         ]
       }
@@ -16530,8 +16346,8 @@
             "level": 85
           },
           {
-            "species": "Abomasnow",
-            "level": "<not found>"
+            "species": "Abomasnow-Mega",
+            "level": 85
           }
         ]
       },
@@ -16559,8 +16375,8 @@
             "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           }
         ]
       },
@@ -16584,12 +16400,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Lucario",
-            "level": "<not found>"
+            "species": "Lucario-Mega",
+            "level": 85
           }
         ]
       },
@@ -16613,12 +16429,12 @@
             "level": 85
           },
           {
-            "species": "Zacian",
-            "level": "<not found>"
+            "species": "Zacian-Crowned",
+            "level": 85
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 85
           }
         ]
       },
@@ -16630,8 +16446,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -16663,8 +16479,8 @@
             "level": 85
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 85
           },
           {
             "species": "Yveltal",
@@ -16692,20 +16508,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -16721,20 +16537,20 @@
             "level": 85
           },
           {
-            "species": "Arceus",
-            "level": "<not found>"
+            "species": "Arceus-Fairy",
+            "level": 85
           },
           {
             "species": "Dragonite",
             "level": 85
           },
           {
-            "species": "Dialga",
-            "level": "<not found>"
+            "species": "Dialga-Primal",
+            "level": 85
           },
           {
-            "species": "Rayquaza",
-            "level": "<not found>"
+            "species": "Rayquaza-Mega",
+            "level": 85
           }
         ]
       },
@@ -16742,20 +16558,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
-            "species": "Necrozma-Dawn-Wings",
-            "level": "<not found>"
+            "species": "Necrozma-Ultra",
+            "level": 85
           },
           {
             "species": "Arceus",
@@ -16771,20 +16587,20 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Kyogre",
-            "level": "<not found>"
+            "species": "Kyogre-Primal",
+            "level": 85
           },
           {
-            "species": "Swampert",
-            "level": "<not found>"
+            "species": "Swampert-Mega",
+            "level": 85
           },
           {
             "species": "Walking Wake",
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           },
           {
             "species": "Xerneas",
@@ -16800,8 +16616,8 @@
         "name": "Champion Blue",
         "party": [
           {
-            "species": "Groudon",
-            "level": "<not found>"
+            "species": "Groudon-Primal",
+            "level": 85
           },
           {
             "species": "Gouging Fire",
@@ -16820,8 +16636,8 @@
             "level": 85
           },
           {
-            "species": "Eternatus",
-            "level": "<not found>"
+            "species": "Eternatus-Eternamax",
+            "level": 85
           }
         ]
       }
@@ -16839,8 +16655,8 @@
             "level": 100
           },
           {
-            "species": "Garchomp",
-            "level": "<not found>"
+            "species": "Garchomp-Mega",
+            "level": 100
           },
           {
             "species": "Huntail",
@@ -16851,8 +16667,8 @@
             "level": 100
           },
           {
-            "species": "Machamp",
-            "level": "<not found>"
+            "species": "Machamp-Mega",
+            "level": 73
           },
           {
             "species": "Hoopa-Unbound",
@@ -16983,8 +16799,8 @@
             "level": 100
           },
           {
-            "species": "Gengar",
-            "level": "<not found>"
+            "species": "Gengar-Mega",
+            "level": 36
           },
           {
             "species": "Zarude",
@@ -17016,8 +16832,8 @@
             "level": 100
           },
           {
-            "species": "Garchomp",
-            "level": "<not found>"
+            "species": "Garchomp-Mega",
+            "level": 100
           }
         ]
       },
@@ -17037,8 +16853,8 @@
             "level": 100
           },
           {
-            "species": "Alcremie",
-            "level": "<not found>"
+            "species": "Alcremie-Mega",
+            "level": 100
           },
           {
             "species": "Samurott-Hisui",
@@ -17062,8 +16878,8 @@
             "level": 100
           },
           {
-            "species": "Salamence",
-            "level": "<not found>"
+            "species": "Salamence-Mega",
+            "level": 100
           },
           {
             "species": "Aegislash-Shield",
@@ -17137,8 +16953,8 @@
         "name": "Leader Falkner",
         "party": [
           {
-            "species": "Pidgeot",
-            "level": "<not found>"
+            "species": "Pidgeot-Mega",
+            "level": 100
           },
           {
             "species": "Yanmega",
@@ -17274,8 +17090,8 @@
         "name": "Leader Pryce",
         "party": [
           {
-            "species": "Abomasnow",
-            "level": "<not found>"
+            "species": "Abomasnow-Mega",
+            "level": 100
           },
           {
             "species": "Calyrex-Ice",
@@ -17286,16 +17102,16 @@
             "level": 100
           },
           {
-            "species": "Wishiwashi-Sevii",
-            "level": "<not found>"
+            "species": "Wishiwashi-Sevii-School",
+            "level": 100
           },
           {
             "species": "Donphan",
             "level": 100
           },
           {
-            "species": "Heracross",
-            "level": "<not found>"
+            "species": "Heracross-Mega",
+            "level": 100
           }
         ]
       }
@@ -17324,24 +17140,24 @@
             "level": 100
           },
           {
-            "species": "Venusaur",
-            "level": "<not found>"
+            "species": "Venusaur-Mega",
+            "level": 100
           },
           {
-            "species": "Blastoise",
-            "level": "<not found>"
+            "species": "Blastoise-Mega",
+            "level": 100
           },
           {
-            "species": "Charizard",
-            "level": "<not found>"
+            "species": "Charizard-Mega-X",
+            "level": 100
           },
           {
             "species": "Snorlax",
             "level": 100
           },
           {
-            "species": "Mewtwo",
-            "level": "<not found>"
+            "species": "Mewtwo-Mega-X",
+            "level": 100
           }
         ]
       },
@@ -17530,8 +17346,8 @@
             "level": 100
           },
           {
-            "species": "Pinsir",
-            "level": "<not found>"
+            "species": "Pinsir-Mega",
+            "level": 100
           }
         ]
       },
@@ -17543,12 +17359,12 @@
             "level": 100
           },
           {
-            "species": "Gallade",
-            "level": "<not found>"
+            "species": "Gallade-Mega",
+            "level": 100
           },
           {
-            "species": "Darmanitan-Galar",
-            "level": "<not found>"
+            "species": "Darmanitan-Galar-Zen",
+            "level": 100
           },
           {
             "species": "Nidoking",
@@ -17593,8 +17409,8 @@
             "level": 100
           },
           {
-            "species": "Wishiwashi",
-            "level": "<not found>"
+            "species": "Wishiwashi-School",
+            "level": 100
           }
         ]
       },
@@ -17614,8 +17430,8 @@
             "level": 99
           },
           {
-            "species": "Drednaw",
-            "level": "<not found>"
+            "species": "Drednaw-Mega",
+            "level": 100
           }
         ]
       },
@@ -17635,8 +17451,8 @@
             "level": 98
           },
           {
-            "species": "Lapras",
-            "level": "<not found>"
+            "species": "Lapras-Mega",
+            "level": 100
           }
         ]
       },
@@ -17652,8 +17468,8 @@
             "level": 98
           },
           {
-            "species": "Slowbro",
-            "level": "<not found>"
+            "species": "Slowbro-Mega",
+            "level": 100
           },
           {
             "species": "Slowbro-Galar",
@@ -17711,8 +17527,8 @@
             "level": 100
           },
           {
-            "species": "Medicham",
-            "level": "<not found>"
+            "species": "Medicham-Mega",
+            "level": 100
           },
           {
             "species": "Tyrantrum",
@@ -17732,8 +17548,8 @@
             "level": 98
           },
           {
-            "species": "Butterfree",
-            "level": "<not found>"
+            "species": "Butterfree-Mega",
+            "level": 100
           },
           {
             "species": "Magnezone",
@@ -17749,8 +17565,8 @@
         "name": "Picnicker Claire",
         "party": [
           {
-            "species": "Alakazam",
-            "level": "<not found>"
+            "species": "Alakazam-Mega",
+            "level": 99
           },
           {
             "species": "Indeedee",
@@ -17778,8 +17594,8 @@
             "level": 98
           },
           {
-            "species": "Metagross",
-            "level": "<not found>"
+            "species": "Metagross-Mega",
+            "level": 99
           },
           {
             "species": "Lycanroc-Dusk",
@@ -17928,8 +17744,8 @@
         "name": "Rocket Admin Ariana",
         "party": [
           {
-            "species": "Lopunny",
-            "level": "<not found>"
+            "species": "Lopunny-Mega",
+            "level": 100
           },
           {
             "species": "Greninja",
@@ -17948,8 +17764,8 @@
             "level": 100
           },
           {
-            "species": "Mawile",
-            "level": "<not found>"
+            "species": "Mawile-Mega",
+            "level": 56
           }
         ]
       },
@@ -17986,8 +17802,8 @@
             "level": 99
           },
           {
-            "species": "Altaria",
-            "level": "<not found>"
+            "species": "Altaria-Mega",
+            "level": 100
           },
           {
             "species": "Feraligatr",
@@ -18011,8 +17827,8 @@
             "level": 99
           },
           {
-            "species": "Manectric",
-            "level": "<not found>"
+            "species": "Manectric-Mega",
+            "level": 100
           }
         ]
       }
@@ -18162,12 +17978,12 @@
             "level": 100
           },
           {
-            "species": "Salamence",
-            "level": "<not found>"
+            "species": "Salamence-Mega",
+            "level": 100
           },
           {
-            "species": "Houndoom",
-            "level": "<not found>"
+            "species": "Houndoom-Mega",
+            "level": 56
           }
         ]
       }
@@ -18200,16 +18016,16 @@
             "level": 100
           },
           {
-            "species": "Sceptile",
-            "level": "<not found>"
+            "species": "Sceptile-Mega",
+            "level": 100
           },
           {
             "species": "Torterra",
             "level": 100
           },
           {
-            "species": "Blaziken",
-            "level": "<not found>"
+            "species": "Blaziken-Mega",
+            "level": 100
           },
           {
             "species": "Greninja",
@@ -18251,8 +18067,8 @@
             "level": 100
           },
           {
-            "species": "Snorlax",
-            "level": "<not found>"
+            "species": "Snorlax-Mega",
+            "level": 100
           }
         ]
       }
@@ -18425,8 +18241,8 @@
             "level": 100
           },
           {
-            "species": "Absol",
-            "level": "<not found>"
+            "species": "Absol-Mega",
+            "level": 100
           }
         ]
       }
@@ -18538,8 +18354,8 @@
             "level": 99
           },
           {
-            "species": "Sharpedo",
-            "level": "<not found>"
+            "species": "Sharpedo-Mega",
+            "level": 100
           }
         ]
       },
@@ -18551,8 +18367,8 @@
             "level": 100
           },
           {
-            "species": "Centiskorch-Sevii",
-            "level": "<not found>"
+            "species": "Centiskorch-Sevii-Mega",
+            "level": 100
           },
           {
             "species": "Goodra-Hisui",
@@ -18604,8 +18420,8 @@
         "name": "Aroma Lady Nikki",
         "party": [
           {
-            "species": "Sableye",
-            "level": "<not found>"
+            "species": "Sableye-Mega",
+            "level": 100
           },
           {
             "species": "Tangrowth",
@@ -18633,8 +18449,8 @@
         "name": "Aroma Lady Violet",
         "party": [
           {
-            "species": "Flapple",
-            "level": "<not found>"
+            "species": "Flapple-Mega",
+            "level": 100
           },
           {
             "species": "Arcanine-Hisui",
@@ -18666,8 +18482,8 @@
             "level": 100
           },
           {
-            "species": "Slowbro",
-            "level": "<not found>"
+            "species": "Slowbro-Mega",
+            "level": 100
           },
           {
             "species": "Lanturn",
@@ -18857,8 +18673,8 @@
             "level": 100
           },
           {
-            "species": "Garchomp",
-            "level": "<not found>"
+            "species": "Garchomp-Mega",
+            "level": 100
           },
           {
             "species": "Dragapult",
@@ -18894,7 +18710,7 @@
             "level": 100
           },
           {
-            "species": "Kommo-o",
+            "species": "Kommo-O",
             "level": 100
           },
           {
@@ -18902,8 +18718,8 @@
             "level": 100
           },
           {
-            "species": "Toxtricity",
-            "level": "<not found>"
+            "species": "Toxtricity-Mega",
+            "level": 100
           }
         ]
       },
@@ -18927,8 +18743,8 @@
             "level": 100
           },
           {
-            "species": "Absol",
-            "level": "<not found>"
+            "species": "Absol-Mega",
+            "level": 100
           },
           {
             "species": "Mantine-Sevii",
@@ -18977,8 +18793,8 @@
             "level": 100
           },
           {
-            "species": "Kingler",
-            "level": "<not found>"
+            "species": "Kingler-Mega",
+            "level": 100
           },
           {
             "species": "Giratina-Origin",
@@ -19128,4 +18944,4 @@
       }
     ]
   }
-}
+}l
