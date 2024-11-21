@@ -1,3 +1,5 @@
+Area Details with Trainers' Pokémon
+
 {
   "0": {
     "name": "Pallet Town Player's House 1F",
@@ -33,13 +35,65 @@
     "levelCap": 16,
     "trainers": [
       {
-        "name": "Professor Oak"
+        "name": "Professor Oak",
+        "party": [
+          {
+            "species": "Tauros",
+            "level": 16
+          },
+          {
+            "species": "Exeggutor",
+            "level": 16
+          },
+          {
+            "species": "Charizard",
+            "level": 16
+          },
+          {
+            "species": "Gyarados",
+            "level": 16
+          },
+          {
+            "species": "Mew",
+            "level": 16
+          },
+          {
+            "species": "Jolteon",
+            "level": 16
+          }
+        ]
       },
       {
-        "name": "Professor Oak"
+        "name": "Professor Oak",
+        "party": [
+          {
+            "species": "Pidgeot",
+            "level": 16
+          },
+          {
+            "species": "Blastoise",
+            "level": 16
+          },
+          {
+            "species": "Flareon",
+            "level": 16
+          },
+          {
+            "species": "Zapdos",
+            "level": 16
+          },
+          {
+            "species": "Machamp",
+            "level": 16
+          },
+          {
+            "species": "Nidoking",
+            "level": 16
+          }
+        ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Squirtle",
@@ -48,7 +102,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Bulbasaur",
@@ -57,7 +111,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Charmander",
@@ -399,7 +453,33 @@
     "levelCap": 16,
     "trainers": [
       {
-        "name": "Friendly Teacher"
+        "name": "Friendly Teacher",
+        "party": [
+          {
+            "species": "Shedinja",
+            "level": 16
+          },
+          {
+            "species": "Shedinja",
+            "level": 16
+          },
+          {
+            "species": "Shedinja",
+            "level": 16
+          },
+          {
+            "species": "Shedinja",
+            "level": 16
+          },
+          {
+            "species": "Shedinja",
+            "level": 16
+          },
+          {
+            "species": "Shedinja",
+            "level": 16
+          }
+        ]
       }
     ]
   },
@@ -413,16 +493,80 @@
     "levelCap": 16,
     "trainers": [
       {
-        "name": "Fisherman Ronald"
+        "name": "Fisherman Ronald",
+        "party": [
+          {
+            "species": "Seaking",
+            "level": 16
+          },
+          {
+            "species": "Sharpedo",
+            "level": 16
+          },
+          {
+            "species": "Cloyster",
+            "level": 16
+          },
+          {
+            "species": "Shellder",
+            "level": 16
+          }
+        ]
       },
       {
-        "name": "Fisherman Wade"
+        "name": "Fisherman Wade",
+        "party": [
+          {
+            "species": "Magikarp",
+            "level": 16
+          },
+          {
+            "species": "Feebas",
+            "level": 16
+          },
+          {
+            "species": "Gyarados",
+            "level": 16
+          },
+          {
+            "species": "Milotic",
+            "level": 16
+          },
+          {
+            "species": "Alomomola",
+            "level": 16
+          },
+          {
+            "species": "Luvdisc",
+            "level": 16
+          }
+        ]
       },
       {
-        "name": "SwimmerM Spencer"
+        "name": "SwimmerM Spencer",
+        "party": [
+          {
+            "species": "Inteleon",
+            "level": 16
+          },
+          {
+            "species": "Tentacruel",
+            "level": 16
+          }
+        ]
       },
       {
-        "name": "Sis And Bro Lil & Ian"
+        "name": "Sis And Bro Lil & Ian",
+        "party": [
+          {
+            "species": "Crawdaunt",
+            "level": 16
+          },
+          {
+            "species": "Sharpedo",
+            "level": 16
+          }
+        ]
       }
     ],
     "encounters": [
@@ -511,7 +655,7 @@
     "levelCap": 16,
     "trainers": [
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Snubbull",
@@ -528,7 +672,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Snubbull",
@@ -545,7 +689,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Snubbull",
@@ -562,7 +706,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Zapdos",
@@ -591,7 +735,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Iron Hands",
@@ -620,7 +764,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Charizard",
@@ -2528,7 +2672,7 @@
     "levelCap": 23,
     "trainers": [
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Hitmonlee",
@@ -2557,7 +2701,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Hitmonchan",
@@ -2586,7 +2730,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Hitmontop",
@@ -8798,7 +8942,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Azelf",
@@ -8827,7 +8971,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Azelf",
@@ -8856,7 +9000,7 @@
         ]
       },
       {
-        "name": "Our Rival",
+        "name": "Rival Blue",
         "party": [
           {
             "species": "Azelf",
