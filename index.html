@@ -45,8 +45,7 @@
         </span>
         <div>
           <label for="progression-select" class="title-text">I am currently planning to battle: </label>
-          <select id="progression-select" style="width: 200px; margin: 10px 0;">
-          </select>
+          <select id="progression-select" style="width: 200px; margin: 10px 0;"></select>
         </div>
       </div>
       <hr />
@@ -837,79 +836,100 @@
     <div>
       <fieldset class="panel holder-0">
         <legend class="panel-heading panel-title">Damage Results</legend>
+        <div class="damage-filters" style="margin-bottom: 15px; display: flex; gap: 20px;">
+          <div class="damage-dealt-filter">
+            <label>Damage Dealt:</label>
+            <select id="damage-dealt-operator" class="form-control" style="display: inline-block; width: auto;">
+              <option value="gt">Greater than</option>
+              <option value="lt">Less than</option>
+            </select>
+            <input type="number" id="damage-dealt-value" class="form-control" style="display: inline-block; width: 100px;" placeholder="%" min="0" max="100">
+          </div>
+          <div class="damage-received-filter">
+            <label>Damage Received:</label>
+            <select id="damage-received-operator" class="form-control" style="display: inline-block; width: auto;">
+              <option value="gt">Greater than</option>
+              <option value="lt">Less than</option>
+            </select>
+            <input type="number" id="damage-received-value" class="form-control" style="display: inline-block; width: 100px;" placeholder="%" min="0" max="100">
+          </div>
+          <button id="apply-damage-filters" class="btn btn-primary">Apply Filters</button>
+          <button id="reset-damage-filters" class="btn btn-secondary">Reset Filters</button>
+        </div>
         <table class="hide display" id="holder-2">
-            <thead>
-                <tr>
-                    <th>Pokemon</th>
-                    <th>Enemy's Move</th>
-                    <th>Damage Received</th>
-                    <th>Our Move</th>
-                    <th>Damage Dealt</th>
-                </tr>
-            </thead>
+          <thead>
+            <tr>
+              <th>Pokemon</th>
+              <th>Enemy's Move</th>
+              <th>Damage Received</th>
+              <th>Our Move</th>
+              <th>Damage Dealt</th>
+            </tr>
+          </thead>
         </table>
-    </fieldset>
-    <script type="text/javascript">
-      var linkExtension = '.html';
-    </script>
-    <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/colvis/1.1.1/js/dataTables.colVis.min.js"></script>
-    <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
-    <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
-    <script type="text/javascript">
-      this.__createBinding = function(o, m, k, k2) {
-        if (k2 === undefined) k2 = k;
-        o[k2] = m[k];
-      };
-      var calc = exports = {};
+      </fieldset>
+      <script type="text/javascript">
+        var linkExtension = '.html';
+      </script>
+      <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/colvis/1.1.1/js/dataTables.colVis.min.js"></script>
+      <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
+      <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
+      <script type="text/javascript">
+        this.__createBinding = function(o, m, k, k2) {
+          if (k2 === undefined) k2 = k;
+          o[k2] = m[k];
+        };
+        var calc = exports = {};
 
-      function require() {
-        return exports;
-      };
-    </script>
-    <script type="text/javascript" src="./calc/util.js?8fa0c7ff"></script>
-    <script type="text/javascript" src="./calc/stats.js?9220179f"></script>
-    <script type="text/javascript" src="./calc/data/species.js?65e77276"></script>
-    <script type="text/javascript" src="./js/data/sets/hardcore.js"></script>
-    <script type="text/javascript" src="./calc/data/types.js?feda570f"></script>
-    <script type="text/javascript" src="./calc/data/natures.js?04f00dc5"></script>
-    <script type="text/javascript" src="./calc/data/abilities.js?3fed5409"></script>
-    <script type="text/javascript" src="./calc/data/moves.js?78e4d1d3"></script>
-    <script type="text/javascript" src="./calc/data/items.js?65549879"></script>
-    <script type="text/javascript" src="./calc/data/index.js?083d2bc9"></script>
-    <script type="text/javascript" src="./calc/move.js?48331ad1"></script>
-    <script type="text/javascript" src="./calc/pokemon.js?165ba7e1"></script>
-    <script type="text/javascript" src="./calc/field.js?2c7f95da"></script>
-    <script type="text/javascript" src="./calc/items.js?6c1bfef0"></script>
-    <script type="text/javascript" src="./calc/mechanics/util.js?9f493d40"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen789.js?e8d7e9a2"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen56.js?326e578d"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen4.js?a7626c4b"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen3.js?070ab0fe"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen12.js?5a38a633"></script>
-    <script type="text/javascript" src="./calc/calc.js?cd072314"></script>
-    <script type="text/javascript" src="./calc/desc.js?6c77b788"></script>
-    <script type="text/javascript" src="./calc/result.js?d5c7552b"></script>
-    <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
-    <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?36247167"></script>
-    <script type="text/javascript" src="./js/honkalculate_controls.js?23c996e5"></script>
-  <!----  <script type="text/javascript" src="./js/custom.js"></script> -->
-    <div class="footer"> Created by Honko, maintained by Austin and Kris <ul>
-        <li>
-          <a href="https://github.com/smogon/damage-calc/contributors" class="links-lighten" target="_blank">Contributors</a>
-        </li>
-        <li>
-          <a href="https://www.smogon.com/forums/threads/pok%C3%A9mon-showdown-damage-calculator.3593546/" class="links-lighten" target="_blank">Bug Reports</a>
-        </li>
-        <li>
-          <a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">GitHub repository</a>
-        </li>
-      </ul>
-      <button type="button" id="dark-theme-toggle"></button>
-      <script type="text/javascript" src="./js/dark-theme-toggle.js?b0454081"></script>
-    </div>
+        function require() {
+          return exports;
+        };
+      </script>
+      <script type="text/javascript" src="./calc/util.js?8fa0c7ff"></script>
+      <script type="text/javascript" src="./calc/stats.js?9220179f"></script>
+      <script type="text/javascript" src="./calc/data/species.js?65e77276"></script>
+      <script type="text/javascript" src="./js/data/sets/hardcore.js"></script>
+      <script type="text/javascript" src="./calc/data/types.js?feda570f"></script>
+      <script type="text/javascript" src="./calc/data/natures.js?04f00dc5"></script>
+      <script type="text/javascript" src="./calc/data/abilities.js?3fed5409"></script>
+      <script type="text/javascript" src="./calc/data/moves.js?78e4d1d3"></script>
+      <script type="text/javascript" src="./calc/data/items.js?65549879"></script>
+      <script type="text/javascript" src="./calc/data/index.js?083d2bc9"></script>
+      <script type="text/javascript" src="./calc/move.js?48331ad1"></script>
+      <script type="text/javascript" src="./calc/pokemon.js?165ba7e1"></script>
+      <script type="text/javascript" src="./calc/field.js?2c7f95da"></script>
+      <script type="text/javascript" src="./calc/items.js?6c1bfef0"></script>
+      <script type="text/javascript" src="./calc/mechanics/util.js?9f493d40"></script>
+      <script type="text/javascript" src="./calc/mechanics/gen789.js?e8d7e9a2"></script>
+      <script type="text/javascript" src="./calc/mechanics/gen56.js?326e578d"></script>
+      <script type="text/javascript" src="./calc/mechanics/gen4.js?a7626c4b"></script>
+      <script type="text/javascript" src="./calc/mechanics/gen3.js?070ab0fe"></script>
+      <script type="text/javascript" src="./calc/mechanics/gen12.js?5a38a633"></script>
+      <script type="text/javascript" src="./calc/calc.js?cd072314"></script>
+      <script type="text/javascript" src="./calc/desc.js?6c77b788"></script>
+      <script type="text/javascript" src="./calc/result.js?d5c7552b"></script>
+      <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
+      <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
+      <script type="text/javascript" src="./js/shared_controls.js?36247167"></script>
+      <script type="text/javascript" src="./js/honkalculate_controls.js?23c996e5"></script>
+      <script src="js/damage-filters.js"></script>
+      <!----  <script type="text/javascript" src="./js/custom.js"></script> -->
+      <div class="footer"> Created by Honko, maintained by Austin and Kris <ul>
+          <li>
+            <a href="https://github.com/smogon/damage-calc/contributors" class="links-lighten" target="_blank">Contributors</a>
+          </li>
+          <li>
+            <a href="https://www.smogon.com/forums/threads/pok%C3%A9mon-showdown-damage-calculator.3593546/" class="links-lighten" target="_blank">Bug Reports</a>
+          </li>
+          <li>
+            <a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">GitHub repository</a>
+          </li>
+        </ul>
+        <button type="button" id="dark-theme-toggle"></button>
+        <script type="text/javascript" src="./js/dark-theme-toggle.js?b0454081"></script>
+      </div>
   </body>
 </html>
