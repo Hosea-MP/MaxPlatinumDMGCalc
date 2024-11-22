@@ -836,25 +836,39 @@
     <div>
       <fieldset class="panel holder-0">
         <legend class="panel-heading panel-title">Damage Results</legend>
-        <div class="damage-filters" style="margin-bottom: 15px; display: flex; gap: 20px;">
-          <div class="damage-dealt-filter">
-            <label>Damage Dealt:</label>
-            <select id="damage-dealt-operator" class="form-control" style="display: inline-block; width: auto;">
-              <option value="gt">Greater than</option>
-              <option value="lt">Less than</option>
-            </select>
-            <input type="number" id="damage-dealt-value" class="form-control" style="display: inline-block; width: 100px;" placeholder="%" min="0" max="100">
+        <div class="damage-filters-container">
+          <div class="damage-filters-grid">
+            <div class="filter-row">
+              <div class="filter-group">
+                <label>Damage Dealt:</label>
+                <div class="filter-inputs">
+                  <select id="damage-dealt-operator" class="form-control">
+                    <option value="gt">Greater than</option>
+                    <option value="lt">Less than</option>
+                  </select>
+                  <input type="number" id="damage-dealt-value" class="form-control" placeholder="%" min="0" max="100">
+                </div>
+              </div>
+              <div class="filter-action">
+                <button id="apply-damage-filters" class="btn btn-primary">Apply Filters</button>
+              </div>
+            </div>
+            <div class="filter-row">
+              <div class="filter-group">
+                <label>Damage Received:</label>
+                <div class="filter-inputs">
+                  <select id="damage-received-operator" class="form-control">
+                    <option value="gt">Greater than</option>
+                    <option value="lt">Less than</option>
+                  </select>
+                  <input type="number" id="damage-received-value" class="form-control" placeholder="%" min="0" max="100">
+                </div>
+              </div>
+              <div class="filter-action">
+                <button id="reset-damage-filters" class="btn btn-secondary">Reset Filters</button>
+              </div>
+            </div>
           </div>
-          <div class="damage-received-filter">
-            <label>Damage Received:</label>
-            <select id="damage-received-operator" class="form-control" style="display: inline-block; width: auto;">
-              <option value="gt">Greater than</option>
-              <option value="lt">Less than</option>
-            </select>
-            <input type="number" id="damage-received-value" class="form-control" style="display: inline-block; width: 100px;" placeholder="%" min="0" max="100">
-          </div>
-          <button id="apply-damage-filters" class="btn btn-primary">Apply Filters</button>
-          <button id="reset-damage-filters" class="btn btn-secondary">Reset Filters</button>
         </div>
         <table class="hide display" id="holder-2">
           <thead>

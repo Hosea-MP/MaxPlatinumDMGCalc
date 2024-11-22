@@ -747,3 +747,59 @@ a img {
 #holder-2 td {
     vertical-align: middle;
 }
+
+.damage-filters-container {
+    margin: 20px auto;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.damage-filters-grid {
+    display: grid;
+    gap: 15px;
+    width: fit-content;
+}
+
+.filter-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-items: end;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filter-group label {
+    font-weight: 600;
+    margin: 0;
+}
+
+.filter-inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter-inputs select.form-control {
+    width: auto;
+    min-width: 120px;
+}
+
+.filter-inputs input.form-control {
+    width: 80px;
+}
+
+.filter-action {
+    display: flex;
+    align-items: flex-end;
+}
+
+.filter-action button {
+    min-width: 100px;
+    height: 34px;
+}
+
