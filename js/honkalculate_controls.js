@@ -79,8 +79,8 @@ function getMovesForType(type) {
 	return Object.entries(moves)
 		.filter(([name, move]) => {
 			return move.type === type &&
-				move.bp >= 30 &&
-				move.bp <= 100 &&
+				move.bp >= 70 &&
+				move.bp <= 70 &&
 				move.category !== 'Status';
 		})
 		.map(([name]) => name);
