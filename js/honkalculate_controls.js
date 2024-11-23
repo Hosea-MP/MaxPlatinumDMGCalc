@@ -60,7 +60,7 @@ $.fn.dataTableExt.oSort['damage48-desc'] = function(a, b) {
 
 async function loadProgressionPoints() {
 	try {
-		const response = await fetch('potential_encounters.json');
+		const response = await fetch('encounters.json');
 		const data = await response.json();
 		const select = document.getElementById('progression-select');
 
