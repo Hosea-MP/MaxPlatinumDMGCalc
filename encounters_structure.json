@@ -1,0 +1,73 @@
+{
+    "0": {
+      "name": "",
+      "levelCap": "",
+      "trainers": []
+    },
+    "1": {
+      "name": "",
+      "levelCap": "",
+      "trainers": [],
+      "encounters": [
+        {
+          "species": "",
+          "minLevel": "",
+          "maxLevel": "",
+          "method": ""
+        }
+      ]
+    },
+    "2": {
+      "name": "",
+      "levelCap": "",
+      "trainers": []
+    },
+    "3": {
+      "name": "",
+      "levelCap": "",
+      "trainers": [
+        {
+          "name": "",
+          "party": [
+            {
+              "species": "",
+              "level": ""
+            }
+          ]
+        }
+      ],
+      "encounters": [
+        {
+          "species": "",
+          "method": ""
+        }
+      ]
+    },
+    "4": {
+      "name": "",
+      "levelCap": "",
+      "trainers": [],
+      "encounters": [
+        {
+          "species": "",
+          "minLevel": "",
+          "maxLevel": "",
+          "method": ""
+        }
+      ]
+    },
+    "5": {
+      "name": "",
+      "levelCap": "",
+      "trainers": [],
+      "encounters": [
+        {
+          "species": "",
+          "minLevel": "",
+          "maxLevel": "",
+          "method": ""
+        }
+      ]
+    }
+  }
+  
